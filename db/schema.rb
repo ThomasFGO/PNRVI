@@ -10,9 +10,62 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2018_09_25_144616) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "blocs", force: :cascade do |t|
+    t.string "fr_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "energy_types", force: :cascade do |t|
+    t.string "fr_name"
+    t.string "us_name"
+    t.string "symbol_url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "lists", force: :cascade do |t|
+    t.string "fr_name"
+    t.string "us_name"
+    t.string "fr_release_date"
+    t.string "us_release_date"
+    t.string "size"
+    t.string "fr_logo_url"
+    t.string "us_logo_url"
+    t.string "symbol_url"
+    t.bigint "bloc_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["bloc_id"], name: "index_lists_on_bloc_id"
+  end
+
+  create_table "ref_cards", force: :cascade do |t|
+    t.string "number"
+    t.string "rarety_type"
+    t.string "ultra_type"
+    t.string "fr_name"
+    t.string "us_name"
+    t.string "super_type"
+    t.bigint "energy_type_id"
+    t.string "pokedex_number"
+    t.string "artist"
+    t.string "fr_url"
+    t.string "fr_r_url"
+    t.string "us_url"
+    t.string "us_r_url"
+    t.bigint "list_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["energy_type_id"], name: "index_ref_cards_on_energy_type_id"
+    t.index ["list_id"], name: "index_ref_cards_on_list_id"
+  end
+
+  add_foreign_key "lists", "blocs"
+  add_foreign_key "ref_cards", "energy_types"
+  add_foreign_key "ref_cards", "lists"
 end

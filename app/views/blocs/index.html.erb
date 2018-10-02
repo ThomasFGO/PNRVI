@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Blocs</h1>
+    <% @blocs.each do |bloc| %>
+      <div>
+        <h3><%= bloc.fr_name %></h3>
+        <ul>
+          <% bloc.lists.each do |list| %>
+            <li><%= link_to list.fr_name, list_path(list)%> / <%= list.size %> <%= image_tag(list.symbol_url, height: '20')%></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+</div>
