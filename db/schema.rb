@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_25_144616) do
+ActiveRecord::Schema.define(version: 2018_10_02_132706) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -52,7 +52,7 @@ ActiveRecord::Schema.define(version: 2018_09_25_144616) do
     t.string "us_name"
     t.string "super_type"
     t.bigint "energy_type_id"
-    t.string "pokedex_number"
+    t.integer "pokedex_number"
     t.string "artist"
     t.string "fr_url"
     t.string "fr_r_url"
