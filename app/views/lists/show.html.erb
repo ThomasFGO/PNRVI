@@ -3,13 +3,15 @@
   <%= image_tag(@list.fr_logo_url, width: '250') %>
   <p>Sortie aux États-Unis le <%= @list.us_release_date %></p>
   <p>Cette série contient <%= @list.size %> cartes</p>
-  <% @list.ref_cards.where(super_type: "Pokémon").order("pokedex_number asc").each do |ref_card| %>
+  <% @list.ref_cards.order("id asc").each do |ref_card| %>
     <%= link_to ref_card_path(ref_card) do %>
-      <%= image_tag(ref_card.fr_url, width: '150')%>
+      <% if ref_card.fr_url.nil? %>
+        <%= image_tag(ref_card.fr_r_url, width: '150') %>
+      <% else %>
+        <%= image_tag(ref_card.fr_url, width: '150')%>
+      <% end %>
     <% end  %>
-    <%= ref_card.pokedex_number %>
   <% end  %>
 </div>
-
 
 

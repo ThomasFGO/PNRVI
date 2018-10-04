@@ -1,0 +1,11 @@
+<div class="container">
+  <% @ref_cards.shuffle.each do |ref_card| %>
+    <%= link_to ref_card_path(ref_card) do %>
+      <% if ref_card.fr_url.nil? %>
+        <%= image_tag(ref_card.fr_r_url, width: '150') %>
+      <% else %>
+        <%= image_tag(ref_card.fr_url, width: '150')%>
+      <% end %>
+    <% end  %>
+  <% end  %>
+</div>

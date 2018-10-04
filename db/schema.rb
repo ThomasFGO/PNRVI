@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_02_132706) do
+ActiveRecord::Schema.define(version: 2018_10_04_142545) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,6 +19,16 @@ ActiveRecord::Schema.define(version: 2018_10_02_132706) do
     t.string "fr_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "collection_cards", force: :cascade do |t|
+    t.bigint "ref_card_id"
+    t.boolean "reved"
+    t.integer "condition"
+    t.string "language"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["ref_card_id"], name: "index_collection_cards_on_ref_card_id"
   end
 
   create_table "energy_types", force: :cascade do |t|
@@ -65,6 +75,7 @@ ActiveRecord::Schema.define(version: 2018_10_02_132706) do
     t.index ["list_id"], name: "index_ref_cards_on_list_id"
   end
 
+  add_foreign_key "collection_cards", "ref_cards"
   add_foreign_key "lists", "blocs"
   add_foreign_key "ref_cards", "energy_types"
   add_foreign_key "ref_cards", "lists"
