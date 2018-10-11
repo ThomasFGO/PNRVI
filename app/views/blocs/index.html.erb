@@ -1,11 +1,15 @@
 <div class="container">
-  <h1>Blocs</h1>
+  <div>
+    <h1>Blocs</h1>
+  </div>
     <% @blocs.each do |bloc| %>
-      <div>
-        <h3><%= bloc.fr_name %></h3>
-        <ul>
+      <div class="card">
+        <div class="card-header"><%= bloc.fr_name %></div>
+        <ul class="list-group list-group-flush">
           <% bloc.lists.each do |list| %>
-            <li><%= link_to list.fr_name, list_path(list)%> / <%= list.size %> <%= image_tag(list.symbol_url, height: '20')%></li>
+            <li class="list-group-item">
+              <%= link_to list.fr_name, list_path(list)%> / <%= list.size %> <%= image_tag(list.symbol_url, height: '17')%>
+            </li>
           <% end %>
         </ul>
       </div>

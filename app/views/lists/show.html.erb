@@ -1,17 +1,36 @@
 <div class="container">
-  <h2><%= @list.fr_name %> <%= image_tag(@list.symbol_url, height: '30')%></h2>
-  <%= image_tag(@list.fr_logo_url, width: '250') %>
-  <p>Sortie aux États-Unis le <%= @list.us_release_date %></p>
-  <p>Cette série contient <%= @list.size %> cartes</p>
-  <% @list.ref_cards.order("id asc").each do |ref_card| %>
-    <%= link_to ref_card_path(ref_card) do %>
-      <% if ref_card.fr_url.nil? %>
-        <%= image_tag(ref_card.fr_r_url, width: '150') %>
-      <% else %>
-        <%= image_tag(ref_card.fr_url, width: '150')%>
-      <% end %>
-    <% end  %>
-  <% end  %>
+
+
+  <div class="card-header-list">
+    <h2><%= @list.fr_name %> <%= image_tag(@list.symbol_url, height: '30')%></h2>
+    <%= image_tag(@list.fr_logo_url, width: '250') %>
+    <p>Sortie aux États-Unis le <%= @list.us_release_date %></p>
+    <p>Cette série contient <%= @list.size %> cartes + <%=  @list.ref_cards.where(rarety_type: "Secret").count %> secrêtes</p>
+
+  </div>
+
+  <div class="cards-container">
+    <div class="row"></div>
+
+        <% @list.ref_cards.order("id asc").each do |ref_card| %>
+          <div class="col-md-2">
+            <div class="card-ref">
+              <%= link_to ref_card_path(ref_card) do %>
+                <% if ref_card.fr_url.nil? %>
+                 <%= image_tag(ref_card.fr_r_url, width: '130') %>
+                <% else %>
+                  <%= image_tag(ref_card.fr_url, width: '130') %>
+                <% end %>
+              <% end  %>
+
+            </div>
+          </div>
+        <% end  %>
+
+    </div>
+  </div>
+
+
 </div>
 
 

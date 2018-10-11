@@ -1,7 +1,8 @@
 <div class="container">
-  <nav class="navbar navbar-dark">
-    <%= "Pok'n'Roll" %> /
-    <%= link_to "Index", blocs_path%> /
-    <%= link_to "Rechercher", ref_cards_path%>
+  <nav class="navbar">
+    <%= link_to "Pok'n'Roll", blocs_path, class: "navbar-item" %>
+    <%= link_to "Index", blocs_path, class: "navbar-item" %>
+    <%= link_to "Rechercher", ref_cards_path, class: "navbar-item"%>
   </nav>
 </div>
+

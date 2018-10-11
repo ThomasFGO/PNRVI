@@ -1,2 +1,11 @@
 <h1>CollectionCards#new</h1>
-<p>Find me in app/views/collection_cards/new.html.erb</p>
+
+<p><%= @ref_card.fr_name %></p>
+
+
+<%= simple_form_for [@ref_card, @collection_card] do |f| %>
+  <%= f.input :reved %>
+  <%= f.input :condition %>
+  <%= f.input :language %>
+  <%= f.submit "add to my collection", class: "btn btn-primary" %>
+<% end %>

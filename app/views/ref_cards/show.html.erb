@@ -2,4 +2,5 @@
   <h4><%= @ref_card.fr_name %></h4>
   <p>Numéro Pokédex : <%= @ref_card.pokedex_number unless @ref_card.pokedex_number.nil? %></p>
   <%= image_tag(@ref_card.fr_url, height: '350')%>
+  <%= link_to "Ajouter", new_ref_card_collection_card_path(@ref_card)%>
 </div>

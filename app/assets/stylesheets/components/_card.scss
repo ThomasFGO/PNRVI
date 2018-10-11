@@ -1,0 +1,31 @@
+.card {
+  width: 350px;
+}
+
+.card-header {
+  text-align: center;
+  color: $yellow;
+}
+
+.card-header-list {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 50px;
+  margin-bottom: 5px;
+}
+
+.card-ref {
+  //border: 2px solid white;
+  height: 200px;
+  width: 140px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.col-md-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
