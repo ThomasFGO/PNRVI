@@ -10,8 +10,9 @@ class CollectionCardsController < ApplicationController
 
   def create
     @collection_card = CollectionCard.new(collection_card_params)
-    @collection_card.ref_card = RefCard.find(params[:id])
+    @collection_card.ref_card = RefCard.find(params[:ref_card_id])
     @collection_card.save
+    redirect_to collection_cards_path
   end
 
   def delete

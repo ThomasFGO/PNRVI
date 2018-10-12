@@ -1,11 +1,10 @@
-<h1>CollectionCards#new</h1>
+<div class="container">
+  <h1>Ajouter <%= @ref_card.fr_name %></h1>
 
-<p><%= @ref_card.fr_name %></p>
-
-
-<%= simple_form_for [@ref_card, @collection_card] do |f| %>
-  <%= f.input :reved %>
-  <%= f.input :condition %>
-  <%= f.input :language %>
-  <%= f.submit "add to my collection", class: "btn btn-primary" %>
-<% end %>
+  <%= simple_form_for [@ref_card, @collection_card] do |f| %>
+    <%= f.input :reved %>
+    <%= f.input :condition %>
+    <%= f.input :language %>
+    <%= f.submit "add to my collection", class: "btn btn-primary" %>
+  <% end %>
+</div>
