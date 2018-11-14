@@ -1,21 +1,19 @@
 <div class="container">
   <div class="collection-header">
-  <h1>Ma collection</h1>
-  <p>Nombre total de cartes : <%= @collection_cards.count %> cartes</p>
+  <h3>Nombre total de cartes : <%= @collection_cards.count %> cartes</h3>
+  <p>Dernières cartes ajoutées :</p>
   </div>
 
   <div class="collections-cards">
 
-      <% @lists.each do |list| %>
-
-          <% if list.collection_cards.count > 0 %>
-            <div class="collection-item">
-              <%= list.fr_name %>
-              <%= image_tag(list.symbol_url, height: '20')%>
-              <%= list.collection_cards.count %> cartes
-            </div>
-          <% end  %>
-
+      <% @collection_cards.order("created_at desc").each do |collection_card| %>
+        <% if collection_card.ref_card.fr_url.present? %>
+          <%= image_tag(collection_card.ref_card.fr_url, width: '130', class: "pokemon-card-mini") %>
+        <% elsif collection_card.ref_card.fr_r_url.present? %>
+          <%= image_tag(collection_card.ref_card.fr_r_url, width: '130', class: "pokemon-card-mini") %>
+        <% else %>
+          <%= image_tag(collection_card.ref_card.us_url, width: '130', class: "pokemon-card-mini") %>
+        <% end %>
       <% end %>
 
   </div>

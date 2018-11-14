@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_04_142545) do
+ActiveRecord::Schema.define(version: 2018_11_14_142330) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -75,8 +75,19 @@ ActiveRecord::Schema.define(version: 2018_10_04_142545) do
     t.index ["list_id"], name: "index_ref_cards_on_list_id"
   end
 
+  create_table "search_cards", force: :cascade do |t|
+    t.bigint "ref_card_id"
+    t.boolean "reved"
+    t.integer "condition"
+    t.string "language"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["ref_card_id"], name: "index_search_cards_on_ref_card_id"
+  end
+
   add_foreign_key "collection_cards", "ref_cards"
   add_foreign_key "lists", "blocs"
   add_foreign_key "ref_cards", "energy_types"
   add_foreign_key "ref_cards", "lists"
+  add_foreign_key "search_cards", "ref_cards"
 end
