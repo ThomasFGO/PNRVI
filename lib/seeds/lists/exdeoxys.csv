@@ -1,0 +1,109 @@
+number;rarety_type;ultra_type;fr_name;us_name;super_type;energy_type;pokedex_number;artist;fr_url;fr_r_url;us_url;us_r_url;list
+1;Rare Holo;;Altaria;Altaria;Pokémon;Colorless;334;Kyoko Umemoto;;;https://images.pokemontcg.io/ex8/1.png;;Deoxys
+2;Rare Holo;;Charmillon;Beautifly;Pokémon;Grass;267;Kagemaru Himeno;;;https://images.pokemontcg.io/ex8/2.png;;Deoxys
+3;Rare Holo;;Chapignon;Breloom;Pokémon;Fighting;286;Hajime Kusajima;;;https://images.pokemontcg.io/ex8/3.png;;Deoxys
+4;Rare Holo;;Camerupt;Camerupt;Pokémon;Fire;323;Tomokazu Komiya;;;https://images.pokemontcg.io/ex8/4.png;;Deoxys
+5;Rare Holo;;Kaorine;Claydol;Pokémon;Fighting;344;Hajime Kusajima;;;https://images.pokemontcg.io/ex8/5.png;;Deoxys
+6;Rare Holo;;Colhomard;Crawdaunt;Pokémon;Darkness;342;Tomoko Wakai;;;https://images.pokemontcg.io/ex8/6.png;;Deoxys
+7;Rare Holo;;Teraclope;Dusclops;Pokémon;Psychic;356;Tomoko Wakai;;;https://images.pokemontcg.io/ex8/7.png;;Deoxys
+8;Rare Holo;;Léviator;Gyarados;Pokémon;Water;130;Hisao Nakamura;;;https://images.pokemontcg.io/ex8/8.png;;Deoxys
+9;Rare Holo;;Jirachi;Jirachi;Pokémon;Metal;385;Sumiyoshi Kizuki;;;https://images.pokemontcg.io/ex8/9.png;;Deoxys
+10;Rare Holo;;Ludicolo;Ludicolo;Pokémon;Water;272;Atsuko Nishida;;;https://images.pokemontcg.io/ex8/10.png;;Deoxys
+11;Rare Holo;;Metalosse;Metagross;Pokémon;Psychic;376;Hisao Nakamura;;;https://images.pokemontcg.io/ex8/11.png;;Deoxys
+12;Rare Holo;;Grahyena;Mightyena;Pokémon;Darkness;262;Naoyo Kimura;;;https://images.pokemontcg.io/ex8/12.png;;Deoxys
+13;Rare Holo;;Ninjask;Ninjask;Pokémon;Grass;291;Katsura Tabata;;;https://images.pokemontcg.io/ex8/13.png;;Deoxys
+14;Rare Holo;;Munja;Shedinja;Pokémon;Psychic;292;Yukiko Baba;;;https://images.pokemontcg.io/ex8/14.png;;Deoxys
+15;Rare Holo;;Monaflemit;Slaking;Pokémon;Colorless;289;Mitsuhiro Arita;;;https://images.pokemontcg.io/ex8/15.png;;Deoxys
+16;Rare;;Deoxys;Deoxys;Pokémon;Psychic;386;Hironobu Yoshida;;;https://images.pokemontcg.io/ex8/16.png;;Deoxys
+17;Rare;;Deoxys;Deoxys;Pokémon;Psychic;386;Hironobu Yoshida;;;https://images.pokemontcg.io/ex8/17.png;;Deoxys
+18;Rare;;Deoxys;Deoxys;Pokémon;Psychic;386;Hironobu Yoshida;;;https://images.pokemontcg.io/ex8/18.png;;Deoxys
+19;Rare;;Ludicolo;Ludicolo;Pokémon;Water;272;Ken Sugimori;;;https://images.pokemontcg.io/ex8/19.png;;Deoxys
+20;Rare;;Volcaropod;Magcargo;Pokémon;Fire;219;Midori Harada;;;https://images.pokemontcg.io/ex8/20.png;;Deoxys
+21;Rare;;Bekipan;Pelipper;Pokémon;Water;279;Tomokazu Komiya;;;https://images.pokemontcg.io/ex8/21.png;;Deoxys
+22;Rare;;Rayquaza;Rayquaza;Pokémon;Colorless;384;Hiromichi Sugiyama;;;https://images.pokemontcg.io/ex8/22.png;;Deoxys
+23;Rare;;Ténéfix;Sableye;Pokémon;Darkness;302;Aya Kusube;;;https://images.pokemontcg.io/ex8/23.png;;Deoxys
+24;Rare;;Poissoroy;Seaking;Pokémon;Water;119;Atsuko Nishida;;;https://images.pokemontcg.io/ex8/24.png;;Deoxys
+25;Rare;;Tengalice;Shiftry;Pokémon;Grass;275;Kouki Saitou;;;https://images.pokemontcg.io/ex8/25.png;;Deoxys
+26;Rare;;Airmure;Skarmory;Pokémon;Metal;227;Kouki Saitou;;;https://images.pokemontcg.io/ex8/26.png;;Deoxys
+27;Rare;;Tropius;Tropius;Pokémon;Grass;357;Miki Tanaka;;;https://images.pokemontcg.io/ex8/27.png;;Deoxys
+28;Rare;;Barbicha;Whiscash;Pokémon;Fighting;340;Miki Tanaka;;;https://images.pokemontcg.io/ex8/28.png;;Deoxys
+29;Rare;;Xatu;Xatu;Pokémon;Psychic;178;Yuka Morii;;;https://images.pokemontcg.io/ex8/29.png;;Deoxys
+30;Uncommon;;Donphan;Donphan;Pokémon;Fighting;232;Yuka Morii;;;https://images.pokemontcg.io/ex8/30.png;;Deoxys
+31;Uncommon;;Nosféralto;Golbat;Pokémon;Grass;42;Sachiko Adachi;;;https://images.pokemontcg.io/ex8/31.png;;Deoxys
+32;Uncommon;;Groret;Grumpig;Pokémon;Psychic;326;Ken Sugimori;;;https://images.pokemontcg.io/ex8/32.png;;Deoxys
+33;Uncommon;;Lombre;Lombre;Pokémon;Water;271;Atsuko Nishida;;;https://images.pokemontcg.io/ex8/33.png;;Deoxys
+34;Uncommon;;Lombre;Lombre;Pokémon;Water;271;Ken Sugimori;;;https://images.pokemontcg.io/ex8/34.png;;Deoxys
+35;Uncommon;;Nenupiot;Lotad;Pokémon;Water;270;Atsuko Nishida;;;https://images.pokemontcg.io/ex8/35.png;;Deoxys
+36;Uncommon;;Séléroc;Lunatone;Pokémon;Fighting;337;Kyoko Umemoto;;;https://images.pokemontcg.io/ex8/36.png;;Deoxys
+37;Uncommon;;Volcaropod;Magcargo;Pokémon;Fire;219;Aya Kusube;;;https://images.pokemontcg.io/ex8/37.png;;Deoxys
+38;Uncommon;;Elecsprint;Manectric;Pokémon;Lightning;310;Hajime Kusajima;;;https://images.pokemontcg.io/ex8/38.png;;Deoxys
+39;Uncommon;;Maskadra;Masquerain;Pokémon;Grass;284;Mitsuhiro Arita;;;https://images.pokemontcg.io/ex8/39.png;;Deoxys
+40;Uncommon;;Metang;Metang;Pokémon;Psychic;375;Hisao Nakamura;;;https://images.pokemontcg.io/ex8/40.png;;Deoxys
+41;Uncommon;;Negapi;Minun;Pokémon;Lightning;312;Hajime Kusajima;;;https://images.pokemontcg.io/ex8/41.png;;Deoxys
+42;Uncommon;;Tarinor;Nosepass;Pokémon;Fighting;299;Sumiyoshi Kizuki;;;https://images.pokemontcg.io/ex8/42.png;;Deoxys
+43;Uncommon;;Pifeuil;Nuzleaf;Pokémon;Grass;274;Kouki Saitou;;;https://images.pokemontcg.io/ex8/43.png;;Deoxys
+44;Uncommon;;Posipi;Plusle;Pokémon;Lightning;311;Hajime Kusajima;;;https://images.pokemontcg.io/ex8/44.png;;Deoxys
+45;Uncommon;;Drackhaus;Shelgon;Pokémon;Colorless;372;Aya Kusube;;;https://images.pokemontcg.io/ex8/45.png;;Deoxys
+46;Uncommon;;Armulys;Silcoon;Pokémon;Grass;266;Kagemaru Himeno;;;https://images.pokemontcg.io/ex8/46.png;;Deoxys
+47;Uncommon;;Solaroc;Solrock;Pokémon;Psychic;338;Kyoko Umemoto;;;https://images.pokemontcg.io/ex8/47.png;;Deoxys
+48;Uncommon;;Staross;Starmie;Pokémon;Water;121;Yukiko Baba;;;https://images.pokemontcg.io/ex8/48.png;;Deoxys
+49;Uncommon;;Hélédelle;Swellow;Pokémon;Colorless;277;Midori Harada;;;https://images.pokemontcg.io/ex8/49.png;;Deoxys
+50;Uncommon;;Vigoroth;Vigoroth;Pokémon;Colorless;288;Mitsuhiro Arita;;;https://images.pokemontcg.io/ex8/50.png;;Deoxys
+51;Uncommon;;Smogogo;Weezing;Pokémon;Grass;110;Hisao Nakamura;;;https://images.pokemontcg.io/ex8/51.png;;Deoxys
+52;Common;;Draby;Bagon;Pokémon;Colorless;371;Takao Unno;;;https://images.pokemontcg.io/ex8/52.png;;Deoxys
+53;Common;;Balbuto;Baltoy;Pokémon;Fighting;343;Kenkichi Toyama;;;https://images.pokemontcg.io/ex8/53.png;;Deoxys
+54;Common;;Barloche;Barboach;Pokémon;Water;339;Miki Tanaka;;;https://images.pokemontcg.io/ex8/54.png;;Deoxys
+55;Common;;Terhal;Beldum;Pokémon;Psychic;374;Hisao Nakamura;;;https://images.pokemontcg.io/ex8/55.png;;Deoxys
+56;Common;;Carvanha;Carvanha;Pokémon;Darkness;318;Tomokazu Komiya;;;https://images.pokemontcg.io/ex8/56.png;;Deoxys
+57;Common;;Ecrapince;Corphish;Pokémon;Water;341;Takao Unno;;;https://images.pokemontcg.io/ex8/57.png;;Deoxys
+58;Common;;Skelenox;Duskull;Pokémon;Psychic;355;Tomoko Wakai;;;https://images.pokemontcg.io/ex8/58.png;;Deoxys
+59;Common;;Dynavolt;Electrike;Pokémon;Lightning;309;Naoyo Kimura;;;https://images.pokemontcg.io/ex8/59.png;;Deoxys
+60;Common;;Dynavolt;Electrike;Pokémon;Lightning;309;Hiroki Fuchino;;;https://images.pokemontcg.io/ex8/60.png;;Deoxys
+61;Common;;Poissirène;Goldeen;Pokémon;Water;118;Atsuko Nishida;;;https://images.pokemontcg.io/ex8/61.png;;Deoxys
+62;Common;;Smogo;Koffing;Pokémon;Grass;109;Hisao Nakamura;;;https://images.pokemontcg.io/ex8/62.png;;Deoxys
+63;Common;;Nenupiot;Lotad;Pokémon;Water;270;Ken Sugimori;;;https://images.pokemontcg.io/ex8/63.png;;Deoxys
+64;Common;;Magicarpe;Magikarp;Pokémon;Water;129;Hisao Nakamura;;;https://images.pokemontcg.io/ex8/64.png;;Deoxys
+65;Common;;Makuhita;Makuhita;Pokémon;Fighting;296;Asuka Iwashita;;;https://images.pokemontcg.io/ex8/65.png;;Deoxys
+66;Common;;Natu;Natu;Pokémon;Psychic;177;Yuka Morii;;;https://images.pokemontcg.io/ex8/66.png;;Deoxys
+67;Common;;Ningale;Nincada;Pokémon;Grass;290;Yukiko Baba;;;https://images.pokemontcg.io/ex8/67.png;;Deoxys
+68;Common;;Chamallot;Numel;Pokémon;Fire;322;Tomokazu Komiya;;;https://images.pokemontcg.io/ex8/68.png;;Deoxys
+69;Common;;Phanpy;Phanpy;Pokémon;Fighting;231;Yuka Morii;;;https://images.pokemontcg.io/ex8/69.png;;Deoxys
+70;Common;;Medhyena;Poochyena;Pokémon;Darkness;261;Aimi Tomita;;;https://images.pokemontcg.io/ex8/70.png;;Deoxys
+71;Common;;Grainipiot;Seedot;Pokémon;Grass;273;Kouki Saitou;;;https://images.pokemontcg.io/ex8/71.png;;Deoxys
+72;Common;;Balignon;Shroomish;Pokémon;Grass;285;Kanako Eo;;;https://images.pokemontcg.io/ex8/72.png;;Deoxys
+73;Common;;Parecool;Slakoth;Pokémon;Colorless;287;Takao Unno;;;https://images.pokemontcg.io/ex8/73.png;;Deoxys
+74;Common;;Limagma;Slugma;Pokémon;Fire;218;Aya Kusube;;;https://images.pokemontcg.io/ex8/74.png;;Deoxys
+75;Common;;Limagma;Slugma;Pokémon;Fire;218;Midori Harada;;;https://images.pokemontcg.io/ex8/75.png;;Deoxys
+76;Common;;Spoink;Spoink;Pokémon;Psychic;325;Ken Sugimori;;;https://images.pokemontcg.io/ex8/76.png;;Deoxys
+77;Common;;Stari;Staryu;Pokémon;Water;120;Yukiko Baba;;;https://images.pokemontcg.io/ex8/77.png;;Deoxys
+78;Common;;Arakdo;Surskit;Pokémon;Grass;283;Mitsuhiro Arita;;;https://images.pokemontcg.io/ex8/78.png;;Deoxys
+79;Common;;Tylton;Swablu;Pokémon;Colorless;333;Kyoko Umemoto;;;https://images.pokemontcg.io/ex8/79.png;;Deoxys
+80;Common;;Nirondelle;Taillow;Pokémon;Colorless;276;Midori Harada;;;https://images.pokemontcg.io/ex8/80.png;;Deoxys
+81;Common;;Goelise;Wingull;Pokémon;Water;278;Tomokazu Komiya;;;https://images.pokemontcg.io/ex8/81.png;;Deoxys
+82;Common;;Chenipotte;Wurmple;Pokémon;Grass;265;Kagemaru Himeno;;;https://images.pokemontcg.io/ex8/82.png;;Deoxys
+83;Common;;Nosférapti;Zubat;Pokémon;Grass;41;Sachiko Adachi;;;https://images.pokemontcg.io/ex8/83.png;;Deoxys
+84;Uncommon;;Baie Ballon;Balloon Berry;Trainer;NoColor;;Keiji Kinebuchi;;;https://images.pokemontcg.io/ex8/84.png;;Deoxys
+85;Uncommon;;Écharde de cristal;Crystal Shard;Trainer;NoColor;;Jungo Suzuki;;;https://images.pokemontcg.io/ex8/85.png;;Deoxys
+86;Uncommon;;Recharge de puissance;Energy Charge;Energy;NoColor;;Keiji Kinebuchi;;;https://images.pokemontcg.io/ex8/86.png;;Deoxys
+87;Uncommon;;Mademoiselle Sortie;Lady Outing;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/ex8/87.png;;Deoxys
+88;Uncommon;;Master Ball;Master Ball;Trainer;NoColor;;Keiji Kinebuchi;;;https://images.pokemontcg.io/ex8/88.png;;Deoxys
+89;Uncommon;;Site météore;Meteor Falls;Trainer;NoColor;;Ryo Ueda;;;https://images.pokemontcg.io/ex8/89.png;;Deoxys
+90;Uncommon;;La découverte du Professeur Kosmo;Professor Cozmo's Discovery;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/ex8/90.png;;Deoxys
+91;Uncommon;;Centre spatial;Space Center;Trainer;NoColor;;Ryo Ueda;;;https://images.pokemontcg.io/ex8/91.png;;Deoxys
+92;Uncommon;;Fétiche de force;Strength Charm;Trainer;NoColor;;Keiji Kinebuchi;;;https://images.pokemontcg.io/ex8/92.png;;Deoxys
+93;Uncommon;;Énergie Super;Boost Energy;Energy;NoColor;;Shin-ichi Yoshikawa;;;https://images.pokemontcg.io/ex8/93.png;;Deoxys
+94;Uncommon;;Énergie guérisseuse;Heal Energy;Energy;NoColor;;Takumi Akabane;;;https://images.pokemontcg.io/ex8/94.png;;Deoxys
+95;Uncommon;;Énergie codée;Scramble Energy;Energy;NoColor;;Takumi Akabane;;;https://images.pokemontcg.io/ex8/95.png;;Deoxys
+96;Ultra;EX;Nostenfer ex;Crobat ex;Pokémon;Grass;169;Ryo Ueda;;;https://images.pokemontcg.io/ex8/96.png;;Deoxys
+97;Ultra;EX;Deoxys ex;Deoxys ex;Pokémon;Psychic;386;Mitsuhiro Arita;;;https://images.pokemontcg.io/ex8/97.png;;Deoxys
+98;Ultra;EX;Deoxys ex;Deoxys ex;Pokémon;Psychic;386;Mitsuhiro Arita;;;https://images.pokemontcg.io/ex8/98.png;;Deoxys
+99;Ultra;EX;Deoxys ex;Deoxys ex;Pokémon;Psychic;386;Mitsuhiro Arita;;;https://images.pokemontcg.io/ex8/99.png;;Deoxys
+100;Ultra;EX;Hariyama ex;Hariyama ex;Pokémon;Fighting;297;Ryo Ueda;;;https://images.pokemontcg.io/ex8/100.png;;Deoxys
+101;Ultra;EX;Elecsprint ex;Manectric ex;Pokémon;Lightning;310;Hikaru Koike;;;https://images.pokemontcg.io/ex8/101.png;;Deoxys
+102;Ultra;EX;Rayquaza ex;Rayquaza ex;Pokémon;Colorless;384;Shin-ichi Yoshikawa;;;https://images.pokemontcg.io/ex8/102.png;;Deoxys
+103;Ultra;EX;Drattak ex;Salamence ex;Pokémon;Colorless;373;Hikaru Koike;;;https://images.pokemontcg.io/ex8/103.png;;Deoxys
+104;Ultra;EX;Sharpedo ex;Sharpedo ex;Pokémon;Darkness;319;Hikaru Koike;;;https://images.pokemontcg.io/ex8/104.png;;Deoxys
+105;Ultra;Star;Latias (Star);Latias Star;Pokémon;Colorless;380;Masakazu Fukuda;;;https://images.pokemontcg.io/ex8/105.png;;Deoxys
+106;Ultra;Star;Latios (Star);Latios Star;Pokémon;Colorless;381;Masakazu Fukuda;;;https://images.pokemontcg.io/ex8/106.png;;Deoxys
+107;Ultra;Star;Rayquaza Star;Rayquaza Star;Pokémon;Colorless;384;Masakazu Fukuda;;;https://images.pokemontcg.io/ex8/107.png;;Deoxys
+107;Secret;;Raikou ex de Rocket;Rocket’s Raikou ex;Pokémon;Darkness;243;Ryo Ueda;;;https://cdn.bulbagarden.net/upload/d/da/RocketRaikouexEXDeoxys108.png;;Deoxys

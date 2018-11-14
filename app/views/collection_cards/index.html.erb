@@ -1,18 +1,22 @@
 <div class="container">
+  <div class="collection-header">
   <h1>Ma collection</h1>
+  <p>Nombre total de cartes : <%= @collection_cards.count %> cartes</p>
+  </div>
 
   <div class="collections-cards">
-    <div class="row">
-      <% @collection_cards.each do |collection_card| %>
-        <div class="col-md-2">
-          <div class="collection-card">
-            <%= image_tag(collection_card.ref_card.fr_url, width: '130') %>
-            <%= collection_card.ref_card.fr_name %>
-            <%= collection_card.condition %>
-            <%= collection_card.language %>
-          </div>
-        </div>
+
+      <% @lists.each do |list| %>
+
+          <% if list.collection_cards.count > 0 %>
+            <div class="collection-item">
+              <%= list.fr_name %>
+              <%= image_tag(list.symbol_url, height: '20')%>
+              <%= list.collection_cards.count %> cartes
+            </div>
+          <% end  %>
+
       <% end %>
-    </div>
+
   </div>
 </div>

@@ -1,3 +1,40 @@
+.bloc-container {
+}
+
+.bloc-list-card {
+  //background: $yellow;
+  width: 230px;
+  height: 90px;
+  display: flex;
+  border: 5px solid $yellow;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px black;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 5px;
+  //padding: 10px 10px;
+}
+
+.logo-list {
+  max-height: 70px;
+  max-width: 160px;
+}
+
+.pokemon-card-mini {
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.pokemon-card-mini:hover {
+  height: 220px;
+  width: 154px;
+  border-radius: 7px;
+}
+.pokemon-card-standard {
+  border-radius: 11px;
+  box-shadow: 2px 2px 5px black;
+}
+
 .card {
   width: 350px;
 }
@@ -8,10 +45,19 @@
 }
 
 .card-header-list {
-  border: 2px solid white;
+  border: 5px solid $yellow;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
   padding: 10px 50px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.collection-item {
+  border: 5px solid $yellow;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  padding: 10px 50px;
+  margin-bottom: 15px;
 }
 
 .card-ref {

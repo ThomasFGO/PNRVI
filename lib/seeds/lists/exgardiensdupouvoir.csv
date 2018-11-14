@@ -1,0 +1,109 @@
+number;rarety_type;ultra_type;fr_name;us_name;super_type;energy_type;pokedex_number;artist;fr_url;fr_r_url;us_url;us_r_url;list
+1;Rare Holo;;Galeking;Aggron;Pokémon;Metal;306;Ken Sugimori;;;https://images.pokemontcg.io/ex16/1.png;;Power Keepers
+2;Rare Holo;;Altaria;Altaria;Pokémon;Colorless;334;Ken Sugimori;;;https://images.pokemontcg.io/ex16/2.png;;Power Keepers
+3;Rare Holo;;Armaldo;Armaldo;Pokémon;Fighting;348;Ken Sugimori;;;https://images.pokemontcg.io/ex16/3.png;;Power Keepers
+4;Rare Holo;;Branette;Banette;Pokémon;Psychic;354;Ken Sugimori;;;https://images.pokemontcg.io/ex16/4.png;;Power Keepers
+5;Rare Holo;;Brasegali;Blaziken;Pokémon;Fire;257;Masakazu Fukuda;;;https://images.pokemontcg.io/ex16/5.png;;Power Keepers
+6;Rare Holo;;Dracaufeu;Charizard;Pokémon;Fire;6;Ken Sugimori;;;https://images.pokemontcg.io/ex16/6.png;;Power Keepers
+7;Rare Holo;;Vacilys;Cradily;Pokémon;Grass;346;Ken Sugimori;;;https://images.pokemontcg.io/ex16/7.png;;Power Keepers
+8;Rare Holo;;Delcatty;Delcatty;Pokémon;Colorless;301;Masakazu Fukuda;;;https://images.pokemontcg.io/ex16/8.png;;Power Keepers
+9;Rare Holo;;Gardevoir;Gardevoir;Pokémon;Psychic;282;Midori Harada;;;https://images.pokemontcg.io/ex16/9.png;;Power Keepers
+10;Rare Holo;;Kabutops;Kabutops;Pokémon;Fighting;141;Ken Sugimori;;;https://images.pokemontcg.io/ex16/10.png;;Power Keepers
+11;Rare Holo;;Mackogneur;Machamp;Pokémon;Fighting;68;Ken Sugimori;;;https://images.pokemontcg.io/ex16/11.png;;Power Keepers
+12;Rare Holo;;Raichu;Raichu;Pokémon;Lightning;26;Hajime Kusajima;;;https://images.pokemontcg.io/ex16/12.png;;Power Keepers
+13;Rare Holo;;Monaflemit;Slaking;Pokémon;Colorless;289;Midori Harada;;;https://images.pokemontcg.io/ex16/13.png;;Power Keepers
+14;Rare;;Teraclope;Dusclops;Pokémon;Psychic;356;Ken Sugimori;;;https://images.pokemontcg.io/ex16/14.png;;Power Keepers
+15;Rare;;Lanturn;Lanturn;Pokémon;Lightning;171;Midori Harada;;;https://images.pokemontcg.io/ex16/15.png;;Power Keepers
+16;Rare;;Magneton;Magneton;Pokémon;Lightning;82;Masakazu Fukuda;;;https://images.pokemontcg.io/ex16/16.png;;Power Keepers
+17;Rare;;Mysdibule;Mawile;Pokémon;Metal;303;Ken Sugimori;;;https://images.pokemontcg.io/ex16/17.png;;Power Keepers
+18;Rare;;Grahyena;Mightyena;Pokémon;Darkness;262;Midori Harada;;;https://images.pokemontcg.io/ex16/18.png;;Power Keepers
+19;Rare;;Feunard;Ninetales;Pokémon;Fire;38;Tomoaki Imakuni;;;https://images.pokemontcg.io/ex16/19.png;;Power Keepers
+20;Rare;;Amonistar;Omastar;Pokémon;Water;139;Ken Sugimori;;;https://images.pokemontcg.io/ex16/20.png;;Power Keepers
+21;Rare;;Pichu;Pichu;Pokémon;Lightning;172;Ken Sugimori;;;https://images.pokemontcg.io/ex16/21.png;;Power Keepers
+22;Rare;;Ténéfix;Sableye;Pokémon;Psychic;302;Ken Sugimori;;;https://images.pokemontcg.io/ex16/22.png;;Power Keepers
+23;Rare;;Seviper;Seviper;Pokémon;Grass;336;Midori Harada;;;https://images.pokemontcg.io/ex16/23.png;;Power Keepers
+24;Rare;;Qulbutoke;Wobbuffet;Pokémon;Psychic;202;Masakazu Fukuda;;;https://images.pokemontcg.io/ex16/24.png;;Power Keepers
+25;Rare;;Mangriff;Zangoose;Pokémon;Colorless;335;Ken Sugimori;;;https://images.pokemontcg.io/ex16/25.png;;Power Keepers
+26;Uncommon;;Anorith;Anorith;Pokémon;Fighting;347;Midori Harada;;;https://images.pokemontcg.io/ex16/26.png;;Power Keepers
+27;Uncommon;;Cacturne;Cacturne;Pokémon;Darkness;332;Ken Sugimori;;;https://images.pokemontcg.io/ex16/27.png;;Power Keepers
+28;Uncommon;;Reptincel;Charmeleon;Pokémon;Fire;5;Midori Harada;;;https://images.pokemontcg.io/ex16/28.png;;Power Keepers
+29;Uncommon;;Galifeu;Combusken;Pokémon;Fire;256;Atsuko Nishida;;;https://images.pokemontcg.io/ex16/29.png;;Power Keepers
+30;Uncommon;;Oniglali;Glalie;Pokémon;Water;362;Ken Sugimori;;;https://images.pokemontcg.io/ex16/30.png;;Power Keepers
+31;Uncommon;;Kirlia;Kirlia;Pokémon;Psychic;281;Sachiko Adachi;;;https://images.pokemontcg.io/ex16/31.png;;Power Keepers
+32;Uncommon;;Galegon;Lairon;Pokémon;Metal;305;Sachiko Adachi;;;https://images.pokemontcg.io/ex16/32.png;;Power Keepers
+33;Uncommon;;Machopeur;Machoke;Pokémon;Fighting;67;Ken Sugimori;;;https://images.pokemontcg.io/ex16/33.png;;Power Keepers
+34;Uncommon;;Charmina;Medicham;Pokémon;Fighting;308;Tomoaki Imakuni;;;https://images.pokemontcg.io/ex16/34.png;;Power Keepers
+35;Uncommon;;Metang;Metang;Pokémon;Metal;375;Tomokazu Komiya;;;https://images.pokemontcg.io/ex16/35.png;;Power Keepers
+36;Uncommon;;Pifeuil;Nuzleaf;Pokémon;Darkness;274;Hajime Kusajima;;;https://images.pokemontcg.io/ex16/36.png;;Power Keepers
+37;Uncommon;;Phogleur;Sealeo;Pokémon;Water;364;Ken Sugimori;;;https://images.pokemontcg.io/ex16/37.png;;Power Keepers
+38;Uncommon;;Sharpedo;Sharpedo;Pokémon;Darkness;319;Midori Harada;;;https://images.pokemontcg.io/ex16/38.png;;Power Keepers
+39;Uncommon;;Drackhaus;Shelgon;Pokémon;Colorless;372;Midori Harada;;;https://images.pokemontcg.io/ex16/39.png;;Power Keepers
+40;Uncommon;;Vibraninf;Vibrava;Pokémon;Colorless;329;Mitsuhiro Arita;;;https://images.pokemontcg.io/ex16/40.png;;Power Keepers
+41;Uncommon;;Vigoroth;Vigoroth;Pokémon;Colorless;288;Hajime Kusajima;;;https://images.pokemontcg.io/ex16/41.png;;Power Keepers
+42;Common;;Galekid;Aron;Pokémon;Metal;304;Tomokazu Komiya;;;https://images.pokemontcg.io/ex16/42.png;;Power Keepers
+43;Common;;Draby;Bagon;Pokémon;Colorless;371;Midori Harada;;;https://images.pokemontcg.io/ex16/43.png;;Power Keepers
+44;Common;;Balbuto;Baltoy;Pokémon;Psychic;343;Mitsuhiro Arita;;;https://images.pokemontcg.io/ex16/44.png;;Power Keepers
+45;Common;;Terhal;Beldum;Pokémon;Metal;374;Midori Harada;;;https://images.pokemontcg.io/ex16/45.png;;Power Keepers
+46;Common;;Cacnéa;Cacnea;Pokémon;Grass;331;Hajime Kusajima;;;https://images.pokemontcg.io/ex16/46.png;;Power Keepers
+47;Common;;Carvanha;Carvanha;Pokémon;Darkness;318;Ken Sugimori;;;https://images.pokemontcg.io/ex16/47.png;;Power Keepers
+48;Common;;Salamèche;Charmander;Pokémon;Fire;4;Sachiko Adachi;;;https://images.pokemontcg.io/ex16/48.png;;Power Keepers
+49;Common;;Loupio;Chinchou;Pokémon;Lightning;170;Mitsuhiro Arita;;;https://images.pokemontcg.io/ex16/49.png;;Power Keepers
+50;Common;;Skelenox;Duskull;Pokémon;Psychic;355;Ken Sugimori;;;https://images.pokemontcg.io/ex16/50.png;;Power Keepers
+51;Common;;Kabuto;Kabuto;Pokémon;Fighting;140;Ken Sugimori;;;https://images.pokemontcg.io/ex16/51.png;;Power Keepers
+52;Common;;Lilia;Lileep;Pokémon;Grass;345;Hajime Kusajima;;;https://images.pokemontcg.io/ex16/52.png;;Power Keepers
+53;Common;;Machoc;Machop;Pokémon;Fighting;66;Ken Sugimori;;;https://images.pokemontcg.io/ex16/53.png;;Power Keepers
+54;Common;;Magneti;Magnemite;Pokémon;Lightning;81;Hajime Kusajima;;;https://images.pokemontcg.io/ex16/54.png;;Power Keepers
+55;Common;;Meditikka;Meditite;Pokémon;Fighting;307;Midori Harada;;;https://images.pokemontcg.io/ex16/55.png;;Power Keepers
+56;Common;;Amonita;Omanyte;Pokémon;Water;138;Ken Sugimori;;;https://images.pokemontcg.io/ex16/56.png;;Power Keepers
+57;Common;;Pikachu;Pikachu;Pokémon;Lightning;25;Kagemaru Himeno;;;https://images.pokemontcg.io/ex16/57.png;;Power Keepers
+58;Common;;Medhyena;Poochyena;Pokémon;Darkness;261;Midori Harada;;;https://images.pokemontcg.io/ex16/58.png;;Power Keepers
+59;Common;;Tarsal;Ralts;Pokémon;Psychic;280;Midori Harada;;;https://images.pokemontcg.io/ex16/59.png;;Power Keepers
+60;Common;;Grainipiot;Seedot;Pokémon;Grass;273;Midori Harada;;;https://images.pokemontcg.io/ex16/60.png;;Power Keepers
+61;Common;;Polichombr;Shuppet;Pokémon;Psychic;353;Ken Sugimori;;;https://images.pokemontcg.io/ex16/61.png;;Power Keepers
+62;Common;;Skitty;Skitty;Pokémon;Colorless;300;Tomokazu Komiya;;;https://images.pokemontcg.io/ex16/62.png;;Power Keepers
+63;Common;;Parecool;Slakoth;Pokémon;Colorless;287;Tomokazu Komiya;;;https://images.pokemontcg.io/ex16/63.png;;Power Keepers
+64;Common;;Stalgamin;Snorunt;Pokémon;Water;361;Ken Sugimori;;;https://images.pokemontcg.io/ex16/64.png;;Power Keepers
+65;Common;;Obalie;Spheal;Pokémon;Water;363;Ken Sugimori;;;https://images.pokemontcg.io/ex16/65.png;;Power Keepers
+66;Common;;Tylton;Swablu;Pokémon;Colorless;333;Ken Sugimori;;;https://images.pokemontcg.io/ex16/66.png;;Power Keepers
+67;Common;;Poussifeu;Torchic;Pokémon;Fire;255;Mitsuhiro Arita;;;https://images.pokemontcg.io/ex16/67.png;;Power Keepers
+68;Common;;Kraknoix;Trapinch;Pokémon;Fighting;328;Sachiko Adachi;;;https://images.pokemontcg.io/ex16/68.png;;Power Keepers
+69;Common;;Goupix;Vulpix;Pokémon;Fire;37;Ken Sugimori;;;https://images.pokemontcg.io/ex16/69.png;;Power Keepers
+70;Common;;Okéoké;Wynaut;Pokémon;Psychic;360;Ken Sugimori;;;https://images.pokemontcg.io/ex16/70.png;;Power Keepers
+71;Uncommon;;Zone de combat;Battle Frontier;Trainer;NoColor;;Midori Harada;;;https://images.pokemontcg.io/ex16/71.png;;Power Keepers
+72;Uncommon;;Stade d'Aragon;Drake's Stadium;Trainer;NoColor;;Ryo Ueda;;;https://images.pokemontcg.io/ex16/72.png;;Power Keepers
+73;Uncommon;;Recyclage d'énergie;Energy Recycle System;Trainer;NoColor;;Zu-Ka;;;https://images.pokemontcg.io/ex16/73.png;;Power Keepers
+74;Uncommon;;Suppression d'Énergie 2;Energy Removal 2;Trainer;NoColor;;Keiji Kinebuchi;;;https://images.pokemontcg.io/ex16/74.png;;Power Keepers
+75;Uncommon;;Échange d'énergie;Energy Switch;Trainer;NoColor;;Ken Ikuji;;;https://images.pokemontcg.io/ex16/75.png;;Power Keepers
+76;Uncommon;;Stade de Glacia;Glacia's Stadium;Trainer;NoColor;;Ryo Ueda;;;https://images.pokemontcg.io/ex16/76.png;;Power Keepers
+77;Uncommon;;Super Ball;Great Ball;Trainer;NoColor;;Nakaoka;;;https://images.pokemontcg.io/ex16/77.png;;Power Keepers
+78;Uncommon;;Master Ball;Master Ball;Trainer;NoColor;;Keiji Kinebuchi;;;https://images.pokemontcg.io/ex16/78.png;;Power Keepers
+79;Uncommon;;Stade de Spectra;Phoebe's Stadium;Trainer;NoColor;;Ryo Ueda;;;https://images.pokemontcg.io/ex16/79.png;;Power Keepers
+80;Uncommon;;Professor Seko;Professor Birch;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/ex16/80.png;;Power Keepers
+81;Uncommon;;Scott;Scott;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/ex16/81.png;;Power Keepers
+82;Uncommon;;Stade de Damien;Sidney's Stadium;Trainer;NoColor;;Ryo Ueda;;;https://images.pokemontcg.io/ex16/82.png;;Power Keepers
+83;Uncommon;;Les conseils de Pierre;Steven's Advice;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/ex16/83.png;;Power Keepers
+84;Common;;Fossile Griffe HP 40;Claw Fossil;Trainer;NoColor;;Ryo Ueda;;;https://images.pokemontcg.io/ex16/84.png;;Power Keepers
+85;Common;;Mystérieux Fossile HP 50;Mysterious Fossil;Trainer;NoColor;;Ryo Ueda;;;https://images.pokemontcg.io/ex16/85.png;;Power Keepers
+86;Common;;Fossile Racine HP 40;Root Fossil;Trainer;NoColor;;Ryo Ueda;;;https://images.pokemontcg.io/ex16/86.png;;Power Keepers
+87;Rare;;Énergie Obscurité;Darkness Energy;Energy;NoColor;;Milky Isobe;;;https://images.pokemontcg.io/ex16/87.png;;Power Keepers
+88;Rare;;Énergie Métal;Metal Energy;Energy;NoColor;;Milky Isobe;;;https://images.pokemontcg.io/ex16/88.png;;Power Keepers
+89;Rare;;Énergies multiples;Multi Energy;Energy;NoColor;;Takumi Akabane;;;https://images.pokemontcg.io/ex16/89.png;;Power Keepers
+90;Uncommon;;Énergie Cyclone;Cyclone Energy;Energy;NoColor;;Shin-ichi Yoshikawa;;;https://images.pokemontcg.io/ex16/90.png;;Power Keepers
+91;Uncommon;;Energie de Distorsion;Warp Energy;Energy;NoColor;;Shin-ichi Yoshikawa;;;https://images.pokemontcg.io/ex16/91.png;;Power Keepers
+92;Ultra;EX;Absol ex;Absol ex;Pokémon;Darkness;359;Ryo Ueda;;;https://images.pokemontcg.io/ex16/92.png;;Power Keepers
+93;Ultra;EX;Kaorine ex;Claydol ex;Pokémon;Psychic;344;Ryo Ueda;;;https://images.pokemontcg.io/ex16/93.png;;Power Keepers
+94;Ultra;EX;Libegon ex;Flygon ex;Pokémon;Colorless;330;Mitsuhiro Arita;;;https://images.pokemontcg.io/ex16/94.png;;Power Keepers
+95;Ultra;EX;Metalosse ex;Metagross ex;Pokémon;Metal;376;Ryo Ueda;;;https://images.pokemontcg.io/ex16/95.png;;Power Keepers
+96;Ultra;EX;Drattak ex;Salamence ex;Pokémon;Colorless;373;Mitsuhiro Arita;;;https://images.pokemontcg.io/ex16/96.png;;Power Keepers
+97;Ultra;EX;Tengalice ex;Shiftry ex;Pokémon;Darkness;275;Ryo Ueda;;;https://images.pokemontcg.io/ex16/97.png;;Power Keepers
+98;Ultra;EX;Airmure ex;Skarmory ex;Pokémon;Metal;227;Ryo Ueda;;;https://images.pokemontcg.io/ex16/98.png;;Power Keepers
+99;Ultra;EX;Kaimorse ex;Walrein ex;Pokémon;Water;365;Ryo Ueda;;;https://images.pokemontcg.io/ex16/99.png;;Power Keepers
+100;Ultra;Star;Pyroli Star;Flareon Star;Pokémon;Fire;136;Masakazu Fukuda;;;https://images.pokemontcg.io/ex16/100.png;;Power Keepers
+101;Ultra;Star;Voltali Star;Jolteon Star;Pokémon;Lightning;135;Masakazu Fukuda;;;https://images.pokemontcg.io/ex16/101.png;;Power Keepers
+102;Ultra;Star;Aquali Star;Vaporeon Star;Pokémon;Water;134;Masakazu Fukuda;;;https://images.pokemontcg.io/ex16/102.png;;Power Keepers
+103;Ultra;;Énergie Plante;Grass Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/ex16/103.png;;Power Keepers
+104;Ultra;;Énergie Feu;Fire Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/ex16/104.png;;Power Keepers
+105;Ultra;;Energie Eau;Water Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/ex16/105.png;;Power Keepers
+106;Ultra;;Énergie Electrique;Lightning Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/ex16/106.png;;Power Keepers
+107;Ultra;;Énergie Psy;Psychic Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/ex16/107.png;;Power Keepers
+108;Ultra;;Énergie Combat;Fighting Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/ex16/108.png;;Power Keepers

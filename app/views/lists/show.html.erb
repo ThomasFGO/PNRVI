@@ -2,10 +2,15 @@
 
 
   <div class="card-header-list">
-    <h2><%= @list.fr_name %> <%= image_tag(@list.symbol_url, height: '30')%></h2>
-    <%= image_tag(@list.fr_logo_url, width: '250') %>
-    <p>Sortie aux États-Unis le <%= @list.us_release_date %></p>
-    <p>Cette série contient <%= @list.size %> cartes + <%=  @list.ref_cards.where(rarety_type: "Secret").count %> secrêtes</p>
+    <h4><%= @list.fr_name %> <%= image_tag(@list.symbol_url, height: '25')%> <%= image_tag(@list.fr_logo_url, height: '100') %></h4>
+    <p>Sortie aux États-Unis le <%= @list.us_release_date %>
+      / Cette série contient <%= @list.size %> cartes
+      <% if @list.ref_cards.where(rarety_type: "Secret").count > 1 %>
+       + <%=  @list.ref_cards.where(rarety_type: "Secret").count %> secrêtes
+      <% else %>
+       et aucune secrête
+      <% end %>
+    </p>
 
   </div>
 
@@ -16,13 +21,14 @@
           <div class="col-md-2">
             <div class="card-ref">
               <%= link_to ref_card_path(ref_card) do %>
-                <% if ref_card.fr_url.nil? %>
-                 <%= image_tag(ref_card.fr_r_url, width: '130') %>
+                <% if ref_card.fr_url.present? %>
+                  <%= image_tag(ref_card.fr_url, width: '130', class: "pokemon-card-mini") %>
+                <% elsif ref_card.fr_r_url.present? %>
+                  <%= image_tag(ref_card.fr_r_url, width: '130', class: "pokemon-card-mini") %>
                 <% else %>
-                  <%= image_tag(ref_card.fr_url, width: '130') %>
+                  <%= image_tag(ref_card.us_url, width: '130', class: "pokemon-card-mini") %>
                 <% end %>
               <% end  %>
-
             </div>
           </div>
         <% end  %>

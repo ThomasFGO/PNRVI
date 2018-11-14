@@ -1,0 +1,63 @@
+number;rarety_type;ultra_type;fr_name;us_name;super_type;energy_type;pokedex_number;artist;fr_url;fr_r_url;us_url;us_r_url;list
+1;Rare Holo;;Ptera;Aerodactyl;Pokémon;Fighting;142;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/1.png;;Fossil
+2;Rare Holo;;Artikodin;Articuno;Pokémon;Water;144;Mitsuhiro Arita;;https://www.pokepedia.fr/images/thumb/3/3b/Carte_Fossile_2.png/500px-Carte_Fossile_2.png;https://images.pokemontcg.io/base3/2.png;;Fossil
+3;Rare Holo;;Métamorph;Ditto;Pokémon;Colorless;132;Keiji Kinebuchi;;;https://images.pokemontcg.io/base3/3.png;;Fossil
+4;Rare Holo;;Dracolosse;Dragonite;Pokémon;Colorless;149;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/4.png;;Fossil
+5;Rare Holo;;Ectoplasma;Gengar;Pokémon;Psychic;94;Keiji Kinebuchi;;;https://images.pokemontcg.io/base3/5.png;;Fossil
+6;Rare Holo;;Spectrum;Haunter;Pokémon;Psychic;93;Ken Sugimori;;;https://images.pokemontcg.io/base3/6.png;;Fossil
+7;Rare Holo;;Kicklee;Hitmonlee;Pokémon;Fighting;106;Ken Sugimori;;https://www.pokepedia.fr/images/6/60/Carte_Fossile_7.png;https://images.pokemontcg.io/base3/7.png;;Fossil
+8;Rare Holo;;Hypnomade;Hypno;Pokémon;Psychic;97;Ken Sugimori;;;https://images.pokemontcg.io/base3/8.png;;Fossil
+9;Rare Holo;;Kabutops;Kabutops;Pokémon;Fighting;141;Ken Sugimori;;;https://images.pokemontcg.io/base3/9.png;;Fossil
+10;Rare Holo;;Lokhlass;Lapras;Pokémon;Water;131;Ken Sugimori;;;https://images.pokemontcg.io/base3/10.png;;Fossil
+11;Rare Holo;;Magneton;Magneton;Pokémon;Lightning;82;Ken Sugimori;;;https://images.pokemontcg.io/base3/11.png;;Fossil
+12;Rare Holo;;Sulfura;Moltres;Pokémon;Fire;146;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/12.png;;Fossil
+13;Rare Holo;;Grotadmorv;Muk;Pokémon;Grass;89;Mitsuhiro Arita;https://www.pokepedia.fr/images/c/c5/Carte_Fossile_13.png;;https://images.pokemontcg.io/base3/13.png;;Fossil
+14;Rare Holo;;Raichu;Raichu;Pokémon;Lightning;26;Mitsuhiro Arita;;https://www.pokepedia.fr/images/0/0e/Carte_Fossile_14.png;https://images.pokemontcg.io/base3/14.png;;Fossil
+15;Rare Holo;;Electhor;Zapdos;Pokémon;Lightning;145;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/15.png;;Fossil
+16;Rare;;Ptera;Aerodactyl;Pokémon;Fighting;142;Kagemaru Himeno;;https://www.pokepedia.fr/images/1/17/Carte_Fossile_16.png;https://images.pokemontcg.io/base3/16.png;;Fossil
+17;Rare;;Artikodin;Articuno;Pokémon;Water;144;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/17.png;;Fossil
+18;Rare;;Métamorph;Ditto;Pokémon;Colorless;132;Keiji Kinebuchi;;;https://images.pokemontcg.io/base3/18.png;;Fossil
+19;Rare;;Dracolosse;Dragonite;Pokémon;Colorless;149;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/19.png;;Fossil
+20;Rare;;Ectoplasma;Gengar;Pokémon;Psychic;94;Keiji Kinebuchi;;;https://images.pokemontcg.io/base3/20.png;;Fossil
+21;Rare;;Spectrum;Haunter;Pokémon;Psychic;93;Ken Sugimori;;;https://images.pokemontcg.io/base3/21.png;;Fossil
+22;Rare;;Kicklee;Hitmonlee;Pokémon;Fighting;106;Ken Sugimori;;;https://images.pokemontcg.io/base3/22.png;;Fossil
+23;Rare;;Hypnomade;Hypno;Pokémon;Psychic;97;Ken Sugimori;;;https://images.pokemontcg.io/base3/23.png;;Fossil
+24;Rare;;Kabutops;Kabutops;Pokémon;Fighting;141;Ken Sugimori;;;https://images.pokemontcg.io/base3/24.png;;Fossil
+25;Rare;;Lokhlass;Lapras;Pokémon;Water;131;Ken Sugimori;;;https://images.pokemontcg.io/base3/25.png;;Fossil
+26;Rare;;Magneton;Magneton;Pokémon;Lightning;82;Ken Sugimori;;;https://images.pokemontcg.io/base3/26.png;;Fossil
+27;Rare;;Sulfura;Moltres;Pokémon;Fire;146;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/27.png;;Fossil
+28;Rare;;Grotadmorv;Muk;Pokémon;Grass;89;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/28.png;;Fossil
+29;Rare;;Raichu;Raichu;Pokémon;Lightning;26;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/29.png;;Fossil
+30;Rare;;Electhor;Zapdos;Pokémon;Lightning;145;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/30.png;;Fossil
+31;Uncommon;;Arbok;Arbok;Pokémon;Grass;24;Ken Sugimori;;;https://images.pokemontcg.io/base3/31.png;;Fossil
+32;Uncommon;;Crustabri;Cloyster;Pokémon;Water;91;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/32.png;;Fossil
+33;Uncommon;;Fantominus;Gastly;Pokémon;Psychic;92;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/33.png;;Fossil
+34;Uncommon;;Nosféralto;Golbat;Pokémon;Grass;42;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/34.png;;Fossil
+35;Uncommon;;Akwakwak;Golduck;Pokémon;Water;55;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/35.png;;Fossil
+36;Uncommon;;Grolem;Golem;Pokémon;Fighting;76;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/36.png;;Fossil
+37;Uncommon;;Gravalanch;Graveler;Pokémon;Fighting;75;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/37.png;;Fossil
+38;Uncommon;;Krabboss;Kingler;Pokémon;Water;99;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/38.png;;Fossil
+39;Uncommon;;Magmar;Magmar;Pokémon;Fire;126;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/39.png;;Fossil
+40;Uncommon;;Amonistar;Omastar;Pokémon;Water;139;Ken Sugimori;;;https://images.pokemontcg.io/base3/40.png;;Fossil
+41;Uncommon;;Sablaireau;Sandslash;Pokémon;Fighting;28;Ken Sugimori;;;https://images.pokemontcg.io/base3/41.png;;Fossil
+42;Uncommon;;Hypocéan;Seadra;Pokémon;Water;117;Ken Sugimori;;;https://images.pokemontcg.io/base3/42.png;;Fossil
+43;Uncommon;;Flagadoss;Slowbro;Pokémon;Psychic;80;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/43.png;;Fossil
+44;Uncommon;;Tentacruel;Tentacruel;Pokémon;Water;73;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/44.png;;Fossil
+45;Uncommon;;Smogogo;Weezing;Pokémon;Grass;110;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/45.png;;Fossil
+46;Common;;Abo;Ekans;Pokémon;Grass;23;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/46.png;;Fossil
+47;Common;;Racaillou;Geodude;Pokémon;Fighting;74;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/47.png;;Fossil
+48;Common;;Tadmorv;Grimer;Pokémon;Grass;88;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/48.png;;Fossil
+49;Common;;Hypotrempe;Horsea;Pokémon;Water;116;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/49.png;;Fossil
+50;Common;;Kabuto;Kabuto;Pokémon;Fighting;140;Ken Sugimori;;;https://images.pokemontcg.io/base3/50.png;;Fossil
+51;Common;;Krabby;Krabby;Pokémon;Water;98;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/51.png;;Fossil
+52;Common;;Amonita;Omanyte;Pokémon;Water;138;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/52.png;;Fossil
+53;Common;;Psykokwak;Psyduck;Pokémon;Water;54;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/53.png;;Fossil
+54;Common;;Kokiyas;Shellder;Pokémon;Water;90;Mitsuhiro Arita;;;https://images.pokemontcg.io/base3/54.png;;Fossil
+55;Common;;Ramoloss;Slowpoke;Pokémon;Psychic;79;Miki Tanaka;;;https://images.pokemontcg.io/base3/55.png;;Fossil
+56;Common;;Tentacool;Tentacool;Pokémon;Water;72;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/56.png;;Fossil
+57;Common;;Nosférapti;Zubat;Pokémon;Grass;41;Kagemaru Himeno;;;https://images.pokemontcg.io/base3/57.png;;Fossil
+58;Uncommon;;M. Fuji;Mr. Fuji;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/base3/58.png;;Fossil
+59;Common;;Recherche d'Énergie;Energy Search;Trainer;NoColor;;Keiji Kinebuchi;;;https://images.pokemontcg.io/base3/59.png;;Fossil
+60;Common;;Joueur;Gambler;Trainer;NoColor;;Keiji Kinebuchi;;;https://images.pokemontcg.io/base3/60.png;;Fossil
+61;Common;;Recyclage;Recycle;Trainer;NoColor;;Keiji Kinebuchi;;;https://images.pokemontcg.io/base3/61.png;;Fossil
+62;Common;;Mystérieux Fossile;Mysterious Fossil;Trainer;NoColor;;Keiji Kinebuchi;;;https://images.pokemontcg.io/base3/62.png;;Fossil

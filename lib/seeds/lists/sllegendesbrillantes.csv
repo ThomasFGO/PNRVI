@@ -1,0 +1,79 @@
+number;rarety_type;ultra_type;fr_name;us_name;super_type;energy_type;pokedex_number;artist;fr_url;fr_r_url;us_url;us_r_url;list
+1;Common;;Bulbizarre;Bulbasaur;Pokémon;Grass;1;Mizue;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_1.png;;https://images.pokemontcg.io/sm35/1.png;;Shining Legends
+2;Common;;Herbizarre;Ivysaur;Pokémon;Grass;2;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_2.png;;https://images.pokemontcg.io/sm35/2.png;;Shining Legends
+3;Uncommon;;Florizarre;Venusaur;Pokémon;Grass;3;Eske Yoshinob;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_3.png;;https://images.pokemontcg.io/sm35/3.png;;Shining Legends
+4;Common;;Balignon;Shroomish;Pokémon;Grass;285;kawayoo;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_4.png;;https://images.pokemontcg.io/sm35/4.png;;Shining Legends
+5;Common;;Chapignon;Breloom;Pokémon;Grass;286;Mizue;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_5.png;;https://images.pokemontcg.io/sm35/5.png;;Shining Legends
+6;Uncommon;;Vortente;Carnivine;Pokémon;Grass;455;Tomokazu Komiya;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_6.png;;https://images.pokemontcg.io/sm35/6.png;;Shining Legends
+7;Rare Holo;;Shaymin;Shaymin (Sky Forme);Pokémon;Grass;492;Mizue;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_7.png;;https://images.pokemontcg.io/sm35/7.png;;Shining Legends
+8;Rare Holo;;Viridium;Virizion;Pokémon;Grass;640;kawayoo;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_8.png;;https://images.pokemontcg.io/sm35/8.png;;Shining Legends
+9;Ultra;Brillant;Genesect Brillant;Shining Genesect;Pokémon;Grass;649;Hitoshi Ariga;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_9.png;;https://images.pokemontcg.io/sm35/9.png;;Shining Legends
+10;Ultra;GX;Entei-GX;Entei-GX;Pokémon;Fire;244;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_10.png;;https://images.pokemontcg.io/sm35/10.png;;Shining Legends
+11;Common;;Chartor;Torkoal;Pokémon;Fire;324;Suwama Chiaki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_11.png;;https://images.pokemontcg.io/sm35/11.png;;Shining Legends
+12;Common;;Pyronille;Larvesta;Pokémon;Fire;636;kawayoo;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_12.png;;https://images.pokemontcg.io/sm35/12.png;;Shining Legends
+13;Uncommon;;Pyrax;Volcarona;Pokémon;Fire;637;nagimiso;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_13.png;;https://images.pokemontcg.io/sm35/13.png;;Shining Legends
+14;Rare Holo;;Reshiram;Reshiram;Pokémon;Fire;643;TOKIYA;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_14.png;;https://images.pokemontcg.io/sm35/14.png;;Shining Legends
+15;Common;;Flamiaou;Litten;Pokémon;Fire;725;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_15.png;;https://images.pokemontcg.io/sm35/15.png;;Shining Legends
+16;Common;;Matoufeu;Torracat;Pokémon;Fire;726;Shin Nagasawa;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_16.png;;https://images.pokemontcg.io/sm35/16.png;;Shining Legends
+17;Uncommon;;Félinferno;Incineroar;Pokémon;Fire;727;Emi Ando;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_17.png;;https://images.pokemontcg.io/sm35/17.png;;Shining Legends
+18;Common;;Kaiminus;Totodile;Pokémon;Water;158;TOKIYA;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_18.png;;https://images.pokemontcg.io/sm35/18.png;;Shining Legends
+19;Common;;Crocrodil;Croconaw;Pokémon;Water;159;Naoki Saito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_19.png;;https://images.pokemontcg.io/sm35/19.png;;Shining Legends
+20;Uncommon;;Aligatueur;Feraligatr;Pokémon;Water;160;nagimiso;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_20.png;;https://images.pokemontcg.io/sm35/20.png;;Shining Legends
+21;Common;;Qwilfish;Qwilfish;Pokémon;Water;211;Shin Nagasawa;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_21.png;;https://images.pokemontcg.io/sm35/21.png;;Shining Legends
+22;Common;;Mustébouée;Buizel;Pokémon;Water;418;Sekio;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_22.png;;https://images.pokemontcg.io/sm35/22.png;;Shining Legends
+23;Uncommon;;Mustéflott;Floatzel;Pokémon;Water;419;Suwama Chiaki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_23.png;;https://images.pokemontcg.io/sm35/23.png;;Shining Legends
+24;Rare Holo;;Palkia;Palkia;Pokémon;Water;484;Eske Yoshinob;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_24.png;;https://images.pokemontcg.io/sm35/24.png;;Shining Legends
+25;Rare Holo;;Manaphy;Manaphy;Pokémon;Water;490;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_25.png;;https://images.pokemontcg.io/sm35/25.png;;Shining Legends
+26;Rare Holo;;Keldeo;Keldeo;Pokémon;Water;647;kodama;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_26.png;;https://images.pokemontcg.io/sm35/26.png;;Shining Legends
+27;Ultra;Brillant;Volcanion Brillant;Shining Volcanion;Pokémon;Water;721;Hitoshi Ariga;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_27.png;;https://images.pokemontcg.io/sm35/27.png;;Shining Legends
+28;Common;;Pikachu;Pikachu;Pokémon;Lightning;25;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_28.png;;https://images.pokemontcg.io/sm35/28.png;;Shining Legends
+29;Ultra;GX;Raichu-GX;Raichu-GX;Pokémon;Lightning;26;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_29.png;;https://images.pokemontcg.io/sm35/29.png;;Shining Legends
+30;Common;;Voltorbe;Voltorb;Pokémon;Lightning;100;match;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_30.png;;https://images.pokemontcg.io/sm35/30.png;;Shining Legends
+31;Uncommon;;Électrode;Electrode;Pokémon;Lightning;101;Kyoko Umemoto;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_31.png;;https://images.pokemontcg.io/sm35/31.png;;Shining Legends
+32;Rare Holo;;Raikou;Raikou;Pokémon;Lightning;243;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_32.png;;https://images.pokemontcg.io/sm35/32.png;;Shining Legends
+33;Common;;Posipi;Plusle;Pokémon;Lightning;311;Tomokazu Komiya;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_33.png;;https://images.pokemontcg.io/sm35/33.png;;Shining Legends
+34;Common;;Negapi;Minun;Pokémon;Lightning;312;nagimiso;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_34.png;;https://images.pokemontcg.io/sm35/34.png;;Shining Legends
+35;Rare Holo;;Zekrom;Zekrom;Pokémon;Lightning;644;nagimiso;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_35.png;;https://images.pokemontcg.io/sm35/35.png;;Shining Legends
+36;Common;;Abo;Ekans;Pokémon;Psychic;23;DemizuPosuka;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_36.png;;https://images.pokemontcg.io/sm35/36.png;;Shining Legends
+37;Uncommon;;Arbok;Arbok;Pokémon;Psychic;24;kodama;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_37.png;;https://images.pokemontcg.io/sm35/37.png;;Shining Legends
+38;Common;;Lippoutou;Jynx;Pokémon;Psychic;124;Tomokazu Komiya;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_38.png;;https://images.pokemontcg.io/sm35/38.png;;Shining Legends
+39;Ultra;GX;Mewtwo-GX;Mewtwo-GX;Pokémon;Psychic;150;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_39.png;;https://images.pokemontcg.io/sm35/39.png;;Shining Legends
+40;Ultra;Brillant;Mew Brillant;Shining Mew;Pokémon;Psychic;151;Sanosuke Sakuma;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_40.png;;https://images.pokemontcg.io/sm35/40.png;;Shining Legends
+41;Rare Holo;;Latios;Latios;Pokémon;Psychic;381;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_41.png;;https://images.pokemontcg.io/sm35/41.png;;Shining Legends
+42;Ultra;Brillant;Jirachi Brillant;Shining Jirachi;Pokémon;Psychic;385;Shigenori Negishi;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_42.png;;https://images.pokemontcg.io/sm35/42.png;;Shining Legends
+43;Common;;Gringolem;Golett;Pokémon;Psychic;622;Kyoko Umemoto;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_43.png;;https://images.pokemontcg.io/sm35/43.png;;Shining Legends
+44;Uncommon;;Golemastoc;Golurk;Pokémon;Psychic;623;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_44.png;;https://images.pokemontcg.io/sm35/44.png;;Shining Legends
+45;Rare Holo;;Marshadow;Marshadow;Pokémon;Psychic;802;Emi Ando;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_45.png;;https://images.pokemontcg.io/sm35/45.png;;Shining Legends
+46;Common;;Limonde;Stunfisk;Pokémon;Fighting;618;Naoyo Kimura;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_46.png;;https://images.pokemontcg.io/sm35/46.png;;Shining Legends
+47;Uncommon;;Spiritomb;Spiritomb;Pokémon;Darkness;442;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_47.png;;https://images.pokemontcg.io/sm35/47.png;;Shining Legends
+48;Common;;Chacripan;Purrloin;Pokémon;Darkness;509;Naoyo Kimura;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_48.png;;https://images.pokemontcg.io/sm35/48.png;;Shining Legends
+49;Uncommon;;Léopardus;Liepard;Pokémon;Darkness;510;kawayoo;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_49.png;;https://images.pokemontcg.io/sm35/49.png;;Shining Legends
+50;Common;;Baggiguane;Scraggy;Pokémon;Darkness;559;Sekio;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_50.png;;https://images.pokemontcg.io/sm35/50.png;;Shining Legends
+51;Uncommon;;Baggaïd;Scrafty;Pokémon;Darkness;560;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_51.png;;https://images.pokemontcg.io/sm35/51.png;;Shining Legends
+52;Common;;Zorua;Zorua;Pokémon;Darkness;570;kodama;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_52.png;;https://images.pokemontcg.io/sm35/52.png;;Shining Legends
+53;Ultra;GX;Zoroark-GX;Zoroark-GX;Pokémon;Darkness;571;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_53.png;;https://images.pokemontcg.io/sm35/53.png;;Shining Legends
+54;Rare Holo;;Yveltal;Yveltal;Pokémon;Darkness;717;Shin Nagasawa;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_54.png;;https://images.pokemontcg.io/sm35/54.png;;Shining Legends
+55;Rare Holo;;Hoopa;Hoopa(Hoopa Unbound);Pokémon;Darkness;;TOKIYA;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_55.png;;https://images.pokemontcg.io/sm35/55.png;;Shining Legends
+56;Ultra;Brillant;Rayquaza Brillant;Shining Rayquaza;Pokémon;Dragon;384;Naoki Saito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_56.png;;https://images.pokemontcg.io/sm35/56.png;;Shining Legends
+57;Ultra;Brillant;Arceus Brillant;Shining Arceus;Pokémon;Colorless;493;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_57.png;;https://images.pokemontcg.io/sm35/57.png;;Shining Legends
+58;Uncommon;;Déplace Dégâts;Damage Mover;Trainer;NoColor;;Toyste Beach;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_58.png;;https://images.pokemontcg.io/sm35/58.png;;Shining Legends
+59;Uncommon;;Récupération d'Énergie;Energy Retrieval;Trainer;NoColor;;Toyste Beach;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_59.png;;https://images.pokemontcg.io/sm35/59.png;;Shining Legends
+60;Uncommon;;Super Ball;Great Ball;Trainer;NoColor;;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_60.png;;https://images.pokemontcg.io/sm35/60.png;;Shining Legends
+61;Uncommon;;Tili;Hau;Trainer;NoColor;;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_61.png;;https://images.pokemontcg.io/sm35/61.png;;Shining Legends
+62;Uncommon;;Lilie;Lillie;Trainer;NoColor;;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_62.png;;https://images.pokemontcg.io/sm35/62.png;;Shining Legends
+63;Uncommon;;Eleveur de Pokémon;Pokémon Breeder;Trainer;NoColor;;Kanako Eo;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_63.png;;https://images.pokemontcg.io/sm35/63.png;;Shining Legends
+64;Uncommon;;Attrape-Pokémon;Pokémon Catcher;Trainer;NoColor;;Toyste Beach;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_64.png;;https://images.pokemontcg.io/sm35/64.png;;Shining Legends
+65;Uncommon;;Chrys;Sophocles;Trainer;NoColor;;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_65.png;;https://images.pokemontcg.io/sm35/65.png;;Shining Legends
+66;Uncommon;;Super Rappel;Super Scoop Up;Trainer;NoColor;;Toyste Beach;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_66.png;;https://images.pokemontcg.io/sm35/66.png;;Shining Legends
+67;Uncommon;;Echange;Switch;Trainer;NoColor;;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_67.png;;https://images.pokemontcg.io/sm35/67.png;;Shining Legends
+68;Uncommon;;Hyper Ball;Ultra Ball;Trainer;NoColor;;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_68.png;;https://images.pokemontcg.io/sm35/68.png;;Shining Legends
+69;Uncommon;;Double Énergie Incolore;Double Colorless Energy;Energy;NoColor;;;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_69.png;;https://images.pokemontcg.io/sm35/69.png;;Shining Legends
+70;Uncommon;;Energie de Distorsion;Warp Energy;Energy;NoColor;;;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_70.png;;https://images.pokemontcg.io/sm35/70.png;;Shining Legends
+71;Ultra;GX FA;Entei-GX;Entei-GX;Pokémon;Fire;244;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_71.png;;https://images.pokemontcg.io/sm35/71.png;;Shining Legends
+72;Ultra;GX FA;Mewtwo-GX;Mewtwo-GX;Pokémon;Psychic;150;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_72.png;;https://images.pokemontcg.io/sm35/72.png;;Shining Legends
+73;Ultra;FA;Eleveur de Pokémon;Pokémon Breeder;Trainer;NoColor;;Sanosuke Sakuma;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_73.png;;https://images.pokemontcg.io/sm35/73.png;;Shining Legends
+74;Secret;Rainbow;Entei-GX;Entei-GX;Pokémon;Fire;244;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_74.png;;https://images.pokemontcg.io/sm35/74.png;;Shining Legends
+75;Secret;Rainbow;Raichu-GX;Raichu-GX;Pokémon;Lightning;26;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_75.png;;https://images.pokemontcg.io/sm35/75.png;;Shining Legends
+76;Secret;Rainbow;Mewtwo-GX;Mewtwo-GX;Pokémon;Psychic;150;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_76.png;;https://images.pokemontcg.io/sm35/76.png;;Shining Legends
+77;Secret;Rainbow;Zoroark-GX;Zoroark-GX;Pokémon;Darkness;571;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_77.png;;https://images.pokemontcg.io/sm35/77.png;;Shining Legends
+78;Secret;;Mewtwo-GX;Mewtwo-GX;Pokémon;Psychic;150;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM35/SM35_FR_78.png;;https://images.pokemontcg.io/sm35/78.png;;Shining Legends

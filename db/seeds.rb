@@ -59,7 +59,42 @@ end
 
 RefCard.destroy_all
 
-lists = ["xy7.csv", "diamantetperle.csv", "setdebase.csv"]
+lists = [
+
+  "bsetdebase.csv", "bjungle.csv", "bfossil.csv", "bbasesetdeux.csv", "bteamrocket.csv", "blegendarycollection.csv",
+
+  "gymheroes.csv", "gymchallenge.csv",
+
+  "neogenesis.csv", "neodiscovery.csv", "neorevelation.csv", "neodestiny.csv",
+
+  "ecexpedition.csv", "ecaquapolis.csv", "ecskyridge.csv",
+
+  "exrubissaphir.csv", "extempetedesable.csv", "exdragon.csv", "exlegendesoubliees.csv", "exteammagmateamaqua.csv",
+  "exrougefeuvertfeuille.csv", "exteamrocketreturns.csv", "exdeoxys.csv", "exemeraude.csv", "exforcescachees.csv",
+  "exespecedelta.csv", "excreateursdelegendes.csv", "exfantomesholon.csv", "exgardiensdecristal.csv",
+  "exilesdesdragons.csv", "exgardiensdupouvoir.csv",
+
+  "diamantetperle.csv", "dptresorsmysterieux.csv", "dpmerveillessecretes.csv",
+  "dpduelsausommet.csv", "dpaubemajestueuse.csv", "dpeveildeslegendes.csv", "dptempete.csv",
+
+  "platine.csv", "rivauxemergeants.csv", "vainqueurssupremes.csv", "arceus.csv",
+
+  "heartgoldsoulsilver.csv", "hsunleashed.csv", "hsundaunted.csv", "hstriumphant.csv", "calloflegends.csv",
+
+  "noiretblanc.csv", "nbpouvoirsemergents.csv", "nbnoblesvictoires.csv", "nbdestineesfutures.csv", "nbexplorateursobscurs.csv",
+  "nbdragonsexaltes.csv","nbcoffredesdragons.csv", "nbfrontieresfranchies.csv", "nbtempeteplasma.csv", "nbglaciationplasma.csv",
+  "nbexplosionplasma.csv", "nblegendarytreasures.csv",
+
+
+  "xykalos.csv", "xybase.csv", "xyetincelles.csv", "xypoingsfurieux.csv", "xyvigueurspectrale.csv", "xyprimochoc.csv",
+  "xydoubledanger.csv", "xycielrugissant.csv", "xyoriginesantiques.csv", "xyimpulsionturbo.csv", "xyruptureturbo.csv",
+  "xygenerations.csv", "xyimpactdesdestins.csv", "xyoffensivevapeur.csv", "xyevolutions.csv",
+
+  "slbase.csv", "slgardiensascendants.csv", "slombresardentes.csv", "sllegendesbrillantes.csv", "slinvasioncarmin.csv",
+  "slultraprisme.csv", "sllumiereinterdite.csv", "sltempeteceleste.csv", "slmajestedesdragons.csv", "sltonnerreperdu.csv"
+
+
+]
 
 lists.each do |list|
   csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "#{list}"))

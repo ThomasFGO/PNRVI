@@ -1,17 +1,22 @@
 <div class="container">
-  <div>
-    <h1>Blocs</h1>
-  </div>
+
     <% @blocs.each do |bloc| %>
-      <div class="card">
-        <div class="card-header"><%= bloc.fr_name %></div>
-        <ul class="list-group list-group-flush">
+      <div class="bloc-container">
+        <div class="row">
+          <div class="bloc-header"><%= bloc.fr_name %></div>
+
           <% bloc.lists.each do |list| %>
-            <li class="list-group-item">
-              <%= link_to list.fr_name, list_path(list)%> / <%= list.size %> <%= image_tag(list.symbol_url, height: '17')%>
-            </li>
+            <div class="col-md-3">
+              <div class="bloc-list-card">
+                <%= link_to list_path(list) do %>
+                  <% if list.fr_logo_url.present? %><%= image_tag(list.fr_logo_url, class: "logo-list")%> <% end %>
+                  <% if list.symbol_url.present? %><%= image_tag(list.symbol_url, height: '20')%> <% end %>
+                <% end  %>
+              </div>
+            </div>
           <% end %>
-        </ul>
+
+        </div>
       </div>
     <% end %>
 </div>

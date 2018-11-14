@@ -1,10 +1,10 @@
 .navbar {
-  border-bottom: 2px solid white;
-  padding: 10px 10px;
+  border-bottom: 2px solid $yellow;
+  display: flex;
+  justify-content: space-around;
  }
  .navbar-item {
-  color: white;
-  margin: 0px 50px;
+  color: $yellow;
  }
  .navbar-item:hover {
   color: $yellow;

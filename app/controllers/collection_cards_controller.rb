@@ -1,5 +1,7 @@
 class CollectionCardsController < ApplicationController
   def index
+    @lists = List.all
+    @ref_cards = RefCard.all
     @collection_cards = CollectionCard.all
   end
 
@@ -15,7 +17,10 @@ class CollectionCardsController < ApplicationController
     redirect_to collection_cards_path
   end
 
-  def delete
+  def destroy
+    @collection_card = CollectionCard.find(params[:id])
+    @collection_card.destroy
+    redirect_to collection_cards_path
   end
 
   private

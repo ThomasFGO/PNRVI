@@ -1,0 +1,84 @@
+number;rarety_type;ultra_type;fr_name;us_name;super_type;energy_type;pokedex_number;artist;fr_url;fr_r_url;us_url;us_r_url;list
+1;Rare Holo;;Alakazam Obscur;Dark Alakazam;Pokémon;Psychic;65;Ken Sugimori;;https://www.pokepedia.fr/images/thumb/8/8a/Carte_Team_Rocket_1.png/500px-Carte_Team_Rocket_1.png;https://images.pokemontcg.io/base5/1.png;;Team Rocket
+2;Rare Holo;;Arbok Obscur;Dark Arbok;Pokémon;Grass;24;Mitsuhiro Arita;https://www.pokepedia.fr/images/7/7c/Carte_Team_Rocket_2.png;;https://images.pokemontcg.io/base5/2.png;;Team Rocket
+3;Rare Holo;;Tortank Obscur;Dark Blastoise;Pokémon;Water;9;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/3.png;;Team Rocket
+4;Rare Holo;;Dracaufeu Obscur;Dark Charizard;Pokémon;Fire;6;Ken Sugimori;https://www.pokepedia.fr/images/8/84/Carte_Team_Rocket_4.png;;https://images.pokemontcg.io/base5/4.png;;Team Rocket
+5;Rare Holo;;Dracolosse Obscur;Dark Dragonite;Pokémon;Colorless;149;Mitsuhiro Arita;https://www.pokepedia.fr/images/3/3c/Carte_Team_Rocket_5.png;;https://images.pokemontcg.io/base5/5.png;;Team Rocket
+6;Rare Holo;;Triopikeur Obscur;Dark Dugtrio;Pokémon;Fighting;51;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/6.png;;Team Rocket
+7;Rare Holo;;Nosféralto Obscur;Dark Golbat;Pokémon;Grass;42;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/7.png;;Team Rocket
+8;Rare Holo;;Léviator Obscur;Dark Gyarados;Pokémon;Water;130;Kagemaru Himeno;https://www.pokepedia.fr/images/thumb/7/76/Carte_Team_Rocket_8.png/500px-Carte_Team_Rocket_8.png;;https://images.pokemontcg.io/base5/8.png;;Team Rocket
+9;Rare Holo;;Hypnomade Obscur;Dark Hypno;Pokémon;Psychic;97;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/9.png;;Team Rocket
+10;Rare Holo;;Mackogneur Obscur;Dark Machamp;Pokémon;Fighting;68;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/10.png;;Team Rocket
+11;Rare Holo;;Magneton Obscur;Dark Magneton;Pokémon;Lightning;82;Miki Tanaka;;;https://images.pokemontcg.io/base5/11.png;;Team Rocket
+12;Rare Holo;;Flagadoss Obscur;Dark Slowbro;Pokémon;Psychic;80;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/12.png;;Team Rocket
+13;Rare Holo;;Rafflesia Obscur;Dark Vileplume;Pokémon;Grass;45;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/13.png;;Team Rocket
+14;Rare Holo;;Smogogo Obscur;Dark Weezing;Pokémon;Grass;110;Shin-ichi Yoshida;;;https://images.pokemontcg.io/base5/14.png;;Team Rocket
+15;Rare Holo;;Et voila les Team Rocket !;Here Comes Team Rocket!;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/base5/15.png;;Team Rocket
+16;Rare Holo;;Attaque sournoise des Rocket;Rocket's Sneak Attack;Trainer;NoColor;;Ken Sugimori;https://www.pokepedia.fr/images/d/df/Carte_Team_Rocket_16.png;;https://images.pokemontcg.io/base5/16.png;;Team Rocket
+17;Rare Holo;;Énergie Multicolore;Rainbow Energy;Trainer;NoColor;;Takumi Akabane;;;https://images.pokemontcg.io/base5/17.png;;Team Rocket
+18;Rare;;Alakazam Obscur;Dark Alakazam;Pokémon;Psychic;65;Ken Sugimori;;https://www.pokepedia.fr/images/thumb/b/b7/Carte_Team_Rocket_18.png/500px-Carte_Team_Rocket_18.png;https://images.pokemontcg.io/base5/18.png;;Team Rocket
+19;Rare;;Arbok Obscur;Dark Arbok;Pokémon;Grass;24;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/19.png;;Team Rocket
+20;Rare;;Tortank Obscur;Dark Blastoise;Pokémon;Water;9;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/20.png;;Team Rocket
+21;Rare;;Dracaufeu Obscur;Dark Charizard;Pokémon;Fire;6;Ken Sugimori;;;https://images.pokemontcg.io/base5/21.png;;Team Rocket
+22;Rare;;Dracolosse Obscur;Dark Dragonite;Pokémon;Colorless;149;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/22.png;;Team Rocket
+23;Rare;;Triopikeur Obscur;Dark Dugtrio;Pokémon;Fighting;51;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/23.png;;Team Rocket
+24;Rare;;Nosféralto Obscur;Dark Golbat;Pokémon;Grass;42;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/24.png;;Team Rocket
+25;Rare;;Léviator Obscur;Dark Gyarados;Pokémon;Water;130;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/25.png;;Team Rocket
+26;Rare;;Hypnomade Obscur;Dark Hypno;Pokémon;Psychic;97;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/26.png;;Team Rocket
+27;Rare;;Mackogneur Obscur;Dark Machamp;Pokémon;Fighting;68;Mitsuhiro Arita;https://www.coleka.com/media/item/20160624/team-rocket-mackogneur-obscur-27-82.jpg;;https://images.pokemontcg.io/base5/27.png;;Team Rocket
+28;Rare;;Magneton Obscur;Dark Magneton;Pokémon;Lightning;82;Miki Tanaka;;;https://images.pokemontcg.io/base5/28.png;;Team Rocket
+29;Rare;;Flagadoss Obscur;Dark Slowbro;Pokémon;Psychic;80;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/29.png;;Team Rocket
+30;Rare;;Rafflesia Obscur;Dark Vileplume;Pokémon;Grass;45;Kagemaru Himeno;https://www.coleka.com/media/item/20160624/team-rocket-rafflesia-obscur-30-82.jpg;;https://images.pokemontcg.io/base5/30.png;;Team Rocket
+31;Rare;;Smogogo Obscur;Dark Weezing;Pokémon;Grass;110;Shin-ichi Yoshida;https://www.coleka.com/media/item/20160624/team-rocket-smogogo-obscur-31-82.jpg;;https://images.pokemontcg.io/base5/31.png;;Team Rocket
+32;Uncommon;;Reptincel Obscur;Dark Charmeleon;Pokémon;Fire;5;Kagemaru Himeno;https://www.coleka.com/media/item/20160624/team-rocket-reptincel-obscur-32-82.jpg;;https://images.pokemontcg.io/base5/32.png;;Team Rocket
+33;Uncommon;;Draco Obscur;Dark Dragonair;Pokémon;Colorless;148;Kagemaru Himeno;https://www.coleka.com/media/item/20160624/team-rocket-draco-obscur-33-82.jpg;;https://images.pokemontcg.io/base5/33.png;;Team Rocket
+34;Uncommon;;Électrode Obscur;Dark Electrode;Pokémon;Lightning;101;Ken Sugimori;https://www.coleka.com/media/item/20160624/team-rocket-electrode-obscur-34-82.jpg;;https://images.pokemontcg.io/base5/34.png;;Team Rocket
+35;Uncommon;;Pyroli Obscur;Dark Flareon;Pokémon;Fire;136;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/35.png;;Team Rocket
+36;Uncommon;;Ortide Obscur;Dark Gloom;Pokémon;Grass;44;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/36.png;;Team Rocket
+37;Uncommon;;Akwakwak Obscur;Dark Golduck;Pokémon;Water;55;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/37.png;;Team Rocket
+38;Uncommon;;Voltali Obscur;Dark Jolteon;Pokémon;Lightning;135;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/38.png;;Team Rocket
+39;Uncommon;;Kadabra Obscur;Dark Kadabra;Pokémon;Psychic;64;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/39.png;;Team Rocket
+40;Uncommon;;Machopeur Obscur;Dark Machoke;Pokémon;Fighting;67;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/40.png;;Team Rocket
+41;Uncommon;;Grotadmorv Obscur;Dark Muk;Pokémon;Grass;89;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/41.png;;Team Rocket
+42;Uncommon;;Persian Obscur;Dark Persian;Pokémon;Colorless;53;Shin-ichi Yoshida;;;https://images.pokemontcg.io/base5/42.png;;Team Rocket
+43;Uncommon;;Colossinge Obscur;Dark Primeape;Pokémon;Fighting;57;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/43.png;;Team Rocket
+44;Uncommon;;Galopa Obscur;Dark Rapidash;Pokémon;Fire;78;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/44.png;;Team Rocket
+45;Uncommon;;Aquali Obscur;Dark Vaporeon;Pokémon;Water;134;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/45.png;;Team Rocket
+46;Uncommon;;Carabaffe Obscur;Dark Wartortle;Pokémon;Water;8;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/46.png;;Team Rocket
+47;Uncommon;;Magicarpe;Magikarp;Pokémon;Water;129;Kagemaru Himeno;https://www.coleka.com/media/item/20160624/team-rocket-magicarpe-47-82.jpg;;https://images.pokemontcg.io/base5/47.png;;Team Rocket
+48;Uncommon;;Porygon;Porygon;Pokémon;Colorless;137;Keiji Kinebuchi;https://www.coleka.com/media/item/20160624/team-rocket-porygon-48-82.jpg;;https://images.pokemontcg.io/base5/48.png;;Team Rocket
+49;Common;;Abra;Abra;Pokémon;Psychic;63;Sumiyoshi Kizuki;;;https://images.pokemontcg.io/base5/49.png;;Team Rocket
+50;Common;;Salamèche;Charmander;Pokémon;Fire;4;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/50.png;;Team Rocket
+51;Common;;Rattatac Obscur;Dark Raticate;Pokémon;Colorless;20;Shin-ichi Yoshida;;;https://images.pokemontcg.io/base5/51.png;;Team Rocket
+52;Common;;Taupiqueur;Diglett;Pokémon;Fighting;50;Sumiyoshi Kizuki;;;https://images.pokemontcg.io/base5/52.png;;Team Rocket
+53;Common;;Minidraco;Dratini;Pokémon;Colorless;147;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/53.png;;Team Rocket
+54;Common;;Soporifik;Drowzee;Pokémon;Psychic;96;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/54.png;;Team Rocket
+55;Common;;Evoli;Eevee;Pokémon;Colorless;133;Atsuko Nishida;;;https://images.pokemontcg.io/base5/55.png;;Team Rocket
+56;Common;;Abo;Ekans;Pokémon;Grass;23;Ken Sugimori;https://www.coleka.com/media/item/20160624/team-rocket-abo-56-82.jpg;;https://images.pokemontcg.io/base5/56.png;;Team Rocket
+57;Common;;Tadmorv;Grimer;Pokémon;Grass;88;Kagemaru Himeno;https://www.coleka.com/media/item/20160624/team-rocket-tadmorv-57-82.jpg;;https://images.pokemontcg.io/base5/57.png;;Team Rocket
+58;Common;;Smogo;Koffing;Pokémon;Grass;109;Sumiyoshi Kizuki;https://www.coleka.com/media/item/20160624/team-rocket-smogo-58-82.jpg;;https://images.pokemontcg.io/base5/58.png;;Team Rocket
+59;Common;;Machoc;Machop;Pokémon;Fighting;66;Ken Sugimori;;;https://images.pokemontcg.io/base5/59.png;;Team Rocket
+60;Common;;Magneti;Magnemite;Pokémon;Lightning;81;Miki Tanaka;;;https://images.pokemontcg.io/base5/60.png;;Team Rocket
+61;Common;;Férosinge;Mankey;Pokémon;Fighting;56;Sumiyoshi Kizuki;;;https://images.pokemontcg.io/base5/61.png;;Team Rocket
+62;Common;;Miaouss;Meowth;Pokémon;Colorless;52;Atsuko Nishida;;;https://images.pokemontcg.io/base5/62.png;;Team Rocket
+63;Common;;Mystherbe;Oddish;Pokémon;Grass;43;Kagemaru Himeno;;;https://images.pokemontcg.io/base5/63.png;;Team Rocket
+64;Common;;Ponyta;Ponyta;Pokémon;Fire;77;Atsuko Nishida;https://www.coleka.com/media/item/20160624/team-rocket-ponyta-64-82.jpg;;https://images.pokemontcg.io/base5/64.png;;Team Rocket
+65;Common;;Psykokwak;Psyduck;Pokémon;Water;54;Mitsuhiro Arita;https://www.coleka.com/media/item/20160624/team-rocket-psykokwak-65-82.jpg;;https://images.pokemontcg.io/base5/65.png;;Team Rocket
+66;Common;;Rattata;Rattata;Pokémon;Colorless;19;Atsuko Nishida;;;https://images.pokemontcg.io/base5/66.png;;Team Rocket
+67;Common;;Ramoloss;Slowpoke;Pokémon;Psychic;79;Sumiyoshi Kizuki;;;https://images.pokemontcg.io/base5/67.png;;Team Rocket
+68;Common;;Carapuce;Squirtle;Pokémon;Water;7;Atsuko Nishida;;;https://images.pokemontcg.io/base5/68.png;;Team Rocket
+69;Common;;Voltorbe;Voltorb;Pokémon;Lightning;100;Ken Sugimori;https://www.coleka.com/media/item/20160624/team-rocket-voltorbe-69-82.jpg;;https://images.pokemontcg.io/base5/69.png;;Team Rocket
+70;Common;;Nosférapti;Zubat;Pokémon;Grass;41;Mitsuhiro Arita;https://www.coleka.com/media/item/20160624/team-rocket-nosferapti-70-82.jpg;;https://images.pokemontcg.io/base5/70.png;;Team Rocket
+71;Rare;;Et voila les Team Rocket !;Here Comes Team Rocket!;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/base5/71.png;;Team Rocket
+72;Rare;;Attaque sournoise des Rocket;Rocket's Sneak Attack;Trainer;NoColor;;Ken Sugimori;https://www.coleka.com/media/item/20160624/team-rocket-attaque-sournoise-des-rocket-72-82.jpg;;https://images.pokemontcg.io/base5/72.png;;Team Rocket
+73;Uncommon;;A la façon du Boss;The Boss's Way;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/base5/73.png;;Team Rocket
+74;Uncommon;;Défi !;Challenge!;Trainer;NoColor;;Kagemaru Himeno;https://www.coleka.com/media/item/20160624/team-rocket-defi-74-82.jpg;;https://images.pokemontcg.io/base5/74.png;;Team Rocket
+75;Uncommon;;Excavatrice;Digger;Trainer;NoColor;;Sumiyoshi Kizuki;;;https://images.pokemontcg.io/base5/75.png;;Team Rocket
+76;Uncommon;;La revanche de Chen, l'imposteur;Imposter Oak's Revenge;Trainer;NoColor;;Ken Sugimori;https://www.pokepedia.fr/images/a/a1/Carte_Team_Rocket_76.png;;https://images.pokemontcg.io/base5/76.png;;Team Rocket
+77;Uncommon;;Raid nocturne dans les poubelles;Nightly Garbage Run;Trainer;NoColor;;Sumiyoshi Kizuki;https://www.coleka.com/media/item/20160624/team-rocket-raid-nocturne-dans-les-poubelles-77-82.jpg;;https://images.pokemontcg.io/base5/77.png;;Team Rocket
+78;Common;;Attaque au gaz gluant;Goop Gas Attack;Trainer;NoColor;;Sumiyoshi Kizuki;;;https://images.pokemontcg.io/base5/78.png;;Team Rocket
+79;Common;;Bonne nuit, les petits !;Sleep!;Trainer;NoColor;;Sumiyoshi Kizuki;https://www.pokepedia.fr/images/6/61/Carte_Team_Rocket_79.png;;https://images.pokemontcg.io/base5/79.png;;Team Rocket
+80;Rare;;Énergie Multicolore;Rainbow Energy;Energy;NoColor;;Takumi Akabane;;;https://images.pokemontcg.io/base5/80.png;;Team Rocket
+81;Uncommon;;Énergie Guérisseuse;Full Heal Energy;Energy;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/e/e7/Carte_Team_Rocket_81.png;;https://images.pokemontcg.io/base5/81.png;;Team Rocket
+82;Uncommon;;Énergie Potion;Potion Energy;Energy;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/5/52/Carte_Team_Rocket_82.png;;https://images.pokemontcg.io/base5/82.png;;Team Rocket
+83;Secret;;Raichu Obscur;Dark Raichu;Pokémon;Lightning;26;Mitsuhiro Arita;;;https://images.pokemontcg.io/base5/83.png;;Team Rocket

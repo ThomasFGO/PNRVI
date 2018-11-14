@@ -1,6 +1,25 @@
 <div class="container">
-  <h4><%= @ref_card.fr_name %></h4>
-  <p>Numéro Pokédex : <%= @ref_card.pokedex_number unless @ref_card.pokedex_number.nil? %></p>
-  <%= image_tag(@ref_card.fr_url, height: '350')%>
-  <%= link_to "Ajouter", new_ref_card_collection_card_path(@ref_card)%>
+  <% if @ref_card.fr_name.present? %>
+    <h4><%= @ref_card.fr_name %></h4>
+  <% else %>
+    <h4><%= @ref_card.us_name %></h4>
+  <% end %>
+
+
+  <% if @ref_card.pokedex_number.present? %>
+    <p>Numéro Pokédex :<%= @ref_card.pokedex_number %></p>
+  <% end %>
+
+
+  <% if @ref_card.fr_url.present? %>
+    <%= image_tag(@ref_card.fr_url, width: '250', class: "pokemon-card-standard") %>
+    <p>Version normale française</p>
+  <% elsif @ref_card.fr_r_url.present? %>
+    <%= image_tag(@ref_card.fr_r_url, width: '250', class: "pokemon-card-standard") %>
+    <p>Version reverse/édition1 française</p>
+  <% else %>
+    <%= image_tag(@ref_card.us_url, width: '250', class: "pokemon-card-standard") %>
+    <p>Version anglaise</p>
+  <% end %>
+  <%= link_to "Ajouter", new_ref_card_collection_card_path(@ref_card), :class => "btn btn-success"%>
 </div>

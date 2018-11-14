@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   resources :ref_cards, only: [ :index, :show ] do
     resources :collection_cards, only: [ :new, :create ]
   end
-  resources :collection_cards, only: [ :index ]
+  resources :collection_cards, only: [ :index, :destroy ]
 
 end

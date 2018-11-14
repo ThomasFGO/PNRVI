@@ -1,10 +1,17 @@
 <div class="container">
-  <h1>Ajouter <%= @ref_card.fr_name %></h1>
+  <h1><%= @ref_card.fr_name %> ( <%= @ref_card.list.fr_name %> )</h1>
+  <% if @ref_card.fr_url.present? %>
+    <%= image_tag(@ref_card.fr_url, width: '130', class: "pokemon-card") %>
+  <% elsif @ref_card.fr_r_url.present? %>
+    <%= image_tag(@ref_card.fr_r_url, width: '130', class: "pokemon-card") %>
+  <% else %>
+    <%= image_tag(@ref_card.us_url, width: '130', class: "pokemon-card") %>
+  <% end %>
 
   <%= simple_form_for [@ref_card, @collection_card] do |f| %>
-    <%= f.input :reved %>
-    <%= f.input :condition %>
-    <%= f.input :language %>
-    <%= f.submit "add to my collection", class: "btn btn-primary" %>
+    <%= f.input :reved, label: "Reverse / Édition 1" %>
+    <%= f.input :condition, label: "État" %>
+    <%= f.input :language, label: "Lanque" %>
+    <%= f.submit "Ajouter à ma collection", class: "btn btn-primary" %>
   <% end %>
 </div>

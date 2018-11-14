@@ -1,0 +1,183 @@
+number;rarety_type;ultra_type;fr_name;us_name;super_type;energy_type;pokedex_number;artist;fr_url;fr_r_url;us_url;us_r_url;list
+1;Rare;;Pharamp;Ampharos;Pokémon;Lightning;181;Shin-ichi Yoshida;;;https://images.pokemontcg.io/ecard2/1.png;;Aquapolis
+2;Rare;;Arcanin;Arcanine;Pokémon;Fire;59;Kyoko Umemoto;;;https://images.pokemontcg.io/ecard2/2.png;;Aquapolis
+3;Rare;;Migalos;Ariados;Pokémon;Grass;168;Shin-ichi Yoshida;;;https://images.pokemontcg.io/ecard2/3.png;;Aquapolis
+4;Rare;;Azumarill;Azumarill;Pokémon;Water;184;Kagemaru Himeno;;;https://images.pokemontcg.io/ecard2/4.png;;Aquapolis
+5;Rare;;Joliflor;Bellossom;Pokémon;Grass;182;Sumiyoshi Kizuki;;;https://images.pokemontcg.io/ecard2/5.png;;Aquapolis
+6;Rare;;Leuphorie;Blissey;Pokémon;Colorless;242;Naoyo Kimura;;;https://images.pokemontcg.io/ecard2/6.png;;Aquapolis
+7;Rare;;Donphan;Donphan;Pokémon;Fighting;232;Mitsuhiro Arita;;;https://images.pokemontcg.io/ecard2/7.png;;Aquapolis
+8;Rare;;Électrode;Electrode;Pokémon;Lightning;101;Shin-ichi Yoshida;;;https://images.pokemontcg.io/ecard2/8.png;;Aquapolis
+9;Rare;;Elekid;Elekid;Pokémon;Lightning;239;Hikaru Koike;;;https://images.pokemontcg.io/ecard2/9.png;;Aquapolis
+10;Rare;;Entei;Entei;Pokémon;Fire;244;Atsuko Nishida;;;https://images.pokemontcg.io/ecard2/10.png;;Aquapolis
+11;Rare;;Mentali;Espeon;Pokémon;Psychic;196;Kyoko Umemoto;;;https://images.pokemontcg.io/ecard2/11.png;;Aquapolis
+12;Rare;;Noadkoko;Exeggutor;Pokémon;Grass;103;Yukiko Baba;;;https://images.pokemontcg.io/ecard2/12.png;;Aquapolis
+13;Rare;;Noadkoko;Exeggutor;Pokémon;Psychic;103;Sumiyoshi Kizuki;;;https://images.pokemontcg.io/ecard2/13.png;;Aquapolis
+14;Rare;;Démolosse;Houndoom;Pokémon;Fire;229;Naoyo Kimura;;;https://images.pokemontcg.io/ecard2/14.png;;Aquapolis
+15;Rare;;Démolosse;Houndoom;Pokémon;Darkness;229;Hajime Kusajima;;;https://images.pokemontcg.io/ecard2/15.png;;Aquapolis
+16;Rare;;Hypnomade;Hypno;Pokémon;Psychic;97;Mitsuhiro Arita;;;https://images.pokemontcg.io/ecard2/16.png;;Aquapolis
+17;Rare;;Cotovol;Jumpluff;Pokémon;Grass;189;Yuka Morii;;;https://images.pokemontcg.io/ecard2/17.png;;Aquapolis
+18;Rare;;Lippoutou;Jynx;Pokémon;Psychic;124;Hisao Nakamura;;;https://images.pokemontcg.io/ecard2/18.png;;Aquapolis
+19;Rare;;Hyporoi;Kingdra;Pokémon;Water;230;Atsuko Nishida;;;https://images.pokemontcg.io/ecard2/19.png;;Aquapolis
+20;Rare;;Lanturn;Lanturn;Pokémon;Water;171;Mitsuhiro Arita;;;https://images.pokemontcg.io/ecard2/20.png;;Aquapolis
+21;Rare;;Lanturn;Lanturn;Pokémon;Lightning;171;Yuka Morii;;;https://images.pokemontcg.io/ecard2/21.png;;Aquapolis
+22;Rare;;Magneton;Magneton;Pokémon;Metal;82;Hikaru Koike;;;https://images.pokemontcg.io/ecard2/22.png;;Aquapolis
+23;Rare;;Grotadmorv;Muk;Pokémon;Grass;89;Hajime Kusajima;;;https://images.pokemontcg.io/ecard2/23.png;;Aquapolis
+24;Rare;;Nidoking;Nidoking;Pokémon;Fighting;34;Naoyo Kimura;;;https://images.pokemontcg.io/ecard2/24.png;;Aquapolis
+25;Rare;;Feunard;Ninetales;Pokémon;Fire;38;Kagemaru Himeno;;;https://images.pokemontcg.io/ecard2/25.png;;Aquapolis
+26;Rare;;Octillery;Octillery;Pokémon;Water;224;Kouki Saitou;;;https://images.pokemontcg.io/ecard2/26.png;;Aquapolis
+27;Rare;;Parasect;Parasect;Pokémon;Grass;47;Masako Yamashita;;;https://images.pokemontcg.io/ecard2/27.png;;Aquapolis
+28;Rare;;Porygon2;Porygon2;Pokémon;Colorless;233;Hikaru Koike;;;https://images.pokemontcg.io/ecard2/28.png;;Aquapolis
+29;Rare;;Colossinge;Primeape;Pokémon;Fighting;57;Tomokazu Komiya;;;https://images.pokemontcg.io/ecard2/29.png;;Aquapolis
+30;Rare;;Maraiste;Quagsire;Pokémon;Water;195;Mitsuhiro Arita;;;https://images.pokemontcg.io/ecard2/30.png;;Aquapolis
+31;Rare;;Galopa;Rapidash;Pokémon;Fire;78;Kouki Saitou;;;https://images.pokemontcg.io/ecard2/31.png;;Aquapolis
+32;Rare;;Cizayox;Scizor;Pokémon;Metal;212;Hisao Nakamura;;;https://images.pokemontcg.io/ecard2/32.png;;Aquapolis
+33;Rare;;Flagadoss;Slowbro;Pokémon;Water;80;Aya Kusube;;;https://images.pokemontcg.io/ecard2/33.png;;Aquapolis
+34;Rare;;Roigada;Slowking;Pokémon;Psychic;199;Aya Kusube;;;https://images.pokemontcg.io/ecard2/34.png;;Aquapolis
+35;Rare;;Steelix;Steelix;Pokémon;Metal;208;Hajime Kusajima;;;https://images.pokemontcg.io/ecard2/35.png;;Aquapolis
+36;Rare;;Simularbre;Sudowoodo;Pokémon;Fighting;185;Kagemaru Himeno;;;https://images.pokemontcg.io/ecard2/36.png;;Aquapolis
+37;Rare;;Suicune;Suicune;Pokémon;Water;245;Atsuko Nishida;;;https://images.pokemontcg.io/ecard2/37.png;;Aquapolis
+38;Rare;;Tentacruel;Tentacruel;Pokémon;Water;73;Hajime Kusajima;;;https://images.pokemontcg.io/ecard2/38.png;;Aquapolis
+39;Rare;;Togetic;Togetic;Pokémon;Colorless;176;Kagemaru Himeno;;;https://images.pokemontcg.io/ecard2/39.png;;Aquapolis
+40;Rare;;Tyranocif;Tyranitar;Pokémon;Darkness;248;Naoyo Kimura;;;https://images.pokemontcg.io/ecard2/40.png;;Aquapolis
+41;Rare;;Noctali;Umbreon;Pokémon;Darkness;197;Mitsuhiro Arita;;;https://images.pokemontcg.io/ecard2/41.png;;Aquapolis
+42;Rare;;Empiflor;Victreebel;Pokémon;Grass;71;Miki Tanaka;;;https://images.pokemontcg.io/ecard2/42.png;;Aquapolis
+43;Rare;;Rafflésia;Vileplume;Pokémon;Grass;45;Kyoko Umemoto;;;https://images.pokemontcg.io/ecard2/43.png;;Aquapolis
+44;Rare;;Electhor;Zapdos;Pokémon;Lightning;145;Hajime Kusajima;;;https://images.pokemontcg.io/ecard2/44.png;;Aquapolis
+45;Uncommon;;Chétiflor;Bellsprout;Pokémon;Grass;69;Masako Yamashita;;;https://images.pokemontcg.io/ecard2/45.png;;Aquapolis
+46;Uncommon;;Dodrio;Dodrio;Pokémon;Colorless;85;Yukiko Baba;;;https://images.pokemontcg.io/ecard2/46.png;;Aquapolis
+47;Uncommon;;Lainergie;Flaaffy;Pokémon;Lightning;180;Shin-ichi Yoshida;;;https://images.pokemontcg.io/ecard2/47.png;;Aquapolis
+48;Uncommon;;Fouinar;Furret;Pokémon;Colorless;162;Atsuko Nishida;;;https://images.pokemontcg.io/ecard2/48.png;;Aquapolis
+49;Uncommon;;Ortide;Gloom;Pokémon;Grass;44;Kyoko Umemoto;;;https://images.pokemontcg.io/ecard2/49.png;;Aquapolis
+50;Uncommon;;Akwakwak;Golduck;Pokémon;Water;55;Sumiyoshi Kizuki;;;https://images.pokemontcg.io/ecard2/50.png;;Aquapolis
+51;Uncommon;;Caninos;Growlithe;Pokémon;Fire;58;Kyoko Umemoto;;;https://images.pokemontcg.io/ecard2/51.png;;Aquapolis
+52;Uncommon;;Magneti;Magnemite;Pokémon;Metal;81;Shin-ichi Yoshida;;;https://images.pokemontcg.io/ecard2/52.png;;Aquapolis
+53;Uncommon;;Marill;Marill;Pokémon;Water;183;Yukiko Baba;;;https://images.pokemontcg.io/ecard2/53.png;;Aquapolis
+54;Uncommon;;Ossatueur;Marowak;Pokémon;Fighting;105;Kagemaru Himeno;;;https://images.pokemontcg.io/ecard2/54.png;;Aquapolis
+55;Uncommon;;Nidorino;Nidorino;Pokémon;Grass;33;Kagemaru Himeno;;;https://images.pokemontcg.io/ecard2/55.png;;Aquapolis
+56;Uncommon;;Ymphect;Pupitar;Pokémon;Fighting;247;Naoyo Kimura;;;https://images.pokemontcg.io/ecard2/56.png;;Aquapolis
+57;Uncommon;;Insécateur;Scyther;Pokémon;Grass;123;Hisao Nakamura;;;https://images.pokemontcg.io/ecard2/57.png;;Aquapolis
+58;Uncommon;;Hypocéan;Seadra;Pokémon;Water;117;Mitsuhiro Arita;;;https://images.pokemontcg.io/ecard2/58.png;;Aquapolis
+59;Uncommon;;Poissoroy;Seaking;Pokémon;Water;119;Sumiyoshi Kizuki;;;https://images.pokemontcg.io/ecard2/59.png;;Aquapolis
+60;Uncommon;;Floravol;Skiploom;Pokémon;Grass;188;Yuka Morii;;;https://images.pokemontcg.io/ecard2/60.png;;Aquapolis
+61;Uncommon;;Lippouti;Smoochum;Pokémon;Psychic;238;Kagemaru Himeno;;;https://images.pokemontcg.io/ecard2/61.png;;Aquapolis
+62;Uncommon;;Mimigal;Spinarak;Pokémon;Grass;167;Masako Yamashita;;;https://images.pokemontcg.io/ecard2/62.png;;Aquapolis
+63;Uncommon;;Debugant;Tyrogue;Pokémon;Fighting;236;Tomokazu Komiya;;;https://images.pokemontcg.io/ecard2/63.png;;Aquapolis
+64;Uncommon;;Voltorbe;Voltorb;Pokémon;Lightning;100;Yukiko Baba;;;https://images.pokemontcg.io/ecard2/64.png;;Aquapolis
+65;Uncommon;;Boustiflor;Weepinbell;Pokémon;Grass;70;Miki Tanaka;;;https://images.pokemontcg.io/ecard2/65.png;;Aquapolis
+66;Uncommon;;Axoloto;Wooper;Pokémon;Water;194;Atsuko Nishida;;;https://images.pokemontcg.io/ecard2/66.png;;Aquapolis
+67;Common;;Capumain;Aipom;Pokémon;Colorless;190;Kagemaru Himeno;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209848.jpg;;Aquapolis
+68;Common;;Chétiflor;Bellsprout;Pokémon;Grass;69;Keiko Fukuyama;;;https://images.pokemontcg.io/ecard2/68.png;;Aquapolis
+69;Common;;Leveinard;Chansey;Pokémon;Colorless;113;Atsuko Nishida;;;https://images.pokemontcg.io/ecard2/69.png;;Aquapolis
+70;Common;;Loupio;Chinchou;Pokémon;Water;170;Yuka Morii;;;https://images.pokemontcg.io/ecard2/70.png;;Aquapolis
+71;Common;;Loupio;Chinchou;Pokémon;Lightning;170;Hisao Nakamura;;;https://images.pokemontcg.io/ecard2/71.png;;Aquapolis
+72;Common;;Osselait;Cubone;Pokémon;Fighting;104;Midori Harada;;;https://images.pokemontcg.io/ecard2/72.png;;Aquapolis
+73;Common;;Doduo;Doduo;Pokémon;Colorless;84;Yukiko Baba;;;https://images.pokemontcg.io/ecard2/73.png;;Aquapolis
+74;Common;;Soporifik;Drowzee;Pokémon;Psychic;96;Hisao Nakamura;;;https://images.pokemontcg.io/ecard2/74.png;;Aquapolis
+75;Common;;Evoli;Eevee;Pokémon;Colorless;133;Midori Harada;;;https://images.pokemontcg.io/ecard2/75.png;;Aquapolis
+76;Common;;Noeunoeuf;Exeggcute;Pokémon;Grass;102;Yukiko Baba;;;https://images.pokemontcg.io/ecard2/76.png;;Aquapolis
+77;Common;;Noeunoeuf;Exeggcute;Pokémon;Psychic;102;Sumiyoshi Kizuki;;;https://images.pokemontcg.io/ecard2/77.png;;Aquapolis
+78;Common;;Poissirène;Goldeen;Pokémon;Water;118;Miki Tanaka;;;https://images.pokemontcg.io/ecard2/78.png;;Aquapolis
+79;Common;;Tadmorv;Grimer;Pokémon;Grass;88;Keiji Kinebuchi;;;https://images.pokemontcg.io/ecard2/79.png;;Aquapolis
+80;Common;;Caninos;Growlithe;Pokémon;Fire;58;Yukiko Baba;;;https://images.pokemontcg.io/ecard2/80.png;;Aquapolis
+81;Common;;Tygnon;Hitmonchan;Pokémon;Fighting;107;Tomokazu Komiya;;;https://images.pokemontcg.io/ecard2/81.png;;Aquapolis
+82;Common;;Kapoera;Hitmontop;Pokémon;Fighting;237;Tomokazu Komiya;;;https://images.pokemontcg.io/ecard2/82.png;;Aquapolis
+83;Common;;Granivol;Hoppip;Pokémon;Grass;187;Yuka Morii;;;https://images.pokemontcg.io/ecard2/83.png;;Aquapolis
+84;Common;;Hypotrempe;Horsea;Pokémon;Water;116;Hisao Nakamura;;;https://images.pokemontcg.io/ecard2/84.png;;Aquapolis
+85;Common;;Hypotrempe;Horsea;Pokémon;Water;116;Atsuko Nishida;;;https://images.pokemontcg.io/ecard2/85.png;;Aquapolis
+86;Common;;Malosse;Houndour;Pokémon;Fire;228;Midori Harada;;;https://images.pokemontcg.io/ecard2/86.png;;Aquapolis
+87;Common;;Malosse;Houndour;Pokémon;Darkness;228;Atsuko Nishida;;;https://images.pokemontcg.io/ecard2/87.png;;Aquapolis
+88;Common;;Kangourex;Kangaskhan;Pokémon;Colorless;115;Toshinao Aoki;;;https://images.pokemontcg.io/ecard2/88.png;;Aquapolis
+89;Common;;Embrylex;Larvitar;Pokémon;Fighting;246;Naoyo Kimura;;;https://images.pokemontcg.io/ecard2/89.png;;Aquapolis
+90;Common;;Excelangue;Lickitung;Pokémon;Colorless;108;Yuka Morii;;;https://images.pokemontcg.io/ecard2/90.png;;Aquapolis
+91;Common;;Magneti;Magnemite;Pokémon;Lightning;81;Hajime Kusajima;;;https://images.pokemontcg.io/ecard2/91.png;;Aquapolis
+92;Common;;Férosinge;Mankey;Pokémon;Fighting;56;Tomokazu Komiya;;;https://images.pokemontcg.io/ecard2/92.png;;Aquapolis
+93;Common;;Wattouat;Mareep;Pokémon;Lightning;179;Hizuki Misono;;;https://images.pokemontcg.io/ecard2/93.png;;Aquapolis
+94;Common;;Ecrémeuh;Miltank;Pokémon;Colorless;241;Kouki Saitou;;;https://images.pokemontcg.io/ecard2/94.png;;Aquapolis
+95;Common;;M. Mime;Mr. Mime;Pokémon;Psychic;122;Yukiko Baba;;;https://images.pokemontcg.io/ecard2/95.png;;Aquapolis
+96;Common;;Nidoran M;Nidoran♂;Pokémon;Grass;32;Keiko Fukuyama;;;https://images.pokemontcg.io/ecard2/96.png;;Aquapolis
+97;Common;;Mystherbe;Oddish;Pokémon;Grass;43;Kyoko Umemoto;;;https://images.pokemontcg.io/ecard2/97.png;;Aquapolis
+98;Common;;Onix;Onix;Pokémon;Fighting;95;Hajime Kusajima;;;https://images.pokemontcg.io/ecard2/98.png;;Aquapolis
+99;Common;;Paras;Paras;Pokémon;Grass;46;Miki Tanaka;;;https://images.pokemontcg.io/ecard2/99.png;;Aquapolis
+100;Common;;Phanpy;Phanpy;Pokémon;Fighting;231;Naoyo Kimura;;;https://images.pokemontcg.io/ecard2/100.png;;Aquapolis
+101;Common;;Scarabrute;Pinsir;Pokémon;Grass;127;Toshinao Aoki;;;https://images.pokemontcg.io/ecard2/101.png;;Aquapolis
+102;Common;;Ponyta;Ponyta;Pokémon;Fire;77;Shin-ichi Yoshida;;;https://images.pokemontcg.io/ecard2/102.png;;Aquapolis
+103;Common;;Porygon;Porygon;Pokémon;Colorless;137;Masako Yamashita;;;https://images.pokemontcg.io/ecard2/103.png;;Aquapolis
+104;Common;;Psykokwak;Psyduck;Pokémon;Water;54;Keiko Fukuyama;;;https://images.pokemontcg.io/ecard2/104.png;;Aquapolis
+105;Common;;Remoraid;Remoraid;Pokémon;Water;223;Mitsuhiro Arita;;;https://images.pokemontcg.io/ecard2/105.png;;Aquapolis
+106;Common;;Insécateur;Scyther;Pokémon;Grass;123;Midori Harada;;;https://images.pokemontcg.io/ecard2/106.png;;Aquapolis
+107;Common;;Fouinette;Sentret;Pokémon;Colorless;161;Hizuki Misono;;;https://images.pokemontcg.io/ecard2/107.png;;Aquapolis
+108;Common;;Ramoloss;Slowpoke;Pokémon;Water;79;Aya Kusube;;;https://images.pokemontcg.io/ecard2/108.png;;Aquapolis
+109;Common;;Queulorior;Smeargle;Pokémon;Colorless;235;Miki Tanaka;;;https://images.pokemontcg.io/ecard2/109.png;;Aquapolis
+110;Common;;Farfuret;Sneasel;Pokémon;Darkness;215;Midori Harada;;;https://images.pokemontcg.io/ecard2/110.png;;Aquapolis
+111;Common;;Mimigal;Spinarak;Pokémon;Grass;167;Miki Tanaka;;;https://images.pokemontcg.io/ecard2/111.png;;Aquapolis
+112;Common;;Saquedeneu;Tangela;Pokémon;Grass;114;Tomokazu Komiya;;;https://images.pokemontcg.io/ecard2/112.png;;Aquapolis
+113;Common;;Tentacool;Tentacool;Pokémon;Water;72;Hajime Kusajima;;;https://images.pokemontcg.io/ecard2/113.png;;Aquapolis
+114;Common;;Togepi;Togepi;Pokémon;Colorless;175;Miki Tanaka;;;https://images.pokemontcg.io/ecard2/114.png;;Aquapolis
+115;Common;;Voltorbe;Voltorb;Pokémon;Lightning;100;Keiji Kinebuchi;;;https://images.pokemontcg.io/ecard2/115.png;;Aquapolis
+116;Common;;Goupix;Vulpix;Pokémon;Fire;37;Keiko Fukuyama;;;https://images.pokemontcg.io/ecard2/116.png;;Aquapolis
+117;Common;;Axoloto;Wooper;Pokémon;Water;194;Keiko Fukuyama;;;https://images.pokemontcg.io/ecard2/117.png;;Aquapolis
+118;Rare;;Forêt de Noigrumes;Apricorn Forest;Trainer;NoColor;;Midori Harada;;;https://images.pokemontcg.io/ecard2/118.png;;Aquapolis
+119;Uncommon;;Cube d'Obscurité 01;Darkness Cube 01;Trainer;NoColor;;;;;https://images.pokemontcg.io/ecard2/119.png;;Aquapolis
+120;Uncommon;;Échange d'énergie;Energy Switch;Trainer;NoColor;;Mikio Menjo;;;https://images.pokemontcg.io/ecard2/120.png;;Aquapolis
+121;Uncommon;;Cube de Combat 01;Fighting Cube 01;Trainer;NoColor;;;;;https://images.pokemontcg.io/ecard2/121.png;;Aquapolis
+122;Uncommon;;Cube de Feu 01;Fire Cube 01;Trainer;NoColor;;Big Mama Tagawa;;;https://images.pokemontcg.io/ecard2/122.png;;Aquapolis
+123;Uncommon;;Gardien de la Forêt;Forest Guardian;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/ecard2/123.png;;Aquapolis
+124;Uncommon;;Cube Plante 01;Grass Cube 01;Trainer;NoColor;;Big Mama Tagawa;;;https://images.pokemontcg.io/ecard2/124.png;;Aquapolis
+125;Uncommon;;Baie de Soin;Healing Berry;Trainer;NoColor;;Shin-ichi Yoshida;;;https://images.pokemontcg.io/ecard2/125.png;;Aquapolis
+126;Uncommon;;Jongleur;Juggler;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/ecard2/126.png;;Aquapolis
+127;Uncommon;;Cube Electrik 01;Lightning Cube 01;Trainer;NoColor;;;;;https://images.pokemontcg.io/ecard2/127.png;;Aquapolis
+128;Uncommon;;Baie de Mémoire;Memory Berry;Trainer;NoColor;;Shin-ichi Yoshikawa;;;https://images.pokemontcg.io/ecard2/128.png;;Aquapolis
+129;Uncommon;;Cube de Métal 01;Metal Cube 01;Trainer;NoColor;;;;;https://images.pokemontcg.io/ecard2/129.png;;Aquapolis
+130;Uncommon;;Fan Club Pokémon;Pokémon Fan Club;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/ecard2/130.png;;Aquapolis
+131;Uncommon;;Parc Pokémon;Pokémon Park;Trainer;NoColor;;Kazuo Yazawa;;;https://images.pokemontcg.io/ecard2/131.png;;Aquapolis
+132;Uncommon;;Cube Psy 01;Psychic Cube 01;Trainer;NoColor;;;;;https://images.pokemontcg.io/ecard2/132.png;;Aquapolis
+133;Uncommon;;Superviseur;Seer;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/ecard2/133.png;;Aquapolis
+134;Uncommon;;Super Suppression d'énergie 2;Super Energy Removal 2;Trainer;NoColor;;Keiji Kinebuchi;;;https://images.pokemontcg.io/ecard2/134.png;;Aquapolis
+135;Uncommon;;Echarde temporelle;Time Shard;Trainer;NoColor;;Shin-ichi Yoshikawa;;;https://images.pokemontcg.io/ecard2/135.png;;Aquapolis
+136;Uncommon;;Volontaires de la ville;Town Volunteers;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/ecard2/136.png;;Aquapolis
+137;Uncommon;;Représentant de Commerce;Traveling Salesman;Trainer;NoColor;;Ken Sugimori;;;https://images.pokemontcg.io/ecard2/137.png;;Aquapolis
+138;Uncommon;;Ruines Sous-marines;Undersea Ruins;Trainer;NoColor;;Midori Harada;;;https://images.pokemontcg.io/ecard2/138.png;;Aquapolis
+139;Uncommon;;Centrale d'énergie;Power Plant;Trainer;NoColor;;Kai Ishikawa;;;https://images.pokemontcg.io/ecard2/139.png;;Aquapolis
+140;Uncommon;;Cube d'Eau 01;Water Cube 01;Trainer;NoColor;;;;;https://images.pokemontcg.io/ecard2/140.png;;Aquapolis
+141;Uncommon;;Garde faiblesse;Weakness Guard;Trainer;NoColor;;Jungo Suzuki;;;https://images.pokemontcg.io/ecard2/141.png;;Aquapolis
+142;Rare;;Énergie Obscurité;Darkness Energy;Energy;NoColor;;Milky Isobe;;;https://images.pokemontcg.io/ecard2/142.png;;Aquapolis
+143;Rare;;Énergie Métal;Metal Energy;Energy;NoColor;;Milky Isobe;;;https://images.pokemontcg.io/ecard2/143.png;;Aquapolis
+144;Rare;;Énergie Multicolore;Rainbow Energy;Energy;NoColor;;Takumi Akabane;;;https://images.pokemontcg.io/ecard2/144.png;;Aquapolis
+145;Uncommon;;Énergie Super;Boost Energy;Energy;NoColor;;Shin-ichi Yoshikawa;;;https://images.pokemontcg.io/ecard2/145.png;;Aquapolis
+146;Uncommon;;Énergie Cristal;Crystal Energy;Energy;NoColor;;Shin-ichi Yoshikawa;;;https://images.pokemontcg.io/ecard2/146.png;;Aquapolis
+147;Uncommon;;Energie de Distorsion;Warp Energy;Energy;NoColor;;Keiji Kinebuchi;;;https://images.pokemontcg.io/ecard2/147.png;;Aquapolis
+148;Secret;Cristal;Hyporoi;Kingdra;Pokémon;Colorless;230;Mikio Menjo;;;https://images.pokemontcg.io/ecard2/148.png;;Aquapolis
+149;Secret;Cristal;Lugia;Lugia;Pokémon;Colorless;249;Naoyo Kimura;;;https://images.pokemontcg.io/ecard2/149.png;;Aquapolis
+150;Secret;Cristal;Nidoking;Nidoking;Pokémon;Colorless;34;Hironobu Yoshida;;;https://images.pokemontcg.io/ecard2/150.png;;Aquapolis
+H1/H32;Rare Holo;;Pharamp;Ampharos;Pokémon;Lightning;181;Shin-ichi Yoshida;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209850.jpg;;Aquapolis
+H2/H32;Rare Holo;;Arcanin;Arcanine;Pokémon;Fire;59;Kyoko Umemoto;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209853.jpg;;Aquapolis
+H3/H32;Rare Holo;;Migalos;Ariados;Pokémon;Grass;168;Shin-ichi Yoshida;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209855.jpg;;Aquapolis
+H4/H32;Rare Holo;;Azumarill;Azumarill;Pokémon;Water;184;Kagemaru Himeno;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209857.jpg;;Aquapolis
+H5/H32;Rare Holo;;Joliflor;Bellossom;Pokémon;Grass;182;Sumiyoshi Kizuki;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209859.jpg;;Aquapolis
+H6/H32;Rare Holo;;Leuphorie;Blissey;Pokémon;Colorless;242;Naoyo Kimura;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209863.jpg;;Aquapolis
+H7/H32;Rare Holo;;Électrode;Electrode;Pokémon;Lightning;101;Shin-ichi Yoshida;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209878.jpg;;Aquapolis
+H8/H32;Rare Holo;;Entei;Entei;Pokémon;Fire;244;Atsuko Nishida;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209882.jpg;;Aquapolis
+H9/H32;Rare Holo;;Mentali;Espeon;Pokémon;Psychic;196;Kyoko Umemoto;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209884.jpg;;Aquapolis
+H10/H32;Rare Holo;;Noadkoko;Exeggutor;Pokémon;Grass;103;Yukiko Baba;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209889.jpg;;Aquapolis
+H11/H32;Rare Holo;;Démolosse;Houndoom;Pokémon;Darkness;229;Hajime Kusajima;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209910.jpg;;Aquapolis
+H12/H32;Rare Holo;;Hypnomade;Hypno;Pokémon;Psychic;97;Mitsuhiro Arita;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209914.jpg;;Aquapolis
+H13/H32;Rare Holo;;Cotovol;Jumpluff;Pokémon;Grass;189;Yuka Morii;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209917.jpg;;Aquapolis
+H14/H32;Rare Holo;;Hyporoi;Kingdra;Pokémon;Water;230;Atsuko Nishida;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209922.jpg;;Aquapolis
+H15/H32;Rare Holo;;Lanturn;Lanturn;Pokémon;Lightning;171;Yuka Morii;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209925.jpg;;Aquapolis
+H16/H32;Rare Holo;;Magneton;Magneton;Pokémon;Metal;82;Hikaru Koike;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209933.jpg;;Aquapolis
+H17/H32;Rare Holo;;Grotadmorv;Muk;Pokémon;Grass;89;Hajime Kusajima;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209944.jpg;;Aquapolis
+H18/H32;Rare Holo;;Nidoking;Nidoking;Pokémon;Fighting;34;Naoyo Kimura;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209947.jpg;;Aquapolis
+H19/H32;Rare Holo;;Feunard;Ninetales;Pokémon;Fire;38;Kagemaru Himeno;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209951.jpg;;Aquapolis
+H20/H32;Rare Holo;;Octillery;Octillery;Pokémon;Water;224;Kouki Saitou;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209953.jpg;;Aquapolis
+H21/H32;Rare Holo;;Cizayox;Scizor;Pokémon;Metal;212;Hisao Nakamura;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209975.jpg;;Aquapolis
+H22/H32;Rare Holo;;Roigada;Slowking;Pokémon;Psychic;199;Aya Kusube;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209985.jpg;;Aquapolis
+H23/H32;Rare Holo;;Steelix;Steelix;Pokémon;Metal;208;Hajime Kusajima;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209993.jpg;;Aquapolis
+H24/H32;Rare Holo;;Simularbre;Sudowoodo;Pokémon;Fighting;185;Kagemaru Himeno;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209995.jpg;;Aquapolis
+H25/H32;Rare Holo;;Suicune;Suicune;Pokémon;Water;245;Atsuko Nishida;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/209997.jpg;;Aquapolis
+H26/H32;Rare Holo;;Tentacruel;Tentacruel;Pokémon;Water;73;Hajime Kusajima;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/210002.jpg;;Aquapolis
+H27/H32;Rare Holo;;Togetic;Togetic;Pokémon;Colorless;176;Kagemaru Himeno;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/210006.jpg;;Aquapolis
+H28/H32;Rare Holo;;Tyranocif;Tyranitar;Pokémon;Darkness;248;Naoyo Kimura;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/210010.jpg;;Aquapolis
+H29/H32;Rare Holo;;Noctali;Umbreon;Pokémon;Darkness;197;Mitsuhiro Arita;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/210013.jpg;;Aquapolis
+H30/H32;Rare Holo;;Empiflor;Victreebel;Pokémon;Grass;71;Miki Tanaka;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/210016.jpg;;Aquapolis
+H31/H32;Rare Holo;;Rafflésia;Vileplume;Pokémon;Grass;45;Kyoko Umemoto;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/210018.jpg;;Aquapolis
+H32/H32;Rare Holo;;Electhor;Zapdos;Pokémon;Lightning;145;Hajime Kusajima;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/210029.jpg;;Aquapolis
