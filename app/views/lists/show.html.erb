@@ -2,7 +2,10 @@
 
 
   <div class="card-header-list">
-    <h4><%= @list.fr_name %> <%= image_tag(@list.symbol_url, height: '25')%> <%= image_tag(@list.fr_logo_url, height: '100') %></h4>
+    <h4>
+      <%= @list.fr_name %> <%= image_tag(@list.symbol_url, class: "symbol-list")%>
+      <%= image_tag(@list.fr_logo_url, class: "logo-list-standard") %>
+    </h4>
     <p>Sortie aux États-Unis le <%= @list.us_release_date %>
       / Cette série contient <%= @list.size %> cartes
       <% if @list.ref_cards.where(rarety_type: "Secret").count > 1 %>

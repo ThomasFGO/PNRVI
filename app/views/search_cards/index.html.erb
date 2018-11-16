@@ -9,14 +9,44 @@
       <% @lists.each do |list| %>
 
           <% if list.search_cards.count > 0 %>
+
             <div class="collection-item">
               <%= list.fr_name %>
               <%= image_tag(list.symbol_url, height: '20')%>
-              <%= list.search_cards.count %> cartes
+              <%= list.search_cards.count %>
+              <% if list.search_cards.count > 1%>
+                cartes
+              <% else %>
+                carte
+              <% end %>
             </div>
+
+            <% list.search_cards.order("ref_card_id asc").each do |search_card| %>
+              <p>
+                <%= link_to search_card_path(search_card) do %>
+                  <% if search_card.ref_card.fr_url.present? %>
+                    <%= image_tag(search_card.ref_card.fr_url, class: "pokemon-card-micro") %>
+                  <% elsif search_card.ref_card.fr_r_url.present? %>
+                    <%= image_tag(search_card.ref_card.fr_r_url, class: "pokemon-card-micro") %>
+                  <% else %>
+                    <%= image_tag(search_card.ref_card.us_url, class: "pokemon-card-micro") %>
+                  <% end %>
+                <% end  %>
+
+                <% if search_card.ref_card.fr_name.present? %>
+                  <%= search_card.ref_card.fr_name %>
+                <% else %>
+                  <%= search_card.ref_card.us_name %>
+                <% end %>
+              </p>
+            <% end  %>
+
+
           <% end  %>
 
       <% end %>
+
+
 
   </div>
 </div>

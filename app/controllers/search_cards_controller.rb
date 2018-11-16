@@ -5,6 +5,10 @@ class SearchCardsController < ApplicationController
     @search_cards = SearchCard.all
   end
 
+  def show
+    @search_card = SearchCard.find(params[:id])
+  end
+
   def new
     @ref_card = RefCard.find(params[:ref_card_id])
     @search_card = SearchCard.new

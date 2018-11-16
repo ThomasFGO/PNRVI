@@ -6,7 +6,7 @@
   width: 230px;
   height: 90px;
   display: flex;
-  border: 5px solid $yellow;
+  border: 6px solid $yellow;
   border-radius: 6px;
   box-shadow: 2px 2px 5px black;
   justify-content: space-around;
@@ -15,25 +15,44 @@
   //padding: 10px 10px;
 }
 
-.logo-list {
+.symbol-list {
+  height: 20px;
+}
+
+.logo-list-mini {
   max-height: 70px;
   max-width: 160px;
 }
 
-.pokemon-card-mini {
-  border-radius: 6px;
+.logo-list-standard {
+  max-height: 100px;
+  max-width: 320px;
+}
+
+.pokemon-card-micro {
   box-shadow: 2px 2px 5px black;
+  border-radius: 3px;
+  width: 50px;
+}
+
+.pokemon-card-mini {
+  box-shadow: 2px 2px 5px black;
+  border-radius: 6px;
+  width: 130px;
 }
 
 .pokemon-card-mini:hover {
-  height: 220px;
-  width: 154px;
+  box-shadow: 2px 2px 5px black;
   border-radius: 7px;
+  width: 140px;
 }
 .pokemon-card-standard {
-  border-radius: 11px;
   box-shadow: 2px 2px 5px black;
+  border-radius: 11px;
+  width: 217px;
 }
+
+
 
 .card {
   width: 350px;
@@ -45,7 +64,7 @@
 }
 
 .card-header-list {
-  border: 5px solid $yellow;
+  border: 6px solid $yellow;
   border-radius: 5px;
   box-shadow: 2px 2px 5px black;
   padding: 10px 50px;
@@ -53,11 +72,11 @@
 }
 
 .collection-item {
-  border: 5px solid $yellow;
+  border: 6px solid $yellow;
   border-radius: 5px;
   box-shadow: 2px 2px 5px black;
   padding: 10px 50px;
-  margin-bottom: 15px;
+  margin: 15px 5px;
 }
 
 .card-ref {

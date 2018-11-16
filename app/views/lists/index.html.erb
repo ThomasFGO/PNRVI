@@ -9,8 +9,8 @@
             <div class="col-md-3">
               <div class="bloc-list-card">
                 <%= link_to list_path(list) do %>
-                  <% if list.fr_logo_url.present? %><%= image_tag(list.fr_logo_url, class: "logo-list")%> <% end %>
-                  <% if list.symbol_url.present? %><%= image_tag(list.symbol_url, height: '20')%> <% end %>
+                  <% if list.fr_logo_url.present? %><%= image_tag(list.fr_logo_url, class: "logo-list-mini")%> <% end %>
+                  <% if list.symbol_url.present? %><%= image_tag(list.symbol_url, class: "symbol-list")%> <% end %>
                 <% end  %>
               </div>
             </div>
