@@ -21,6 +21,6 @@
     <%= image_tag(@ref_card.us_url, class: "pokemon-card-standard") %>
     <p>Version anglaise</p>
   <% end %>
-  <%# link_to "Je l'ai !", new_ref_card_collection_card_path(@ref_card), :class => "btn btn-success"%>
+  <%= link_to "Je l'ai !", new_ref_card_collection_card_path(@ref_card), :class => "btn btn-success"%>
   <%= link_to "Rechercher", new_ref_card_search_card_path(@ref_card), :class => "btn btn-success"%>
 </div>

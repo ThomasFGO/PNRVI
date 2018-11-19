@@ -7,6 +7,7 @@ class CollectionCardsController < ApplicationController
 
   def show
     @collection_card = CollectionCard.find(params[:id])
+    @pictures = Picture.all
   end
 
   def new

@@ -5,11 +5,8 @@
     <h4><%= @collection_card.ref_card.us_name %></h4>
   <% end %>
 
-
-  <% if @collection_card.ref_card.pokedex_number.present? %>
-    <p>Numéro Pokédex : <%= @collection_card.ref_card.pokedex_number %></p>
-  <% end %>
-
+  <p> État : <%= @collection_card.condition %>/10 </p>
+  <p> Langue : <%= @collection_card.language %></p>
 
   <% if @collection_card.ref_card.fr_url.present? %>
     <%= image_tag(@collection_card.ref_card.fr_url, class: "pokemon-card-standard") %>
@@ -22,12 +19,16 @@
     <p>Version anglaise</p>
   <% end %>
 
-  <%= @collection_card.ref_card.fr_name %>
-            <%= @collection_card.condition %>
-            <%= @collection_card.language %>
-            <%= link_to 'Photo?', new_collection_card_picture_path(@collection_card), :class => "btn btn-success" %>
-            <%= link_to 'Retirer', collection_card_path(@collection_card),
-            :class => "btn btn-danger", method: :delete,
-             data: { confirm: 'Are you sure?' } %>
+
+  <% @collection_card.pictures.each do |picture|%>
+    <% if picture.photo.present? %>
+      <%= cl_image_tag picture.photo,width: 217, crop: :fill %>
+    <% end %>
+  <% end %>
+
+  <%= link_to 'Photo?', new_collection_card_picture_path(@collection_card), :class => "btn btn-success" %>
+  <%= link_to 'Retirer', collection_card_path(@collection_card),
+  :class => "btn btn-danger", method: :delete,
+   data: { confirm: 'Are you sure?' } %>
 
 </div>
