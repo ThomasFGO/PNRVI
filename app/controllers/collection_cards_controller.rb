@@ -5,6 +5,10 @@ class CollectionCardsController < ApplicationController
     @collection_cards = CollectionCard.all
   end
 
+  def show
+    @collection_card = CollectionCard.find(params[:id])
+  end
+
   def new
     @ref_card = RefCard.find(params[:ref_card_id])
     @collection_card = CollectionCard.new

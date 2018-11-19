@@ -1,27 +1,33 @@
 <div class="container">
-  <h1>Ma collection</h1>
+  <% if @collection_card.ref_card.fr_name.present? %>
+    <h4><%= @collection_card.ref_card.fr_name %></h4>
+  <% else %>
+    <h4><%= @collection_card.ref_card.us_name %></h4>
+  <% end %>
 
-  <div class="collections-cards">
-    <div class="row">
-      <% @collection_cards.each do |collection_card| %>
-        <div class="col-md-2">
-          <div class="collection-card">
-            <% if collection_card.ref_card.fr_url.present? %>
-              <%= image_tag(collection_card.ref_card.fr_url, class: "card-ref pokemon-card-mini") %>
-            <% elsif collection_card.ref_card.fr_r_url.present? %>
-              <%= image_tag(collection_card.ref_card.fr_r_url, class: "card-ref pokemon-card-mini") %>
-            <% else %>
-              <%= image_tag(collection_card.ref_card.us_url, class: "card-ref pokemon-card-mini") %>
-            <% end %>
-            <%= collection_card.ref_card.fr_name %>
-            <%= collection_card.condition %>
-            <%= collection_card.language %>
-            <%= link_to 'Retirer', collection_card_path(collection_card),
+
+  <% if @collection_card.ref_card.pokedex_number.present? %>
+    <p>Numéro Pokédex : <%= @collection_card.ref_card.pokedex_number %></p>
+  <% end %>
+
+
+  <% if @collection_card.ref_card.fr_url.present? %>
+    <%= image_tag(@collection_card.ref_card.fr_url, class: "pokemon-card-standard") %>
+    <p>Version normale française</p>
+  <% elsif @collection_card.ref_card.fr_r_url.present? %>
+    <%= image_tag(@collection_card.ref_card.fr_r_url, class: "pokemon-card-standard") %>
+    <p>Version reverse/édition1 française</p>
+  <% else %>
+    <%= image_tag(@collection_card.ref_card.us_url, class: "pokemon-card-standard") %>
+    <p>Version anglaise</p>
+  <% end %>
+
+  <%= @collection_card.ref_card.fr_name %>
+            <%= @collection_card.condition %>
+            <%= @collection_card.language %>
+            <%= link_to 'Photo?', new_collection_card_picture_path(@collection_card), :class => "btn btn-success" %>
+            <%= link_to 'Retirer', collection_card_path(@collection_card),
             :class => "btn btn-danger", method: :delete,
              data: { confirm: 'Are you sure?' } %>
-          </div>
-        </div>
-      <% end %>
-    </div>
-  </div>
+
 </div>

@@ -1,16 +1,19 @@
 Rails.application.routes.draw do
 
-  get 'search_cards/index'
-  get 'search_cards/show'
-  get 'search_cards/new'
   root to: 'lists#index'
 
   resources :lists, only: [ :index, :show ]
-  resources :ref_cards, only: [ :index, :show ] do
-    resources :collection_cards, only: [ :new, :create ]
-    resources :search_cards, only: [ :new, :create ]
+
+  resources :ref_cards, :shallow => true, only: [ :index, :show ] do
+    resources :collection_cards, except: [ :index ] do
+      resources :pictures
+    end
+    resources :search_cards, except: [ :index ]
   end
-  resources :collection_cards, only: [ :index, :destroy ]
-  resources :search_cards, only: [ :index, :show, :destroy ]
+
+  resources :collection_cards, only: [ :index ]
+  resources :search_cards, only: [ :index ]
+
+
 
 end
