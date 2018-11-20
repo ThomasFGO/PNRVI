@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_19_154411) do
+ActiveRecord::Schema.define(version: 2018_11_20_103258) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,14 +29,6 @@ ActiveRecord::Schema.define(version: 2018_11_19_154411) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["ref_card_id"], name: "index_collection_cards_on_ref_card_id"
-  end
-
-  create_table "collection_photos", force: :cascade do |t|
-    t.string "photo"
-    t.bigint "collection_card_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["collection_card_id"], name: "index_collection_photos_on_collection_card_id"
   end
 
   create_table "energy_types", force: :cascade do |t|
@@ -102,7 +94,6 @@ ActiveRecord::Schema.define(version: 2018_11_19_154411) do
   end
 
   add_foreign_key "collection_cards", "ref_cards"
-  add_foreign_key "collection_photos", "collection_cards"
   add_foreign_key "lists", "blocs"
   add_foreign_key "pictures", "collection_cards"
   add_foreign_key "ref_cards", "energy_types"
