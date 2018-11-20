@@ -7,7 +7,6 @@ class CollectionCardsController < ApplicationController
 
   def show
     @collection_card = CollectionCard.find(params[:id])
-    @pictures = Picture.all
   end
 
   def new
@@ -31,6 +30,6 @@ class CollectionCardsController < ApplicationController
   private
 
   def collection_card_params
-    params.require(:collection_card).permit(:reved, :condition, :language)
+    params.require(:collection_card).permit(:reved, :condition, :language, :ph_one)
   end
 end

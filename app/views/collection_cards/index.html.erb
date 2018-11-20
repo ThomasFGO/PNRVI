@@ -13,7 +13,9 @@
             <%# cl_image_tag @picture.photo,width: 140, crop: :fill %>
           <%# else %>
 
-            <% if collection_card.ref_card.fr_url.present? %>
+            <% if collection_card.ph_one.present? %>
+              <%= cl_image_tag collection_card.ph_one,width: 217, :gravity=>"auto", :crop=>"fill", class: "pokemon-card-mini" %>
+            <% elsif collection_card.ref_card.fr_url.present? %>
               <%= image_tag(collection_card.ref_card.fr_url, width: '130', class: "pokemon-card-mini") %>
             <% elsif collection_card.ref_card.fr_r_url.present? %>
               <%= image_tag(collection_card.ref_card.fr_r_url, width: '130', class: "pokemon-card-mini") %>
