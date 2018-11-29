@@ -5,12 +5,9 @@ Rails.application.routes.draw do
   resources :lists, only: [ :index, :show ]
 
   resources :ref_cards, :shallow => true, only: [ :index, :show ] do
-    resources :collection_cards, except: [ :index ] do
-      resources :pictures
-    end
+    resources :collection_cards, except: [ :index ]
     resources :search_cards, except: [ :index ]
   end
-
   resources :collection_cards, only: [ :index ]
   resources :search_cards, only: [ :index ]
 

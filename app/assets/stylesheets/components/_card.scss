@@ -46,11 +46,23 @@
   border-radius: 7px;
   width: 140px;
 }
+
+.pokemon-card-photo-mini {
+  box-shadow: 2px 2px 5px black;
+  border-radius: 6px;
+}
+
 .pokemon-card-standard {
   box-shadow: 2px 2px 5px black;
   border-radius: 11px;
   width: 217px;
 }
+
+.pokemon-card-photo-standard {
+  box-shadow: 2px 2px 5px black;
+  border-radius: 11px;
+}
+
 
 
 

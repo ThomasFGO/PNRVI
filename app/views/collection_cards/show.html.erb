@@ -5,7 +5,8 @@
     <h4><%= @collection_card.ref_card.us_name %></h4>
   <% end %>
 
-  <%= cl_image_tag @collection_card.ph_one,width: 217, :gravity=>"auto", :crop=>"fill", class: "pokemon-card-standard" %>
+  <%= cl_image_tag @collection_card.ph_one,width: 217,height: 280, :gravity=>"auto", :crop=>"fill",
+  class: "pokemon-card-photo-standard"%>
 
   <p> État : <%= @collection_card.condition %>/10 </p>
   <p> Langue : <%= @collection_card.language %></p>
