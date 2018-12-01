@@ -3,4 +3,5 @@ class List < ApplicationRecord
   has_many :ref_cards
   has_many :collection_cards, :through => :ref_cards
   has_many :search_cards, :through => :ref_cards
+  has_many :shop_cards, :through => :ref_cards
 end

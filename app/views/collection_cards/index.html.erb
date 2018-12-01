@@ -9,9 +9,6 @@
       <% @collection_cards.order("created_at desc").each do |collection_card| %>
 
         <%= link_to collection_card_path(collection_card) do %>
-          <%# if collection_card.picture.first.photo.present? %>
-            <%# cl_image_tag @picture.photo,width: 140, crop: :fill %>
-          <%# else %>
 
             <% if collection_card.ph_one.present? %>
               <%= cl_image_tag collection_card.ph_one,width: 130, height: 180, :gravity=>"auto", :crop=>"fill",
@@ -24,7 +21,6 @@
               <%= image_tag(collection_card.ref_card.us_url, width: '130', class: "pokemon-card-mini") %>
             <% end %>
 
-          <%# end %>
         <% end %>
       <% end %>
 
