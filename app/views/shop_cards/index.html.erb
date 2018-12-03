@@ -7,7 +7,9 @@
 
   <div class="collections-cards">
 
-      <% @shop_cards.order("price desc").each do |shop_card| %>
+      <%# render collection: @shop_cards.order("ref_card_id desc"), partial: "shop_cards/card" %>
+
+      <% @shop_cards.order("ref_card_id desc").each do |shop_card| %>
 
         <%= link_to shop_card_path(shop_card) do %>
 

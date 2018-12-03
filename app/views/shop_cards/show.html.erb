@@ -1,30 +1,23 @@
 <div class="container">
   <% if @shop_card.ref_card.fr_name.present? %>
-    <h4><%= @shop_card.ref_card.fr_name %></h4>
+    <h4><%= @shop_card.ref_card.fr_name %>/<%= @shop_card.ref_card.list.fr_name %></h4>
   <% else %>
-    <h4><%= @shop_card.ref_card.us_name %></h4>
+    <h4><%= @shop_card.ref_card.us_name %>/<%= @shop_card.ref_card.list.us_name %></h4>
   <% end %>
 
   <%= cl_image_tag @shop_card.ph_one,width: 217,height: 280, :gravity=>"auto", :crop=>"fill",
   class: "pokemon-card-photo-standard"%>
 
+  <p> Version :
+    <% if @shop_card.reved? %>
+    <%= "reverse / édition 1" %>
+    <% else %>
+    <%= "normale" %>
+    <% end %>
+  </p>
   <p> État : <%= @shop_card.condition %>/10 </p>
   <p> Langue : <%= @shop_card.language %></p>
   <p> Prix : <%= @shop_card.price %></p>
-
-  <% if @shop_card.ref_card.fr_url.present? %>
-    <%= image_tag(@shop_card.ref_card.fr_url, class: "pokemon-card-standard") %>
-    <p>Version normale française</p>
-  <% elsif @shop_card.ref_card.fr_r_url.present? %>
-    <%= image_tag(@shop_card.ref_card.fr_r_url, class: "pokemon-card-standard") %>
-    <p>Version reverse/édition1 française</p>
-  <% else %>
-    <%= image_tag(@shop_card.ref_card.us_url, class: "pokemon-card-standard") %>
-    <p>Version anglaise</p>
-  <% end %>
-
-
-
 
 
   <%# link_to 'Modifier', new_collection_path(@collection_card), :class => "btn btn-success" %>

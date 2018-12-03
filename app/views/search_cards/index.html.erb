@@ -1,8 +1,6 @@
 <div class="container">
-  <div class="search-header">
-  <h1>Mes recherches</h1>
-  <p>Nombre total de cartes recherchées : <%= @search_cards.count %> cartes</p>
-  </div>
+
+  <%= render partial: "search_cards/header" %>
 
   <div class="collections-cards">
 
@@ -10,6 +8,7 @@
 
           <% if list.search_cards.count > 0 %>
 
+            <%# render partial: "search_cards/search_list" %>
             <div class="collection-item">
               <%= list.fr_name %>
               <%= image_tag(list.symbol_url, height: '20')%>
@@ -22,23 +21,44 @@
             </div>
 
             <% list.search_cards.order("ref_card_id asc").each do |search_card| %>
-              <p>
-                <%= link_to search_card_path(search_card) do %>
-                  <% if search_card.ref_card.fr_url.present? %>
-                    <%= image_tag(search_card.ref_card.fr_url, class: "pokemon-card-micro") %>
-                  <% elsif search_card.ref_card.fr_r_url.present? %>
-                    <%= image_tag(search_card.ref_card.fr_r_url, class: "pokemon-card-micro") %>
-                  <% else %>
-                    <%= image_tag(search_card.ref_card.us_url, class: "pokemon-card-micro") %>
-                  <% end %>
-                <% end  %>
-
-                <% if search_card.ref_card.fr_name.present? %>
-                  <%= search_card.ref_card.fr_name %>
-                <% else %>
-                  <%= search_card.ref_card.us_name %>
-                <% end %>
-              </p>
+              <table>
+                <tr>
+                  <td>
+                    <%= link_to search_card_path(search_card) do %>
+                      <% if search_card.ref_card.fr_url.present? %>
+                        <%= image_tag(search_card.ref_card.fr_url, class: "pokemon-card-micro") %>
+                      <% elsif search_card.ref_card.fr_r_url.present? %>
+                        <%= image_tag(search_card.ref_card.fr_r_url, class: "pokemon-card-micro") %>
+                      <% else %>
+                        <%= image_tag(search_card.ref_card.us_url, class: "pokemon-card-micro") %>
+                      <% end %>
+                    <% end  %>
+                  </td>
+                  <td>
+                    <% if search_card.ref_card.fr_name.present? %>
+                      <%= search_card.ref_card.fr_name %>
+                    <% else %>
+                      <%= search_card.ref_card.us_name %>
+                    <% end %>
+                  </td>
+                  <td>
+                    <%= search_card.ref_card.number %>/<%= search_card.ref_card.list.size %>
+                  </td>
+                  <td>
+                    <%= search_card.ref_card.rarety_type %>
+                  </td>
+                  <td>
+                    <%= search_card.language %>
+                  </td>
+                  <td>
+                    <% if search_card.reved? %>
+                      <%= "R / Éd1" %>
+                    <% else %>
+                      <%= "N" %>
+                    <% end %>
+                  </td>
+                </tr>
+              </table>
             <% end  %>
 
 
