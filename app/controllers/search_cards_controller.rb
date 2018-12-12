@@ -1,4 +1,6 @@
 class SearchCardsController < ApplicationController
+  before_action :authenticate_user!
+
   def index
     @lists = List.all
     @ref_cards = RefCard.all

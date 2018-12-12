@@ -14,6 +14,4 @@ Rails.application.routes.draw do
   resources :shop_cards, only: [ :index ]
   resources :search_cards, only: [ :index ]
 
-
-
 end
