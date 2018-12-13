@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_12_153128) do
+ActiveRecord::Schema.define(version: 2018_12_13_144307) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,7 +33,9 @@ ActiveRecord::Schema.define(version: 2018_12_12_153128) do
     t.string "ph_three"
     t.string "ph_four"
     t.string "ph_five"
+    t.bigint "user_id"
     t.index ["ref_card_id"], name: "index_collection_cards_on_ref_card_id"
+    t.index ["user_id"], name: "index_collection_cards_on_user_id"
   end
 
   create_table "energy_types", force: :cascade do |t|
@@ -87,7 +89,9 @@ ActiveRecord::Schema.define(version: 2018_12_12_153128) do
     t.string "language"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "user_id"
     t.index ["ref_card_id"], name: "index_search_cards_on_ref_card_id"
+    t.index ["user_id"], name: "index_search_cards_on_user_id"
   end
 
   create_table "shop_cards", force: :cascade do |t|
@@ -103,7 +107,9 @@ ActiveRecord::Schema.define(version: 2018_12_12_153128) do
     t.string "ph_five"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "user_id"
     t.index ["ref_card_id"], name: "index_shop_cards_on_ref_card_id"
+    t.index ["user_id"], name: "index_shop_cards_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -124,9 +130,12 @@ ActiveRecord::Schema.define(version: 2018_12_12_153128) do
   end
 
   add_foreign_key "collection_cards", "ref_cards"
+  add_foreign_key "collection_cards", "users"
   add_foreign_key "lists", "blocs"
   add_foreign_key "ref_cards", "energy_types"
   add_foreign_key "ref_cards", "lists"
   add_foreign_key "search_cards", "ref_cards"
+  add_foreign_key "search_cards", "users"
   add_foreign_key "shop_cards", "ref_cards"
+  add_foreign_key "shop_cards", "users"
 end

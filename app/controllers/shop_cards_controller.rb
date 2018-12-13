@@ -4,7 +4,7 @@ class ShopCardsController < ApplicationController
   def index
     @lists = List.all
     @ref_cards = RefCard.all
-    @shop_cards = ShopCard.all
+    @shop_cards = current_user.shop_cards.all
   end
 
   def show
@@ -17,7 +17,7 @@ class ShopCardsController < ApplicationController
   end
 
   def create
-    @shop_card = ShopCard.new(shop_card_params)
+    @shop_card = current_user.shop_cards.new(shop_card_params)
     @shop_card.ref_card = RefCard.find(params[:ref_card_id])
     @shop_card.save
     redirect_to shop_cards_path
@@ -32,6 +32,6 @@ class ShopCardsController < ApplicationController
   private
 
   def shop_card_params
-    params.require(:shop_card).permit(:reved, :condition, :language, :price, :ph_one, :ph_two)
+    params.require(:shop_card).permit(:user_id, :reved, :condition, :language, :price, :ph_one, :ph_two)
   end
 end

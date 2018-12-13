@@ -4,7 +4,7 @@ class SearchCardsController < ApplicationController
   def index
     @lists = List.all
     @ref_cards = RefCard.all
-    @search_cards = SearchCard.all
+    @search_cards = current_user.search_cards.all
   end
 
   def show
@@ -17,7 +17,7 @@ class SearchCardsController < ApplicationController
   end
 
   def create
-    @search_card = SearchCard.new(search_card_params)
+    @search_card = current_user.search_cards.new(search_card_params)
     @search_card.ref_card = RefCard.find(params[:ref_card_id])
     @search_card.save
     redirect_to search_cards_path
@@ -32,6 +32,6 @@ class SearchCardsController < ApplicationController
   private
 
   def search_card_params
-    params.require(:search_card).permit(:reved, :condition, :language)
+    params.require(:search_card).permit(:user_id, :reved, :condition, :language)
   end
 end

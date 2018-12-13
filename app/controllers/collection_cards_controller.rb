@@ -4,7 +4,7 @@ class CollectionCardsController < ApplicationController
   def index
     @lists = List.all
     @ref_cards = RefCard.all
-    @collection_cards = CollectionCard.all
+    @collection_cards = current_user.collection_cards.all
   end
 
   def show
@@ -17,7 +17,7 @@ class CollectionCardsController < ApplicationController
   end
 
   def create
-    @collection_card = CollectionCard.new(collection_card_params)
+    @collection_card = current_user.collection_cards.new(collection_card_params)
     @collection_card.ref_card = RefCard.find(params[:ref_card_id])
     @collection_card.save
     redirect_to collection_cards_path
@@ -32,6 +32,6 @@ class CollectionCardsController < ApplicationController
   private
 
   def collection_card_params
-    params.require(:collection_card).permit(:reved, :condition, :language, :ph_one)
+    params.require(:collection_card).permit(:user_id, :reved, :condition, :language, :ph_one)
   end
 end
