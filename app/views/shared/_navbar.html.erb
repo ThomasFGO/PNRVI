@@ -1,17 +1,18 @@
 <div class="container">
   <nav class="navbar">
 
-    <%= link_to "Pok'n'Roll", lists_path, class: "navbar-item" %>
+    <%= link_to "Pok'n'Roll", root_path, class: "navbar-item" %>
     <%= link_to "Séries", lists_path, class: "navbar-item" %>
     <%# link_to "Vendre une carte", new_shop_card_path, class: "navbar-item" %>
     <%# link_to "Rechercher", ref_cards_path, class: "navbar-item"%>
 
     <% if user_signed_in? %>
-
+      <h6><%= current_user.first_name %> :</h6>
       <%= link_to "Magasin", shop_cards_path, class: "navbar-item" %>
       <%= link_to "Collection", collection_cards_path, class: "navbar-item"%>
       <%= link_to "Recherches", search_cards_path, class: "navbar-item"%>
       <%= link_to "Déconnexion", destroy_user_session_path, method: :delete, class: "navbar-item"%>
+
 
     <% else %>
 

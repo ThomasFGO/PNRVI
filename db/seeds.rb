@@ -61,7 +61,9 @@ RefCard.destroy_all
 
 lists = [
 
-  "bsetdebase.csv", "bjungle.csv", "bfossil.csv", "bbasesetdeux.csv", "bteamrocket.csv", "blegendarycollection.csv",
+  "pop1.csv", "pop2.csv", "pop3.csv", "pop4.csv", "pop5.csv", "pop6.csv", "pop7.csv", "pop8.csv", "pop9.csv",
+
+  "bpromos.csv", "bsetdebase.csv", "bjungle.csv", "bfossil.csv", "bbasesetdeux.csv", "bteamrocket.csv", "blegendarycollection.csv",
 
   "gymheroes.csv", "gymchallenge.csv",
 
@@ -74,23 +76,23 @@ lists = [
   "exespecedelta.csv", "excreateursdelegendes.csv", "exfantomesholon.csv", "exgardiensdecristal.csv",
   "exilesdesdragons.csv", "exgardiensdupouvoir.csv",
 
-  "diamantetperle.csv", "dptresorsmysterieux.csv", "dpmerveillessecretes.csv",
+  "dppromos.csv", "diamantetperle.csv", "dptresorsmysterieux.csv", "dpmerveillessecretes.csv",
   "dpduelsausommet.csv", "dpaubemajestueuse.csv", "dpeveildeslegendes.csv", "dptempete.csv",
 
   "platine.csv", "rivauxemergeants.csv", "vainqueurssupremes.csv", "arceus.csv",
 
-  "heartgoldsoulsilver.csv", "hsunleashed.csv", "hsundaunted.csv", "hstriumphant.csv", "calloflegends.csv",
+  "hspromos.csv", "heartgoldsoulsilver.csv", "hsunleashed.csv", "hsundaunted.csv", "hstriumphant.csv", "calloflegends.csv",
 
-  "noiretblanc.csv", "nbpouvoirsemergents.csv", "nbnoblesvictoires.csv", "nbdestineesfutures.csv", "nbexplorateursobscurs.csv",
-  "nbdragonsexaltes.csv","nbcoffredesdragons.csv", "nbfrontieresfranchies.csv", "nbtempeteplasma.csv", "nbglaciationplasma.csv",
-  "nbexplosionplasma.csv", "nblegendarytreasures.csv",
+  "nbpromos.csv", "noiretblanc.csv", "nbpouvoirsemergents.csv", "nbnoblesvictoires.csv", "nbdestineesfutures.csv",
+  "nbexplorateursobscurs.csv", "nbdragonsexaltes.csv","nbcoffredesdragons.csv", "nbfrontieresfranchies.csv", "nbtempeteplasma.csv",
+  "nbglaciationplasma.csv", "nbexplosionplasma.csv", "nblegendarytreasures.csv",
 
 
-  "xykalos.csv", "xybase.csv", "xyetincelles.csv", "xypoingsfurieux.csv", "xyvigueurspectrale.csv", "xyprimochoc.csv",
+  "xypromos.csv", "xykalos.csv", "xybase.csv", "xyetincelles.csv", "xypoingsfurieux.csv", "xyvigueurspectrale.csv", "xyprimochoc.csv",
   "xydoubledanger.csv", "xycielrugissant.csv", "xyoriginesantiques.csv", "xyimpulsionturbo.csv", "xyruptureturbo.csv",
   "xygenerations.csv", "xyimpactdesdestins.csv", "xyoffensivevapeur.csv", "xyevolutions.csv",
 
-  "slbase.csv", "slgardiensascendants.csv", "slombresardentes.csv", "sllegendesbrillantes.csv", "slinvasioncarmin.csv",
+  "slpromos.csv", "slbase.csv", "slgardiensascendants.csv", "slombresardentes.csv", "sllegendesbrillantes.csv", "slinvasioncarmin.csv",
   "slultraprisme.csv", "sllumiereinterdite.csv", "sltempeteceleste.csv", "slmajestedesdragons.csv", "sltonnerreperdu.csv"
 
 
@@ -123,5 +125,8 @@ end
 
 puts "There are now #{RefCard.count} rows in the RefCard table"
 
-
+#marie = User.create!(email: "marie@gmail.com", password: "mariepnr", first_name: "Marie", last_name: "Marquet")
+#mattis = User.create!(email: "mattis@gmail.com", password: "mattispnr", first_name: "Mattis", last_name: "Brizard")
+#isabelle = User.create!(email: "isabelle@gmail.com", password: "isabellepnr", first_name: "Isabelle", last_name: "Sirieix")
+#thomas = User.create!(email: "thomas@gmail.com", password: "thomaspnr", first_name: "Thomas", last_name: "Morin")
 

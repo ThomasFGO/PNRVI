@@ -1,29 +1,67 @@
 <div class="container">
 
-
   <%= render partial: "lists/header" %>
 
-  <div class="cards-container">
-    <div class="row"></div>
+  <!-- Nav tabs -->
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Visuels</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Liste</a>
+  </li>
+</ul>
 
-        <% @list.ref_cards.order("id asc").each do |ref_card| %>
-          <div class="col-md-2">
-            <div class="card-ref">
-              <%= link_to ref_card_path(ref_card) do %>
-                <% if ref_card.fr_url.present? %>
-                  <%= image_tag(ref_card.fr_url, width: '130', class: "pokemon-card-mini") %>
-                <% elsif ref_card.fr_r_url.present? %>
-                  <%= image_tag(ref_card.fr_r_url, width: '130', class: "pokemon-card-mini") %>
-                <% else %>
-                  <%= image_tag(ref_card.us_url, width: '130', class: "pokemon-card-mini") %>
-                <% end %>
-              <% end  %>
-            </div>
-          </div>
-        <% end  %>
-
-    </div>
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+    <div class="cards-container">
+        <div class="row"></div>
+            <% @list.ref_cards.order("id asc").each do |ref_card| %>
+              <div class="col-md-2">
+                <div class="card-ref">
+                  <%= link_to ref_card_path(ref_card) do %>
+                    <% if ref_card.fr_url.present? %>
+                      <%= image_tag(ref_card.fr_url, width: '130', class: "pokemon-card-mini") %>
+                    <% elsif ref_card.fr_r_url.present? %>
+                      <%= image_tag(ref_card.fr_r_url, width: '130', class: "pokemon-card-mini") %>
+                    <% else %>
+                      <%= image_tag(ref_card.us_url, width: '130', class: "pokemon-card-mini") %>
+                    <% end %>
+                  <% end  %>
+                </div>
+              </div>
+            <% end  %>
+      </div>
   </div>
+  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    <% @list.ref_cards.order("id asc").each do |ref_card| %>
+      <table>
+        <tr>
+          <td>
+            <% if ref_card.fr_name.present? %>
+              <%= ref_card.fr_name %>
+            <% else %>
+              <%= ref_card.us_name %>
+            <% end %>
+          </td>
+          <td>
+            <%= ref_card.number %>/<%= @list.size %>
+          </td>
+          <td>
+            <%= ref_card.rarety_type %>
+          </td>
+        </tr>
+      </table>
+    <% end  %>
+  </div>
+</div>
+
+
+
+
+
+
 
 
 </div>
