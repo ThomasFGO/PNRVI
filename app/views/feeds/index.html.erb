@@ -1,2 +1,14 @@
-<h1>Feeds#index</h1>
-<p>Find me in app/views/feeds/index.html.erb</p>
+<h1>Annonces</h1>
+
+<% @shop_cards.each do |shop_card| %>
+  <% if current_user.search_cards.where(ref_card_id: shop_card.ref_card_id).present? %>
+    <%= link_to shop_card_path(shop_card) do %>
+      <% if shop_card.ph_one.present? %>
+        <%= cl_image_tag shop_card.ph_one,width: 130,
+         height: 180, :gravity=>"auto", :crop=>"fill",
+              class: "pokemon-card-photo-mini" %>
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>
+

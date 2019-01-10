@@ -2,8 +2,8 @@ Rails.application.routes.draw do
 
   devise_for :users
   #root to: 'lists#index'
-  root to: 'feeds#index'
-
+  root to: 'lists#index'
+  resources :feeds, only: [ :index ]
   resources :lists, only: [ :index, :show ]
 
   resources :ref_cards, :shallow => true, only: [ :index, :show ] do
