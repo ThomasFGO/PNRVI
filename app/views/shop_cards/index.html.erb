@@ -14,8 +14,10 @@
         <%= link_to shop_card_path(shop_card) do %>
 
             <% if shop_card.ph_one.present? %>
-              <%= cl_image_tag shop_card.ph_one,width: 130, height: 180, :gravity=>"auto", :crop=>"fill",
-              class: "pokemon-card-photo-mini" %>
+              <%= cl_image_tag shop_card.ph_one,width: 130, height: 180, :gravity=>"auto", :crop=>"fill", :transformation=>[
+              {:width=>500, :crop=>"scale"},
+              {:overlay=>{:font_family=>"Arial", :font_size=>80, :text=>shop_card.user.first_name}}
+              ], class: "pokemon-card-photo-mini" %>
             <% elsif shop_card.ref_card.fr_url.present? %>
               <%= image_tag(shop_card.ref_card.fr_url, width: '130', class: "pokemon-card-mini") %>
             <% elsif shop_card.ref_card.fr_r_url.present? %>

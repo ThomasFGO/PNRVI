@@ -1,14 +1,17 @@
-<h1>Annonces</h1>
+<div class="container">
+  <h1>Annonces</h1>
 
-<% @shop_cards.each do |shop_card| %>
-  <% if current_user.search_cards.where(ref_card_id: shop_card.ref_card_id).present? %>
-    <%= link_to shop_card_path(shop_card) do %>
-      <% if shop_card.ph_one.present? %>
-        <%= cl_image_tag shop_card.ph_one,width: 130,
-         height: 180, :gravity=>"auto", :crop=>"fill",
-              class: "pokemon-card-photo-mini" %>
+  <% @shop_cards.each do |shop_card| %>
+    <% if current_user.search_cards.where(ref_card_id: shop_card.ref_card_id).present? %>
+      <%= link_to shop_card_path(shop_card) do %>
+        <% if shop_card.ph_one.present? %>
+          <%= cl_image_tag shop_card.ph_one,width: 130,
+          height: 180, :gravity=>"auto", :crop=>"fill",  :transformation=>[
+          {:width=>500, :crop=>"scale"},
+          {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{shop_card.user.first_name} #{shop_card.user.last_name}"}}
+          ], class: "pokemon-card-photo-mini" %>
+        <% end %>
       <% end %>
     <% end %>
   <% end %>
-<% end %>
-
+</div>

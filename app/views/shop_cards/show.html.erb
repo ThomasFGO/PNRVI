@@ -6,7 +6,10 @@
   <% end %>
 
   <%= cl_image_tag @shop_card.ph_one,width: 217,height: 280, :gravity=>"auto", :crop=>"fill",
-  class: "pokemon-card-photo-standard"%>
+  :transformation=>[
+  {:width=>500, :crop=>"scale"},
+  {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@shop_card.user.first_name} #{@shop_card.user.last_name}"}}
+  ], class: "pokemon-card-photo-standard"%>
 
   <p> Version :
     <% if @shop_card.reved? %>
@@ -17,12 +20,13 @@
   </p>
   <p> État : <%= @shop_card.condition %>/10 </p>
   <p> Langue : <%= @shop_card.language %></p>
-  <p> Prix : <%= @shop_card.price %></p>
+  <p> Prix : <%= "#{@shop_card.price} €" %></p>
 
 
-  <%# link_to 'Modifier', new_collection_path(@collection_card), :class => "btn btn-success" %>
-  <%= link_to 'Vendu', shop_card_path(@shop_card),
-  :class => "btn btn-danger", method: :delete,
-   data: { confirm: 'Are you sure?' } %>
+  <% if @shop_card.user == current_user %>
+    <%= link_to 'Vendu', shop_card_path(@shop_card),
+    :class => "btn btn-danger", method: :delete,
+     data: { confirm: 'Are you sure?' } %>
+  <% end %>
 
 </div>

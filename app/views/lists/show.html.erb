@@ -19,7 +19,7 @@
         <div class="row"></div>
             <% @list.ref_cards.order("id asc").each do |ref_card| %>
               <div class="col-md-2">
-                <div class="card-ref">
+                <div class="card-ref", id="<%= ref_card.id %>">
                   <%= link_to ref_card_path(ref_card) do %>
                     <% if ref_card.fr_url.present? %>
                       <%= image_tag(ref_card.fr_url, width: '130', class: "pokemon-card-mini") %>
@@ -35,25 +35,42 @@
       </div>
   </div>
   <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-    <% @list.ref_cards.order("id asc").each do |ref_card| %>
-      <table>
-        <tr>
-          <td>
-            <% if ref_card.fr_name.present? %>
-              <%= ref_card.fr_name %>
-            <% else %>
-              <%= ref_card.us_name %>
-            <% end %>
-          </td>
-          <td>
-            <%= ref_card.number %>/<%= @list.size %>
-          </td>
-          <td>
-            <%= ref_card.rarety_type %>
-          </td>
-        </tr>
-      </table>
-    <% end  %>
+    <table>
+      <tr>
+        <th> Nom </th>
+        <th> Numéro </th>
+        <th> Rareté </th>
+        <th> Vendre </th>
+        <th> Rechercher </th>
+        <th> Je l'ai ! </th>
+      </tr>
+      <% @list.ref_cards.order("id asc").each do |ref_card| %>
+          <tr>
+            <td>
+              <% if ref_card.fr_name.present? %>
+                <%= ref_card.fr_name %>
+              <% else %>
+                <%= ref_card.us_name %>
+              <% end %>
+            </td>
+            <td>
+              <%= ref_card.number %>/<%= @list.size %>
+            </td>
+            <td>
+              <%= ref_card.rarety_type %>
+            </td>
+            <td>
+              <%= link_to "V", new_ref_card_shop_card_path(ref_card), :class => "btn btn-success"%>
+            </td>
+            <td>
+              <%= link_to "R", new_ref_card_search_card_path(ref_card), :class => "btn btn-success"%>
+            </td>
+            <td>
+              <%= link_to "C", new_ref_card_collection_card_path(ref_card), :class => "btn btn-success"%>
+            </td>
+          </tr>
+      <% end  %>
+    </table>
   </div>
 </div>
 

@@ -1,18 +1,24 @@
 <div class="container">
-  <h1><%= @ref_card.fr_name %> ( <%= @ref_card.list.fr_name %> )</h1>
-  <% if @ref_card.fr_url.present? %>
-    <%= image_tag(@ref_card.fr_url, class: "pokemon-card-mini") %>
-  <% elsif @ref_card.fr_r_url.present? %>
-    <%= image_tag(@ref_card.fr_r_url, class: "pokemon-card-mini") %>
-  <% else %>
-    <%= image_tag(@ref_card.us_url, class: "pokemon-card-mini") %>
-  <% end %>
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-4">
 
-  <%= simple_form_for [@ref_card, @search_card] do |f| %>
-    <%= f.input :reved, label: "Reverse / Édition 1" %>
-    <%= f.input :condition, label: "État" %>
-    <%= f.input :language, label: "Lanque" %>
-    <%= f.submit "Ajouter à mes recherches", class: "btn btn-primary" %>
-  <% end %>
+      <h5><%= @ref_card.fr_name %> ( <%= @ref_card.list.fr_name %> )</h5>
+      <% if @ref_card.fr_url.present? %>
+        <%= image_tag(@ref_card.fr_url, class: "pokemon-card-mini") %>
+      <% elsif @ref_card.fr_r_url.present? %>
+        <%= image_tag(@ref_card.fr_r_url, class: "pokemon-card-mini") %>
+      <% else %>
+        <%= image_tag(@ref_card.us_url, class: "pokemon-card-mini") %>
+      <% end %>
+
+      <%= simple_form_for [@ref_card, @search_card] do |f| %>
+        <%= f.input :reved, label: "Reverse / Édition 1" %>
+        <%= f.input :condition, label: "État" %>
+        <%= f.input :language, label: "Lanque" %>
+        <%= f.submit "Ajouter à mes recherches", class: "btn btn-primary" %>
+      <% end %>
+
+    </div>
+  </div>
 </div>
 

@@ -20,7 +20,9 @@ class ShopCardsController < ApplicationController
     @shop_card = current_user.shop_cards.new(shop_card_params)
     @shop_card.ref_card = RefCard.find(params[:ref_card_id])
     @shop_card.save
-    redirect_to shop_cards_path
+    #redirect_to shop_cards_path
+    #redirect_back(fallback_location: list_path(@shop_card.ref_card.list))
+    redirect_to list_path(@shop_card.ref_card.list, :anchor => "#{@shop_card.ref_card_id}")
   end
 
   def destroy
