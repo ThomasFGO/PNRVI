@@ -20,7 +20,7 @@ class CollectionCardsController < ApplicationController
     @collection_card = current_user.collection_cards.new(collection_card_params)
     @collection_card.ref_card = RefCard.find(params[:ref_card_id])
     @collection_card.save
-    redirect_to collection_cards_path
+    redirect_to list_path(@collection_card.ref_card.list, :anchor => "#{@collection_card.ref_card_id}")
   end
 
   def destroy

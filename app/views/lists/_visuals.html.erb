@@ -1,0 +1,18 @@
+<div class="visuals-container">
+  <div class="row"></div>
+    <% @list.ref_cards.order("id asc").each do |ref_card| %>
+      <div class="col-md-2">
+        <div class="card-ref", id="<%= ref_card.id %>">
+          <%= link_to ref_card_path(ref_card) do %>
+            <% if ref_card.fr_url.present? %>
+              <%= image_tag(ref_card.fr_url, width: '130', class: "pokemon-card-mini") %>
+            <% elsif ref_card.fr_r_url.present? %>
+              <%= image_tag(ref_card.fr_r_url, width: '130', class: "pokemon-card-mini") %>
+            <% else %>
+              <%= image_tag(ref_card.us_url, width: '130', class: "pokemon-card-mini") %>
+            <% end %>
+          <% end  %>
+        </div>
+      </div>
+    <% end  %>
+</div>

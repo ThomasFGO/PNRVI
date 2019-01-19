@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   devise_for :users
   #root to: 'lists#index'
-  root to: 'lists#index'
+  root to: 'pages#home'
   resources :feeds, only: [ :index ]
   resources :lists, only: [ :index, :show ]
 

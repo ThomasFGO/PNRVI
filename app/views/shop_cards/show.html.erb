@@ -1,32 +1,58 @@
 <div class="container">
-  <% if @shop_card.ref_card.fr_name.present? %>
-    <h4><%= @shop_card.ref_card.fr_name %>/<%= @shop_card.ref_card.list.fr_name %></h4>
-  <% else %>
-    <h4><%= @shop_card.ref_card.us_name %>/<%= @shop_card.ref_card.list.us_name %></h4>
-  <% end %>
+  <div class="row">
+    <div class="col-md-6">
 
-  <%= cl_image_tag @shop_card.ph_one,width: 217,height: 280, :gravity=>"auto", :crop=>"fill",
-  :transformation=>[
-  {:width=>500, :crop=>"scale"},
-  {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@shop_card.user.first_name} #{@shop_card.user.last_name}"}}
-  ], class: "pokemon-card-photo-standard"%>
+      <div class="shop_card-visuals">
+        <%= cl_image_tag @shop_card.ph_one,width: 217,height: 280, :gravity=>"auto", :crop=>"fill",
+        :transformation=>[
+        {:width=>500, :crop=>"scale"},
+        {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@shop_card.user.first_name} #{@shop_card.user.last_name}"}}
+        ], class: "pokemon-card-photo-standard"%>
 
-  <p> Version :
-    <% if @shop_card.reved? %>
-    <%= "reverse / édition 1" %>
-    <% else %>
-    <%= "normale" %>
-    <% end %>
-  </p>
-  <p> État : <%= @shop_card.condition %>/10 </p>
-  <p> Langue : <%= @shop_card.language %></p>
-  <p> Prix : <%= "#{@shop_card.price} €" %></p>
+        <% if @shop_card.ph_two.present? %>
+          <%= cl_image_tag @shop_card.ph_one,width: 217,height: 280, :gravity=>"auto", :crop=>"fill",
+          :transformation=>[
+          {:width=>500, :crop=>"scale"},
+          {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@shop_card.user.first_name} #{@shop_card.user.last_name}"}}
+          ], class: "pokemon-card-photo-standard"%>
+          <% end %>
+      </div>
 
+      <div class="shop_card-infos">
+        <% if @shop_card.ref_card.fr_name.present? %>
+          <h4><%= @shop_card.ref_card.fr_name %>
+             de la série <%= @shop_card.ref_card.list.fr_name %></h4>
+        <% else %>
+          <h4><%= @shop_card.ref_card.us_name %>
+             de la série<%= @shop_card.ref_card.list.us_name %></h4>
+        <% end %>
 
-  <% if @shop_card.user == current_user %>
-    <%= link_to 'Vendu', shop_card_path(@shop_card),
-    :class => "btn btn-danger", method: :delete,
-     data: { confirm: 'Are you sure?' } %>
-  <% end %>
+        <p> Version :
+          <% if @shop_card.reved? %>
+          <%= "reverse / édition 1" %>
+          <% else %>
+          <%= "normale" %>
+          <% end %>
+        </p>
+        <p> État :
+          <% if @shop_card.condition.present? %>
+            <%= @shop_card.condition %>/10 </p>
+          <% else %>
+            non renseigné
+          <% end %>
+        <p> Langue : <%= @shop_card.language %></p>
+        <p> Prix : <%= "#{@shop_card.price} €" %></p>
 
+        <% if @shop_card.user == current_user %>
+          <%= link_to 'Vendu', shop_card_path(@shop_card),
+          :class => "btn btn-danger", method: :delete,
+           data: { confirm: 'Are you sure?' } %>
+
+           <%= link_to "Modifier", edit_shop_card_path(@shop_card), class: "btn btn-primary btn-lg"%>
+        <% end %>
+
+      </div>
+
+    </div>
+  </div>
 </div>

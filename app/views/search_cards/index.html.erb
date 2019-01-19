@@ -2,73 +2,63 @@
 
   <%= render partial: "search_cards/header" %>
 
-  <div class="collections-cards">
+  <div class="search_cards-container">
 
-      <% @lists.each do |list| %>
+        <% @lists.each do |list| %>
+          <div class="dropdown">
+            <% if list.search_cards.where(user_id: current_user.id).count > 0 %>
+              <button class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <%= list.fr_name %>
+                <%= image_tag(list.symbol_url, height: '20')%>
+                <%= list.search_cards.count %>
+              </button>
 
-          <% if list.search_cards.where(user_id: current_user.id).count > 0 %>
-
-            <%# render partial: "search_cards/search_list" %>
-            <div class="collection-item">
-              <%= link_to list_path(list) do %>
-              <%= list.fr_name %>
-              <% end %>
-              <%= image_tag(list.symbol_url, height: '20')%>
-              <%= list.search_cards.count %>
-              <% if list.search_cards.count > 1%>
-                cartes
-              <% else %>
-                carte
-              <% end %>
-            </div>
-
-            <% list.search_cards.where(user_id: current_user.id).order("ref_card_id asc").each do |search_card| %>
-              <table>
-                <tr>
-                  <td>
-                    <%= link_to search_card_path(search_card) do %>
-                      <% if search_card.ref_card.fr_url.present? %>
-                        <%= image_tag(search_card.ref_card.fr_url, class: "pokemon-card-micro") %>
-                      <% elsif search_card.ref_card.fr_r_url.present? %>
-                        <%= image_tag(search_card.ref_card.fr_r_url, class: "pokemon-card-micro") %>
-                      <% else %>
-                        <%= image_tag(search_card.ref_card.us_url, class: "pokemon-card-micro") %>
-                      <% end %>
-                    <% end  %>
-                  </td>
-                  <td>
-                    <% if search_card.ref_card.fr_name.present? %>
-                      <%= search_card.ref_card.fr_name %>
-                    <% else %>
-                      <%= search_card.ref_card.us_name %>
-                    <% end %>
-                  </td>
-                  <td>
-                    <%= search_card.ref_card.number %>/<%= search_card.ref_card.list.size %>
-                  </td>
-                  <td>
-                    <%= search_card.ref_card.rarety_type %>
-                  </td>
-                  <td>
-                    <%= search_card.language %>
-                  </td>
-                  <td>
-                    <% if search_card.reved? %>
-                      <%= "R / Éd1" %>
-                    <% else %>
-                      <%= "N" %>
-                    <% end %>
-                  </td>
-                </tr>
-              </table>
-            <% end  %>
-
-
-          <% end  %>
-
-      <% end %>
-
-
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <% list.search_cards.where(user_id: current_user.id).order("ref_card_id asc").each do |search_card| %>
+                  <button class="dropdown-item" type="button">
+                    <table>
+                      <tr>
+                        <td>
+                          <%= link_to search_card_path(search_card) do %>
+                            <% if search_card.ref_card.fr_url.present? %>
+                              <%= image_tag(search_card.ref_card.fr_url, class: "pokemon-card-micro") %>
+                            <% elsif search_card.ref_card.fr_r_url.present? %>
+                              <%= image_tag(search_card.ref_card.fr_r_url, class: "pokemon-card-micro") %>
+                            <% else %>
+                              <%= image_tag(search_card.ref_card.us_url, class: "pokemon-card-micro") %>
+                            <% end %>
+                          <% end  %>
+                        </td>
+                        <td>
+                          <% if search_card.ref_card.fr_name.present? %>
+                            <%= search_card.ref_card.fr_name %>
+                          <% else %>
+                            <%= search_card.ref_card.us_name %>
+                          <% end %>
+                        </td>
+                        <td><%= search_card.ref_card.number %>/<%= search_card.ref_card.list.size %></td>
+                        <td><%= search_card.ref_card.rarety_type %></td>
+                        <td><%= search_card.language %></td>
+                        <td>
+                          <% if search_card.reved? %>
+                            <%= "R / Éd1" %>
+                          <% else %>
+                            <%= "N" %>
+                          <% end %>
+                        </td>
+                        <td>
+                          <%= link_to "Retirer", search_card_path(search_card),
+                            :class => "btn btn-danger btn-sm",
+                            method: :delete %>
+                        </td>
+                      </tr>
+                    </table>
+                  </button>
+                <% end %>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
 
   </div>
 </div>

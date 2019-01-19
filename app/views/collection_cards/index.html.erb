@@ -1,28 +1,32 @@
 <div class="container">
-  <div class="collection-header">
-  <h3>Nombre total de cartes : <%= @collection_cards.count %> cartes</h3>
-  <p>Dernières cartes ajoutées :</p>
+
+  <%= render partial: "collection_cards/header" %>
+
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="by_list-tab" data-toggle="tab" href="#by_list" role="tab" aria-controls="by_list" aria-selected="true">
+        Séries
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="last_photos-tab" data-toggle="tab" href="#last_photos" role="tab" aria-controls="last_photos" aria-selected="false">
+        Dernières photos
+      </a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane active" id="by_list" role="tabpanel" aria-labelledby="by_list-tab">
+      <%= render partial: "collection_cards/by_list" %>
+    </div>
+
+    <div class="tab-pane" id="last_photos" role="tabpanel" aria-labelledby="last_photos-tab">
+      <%= render partial: "collection_cards/last_photos" %>
+    </div>
   </div>
+</div>
 
-  <div class="collections-cards">
-
-      <% @collection_cards.order("created_at desc").each do |collection_card| %>
-
-        <%= link_to collection_card_path(collection_card) do %>
-
-            <% if collection_card.ph_one.present? %>
-              <%= cl_image_tag collection_card.ph_one,width: 130, height: 180, :gravity=>"auto", :crop=>"fill",
-              class: "pokemon-card-photo-mini" %>
-            <% elsif collection_card.ref_card.fr_url.present? %>
-              <%= image_tag(collection_card.ref_card.fr_url, width: '130', class: "pokemon-card-mini") %>
-            <% elsif collection_card.ref_card.fr_r_url.present? %>
-              <%= image_tag(collection_card.ref_card.fr_r_url, width: '130', class: "pokemon-card-mini") %>
-            <% else %>
-              <%= image_tag(collection_card.ref_card.us_url, width: '130', class: "pokemon-card-mini") %>
-            <% end %>
-
-        <% end %>
-      <% end %>
-
-  </div>
 </div>

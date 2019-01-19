@@ -1,0 +1,7 @@
+<div class="collection_cards_last_photos-container">
+  <% @collection_cards.order("created_at DESC").each do |collection_card| %>
+    <% if collection_card.ph_one.present? %>
+      <%= cl_image_tag collection_card.ph_one,width: 217,height: 280, :gravity=>"auto", :crop=>"fill", class: "pokemon-card-photo-mini"%>
+    <% end  %>
+  <% end  %>
+</div>

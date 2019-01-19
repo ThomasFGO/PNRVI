@@ -1,0 +1,29 @@
+<div class="good_users-container">
+    <% @good_shop_cards_per_users.each do |good_shop_cards_per_user| %>
+      <div class="row">
+        <div class="good_user-header">
+          <%= User.find_by(id: good_shop_cards_per_user[0]).first_name %>
+          <%= "a #{good_shop_cards_per_user[1]} cartes pour vous" %>
+        </div>
+        <div class="good_shop_cards-container">
+          <div class="row"></div>
+          <% @good_shop_cards.select { |shop_card| shop_card.user_id == good_shop_cards_per_user[0]}.each do |shop_card| %>
+            <%= link_to shop_card_path(shop_card) do %>
+              <% if shop_card.ph_one.present? %>
+                <div class="col-md-2">
+                  <div class="card-ref">
+                    <%= cl_image_tag shop_card.ph_one,width: 130,
+                    height: 180, :gravity=>"auto", :crop=>"fill",  :transformation=>[
+                    {:width=>500, :crop=>"scale"},
+                    {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{shop_card.user.first_name} #{shop_card.user.last_name}"},
+                     :gravity=>"south", :y=>100},
+                    {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{shop_card.price}€"}, :gravity=>"south", :y=>10}
+                    ], class: "pokemon-card-photo-mini" %>
+                  </div>
+                </div>
+              <% end %>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
+    <% end %>

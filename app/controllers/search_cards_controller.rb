@@ -20,7 +20,7 @@ class SearchCardsController < ApplicationController
     @search_card = current_user.search_cards.new(search_card_params)
     @search_card.ref_card = RefCard.find(params[:ref_card_id])
     @search_card.save
-    redirect_to search_cards_path
+    redirect_to list_path(@search_card.ref_card.list, :anchor => "#{@search_card.ref_card_id}")
   end
 
   def destroy

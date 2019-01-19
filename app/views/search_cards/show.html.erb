@@ -21,8 +21,8 @@
     <%= image_tag(@search_card.ref_card.us_url, class: "pokemon-card-standard") %>
     <p>Version anglaise</p>
   <% end %>
-  <%= link_to "Trouvé !", search_card_path(@search_card),
-      :class => "btn btn-success",
+  <%= link_to "Retirer", search_card_path(@search_card),
+      :class => "btn btn-danger",
       method: :delete %>
 </div>
 

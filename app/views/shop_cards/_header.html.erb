@@ -1,0 +1,10 @@
+  <div class="card-header-list">
+    <h1>Magasin</h1>
+    <% if @shop_cards.count == 0 %>
+      <h3>aucune carte</h3>
+    <% elsif @shop_cards.count == 1  %>
+      <h3><%= @shop_cards.count %> carte / valeur : <%= @shop_cards.sum(:price)%> €</h3>
+    <% else %>
+      <h3><%= @shop_cards.count %> cartes / valeur : <%= @shop_cards.sum(:price)%> €</h3>
+    <% end %>
+  </div>

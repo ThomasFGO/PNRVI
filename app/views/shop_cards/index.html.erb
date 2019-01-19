@@ -1,33 +1,27 @@
 <div class="container">
-  <div class="shop-header">
-  <h3>Nombre de cartes à vendre : <%= @shop_cards.count %> cartes</h3>
-  <h3>Valeur totale : <%= @shop_cards.sum(:price)%> € </h3>
-  <p>Dernières cartes ajoutées :</p>
-  </div>
 
-  <div class="collections-cards">
+  <%= render partial: "shop_cards/header" %>
 
-      <%# render collection: @shop_cards.order("ref_card_id desc"), partial: "shop_cards/card" %>
+  <div class="shop_cards-container">
+    <div class="row">
 
       <% @shop_cards.order("ref_card_id desc").each do |shop_card| %>
-
-        <%= link_to shop_card_path(shop_card) do %>
+        <div class="col-md-2">
+          <%= link_to shop_card_path(shop_card) do %>
 
             <% if shop_card.ph_one.present? %>
-              <%= cl_image_tag shop_card.ph_one,width: 130, height: 180, :gravity=>"auto", :crop=>"fill", :transformation=>[
-              {:width=>500, :crop=>"scale"},
-              {:overlay=>{:font_family=>"Arial", :font_size=>80, :text=>shop_card.user.first_name}}
-              ], class: "pokemon-card-photo-mini" %>
-            <% elsif shop_card.ref_card.fr_url.present? %>
-              <%= image_tag(shop_card.ref_card.fr_url, width: '130', class: "pokemon-card-mini") %>
-            <% elsif shop_card.ref_card.fr_r_url.present? %>
-              <%= image_tag(shop_card.ref_card.fr_r_url, width: '130', class: "pokemon-card-mini") %>
-            <% else %>
-              <%= image_tag(shop_card.ref_card.us_url, width: '130', class: "pokemon-card-mini") %>
+              <div class="shop_card-card">
+                <%= cl_image_tag shop_card.ph_one,width: 130, height: 180, :gravity=>"auto", :crop=>"fill", :transformation=>[
+                {:width=>500, :crop=>"scale"},
+                {:overlay=>{:font_family=>"Arial", :font_size=>80, :text=>"#{shop_card.price} €"}}
+                ], class: "pokemon-card-photo-mini" %>
+              </div>
             <% end %>
 
-        <% end %>
+          <% end %>
+        </div>
       <% end %>
 
+    </div>
   </div>
 </div>
