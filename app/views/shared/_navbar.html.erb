@@ -1,26 +1,40 @@
-<div class="container">
-  <nav class="navbar">
+<div class="navbars">
+  <nav class="main-navbar">
 
-    <%= link_to "Pok'N'Roll", root_path, class: "navbar-item" %>
-    <%= link_to "Séries", lists_path, class: "navbar-item" %>
+    <%= link_to "POK'N'ROLL", root_path, class: "navbar-item" %>
+    <%= link_to "SÉRIES", lists_path, class: "navbar-item" %>
     <%# link_to "Rechercher", ref_cards_path, class: "navbar-item"%>
 
     <% if user_signed_in? %>
-      <%= link_to "Annonces", feeds_path, class: "navbar-item" %>
-      <%= current_user.first_name %>
-      <%= link_to "Magasin", shop_cards_path, class: "navbar-item" %>
-      <%= link_to "Recherches", search_cards_path, class: "navbar-item"%>
-      <%= link_to "Collection", collection_cards_path, class: "navbar-item"%>
-      <%= link_to "Déconnexion", destroy_user_session_path, method: :delete, class: "navbar-item"%>
+      <%= link_to "ANNONCES", feeds_path, class: "navbar-item" %>
+
+      <div class="navbar-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <%= current_user.first_name %>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <%= link_to "Déconnexion", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
+        </div>
+      </div>
+
 
     <% else %>
-
-      <%= link_to "Inscription", new_user_registration_path, class: "navbar-item"%>
-      <%= link_to "Connexion", new_user_session_path, class: "navbar-item"%>
-
+      <div>
+        <%= link_to "Inscription /", new_user_registration_path, class: "navbar-item"%>
+        <%= link_to "Connexion", new_user_session_path, class: "navbar-item"%>
+      </div>
     <% end %>
 
 
   </nav>
+
+  <% if user_signed_in? %>
+    <nav class="user-navbar">
+      <%= link_to "Mon magasin", shop_cards_path, class: "navbar-item" %>
+      <%= link_to "Mes recherches", search_cards_path, class: "navbar-item"%>
+      <%= link_to "Ma collection", collection_cards_path, class: "navbar-item"%>
+    </nav>
+  <% end %>
 </div>
+
 

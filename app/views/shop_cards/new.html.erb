@@ -11,13 +11,18 @@
       <% end %>
 
       <%= simple_form_for [@ref_card, @shop_card] do |f| %>
-        <%= f.input :reved, label: "Reverse / Édition 1" %>
-        <%= f.input :condition, label: "État" %>
-        <%= f.input :language, label: "Langue" %>
-        <%= f.input :price, label: "Prix" %>
-        <%= f.input :ph_one, label: "Recto" %>
+        <%= f.input :reved, label: "reverse / édition 1" %>
+        <%= f.label(:condition, "état") %>
+        <%= f.select :condition, options_for_select([["Mauvais", 1], ["Moyen", 2], ["Bon", 3], ["Très bon", 4], ["Neuf", 5]],
+        ["Bon", 3])%>
+        <%= f.label(:language, "langue") %>
+        <%= f.select :language, options_for_select(
+          ["français", "anglais", "allemand", "italien", "espagnol", "japonais" ],
+          ["français"]) %>
+        <%= f.input :price, label: "prix" %>
+        <%= f.input :ph_one, label: "recto" %>
         <%= f.input :ph_one_cache, as: :hidden %>
-        <%= f.input :ph_two, label: "Verso" %>
+        <%= f.input :ph_two, label: "verso" %>
         <%= f.input :ph_two_cache, as: :hidden %>
 
         <%= f.submit "Ajouter à mon magasin", class: "btn btn-primary" %>

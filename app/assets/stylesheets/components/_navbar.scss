@@ -1,18 +1,39 @@
-.navbar {
-  border-bottom: 6px solid $yellow;
-  border-radius: 6px;
+.main-navbar {
+  //border-bottom: 6px solid $yellow;
+  //border-radius: 6px;
+  background-color: $yellow;
   display: flex;
   justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  //border-bottom: 1px solid #006494;
+  .navbar-item {
+  color: $blue;
+  }
+  .navbar-item:hover {
+  color: $light-gray;
+  }
  }
- .navbar-item {
-  color: $yellow;
- }
- .navbar-item:hover {
-  color: $yellow;
- }
+
 
 .nav {
-  background-color: $light-gray;
   margin-bottom: 10px;
+  background-color: $light-gray;
 }
 
+.user-navbar {
+  background-color: $blue;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid $yellow;
+  .navbar-item {
+  color: $yellow;
+  }
+  .navbar-item:hover {
+  color: $light-gray;
+  }
+}
+
+.navbars {
+  margin-bottom: 15px;
+}

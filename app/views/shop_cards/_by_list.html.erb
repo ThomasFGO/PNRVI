@@ -1,0 +1,58 @@
+<div class="shop_cards_by_list-container">
+
+    <% @lists.each do |list| %>
+      <div class="dropdown">
+        <% if list.shop_cards.where(user_id: current_user.id).count > 0 %>
+          <button class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <%= list.fr_name %>
+            <%= image_tag(list.symbol_url, height: '20')%>
+            <%= list.shop_cards.count %>
+          </button>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <% list.shop_cards.where(user_id: current_user.id).order("ref_card_id asc").each do |shop_card| %>
+              <button class="dropdown-item" type="button">
+                <table>
+                  <tr>
+                    <td>
+                      <%= link_to shop_card_path(shop_card) do %>
+                        <% if shop_card.ref_card.fr_url.present? %>
+                          <%= image_tag(shop_card.ref_card.fr_url, class: "pokemon-card-micro") %>
+                        <% elsif shop_card.ref_card.fr_r_url.present? %>
+                          <%= image_tag(shop_card.ref_card.fr_r_url, class: "pokemon-card-micro") %>
+                        <% else %>
+                          <%= image_tag(shop_card.ref_card.us_url, class: "pokemon-card-micro") %>
+                        <% end %>
+                      <% end  %>
+                    </td>
+                    <td>
+                      <% if shop_card.ref_card.fr_name.present? %>
+                        <%= shop_card.ref_card.fr_name %>
+                      <% else %>
+                        <%= shop_card.ref_card.us_name %>
+                      <% end %>
+                    </td>
+                    <td><%= shop_card.ref_card.number %>/<%= shop_card.ref_card.list.size %></td>
+                    <td><%= shop_card.ref_card.rarety_type %></td>
+                    <td><%= shop_card.language %></td>
+                    <td>
+                      <% if shop_card.reved? %>
+                        <%= "R / Éd1" %>
+                      <% else %>
+                        <%= "N" %>
+                      <% end %>
+                    </td>
+                    <td>
+                      <%= link_to "Retirer", shop_card_path(shop_card),
+                        :class => "btn btn-danger btn-sm",
+                        method: :delete %>
+                    </td>
+                  </tr>
+                </table>
+              </button>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>

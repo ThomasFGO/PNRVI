@@ -1,7 +1,6 @@
 <div class="container">
-  <div class="row">
-    <div class="col-md-6">
 
+    <div class="card-container">
       <div class="shop_card-visuals">
         <%= cl_image_tag @shop_card.ph_one,width: 217,height: 280, :gravity=>"auto", :crop=>"fill",
         :transformation=>[
@@ -50,9 +49,8 @@
 
            <%= link_to "Modifier", edit_shop_card_path(@shop_card), class: "btn btn-primary btn-lg"%>
         <% end %>
-
       </div>
-
     </div>
-  </div>
+
+
 </div>

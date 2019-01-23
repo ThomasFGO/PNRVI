@@ -46,6 +46,7 @@
 .pokemon-card-photo-mini {
   box-shadow: 2px 2px 5px black;
   border-radius: 6px;
+  margin-bottom: 15px;
 }
 
 .pokemon-card-standard {
@@ -74,7 +75,7 @@
   box-shadow: 2px 2px 5px black;
   padding: 10px 50px;
   margin-bottom: 15px;
-  background-color: $light-gray;
+  background-color: $yellow;
 }
 
 .collection-item {

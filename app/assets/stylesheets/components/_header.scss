@@ -26,11 +26,15 @@
 
 .good_user-header {
   margin: auto;
-  width: 40%;
+  width: 60%;
   border: 6px solid $yellow;
   border-radius: 5px;
   box-shadow: 2px 2px 5px black;
   padding: 10px 50px;
   margin-bottom: 15px;
   background-color: $light-gray;
+}
+
+.bloc-header {
+  color: $yellow;
 }
