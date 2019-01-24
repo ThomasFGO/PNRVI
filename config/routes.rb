@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   #root to: 'lists#index'
   root to: 'pages#home'
   resources :feeds, only: [ :index ]
+  resources :users, only: [ :show ]
   resources :lists, only: [ :index, :show ]
 
   resources :ref_cards, :shallow => true, only: [ :index, :show ] do

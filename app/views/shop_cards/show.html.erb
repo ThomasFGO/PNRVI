@@ -47,7 +47,10 @@
           :class => "btn btn-danger", method: :delete,
            data: { confirm: 'Are you sure?' } %>
 
-           <%= link_to "Modifier", edit_shop_card_path(@shop_card), class: "btn btn-primary btn-lg"%>
+          <%= link_to "Modifier", edit_shop_card_path(@shop_card), class: "btn btn-primary btn-lg"%>
+        <% else %>
+          <%= link_to "Voir les autres cartes de #{@shop_card.user.first_name}", user_path(@shop_card.user),
+          class: "btn btn-primary btn-lg" %>
         <% end %>
       </div>
     </div>

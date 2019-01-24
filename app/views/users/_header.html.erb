@@ -1,0 +1,10 @@
+<div class="card-header-list">
+  <h2><%= @user.first_name %> <%= @user.last_name %></h2>
+  <% if @good_shop_cards.count == 0 %>
+    <h3>ne vend aucune carte que vous recherchez</h3>
+  <% elsif @good_shop_cards.count == 1  %>
+    <h3>possède <%= @good_shop_cards.count %> carte que vous recherchez</h3>
+  <% else %>
+    <h3>possède <%= @good_shop_cards.count %> cartes que vous recherchez</h3>
+  <% end %>
+</div>
