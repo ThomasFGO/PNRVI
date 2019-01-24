@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
 
+
   devise_for :users
   #root to: 'lists#index'
   root to: 'pages#home'
   resources :feeds, only: [ :index ]
   resources :users, only: [ :show ]
+  resources :selected_cards, only: [ :index, :create, :destroy ]
   resources :lists, only: [ :index, :show ]
 
   resources :ref_cards, :shallow => true, only: [ :index, :show ] do

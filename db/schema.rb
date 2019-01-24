@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_13_144307) do
+ActiveRecord::Schema.define(version: 2019_01_24_152354) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -94,6 +94,15 @@ ActiveRecord::Schema.define(version: 2018_12_13_144307) do
     t.index ["user_id"], name: "index_search_cards_on_user_id"
   end
 
+  create_table "selected_cards", force: :cascade do |t|
+    t.bigint "shop_card_id"
+    t.bigint "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["shop_card_id"], name: "index_selected_cards_on_shop_card_id"
+    t.index ["user_id"], name: "index_selected_cards_on_user_id"
+  end
+
   create_table "shop_cards", force: :cascade do |t|
     t.bigint "ref_card_id"
     t.boolean "reved"
@@ -136,6 +145,8 @@ ActiveRecord::Schema.define(version: 2018_12_13_144307) do
   add_foreign_key "ref_cards", "lists"
   add_foreign_key "search_cards", "ref_cards"
   add_foreign_key "search_cards", "users"
+  add_foreign_key "selected_cards", "shop_cards"
+  add_foreign_key "selected_cards", "users"
   add_foreign_key "shop_cards", "ref_cards"
   add_foreign_key "shop_cards", "users"
 end

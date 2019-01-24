@@ -1,0 +1,6 @@
+<div class="container">
+  <%= render partial: "selected_cards/header" %>
+  <% @selected_cards.each do |selected_card| %>
+    <%= selected_card.shop_card.ref_card.us_name %>
+  <% end %>
+</div>
