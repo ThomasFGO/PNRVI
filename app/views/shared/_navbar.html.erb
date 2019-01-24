@@ -1,7 +1,12 @@
 <div class="navbars">
   <nav class="main-navbar">
 
-    <%= link_to "POK'N'ROLL", root_path, class: "navbar-item" %>
+    <%= link_to root_path do %>
+      <div class="navbar-item">
+        <%= image_tag("mini_logo_pnr.png", class: "mini-logo") %>
+        <%= image_tag("name_pnr.png", class: "name") %>
+      </div>
+    <% end %>
     <%= link_to "SÉRIES", lists_path, class: "navbar-item" %>
     <%# link_to "Rechercher", ref_cards_path, class: "navbar-item"%>
 
