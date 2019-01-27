@@ -70,6 +70,7 @@
 }
 
 .card-header-list {
+  display: flex;
   border: 6px solid $yellow;
   border-radius: 5px;
   box-shadow: 2px 2px 5px black;

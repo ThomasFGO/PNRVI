@@ -1,6 +1,29 @@
 <div class="container">
   <%= render partial: "selected_cards/header" %>
-  <% @selected_cards.each do |selected_card| %>
-    <%= selected_card.shop_card.ref_card.us_name %>
+  <% @selected_cards_count_by_users.each do |selected_cards_count_by_user| %>
+    <div class="row">
+      <%= User.find_by(id: selected_cards_count_by_user[0]).first_name %>
+      <%= User.find_by(id: selected_cards_count_by_user[0]).last_name %>
+      <%= "(#{selected_cards_count_by_user[1]} cartes)" %>
+    </div>
+
+    <div class="row">
+      <% current_user.selected_cards.all.order("created_at DESC").each do |selected_card| %>
+        <% if selected_card.shop_card.user_id == selected_cards_count_by_user[0] %>
+          <div class="col-md-2">
+            <div class="card-ref">
+              <%= cl_image_tag selected_card.shop_card.ph_one,width: 130,
+              height: 180, :gravity=>"auto", :crop=>"fill",  :transformation=>[
+              {:width=>500, :crop=>"scale"},
+              {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{selected_card.shop_card.user.first_name} #{selected_card.shop_card.user.last_name}"},
+               :gravity=>"south", :y=>100},
+              {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{selected_card.shop_card.price}€"}, :gravity=>"south", :y=>10}
+              ], class: "pokemon-card-photo-mini" %>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+
   <% end %>
 </div>
