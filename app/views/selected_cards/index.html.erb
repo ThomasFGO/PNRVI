@@ -5,6 +5,8 @@
       <%= User.find_by(id: selected_cards_count_by_user[0]).first_name %>
       <%= User.find_by(id: selected_cards_count_by_user[0]).last_name %>
       <%= "(#{selected_cards_count_by_user[1]} cartes)" %>
+      <%= link_to "Contacter",
+      conversations_path(sender_id: current_user.id, recipient_id: selected_cards_count_by_user[0]), method: "post" %>
     </div>
 
     <div class="row">
