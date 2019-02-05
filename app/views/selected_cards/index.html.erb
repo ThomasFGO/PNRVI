@@ -1,31 +1,48 @@
 <div class="container">
   <%= render partial: "selected_cards/header" %>
+
   <% @selected_cards_count_by_users.each do |selected_cards_count_by_user| %>
-    <div class="row">
+    <div class="selected_cards-element">
       <%= User.find_by(id: selected_cards_count_by_user[0]).first_name %>
       <%= User.find_by(id: selected_cards_count_by_user[0]).last_name %>
       <%= "(#{selected_cards_count_by_user[1]} cartes)" %>
       <%= link_to "Contacter",
-      conversations_path(sender_id: current_user.id, recipient_id: selected_cards_count_by_user[0]), method: "post" %>
-    </div>
+      conversations_path(sender_id: current_user.id, recipient_id: selected_cards_count_by_user[0]), method: "post",
+      class:"btn btn-success btn-sm" %>
 
-    <div class="row">
-      <% current_user.selected_cards.all.order("created_at DESC").each do |selected_card| %>
-        <% if selected_card.shop_card.user_id == selected_cards_count_by_user[0] %>
-          <div class="col-md-2">
-            <div class="card-ref">
-              <%= cl_image_tag selected_card.shop_card.ph_one,width: 130,
-              height: 180, :gravity=>"auto", :crop=>"fill",  :transformation=>[
-              {:width=>500, :crop=>"scale"},
-              {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{selected_card.shop_card.user.first_name} #{selected_card.shop_card.user.last_name}"},
-               :gravity=>"south", :y=>100},
-              {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{selected_card.shop_card.price}€"}, :gravity=>"south", :y=>10}
-              ], class: "pokemon-card-photo-mini" %>
+
+      <div class="row">
+        <% current_user.selected_cards.all.order("created_at DESC").each do |selected_card| %>
+          <% if selected_card.shop_card.user_id == selected_cards_count_by_user[0] %>
+            <div class="col-md-2">
+
+              <div class="card-element">
+                <%= link_to shop_card_path(selected_card.shop_card_id) do %>
+                  <% if selected_card.shop_card.ph_one.present? %>
+                    <div class="visual">
+                      <%= cl_image_tag selected_card.shop_card.ph_one,
+                      :gravity=>"auto", :crop=>"fill",  :transformation=>[
+                      {:width=>500, :crop=>"scale"},
+                      {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{selected_card.shop_card.user.first_name} #{selected_card.shop_card.user.last_name}"},
+                      :gravity=>"south", :y=>100}
+                      ], class: "mini" %>
+                    </div>
+                  <% end %>
+                <% end %>
+                <div class="price">
+                  <%= selected_card.shop_card.price %> €
+                </div>
+                <div class="destroy_button">
+                  <%= link_to "X", selected_card_path(selected_card),
+                              :class => "btn btn-sm",
+                              method: :delete %>
+                </div>
+              </div>
             </div>
-          </div>
+          <% end %>
         <% end %>
-      <% end %>
+      </div>
     </div>
-
   <% end %>
+
 </div>

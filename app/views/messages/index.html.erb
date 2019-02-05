@@ -1,32 +1,49 @@
 <div class="container">
-  <h1 class="title is-4">Conversation avec <%= @conversation.recipient.first_name %></h1>
+  <div class="selected_cards-container">
+    <%= render partial: "messages/selected_cards" %>
+  </div>
+  <div class="messages-header">
+    <h4>Conversation avec
+      <% if @conversation.recipient_id == current_user.id%>
+        <%= @conversation.sender.first_name %>
+      <% else %>
+        <%= @conversation.recipient.first_name %>
+      <% end %>
+    </h4>
+    <% if @over_ten %>
+      <%= link_to "Show previous", '?m=all', class:'button is-link' %>
+    <% end %>
+  </div>
 
-  <% if @over_ten %>
-    <%= link_to "Show previous", '?m=all', class:'button is-link' %>
-  <% end %>
-
-  <section id="messages" class="mb4">
+  <div class="messages-container">
     <% @messages.each do |message| %>
       <% if message.body %>
-        <% user = User.find(message.user_id) %>
-        <article class="message is-dark">
-          <div class="message-body">
-            <div class="inline-block nudge-down-10 pr2"><%# gravatar_for user, size: 32 %></div>
-            <div class="inline-block"><strong><%= user.first_name %></strong> <%= message.message_time %></div>
-            <div class="block pt4">
-              <div class="f4"><%= message.body %></div>
+        <% if message.user_id == current_user.id %>
+          <div class="current_user_message-content">
+            <div class="message-header">
+              <% user = User.find(message.user_id) %>
+              Moi / <%= message.message_time %>
+            </div>
+            <div class="message-body">
+              <%= message.body %>
             </div>
           </div>
-        </article>
+        <% else %>
+          <div class="other_user_message-content">
+            <div class="message-header">
+              <% user = User.find(message.user_id) %>
+              <%= user.first_name %> / <%= message.message_time %>
+            </div>
+            <div class="message-body">
+              <%= message.body %>
+            </div>
+          </div>
+        <% end %>
       <% end %>
     <% end %>
-  </section>
 
-  <%= form_for [@conversation, @message] do |f| %>
-    <%= f.text_area :body, class: "textarea", placeholder: "Inquire about a trade..." %>
-    <%= f.text_field :user_id, value: current_user.id, type: "hidden"  %>
-    <div class="text-align-right">
-      <%= f.submit "Send message", class: "button is-link is-large mt3" %>
+    <div class="new_message-content">
+      <%= render partial: "messages/form" %>
     </div>
-  <% end %>
+  </div>
 </div>

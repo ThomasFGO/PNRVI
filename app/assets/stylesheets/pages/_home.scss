@@ -5,21 +5,35 @@
 
 .landing_page {
   color: $yellow;
-  width: 60%;
-  margin-top: 50px;
+  width: 50%;
+  margin-top: 30px;
   .btn {
     background-color: $yellow;
     color: $blue;
+    border-radius: 7px;
   }
 }
 
 .logo-container {
-  display: flex;
-  justify-content: center;
+  position: relative;
+  margin-right: 20px;
+  .logo {
+    position: relative;
+    top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  }
 }
+
 
 .call_to_action-container {
   display: flex;
   justify-content: center;
 }
 
+.header {
+  display: flex;
+  h3 {
+    text-align: justify;
+  }
+}

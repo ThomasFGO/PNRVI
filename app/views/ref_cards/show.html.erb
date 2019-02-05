@@ -1,5 +1,17 @@
 <div class="container">
   <div class="card-container">
+    <div class="card-visual">
+      <% if @ref_card.fr_url.present? %>
+        <%= image_tag(@ref_card.fr_url, class: "standard") %>
+        <p>Version normale française</p>
+      <% elsif @ref_card.fr_r_url.present? %>
+        <%= image_tag(@ref_card.fr_r_url, class: "standard") %>
+        <p>Version reverse/édition1 française</p>
+      <% else %>
+        <%= image_tag(@ref_card.us_url, class: "standard") %>
+        <p>Version anglaise</p>
+      <% end %>
+    </div>
     <div class="card-infos">
       <% if @ref_card.fr_name.present? %>
         <h4><%= @ref_card.fr_name %></h4>
@@ -12,23 +24,17 @@
       <% end %>
 
       <p>Illustrée par <%= @ref_card.artist %></p>
+
+        <div class="big_button">
+          <%= link_to "Vendre", new_ref_card_shop_card_path(@ref_card), :class => "btn"%>
+        </div>
+        <div class="big_button">
+          <%= link_to "Rechercher", new_ref_card_search_card_path(@ref_card), :class => "btn"%>
+        </div>
+      <%# link_to "Je l'ai !", new_ref_card_collection_card_path(@ref_card), :class => "btn btn-success"%>
+
     </div>
-    <div class="card-visual">
-      <% if @ref_card.fr_url.present? %>
-        <%= image_tag(@ref_card.fr_url, class: "pokemon-card-standard") %>
-        <p>Version normale française</p>
-      <% elsif @ref_card.fr_r_url.present? %>
-        <%= image_tag(@ref_card.fr_r_url, class: "pokemon-card-standard") %>
-        <p>Version reverse/édition1 française</p>
-      <% else %>
-        <%= image_tag(@ref_card.us_url, class: "pokemon-card-standard") %>
-        <p>Version anglaise</p>
-      <% end %>
-    </div>
-    <div class="card-actions">
-      <%= link_to "Je la vends", new_ref_card_shop_card_path(@ref_card), :class => "btn btn-success"%>
-      <%= link_to "Rechercher", new_ref_card_search_card_path(@ref_card), :class => "btn btn-success"%>
-      <%= link_to "Je l'ai !", new_ref_card_collection_card_path(@ref_card), :class => "btn btn-success"%>
-    </div>
+
+
   </div>
 </div>

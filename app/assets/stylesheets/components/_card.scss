@@ -12,22 +12,6 @@
   background-color: #00A6FB;
 }
 
-.pokemon-card-micro {
-  box-shadow: 2px 2px 5px black;
-  border-radius: 3px;
-  width: 50px;
-}
-
-.pokemon-card-mini {
-  box-shadow: 2px 2px 5px black;
-  border-radius: 6px;
-  width: 130px;
-  &:hover {
-      border-radius: 7px;
-      width: 140px;
-    }
-}
-
 .pokemon-card-photo-mini {
   box-shadow: 2px 2px 5px black;
   border-radius: 6px;
@@ -37,12 +21,13 @@
 .pokemon-card-standard {
   box-shadow: 2px 2px 5px black;
   border-radius: 11px;
-  width: 217px;
+  width: 100px;
 }
 
 .pokemon-card-photo-standard {
   box-shadow: 2px 2px 5px black;
   border-radius: 11px;
+  width: 220px;
 }
 
 .card {
@@ -72,14 +57,13 @@
   margin: 15px 5px;
 }
 
-.card-ref {
-  //border: 2px solid white;
-  height: 200px;
-  width: 140px;
-  margin-bottom: 5px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.card-infos {
+  margin-left: 30px;
+  background-color: $yellow;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  padding: 10px 10px;
+  height: 300px
 }
 
 .col-md-2 {

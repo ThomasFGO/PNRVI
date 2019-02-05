@@ -15,6 +15,8 @@ class MessagesController < ApplicationController
     end
 
     @message = @conversation.messages.new
+
+
   end
 
   def create

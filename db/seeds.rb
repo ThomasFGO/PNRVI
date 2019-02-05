@@ -6,7 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'csv'
-
+RefCard.destroy_all
+EnergyType.destroy_all
+List.destroy_all
 Bloc.destroy_all
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'blocs.csv'))
@@ -20,7 +22,7 @@ end
 
 #puts "There are now #{Bloc.count} rows in the transactions table"
 
-List.destroy_all
+
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
@@ -41,7 +43,7 @@ end
 
 #puts "There are now #{List.count} rows in the transactions table"
 
-EnergyType.destroy_all
+
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'energy_types.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
@@ -57,7 +59,7 @@ end
 #puts "There are now #{EnergyType.count} rows in the EnergyType table"
 
 
-RefCard.destroy_all
+
 
 lists = [
 
@@ -93,7 +95,8 @@ lists = [
   "xygenerations.csv", "xyimpactdesdestins.csv", "xyoffensivevapeur.csv", "xyevolutions.csv",
 
   "slpromos.csv", "slbase.csv", "slgardiensascendants.csv", "slombresardentes.csv", "sllegendesbrillantes.csv", "slinvasioncarmin.csv",
-  "slultraprisme.csv", "sllumiereinterdite.csv", "sltempeteceleste.csv", "slmajestedesdragons.csv", "sltonnerreperdu.csv"
+  "slultraprisme.csv", "sllumiereinterdite.csv", "sltempeteceleste.csv", "slmajestedesdragons.csv", "sltonnerreperdu.csv",
+  "slduodechoc.csv"
 
 
 ]

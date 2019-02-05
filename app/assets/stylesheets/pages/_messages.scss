@@ -1,0 +1,56 @@
+.messages-header {
+
+}
+.messages-container {
+
+}
+
+.current_user_message-content {
+  background-color: $yellow;
+  text-align: right;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.other_user_message-content {
+  background-color: $light-gray;
+  text-align: left;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.message-header {
+
+}
+.message-body {
+}
+
+.new_message-content {
+  text-align: right;
+  .new_message-body textarea {
+    background-color: $yellow;
+    border-radius: 5px;
+    width: 50%;
+  }
+}
+
+.selected_cards-container {
+  display: flex;
+}
+
+.current_user_selected_cards {
+  background-color: $yellow;
+  text-align: right;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 50%;
+}
+.other_user_selected_cards {
+  background-color: $light-gray;
+  text-align: left;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 50%;
+}

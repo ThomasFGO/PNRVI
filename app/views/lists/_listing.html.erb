@@ -6,7 +6,6 @@
       <th> Rareté </th>
       <th> Vendre </th>
       <th> Rechercher </th>
-      <th> Je l'ai ! </th>
     </tr>
   </thead>
   <tbody>
@@ -30,9 +29,6 @@
         </td>
         <td>
           <%= link_to "r", new_ref_card_search_card_path(ref_card), :class => "btn btn-success btn-sm"%>
-        </td>
-        <td>
-          <%= link_to "c", new_ref_card_collection_card_path(ref_card), :class => "btn btn-success btn-sm"%>
         </td>
       </tr>
     <% end  %>

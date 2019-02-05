@@ -19,22 +19,13 @@
                     <table>
                       <tr>
                         <td>
-                          <%= link_to search_card_path(search_card) do %>
-                            <% if search_card.ref_card.fr_url.present? %>
-                              <%= image_tag(search_card.ref_card.fr_url, class: "pokemon-card-micro") %>
-                            <% elsif search_card.ref_card.fr_r_url.present? %>
-                              <%= image_tag(search_card.ref_card.fr_r_url, class: "pokemon-card-micro") %>
+                          <%= link_to ref_card_path(search_card.ref_card) do %>
+                            <% if search_card.ref_card.fr_name.present? %>
+                              <%= search_card.ref_card.fr_name %>
                             <% else %>
-                              <%= image_tag(search_card.ref_card.us_url, class: "pokemon-card-micro") %>
+                              <%= search_card.ref_card.us_name %>
                             <% end %>
                           <% end  %>
-                        </td>
-                        <td>
-                          <% if search_card.ref_card.fr_name.present? %>
-                            <%= search_card.ref_card.fr_name %>
-                          <% else %>
-                            <%= search_card.ref_card.us_name %>
-                          <% end %>
                         </td>
                         <td><%= search_card.ref_card.number %>/<%= search_card.ref_card.list.size %></td>
                         <td><%= search_card.ref_card.rarety_type %></td>
@@ -47,9 +38,11 @@
                           <% end %>
                         </td>
                         <td>
-                          <%= link_to "Retirer", search_card_path(search_card),
-                            :class => "btn btn-danger btn-sm",
-                            method: :delete %>
+                          <div class="delete_button">
+                            <%= link_to "X", search_card_path(search_card),
+                              :class => "btn btn-sm",
+                              method: :delete %>
+                          </div>
                         </td>
                       </tr>
                     </table>

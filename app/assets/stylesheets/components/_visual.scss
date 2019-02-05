@@ -1,3 +1,27 @@
+.card-element {
+  //border: 2px solid white;
+  height: 200px;
+  width: 160px;
+  margin: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  &:hover .buttons {
+    position: absolute;
+    bottom: 3px;
+    display: block;
+  }
+  &:hover .destroy_button {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    display: block;
+  }
+}
+
+
 .visual-url {
 
 }
@@ -5,3 +29,33 @@
 
 }
 
+.standard {
+  box-shadow: 2px 2px 5px black;
+  border-radius: 11px;
+  width: 217px;
+}
+
+.mini {
+  box-shadow: 2px 2px 5px black;
+  border-radius: 6px;
+  width: 130px;
+  &:hover {
+      border-radius: 7px;
+      width: 140px;
+    }
+}
+.micro {
+  box-shadow: 2px 2px 5px black;
+  border-radius: 3px;
+  width: 50px;
+}
+
+.price {
+  color: $blue;
+  background-color: $yellow;
+  border-radius: 5px;
+  text-align: center;
+  width: auto;
+  height: 25px;
+  padding: 0px 3px;
+}

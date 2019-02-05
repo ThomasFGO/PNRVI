@@ -1,0 +1,16 @@
+.selected_cards-header {
+  color: $yellow;
+}
+
+.selected_cards-element {
+  background-color: $yellow;
+  color: $blue;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  .price {
+    border: 1px solid $blue;
+    box-shadow: 1px 1px 5px $blue;
+  }
+}

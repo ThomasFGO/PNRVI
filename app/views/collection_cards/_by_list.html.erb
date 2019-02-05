@@ -17,11 +17,11 @@
                     <td>
                       <%= link_to collection_card_path(collection_card) do %>
                         <% if collection_card.ref_card.fr_url.present? %>
-                          <%= image_tag(collection_card.ref_card.fr_url, class: "pokemon-card-micro") %>
+                          <%= image_tag(collection_card.ref_card.fr_url, class: "micro") %>
                         <% elsif collection_card.ref_card.fr_r_url.present? %>
-                          <%= image_tag(collection_card.ref_card.fr_r_url, class: "pokemon-card-micro") %>
+                          <%= image_tag(collection_card.ref_card.fr_r_url, class: "micro") %>
                         <% else %>
-                          <%= image_tag(collection_card.ref_card.us_url, class: "pokemon-card-micro") %>
+                          <%= image_tag(collection_card.ref_card.us_url, class: "micro") %>
                         <% end %>
                       <% end  %>
                     </td>
