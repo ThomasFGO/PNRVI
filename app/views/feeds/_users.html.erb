@@ -1,0 +1,14 @@
+<div class="col-md-offset-2 col-md-8">
+  <div class="users-container">
+    <% @good_shop_cards_count_by_users.each do |good_shop_cards_count_by_user| %>
+      <div class="user-card">
+        <%=  link_to user_path(good_shop_cards_count_by_user[0]) do %>
+          <%= User.find_by(id: good_shop_cards_count_by_user[0]).first_name %>
+          <%= User.find_by(id: good_shop_cards_count_by_user[0]).last_name %>
+        <% end %>
+        <%= "vend #{good_shop_cards_count_by_user[1]} cartes que tu recherches" %>
+        <%= " (#{@good_shop_cards.select{|good_shop_card| good_shop_card.user_id == good_shop_cards_count_by_user[0]}.sum(&:price)} €)" %>
+      </div>
+    <% end %>
+  </div>
+</div>

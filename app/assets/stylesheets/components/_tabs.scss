@@ -1,0 +1,14 @@
+#myTab {
+  border: 3px solid $yellow;
+}
+
+.nav-link {
+  &:hover {
+    color: $yellow;
+  }
+}
+#current_user_name-navbarDropdown {
+  &:hover {
+    color: $blue;
+  }
+}

@@ -1,22 +1,16 @@
-<div class="last_shop_cards-container">
-    <div class="row">
-
-      <% @shop_cards.order("ref_card_id desc").each do |shop_card| %>
-        <div class="col-md-2">
-          <div class="card-element">
-            <%= link_to shop_card_path(shop_card) do %>
-              <% if shop_card.ph_one.present? %>
-                <div class="visual">
-                  <%= cl_image_tag shop_card.ph_one, :gravity=>"auto", class: "mini" %>
-                </div>
-              <% end %>
-            <% end %>
-            <div class="price">
-              <%= shop_card.price %> €
+<div class="visuals-container">
+  <% @shop_cards.order("ref_card_id desc").each do |shop_card| %>
+      <div class="card-element">
+        <%= link_to shop_card_path(shop_card) do %>
+          <% if shop_card.ph_one.present? %>
+            <div class="visual">
+              <%= cl_image_tag shop_card.ph_one, :gravity=>"auto", class: "mini" %>
             </div>
-          </div>
+          <% end %>
+        <% end %>
+        <div class="price">
+          <%= shop_card.price %> €
         </div>
-      <% end %>
-
-    </div>
-  </div>
+      </div>
+  <% end %>
+</div>

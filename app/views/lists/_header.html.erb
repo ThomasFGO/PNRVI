@@ -1,15 +1,32 @@
-<div class="card-header-list">
-  <h4>
-    <%= @list.fr_name %> <%= image_tag(@list.symbol_url, class: "symbol-list")%>
-    <%= image_tag(@list.fr_logo_url, class: "logo-list-standard") %>
-  </h4>
-  <p>Sortie aux États-Unis le <%= @list.us_release_date %>
-    / Cette série contient <%= @list.size %> cartes
-    <% if @list.ref_cards.where(rarety_type: "Secret").count > 1 %>
-     + <%=  @list.ref_cards.where(rarety_type: "Secret").count %> secrêtes
-    <% else %>
-     et aucune secrête
-    <% end %>
-  </p>
-
+<div class="list-header">
+  <div class="first_part">
+    <div class="name_and_symbol">
+      <div class="name">
+        <h4><%= @list.fr_name %></h4>
+      </div>
+      <div class="symbol">
+        <%= image_tag(@list.symbol_url, class: "symbol-list")%>
+      </div>
+    </div>
+    <div class="logo">
+      <%= image_tag(@list.fr_logo_url, class: "logo-list-standard") %>
+    </div>
+  </div>
+  <div class="second_part">
+    <div class="date">
+      <p>Sortie aux États-Unis le <%= @list.us_release_date %></p>
+    </div>
+    <div class="size_and_secrets">
+      <div class="intro">
+        <p>Cette série contient : </p>
+      </div>
+      <div class="numbers">
+        <% if @list.ref_cards.where(rarety_type: "Secret").count > 1 %>
+          <p> <%= @list.size %> cartes et <%=  @list.ref_cards.where(rarety_type: "Secret").count %> secrêtes</p>
+        <% else %>
+          <p> <%= @list.size %> cartes et aucune secrête</p>
+        <% end %>
+      </div>
+    </div>
+  </div>
 </div>

@@ -1,0 +1,51 @@
+.search_cards-header {
+  color: $yellow;
+  text-align: center;
+}
+.list-header_mini {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown-item {
+  height: 35px;
+  padding: 0px 0px;
+  .close_button {
+    padding: 0px 4px;
+    border: 1px solid $blue;
+  }
+  td {
+    //border: 1px solid $blue;
+  }
+  table {
+    background-color: $light-gray;
+  }
+}
+
+.dropdown-menu {
+  background-color: $yellow;
+}
+
+
+@media all and (max-width: 500px) {
+  #name {
+  width: 35%;
+  }
+  #number {
+    width: 25px;
+  }
+  #rarety {
+    width: 20%;
+  }
+  #language {
+    display: none;
+    //width: 15%;
+  }
+  #version {
+    width: 10%;
+  }
+  #close {
+    width: 10%;
+  }
+}

@@ -1,0 +1,28 @@
+.blocs-container {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.bloc-header {
+  color: $yellow;
+}
+
+.bloc-lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list-card {
+  width: 230px;
+  height: 90px;
+  display: flex;
+  border: 6px solid $yellow;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px black;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 5px;
+  background-color: #00A6FB;
+}

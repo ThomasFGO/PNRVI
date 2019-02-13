@@ -1,32 +1,46 @@
 <div class="container">
-  <div class="row">
-    <div class="col-sm-6 col-sm-offset-3">
-      <h5><%= @ref_card.fr_name %> ( <%= @ref_card.list.fr_name %> )</h5>
-      <% if @ref_card.fr_url.present? %>
-        <%= image_tag(@ref_card.fr_url, class: "mini") %>
-      <% elsif @ref_card.fr_r_url.present? %>
-        <%= image_tag(@ref_card.fr_r_url, class: "mini") %>
-      <% else %>
-        <%= image_tag(@ref_card.us_url, class: "mini") %>
-      <% end %>
+  <div class="col-md-offset-1 col-md-10">
+    <div class="new_shop_card-container">
+      <div class="new_shop_card-header"><h4>Nouvelle annonce</h4></div>
+      <div class="new_shop_card-body">
 
-      <%= simple_form_for [@ref_card, @shop_card] do |f| %>
-        <%= f.input :reved, label: "reverse / édition 1" %>
-        <%= f.label(:condition, "état") %>
-        <%= f.select :condition, options_for_select([["Mauvais", 1], ["Moyen", 2], ["Bon", 3], ["Très bon", 4], ["Neuf", 5]],
-        ["Bon", 3]) %>
-        <%= f.label(:language, "langue") %>
-        <%= f.select :language, options_for_select(
-          ["français", "anglais", "allemand", "italien", "espagnol", "japonais" ],
-          ["français"]) %>
-        <%= f.input :price, required: true, label: "prix" %>
-        <%= f.input :ph_one, required: true, label: "recto" %>
-        <%= f.input :ph_one_cache, as: :hidden %>
-        <%= f.input :ph_two, label: "verso" %>
-        <%= f.input :ph_two_cache, as: :hidden %>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="shop_card-visual">
+            <h5><%= @ref_card.fr_name %> ( <%= @ref_card.list.fr_name %> )</h5>
+            <% if @ref_card.fr_url.present? %>
+              <%= image_tag(@ref_card.fr_url, class: "mini") %>
+            <% elsif @ref_card.fr_r_url.present? %>
+              <%= image_tag(@ref_card.fr_r_url, class: "mini") %>
+            <% else %>
+              <%= image_tag(@ref_card.us_url, class: "mini") %>
+            <% end %>
+          </div>
+        </div>
 
-        <%= f.submit "Ajouter à mon magasin", class: "btn btn-primary" %>
-      <% end %>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="shop-form">
+            <%= simple_form_for [@ref_card, @shop_card] do |f| %>
+              <%= f.input :reved, label: "reverse / édition 1" %>
+              <%= f.label(:condition, "état") %>
+              <%= f.select :condition, options_for_select([["Mauvais", 1], ["Moyen", 2], ["Bon", 3], ["Très bon", 4], ["Neuf", 5]],
+              ["Bon", 3]) %>
+              <%= f.label(:language, "langue") %>
+              <%= f.select :language, options_for_select(
+                ["français", "anglais", "allemand", "italien", "espagnol", "japonais" ],
+                ["français"]) %>
+              <%= f.input :price, required: true, label: "prix" %>
+              <%= f.input :ph_one, required: true, label: "recto" %>
+              <%= f.input :ph_one_cache, as: :hidden %>
+              <%= f.input :ph_two, label: "verso" %>
+              <%= f.input :ph_two_cache, as: :hidden %>
+              <div class="shop-submit">
+                <%= f.submit "Ajouter à mon magasin", class: "btn btn-primary" %>
+              </div>
+            <% end %>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 </div>

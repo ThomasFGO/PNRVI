@@ -1,33 +1,26 @@
-<div class="feeds_last_added-container">
-  <div class="good_shop_cards_last_photos-container">
-    <% @last_good_shop_cards.each do |shop_card| %>
-      <% if shop_card.ph_one.present? %>
-        <%= link_to shop_card_path(shop_card) do %>
-          <% if shop_card.ph_one.present? %>
-            <div class="col-md-2">
-
-              <div class="card-element">
-                <%= link_to shop_card_path(shop_card) do %>
-                  <% if shop_card.ph_one.present? %>
-                    <div class="visual">
-                      <%= cl_image_tag shop_card.ph_one,
-                      :gravity=>"auto", :crop=>"fill",  :transformation=>[
-                      {:width=>500, :crop=>"scale"},
-                      {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{shop_card.user.first_name} #{shop_card.user.last_name}"},
-                       :gravity=>"south", :y=>100}
-                      ], class: "mini" %>
-                    </div>
-                  <% end %>
-                <% end %>
-                <div class="price">
-                  <%= shop_card.price %> €
-                </div>
+<div class="visuals-container">
+  <% @last_good_shop_cards.each do |shop_card| %>
+    <% if shop_card.ph_one.present? %>
+      <%= link_to shop_card_path(shop_card) do %>
+        <div class="card-element">
+          <%= link_to shop_card_path(shop_card) do %>
+            <% if shop_card.ph_one.present? %>
+              <div class="visual">
+                <%= cl_image_tag shop_card.ph_one,
+                :gravity=>"auto", :crop=>"fill",  :transformation=>[
+                {:width=>500, :crop=>"scale"},
+                {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{shop_card.user.first_name} #{shop_card.user.last_name}"},
+                 :gravity=>"south", :y=>100}
+                ], class: "mini" %>
               </div>
-
-            </div>
+            <% end %>
           <% end %>
-        <% end %>
-      <% end  %>
+          <div class="price">
+            <%= shop_card.price %> €
+          </div>
+        </div>
+      <% end %>
     <% end  %>
-  </div>
+  <% end  %>
 </div>
+

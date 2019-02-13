@@ -11,7 +11,8 @@
     <% if user_signed_in? %>
 
       <div class="navbar-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="current_user_name-navbarDropdown" role="button"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <%= current_user.first_name %>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">

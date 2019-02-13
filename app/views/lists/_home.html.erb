@@ -1,17 +1,21 @@
 <div class="landing_page-container">
-  <div class="landing_page">
-  <div class="header">
-    <div class="logo-container">
-      <div class="logo"><%= image_tag("logo_pnr.png",size: "150x150") %></div>
+  <div class="col-md-8 col-sm-10 col-xs-12">
+    <div class="landing_page">
+      <div class="header">
+        <div class="logo-container">
+          <div class="logo"><%= image_tag("logo_pnr.png",size: "150x150") %></div>
+        </div>
+        <div class="description">
+          <h3>La plateforme qui simplifie et optimise les transactions de cartes Pokémon</h3>
+        </div>
+      </div>
+      <div class="details">
+        <h4>1 - Parmi plus de 10 000 cartes, sélectionnez celles que vous vendez ou recherchez.</h4>
+        <h4>2 - On s'occcupe du reste.</h4>
+      </div>
+      <div class="call_to_action">
+        <%= link_to "Je m'inscris", new_user_registration_path, class: "btn btn-primary btn-lg"%>
+      </div>
     </div>
-    <h3>La plateforme qui simplifie et optimise les transactions de cartes Pokémon</h3>
   </div>
-  <hr>
-  <h4>1 - Parmi plus de 10 000 cartes, sélectionnez celles que vous vendez ou recherchez.</h4>
-  <h4>2 - On s'occcupe du reste.</h4>
-  <hr>
-  <div class="call_to_action-container">
-    <%= link_to "Je m'inscris", new_user_registration_path, class: "btn btn-primary btn-lg"%>
-  </div>
-</div>
 </div>

@@ -1,0 +1,30 @@
+.new_search_card-container {
+
+}
+
+.new_search_card-header {
+  text-align: center;
+  color: $yellow;
+}
+
+
+.new_search_card-body {
+  //display: flex;
+  //justify-content: center;
+}
+
+
+.search_card-visual {
+
+}
+
+.search-form {
+  padding: 10px 10px;
+  background-color: $yellow;
+  color: $blue;
+  border-radius: 10px;
+  box-shadow: 1px 1px black;
+  .search-submit {
+    text-align: center;
+  }
+}

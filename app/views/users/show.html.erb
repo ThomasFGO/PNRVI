@@ -1,11 +1,10 @@
 <div class="container">
   <%= render partial: "users/header" %>
-  <div class="good_shop_cards-container">
+  <div class="visuals-container">
     <% @good_shop_cards.each do |shop_card|%>
       <% if shop_card.ph_one.present? %>
         <%= link_to shop_card_path(shop_card) do %>
           <% if shop_card.ph_one.present? %>
-            <div class="col-md-2">
               <div class="card-element">
                 <%= link_to shop_card_path(shop_card) do %>
                   <% if shop_card.ph_one.present? %>
@@ -22,7 +21,6 @@
                   <%= shop_card.price %> €
                 </div>
               </div>
-            </div>
           <% end %>
         <% end %>
       <% end  %>

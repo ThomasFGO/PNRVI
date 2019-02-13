@@ -1,17 +1,12 @@
 .landing_page-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .landing_page {
   color: $yellow;
-  width: 50%;
-  margin-top: 30px;
-  .btn {
-    background-color: $yellow;
-    color: $blue;
-    border-radius: 7px;
-  }
+  margin-top: 10px;
 }
 
 .logo-container {
@@ -19,21 +14,36 @@
   margin-right: 20px;
   .logo {
     position: relative;
-    top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
   }
-}
-
-
-.call_to_action-container {
-  display: flex;
-  justify-content: center;
 }
 
 .header {
   display: flex;
-  h3 {
-    text-align: justify;
+  padding-bottom: 15px;
+  border-bottom: 1px solid $yellow;
+}
+
+.details {
+  padding-bottom: 15px;
+}
+
+.call_to_action {
+  display: flex;
+  justify-content: center;
+   .btn {
+    background-color: $yellow;
+    color: $blue;
+    border-radius: 7px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .header {
+    display: block;
+    .logo-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
   }
 }

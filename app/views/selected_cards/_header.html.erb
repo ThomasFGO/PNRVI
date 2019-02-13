@@ -1,5 +1,5 @@
 <div class="selected_cards-header">
-  <h2>Panier :
+  <h3>Panier :
     <% if @selected_cards.count == 0 %>
       aucune carte
     <% elsif @selected_cards.count == 1  %>
@@ -7,5 +7,5 @@
     <% else %>
       <%= @selected_cards.count %> cartes
     <% end %>
-  </h2>
+  </h3>
 </div>

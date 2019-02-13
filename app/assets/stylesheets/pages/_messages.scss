@@ -1,29 +1,38 @@
 .messages-header {
-
+  color: $yellow;
+  text-align: center;
 }
 .messages-container {
-
+  width: 70%;
 }
+
+.tab-box {
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (max-width: 500px) {
+  .messages-container {
+    width: 100%;
+  }
+}
+
 
 .current_user_message-content {
   background-color: $yellow;
-  text-align: right;
   margin-bottom: 10px;
   border-radius: 5px;
   padding: 5px 10px;
+  text-align: right;
 }
 .other_user_message-content {
   background-color: $light-gray;
-  text-align: left;
   margin-bottom: 10px;
   border-radius: 5px;
   padding: 5px 10px;
+  text-align: left;
 }
-.message-header {
 
-}
-.message-body {
-}
 
 .new_message-content {
   text-align: right;
@@ -38,19 +47,24 @@
   display: flex;
 }
 
-.current_user_selected_cards {
+.my_list-header {
+  display: none;
+  text-align: center;
+  color: $blue;
   background-color: $yellow;
-  text-align: right;
   margin-bottom: 10px;
   border-radius: 5px;
-  padding: 5px 10px;
-  width: 50%;
+  padding: 1px 3px;
 }
-.other_user_selected_cards {
+
+.his_list-header {
+  display: none;
+  text-align: center;
+  color: $blue;
   background-color: $light-gray;
-  text-align: left;
   margin-bottom: 10px;
   border-radius: 5px;
-  padding: 5px 10px;
-  width: 50%;
+  padding: 1px 3px;
 }
+
+

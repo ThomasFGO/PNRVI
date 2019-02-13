@@ -1,0 +1,48 @@
+.list-header {
+  display: flex;
+  border: 6px solid $yellow;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  padding: 10px 50px;
+  margin-bottom: 15px;
+  background-color: $yellow;
+  justify-content: space-around;
+}
+
+.first_part {
+  text-align: center;
+}
+
+.second_part {
+
+}
+
+
+.name_and_symbol {
+  display: flex;
+  justify-content: center;
+}
+
+.size_and_secrets {
+  display: flex;
+  .intro {
+    margin-right: 5px;
+  }
+}
+
+.visuals-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media all and (max-width: 500px) {
+  .list-header {
+    display: block;
+  }
+
+  .intro {
+    display: none
+  }
+}

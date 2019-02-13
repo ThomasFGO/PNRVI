@@ -1,5 +1,5 @@
-<div class="card-header-list">
-  <h2>Recherches :
+<div class="search_cards-header">
+  <h3>Recherches :
     <% if @search_cards.count == 0 %>
       aucune carte
     <% elsif @search_cards.count == 1  %>
@@ -7,6 +7,6 @@
     <% else %>
       <%= @search_cards.count %> cartes
     <% end %>
-  </h2>
+  </h3>
 
 </div>

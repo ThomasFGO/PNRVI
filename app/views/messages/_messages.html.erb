@@ -1,0 +1,32 @@
+<div class="messages-container">
+  <% @messages.each do |message| %>
+    <% if message.body %>
+      <% if message.user_id == current_user.id %>
+        <div class="current_user_message-content">
+          <div class="message-header">
+            <% user = User.find(message.user_id) %>
+            <%#= message.message_time %>
+          </div>
+          <div class="message-body">
+            <%= message.body %>
+          </div>
+        </div>
+      <% else %>
+        <div class="other_user_message-content">
+          <div class="message-header">
+            <% user = User.find(message.user_id) %>
+            <%#= user.first_name %>
+            <%#= message.message_time %>
+          </div>
+          <div class="message-body">
+            <%= message.body %>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  <% end %>
+
+  <div class="new_message-content">
+    <%= render partial: "messages/form" %>
+  </div>
+</div>

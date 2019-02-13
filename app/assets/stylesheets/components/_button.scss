@@ -2,15 +2,6 @@
   display: none;
 }
 
-.big_button {
-background-color: $yellow;
-border: 3px solid $blue;
-border-radius: 7px;
-color: $blue;
-text-align: center;
-margin-bottom: 5px;
-}
-
 .destroy_button {
   background-color: $yellow;
   border: 1px solid $blue;
@@ -21,9 +12,29 @@ margin-bottom: 5px;
 }
 
 .delete_button {
-border: 3px solid $blue;
-border-radius: 7px;
-color: $blue;
-text-align: center;
-margin-bottom: 5px;
+  border: 3px solid $blue;
+  border-radius: 7px;
+  color: $blue;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.btn-classic {
+  background-color: $blue;
+  color: $yellow;
+  border-radius: 7px;
+}
+
+.sale_button {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.search_button {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.border-yellow {
+  border: 2px solid $yellow;
 }

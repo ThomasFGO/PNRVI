@@ -1,15 +1,15 @@
 <div class="visuals-container">
-  <div class="row"></div>
+
     <% @list.ref_cards.order("id asc").each do |ref_card| %>
-      <div class="col-md-2 col-sm-4 col-xs-6">
+
         <div class="card-element", id="<%= ref_card.id %>">
           <%= link_to ref_card_path(ref_card) do %>
             <% if ref_card.fr_url.present? %>
-              <%= image_tag(ref_card.fr_url, width: '130', class: "mini") %>
+              <%= image_tag(ref_card.fr_url, class: "mini") %>
             <% elsif ref_card.fr_r_url.present? %>
-              <%= image_tag(ref_card.fr_r_url, width: '130', class: "mini") %>
+              <%= image_tag(ref_card.fr_r_url, class: "mini") %>
             <% else %>
-              <%= image_tag(ref_card.us_url, width: '130', class: "mini") %>
+              <%= image_tag(ref_card.us_url, class: "mini") %>
             <% end %>
           <% end  %>
           <div class="buttons">
@@ -21,6 +21,7 @@
             </div>
           </div>
         </div>
-      </div>
+
     <% end  %>
+
 </div>

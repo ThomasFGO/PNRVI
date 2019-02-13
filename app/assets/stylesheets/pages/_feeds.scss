@@ -1,0 +1,19 @@
+.feeds-header {
+  color: $yellow;
+  text-align: center;
+}
+
+
+.user-card {
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  padding: 10px 50px;
+  margin-bottom: 15px;
+  background-color: $yellow;
+}
+
+@media all and (max-width: 500px) {
+  .user-card {
+    width: 100%;
+  }
+}

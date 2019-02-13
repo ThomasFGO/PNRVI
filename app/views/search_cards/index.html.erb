@@ -9,16 +9,17 @@
             <% if list.search_cards.where(user_id: current_user.id).count > 0 %>
               <button class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <%= list.fr_name %>
+                <%= "(#{list.size})" %>
                 <%= image_tag(list.symbol_url, height: '20')%>
                 <%= list.search_cards.count %>
               </button>
 
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                 <% list.search_cards.where(user_id: current_user.id).order("ref_card_id asc").each do |search_card| %>
-                  <button class="dropdown-item" type="button">
+                  <div class="dropdown-item">
                     <table>
                       <tr>
-                        <td>
+                        <td id="name">
                           <%= link_to ref_card_path(search_card.ref_card) do %>
                             <% if search_card.ref_card.fr_name.present? %>
                               <%= search_card.ref_card.fr_name %>
@@ -27,26 +28,32 @@
                             <% end %>
                           <% end  %>
                         </td>
-                        <td><%= search_card.ref_card.number %>/<%= search_card.ref_card.list.size %></td>
-                        <td><%= search_card.ref_card.rarety_type %></td>
-                        <td><%= search_card.language %></td>
-                        <td>
+                        <td id="number"><%= search_card.ref_card.number %></td>
+                        <td id="rarety">
+                          <% if search_card.ref_card.rarety_type == "Common"%>
+                            <%= "Co" %>
+                          <% elsif search_card.ref_card.rarety_type == "Uncommon"%>
+                            <%= "Unco" %>
+                          <% elsif search_card.ref_card.rarety_type == "Rare"%>
+                            <%= "Rare" %>
+                          <% elsif search_card.ref_card.rarety_type == "Rare Holo"%>
+                            <%= "Holo" %>
+                          <% end %>
+                        </td>
+                        <td id="language"><%= search_card.language %></td>
+                        <td id="version">
                           <% if search_card.reved? %>
                             <%= "R / Éd1" %>
                           <% else %>
                             <%= "N" %>
                           <% end %>
                         </td>
-                        <td>
-                          <div class="delete_button">
-                            <%= link_to "X", search_card_path(search_card),
-                              :class => "btn btn-sm",
-                              method: :delete %>
-                          </div>
+                        <td id="close">
+                          <%= link_to "x", search_card_path(search_card), class: "btn close_button", method: :delete %>
                         </td>
                       </tr>
                     </table>
-                  </button>
+                  </div>
                 <% end %>
               </div>
             <% end %>

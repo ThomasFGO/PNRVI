@@ -1,8 +1,6 @@
 .card-element {
-  //border: 2px solid white;
   height: 200px;
   width: 160px;
-  margin: 5px 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -19,14 +17,6 @@
     right: 3px;
     display: block;
   }
-}
-
-
-.visual-url {
-
-}
-.visual-photo {
-
 }
 
 .standard {

@@ -1,0 +1,25 @@
+.shop_card-header {
+  color: $yellow;
+  text-align: center;
+}
+
+.shop_card-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.shop_card-visuals {
+  text-align: center;
+}
+
+
+@media all and (max-width: 500px) {
+  .shop_card-body {
+    display: block;
+  }
+}
+
+.shop_card-buttons {
+  text-align: center;
+  margin-top: 20px;
+}

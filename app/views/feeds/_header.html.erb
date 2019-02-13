@@ -1,13 +1,13 @@
-  <div class="card-header-list">
-    <h2>Annonces :
+  <div class="feeds-header">
+    <h3>Annonces :
       <% if current_user.search_cards.count == 0 %>
         Vous n'avez aucune carte enregistrée dans vos recherches
       <% elsif @good_shop_cards.count == 0 %>
         Aucune carte en vente ne correspond à vos recherches
       <% elsif @good_shop_cards.count == 1 %>
-        <%= @good_shop_cards.count %> carte est disponible
+        <%= @good_shop_cards.count %> carte
       <% else  %>
-        <%= @good_shop_cards.count %> cartes sont disponibles
+        <%= @good_shop_cards.count %> cartes
       <% end  %>
-    </h2>
+    </h3>
   </div>

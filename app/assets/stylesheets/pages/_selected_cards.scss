@@ -1,5 +1,6 @@
 .selected_cards-header {
   color: $yellow;
+  text-align: center;
 }
 
 .selected_cards-element {
@@ -13,4 +14,9 @@
     border: 1px solid $blue;
     box-shadow: 1px 1px 5px $blue;
   }
+}
+
+.mini_user-header {
+  display: flex;
+  align-items: baseline;
 }

@@ -1,11 +1,11 @@
-<div class="card-header-list">
+<div class="user-header">
   <h3><%= @user.first_name %> <%= @user.last_name %>
     <% if @good_shop_cards.count == 0 %>
       ne vend aucune carte que vous recherchez
     <% elsif @good_shop_cards.count == 1  %>
-      possède <%= @good_shop_cards.count %> carte que vous recherchez
+      possède <%= @good_shop_cards.count %> carte que tu recherches
     <% else %>
-      possède <%= @good_shop_cards.count %> cartes que vous recherchez
+      possède <%= @good_shop_cards.count %> cartes que tu recherches
     <% end %>
   </h3>
 </div>

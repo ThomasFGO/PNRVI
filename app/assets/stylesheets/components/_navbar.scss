@@ -1,12 +1,9 @@
 .main-navbar {
-  //border-bottom: 6px solid $yellow;
-  //border-radius: 6px;
   background-color: $yellow;
   display: flex;
   justify-content: space-around;
   padding-top: 5px;
   padding-bottom: 5px;
-  //border-bottom: 1px solid #006494;
   .navbar-item {
   color: $blue;
   }
@@ -15,9 +12,20 @@
   }
  }
 
+.nav-box {
+  display: flex;
+  justify-content: center
+}
 .nav {
   margin-bottom: 10px;
   background-color: $light-gray;
+  width: 70%;
+}
+
+@media all and (max-width: 500px) {
+  .nav {
+    width: 100%;
+  }
 }
 
 .user-navbar {
@@ -34,7 +42,7 @@
 }
 
 .navbars {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .name {

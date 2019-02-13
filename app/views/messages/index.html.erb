@@ -1,49 +1,55 @@
 <div class="container">
-  <div class="selected_cards-container">
-    <%= render partial: "messages/selected_cards" %>
-  </div>
   <div class="messages-header">
-    <h4>Conversation avec
+    <h3>Conversation avec
       <% if @conversation.recipient_id == current_user.id%>
         <%= @conversation.sender.first_name %>
       <% else %>
         <%= @conversation.recipient.first_name %>
       <% end %>
-    </h4>
+    </h3>
     <% if @over_ten %>
       <%= link_to "Show previous", '?m=all', class:'button is-link' %>
     <% end %>
   </div>
 
-  <div class="messages-container">
-    <% @messages.each do |message| %>
-      <% if message.body %>
-        <% if message.user_id == current_user.id %>
-          <div class="current_user_message-content">
-            <div class="message-header">
-              <% user = User.find(message.user_id) %>
-              Moi / <%= message.message_time %>
-            </div>
-            <div class="message-body">
-              <%= message.body %>
-            </div>
-          </div>
-        <% else %>
-          <div class="other_user_message-content">
-            <div class="message-header">
-              <% user = User.find(message.user_id) %>
-              <%= user.first_name %> / <%= message.message_time %>
-            </div>
-            <div class="message-body">
-              <%= message.body %>
-            </div>
-          </div>
-        <% end %>
-      <% end %>
-    <% end %>
+  <!-- Nav tabs -->
+  <div class="nav-box">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="true">
+          Messages
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="my_list-tab" data-toggle="tab" href="#my_list" role="tab" aria-controls="my_list" aria-selected="false">
+          Ma liste
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="his_list-tab" data-toggle="tab" href="#his_list" role="tab" aria-controls="his_list" aria-selected="false">
+          Sa liste
+        </a>
+      </li>
+    </ul>
+  </div>
 
-    <div class="new_message-content">
-      <%= render partial: "messages/form" %>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane active" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+      <div class="tab-box">
+        <%= render partial: "messages/messages" %>
+      </div>
+    </div>
+    <div class="tab-pane" id="my_list" role="tabpanel" aria-labelledby="my_list-tab">
+      <div class="tab-box">
+        <%= render partial: "messages/current_user_selected_cards" %>
+      </div>
+    </div>
+    <div class="tab-pane" id="his_list" role="tabpanel" aria-labelledby="his_list-tab">
+      <div class="tab-box">
+        <%= render partial: "messages/other_user_selected_cards" %>
+      </div>
     </div>
   </div>
+
 </div>

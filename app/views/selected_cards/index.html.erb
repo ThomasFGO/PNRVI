@@ -3,12 +3,16 @@
 
   <% @selected_cards_count_by_users.each do |selected_cards_count_by_user| %>
     <div class="selected_cards-element">
-      <%= User.find_by(id: selected_cards_count_by_user[0]).first_name %>
-      <%= User.find_by(id: selected_cards_count_by_user[0]).last_name %>
-      <%= "(#{selected_cards_count_by_user[1]} cartes)" %>
-      <%= link_to "Contacter",
-      conversations_path(sender_id: current_user.id, recipient_id: selected_cards_count_by_user[0]), method: "post",
-      class:"btn btn-success btn-sm" %>
+      <div class="mini_user-header">
+        <%= User.find_by(id: selected_cards_count_by_user[0]).first_name %>
+        <%= User.find_by(id: selected_cards_count_by_user[0]).last_name %>
+        <%= "(#{selected_cards_count_by_user[1]} cartes)" %>
+        <div class="big_button">
+          <%= link_to "Conversation",
+          conversations_path(sender_id: current_user.id, recipient_id: selected_cards_count_by_user[0]), method: "post",
+          class: "btn" %>
+        </div>
+      </div>
 
 
       <div class="row">

@@ -1,5 +1,5 @@
-  <div class="card-header-list">
-    <h2>Magasin :
+  <div class="shop_cards-header">
+    <h3>Magasin :
       <% if @shop_cards.count == 0 %>
         aucune carte
       <% elsif @shop_cards.count == 1  %>
@@ -7,5 +7,5 @@
       <% else %>
         <%= @shop_cards.count %> cartes / valeur : <%= @shop_cards.sum(:price)%> €
       <% end %>
-    </h2>
+    </h3>
   </div>

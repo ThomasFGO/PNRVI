@@ -1,27 +1,31 @@
 <div class="container">
 
-    <% if user_signed_in? %>
-    <% else %>
-      <%= render partial: "lists/home" %>
-    <% end %>
+  <% if user_signed_in? %>
+  <% else %>
+    <%= render partial: "lists/home" %>
+  <% end %>
 
-    <% @blocs.each do |bloc| %>
-      <div class="bloc-container">
-        <div class="row">
+  <div class="lists-container">
+    <div class="title"><h4>Les séries :</h4></div>
+    <div class="blocs-container">
+      <% @blocs.each do |bloc| %>
+        <div class="bloc-container">
           <div class="bloc-header"><%= bloc.fr_name %></div>
 
-          <% bloc.lists.each do |list| %>
-            <div class="col-md-3">
-              <div class="bloc-list-card">
+          <div class="bloc-lists">
+            <% bloc.lists.each do |list| %>
+              <div class="list-card">
                 <%= link_to list_path(list) do %>
                   <% if list.fr_logo_url.present? %><%= image_tag(list.fr_logo_url, class: "logo-list-mini")%> <% end %>
                   <% if list.symbol_url.present? %><%= image_tag(list.symbol_url, class: "symbol-list")%> <% end %>
                 <% end  %>
               </div>
-            </div>
-          <% end %>
+            <% end %>
+          </div>
 
         </div>
-      </div>
-    <% end %>
+      <% end %>
+    </div>
+  </div>
+
 </div>
