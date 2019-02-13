@@ -1,3 +1,41 @@
+.ref_card-header {
+  color: $yellow;
+  text-align: center;
+}
+
+.ref_card-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.card-visuals {
+  text-align: center;
+  h5 {
+    color: $yellow;
+  }
+}
+
+
+@media all and (max-width: 500px) {
+  .ref_card-body {
+    display: block;
+  }
+  .card-visuals {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+
+  #ref_card-visual {
+    display: block;
+  }
+
+}
+
+
+
+
 .card-infos {
   color: $blue;
   background-color: $yellow;

@@ -1,26 +1,29 @@
 <div class="container">
-  <div class="col-md-offset-1 col-md-10">
+  <div class="col-md-12">
     <div class="shop_card-container">
 
       <div class="shop_card-header"><h4>Annonce</h4></div>
       <div class="shop_card-body">
 
-        <div class="shop_card-visuals">
-          <%= cl_image_tag @shop_card.ph_one, :gravity=>"auto", :crop=>"fill",
-          :transformation=>[
-          {:width=>500, :crop=>"scale"},
-          {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@shop_card.user.first_name} #{@shop_card.user.last_name}"},
-          :gravity=>"south", :y=>100}
-          ], class: "standard"%>
-
-          <% if @shop_card.ph_two.present? %>
+        <div class="card-visuals" id="shop_card-recto_verso">
+          <div class="recto">
             <%= cl_image_tag @shop_card.ph_one, :gravity=>"auto", :crop=>"fill",
             :transformation=>[
             {:width=>500, :crop=>"scale"},
             {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@shop_card.user.first_name} #{@shop_card.user.last_name}"},
             :gravity=>"south", :y=>100}
-            ], class: "standard"%>
-          <% end %>
+            ], class: "standard-photo"%>
+          </div>
+          <div class="verso">
+            <% if @shop_card.ph_two.present? %>
+              <%= cl_image_tag @shop_card.ph_two, :gravity=>"auto", :crop=>"fill",
+              :transformation=>[
+              {:width=>500, :crop=>"scale"},
+              {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@shop_card.user.first_name} #{@shop_card.user.last_name}"},
+              :gravity=>"south", :y=>100}
+              ], class: "standard-photo"%>
+            <% end %>
+          </div>
         </div>
 
         <div class="card-infos">
@@ -50,7 +53,7 @@
 
       </div>
 
-      <div class="shop_card-buttons">
+      <div class="card-buttons">
         <% if @shop_card.user == current_user %>
           <%= link_to 'Retirer', shop_card_path(@shop_card),
           :class => "btn btn-classic btn-lg border-yellow", method: :delete,

@@ -9,16 +9,26 @@
 
 
 .new_search_card-body {
-  //display: flex;
-  //justify-content: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
+@media all and (max-width: 500px) {
+  .new_search_card-body {
+    display: block;
+  }
+}
 
 .search_card-visual {
 
 }
 
 .search-form {
+  display: flex;
+  //flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-around;
   padding: 10px 10px;
   background-color: $yellow;
   color: $blue;

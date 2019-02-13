@@ -23,6 +23,10 @@
   background-color: $blue;
   color: $yellow;
   border-radius: 7px;
+  &:hover {
+    color: $yellow;
+    background-color: $light-gray;
+  }
 }
 
 .sale_button {

@@ -1,50 +1,46 @@
 <div class="container">
-  <div class="card-container">
-    <div class="card-visual">
-      <% if @ref_card.fr_url.present? %>
-        <%= image_tag(@ref_card.fr_url, class: "standard") %>
-        <p>Version normale française</p>
-      <% elsif @ref_card.fr_r_url.present? %>
-        <%= image_tag(@ref_card.fr_r_url, class: "standard") %>
-        <p>Version reverse/édition1 française</p>
-      <% else %>
-        <%= image_tag(@ref_card.us_url, class: "standard") %>
-        <p>Version anglaise</p>
-      <% end %>
-    </div>
-    <div class="card-infos">
-      <% if @ref_card.fr_name.present? %>
-        <h4><%= @ref_card.fr_name %></h4>
-      <% else %>
-        <h4><%= @ref_card.us_name %></h4>
-      <% end %>
+  <div class="col-md-offset-2 col-md-8">
+    <div class="ref_card-container">
+      <div class="ref_card-header"></div>
+      <div class="ref_card-body">
+        <div class="card-visuals" id="ref_card-visual">
+          <% if @ref_card.fr_url.present? %>
+            <%= image_tag(@ref_card.fr_url, class: "standard") %>
+            <p>Version normale française</p>
+          <% elsif @ref_card.fr_r_url.present? %>
+            <%= image_tag(@ref_card.fr_r_url, class: "standard") %>
+            <p>Version reverse/édition1 française</p>
+          <% else %>
+            <%= image_tag(@ref_card.us_url, class: "standard") %>
+            <p>Version anglaise</p>
+          <% end %>
+        </div>
+        <div class="card-infos">
+          <% if @ref_card.fr_name.present? %>
+            <h4><%= @ref_card.fr_name %></h4>
+          <% else %>
+            <h4><%= @ref_card.us_name %></h4>
+          <% end %>
 
-      <% if @ref_card.pokedex_number.present? %>
-        <p>Numéro Pokédex : <%= @ref_card.pokedex_number %></p>
-      <% end %>
+          <% if @ref_card.pokedex_number.present? %>
+            <p>Numéro Pokédex : <%= @ref_card.pokedex_number %></p>
+          <% end %>
 
+          <% if @ref_card.rarety_type == "Ultra"  %>
+           <p>Rareté : <%= @ref_card.ultra_type %></p>
+          <% else %>
+            <p>Rareté : <%= @ref_card.rarety_type %></p>
+          <% end %>
 
-
-      <% if @ref_card.rarety_type == "Ultra"  %>
-       <p>Rareté : <%= @ref_card.ultra_type %></p>
-      <% else %>
-        <p>Rareté : <%= @ref_card.rarety_type %></p>
-      <% end %>
-
-      <% if @ref_card.artist.present? %>
-        <p>Illustrée par <%= @ref_card.artist %></p>
-      <% end %>
-
-      <div class="sale_button">
-        <%= link_to "Vendre", new_ref_card_shop_card_path(@ref_card), :class => "btn btn-classic btn-sm"%>
+          <% if @ref_card.artist.present? %>
+            <p>Illustrée par <%= @ref_card.artist %></p>
+          <% end %>
+        </div>
       </div>
-      <div class="search_button">
-        <%= link_to "Rechercher", new_ref_card_search_card_path(@ref_card), :class => "btn btn-classic btn-sm"%>
+      <div class="card-buttons">
+        <%= link_to "Vendre", new_ref_card_shop_card_path(@ref_card), :class => "btn btn-classic btn-lg border-yellow"%>
+        <%= link_to "Rechercher", new_ref_card_search_card_path(@ref_card), :class => "btn btn-classic btn-lg border-yellow"%>
       </div>
-      <%# link_to "Je l'ai !", new_ref_card_collection_card_path(@ref_card), :class => "btn btn-success"%>
-
     </div>
-
-
   </div>
 </div>

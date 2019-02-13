@@ -1,18 +1,43 @@
 <div class="container">
-  <div class="row">
-    <div class="col-sm-4 col-sm-offset-4">
-      <%= simple_form_for [@ref_card, @shop_card] do |f| %>
-        <%= cl_image_tag @shop_card.ph_one,width: 130, height: 180, :gravity=>"auto", :crop=>"fill" %>
-        <%= f.input :reved, label: "Reverse / Édition 1" %>
-        <%= f.input :condition, label: "État" %>
-        <%= f.input :language, label: "Langue" %>
-        <%= f.input :price, label: "Prix" %>
-        <%= f.input :ph_one, required: true, label: "Recto" %>
-        <%= f.input :ph_one_cache, as: :hidden %>
-        <%= f.input :ph_two, label: "Verso" %>
-        <%= f.input :ph_two_cache, as: :hidden %>
-        <%= f.submit "Enregistrer", class: "btn btn-primary" %>
-      <% end %>
+  <div class="shop_card-body">
+    <div class="card-visuals">
+      <div class="title">
+        <h5>Modification :</h5>
+      </div>
+      <div class="visual">
+        <% if @shop_card.ph_one.present? %>
+          <%= cl_image_tag @shop_card.ph_one, :gravity=>"auto", class: "standard-photo" %>
+        <% end %>
+      </div>
     </div>
+
+
+
+    <%= simple_form_for [@ref_card, @shop_card] do |f| %>
+      <div class="shop-form">
+        <%= f.input :reved, label: "reverse / édition 1" %>
+        <div class="candition_and_language">
+          <div class="condition">
+          <%= f.label(:condition, "état") %>
+          <%= f.select :condition, options_for_select([["Mauvais", 1], ["Moyen", 2], ["Bon", 3], ["Très bon", 4], ["Neuf", 5]],
+          ["Bon", 3]) %>
+          </div>
+          <div class="language">
+            <%= f.label(:language, "langue") %>
+            <%= f.select :language, options_for_select(
+              ["français", "anglais", "allemand", "italien", "espagnol", "japonais" ],
+              ["français"]) %>
+          </div>
+        </div>
+        <%= f.input :price, required: true, label: "prix" %>
+        <%= f.input :ph_one, required: true, label: "recto" %>
+        <%= f.input :ph_one_cache, as: :hidden %>
+        <%= f.input :ph_two, label: "verso" %>
+        <%= f.input :ph_two_cache, as: :hidden %>
+        <div class="shop-submit">
+          <%= f.submit "Enregistrer", class: "btn btn-primary" %>
+        </div>
+      </div>
+    <% end %>
   </div>
 </div>

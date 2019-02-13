@@ -32,12 +32,36 @@
 
   <% if user_signed_in? %>
     <nav class="user-navbar">
-      <%= link_to "Annonces", feeds_path, class: "navbar-item" %>
-      <%= link_to "Mon magasin", shop_cards_path, class: "navbar-item" %>
-      <%= link_to "Mes recherches", search_cards_path, class: "navbar-item"%>
-      <%# link_to "Ma collection", collection_cards_path, class: "navbar-item"%>
-      <%= link_to "Mon panier", selected_cards_path, class: "navbar-item"%>
-      <%= link_to "Mes messages", conversations_path, class: "navbar-item"%>
+      <div class="computer-item"><%= link_to "Annonces", feeds_path, class: "navbar-item" %></div>
+      <div class="phone-item">
+        <%= link_to feeds_path do %>
+          <%= image_tag("icone_annonces.png", class: "icone") %>
+        <% end %>
+      </div>
+      <div class="computer-item"><%= link_to "Mon magasin", shop_cards_path, class: "navbar-item" %></div>
+      <div class="phone-item">
+        <%= link_to shop_cards_path do %>
+          <%= image_tag("icone_magasin.png", class: "icone") %>
+        <% end %>
+      </div>
+      <div class="computer-item"><%= link_to "Mes recherches", search_cards_path, class: "navbar-item"%></div>
+      <div class="phone-item">
+        <%= link_to search_cards_path do %>
+          <%= image_tag("icone_recherches.png", class: "icone") %>
+        <% end %>
+      </div>
+      <div class="computer-item"><%= link_to "Mon panier", selected_cards_path, class: "navbar-item"%></div>
+      <div class="phone-item">
+        <%= link_to selected_cards_path do %>
+          <%= image_tag("icone_panier.png", class: "icone") %>
+        <% end %>
+      </div>
+      <div class="computer-item"><%= link_to "Mes messages", conversations_path, class: "navbar-item"%></div>
+      <div class="phone-item">
+        <%= link_to conversations_path do %>
+          <%= image_tag("icone_messages.png", class: "icone") %>
+        <% end %>
+      </div>
     </nav>
   <% end %>
 </div>

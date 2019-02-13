@@ -9,17 +9,21 @@
 
 
 .new_shop_card-body {
-  //display: flex;
-  //justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-
+@media all and (max-width: 500px) {
+  .new_shop_card-body {
+    display: block;
+  }
+}
 .shop_card-visual {
 
 }
 
 .shop-form {
-  //border: 1px solid $yellow;
   padding: 10px 10px;
   background-color: $yellow;
   color: $blue;
@@ -27,5 +31,12 @@
   box-shadow: 1px 1px black;
   .shop-submit {
     text-align: center;
+  }
+}
+
+@media all and (min-width: 500px) {
+  .candition_and_language {
+    display: flex;
+    justify-content: space-around;
   }
 }

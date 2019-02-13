@@ -8,18 +8,26 @@
   justify-content: space-around;
 }
 
-.shop_card-visuals {
-  text-align: center;
-}
 
+#shop_card-recto_verso {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
 
 @media all and (max-width: 500px) {
   .shop_card-body {
     display: block;
   }
 }
+.card-visuals {
+  text-align: center;
+  h5 {
+    color: $yellow;
+  }
+}
 
-.shop_card-buttons {
+.card-buttons {
   text-align: center;
   margin-top: 20px;
 }

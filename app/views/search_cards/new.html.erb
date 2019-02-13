@@ -1,39 +1,51 @@
 <div class="container">
-  <div class="col-md-offset-1 col-md-10">
+  <div class="col-md-offset-2 col-md-8">
     <div class="new_search_card-container">
-      <div class="new_search_card-header"><h4>Nouvelle recherche</h4></div>
       <div class="new_search_card-body">
 
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <div class="search_card-visual">
-            <h5><%= @ref_card.fr_name %> ( <%= @ref_card.list.fr_name %> )</h5>
-            <% if @ref_card.fr_url.present? %>
-              <%= image_tag(@ref_card.fr_url, class: "mini") %>
-            <% elsif @ref_card.fr_r_url.present? %>
-              <%= image_tag(@ref_card.fr_r_url, class: "mini") %>
-            <% else %>
-              <%= image_tag(@ref_card.us_url, class: "mini") %>
-            <% end %>
-          </div>
-        </div>
 
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <div class="search-form">
+          <div class="card-visuals">
+            <div class="title">
+              <h5>Nouvelle recherche :</h5>
+              <h5><%= @ref_card.fr_name %></h5>
+            </div>
+            <div class="visual">
+              <% if @ref_card.fr_url.present? %>
+                <%= image_tag(@ref_card.fr_url, class: "standard") %>
+              <% elsif @ref_card.fr_r_url.present? %>
+                <%= image_tag(@ref_card.fr_r_url, class: "standard") %>
+              <% else %>
+                <%= image_tag(@ref_card.us_url, class: "standard") %>
+              <% end %>
+            </div>
+          </div>
+
+
+
+
             <%= simple_form_for [@ref_card, @search_card] do |f| %>
-              <%= f.input :reved, label: "reverse / édition 1" %>
-              <%= f.label(:condition, "état minimum") %>
-              <%= f.select :condition, options_for_select([["Mauvais", 1], ["Moyen", 2], ["Bon", 3], ["Très bon", 4], ["Neuf", 5]],
-              ["Bon", 3])%>
-              <%= f.label(:language, "langue") %>
-              <%= f.select :language, options_for_select(
-                ["français", "anglais", "allemand", "italien", "espagnol", "japonais" ],
-                ["français"]) %>
-              <div class="search-submit">
-                <%= f.submit "Ajouter à mes recherches", class: "btn btn-primary" %>
+              <div class="search-form">
+                <div class="reved">
+                  <%= f.input :reved, label: "reverse / édition 1" %>
+                </div>
+                <div class="condition">
+                  <%= f.label(:condition, "état minimum") %>
+                  <%= f.select :condition, options_for_select([["Mauvais", 1], ["Moyen", 2], ["Bon", 3], ["Très bon", 4], ["Neuf", 5]],
+                  ["Bon", 3])%>
+                </div>
+                <div class="language">
+                  <%= f.label(:language, "langue") %>
+                  <%= f.select :language, options_for_select(
+                    ["français", "anglais", "allemand", "italien", "espagnol", "japonais" ],
+                    ["français"]) %>
+                  </div>
+                <div class="search-submit">
+                  <%= f.submit "Ajouter à mes recherches", class: "btn btn-primary" %>
+                </div>
               </div>
             <% end %>
-          </div>
-        </div>
+
+
 
       </div>
     </div>
