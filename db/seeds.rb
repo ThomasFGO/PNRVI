@@ -79,10 +79,10 @@ lists = [
 
   #{}"ecexpedition.csv", "ecaquapolis.csv", "ecskyridge.csv",
 
-  "exrubissaphir.csv", "extempetedesable.csv", "exdragon.csv", "exlegendesoubliees.csv", "exteammagmateamaqua.csv",
-  "exrougefeuvertfeuille.csv", "exteamrocketreturns.csv", "exdeoxys.csv", "exemeraude.csv", "exforcescachees.csv",
-  "exespecedelta.csv", "excreateursdelegendes.csv", "exfantomesholon.csv", "exgardiensdecristal.csv",
-  "exilesdesdragons.csv", "exgardiensdupouvoir.csv",
+  #{}"exrubissaphir.csv", "extempetedesable.csv", "exdragon.csv", "exlegendesoubliees.csv", "exteammagmateamaqua.csv",
+  #{}"exrougefeuvertfeuille.csv", "exteamrocketreturns.csv", "exdeoxys.csv", "exemeraude.csv", "exforcescachees.csv",
+  #{}"exespecedelta.csv", "excreateursdelegendes.csv", "exfantomesholon.csv", "exgardiensdecristal.csv",
+  #{}"exilesdesdragons.csv", "exgardiensdupouvoir.csv",
 
   "diamantetperle.csv", "dptresorsmysterieux.csv", "dpmerveillessecretes.csv",
   "dpduelsausommet.csv", "dpaubemajestueuse.csv", "dpeveildeslegendes.csv", "dptempete.csv",

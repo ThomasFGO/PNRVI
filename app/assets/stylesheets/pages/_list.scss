@@ -6,11 +6,15 @@
   padding: 10px 50px;
   margin-bottom: 15px;
   background-color: $yellow;
-  justify-content: space-around;
+  text-align: center;
+  color: $blue;
+  justify-content: center;
 }
 
 .first_part {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .second_part {
@@ -20,11 +24,15 @@
 
 .name_and_symbol {
   display: flex;
-  justify-content: center;
+  align-items: baseline;
+  .name {
+    margin-left: 10px;
+  }
 }
 
 .size_and_secrets {
   display: flex;
+  justify-content: center;
   .intro {
     margin-right: 5px;
   }
@@ -44,5 +52,9 @@
 
   .intro {
     display: none
+  }
+
+  .name {
+    display: none;
   }
 }
