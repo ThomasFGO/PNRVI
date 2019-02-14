@@ -69,38 +69,38 @@ end
 
 lists = [
 
-  "pop1.csv", "pop2.csv", "pop3.csv", "pop4.csv", "pop5.csv", "pop6.csv", "pop7.csv", "pop8.csv", "pop9.csv",
+  #{}"pop1.csv", "pop2.csv", "pop3.csv", "pop4.csv", "pop5.csv", "pop6.csv", "pop7.csv", "pop8.csv", "pop9.csv",
 
-  "bpromos.csv", "bsetdebase.csv", "bjungle.csv", "bfossil.csv", "bbasesetdeux.csv", "bteamrocket.csv", "blegendarycollection.csv",
+  #{}"bsetdebase.csv", "bjungle.csv", "bfossil.csv", "bbasesetdeux.csv", "bteamrocket.csv", "blegendarycollection.csv",
 
-  "gymheroes.csv", "gymchallenge.csv",
+  #{}"gymheroes.csv", "gymchallenge.csv",
 
-  "neogenesis.csv", "neodiscovery.csv", "neorevelation.csv", "neodestiny.csv",
+  #{}"neogenesis.csv", "neodiscovery.csv", "neorevelation.csv", "neodestiny.csv",
 
-  "ecexpedition.csv", "ecaquapolis.csv", "ecskyridge.csv",
+  #{}"ecexpedition.csv", "ecaquapolis.csv", "ecskyridge.csv",
 
   "exrubissaphir.csv", "extempetedesable.csv", "exdragon.csv", "exlegendesoubliees.csv", "exteammagmateamaqua.csv",
   "exrougefeuvertfeuille.csv", "exteamrocketreturns.csv", "exdeoxys.csv", "exemeraude.csv", "exforcescachees.csv",
   "exespecedelta.csv", "excreateursdelegendes.csv", "exfantomesholon.csv", "exgardiensdecristal.csv",
   "exilesdesdragons.csv", "exgardiensdupouvoir.csv",
 
-  "dppromos.csv", "diamantetperle.csv", "dptresorsmysterieux.csv", "dpmerveillessecretes.csv",
+  "diamantetperle.csv", "dptresorsmysterieux.csv", "dpmerveillessecretes.csv",
   "dpduelsausommet.csv", "dpaubemajestueuse.csv", "dpeveildeslegendes.csv", "dptempete.csv",
 
   "plbase.csv", "plrivauxemergeants.csv", "plvainqueurssupremes.csv", "plarceus.csv",
 
-  "hspromos.csv", "heartgoldsoulsilver.csv", "hsunleashed.csv", "hsundaunted.csv", "hstriumphant.csv", "calloflegends.csv",
+  "heartgoldsoulsilver.csv", "hsunleashed.csv", "hsundaunted.csv", "hstriumphant.csv", "calloflegends.csv",
 
-  "nbpromos.csv", "noiretblanc.csv", "nbpouvoirsemergents.csv", "nbnoblesvictoires.csv", "nbdestineesfutures.csv",
+  "noiretblanc.csv", "nbpouvoirsemergents.csv", "nbnoblesvictoires.csv", "nbdestineesfutures.csv",
   "nbexplorateursobscurs.csv", "nbdragonsexaltes.csv","nbcoffredesdragons.csv", "nbfrontieresfranchies.csv", "nbtempeteplasma.csv",
   "nbglaciationplasma.csv", "nbexplosionplasma.csv", "nblegendarytreasures.csv",
 
 
-  "xypromos.csv", "xykalos.csv", "xybase.csv", "xyetincelles.csv", "xypoingsfurieux.csv", "xyvigueurspectrale.csv", "xyprimochoc.csv",
+  "xykalos.csv", "xybase.csv", "xyetincelles.csv", "xypoingsfurieux.csv", "xyvigueurspectrale.csv", "xyprimochoc.csv",
   "xydoubledanger.csv", "xycielrugissant.csv", "xyoriginesantiques.csv", "xyimpulsionturbo.csv", "xyruptureturbo.csv",
   "xygenerations.csv", "xyimpactdesdestins.csv", "xyoffensivevapeur.csv", "xyevolutions.csv",
 
-  "slpromos.csv", "slbase.csv", "slgardiensascendants.csv", "slombresardentes.csv", "sllegendesbrillantes.csv", "slinvasioncarmin.csv",
+  "slbase.csv", "slgardiensascendants.csv", "slombresardentes.csv", "sllegendesbrillantes.csv", "slinvasioncarmin.csv",
   "slultraprisme.csv", "sllumiereinterdite.csv", "sltempeteceleste.csv", "slmajestedesdragons.csv", "sltonnerreperdu.csv",
   "slduodechoc.csv"
 
