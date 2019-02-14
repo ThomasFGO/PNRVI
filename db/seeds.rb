@@ -6,12 +6,13 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'csv'
-#Message.destroy_all
-#Conversation.destroy_all
-#SelectedCard.destroy_all
-#ShopCard.destroy_all
-#SearchCard.destroy_all
-#CollectionCard.destroy_all
+Message.destroy_all
+Conversation.destroy_all
+SelectedCard.destroy_all
+ShopCard.destroy_all
+SearchCard.destroy_all
+CollectionCard.destroy_all
+User.destroy_all
 RefCard.destroy_all
 EnergyType.destroy_all
 List.destroy_all
