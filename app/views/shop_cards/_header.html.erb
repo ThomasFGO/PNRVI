@@ -1,4 +1,5 @@
   <div class="shop_cards-header">
+    <div class="title">
     <h3>Magasin :
       <% if @shop_cards.count == 0 %>
         aucune carte
@@ -8,4 +9,8 @@
         <%= @shop_cards.count %> cartes / valeur : <%= @shop_cards.sum(:price)%> €
       <% end %>
     </h3>
+    </div>
+    <div class="more_cards">
+      <%= link_to "Vendre d'autres cartes", root_path, :class => "btn btn-classic btn-lg btn-yellow"%>
+    </div>
   </div>

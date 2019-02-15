@@ -30,7 +30,6 @@ end
 #puts "There are now #{Bloc.count} rows in the transactions table"
 
 
-
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|

@@ -1,7 +1,25 @@
 .search_cards-header {
   color: $yellow;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 10px;
+  .more_cards {
+    margin-left: 10px;
+  }
 }
+
+@media all and (max-width: 500px) {
+  .search_cards-header {
+    display: block;
+    margin-bottom: 10px;
+    .more_cards {
+      text-align: center;
+      margin-left: 0px;
+    }
+  }
+}
+
 .list-header_mini {
   margin-bottom: 10px;
   display: flex;

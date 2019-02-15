@@ -22,8 +22,8 @@
             <h4><%= @ref_card.us_name %></h4>
           <% end %>
 
-          <% if @ref_card.pokedex_number.present? %>
-            <p>Numéro Pokédex : <%= @ref_card.pokedex_number %></p>
+          <% if @ref_card.number.present? %>
+            <p>Numéro : <%= @ref_card.number %>/<%= @ref_card.list.size %></p>
           <% end %>
 
           <% if @ref_card.rarety_type == "Ultra"  %>
