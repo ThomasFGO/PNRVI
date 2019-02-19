@@ -38,6 +38,10 @@
                             <%= "Rare" %>
                           <% elsif search_card.ref_card.rarety_type == "Rare Holo"%>
                             <%= "Holo" %>
+                            <% elsif search_card.ref_card.rarety_type == "Ultra"%>
+                              <%= search_card.ref_card.ultra_type %>
+                            <% elsif search_card.ref_card.rarety_type == "Secret"%>
+                            <%= "Secrête" %>
                           <% end %>
                         </td>
                         <td id="language"><%= search_card.language %></td>
@@ -49,7 +53,9 @@
                           <% end %>
                         </td>
                         <td id="close">
-                          <%= link_to "x", search_card_path(search_card), class: "btn close_button", method: :delete %>
+                          <%= link_to search_card_path(search_card), method: :delete do %>
+                            <%= image_tag("icone_poubelle.png", class: "icone-delete") %>
+                          <% end %>
                         </td>
                       </tr>
                     </table>

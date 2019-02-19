@@ -7,6 +7,6 @@ class ShopCard < ApplicationRecord
   mount_uploader :ph_three, PhotoUploader
   mount_uploader :ph_four, PhotoUploader
   mount_uploader :ph_five, PhotoUploader
-  validates :price, presence: true
+  validates :price, presence: true, :numericality => { greater_than: 0 }
   validates :ph_one, presence: true
 end

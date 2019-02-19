@@ -127,6 +127,11 @@ end
 
 puts "There are now #{RefCard.count} rows in the RefCard table"
 
+#rf = RefCard.where(list:List.find_by(us_name: row['list']), number: row['number'])
+#rf.rarety_type = row['rarety_type']
+#rf.reved = row['reved']
+#rf.save
+
 #marie = User.create!(email: "marie@gmail.com", password: "mariepnr", first_name: "Marie", last_name: "Marquet")
 #mattis = User.create!(email: "mattis@gmail.com", password: "mattispnr", first_name: "Mattis", last_name: "Brizard")
 #isabelle = User.create!(email: "isabelle@gmail.com", password: "isabellepnr", first_name: "Isabelle", last_name: "Sirieix")
