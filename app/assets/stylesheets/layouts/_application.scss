@@ -1,0 +1,11 @@
+.main-container {
+  .navbars {
+    position: sticky !important; /* !important to override Gmaps inline CSS */
+    top: 0 !important;
+    z-index: 1;
+
+  }
+  #list-content {
+
+  }
+}
