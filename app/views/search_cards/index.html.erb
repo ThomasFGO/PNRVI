@@ -47,7 +47,11 @@
                         <td id="language"><%= search_card.language %></td>
                         <td id="version">
                           <% if search_card.reved? %>
-                            <%= "R / Éd1" %>
+                            <% if search_card.ref_card.list.reved_name == "reverse" %>
+                              <%= "R" %>
+                            <% else %>
+                              <%= "Éd1" %>
+                            <% end %>
                           <% else %>
                             <%= "N" %>
                           <% end %>

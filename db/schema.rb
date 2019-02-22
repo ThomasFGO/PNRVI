@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_01_28_101804) do
+ActiveRecord::Schema.define(version: 2019_02_22_103552) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -65,6 +65,8 @@ ActiveRecord::Schema.define(version: 2019_01_28_101804) do
     t.bigint "bloc_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "reved"
+    t.string "reved_name"
     t.index ["bloc_id"], name: "index_lists_on_bloc_id"
   end
 

@@ -1,4 +1,7 @@
 require 'csv'
+
+=begin
+
 Message.destroy_all
 Conversation.destroy_all
 SelectedCard.destroy_all
@@ -127,10 +130,20 @@ end
 
 puts "There are now #{RefCard.count} rows in the RefCard table"
 
+=end
+
 #rf = RefCard.where(list:List.find_by(us_name: row['list']), number: row['number'])
 #rf.rarety_type = row['rarety_type']
 #rf.reved = row['reved']
 #rf.save
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists.csv'))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  l = List.find_by(fr_name: row['fr_name'])
+  l.reved = row['reved']
+  l.reved_name = row['reved_name']
+  l.save
+end
 
 #marie = User.create!(email: "marie@gmail.com", password: "mariepnr", first_name: "Marie", last_name: "Marquet")
 #mattis = User.create!(email: "mattis@gmail.com", password: "mattispnr", first_name: "Mattis", last_name: "Brizard")

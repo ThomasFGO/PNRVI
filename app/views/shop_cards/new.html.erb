@@ -25,7 +25,21 @@
 
             <%= simple_form_for [@ref_card, @shop_card] do |f| %>
               <div class="shop-form">
-                <%= f.input :reved, label: "reverse / édition 1" %>
+                <% if @ref_card.list.reved? %>
+                  <% if @ref_card.list.reved_name == "édition 1" %>
+                    <div class="reved">
+                      <%= f.input :reved, label: "édition 1" %>
+                    </div>
+                  <% elsif @ref_card.list.reved_name == "reverse" %>
+                    <% if @ref_card.rarety_type != "Ultra" %>
+                      <% if @ref_card.rarety_type != "Secret" %>
+                        <div class="reved">
+                          <%= f.input :reved, label: "reverse" %>
+                        </div>
+                      <% end  %>
+                    <% end  %>
+                  <% end  %>
+                <% end  %>
                 <div class="candition_and_language">
                   <div class="condition">
                   <%= f.label(:condition, "état") %>

@@ -12,7 +12,7 @@
             {:width=>500, :crop=>"scale"},
             {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@shop_card.user.first_name} #{@shop_card.user.last_name}"},
             :gravity=>"south", :y=>100}
-            ], class: "standard-photo"%>
+            ]%>
           </div>
           <div class="verso">
             <% if @shop_card.ph_two.present? %>
