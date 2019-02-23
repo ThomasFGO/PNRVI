@@ -13,7 +13,7 @@
           <div class="bloc-header"><%= bloc.fr_name %></div>
 
           <div class="bloc-lists">
-            <% bloc.lists.each do |list| %>
+            <% bloc.lists.order("id ASC").each do |list| %>
               <div class="list-card">
                 <%= link_to list_path(list) do %>
                   <% if list.fr_logo_url.present? %><%= image_tag(list.fr_logo_url, class: "logo-list-mini")%> <% end %>

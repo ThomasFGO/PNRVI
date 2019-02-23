@@ -25,6 +25,8 @@
 
             <%= simple_form_for [@ref_card, @shop_card] do |f| %>
               <div class="shop-form">
+
+
                 <% if @ref_card.list.reved? %>
                   <% if @ref_card.list.reved_name == "édition 1" %>
                     <div class="reved">

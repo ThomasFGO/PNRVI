@@ -31,3 +31,10 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    attributes:
+      shop_card:
+        price: Le prix
+        ph_one: Une photo recto
+
+
