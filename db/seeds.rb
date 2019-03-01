@@ -142,6 +142,10 @@ csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
   l = List.find_by(fr_name: row['fr_name'])
+  l.code = row['code']
+  l.french = row['french']
+  l.save
+end
 
   #Cloudinary::Uploader.upload("#{l.fr_logo_url}",
   #:width => 320, :height => 100, :crop => :limit,
@@ -151,10 +155,10 @@ csv.each do |row|
   #:width => 320, :height => 100, :crop => :limit,
   #:public_id => "poknroll_#{l.code}_us_logo", :folder => "lists/us_logos")
 
-  Cloudinary::Uploader.upload("#{l.symbol_url}",
-  :width => 38, :height => 38, :crop => :limit,
-  :public_id => "poknroll_#{l.code}_symbol", :folder => "lists/symbols")
-end
+  #Cloudinary::Uploader.upload("#{l.symbol_url}",
+  #:width => 38, :height => 38, :crop => :limit,
+  #:public_id => "poknroll_#{l.code}_symbol", :folder => "lists/symbols")
+
 
 
 #marie = User.create!(email: "marie@gmail.com", password: "mariepnr", first_name: "Marie", last_name: "Marquet")
