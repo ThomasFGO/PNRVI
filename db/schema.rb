@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_22_103552) do
+ActiveRecord::Schema.define(version: 2019_02_24_155041) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -67,6 +67,8 @@ ActiveRecord::Schema.define(version: 2019_02_22_103552) do
     t.datetime "updated_at", null: false
     t.boolean "reved"
     t.string "reved_name"
+    t.string "code"
+    t.boolean "french"
     t.index ["bloc_id"], name: "index_lists_on_bloc_id"
   end
 

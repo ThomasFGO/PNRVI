@@ -3,7 +3,7 @@ class PhotoUploader < CarrierWave::Uploader::Base
 
   #process :convert => 'png'
 
-  process :resize_to_fill => [400, nil]
+  process :resize_to_fill => [500, 666]
 
 
 end

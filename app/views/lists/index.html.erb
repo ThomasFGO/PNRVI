@@ -16,8 +16,8 @@
             <% bloc.lists.order("id ASC").each do |list| %>
               <div class="list-card">
                 <%= link_to list_path(list) do %>
-                  <% if list.fr_logo_url.present? %><%= image_tag(list.fr_logo_url, class: "logo-list-mini")%> <% end %>
-                  <% if list.symbol_url.present? %><%= image_tag(list.symbol_url, class: "symbol-list")%> <% end %>
+                  <%= cl_image_tag ("lists/fr_logos/poknroll_#{list.code}_fr_logo.png"), class: "logo-list-mini" %>
+                  <%= cl_image_tag ("lists/symbols/poknroll_#{list.code}_symbol.png"),class: "symbol-list-mini" %>
                 <% end  %>
               </div>
             <% end %>

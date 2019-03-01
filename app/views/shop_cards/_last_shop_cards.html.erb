@@ -4,7 +4,8 @@
         <%= link_to shop_card_path(shop_card) do %>
           <% if shop_card.ph_one.present? %>
             <div class="visual">
-              <%= cl_image_tag shop_card.ph_one, :gravity=>"auto", class: "mini" %>
+              <%= cl_image_tag shop_card.ph_one, :gravity=>"auto", :crop=>"fill",
+              :transformation=> {:width=>250, :crop=>"fit"}, class: "mini" %>
             </div>
           <% end %>
         <% end %>

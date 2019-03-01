@@ -130,20 +130,32 @@ end
 
 puts "There are now #{RefCard.count} rows in the RefCard table"
 
-=end
+
 
 #rf = RefCard.where(list:List.find_by(us_name: row['list']), number: row['number'])
 #rf.rarety_type = row['rarety_type']
 #rf.reved = row['reved']
 #rf.save
+=end
+
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
   l = List.find_by(fr_name: row['fr_name'])
-  l.reved = row['reved']
-  l.reved_name = row['reved_name']
-  l.save
+
+  #Cloudinary::Uploader.upload("#{l.fr_logo_url}",
+  #:width => 320, :height => 100, :crop => :limit,
+  #:public_id => "poknroll_#{l.code}_fr_logo", :folder => "lists/fr_logos")
+
+  #Cloudinary::Uploader.upload("#{l.us_logo_url}",
+  #:width => 320, :height => 100, :crop => :limit,
+  #:public_id => "poknroll_#{l.code}_us_logo", :folder => "lists/us_logos")
+
+  Cloudinary::Uploader.upload("#{l.symbol_url}",
+  :width => 38, :height => 38, :crop => :limit,
+  :public_id => "poknroll_#{l.code}_symbol", :folder => "lists/symbols")
 end
+
 
 #marie = User.create!(email: "marie@gmail.com", password: "mariepnr", first_name: "Marie", last_name: "Marquet")
 #mattis = User.create!(email: "mattis@gmail.com", password: "mattispnr", first_name: "Mattis", last_name: "Brizard")

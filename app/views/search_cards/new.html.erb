@@ -47,9 +47,15 @@
                 </div>
                 <div class="language">
                   <%= f.label(:language, "langue") %>
-                  <%= f.select :language, options_for_select(
-                    ["français", "anglais", "allemand", "italien", "espagnol", "japonais" ],
-                    ["français"]) %>
+                  <% if @ref_card.list.french? %>
+                      <%= f.select :language, options_for_select(
+                        ["français", "anglais", "allemand", "italien", "espagnol", "japonais" ],
+                        ["français"]) %>
+                    <% else %>
+                      <%= f.select :language, options_for_select(
+                          ["anglais", "allemand", "italien", "espagnol", "japonais" ],
+                          ["anglais"]) %>
+                    <% end %>
                   </div>
                 <div class="search-submit">
                   <%= f.submit "Ajouter à mes recherches", class: "btn btn-primary" %>

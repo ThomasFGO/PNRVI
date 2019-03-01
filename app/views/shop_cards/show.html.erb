@@ -9,7 +9,7 @@
           <div class="recto">
             <%= cl_image_tag @shop_card.ph_one, :gravity=>"auto", :crop=>"fill",
             :transformation=>[
-            {:width=>500, :crop=>"scale"},
+
             {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@shop_card.user.first_name} #{@shop_card.user.last_name}"},
             :gravity=>"south", :y=>100}
             ], class: "standard-photo"%>
@@ -18,7 +18,7 @@
             <% if @shop_card.ph_two.present? %>
               <%= cl_image_tag @shop_card.ph_two, :gravity=>"auto", :crop=>"fill",
               :transformation=>[
-              {:width=>500, :crop=>"scale"},
+
               {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@shop_card.user.first_name} #{@shop_card.user.last_name}"},
               :gravity=>"south", :y=>100}
               ], class: "standard-photo"%>
