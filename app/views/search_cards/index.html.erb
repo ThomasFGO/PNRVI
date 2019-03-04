@@ -53,6 +53,8 @@
                               <%= image_tag("energy/psychic.png", height: "15") %>
                             <% elsif search_card.ref_card.energy_type.us_name == "Colorless"%>
                               <%= image_tag("energy/colorless.png", height: "15") %>
+                            <% elsif search_card.ref_card.energy_type.us_name == "Dragon"%>
+                              <%= image_tag("energy/dragon.png", height: "15") %>
                             <% end %>
                           <% elsif search_card.ref_card.super_type == "Trainer"%>
                             <%= image_tag("rarety_types/trainer.png", height: "15") %>
