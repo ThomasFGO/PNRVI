@@ -45,55 +45,66 @@
 }
 
 @media all and (min-width: 500px) {
-  #name {
-  width: 30%;
-  font-size: 70%;
+  #version {
+    width: 8%;
+    font-size: 70%;
   }
   #number {
-    width: 15px;
+    width: 8%;
+    font-size: 70%;
+  }
+  #type {
+    width: 8%;
     font-size: 70%;
   }
   #rarety {
-    width: 15%;
+    width: 8%;
     font-size: 70%;
+  }
+  #name {
+    width: 44%;
+    font-size: 70%;
+    text-align: left;
   }
   #language {
-    width: 20%;
-    font-size: 70%;
-  }
-  #version {
-    width: 15%;
+    width: 12%;
     font-size: 70%;
   }
   #close {
-    width: 5%;
+    width: 12%;
     font-size: 70%;
   }
 }
 
 @media all and (max-width: 500px) {
-  #name {
-  width: 50%;
-  font-size: 70%;
+  #version {
+    width: 8%;
+    font-size: 70%;
   }
   #number {
-    width: 15px;
+    width: 8%;
+    font-size: 70%;
+  }
+  #type {
+    width: 8%;
     font-size: 70%;
   }
   #rarety {
-    width: 15%;
+    width: 8%;
     font-size: 70%;
   }
-  #language {
-    display: none;
-    //width: 15%;
+  #name {
+  width: 50%;
+  font-size: 70%;
+  text-align: left;
   }
-  #version {
-    width: 15%;
+
+  #language {
+    width: 10%;
     font-size: 70%;
   }
   #close {
-    width: 5%;
+    width: 8%;
     font-size: 70%;
   }
 }
