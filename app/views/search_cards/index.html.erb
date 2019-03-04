@@ -4,13 +4,13 @@
 
   <div class="search_cards-container">
 
-        <% @lists.each do |list| %>
+        <% @lists.order("id ASC").each do |list| %>
           <div class="dropdown">
             <% if list.search_cards.where(user_id: current_user.id).count > 0 %>
               <button class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <%= list.fr_name %>
                 <%= "(#{list.size})" %>
-                <%= image_tag(list.symbol_url, height: '20')%>
+                <%= cl_image_tag ("lists/symbols/poknroll_#{list.code}_symbol.png"),class: "symbol-list-mini" %>
                 <%= list.search_cards.count %>
               </button>
 
@@ -31,20 +31,53 @@
                         <td id="number"><%= search_card.ref_card.number %></td>
                         <td id="rarety">
                           <% if search_card.ref_card.rarety_type == "Common"%>
-                            <%= "Co" %>
+                            <%= image_tag("rarety_types/common.png", height: "10") %>
                           <% elsif search_card.ref_card.rarety_type == "Uncommon"%>
-                            <%= "Unco" %>
+                            <%= image_tag("rarety_types/uncommon.png", height: "10") %>
                           <% elsif search_card.ref_card.rarety_type == "Rare"%>
-                            <%= "Rare" %>
+                            <%= image_tag("rarety_types/rare.png", height: "10") %>
                           <% elsif search_card.ref_card.rarety_type == "Rare Holo"%>
-                            <%= "Holo" %>
-                            <% elsif search_card.ref_card.rarety_type == "Ultra"%>
-                              <%= search_card.ref_card.ultra_type %>
-                            <% elsif search_card.ref_card.rarety_type == "Secret"%>
-                            <%= "Secrête" %>
+                            <%= image_tag("rarety_types/holo.png", height: "10") %>
+                          <% elsif search_card.ref_card.rarety_type == "Ultra"%>
+                            <%= image_tag("rarety_types/ultra.png", height: "10") %>
+                          <% elsif search_card.ref_card.rarety_type == "Secret"%>
+                            <%= image_tag("rarety_types/secret.png", height: "10") %>
                           <% end %>
                         </td>
-                        <td id="language"><%= search_card.language %></td>
+                        <td id=type>
+                          <% if search_card.ref_card.super_type == "Pokémon" %>
+                            <% if search_card.ref_card.energy_type.us_name == "Grass" %>
+                              <%= image_tag("energy/grass.png", height: "20") %>
+                            <% elsif search_card.ref_card.energy_type.us_name == "Fire"%>
+                              <%= image_tag("energy/fire.png", height: "20") %>
+                            <% elsif search_card.ref_card.energy_type.us_name == "Lightning"%>
+                              <%= image_tag("energy/lightning.png", height: "20") %>
+                            <% elsif search_card.ref_card.energy_type.us_name == "Fighting"%>
+                              <%= image_tag("energy/fighting.png", height: "20") %>
+                            <% elsif search_card.ref_card.energy_type.us_name == "Metal"%>
+                              <%= image_tag("energy/metal.png", height: "20") %>
+                            <% elsif search_card.ref_card.energy_type.us_name == "Darkness"%>
+                              <%= image_tag("energy/darkness.png", height: "20") %>
+                            <% elsif search_card.ref_card.energy_type.us_name == "Water"%>
+                              <%= image_tag("energy/water.png", height: "20") %>
+                            <% elsif search_card.ref_card.energy_type.us_name == "Fairy"%>
+                              <%= image_tag("energy/fairy.png", height: "20") %>
+                            <% elsif search_card.ref_card.energy_type.us_name == "Psychic"%>
+                              <%= image_tag("energy/psychic.png", height: "20") %>
+                            <% end %>
+                          <% elsif search_card.ref_card.super_type == "Trainer"%>
+                            <%= image_tag("rarety_types/trainer.png", height: "20") %>
+                          <% elsif search_card.ref_card.super_type == "Energy"%>
+                            <%= image_tag("rarety_types/energy.png", height: "20") %>
+                          <% end %>
+                        </td>
+                        <td id="language">
+                          <% if search_card.language == "français" %>
+                            <%= cl_image_tag("flags/french.png", :width=>20, :crop=>"scale") %>
+                          <% elsif search_card.language == "anglais" %>
+                            <%= cl_image_tag("flags/english.png", :width=>25, :crop=>"scale") %>
+                          <% end %>
+                        </td>
                         <td id="version">
                           <% if search_card.reved? %>
                             <% if search_card.ref_card.list.reved_name == "reverse" %>

@@ -21,10 +21,11 @@
           </div>
 
 
-
-
             <%= simple_form_for [@ref_card, @search_card] do |f| %>
               <div class="search-form">
+                <% if SearchCard.where(ref_card_id: @ref_card.id).present? %>
+                  <p>Déja recherchée</p>
+                <% end %>
                 <% if @ref_card.list.reved? %>
                   <% if @ref_card.list.reved_name == "édition 1" %>
                     <div class="reved">

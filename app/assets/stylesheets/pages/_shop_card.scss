@@ -5,7 +5,12 @@
 
 .shop_card-body {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-bottom: 20px;
+  .card-infos {
+    width: 300px;
+    height: 415px;
+  }
 }
 
 

@@ -23,15 +23,10 @@ class SearchCardsController < ApplicationController
     redirect_to list_path(@search_card.ref_card.list, :anchor => "#{@search_card.ref_card_id}")
   end
 
-  #def multiple_new
-    #@list = List.find(params[:id])
-  #end
-
-  #def multiple_create
-  #end
-
   def destroy
     @search_card = SearchCard.find(params[:id])
+    #@selected_card = SelectedCard.find(params[])
+    #@selected_card.destroy
     @search_card.destroy
     redirect_to search_cards_path
   end
