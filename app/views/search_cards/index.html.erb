@@ -11,7 +11,7 @@
                 <%= list.fr_name %>
                 <%= "(#{list.size})" %>
                 <%= cl_image_tag ("lists/symbols/poknroll_#{list.code}_symbol.png"),class: "symbol-list-mini" %>
-                <%= list.search_cards.count %>
+                <%= list.search_cards.where(user_id: current_user.id).count %>
               </button>
 
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2">

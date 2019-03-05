@@ -159,7 +159,7 @@ end
   #:width => 38, :height => 38, :crop => :limit,
   #:public_id => "poknroll_#{l.code}_symbol", :folder => "lists/symbols")
 
-
+  #:format => "jpg"
 
 #marie = User.create!(email: "marie@gmail.com", password: "mariepnr", first_name: "Marie", last_name: "Marquet")
 #mattis = User.create!(email: "mattis@gmail.com", password: "mattispnr", first_name: "Mattis", last_name: "Brizard")

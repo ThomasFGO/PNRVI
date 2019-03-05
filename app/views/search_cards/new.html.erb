@@ -23,8 +23,16 @@
 
             <%= simple_form_for [@ref_card, @search_card] do |f| %>
               <div class="search-form">
-                <% if SearchCard.where(ref_card_id: @ref_card.id).present? %>
-                  <p>Déja recherchée</p>
+                <% if SearchCard.where(ref_card_id: @ref_card.id).count > 0 %>
+                  <p>Déja recherchée
+                  <% if current_user.search_cards.where(ref_card_id: @ref_card.id, reved: false).present? %>
+                    en normale
+                  <% end %>
+                  <% if current_user.search_cards.where(ref_card_id: @ref_card.id, reved: true).present? %>
+                    en <%= @ref_card.list.reved_name %>
+                  <% end %>
+
+                  </p>
                 <% end %>
                 <% if @ref_card.list.reved? %>
                   <% if @ref_card.list.reved_name == "édition 1" %>
