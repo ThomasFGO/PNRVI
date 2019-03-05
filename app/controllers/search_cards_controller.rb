@@ -13,6 +13,8 @@ class SearchCardsController < ApplicationController
 
   def new
     @ref_card = RefCard.find(params[:ref_card_id])
+    @reved_saved = current_user.search_cards.where(ref_card_id: @ref_card.id, reved: true).count
+    @normal_saved = current_user.search_cards.where(ref_card_id: @ref_card.id, reved: false).count
     @search_card = SearchCard.new
   end
 

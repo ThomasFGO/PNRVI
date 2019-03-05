@@ -30,13 +30,31 @@
                 <% if @ref_card.list.reved? %>
                   <% if @ref_card.list.reved_name == "édition 1" %>
                     <div class="reved">
-                      <%= f.input :reved, label: "édition 1" %>
+                      <%= f.input_field :reved,
+                        :collection => [
+                          [false, "normale (#{@normal_saved})"],
+                          [true, "édition1 (#{@reved_saved})"]],
+                        :label_method => :last,
+                        :value_method => :first,
+                        :as => :radio_buttons,
+                        :item_wrapper_class => 'inline',
+                        :checked => false
+                      %>
                     </div>
                   <% elsif @ref_card.list.reved_name == "reverse" %>
                     <% if @ref_card.rarety_type != "Ultra" %>
                       <% if @ref_card.rarety_type != "Secret" %>
                         <div class="reved">
-                          <%= f.input :reved, label: "reverse" %>
+                          <%= f.input_field :reved,
+                            :collection => [
+                              [false, "normale (#{@normal_saved})"],
+                              [true, "reverse (#{@reved_saved})"]],
+                            :label_method => :last,
+                            :value_method => :first,
+                            :as => :radio_buttons,
+                            :item_wrapper_class => 'inline',
+                            :checked => false
+                          %>
                         </div>
                       <% end  %>
                     <% end  %>
