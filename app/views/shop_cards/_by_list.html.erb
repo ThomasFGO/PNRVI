@@ -1,14 +1,21 @@
 <div class="shop_cards_by_list-container">
+  <div class="col-md-offset-3 col-md-5">
 
     <% @lists.each do |list| %>
       <div class="dropdown">
         <% if list.shop_cards.where(user_id: current_user.id).count > 0 %>
-          <button class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <%= list.fr_name %>
-            <%= "(#{list.size})" %>
-            <%= image_tag(list.symbol_url, height: '20')%>
-            <%= list.shop_cards.where(user_id: current_user.id).count %>
-          </button>
+          <div class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div id="list-name">
+              <%= list.fr_name %>
+              <%= "(#{list.size})" %>
+            </div>
+            <div id=list-symbol>
+              <%= image_tag(list.symbol_url, height: '20')%>
+            </div>
+            <div id="how_many">
+              <%= list.shop_cards.where(user_id: current_user.id).count %>
+            </div>
+          </div>
 
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
 
@@ -116,3 +123,4 @@
       </div>
     <% end %>
   </div>
+</div>

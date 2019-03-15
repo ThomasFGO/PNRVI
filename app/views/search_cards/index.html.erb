@@ -3,15 +3,22 @@
   <%= render partial: "search_cards/header" %>
 
   <div class="search_cards-container">
+    <div class="col-md-offset-3 col-md-5">
 
         <% @lists.order("id ASC").each do |list| %>
           <div class="dropdown">
             <% if list.search_cards.where(user_id: current_user.id).count > 0 %>
               <div class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div id="list-name">
                 <%= list.fr_name %>
-                <%= "(#{list.size})" %>
-                <%= cl_image_tag ("lists/symbols/poknroll_#{list.code}_symbol.png"),class: "symbol-list-mini" %>
-                <%= list.search_cards.where(user_id: current_user.id).count %>
+                <%=  "(#{list.size})" %>
+                </div>
+                <div id="list-symbol">
+                  <%= cl_image_tag ("lists/symbols/poknroll_#{list.code}_symbol.png"),class: "symbol-list-mini" %>
+                </div>
+                <div id="how_many">
+                  <%= list.search_cards.where(user_id: current_user.id).count %>
+                </div>
               </div>
 
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
@@ -117,6 +124,6 @@
             <% end %>
           </div>
         <% end %>
-
+    </div>
   </div>
 </div>
