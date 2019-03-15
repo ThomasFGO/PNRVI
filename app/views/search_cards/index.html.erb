@@ -7,102 +7,112 @@
         <% @lists.order("id ASC").each do |list| %>
           <div class="dropdown">
             <% if list.search_cards.where(user_id: current_user.id).count > 0 %>
-              <button class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <%= list.fr_name %>
                 <%= "(#{list.size})" %>
                 <%= cl_image_tag ("lists/symbols/poknroll_#{list.code}_symbol.png"),class: "symbol-list-mini" %>
                 <%= list.search_cards.where(user_id: current_user.id).count %>
-              </button>
+              </div>
 
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <% list.search_cards.where(user_id: current_user.id).order("ref_card_id asc").each do |search_card| %>
-                  <div class="dropdown-item">
-                    <table>
-                      <tr>
-                        <td id="version">
-                          <% if search_card.reved? %>
-                            <% if search_card.ref_card.list.reved_name == "reverse" %>
-                              <%= "R" %>
-                            <% else %>
-                              <%= "Éd1" %>
-                            <% end %>
-                          <% else %>
-                            <%= "N" %>
-                          <% end %>
-                        </td>
-                        <td id="number"><%= search_card.ref_card.number %></td>
-                        <td id="type">
-                          <% if search_card.ref_card.super_type == "Pokémon" %>
-                            <% if search_card.ref_card.energy_type.us_name == "Grass" %>
-                              <%= image_tag("energy/grass.png", height: "15") %>
-                            <% elsif search_card.ref_card.energy_type.us_name == "Fire"%>
-                              <%= image_tag("energy/fire.png", height: "15") %>
-                            <% elsif search_card.ref_card.energy_type.us_name == "Lightning"%>
-                              <%= image_tag("energy/lightning.png", height: "15") %>
-                            <% elsif search_card.ref_card.energy_type.us_name == "Fighting"%>
-                              <%= image_tag("energy/fighting.png", height: "15") %>
-                            <% elsif search_card.ref_card.energy_type.us_name == "Metal"%>
-                              <%= image_tag("energy/metal.png", height: "15") %>
-                            <% elsif search_card.ref_card.energy_type.us_name == "Darkness"%>
-                              <%= image_tag("energy/darkness.png", height: "15") %>
-                            <% elsif search_card.ref_card.energy_type.us_name == "Water"%>
-                              <%= image_tag("energy/water.png", height: "15") %>
-                            <% elsif search_card.ref_card.energy_type.us_name == "Fairy"%>
-                              <%= image_tag("energy/fairy.png", height: "15") %>
-                            <% elsif search_card.ref_card.energy_type.us_name == "Psychic"%>
-                              <%= image_tag("energy/psychic.png", height: "15") %>
-                            <% elsif search_card.ref_card.energy_type.us_name == "Colorless"%>
-                              <%= image_tag("energy/colorless.png", height: "15") %>
-                            <% elsif search_card.ref_card.energy_type.us_name == "Dragon"%>
-                              <%= image_tag("energy/dragon.png", height: "15") %>
-                            <% end %>
-                          <% elsif search_card.ref_card.super_type == "Trainer"%>
-                            <%= image_tag("rarety_types/trainer.png", height: "15") %>
-                          <% elsif search_card.ref_card.super_type == "Energy"%>
-                            <%= image_tag("rarety_types/energy.png", height: "15") %>
-                          <% end %>
-                        </td>
-                        <td id="rarety">
-                          <% if search_card.ref_card.rarety_type == "Common"%>
-                            <%= image_tag("rarety_types/common.png", height: "10") %>
-                          <% elsif search_card.ref_card.rarety_type == "Uncommon"%>
-                            <%= image_tag("rarety_types/uncommon.png", height: "10") %>
-                          <% elsif search_card.ref_card.rarety_type == "Rare"%>
-                            <%= image_tag("rarety_types/rare.png", height: "10") %>
-                          <% elsif search_card.ref_card.rarety_type == "Rare Holo"%>
-                            <%= image_tag("rarety_types/holo.png", height: "10") %>
-                          <% elsif search_card.ref_card.rarety_type == "Ultra"%>
-                            <%= image_tag("rarety_types/ultra.png", height: "10") %>
-                          <% elsif search_card.ref_card.rarety_type == "Secret"%>
-                            <%= image_tag("rarety_types/secret.png", height: "10") %>
-                          <% end %>
-                        </td>
+                <table>
 
-                        <td id="name">
-                          <%= link_to ref_card_path(search_card.ref_card) do %>
-                            <% if search_card.ref_card.fr_name.present? %>
-                              <%= search_card.ref_card.fr_name %>
-                            <% else %>
-                              <%= search_card.ref_card.us_name %>
-                            <% end %>
-                          <% end  %>
-                        </td>
-                        <td id="language">
-                          <% if search_card.language == "français" %>
-                            <%= cl_image_tag("flags/french.png", :width=>20, :crop=>"scale") %>
-                          <% elsif search_card.language == "anglais" %>
-                            <%= cl_image_tag("flags/english.png", :width=>25, :crop=>"scale") %>
-                          <% end %>
-                        </td>
-                        <td id="close">
-                          <%= link_to search_card_path(search_card), method: :delete do %>
-                            <%= image_tag("icone_poubelle.png", class: "icone-delete") %>
-                          <% end %>
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
+                  <tr class="dropdown-item">
+                    <th id="version">version</th>
+                    <th id="number">n°</th>
+                    <th id="type">type</th>
+                    <th id="rarety">rareté</th>
+                    <th id="name">nom</th>
+                    <th id="language">langue</th>
+                    <th id="close">retirer</th>
+                  </tr>
+
+                <% list.search_cards.where(user_id: current_user.id).order("ref_card_id asc").each do |search_card| %>
+
+                  <tr class="dropdown-item">
+                    <td id="version">
+                      <% if search_card.reved? %>
+                        <% if search_card.ref_card.list.reved_name == "reverse" %>
+                          <%= "R" %>
+                        <% else %>
+                          <%= "Éd1" %>
+                        <% end %>
+                      <% else %>
+                        <%= "N" %>
+                      <% end %>
+                    </td>
+                    <td id="number"><%= search_card.ref_card.number %></td>
+                    <td id="type">
+                      <% if search_card.ref_card.super_type == "Pokémon" %>
+                        <% if search_card.ref_card.energy_type.us_name == "Grass" %>
+                          <%= image_tag("energy/grass.png", height: "15") %>
+                        <% elsif search_card.ref_card.energy_type.us_name == "Fire"%>
+                          <%= image_tag("energy/fire.png", height: "15") %>
+                        <% elsif search_card.ref_card.energy_type.us_name == "Lightning"%>
+                          <%= image_tag("energy/lightning.png", height: "15") %>
+                        <% elsif search_card.ref_card.energy_type.us_name == "Fighting"%>
+                          <%= image_tag("energy/fighting.png", height: "15") %>
+                        <% elsif search_card.ref_card.energy_type.us_name == "Metal"%>
+                          <%= image_tag("energy/metal.png", height: "15") %>
+                        <% elsif search_card.ref_card.energy_type.us_name == "Darkness"%>
+                          <%= image_tag("energy/darkness.png", height: "15") %>
+                        <% elsif search_card.ref_card.energy_type.us_name == "Water"%>
+                          <%= image_tag("energy/water.png", height: "15") %>
+                        <% elsif search_card.ref_card.energy_type.us_name == "Fairy"%>
+                          <%= image_tag("energy/fairy.png", height: "15") %>
+                        <% elsif search_card.ref_card.energy_type.us_name == "Psychic"%>
+                          <%= image_tag("energy/psychic.png", height: "15") %>
+                        <% elsif search_card.ref_card.energy_type.us_name == "Colorless"%>
+                          <%= image_tag("energy/colorless.png", height: "15") %>
+                        <% elsif search_card.ref_card.energy_type.us_name == "Dragon"%>
+                          <%= image_tag("energy/dragon.png", height: "15") %>
+                        <% end %>
+                      <% elsif search_card.ref_card.super_type == "Trainer"%>
+                        <%= image_tag("rarety_types/trainer.png", height: "15") %>
+                      <% elsif search_card.ref_card.super_type == "Energy"%>
+                        <%= image_tag("rarety_types/energy.png", height: "15") %>
+                      <% end %>
+                    </td>
+                    <td id="rarety">
+                      <% if search_card.ref_card.rarety_type == "Common"%>
+                        <%= image_tag("rarety_types/common.png", height: "10") %>
+                      <% elsif search_card.ref_card.rarety_type == "Uncommon"%>
+                        <%= image_tag("rarety_types/uncommon.png", height: "10") %>
+                      <% elsif search_card.ref_card.rarety_type == "Rare"%>
+                        <%= image_tag("rarety_types/rare.png", height: "10") %>
+                      <% elsif search_card.ref_card.rarety_type == "Rare Holo"%>
+                        <%= image_tag("rarety_types/holo.png", height: "10") %>
+                      <% elsif search_card.ref_card.rarety_type == "Ultra"%>
+                        <%= image_tag("rarety_types/ultra.png", height: "10") %>
+                      <% elsif search_card.ref_card.rarety_type == "Secret"%>
+                        <%= image_tag("rarety_types/secret.png", height: "10") %>
+                      <% end %>
+                    </td>
+                    <td id="name">
+                      <%= link_to ref_card_path(search_card.ref_card) do %>
+                        <% if search_card.ref_card.fr_name.present? %>
+                          <%= search_card.ref_card.fr_name %>
+                        <% else %>
+                          <%= search_card.ref_card.us_name %>
+                        <% end %>
+                      <% end  %>
+                    </td>
+                    <td id="language">
+                      <% if search_card.language == "français" %>
+                        <%= cl_image_tag("flags/french.png", :width=>20, :crop=>"scale") %>
+                      <% elsif search_card.language == "anglais" %>
+                        <%= cl_image_tag("flags/english.png", :width=>25, :crop=>"scale") %>
+                      <% end %>
+                    </td>
+                    <td id="close">
+                      <%= link_to search_card_path(search_card), method: :delete do %>
+                        <%= image_tag("icone_poubelle.png", class: "icone-delete") %>
+                      <% end %>
+                    </td>
+                  </tr>
+
                 <% end %>
+              </table>
               </div>
             <% end %>
           </div>

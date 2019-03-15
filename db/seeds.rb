@@ -132,10 +132,29 @@ puts "There are now #{RefCard.count} rows in the RefCard table"
 
 
 
-#rf = RefCard.where(list:List.find_by(us_name: row['list']), number: row['number'])
-#rf.rarety_type = row['rarety_type']
-#rf.reved = row['reved']
-#rf.save
+rf = RefCard.find_by(list:List.find_by(fr_name: 'Duo de Choc'), number: '10')
+rf.fr_name = 'Shaymin'
+rf.rarety_type = 'Ultra'
+rf.ultra_type = 'Prisme'
+rf.save
+
+rf = RefCard.find_by(list:List.find_by(fr_name: 'Duo de Choc'), number: '51')
+rf.fr_name = 'Tokorico'
+rf.rarety_type = 'Ultra'
+rf.ultra_type = 'Prisme'
+rf.save
+
+rf = RefCard.find_by(list:List.find_by(fr_name: 'Duo de Choc'), number: '134')
+rf.fr_name = 'Marché Noir'
+rf.rarety_type = 'Ultra'
+rf.ultra_type = 'Prisme'
+rf.save
+
+rf = RefCard.find_by(list:List.find_by(fr_name: 'Duo de Choc'), number: '158')
+rf.fr_name = 'Labyrinthe Miracle'
+rf.rarety_type = 'Ultra'
+rf.ultra_type = 'Prisme'
+rf.save
 =end
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists.csv'))

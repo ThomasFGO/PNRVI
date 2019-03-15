@@ -37,9 +37,9 @@
                   <%= selected_card.shop_card.price %> €
                 </div>
                 <div class="destroy_button">
-                  <%= link_to "X", selected_card_path(selected_card),
-                              :class => "btn btn-sm",
-                              method: :delete %>
+                  <%= link_to selected_card_path(selected_card), method: :delete do %>
+                    <%= image_tag("icone_poubelle.png", class: "icone-delete") %>
+                  <% end %>
                 </div>
               </div>
             </div>
