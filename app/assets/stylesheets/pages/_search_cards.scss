@@ -23,6 +23,8 @@
 .list-header_mini {
   margin-bottom: 10px;
   display: flex;
+  width: 40%;
+  position: center;
   justify-content: center;
   background-color: $light-gray;
   color: $blue;
@@ -102,5 +104,8 @@
   #close {
     width: 8%;
     font-size: 70%;
+  }
+  .dropdown-header {
+    display: none;
   }
 }
