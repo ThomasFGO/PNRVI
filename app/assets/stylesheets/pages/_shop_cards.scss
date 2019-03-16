@@ -19,3 +19,75 @@
     }
   }
 }
+
+@media all and (min-width: 500px) {
+  #version-sh {
+    width: 8%;
+    font-size: 70%;
+  }
+  #number-sh {
+    width: 8%;
+    font-size: 70%;
+  }
+  #type-sh {
+    width: 7%;
+    font-size: 70%;
+  }
+  #rarety-sh {
+    width: 7%;
+    font-size: 70%;
+  }
+  #name-sh {
+    width: 42%;
+    font-size: 80%;
+    text-align: left;
+  }
+  #price-sh {
+    width: 12%;
+    font-size: 70%;
+  }
+  #language-sh {
+    width: 8%;
+    font-size: 70%;
+  }
+  #close-sh {
+    width: 8%;
+    font-size: 70%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #version-sh {
+    width: 7%;
+    font-size: 70%;
+  }
+  #number-sh {
+    width: 7%;
+    font-size: 70%;
+  }
+  #type-sh {
+    width: 7%;
+    font-size: 70%;
+  }
+  #rarety-sh {
+    width: 7%;
+    font-size: 70%;
+  }
+  #name-sh {
+  width: 50%;
+  font-size: 70%;
+  text-align: left;
+  }
+  #price-sh {
+    width: 7%;
+    font-size: 70%;
+  }
+  #language-sh {
+    width: 8%;
+    font-size: 70%;
+  }
+  #close-sh {
+    width: 7%;
+    font-size: 70%;
+  }
+}

@@ -22,19 +22,20 @@
               <table>
 
                   <tr class="dropdown-item header-item">
-                    <th id="version">version</th>
-                    <th id="number">n°</th>
-                    <th id="type">type</th>
-                    <th id="rarety">rareté</th>
-                    <th id="name">nom</th>
-                    <th id="language">langue</th>
-                    <th id="close">retirer</th>
+                    <th id="version-sh">version</th>
+                    <th id="number-sh">n°</th>
+                    <th id="type-sh">type</th>
+                    <th id="rarety-sh">rareté</th>
+                    <th id="name-sh">nom</th>
+                    <th id="price-sh">prix</th>
+                    <th id="language-sh">langue</th>
+                    <th id="close-sh">retirer</th>
                   </tr>
 
                 <% list.shop_cards.where(user_id: current_user.id).order("ref_card_id asc").each do |shop_card| %>
 
                   <tr class="dropdown-item">
-                    <td id="version">
+                    <td id="version-sh">
                       <% if shop_card.reved? %>
                         <% if shop_card.ref_card.list.reved_name == "reverse" %>
                           <%= "R" %>
@@ -45,8 +46,8 @@
                         <%= "N" %>
                       <% end %>
                     </td>
-                    <td id="number"><%= shop_card.ref_card.number %></td>
-                    <td id="type">
+                    <td id="number-sh"><%= shop_card.ref_card.number %></td>
+                    <td id="type-sh">
                       <% if shop_card.ref_card.super_type == "Pokémon" %>
                         <% if shop_card.ref_card.energy_type.us_name == "Grass" %>
                           <%= image_tag("energy/grass.png", height: "15") %>
@@ -77,7 +78,7 @@
                         <%= image_tag("rarety_types/energy.png", height: "15") %>
                       <% end %>
                     </td>
-                    <td id="rarety">
+                    <td id="rarety-sh">
                       <% if shop_card.ref_card.rarety_type == "Common"%>
                         <%= image_tag("rarety_types/common.png", height: "10") %>
                       <% elsif shop_card.ref_card.rarety_type == "Uncommon"%>
@@ -92,7 +93,7 @@
                         <%= image_tag("rarety_types/secret.png", height: "10") %>
                       <% end %>
                     </td>
-                    <td id="name">
+                    <td id="name-sh">
                       <%= link_to ref_card_path(shop_card.ref_card) do %>
                         <% if shop_card.ref_card.fr_name.present? %>
                           <%= shop_card.ref_card.fr_name %>
@@ -101,6 +102,9 @@
                         <% end %>
                       <% end  %>
                     </td>
+                    <td id="price-sh">
+                      <%= shop_card.price %><%= "€" %>
+                    </td>
                     <td id="language">
                       <% if shop_card.language == "français" %>
                         <%= cl_image_tag("flags/french.png", :width=>20, :crop=>"scale") %>
@@ -108,7 +112,7 @@
                         <%= cl_image_tag("flags/english.png", :width=>25, :crop=>"scale") %>
                       <% end %>
                     </td>
-                    <td id="close">
+                    <td id="close-sh">
                       <%= link_to shop_card_path(shop_card), method: :delete do %>
                         <%= image_tag("icone_poubelle.png", class: "icone-delete") %>
                       <% end %>
