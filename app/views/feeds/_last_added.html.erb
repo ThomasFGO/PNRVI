@@ -2,7 +2,7 @@
   <% @last_good_shop_cards.each do |shop_card| %>
     <% if shop_card.ph_one.present? %>
       <%= link_to shop_card_path(shop_card) do %>
-        <div class="card-element">
+        <div class="card-element shop-element">
           <%= link_to shop_card_path(shop_card) do %>
             <% if shop_card.ph_one.present? %>
               <div class="visual">

@@ -4,7 +4,7 @@
     <% if @conversation.recipient_id == current_user.id %>
       <% current_user.selected_cards.each do |selected_card| %>
         <% if selected_card.shop_card.user_id == @conversation.sender_id %>
-          <div class="card-element">
+          <div class="card-element shop-element">
             <%= link_to shop_card_path(selected_card.shop_card) do %>
               <% if selected_card.shop_card.ph_one.present? %>
                 <div class="visual">
@@ -27,7 +27,7 @@
     <% else %>
       <% current_user.selected_cards.each do |selected_card| %>
         <% if selected_card.shop_card.user_id == @conversation.recipient_id %>
-          <div class="card-element">
+          <div class="card-element shop-element">
             <%= link_to shop_card_path(selected_card.shop_card) do %>
               <% if selected_card.shop_card.ph_one.present? %>
                 <div class="visual">

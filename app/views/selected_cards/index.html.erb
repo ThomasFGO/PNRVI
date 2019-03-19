@@ -15,12 +15,12 @@
       </div>
 
 
-      <div class="row">
+      <div class="visuals-container">
         <% current_user.selected_cards.all.order("created_at DESC").each do |selected_card| %>
           <% if selected_card.shop_card.user_id == selected_cards_count_by_user[0] %>
-            <div class="col-md-2">
 
-              <div class="card-element">
+
+              <div class="card-element shop-element">
                 <%= link_to shop_card_path(selected_card.shop_card_id) do %>
                   <% if selected_card.shop_card.ph_one.present? %>
                     <div class="visual">
@@ -42,7 +42,7 @@
                   <% end %>
                 </div>
               </div>
-            </div>
+
           <% end %>
         <% end %>
       </div>
