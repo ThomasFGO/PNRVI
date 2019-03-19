@@ -6,20 +6,23 @@
 
 
         <% @lists.order("id ASC").each do |list| %>
-          <div class="dropdown">
-            <% if list.search_cards.where(user_id: current_user.id).count > 0 %>
-              <div class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <div id="list-name">
-                <%= list.fr_name %>
-                <%=  "(#{list.size})" %>
+          <% if list.search_cards.where(user_id: current_user.id).count > 0 %>
+
+            <div class="dropdown">
+
+                <div class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <div id="list-name">
+                  <%= list.fr_name %>
+                  <%=  "(#{list.size})" %>
+                  </div>
+                  <div id="list-symbol">
+                    <%= cl_image_tag ("lists/symbols/poknroll_#{list.code}_symbol.png"),class: "symbol-list-mini" %>
+                  </div>
+                  <div id="how_many">
+                    <%= list.search_cards.where(user_id: current_user.id).count %>
+                  </div>
                 </div>
-                <div id="list-symbol">
-                  <%= cl_image_tag ("lists/symbols/poknroll_#{list.code}_symbol.png"),class: "symbol-list-mini" %>
-                </div>
-                <div id="how_many">
-                  <%= list.search_cards.where(user_id: current_user.id).count %>
-                </div>
-              </div>
+
 
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                 <table>
@@ -121,8 +124,10 @@
                 <% end %>
               </table>
               </div>
-            <% end %>
-          </div>
+
+
+            </div>
+          <% end %>
         <% end %>
 
   </div>
