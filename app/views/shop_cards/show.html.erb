@@ -2,7 +2,7 @@
   <div class="col-md-12">
     <div class="shop_card-container">
 
-      <div class="shop_card-header"><h4>Annonce</h4></div>
+      <div class="shop_card-header"><h4>Vendeur : <%= @shop_card.user.first_name %></h4></div>
       <div class="shop_card-body">
 
         <div class="card-visuals" id="shop_card-recto_verso">
@@ -88,19 +88,19 @@
           <div class="card-buttons">
             <% if @shop_card.user == current_user %>
               <%= link_to 'Retirer', shop_card_path(@shop_card),
-              :class => "btn btn-classic btn-lg border-yellow", method: :delete,
+              :class => "btn btn-classic btn-sm border-yellow", method: :delete,
                data: { confirm: 'Are you sure?' } %>
 
-              <%= link_to "Modifier", edit_shop_card_path(@shop_card), class: "btn btn-classic btn-lg border-yellow"%>
+              <%= link_to "Modifier", edit_shop_card_path(@shop_card), class: "btn btn-classic btn-sm border-yellow"%>
             <% else %>
               <% if current_user.selected_cards.where(shop_card_id: @shop_card.id).present? %>
                 <p>Déjà dans le panier</p>
               <% else %>
                 <%= link_to "Ajouter au panier", selected_cards_path(shop_card_id: @shop_card.id, user_id: current_user.id), method: 'post',
-                class: "btn btn-classic btn-lg border-yellow" %>
+                class: "btn btn-classic btn-sm border-yellow" %>
               <% end %>
-              <%= link_to "Voir les autres cartes de #{@shop_card.user.first_name}", user_path(@shop_card.user),
-              class: "btn btn-classic btn-lg border-yellow" %>
+              <%= link_to "Voir ses autres cartes", user_path(@shop_card.user),
+              class: "btn btn-classic btn-sm border-yellow" %>
             <% end %>
           </div>
         </div>

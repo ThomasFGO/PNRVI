@@ -1,6 +1,6 @@
 .card-element {
-  height: 200px;
-  width: 160px;
+  height: 250px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -53,10 +53,10 @@
 .mini {
   box-shadow: 2px 2px 5px black;
   border-radius: 6px;
-  width: 130px;
+  width: 160px;
   &:hover {
       border-radius: 7px;
-      width: 140px;
+      width: 170px;
     }
 }
 .micro {
