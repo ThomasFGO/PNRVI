@@ -20,3 +20,19 @@
   display: flex;
   align-items: baseline;
 }
+
+.liste-box {
+  display: flex;
+  justify-content: center;
+}
+
+.my_list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.his_list-container {
+  display: flex;
+  flex-direction: column;
+}
+

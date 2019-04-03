@@ -1,7 +1,8 @@
 <div class="my_list-container">
-  <div>
-    <%= @my_selected_cards.count %>
-    <%= @my_selected_cards.joins(:shop_card).sum(:price) %>
+  <div class="liste-box">
+    <div class="user-card">
+      <%= @my_selected_cards.count %> cartes / <%= @my_selected_cards.joins(:shop_card).sum(:price) %> €
+    </div>
   </div>
   <div class="visuals-container">
 
