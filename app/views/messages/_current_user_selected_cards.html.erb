@@ -1,9 +1,12 @@
 <div class="my_list-container">
-  <div class="my_list-header"><h4>nombre de cartes : X / valeur : X</h4></div>
+  <div>
+    <%= @my_selected_cards.count %>
+    <%= @my_selected_cards.joins(:shop_card).sum(:price) %>
+  </div>
   <div class="visuals-container">
-    <% if @conversation.recipient_id == current_user.id %>
-      <% current_user.selected_cards.each do |selected_card| %>
-        <% if selected_card.shop_card.user_id == @conversation.sender_id %>
+
+      <% @my_selected_cards.each do |selected_card| %>
+
           <div class="card-element shop-element">
             <%= link_to shop_card_path(selected_card.shop_card) do %>
               <% if selected_card.shop_card.ph_one.present? %>
@@ -22,31 +25,7 @@
               <%= selected_card.shop_card.price %> €
             </div>
           </div>
-        <% end %>
-      <% end %>
-    <% else %>
-      <% current_user.selected_cards.each do |selected_card| %>
-        <% if selected_card.shop_card.user_id == @conversation.recipient_id %>
-          <div class="card-element shop-element">
-            <%= link_to shop_card_path(selected_card.shop_card) do %>
-              <% if selected_card.shop_card.ph_one.present? %>
-                <div class="visual">
-                  <%= cl_image_tag selected_card.shop_card.ph_one, :gravity=>"auto", :crop=>"fill",
-                  :transformation=>[
-                  {:width=>500, :crop=>"scale"},
-                  {:overlay=>{:font_family=>"Arial", :font_size=>50,
-                  :text=>"#{selected_card.shop_card.user.first_name} #{selected_card.shop_card.user.last_name}"},
-                  :gravity=>"south", :y=>100}
-                  ], class: "mini"%>
-                </div>
-              <% end %>
-            <% end %>
-            <div class="price">
-              <%= selected_card.shop_card.price %> €
-            </div>
-          </div>
-        <% end %>
-      <% end %>
+
     <% end %>
   </div>
 </div>

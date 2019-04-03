@@ -1,13 +1,8 @@
 class SelectedCardsController < ApplicationController
   def index
-    @selected_cards = []
-    ShopCard.all.each do |shop_card|
-      if current_user.selected_cards.where(shop_card_id: shop_card.id).present?
-        @selected_cards << shop_card
-      end
-    end
-
-    @selected_cards_count_by_users = @selected_cards.group_by(&:user_id).transform_values(&:count).sort_by{ |k, v| v }.reverse
+    @selected_cards = current_user.selected_cards
+    #@selected_cards_count_by_users = @selected_cards.group_by(&:user_id).transform_values(&:count).sort_by{ |k, v| v }.reverse
+    @selected_cards_grouped = @selected_cards.joins(:shop_card).group("shop_cards.user_id").count.sort_by{ |k, v| v }.reverse.to_a
     @last_selected_cards = @selected_cards.sort_by(&:created_at).reverse
   end
 

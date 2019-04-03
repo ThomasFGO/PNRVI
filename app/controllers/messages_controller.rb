@@ -2,6 +2,17 @@ class MessagesController < ApplicationController
   before_action :find_conversation
 
   def index
+
+    if current_user == @conversation.sender
+      @other_user = @conversation.recipient
+      @his_selected_cards = @other_user.selected_cards.where('shop_cards.user_id' == current_user.id)
+    else
+      @other_user = @conversation.sender
+      @his_selected_cards = @other_user.selected_cards.where('shop_cards.user_id' == current_user.id)
+    end
+
+    @my_selected_cards = current_user.selected_cards.where('shop_cards.user_id' == @other_user.id)
+
     @messages = @conversation.messages
 
     if @messages.length > 10
