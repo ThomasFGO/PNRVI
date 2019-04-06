@@ -14,35 +14,57 @@ EnergyType.destroy_all
 List.destroy_all
 Bloc.destroy_all
 
+
+
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'blocs.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
-  b = Bloc.new
-  b.fr_name = row['fr_name']
-  b.save
-  #puts "#{b.fr_name} saved"
+  if Bloc.find_by(fr_name: row['fr_name']).blank?
+    b = Bloc.new
+    b.fr_name = row['fr_name']
+    b.save
+  end
 end
 
 #puts "There are now #{Bloc.count} rows in the transactions table"
 
 
+
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
-  l = List.new
-  l.fr_name = row['fr_name']
-  l.us_name = row['us_name']
-  l.fr_release_date = row['fr_release_date']
-  l.us_release_date = row['us_release_date']
-  l.size = row['size']
-  l.fr_logo_url = row['fr_logo_url']
-  l.us_logo_url = row['us_logo_url']
-  l.symbol_url = row['symbol_url']
-  l.bloc = Bloc.find_by(fr_name: row['fr_name_bloc'])
-  l.save
+  if List.find_by(fr_name: row['fr_name']).blank?
+    l = List.new
+    l.fr_name = row['fr_name']
+    l.us_name = row['us_name']
+    l.code = row['code']
+    l.reved = row['reved']
+    l.reved_name = row['reved_name']
+    l.french = row['french']
+    l.fr_release_date = row['fr_release_date']
+    l.us_release_date = row['us_release_date']
+    l.size = row['size']
+    l.fr_logo_url = row['fr_logo_url']
+    l.us_logo_url = row['us_logo_url']
+    l.symbol_url = row['symbol_url']
+    l.bloc = Bloc.find_by(fr_name: row['fr_name_bloc'])
+    l.save
+  end
   #puts "#{l.us_name} saved"
 end
 
+=end
+=begin
+
+Cloudinary::Uploader.upload("#{l.fr_logo_url}",
+:width => 320, :height => 100, :crop => :limit,
+:public_id => "poknroll_#{l.code}_fr_logo", :folder => "lists/fr_logos")
+Cloudinary::Uploader.upload("#{l.us_logo_url}",
+:width => 320, :height => 100, :crop => :limit,
+:public_id => "poknroll_#{l.code}_us_logo", :folder => "lists/us_logos")
+Cloudinary::Uploader.upload("#{l.symbol_url}",
+:width => 38, :height => 38, :crop => :limit,
+:public_id => "poknroll_#{l.code}_symbol", :folder => "lists/symbols")
 #puts "There are now #{List.count} rows in the transactions table"
 
 
@@ -131,10 +153,6 @@ end
 puts "There are now #{RefCard.count} rows in the RefCard table"
 
 
-
-
-=end
-
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
@@ -158,8 +176,30 @@ end
 
   #:format => "jpg"
 
+=end
+
 #marie = User.create!(email: "marie@gmail.com", password: "mariepnr", first_name: "Marie", last_name: "Marquet")
 #mattis = User.create!(email: "mattis@gmail.com", password: "mattispnr", first_name: "Mattis", last_name: "Brizard")
 #isabelle = User.create!(email: "isabelle@gmail.com", password: "isabellepnr", first_name: "Isabelle", last_name: "Sirieix")
 #thomas = User.create!(email: "thomas@gmail.com", password: "thomaspnr", first_name: "Thomas", last_name: "Morin")
+#pierre = User.create!(email: "pierre@gmail.com", password: "pierrepnr", first_name: "Pierre", last_name: "Poignant")
+#vincent = User.create!(email: "vincent@gmail.com", password: "vincentpnr", first_name: "Vincent", last_name: "Perrot")
+
+
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "majduodechoc.csv"))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  rf = RefCard.find_by(list_id: 155, number: row['number'])
+  rf.fr_url = row['fr_url']
+  rf.save
+end
+
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "majtonnerreperdu.csv"))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  rf = RefCard.find_by(list_id: 156, number: row['number'])
+  rf.fr_url = row['fr_url']
+  rf.save
+end
+
 
