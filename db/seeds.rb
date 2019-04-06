@@ -189,7 +189,7 @@ end
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "maj2duodechoc.csv"))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
-  rf = RefCard.find_by(list_id: 155, number: row['number'])
+  rf = RefCard.find_by(list_id: 101, number: row['number'])
   rf.fr_url = row['fr_url']
   rf.save
 end
@@ -197,7 +197,7 @@ end
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "majtonnerreperdu.csv"))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
-  rf = RefCard.find_by(list_id: 156, number: row['number'])
+  rf = RefCard.find_by(list_id: 102, number: row['number'])
   rf.fr_url = row['fr_url']
   rf.save
 end
