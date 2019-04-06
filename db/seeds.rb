@@ -185,8 +185,28 @@ end
 #pierre = User.create!(email: "pierre@gmail.com", password: "pierrepnr", first_name: "Pierre", last_name: "Poignant")
 #vincent = User.create!(email: "vincent@gmail.com", password: "vincentpnr", first_name: "Vincent", last_name: "Perrot")
 
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "maj1duodechoc.csv"))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  rf = RefCard.new
+  rf.number = row['number']
+  rf.rarety_type = row['rarety_type']
+  rf.ultra_type = row['ultra_type']
+  rf.fr_name = row['fr_name']
+  rf.us_name = row['us_name']
+  rf.super_type = row['super_type']
+  rf.energy_type = EnergyType.find_by(us_name: row['energy_type'])
+  rf.pokedex_number = row['pokedex_number']
+  rf.artist = row['artist']
+  rf.fr_url = row['fr_url']
+  rf.fr_r_url = row['fr_r_url']
+  rf.us_url = row['us_url']
+  rf.us_r_url = row['us_r_url']
+  rf.list = List.find_by(us_name: row['list'])
+  rf.save
+end
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "majduodechoc.csv"))
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "maj2duodechoc.csv"))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
   rf = RefCard.find_by(list_id: 155, number: row['number'])
