@@ -14,7 +14,7 @@ EnergyType.destroy_all
 List.destroy_all
 Bloc.destroy_all
 
-
+=end
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'blocs.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
@@ -53,7 +53,7 @@ csv.each do |row|
   #puts "#{l.us_name} saved"
 end
 
-=end
+
 =begin
 
 Cloudinary::Uploader.upload("#{l.fr_logo_url}",
@@ -82,46 +82,47 @@ end
 
 #puts "There are now #{EnergyType.count} rows in the EnergyType table"
 
-
+=end
 
 
 lists = [
 
-  #{}"pop1.csv", "pop2.csv", "pop3.csv", "pop4.csv", "pop5.csv", "pop6.csv", "pop7.csv", "pop8.csv", "pop9.csv",
+  "pop1.csv", "pop2.csv", "pop3.csv", "pop4.csv", "pop5.csv", "pop6.csv", "pop7.csv", "pop8.csv", "pop9.csv",
 
-  #{}"bsetdebase.csv", "bjungle.csv", "bfossil.csv", "bbasesetdeux.csv", "bteamrocket.csv", "blegendarycollection.csv",
+  "bsetdebase.csv", "bjungle.csv", "bfossil.csv", "bbasesetdeux.csv", "bteamrocket.csv", "blegendarycollection.csv",
 
-  #{}"gymheroes.csv", "gymchallenge.csv",
+  "gymheroes.csv", "gymchallenge.csv",
 
-  #{}"neogenesis.csv", "neodiscovery.csv", "neorevelation.csv", "neodestiny.csv",
+  "neogenesis.csv", "neodiscovery.csv", "neorevelation.csv", "neodestiny.csv",
 
-  #{}"ecexpedition.csv", "ecaquapolis.csv", "ecskyridge.csv",
+  "ecexpedition.csv", "ecaquapolis.csv", "ecskyridge.csv",
 
-  #{}"exrubissaphir.csv", "extempetedesable.csv", "exdragon.csv", "exlegendesoubliees.csv", "exteammagmateamaqua.csv",
-  #{}"exrougefeuvertfeuille.csv", "exteamrocketreturns.csv", "exdeoxys.csv", "exemeraude.csv", "exforcescachees.csv",
-  #{}"exespecedelta.csv", "excreateursdelegendes.csv", "exfantomesholon.csv", "exgardiensdecristal.csv",
-  #{}"exilesdesdragons.csv", "exgardiensdupouvoir.csv",
+  "exrubissaphir.csv", "extempetedesable.csv", "exdragon.csv", "exlegendesoubliees.csv", "exteammagmateamaqua.csv",
+  "exrougefeuvertfeuille.csv", "exteamrocketreturns.csv", "exdeoxys.csv", "exemeraude.csv", "exforcescachees.csv",
+  "exespecedelta.csv", "excreateursdelegendes.csv", "exfantomesholon.csv", "exgardiensdecristal.csv",
+  "exilesdesdragons.csv", "exgardiensdupouvoir.csv",
 
-  "diamantetperle.csv", "dptresorsmysterieux.csv", "dpmerveillessecretes.csv",
-  "dpduelsausommet.csv", "dpaubemajestueuse.csv", "dpeveildeslegendes.csv", "dptempete.csv",
+  "bpromos.csv", "dppromos.csv", "hspromos.csv", "nbpromos.csv","xypromos.csv", "slpromos.csv"
 
-  "plbase.csv", "plrivauxemergeants.csv", "plvainqueurssupremes.csv", "plarceus.csv",
+  #{}"diamantetperle.csv", "dptresorsmysterieux.csv", "dpmerveillessecretes.csv",
+  #{}"dpduelsausommet.csv", "dpaubemajestueuse.csv", "dpeveildeslegendes.csv", "dptempete.csv",
 
-  "heartgoldsoulsilver.csv", "hsunleashed.csv", "hsundaunted.csv", "hstriumphant.csv", "calloflegends.csv",
+  #{}"plbase.csv", "plrivauxemergeants.csv", "plvainqueurssupremes.csv", "plarceus.csv",
 
-  "noiretblanc.csv", "nbpouvoirsemergents.csv", "nbnoblesvictoires.csv", "nbdestineesfutures.csv",
-  "nbexplorateursobscurs.csv", "nbdragonsexaltes.csv","nbcoffredesdragons.csv", "nbfrontieresfranchies.csv", "nbtempeteplasma.csv",
-  "nbglaciationplasma.csv", "nbexplosionplasma.csv", "nblegendarytreasures.csv",
+  #{}"heartgoldsoulsilver.csv", "hsunleashed.csv", "hsundaunted.csv", "hstriumphant.csv", "calloflegends.csv",
+
+  #{}"noiretblanc.csv", "nbpouvoirsemergents.csv", "nbnoblesvictoires.csv", "nbdestineesfutures.csv",
+  #{}"nbexplorateursobscurs.csv", "nbdragonsexaltes.csv","nbcoffredesdragons.csv", "nbfrontieresfranchies.csv", "nbtempeteplasma.csv",
+  #{}"nbglaciationplasma.csv", "nbexplosionplasma.csv", "nblegendarytreasures.csv",
 
 
-  "xykalos.csv", "xybase.csv", "xyetincelles.csv", "xypoingsfurieux.csv", "xyvigueurspectrale.csv", "xyprimochoc.csv",
-  "xydoubledanger.csv", "xycielrugissant.csv", "xyoriginesantiques.csv", "xyimpulsionturbo.csv", "xyruptureturbo.csv",
-  "xygenerations.csv", "xyimpactdesdestins.csv", "xyoffensivevapeur.csv", "xyevolutions.csv",
+  #{}"xykalos.csv", "xybase.csv", "xyetincelles.csv", "xypoingsfurieux.csv", "xyvigueurspectrale.csv", "xyprimochoc.csv",
+  #{}"xydoubledanger.csv", "xycielrugissant.csv", "xyoriginesantiques.csv", "xyimpulsionturbo.csv", "xyruptureturbo.csv",
+  #{}"xygenerations.csv", "xyimpactdesdestins.csv", "xyoffensivevapeur.csv", "xyevolutions.csv",
 
-  "slbase.csv", "slgardiensascendants.csv", "slombresardentes.csv", "sllegendesbrillantes.csv", "slinvasioncarmin.csv",
-  "slultraprisme.csv", "sllumiereinterdite.csv", "sltempeteceleste.csv", "slmajestedesdragons.csv", "sltonnerreperdu.csv",
-  "slduodechoc.csv"
-
+  #{}"slbase.csv", "slgardiensascendants.csv", "slombresardentes.csv", "sllegendesbrillantes.csv", "slinvasioncarmin.csv",
+  #{}"slultraprisme.csv", "sllumiereinterdite.csv", "sltempeteceleste.csv", "slmajestedesdragons.csv", "sltonnerreperdu.csv",
+  #{}"slduodechoc.csv"
 
 ]
 
@@ -152,6 +153,7 @@ end
 
 puts "There are now #{RefCard.count} rows in the RefCard table"
 
+=begin
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
@@ -161,6 +163,8 @@ csv.each do |row|
   l.french = row['french']
   l.save
 end
+
+=end
 
   #Cloudinary::Uploader.upload("#{l.fr_logo_url}",
   #:width => 320, :height => 100, :crop => :limit,
@@ -176,7 +180,6 @@ end
 
   #:format => "jpg"
 
-=end
 
 #marie = User.create!(email: "marie@gmail.com", password: "mariepnr", first_name: "Marie", last_name: "Marquet")
 #mattis = User.create!(email: "mattis@gmail.com", password: "mattispnr", first_name: "Mattis", last_name: "Brizard")
@@ -184,22 +187,7 @@ end
 #thomas = User.create!(email: "thomas@gmail.com", password: "thomaspnr", first_name: "Thomas", last_name: "Morin")
 #pierre = User.create!(email: "pierre@gmail.com", password: "pierrepnr", first_name: "Pierre", last_name: "Poignant")
 #vincent = User.create!(email: "vincent@gmail.com", password: "vincentpnr", first_name: "Vincent", last_name: "Perrot")
-
-
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "maj2duodechoc.csv"))
-csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-csv.each do |row|
-  rf = RefCard.find_by(list_id: 101, number: row['number'])
-  rf.fr_url = row['fr_url']
-  rf.save
-end
-
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "majtonnerreperdu.csv"))
-csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-csv.each do |row|
-  rf = RefCard.find_by(list_id: 102, number: row['number'])
-  rf.fr_url = row['fr_url']
-  rf.save
-end
+#vincent = User.create!(email: "vincent@gmail.com", password: "vincentpnr", first_name: "Vincent", last_name: "Perrot")
+#dominic = User.create!(email: "dominic@gmail.com", password: "dominicpnr", first_name: "Dominic", last_name: "Dearlove")
 
 
