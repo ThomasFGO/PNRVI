@@ -12,7 +12,7 @@ number;rarety_type;ultra_type;fr_name;us_name;super_type;energy_type;pokedex_num
 11;Common;;Feunnec;Fennekin;Pokémon;Fire;653;kirisAki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY10/XY10_FR_11.png;;https://images.pokemontcg.io/xy10/11.png;;Fates Collide
 12;Uncommon;;Roussil;Braixen;Pokémon;Fire;654;kirisAki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY10/XY10_FR_12.png;;https://images.pokemontcg.io/xy10/12.png;;Fates Collide
 13;Rare Holo;;Goupelin;Delphox;Pokémon;Fire;655;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY10/XY10_FR_13.png;;https://images.pokemontcg.io/xy10/13.png;;Fates Collide
-14;Ultra;TURBO;Goupelin TURBO;Delphox BREAK;Pokémon;Fire;655;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY10/XY10_FR_14.png;;https://images.pokemontcg.io/xy10/14.png;;Fates Collide
+14;Ultra;TURBO;Goupelin TURBO;Delphox BREAK;Pokémon;Fire;655;5ban Graphics;https://res.cloudinary.com/dkhwpritu/image/upload/v1557907677/modifs/Capture_d_e%CC%81cran_2019-05-13_a%CC%80_14.36.02.png;;https://images.pokemontcg.io/xy10/14.png;;Fates Collide
 15;Common;;Otaria;Seel;Pokémon;Water;86;Hasuno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY10/XY10_FR_15.png;;https://images.pokemontcg.io/xy10/15.png;;Fates Collide
 16;Uncommon;;Lamantine;Dewgong;Pokémon;Water;87;Naoyo Kimura;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY10/XY10_FR_16.png;;https://images.pokemontcg.io/xy10/16.png;;Fates Collide
 17;Uncommon;;Amonita;Omanyte;Pokémon;Water;138;Shigenori Negishi;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY10/XY10_FR_17.png;;https://images.pokemontcg.io/xy10/17.png;;Fates Collide
@@ -123,4 +123,4 @@ number;rarety_type;ultra_type;fr_name;us_name;super_type;energy_type;pokedex_num
 122;Ultra;EX FA;Hyporoi-EX;Kingdra-EX;Pokémon;Dragon;230;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY10/XY10_FR_122.png;;https://images.pokemontcg.io/xy10/122.png;;Fates Collide
 123;Ultra;EX FA;Altaria-EX;Altaria-EX;Pokémon;Colorless;334;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY10/XY10_FR_123.png;;https://images.pokemontcg.io/xy10/123.png;;Fates Collide
 124;Ultra;FA;Méfaits de la Team Rocket;Team Rocket's Handiwork;Trainer;NoColor;;Hitoshi Ariga;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY10/XY10_FR_124.png;;https://images.pokemontcg.io/xy10/124.png;;Fates Collide
-125;Secret;EX FA;;Alakazam-EX;Pokémon;Psychic;65;Ryo Ueda;https://static1.cards-capital.com/32112/alakazam-ex.jpg;;https://images.pokemontcg.io/xy10/125.png;;Fates Collide
+125;Secret;EX FA;;Alakazam-EX;Pokémon;Psychic;65;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1557907646/modifs/Capture_d_e%CC%81cran_2019-05-13_a%CC%80_14.36.34.png;;https://images.pokemontcg.io/xy10/125.png;;Fates Collide

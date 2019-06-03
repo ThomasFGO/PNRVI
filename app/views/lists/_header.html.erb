@@ -20,9 +20,11 @@
         </div>
         <div class="numbers">
           <% if @list.ref_cards.where(rarety_type: "Secret").count > 1 %>
-            <p> <%= @list.size %> cartes et <%=  @list.ref_cards.where(rarety_type: "Secret").count %> secrêtes</p>
+            <p> <%= @list.size %> cartes et <%=  @list.ref_cards.where(rarety_type: "Secret").count %> secrètes</p>
+          <% elsif @list.ref_cards.where(rarety_type: "Secret").count == 1 %>
+            <p> <%= @list.size %> cartes et 1 secrète</p>
           <% else %>
-            <p> <%= @list.size %> cartes et aucune secrête</p>
+            <p> <%= @list.size %> cartes et aucune secrète</p>
           <% end %>
         </div>
       </div>

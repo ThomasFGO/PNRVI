@@ -7,7 +7,7 @@
         <%= User.find_by(id: selected_cards_grouped[0]).first_name %>
         <%= User.find_by(id: selected_cards_grouped[0]).last_name %>
         <%= "(#{selected_cards_grouped[1]} cartes /
-        #{@selected_cards.where('shop_cards.user_id' == selected_cards_grouped[0]).joins(:shop_card).sum(:price)}€)" %>
+        #{@selected_cards.where('shop_cards.user_id' => selected_cards_grouped[0]).joins(:shop_card).sum(:price)}€)" %>
         <div class="big_button">
           <%= link_to "Conversation",conversations_path(sender_id: current_user.id, recipient_id: selected_cards_grouped[0]),
           method: "post", class: "btn" %>
@@ -16,7 +16,7 @@
 
 
       <div class="visuals-container">
-        <% @selected_cards.where('shop_cards.user_id' == selected_cards_grouped[0]).order("created_at DESC").each do |selected_card| %>
+        <% @selected_cards.joins(:shop_card).where('shop_cards.user_id' => selected_cards_grouped[0]).order("created_at DESC").each do |selected_card| %>
           <div class="card-element shop-element">
             <%= link_to shop_card_path(selected_card.shop_card_id) do %>
               <% if selected_card.shop_card.ph_one.present? %>

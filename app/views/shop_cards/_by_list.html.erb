@@ -94,7 +94,7 @@
                       <% end %>
                     </td>
                     <td id="name-sh">
-                      <%= link_to ref_card_path(shop_card.ref_card) do %>
+                      <%= link_to shop_card_path(shop_card) do %>
                         <% if shop_card.ref_card.fr_name.present? %>
                           <%= shop_card.ref_card.fr_name %>
                         <% else %>

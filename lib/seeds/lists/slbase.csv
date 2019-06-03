@@ -148,26 +148,26 @@ number;rarety_type;ultra_type;fr_name;us_name;super_type;energy_type;pokedex_num
 147;Ultra;FA;Lilie;Lillie;Trainer;NoColor;;Megumi Mizutani;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM1/SM1_FR_147.png;;https://images.pokemontcg.io/sm1/147.png;;Sun & Moon
 148;Ultra;FA;Prof. Euphorbe;Professor Kukui;Trainer;NoColor;;Megumi Mizutani;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM1/SM1_FR_148.png;;https://images.pokemontcg.io/sm1/148.png;;Sun & Moon
 149;Ultra;FA;Sbire de la Team Skull;Team Skull Grunt;Trainer;NoColor;;Sanosuke Sakuma;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/SM1/SM1_FR_149.png;;https://images.pokemontcg.io/sm1/149.png;;Sun & Moon
-150;Secret;Rainbow;Floramantis-GX;Lurantis-GX;Pokémon;Grass;754;5ban Graphics;;;https://images.pokemontcg.io/sm1/150.png;;Sun & Moon
-151;Secret;Rainbow;Lokhlass-GX;Lapras-GX;Pokémon;Water;131;5ban Graphics;;;https://images.pokemontcg.io/sm1/151.png;;Sun & Moon
-152;Secret;Rainbow;Mentali-GX;Espeon-GX;Pokémon;Psychic;196;5ban Graphics;;;https://images.pokemontcg.io/sm1/152.png;;Sun & Moon
-153;Secret;Rainbow;Lunala-GX;Lunala-GX;Pokémon;Psychic;792;5ban Graphics;;;https://images.pokemontcg.io/sm1/153.png;;Sun & Moon
-154;Secret;Rainbow;Noctali-GX;Umbreon-GX;Pokémon;Darkness;197;5ban Graphics;;;https://images.pokemontcg.io/sm1/154.png;;Sun & Moon
-155;Secret;Rainbow;Solgaleo-GX;Solgaleo-GX;Pokémon;Metal;791;5ban Graphics;;;https://images.pokemontcg.io/sm1/155.png;;Sun & Moon
-156;Secret;Rainbow;Tauros-GX;Tauros-GX;Pokémon;Colorless;128;5ban Graphics;;;https://images.pokemontcg.io/sm1/156.png;;Sun & Moon
-157;Secret;Rainbow;Argouste-GX;Gumshoos-GX;Pokémon;Colorless;735;5ban Graphics;;;https://images.pokemontcg.io/sm1/157.png;;Sun & Moon
-158;Secret;;Faiblo Ball;Nest Ball;Trainer;NoColor;;Toyste Beach;;;https://images.pokemontcg.io/sm1/158.png;;Sun & Moon
-159;Secret;;Motisma-Dex;Rotom Dex;Trainer;NoColor;;5ban Graphics;;;https://images.pokemontcg.io/sm1/159.png;;Sun & Moon
-160;Secret;;Echange;Switch;Trainer;NoColor;;Ryo Ueda;;;https://images.pokemontcg.io/sm1/160.png;;Sun & Moon
-161;Secret;;Hyper Ball;Ultra Ball;Trainer;NoColor;;Ryo Ueda;;;https://images.pokemontcg.io/sm1/161.png;;Sun & Moon
-162;Secret;;Énergie Psy;Psychic Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/sm1/162.png;;Sun & Moon
-163;Secret;;Énergie Métal;Metal Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/sm1/163.png;;Sun & Moon
-164;Common;;Énergie Plante;Grass Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/sm1/164.png;;Sun & Moon
-165;Common;;Énergie Feu;Fire Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/sm1/165.png;;Sun & Moon
-166;Common;;Energie Eau;Water Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/sm1/166.png;;Sun & Moon
-167;Common;;Énergie Electrique;Lightning Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/sm1/167.png;;Sun & Moon
-168;Common;;Énergie Psy;Psychic Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/sm1/168.png;;Sun & Moon
-169;Common;;Énergie Combat;Fighting Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/sm1/169.png;;Sun & Moon
-170;Common;;Énergie Obscurité;Darkness Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/sm1/170.png;;Sun & Moon
-171;Common;;Énergie Métal;Metal Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/sm1/171.png;;Sun & Moon
-172;Common;;Énergie Fée;Fairy Energy;Energy;NoColor;;;;;https://images.pokemontcg.io/sm1/172.png;;Sun & Moon
+150;Secret;Rainbow;Floramantis-GX;Lurantis-GX;Pokémon;Grass;754;5ban Graphics;https://images.pokemontcg.io/sm1/150.png;;https://images.pokemontcg.io/sm1/150.png;;Sun & Moon
+151;Secret;Rainbow;Lokhlass-GX;Lapras-GX;Pokémon;Water;131;5ban Graphics;https://images.pokemontcg.io/sm1/151.png;;https://images.pokemontcg.io/sm1/151.png;;Sun & Moon
+152;Secret;Rainbow;Mentali-GX;Espeon-GX;Pokémon;Psychic;196;5ban Graphics;https://images.pokemontcg.io/sm1/152.png;;https://images.pokemontcg.io/sm1/152.png;;Sun & Moon
+153;Secret;Rainbow;Lunala-GX;Lunala-GX;Pokémon;Psychic;792;5ban Graphics;https://images.pokemontcg.io/sm1/153.png;;https://images.pokemontcg.io/sm1/153.png;;Sun & Moon
+154;Secret;Rainbow;Noctali-GX;Umbreon-GX;Pokémon;Darkness;197;5ban Graphics;https://images.pokemontcg.io/sm1/154.png;;https://images.pokemontcg.io/sm1/154.png;;Sun & Moon
+155;Secret;Rainbow;Solgaleo-GX;Solgaleo-GX;Pokémon;Metal;791;5ban Graphics;https://images.pokemontcg.io/sm1/155.png;;https://images.pokemontcg.io/sm1/155.png;;Sun & Moon
+156;Secret;Rainbow;Tauros-GX;Tauros-GX;Pokémon;Colorless;128;5ban Graphics;https://images.pokemontcg.io/sm1/156.png;;https://images.pokemontcg.io/sm1/156.png;;Sun & Moon
+157;Secret;Rainbow;Argouste-GX;Gumshoos-GX;Pokémon;Colorless;735;5ban Graphics;https://images.pokemontcg.io/sm1/157.png;;https://images.pokemontcg.io/sm1/157.png;;Sun & Moon
+158;Secret;;Faiblo Ball;Nest Ball;Trainer;NoColor;;Toyste Beach;https://images.pokemontcg.io/sm1/158.png;;https://images.pokemontcg.io/sm1/158.png;;Sun & Moon
+159;Secret;;Motisma-Dex;Rotom Dex;Trainer;NoColor;;5ban Graphics;https://images.pokemontcg.io/sm1/159.png;;https://images.pokemontcg.io/sm1/159.png;;Sun & Moon
+160;Secret;;Echange;Switch;Trainer;NoColor;;Ryo Ueda;https://images.pokemontcg.io/sm1/160.png;;https://images.pokemontcg.io/sm1/160.png;;Sun & Moon
+161;Secret;;Hyper Ball;Ultra Ball;Trainer;NoColor;;Ryo Ueda;https://images.pokemontcg.io/sm1/161.png;;https://images.pokemontcg.io/sm1/161.png;;Sun & Moon
+162;Secret;;Énergie Psy;Psychic Energy;Energy;NoColor;;;https://images.pokemontcg.io/sm1/162.png;;https://images.pokemontcg.io/sm1/162.png;;Sun & Moon
+163;Secret;;Énergie Métal;Metal Energy;Energy;NoColor;;;https://images.pokemontcg.io/sm1/163.png;;https://images.pokemontcg.io/sm1/163.png;;Sun & Moon
+164;Common;;Énergie Plante;Grass Energy;Energy;NoColor;;;https://images.pokemontcg.io/sm1/164.png;;https://images.pokemontcg.io/sm1/164.png;;Sun & Moon
+165;Common;;Énergie Feu;Fire Energy;Energy;NoColor;;;https://images.pokemontcg.io/sm1/165.png;;https://images.pokemontcg.io/sm1/165.png;;Sun & Moon
+166;Common;;Energie Eau;Water Energy;Energy;NoColor;;;https://images.pokemontcg.io/sm1/166.png;;https://images.pokemontcg.io/sm1/166.png;;Sun & Moon
+167;Common;;Énergie Electrique;Lightning Energy;Energy;NoColor;;;https://images.pokemontcg.io/sm1/167.png;;https://images.pokemontcg.io/sm1/167.png;;Sun & Moon
+168;Common;;Énergie Psy;Psychic Energy;Energy;NoColor;;;https://images.pokemontcg.io/sm1/168.png;;https://images.pokemontcg.io/sm1/168.png;;Sun & Moon
+169;Common;;Énergie Combat;Fighting Energy;Energy;NoColor;;;https://images.pokemontcg.io/sm1/169.png;;https://images.pokemontcg.io/sm1/169.png;;Sun & Moon
+170;Common;;Énergie Obscurité;Darkness Energy;Energy;NoColor;;;https://images.pokemontcg.io/sm1/170.png;;https://images.pokemontcg.io/sm1/170.png;;Sun & Moon
+171;Common;;Énergie Métal;Metal Energy;Energy;NoColor;;;https://images.pokemontcg.io/sm1/171.png;;https://images.pokemontcg.io/sm1/171.png;;Sun & Moon
+172;Common;;Énergie Fée;Fairy Energy;Energy;NoColor;;;https://images.pokemontcg.io/sm1/172.png;;https://images.pokemontcg.io/sm1/172.png;;Sun & Moon

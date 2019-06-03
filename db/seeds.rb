@@ -14,7 +14,7 @@ EnergyType.destroy_all
 List.destroy_all
 Bloc.destroy_all
 
-=end
+
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'blocs.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
@@ -54,7 +54,6 @@ csv.each do |row|
 end
 
 
-=begin
 
 Cloudinary::Uploader.upload("#{l.fr_logo_url}",
 :width => 320, :height => 100, :crop => :limit,
@@ -82,7 +81,7 @@ end
 
 #puts "There are now #{EnergyType.count} rows in the EnergyType table"
 
-=end
+
 
 
 lists = [
@@ -153,22 +152,32 @@ end
 
 puts "There are now #{RefCard.count} rows in the RefCard table"
 
-=begin
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists.csv'))
+
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', 'ecard5.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
-  l = List.find_by(fr_name: row['fr_name'])
-  l.code = row['code']
-  l.french = row['french']
-  l.save
+  number = row['number']
+  url = row['url']
+  Cloudinary::Uploader.upload("#{url}",
+  :public_id => "poknroll_number_#{number}", :folder => "jap_lists/visuals/E-Card/ecard5")
 end
 
 =end
 
-  #Cloudinary::Uploader.upload("#{l.fr_logo_url}",
-  #:width => 320, :height => 100, :crop => :limit,
-  #:public_id => "poknroll_#{l.code}_fr_logo", :folder => "lists/fr_logos")
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', 'slombresardentes.csv'))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  number = row['number']
+  url = row['fr_url']
+  Cloudinary::Uploader.upload("#{url}",
+  :public_id => "#{number}", :folder => "lists/visuals/sm3")
+end
+
+
+#User.all.each do |user|
+  #puts "#{user.first_name} : annonces - #{user.shop_cards.count} / recherches - #{user.search_cards.count}"
+#end
 
   #Cloudinary::Uploader.upload("#{l.us_logo_url}",
   #:width => 320, :height => 100, :crop => :limit,
@@ -187,7 +196,20 @@ end
 #thomas = User.create!(email: "thomas@gmail.com", password: "thomaspnr", first_name: "Thomas", last_name: "Morin")
 #pierre = User.create!(email: "pierre@gmail.com", password: "pierrepnr", first_name: "Pierre", last_name: "Poignant")
 #vincent = User.create!(email: "vincent@gmail.com", password: "vincentpnr", first_name: "Vincent", last_name: "Perrot")
-#vincent = User.create!(email: "vincent@gmail.com", password: "vincentpnr", first_name: "Vincent", last_name: "Perrot")
 #dominic = User.create!(email: "dominic@gmail.com", password: "dominicpnr", first_name: "Dominic", last_name: "Dearlove")
+
+#anthony = User.create!(email: "anthony@gmail.com", password: "anthony2152pnr", first_name: "Anthony", last_name: "Descombes")
+#tom = User.create!(email: "tom@gmail.com", password: "tom2153pnr", first_name: "Tom", last_name: "Barnabe")
+#manon = User.create!(email: "manon@gmail.com", password: "manon2154pnr", first_name: "Manon", last_name: "Para")
+#romain = User.create!(email: "romain@gmail.com", password: "romain2155pnr", first_name: "Romain", last_name: "Godignon")
+#erwan = User.create!(email: "erwan@gmail.com", password: "erwan2156pnr", first_name: "Erwan", last_name: "Michel")
+#leo = User.create!(email: "leo@gmail.com", password: "leo2157pnr", first_name: "Leo", last_name: "Lebeaugosse")
+#alison = User.create!(email: "alison@gmail.com", password: "alison2158pnr", first_name: "Alison", last_name: "Lagnier")
+#rodolphe = User.create!(email: "rodolphe@gmail.com", password: "rodolphe2159pnr", first_name: "Rodolphe", last_name: "Jn")
+#gurwann = User.create!(email: "gurwann@gmail.com", password: "gurwann2160pnr", first_name: "Gurwann", last_name: "Alart")
+#alicia = User.create!(email: "alicia@gmail.com", password: "alicia2161pnr", first_name: "Alicia", last_name: "Montaillé")
+#raphaël = User.create!(email: "raphael@gmail.com", password: "raphael2162pnr", first_name: "Raphaël", last_name: "Candelaresi")
+#benji = User.create!(email: "benji@gmail.com", password: "benji2163pnr", first_name: "Benji", last_name: "Szternblic")
+
 
 
