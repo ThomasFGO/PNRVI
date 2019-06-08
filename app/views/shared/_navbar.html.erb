@@ -56,10 +56,20 @@
           <%= image_tag("icone_panier.png", class: "icone") %>
         <% end %>
       </div>
-      <div class="computer-item"><%= link_to "Mes messages", conversations_path, class: "navbar-item"%></div>
+      <div class="computer-item">
+        <% if Message.unread_by(current_user).count > 0 %>
+          <%= link_to "Mes messages (+#{Message.unread_by(current_user).count})", conversations_path, class: "navbar-item"%>
+        <% else %>
+          <%= link_to "Mes messages", conversations_path, class: "navbar-item"%>
+        <% end %>
+      </div>
+
       <div class="phone-item">
         <%= link_to conversations_path do %>
           <%= image_tag("icone_messages.png", class: "icone") %>
+        <% end %>
+        <% if Message.unread_by(current_user).count > 0 %>
+          <%= "(+#{Message.unread_by(current_user).count})" %>
         <% end %>
       </div>
     </nav>

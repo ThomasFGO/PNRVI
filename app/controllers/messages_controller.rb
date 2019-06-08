@@ -14,7 +14,6 @@ class MessagesController < ApplicationController
     end
 
 
-
     @messages = @conversation.messages
 
     if @messages.length > 10
@@ -25,6 +24,10 @@ class MessagesController < ApplicationController
     if params[:m]
       @over_ten = false
       @messages = @conversation.messages
+    end
+
+    if @messages.where.not(user_id: current_user.id)
+      @messages.mark_as_read! :all, for: current_user
     end
 
     @message = @conversation.messages.new
