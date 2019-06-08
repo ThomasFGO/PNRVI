@@ -13,25 +13,23 @@ class MessagesController < ApplicationController
       @his_selected_cards = @other_user.selected_cards.joins(:shop_card).where('shop_cards.user_id' => current_user.id)
     end
 
-
     @messages = @conversation.messages
-
-    if @messages.length > 10
-      @over_ten = true
-      @messages = @messages[-10..-1]
-    end
-
-    if params[:m]
-      @over_ten = false
-      @messages = @conversation.messages
-    end
 
     if @messages.where.not(user_id: current_user.id)
       @messages.mark_as_read! :all, for: current_user
     end
 
-    @message = @conversation.messages.new
+    if @messages.length > 7
+      @over_seven = true
+      @messages = @messages[-7..-1]
+    end
 
+    if params[:m]
+      @over_seven = false
+      @messages = @conversation.messages
+    end
+
+    @message = @conversation.messages.new
 
   end
 
@@ -46,8 +44,6 @@ class MessagesController < ApplicationController
     @message = @conversation.messages.new
   end
 
-
-
   private
 
     def message_params
@@ -57,4 +53,5 @@ class MessagesController < ApplicationController
     def find_conversation
       @conversation = Conversation.find(params[:conversation_id])
     end
+
 end
