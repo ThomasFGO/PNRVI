@@ -21,6 +21,7 @@ gem 'carrierwave', '~> 1.2'
 
 gem 'devise'
 gem 'unread'
+gem 'pagy'
 
 group :development do
   gem 'web-console', '>= 3.3.0'

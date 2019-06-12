@@ -8,8 +8,7 @@ class FeedsController < ApplicationController
     end
 
     @good_shop_cards_count_by_users = @good_shop_cards.group_by(&:user_id).transform_values(&:count).sort_by{ |k, v| v }.reverse
-    @last_good_shop_cards = @good_shop_cards.sort_by(&:created_at).reverse
-
+    @pagy_a, @last_good_shop_cards = pagy_array(@good_shop_cards.sort_by(&:created_at).reverse, size: [1,0,0,1])
   end
 end
 

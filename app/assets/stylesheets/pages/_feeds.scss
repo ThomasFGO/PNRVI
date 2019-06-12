@@ -12,6 +12,10 @@
   background-color: $yellow;
 }
 
+.visuals-container {
+  display: flex;
+}
+
 @media all and (max-width: 500px) {
   .user-card {
     width: 100%;
