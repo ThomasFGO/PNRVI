@@ -2,7 +2,12 @@
   <div class="col-md-12">
     <div class="shop_card-container">
 
-      <div class="shop_card-header"><h4>Vendeur : <%= @shop_card.user.first_name %></h4></div>
+      <div class="shop_card-header">
+        <h4>
+          <%= "Vendeur :" %>
+          <%= link_to "#{@shop_card.user.first_name}", user_path(@shop_card.user), class: "btn btn-classic btn-lg" %>
+        </h4>
+      </div>
       <div class="shop_card-body">
 
         <div class="card-visuals" id="shop_card-recto_verso">
@@ -84,6 +89,9 @@
             <% end %>
           </p>
           <p> Prix : <%= "#{@shop_card.price} €" %></p>
+          <% if current_user.search_cards.where(ref_card_id: @shop_card.ref_card_id, reved: @shop_card.reved).present? %>
+            <div><%= image_tag("icone_match.png", class: "icone-match") %></div>
+          <% end %>
 
           <div class="card-buttons">
             <% if @shop_card.user == current_user %>

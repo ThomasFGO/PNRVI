@@ -1,29 +1,34 @@
 <div class="container">
   <%= render partial: "users/header" %>
   <div class="visuals-container">
-    <% @good_shop_cards.each do |shop_card|%>
+    <% @user_shop_cards.each do |shop_card| %>
       <% if shop_card.ph_one.present? %>
         <%= link_to shop_card_path(shop_card) do %>
-          <% if shop_card.ph_one.present? %>
-              <div class="card-element shop-element">
-                <%= link_to shop_card_path(shop_card) do %>
-                  <% if shop_card.ph_one.present? %>
-                    <div class="visual">
-                      <%= cl_image_tag shop_card.ph_one, :gravity=>"auto", :crop=>"fill",  :transformation=>[
-                      {:width=>500, :crop=>"scale"},
-                      {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{shop_card.user.first_name} #{shop_card.user.last_name}"},
-                       :gravity=>"south", :y=>100}],
-                       class: "mini" %>
-                    </div>
-                  <% end %>
-                <% end %>
-                <div class="price">
-                  <%= shop_card.price %> €
+          <div class="card-element shop-element">
+            <%= link_to shop_card_path(shop_card) do %>
+              <% if shop_card.ph_one.present? %>
+                <div class="visual">
+                  <%= cl_image_tag shop_card.ph_one,
+                  :gravity=>"auto", :crop=>"fill",  :transformation=>[
+                  {:width=>500, :crop=>"scale"},
+                  {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{shop_card.user.first_name} #{shop_card.user.last_name}"},
+                   :gravity=>"south", :y=>100}
+                  ], class: "mini" %>
                 </div>
+              <% end %>
+            <% end %>
+            <div class="shop-infos">
+              <div class="price">
+                <%= "#{shop_card.price} €" %>
               </div>
-          <% end %>
+              <% if current_user.search_cards.where(ref_card_id: shop_card.ref_card_id, reved: shop_card.reved).present? %>
+                <div><%= image_tag("icone_match.png", class: "icone-match") %></div>
+              <% end %>
+            </div>
+          </div>
         <% end %>
       <% end  %>
-    <% end %>
+    <% end  %>
   </div>
 </div>
+<div class="text-center"><%== pagy_bootstrap_nav(@pagy) %></div>

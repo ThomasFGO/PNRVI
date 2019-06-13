@@ -1,6 +1,8 @@
 .shop_card-header {
+  display: flex;
   color: $yellow;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .shop_card-body {

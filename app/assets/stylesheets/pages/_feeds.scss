@@ -12,8 +12,9 @@
   background-color: $yellow;
 }
 
-.visuals-container {
+.shop-infos {
   display: flex;
+  align-items: center;
 }
 
 @media all and (max-width: 500px) {

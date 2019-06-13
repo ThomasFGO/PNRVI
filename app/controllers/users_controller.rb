@@ -7,5 +7,6 @@ class UsersController < ApplicationController
         @good_shop_cards << shop_card
       end
     end
+    @pagy, @user_shop_cards = pagy(@user.shop_cards, size: [1,0,0,1])
   end
 end

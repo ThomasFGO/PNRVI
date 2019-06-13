@@ -1,5 +1,5 @@
 <div class="visuals-container">
-  <% @last_good_shop_cards.each do |shop_card| %>
+  <% @shop_cards.each do |shop_card| %>
     <% if shop_card.ph_one.present? %>
       <%= link_to shop_card_path(shop_card) do %>
         <div class="card-element shop-element">
@@ -15,13 +15,18 @@
               </div>
             <% end %>
           <% end %>
-          <div class="price">
-            <%= shop_card.price %> €
+          <div class="shop-infos">
+            <div class="price">
+              <%= "#{shop_card.price} €" %>
+            </div>
+            <% if current_user.search_cards.where(ref_card_id: shop_card.ref_card_id, reved: shop_card.reved).present? %>
+              <div><%= image_tag("icone_match.png", class: "icone-match") %></div>
+            <% end %>
           </div>
         </div>
       <% end %>
     <% end  %>
   <% end  %>
 </div>
-<div class="text-center"><%== pagy_bootstrap_nav(@pagy_a) %></div>
+<div class="text-center"><%== pagy_bootstrap_nav(@pagy) %></div>
 

@@ -6,8 +6,10 @@
           <%= User.find_by(id: good_shop_cards_count_by_user[0]).first_name %>
           <%= User.find_by(id: good_shop_cards_count_by_user[0]).last_name %>
         <% end %>
-        <%= "vend #{good_shop_cards_count_by_user[1]} cartes que tu recherches" %>
-        <%= " (#{@good_shop_cards.select{|good_shop_card| good_shop_card.user_id == good_shop_cards_count_by_user[0]}.sum(&:price)} €)" %>
+        <%=  "#{User.find_by(id: good_shop_cards_count_by_user[0]).shop_cards.count} cartes" %>
+        <%= " dont #{good_shop_cards_count_by_user[1]}" %>
+        <%= image_tag("icone_match.png", class: "icone-match") %>
+        <%#= " (#{@good_shop_cards.select{|good_shop_card| good_shop_card.user_id == good_shop_cards_count_by_user[0]}.sum(&:price)} €)" %>
       </div>
     <% end %>
   </div>
