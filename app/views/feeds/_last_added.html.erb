@@ -1,5 +1,5 @@
 <div class="visuals-container">
-  <% @shop_cards.each do |shop_card| %>
+  <% @shop_cards.order("created_at DESC").each do |shop_card| %>
     <% if shop_card.ph_one.present? %>
       <%= link_to shop_card_path(shop_card) do %>
         <div class="card-element shop-element">

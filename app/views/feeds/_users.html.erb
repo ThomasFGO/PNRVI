@@ -1,15 +1,20 @@
 <div class="col-md-offset-2 col-md-8">
   <div class="users-container">
-    <% @good_shop_cards_count_by_users.each do |good_shop_cards_count_by_user| %>
+    <% @tot_shop_cards_count_by_user.each do |user_id, tot| %>
       <div class="user-card">
-        <%=  link_to user_path(good_shop_cards_count_by_user[0]) do %>
-          <%= User.find_by(id: good_shop_cards_count_by_user[0]).first_name %>
-          <%= User.find_by(id: good_shop_cards_count_by_user[0]).last_name %>
+        <%=  link_to user_path(user_id) do %>
+          <%= User.find_by(id: user_id).first_name %>
+          <%= User.find_by(id: user_id).last_name %>
         <% end %>
-        <%=  "#{User.find_by(id: good_shop_cards_count_by_user[0]).shop_cards.count} cartes" %>
-        <%= " dont #{good_shop_cards_count_by_user[1]}" %>
-        <%= image_tag("icone_match.png", class: "icone-match") %>
-        <%#= " (#{@good_shop_cards.select{|good_shop_card| good_shop_card.user_id == good_shop_cards_count_by_user[0]}.sum(&:price)} €)" %>
+        <% if tot > 1 %>
+          <%= "#{tot} cartes" %>
+        <% else %>
+          <%= "#{tot} carte" %>
+        <% end %>
+        <% if @good_shop_cards_count_by_user[user_id].present? %>
+          <%= " dont #{@good_shop_cards_count_by_user[user_id]}" %>
+          <%= image_tag("icone_match.png", class: "icone-match") %>
+        <% end %>
       </div>
     <% end %>
   </div>
