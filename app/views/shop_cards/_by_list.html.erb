@@ -1,9 +1,9 @@
 <div class="shop_cards_by_list-container">
 
 
-    <% @lists.each do |list| %>
-      <div class="dropdown">
-        <% if list.shop_cards.where(user_id: current_user.id).count > 0 %>
+    <% @lists.order("id DESC").each do |list| %>
+      <% if list.shop_cards.where(user_id: current_user.id).count > 0 %>
+        <div class="dropdown">
           <div class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <div id="list-name">
               <%= list.fr_name %>
@@ -123,8 +123,9 @@
               </table>
 
           </div>
-        <% end %>
-      </div>
+        </div>
+      <% end %>
+
     <% end %>
 
 </div>
