@@ -1,7 +1,7 @@
 <% if @good_shop_cards_count_by_user[@user.id].present? %>
   <div class="visuals-container">
-    <% @user_shop_cards.each do |shop_card| %>
-      <% if current_user.search_cards.where(ref_card_id: shop_card.ref_card_id, reved: shop_card.reved).present? %>
+    <% @good_shop_cards.each do |shop_card| %>
+
         <% if shop_card.ph_one.present? %>
           <%= link_to shop_card_path(shop_card) do %>
             <div class="card-element shop-element">
@@ -26,10 +26,10 @@
             </div>
           <% end %>
         <% end  %>
-      <% end %>
+
     <% end  %>
   </div>
-  <div class="text-center"><%== pagy_bootstrap_nav(@pagy) %></div>
+  <div class="text-center"><%== pagy_bootstrap_nav(@pagy_a) %></div>
 <% else %>
   <h4 class="text-center"><%= "#{@user.first_name} n'a aucune carte correspondant à tes recherches" %></h4>
 <% end %>

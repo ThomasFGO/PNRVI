@@ -8,6 +8,7 @@ class UsersController < ApplicationController
       end
     end
     @good_shop_cards_count_by_user = @good_shop_cards.group_by(&:user_id).transform_values(&:count).sort_by{ |k, v| v }.reverse.to_h
-    @pagy, @user_shop_cards = pagy(@user.shop_cards, size: [1,0,0,1])
+    @pagy, @user_shop_cards = pagy(@user.shop_cards, page_param: :page_all, params: { active_tab: 'all' }, size: [1,0,0,1])
+    @pagy_a, @good_shop_cards = pagy_array(@good_shop_cards, page_param: :page_match, params: { active_tab: 'match' }, size: [1,0,0,1])
   end
 end

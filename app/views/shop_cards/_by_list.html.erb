@@ -1,7 +1,7 @@
 <div class="shop_cards_by_list-container">
 
 
-    <% @lists.order("id DESC").each do |list| %>
+    <% @lists.each do |list| %>
       <% if list.shop_cards.where(user_id: current_user.id).count > 0 %>
         <div class="dropdown">
           <div class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
