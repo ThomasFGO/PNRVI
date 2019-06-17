@@ -1,27 +1,24 @@
 <div class="container">
-
   <%= render partial: "conversations/header" %>
   <div class="col-md-offset-2 col-md-8">
     <div class="conversations-body">
-      <% @conversations.each do |conversation| %>
+      <% @good_conversations.each do |conversation| %>
         <% if conversation.messages.count > 0 %>
-          <% if conversation.sender_id == current_user.id || conversation.recipient_id == current_user.id %>
-            <% if conversation.sender_id == current_user.id %>
-              <% recipient = User.find(conversation.recipient_id) %>
-            <% else %>
-              <% recipient = User.find(conversation.sender_id) %>
-            <% end %>
-            <% unless current_user.id == recipient %>
-              <div class="conversation-element">
-                <%= "#{recipient.first_name} #{recipient.last_name}"%>
-                <% if conversation.messages.unread_by(current_user).count == 1 %>
-                  <%= " (+ #{conversation.messages.unread_by(current_user).count} message)" %>
-                <% elsif conversation.messages.unread_by(current_user).count > 1 %>
-                  <%= " (+ #{conversation.messages.unread_by(current_user).count} messages)" %>
-                <% end %>
-                <%= link_to "Voir", conversation_messages_path(conversation) %>
-              </div>
-            <% end %>
+          <% if conversation.sender_id == current_user.id %>
+            <% recipient = User.find(conversation.recipient_id) %>
+          <% else %>
+            <% recipient = User.find(conversation.sender_id) %>
+          <% end %>
+          <% unless current_user.id == recipient %>
+            <div class="conversation-element">
+              <%= "#{recipient.first_name} #{recipient.last_name}"%>
+              <% if conversation.messages.unread_by(current_user).count == 1 %>
+                <%= " (+ #{conversation.messages.unread_by(current_user).count} message)" %>
+              <% elsif conversation.messages.unread_by(current_user).count > 1 %>
+                <%= " (+ #{conversation.messages.unread_by(current_user).count} messages)" %>
+              <% end %>
+              <%= link_to "Voir", conversation_messages_path(conversation) %>
+            </div>
           <% end %>
         <% end %>
       <% end %>
