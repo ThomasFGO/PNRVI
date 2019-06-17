@@ -4,7 +4,7 @@ class ShopCardsController < ApplicationController
   def index
     @lists = List.all
     @ref_cards = RefCard.all
-    @shop_cards = current_user.shop_cards.all
+    @pagy, @shop_cards = pagy(current_user.shop_cards.all, size: [1,0,0,1])
   end
 
   def show
