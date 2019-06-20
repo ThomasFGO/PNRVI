@@ -1,5 +1,5 @@
 <div class="visuals-container">
-  <% @user_shop_cards.each do |shop_card| %>
+  <% @user_shop_cards.order("created_at DESC").each do |shop_card| %>
     <% if shop_card.ph_one.present? %>
       <%= link_to shop_card_path(shop_card) do %>
         <div class="card-element shop-element">
@@ -19,8 +19,10 @@
             <div class="price">
               <%= "#{shop_card.price} €" %>
             </div>
-            <% if current_user.search_cards.where(ref_card_id: shop_card.ref_card_id, reved: shop_card.reved).present? %>
-              <div><%= image_tag("icone_match.png", class: "icone-match") %></div>
+            <% if user_signed_in? %>
+              <% if current_user.search_cards.where(ref_card_id: shop_card.ref_card_id, reved: shop_card.reved).present? %>
+                <div><%= image_tag("icone_match.png", class: "icone-match") %></div>
+              <% end %>
             <% end %>
           </div>
         </div>

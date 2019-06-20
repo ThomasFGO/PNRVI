@@ -89,26 +89,35 @@
             <% end %>
           </p>
           <p> Prix : <%= "#{@shop_card.price} €" %></p>
-          <% if current_user.search_cards.where(ref_card_id: @shop_card.ref_card_id, reved: @shop_card.reved).present? %>
-            <div><%= image_tag("icone_match.png", class: "icone-match") %></div>
+          <% if user_signed_in? %>
+            <% if current_user.search_cards.where(ref_card_id: @shop_card.ref_card_id, reved: @shop_card.reved).present? %>
+              <div><%= image_tag("icone_match.png", class: "icone-match") %></div>
+            <% end %>
           <% end %>
 
           <div class="card-buttons">
-            <% if @shop_card.user == current_user %>
-              <%= link_to 'Retirer', shop_card_path(@shop_card),
-              :class => "btn btn-classic btn-sm border-yellow", method: :delete,
-               data: { confirm: 'Are you sure?' } %>
+            <% if user_signed_in? %>
+              <% if @shop_card.user == current_user %>
+                <%= link_to 'Retirer', shop_card_path(@shop_card),
+                :class => "btn btn-classic btn-sm border-yellow", method: :delete,
+                 data: { confirm: 'Are you sure?' } %>
 
-              <%= link_to "Modifier", edit_shop_card_path(@shop_card), class: "btn btn-classic btn-sm border-yellow"%>
-            <% else %>
-              <% if current_user.selected_cards.where(shop_card_id: @shop_card.id).present? %>
-                <p>Déjà dans le panier</p>
+                <%= link_to "Modifier", edit_shop_card_path(@shop_card), class: "btn btn-classic btn-sm border-yellow"%>
               <% else %>
-                <%= link_to "Ajouter au panier", selected_cards_path(shop_card_id: @shop_card.id, user_id: current_user.id), method: 'post',
+                <% if current_user.selected_cards.where(shop_card_id: @shop_card.id).present? %>
+                  <p>Déjà dans le panier</p>
+                <% else %>
+                  <%= link_to "Ajouter au panier", selected_cards_path(shop_card_id: @shop_card.id, user_id: current_user.id),
+                  method: 'post', class: "btn btn-classic btn-sm border-yellow" %>
+                <% end %>
+                <%= link_to "Voir ses autres cartes", user_path(@shop_card.user),
                 class: "btn btn-classic btn-sm border-yellow" %>
               <% end %>
+            <% else %>
+              <%= link_to "Ajouter au panier", selected_cards_path(shop_card_id: @shop_card.id), method: 'post',
+                class: "btn btn-classic btn-sm border-yellow" %>
               <%= link_to "Voir ses autres cartes", user_path(@shop_card.user),
-              class: "btn btn-classic btn-sm border-yellow" %>
+                class: "btn btn-classic btn-sm border-yellow" %>
             <% end %>
           </div>
         </div>

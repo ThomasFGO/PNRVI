@@ -3,8 +3,10 @@ class FeedsController < ApplicationController
     @pagy, @shop_cards = pagy(ShopCard.where.not(user_id: current_user).all, size: [1,0,0,1])
     @good_shop_cards = []
     ShopCard.all.each do |shop_card|
-      if current_user.search_cards.where(ref_card_id: shop_card.ref_card_id, reved: shop_card.reved).present?
-        @good_shop_cards << shop_card
+      if user_signed_in?
+        if current_user.search_cards.where(ref_card_id: shop_card.ref_card_id, reved: shop_card.reved).present?
+          @good_shop_cards << shop_card
+        end
       end
     end
 

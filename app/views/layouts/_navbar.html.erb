@@ -7,6 +7,13 @@
         <%= image_tag("name_pnr.png", class: "startup-name") %>
       </div>
     <% end %>
+
+    <div class="computer-item"><%= link_to "Annonces", feeds_path, class: "navbar-item" %></div>
+    <div class="phone-item">
+      <%= link_to feeds_path do %>
+        <%= image_tag("icone_annonces.png", class: "icone") %>
+      <% end %>
+    </div>
     <% if user_signed_in? %>
 
       <div class="navbar-item dropdown">
@@ -19,7 +26,6 @@
         </div>
       </div>
 
-
     <% else %>
       <div>
         <%= link_to "Connexion", new_user_session_path, class: "navbar-item"%>
@@ -31,12 +37,7 @@
 
   <% if user_signed_in? %>
     <nav class="user-navbar">
-      <div class="computer-item"><%= link_to "Annonces", feeds_path, class: "navbar-item" %></div>
-      <div class="phone-item">
-        <%= link_to feeds_path do %>
-          <%= image_tag("icone_annonces.png", class: "icone") %>
-        <% end %>
-      </div>
+
       <div class="computer-item"><%= link_to "Mon magasin", shop_cards_path, class: "navbar-item" %></div>
       <div class="phone-item">
         <%= link_to shop_cards_path do %>

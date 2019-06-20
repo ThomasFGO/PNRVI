@@ -1,4 +1,5 @@
 class SelectedCardsController < ApplicationController
+  before_action :authenticate_user!
   def index
     @selected_cards = current_user.selected_cards
     #@selected_cards_count_by_users = @selected_cards.group_by(&:user_id).transform_values(&:count).sort_by{ |k, v| v }.reverse

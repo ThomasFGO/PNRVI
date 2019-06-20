@@ -27,9 +27,7 @@
                   <% if @ref_card.list.reved_name == "édition 1" %>
                     <div class="reved">
                       <%= f.input_field :reved,
-                        :collection => [
-                          [false, "normale (#{@normal_saved})"],
-                          [true, "édition1 (#{@reved_saved})"]],
+                        :collection => [[false, "normale (#{@normal_saved})"],[true, "édition1 (#{@reved_saved})"]],
                         :label_method => :last,
                         :value_method => :first,
                         :as => :radio_buttons,
@@ -42,9 +40,7 @@
                       <% if @ref_card.rarety_type != "Secret" %>
                         <div class="reved">
                           <%= f.input_field :reved,
-                            :collection => [
-                              [false, "normale (#{@normal_saved})"],
-                              [true, "reverse (#{@reved_saved})"]],
+                            :collection => [[false, "normale (#{@normal_saved})"],[true, "reverse (#{@reved_saved})"]],
                             :label_method => :last,
                             :value_method => :first,
                             :as => :radio_buttons,
@@ -78,9 +74,6 @@
                 </div>
               </div>
             <% end %>
-
-
-
       </div>
     </div>
   </div>

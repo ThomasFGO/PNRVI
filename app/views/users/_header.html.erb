@@ -1,3 +1,13 @@
 <div class="user-header">
-  <h3><%= @user.first_name %> <%= @user.last_name %></h3>
+  <h3>
+    <%= @user.first_name %>
+    <%= @user.last_name %>
+    <% if @user.shop_cards.count > 0 %>
+      <%= " : #{@user.shop_cards.count} cartes" %>
+    <% elsif @user.shop_cards.count == 1 %>
+      <%= " : #{@user.shop_cards.count} carte" %>
+    <% else %>
+      <%= " : aucune carte" %>
+    <% end %>
+  </h3>
 </div>
