@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   devise_for :users
   #root to: 'lists#index'
-  root to: 'lists#index'
+  root to: 'feeds#index'
   resources :feeds, only: [ :index ]
   resources :users, only: [ :show ]
   resources :selected_cards, only: [ :index, :create, :destroy ]

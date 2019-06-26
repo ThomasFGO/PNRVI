@@ -8,12 +8,8 @@
       </div>
     <% end %>
 
-    <div class="computer-item"><%= link_to "Annonces", feeds_path, class: "navbar-item" %></div>
-    <div class="phone-item">
-      <%= link_to feeds_path do %>
-        <%= image_tag("icone_annonces.png", class: "icone") %>
-      <% end %>
-    </div>
+    <div><%= link_to "Séries", lists_path, class: "navbar-item" %></div>
+
     <% if user_signed_in? %>
 
       <div class="navbar-item dropdown">

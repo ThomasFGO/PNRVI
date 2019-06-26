@@ -1,21 +1,19 @@
 <div class="container">
+
+  <% if user_signed_in? %>
+  <% else %>
+    <%= render partial: "feeds/home" %>
+  <% end %>
+
   <%= render partial: "feeds/header" %>
-
-
 
   <!-- Nav tabs -->
   <div class="nav-box">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item">
-        <% if user_signed_in? %>
-          <a class="nav-link active" id="last_added-tab" data-toggle="tab" href="#last_added" role="tab" aria-controls="last_added" aria-selected="true">
-            Récentes
-          </a>
-        <% else %>
           <a class="nav-link active" id="most_exp-tab" data-toggle="tab" href="#most_exp" role="tab" aria-controls="most_exp" aria-selected="true">
             Toutes
           </a>
-        <% end %>
       </li>
       <li class="nav-item">
         <a class="nav-link" id="users-tab" data-toggle="tab" href="#users" role="tab" aria-controls="users" aria-selected="false">
@@ -28,15 +26,9 @@
   <!-- Tab panes -->
   <div class="tab-content">
 
-    <% if user_signed_in? %>
-      <div class="tab-pane active" id="last_added" role="tabpanel" aria-labelledby="last_added-tab">
-        <%= render partial: "feeds/last_added" %>
-      </div>
-    <% else %>
-      <div class="tab-pane active" id="most_exp" role="tabpanel" aria-labelledby="most_exp-tab">
-        <%= render partial: "feeds/most_exp" %>
-      </div>
-    <% end %>
+    <div class="tab-pane active" id="most_exp" role="tabpanel" aria-labelledby="most_exp-tab">
+      <%= render partial: "feeds/most_exp" %>
+    </div>
 
     <div class="tab-pane" id="users" role="tabpanel" aria-labelledby="users-tab">
       <%= render partial: "feeds/users" %>
