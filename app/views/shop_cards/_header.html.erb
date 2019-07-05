@@ -1,16 +1,21 @@
-  <div class="shop_cards-header">
-    <div class="title">
-    <h3>Magasin :
-      <% if current_user.shop_cards.count == 0 %>
-        aucune carte
-      <% elsif current_user.shop_cards.count == 1  %>
-        <%= current_user.shop_cards.count %> carte / valeur : <%= current_user.shop_cards.sum(:price)%> €
-      <% else %>
-        <%= current_user.shop_cards.count %> cartes / valeur : <%= current_user.shop_cards.sum(:price)%> €
-      <% end %>
-    </h3>
-    </div>
-    <div class="more_cards">
-      <%= link_to "Vendre d'autres cartes", root_path, :class => "btn btn-classic btn-lg btn-yellow"%>
-    </div>
+
+<div class="shop_cards-header">
+  <div class="title">
+  <h3>Magasin :
+    <% if current_user.shop_cards.count == 0 %>
+      aucune carte
+    <% elsif current_user.shop_cards.count == 1  %>
+      <%= current_user.shop_cards.count %> carte / valeur : <%= current_user.shop_cards.sum(:price)%> €
+    <% else %>
+      <%= current_user.shop_cards.count %> cartes / valeur : <%= current_user.shop_cards.sum(:price)%> €
+    <% end %>
+  </h3>
   </div>
+  <div class="more_cards text-center">
+    <%= link_to "Vendre d'autres cartes", lists_path, :class => "btn btn-classic btn-sm btn-yellow"%>
+  </div>
+  <div class="my-link">
+    <h4 class="text-center"><%= "Mon lien à partager -> https://poknroll.herokuapp.com/users/#{current_user.id}" %></h4>
+  </div>
+</div>
+
