@@ -9,7 +9,7 @@
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="form_part">
-              <%= f.input :first_name, label: "Prénom" %>
+              <%= f.input :first_name, label: "Prénom", autofocus: true %>
               <%= f.input :last_name, label: "Nom" %>
             </div>
           </div>
@@ -18,7 +18,6 @@
               <%= f.input :email,
                           label: "Email",
                           required: true,
-                          autofocus: true ,
                           input_html: { autocomplete: "email" }%>
               <%= f.input :password,
                           label: "Mot de passe",
