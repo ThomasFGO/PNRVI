@@ -11,7 +11,7 @@ class SelectedCardsController < ApplicationController
     @selected_card = current_user.selected_cards.new(selected_card_params)
     @selected_card.shop_card = ShopCard.find(params[:shop_card_id])
     @selected_card.save
-    redirect_to user_path(@selected_card.shop_card.user)
+    redirect_to selected_cards_path
   end
 
   def destroy
