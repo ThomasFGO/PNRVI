@@ -1,7 +1,6 @@
  <div class="container">
 
-  <% if user_signed_in? %>
-  <% else %>
+  <% unless user_signed_in? %>
     <%= render partial: "lists/home" %>
   <% end %>
 
@@ -22,7 +21,6 @@
               </div>
             <% end %>
           </div>
-
         </div>
       <% end %>
     </div>
