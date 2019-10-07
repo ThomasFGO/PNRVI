@@ -1,5 +1,5 @@
 class OcciBlocsController < ApplicationController
   def index
-    @blocs = Bloc.all
+    @occi_blocs = OcciBloc.all
   end
 end
