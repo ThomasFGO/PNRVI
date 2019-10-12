@@ -1,6 +1,6 @@
 class ListsController < ApplicationController
   def index
-    @occi_blocs = OcciBloc.all
+    @blocs = Bloc.all
   end
   def show
     @list = List.find(params[:id])
