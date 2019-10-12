@@ -10,10 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_07_211813) do
+ActiveRecord::Schema.define(version: 2019_10_12_132209) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "blocs", force: :cascade do |t|
+    t.string "en_name"
+    t.boolean "jap"
+    t.string "fr_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "collection_cards", force: :cascade do |t|
     t.bigint "ref_card_id"
@@ -56,14 +64,14 @@ ActiveRecord::Schema.define(version: 2019_10_07_211813) do
     t.string "fr_logo_url"
     t.string "us_logo_url"
     t.string "symbol_url"
-    t.bigint "occi_bloc_id"
+    t.bigint "bloc_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.boolean "reved"
     t.string "reved_name"
     t.string "code"
     t.boolean "french"
-    t.index ["occi_bloc_id"], name: "index_lists_on_occi_bloc_id"
+    t.index ["bloc_id"], name: "index_lists_on_bloc_id"
   end
 
   create_table "messages", force: :cascade do |t|
@@ -74,12 +82,6 @@ ActiveRecord::Schema.define(version: 2019_10_07_211813) do
     t.datetime "updated_at", null: false
     t.index ["conversation_id"], name: "index_messages_on_conversation_id"
     t.index ["user_id"], name: "index_messages_on_user_id"
-  end
-
-  create_table "occi_blocs", force: :cascade do |t|
-    t.string "fr_name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "read_marks", id: :serial, force: :cascade do |t|
@@ -172,7 +174,7 @@ ActiveRecord::Schema.define(version: 2019_10_07_211813) do
 
   add_foreign_key "collection_cards", "ref_cards"
   add_foreign_key "collection_cards", "users"
-  add_foreign_key "lists", "occi_blocs"
+  add_foreign_key "lists", "blocs"
   add_foreign_key "ref_cards", "energy_types"
   add_foreign_key "ref_cards", "lists"
   add_foreign_key "search_cards", "ref_cards"
