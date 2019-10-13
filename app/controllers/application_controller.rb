@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   include Pagy::Backend
-  before_action :configure_permitted_parameters, if: :devise_controller?
-  before_action :unread
+  #before_action :configure_permitted_parameters, if: :devise_controller?
+  #before_action :unread
 
   def unread
     if user_signed_in?
