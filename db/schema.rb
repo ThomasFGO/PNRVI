@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_12_190303) do
+ActiveRecord::Schema.define(version: 2019_10_16_071852) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -56,21 +56,22 @@ ActiveRecord::Schema.define(version: 2019_10_12_190303) do
   end
 
   create_table "lists", force: :cascade do |t|
-    t.string "code"
-    t.boolean "promo"
-    t.string "size"
-    t.string "en_name"
-    t.string "us_release"
     t.string "fr_name"
+    t.string "en_name"
     t.string "fr_release"
-    t.string "jap_name"
-    t.string "jap_release"
+    t.string "us_release"
+    t.string "size"
     t.string "fr_logo_url"
     t.string "us_logo_url"
     t.string "symbol_url"
     t.bigint "bloc_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "code"
+    t.boolean "promo"
+    t.string "jap_name"
+    t.string "jap_release"
+    t.integer "rank"
     t.index ["bloc_id"], name: "index_lists_on_bloc_id"
   end
 
@@ -100,7 +101,7 @@ ActiveRecord::Schema.define(version: 2019_10_12_190303) do
     t.string "rarety_type"
     t.string "ultra_type"
     t.string "fr_name"
-    t.string "us_name"
+    t.string "en_name"
     t.string "super_type"
     t.bigint "energy_type_id"
     t.integer "pokedex_number"
@@ -112,6 +113,8 @@ ActiveRecord::Schema.define(version: 2019_10_12_190303) do
     t.bigint "list_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "rank"
+    t.string "jap_name"
     t.index ["energy_type_id"], name: "index_ref_cards_on_energy_type_id"
     t.index ["list_id"], name: "index_ref_cards_on_list_id"
   end
