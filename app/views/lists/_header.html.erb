@@ -2,14 +2,15 @@
   <div class="list_header-box">
     <div class="first_part">
       <div class="logo">
-        <%= cl_image_tag ("lists/fr_logos/poknroll_#{@list.code}_fr_logo.png") %>
+        <%#= cl_image_tag ("lists/fr_logos/poknroll_#{@list.code}_fr_logo.png") %>
+        <%= image_tag("flag/#{@list.flag}.png", height: "20") %>
       </div>
       <div class="name_and_symbol">
         <div class="name">
-          <h4><%= @list.fr_name %></h4>
+          <h4><%= @list.name %></h4>
         </div>
         <div class="symbol">
-          <%= cl_image_tag ("lists/symbols/poknroll_#{@list.code}_symbol.png"), class: "symbol-list" %>
+          <%#= cl_image_tag ("lists/symbols/poknroll_#{@list.code}_symbol.png"), class: "symbol-list" %>
         </div>
       </div>
     </div>

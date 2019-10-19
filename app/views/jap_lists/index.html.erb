@@ -7,18 +7,13 @@
   <div class="lists-container">
     <div class="title"><h4>Les séries :</h4></div>
     <div class="blocs-container">
-
-      <% @occi_blocs.each do |bloc| %>
+      <% @jap_blocs.each do |bloc| %>
         <div class="bloc-container">
-          <div class="bloc-header"><%= bloc.fr_name %></div>
-
+          <div class="bloc-header"><%= bloc.en_name %></div>
           <div class="bloc-lists">
             <% bloc.lists.order("id ASC").each do |list| %>
               <div class="list-card">
-                <%= link_to list_path(list) do %>
-                  <%= cl_image_tag ("lists/fr_logos/poknroll_#{list.code}_fr_logo.png"), class: "logo-list-mini" %>
-                  <%= cl_image_tag ("lists/symbols/poknroll_#{list.code}_symbol.png"),class: "symbol-list-mini" %>
-                <% end  %>
+                <%= link_to "#{list.name}",list_path(list) %>
               </div>
             <% end %>
           </div>
@@ -28,3 +23,4 @@
   </div>
 
 </div>
+
