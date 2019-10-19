@@ -1,26 +1,16 @@
-<%= text_field_tag('card_research', nil, placeholder: 'Nom ou N°') %>
+<%#= text_field_tag('card_research', nil, placeholder: 'Nom ou N°') %>
 
 <div class="visuals-container">
 
     <% @ref_cards.order("id asc").each do |ref_card| %>
         <div class="card-element", id="<%= ref_card.id %>" >
-          <%= link_to ref_card_path(ref_card) do %>
-            <% if ref_card.fr_url.present? %>
-              <%= image_tag(ref_card.fr_url, class: "mini", card_name:ref_card.fr_name, nb:ref_card.number) %>
-            <% elsif ref_card.fr_r_url.present? %>
-              <%= image_tag(ref_card.fr_r_url, class: "mini", card_name:ref_card.fr_name, nb:ref_card.number) %>
-            <% else %>
-              <%= image_tag(ref_card.us_url, class: "mini",card_name:ref_card.us_name, nb:ref_card.number) %>
-            <% end %>
-          <% end  %>
-          <div class="buttons">
-            <div class="sale_button">
-              <%= link_to "Vendre", new_ref_card_shop_card_path(ref_card), class: "btn btn-classic btn-sm border-yellow"%>
-            </div>
-            <div class="search_button">
-              <%= link_to "Rechercher", new_ref_card_search_card_path(ref_card), class: "btn btn-classic btn-sm border-yellow"%>
-            </div>
-          </div>
+          <% if ref_card.fr_url.present? %>
+            <%= image_tag(ref_card.fr_url, class: "mini", card_name:ref_card.fr_name, nb:ref_card.number) %>
+          <% elsif ref_card.fr_r_url.present? %>
+            <%= image_tag(ref_card.fr_r_url, class: "mini", card_name:ref_card.fr_name, nb:ref_card.number) %>
+          <% else %>
+            <%= image_tag(ref_card.us_url, class: "mini",card_name:ref_card.us_name, nb:ref_card.number) %>
+          <% end %>
         </div>
 
     <% end  %>
