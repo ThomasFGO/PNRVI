@@ -8,8 +8,22 @@
       </div>
     <% end %>
 
-    <div><%= link_to "Fr/Us", lists_path, class: "navbar-item" %></div>
-    <div><%= link_to "Jap", jap_lists_path, class: "navbar-item" %></div>
+    <div>
+      <div class="navbar-item">
+        <%= link_to lists_path do%>
+          séries
+          <%= image_tag("flag/fr_flag.png", height: "20") %><%= image_tag("flag/uk_flag.png", height: "20") %>
+        <% end %>
+      </div>
+    </div>
+    <div>
+      <div class="navbar-item">
+        <%= link_to jap_lists_path do%>
+          séries
+          <%= image_tag("flag/jap_flag.png", height: "20") %>
+        <% end %>
+      </div>
+    </div>
 
   </nav>
 </div>

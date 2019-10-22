@@ -100,10 +100,10 @@ lists = [
 =end
 
 # l = List.new
-#     l.en_name = "The Mystery of the Fossils"
-#     l.code = "base3"
-#     l.jap_release = "June 21, 1997"
-#     l.size = 48
+#     l.en_name = "Rocket Gang"
+#     l.code = "base4"
+#     l.jap_release = "November 21, 1997"
+#     l.size = 65
 #     l.promo = false
 #     l.bloc = Bloc.find(31)
 #     l.save
@@ -111,15 +111,15 @@ lists = [
 
 
 #lists.each do |list|
-  csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "jbase2.csv"))
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "jbase4.csv"))
   csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
   csv.each do |row|
     rf = RefCard.new
     rf.rank = row['rank']
     rf.rarety_type = row['rarety_type']
     rf.ultra_type = row['ultra_type']
-    #rf.fr_name = row['fr_name']
-    rf.en_name = row['us_name']
+    rf.fr_name = row['fr_name']
+    rf.en_name = row['en_name']
     rf.super_type = row['super_type']
     rf.energy_type = EnergyType.find_by(us_name: row['energy_type'])
     rf.pokedex_number = row['pokedex_number']
@@ -127,11 +127,11 @@ lists = [
     #rf.fr_url = row['fr_url']
     #rf.fr_r_url = row['fr_r_url']
     #rf.us_url = row['us_url']
-   # rf.us_r_url = row['us_r_url']
-    rf.list = List.find(256)
+    #rf.us_r_url = row['us_r_url']
+    rf.list = List.find(258)
     rf.save
 
-    #puts "#{rf.number} - #{rf.fr_name} saved"
+    puts "#{rf.rank} - #{rf.fr_name} saved"
   end
 #end
 
@@ -140,14 +140,46 @@ lists = [
 
 
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', 'jbase2.csv'))
-# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-# csv.each do |row|
-#   rank = row['rank']
-#   url = row['jap_url']
-#   Cloudinary::Uploader.upload("#{url}",
-#   :public_id => "#{rank}", :folder => "jap_lists/visuals/Base/base2")
-# end
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', 'jbase4.csv'))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  rank = row['rank']
+  url = row['jap_url']
+  Cloudinary::Uploader.upload("#{url}",
+  :public_id => "#{rank}", :folder => "jap_lists/visuals/Base/base4")
+end
+
+l = List.find_by(fr_name: "Base Set 2")
+l.fr_name = nil
+l.save
+
+l = List.find_by(fr_name: "Legendary Collection")
+l.fr_name = nil
+l.save
+
+l = List.find_by(fr_name: "Gym Heroes")
+l.fr_name = nil
+l.save
+
+l = List.find_by(fr_name: "Gym Challenge")
+l.fr_name = nil
+l.save
+
+l = List.find_by(fr_name: "Skyridge")
+l.fr_name = nil
+l.save
+
+l = List.find_by(fr_name: "Team Rocket Returns")
+l.fr_name = nil
+l.save
+
+l = List.find_by(fr_name: "Arceus")
+l.fr_name = nil
+l.save
+
+l = List.find_by(fr_name: "Legendary Treasures")
+l.fr_name = nil
+l.save
 
 
 
