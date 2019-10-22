@@ -4,11 +4,12 @@
   justify-content: space-around;
   padding-top: 5px;
   padding-bottom: 5px;
+  text-decoration: none;
   .navbar-item {
-  color: $blue;
+    color: $blue;
   }
   .navbar-item:hover {
-  color: $light-gray;
+    color: $light-gray;
   }
  }
 

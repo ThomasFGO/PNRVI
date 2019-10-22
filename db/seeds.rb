@@ -55,34 +55,6 @@ end
 
 
 
-Cloudinary::Uploader.upload("#{l.fr_logo_url}",
-:width => 320, :height => 100, :crop => :limit,
-:public_id => "poknroll_#{l.code}_fr_logo", :folder => "lists/fr_logos")
-Cloudinary::Uploader.upload("#{l.us_logo_url}",
-:width => 320, :height => 100, :crop => :limit,
-:public_id => "poknroll_#{l.code}_us_logo", :folder => "lists/us_logos")
-Cloudinary::Uploader.upload("#{l.symbol_url}",
-:width => 38, :height => 38, :crop => :limit,
-:public_id => "poknroll_#{l.code}_symbol", :folder => "lists/symbols")
-#puts "There are now #{List.count} rows in the transactions table"
-
-
-
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'energy_types.csv'))
-csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-csv.each do |row|
-  e = EnergyType.new
-  e.fr_name = row['fr_name']
-  e.us_name = row['us_name']
-  e.symbol_url = row['symbol_url']
-  e.save
-  #puts "#{e.fr_name} saved"
-end
-
-#puts "There are now #{EnergyType.count} rows in the EnergyType table"
-
-
-
 
 lists = [
 
@@ -125,54 +97,90 @@ lists = [
 
 ]
 
-lists.each do |list|
-  csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "#{list}"))
+=end
+
+# l = List.new
+#     l.en_name = "Rocket Gang"
+#     l.code = "base4"
+#     l.jap_release = "November 21, 1997"
+#     l.size = 65
+#     l.promo = false
+#     l.bloc = Bloc.find(31)
+#     l.save
+
+
+
+#lists.each do |list|
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "jbase4.csv"))
   csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
   csv.each do |row|
     rf = RefCard.new
-    rf.number = row['number']
+    rf.rank = row['rank']
     rf.rarety_type = row['rarety_type']
     rf.ultra_type = row['ultra_type']
     rf.fr_name = row['fr_name']
-    rf.us_name = row['us_name']
+    rf.en_name = row['en_name']
     rf.super_type = row['super_type']
     rf.energy_type = EnergyType.find_by(us_name: row['energy_type'])
     rf.pokedex_number = row['pokedex_number']
     rf.artist = row['artist']
-    rf.fr_url = row['fr_url']
-    rf.fr_r_url = row['fr_r_url']
-    rf.us_url = row['us_url']
-    rf.us_r_url = row['us_r_url']
-    rf.list = List.find_by(us_name: row['list'])
+    #rf.fr_url = row['fr_url']
+    #rf.fr_r_url = row['fr_r_url']
+    #rf.us_url = row['us_url']
+    #rf.us_r_url = row['us_r_url']
+    rf.list = List.find(258)
     rf.save
 
-    #puts "#{rf.number} - #{rf.fr_name} saved"
+    puts "#{rf.rank} - #{rf.fr_name} saved"
   end
-end
+#end
 
-puts "There are now #{RefCard.count} rows in the RefCard table"
+# puts "There are now #{RefCard.count} rows in the RefCard table"
 
 
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', 'ecard5.csv'))
+
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', 'jbase4.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
-  number = row['number']
-  url = row['url']
+  rank = row['rank']
+  url = row['jap_url']
   Cloudinary::Uploader.upload("#{url}",
-  :public_id => "poknroll_number_#{number}", :folder => "jap_lists/visuals/E-Card/ecard5")
+  :public_id => "#{rank}", :folder => "jap_lists/visuals/Base/base4")
 end
 
-=end
+l = List.find_by(fr_name: "Base Set 2")
+l.fr_name = nil
+l.save
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', 'slombresardentes.csv'))
-csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-csv.each do |row|
-  number = row['number']
-  url = row['fr_url']
-  Cloudinary::Uploader.upload("#{url}",
-  :public_id => "#{number}", :folder => "lists/visuals/sm3")
-end
+l = List.find_by(fr_name: "Legendary Collection")
+l.fr_name = nil
+l.save
+
+l = List.find_by(fr_name: "Gym Heroes")
+l.fr_name = nil
+l.save
+
+l = List.find_by(fr_name: "Gym Challenge")
+l.fr_name = nil
+l.save
+
+l = List.find_by(fr_name: "Skyridge")
+l.fr_name = nil
+l.save
+
+l = List.find_by(fr_name: "Team Rocket Returns")
+l.fr_name = nil
+l.save
+
+l = List.find_by(fr_name: "Arceus")
+l.fr_name = nil
+l.save
+
+l = List.find_by(fr_name: "Legendary Treasures")
+l.fr_name = nil
+l.save
+
 
 
 #User.all.each do |user|

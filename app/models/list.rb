@@ -9,13 +9,25 @@ class List < ApplicationRecord
     ref_cards.where(rarety_type: "Secret").count
   end
 
-  def good_url
-    if ref_card.fr_url.present?
-      fr_url
-    elsif ref_card.fr_r_url.present?
-      fr_r_url
+  def jap?
+    bloc.jap == true
+  end
+
+  def name
+    if fr_name.present?
+      fr_name
     else
-      us_url
+      en_name
+    end
+  end
+
+  def flag
+    if fr_name.present?
+      "fr_flag"
+    elsif bloc.jap == true
+      "jap_flag"
+    else
+      "uk_flag"
     end
   end
 end

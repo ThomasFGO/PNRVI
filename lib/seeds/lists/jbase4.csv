@@ -1,0 +1,66 @@
+rank;energy_type;rarety_type;ultra_type;fr_name;en_name;super_type;pokedex_number;artist;jap_url;list
+1;Grass;Common;;Abo;Ekans;Pokémon;23;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169257.jpg;base4
+2;Grass;Rare Holo;;Arbok Obscur;Dark Arbok;Pokémon;24;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073809.jpg;base4
+3;Grass;Common;;Nosférapti;Zubat;Pokémon;41;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169274.jpg;base4
+4;Grass;Rare Holo;;Nosféralto Obscur;Dark Golbat;Pokémon;42;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1093936.jpg;base4
+5;Grass;Common;;Mystherbe;Oddish;Pokémon;43;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169264.jpg;base4
+6;Grass;Uncommon;;Ortide Obscur;Dark Gloom;Pokémon;44;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169245.jpg;base4
+7;Grass;Rare Holo;;Rafflesia Obscur;Dark Vileplume;Pokémon;45;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104986.jpg;base4
+8;Grass;Common;;Tadmorv;Grimer;Pokémon;88;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169259.jpg;base4
+9;Grass;Uncommon;;Grotadmorv Obscur;Dark Muk;Pokémon;89;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149195.jpg;base4
+10;Grass;Common;;Smogo;Koffing;Pokémon;109;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169260.jpg;base4
+11;Grass;Rare Holo;;Smogogo Obscur;Dark Weezing;Pokémon;110;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073817.jpg;base4
+12;Fire;Common;;Salamèche;Charmander;Pokémon;4;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169242.jpg;base4
+13;Fire;Uncommon;;Reptincel Obscur;Dark Charmeleon;Pokémon;5;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169243.jpg;base4
+14;Fire;Rare Holo;;Dracaufeu Obscur;Dark Charizard;Pokémon;6;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073848.jpg;base4
+15;Fire;Common;;Ponyta;Ponyta;Pokémon;77;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169265.jpg;base4
+16;Fire;Common;;Galopa Obscur;Dark Rapidash;Pokémon;78;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169251.jpg;base4
+17;Fire;Uncommon;;Pyroli Obscur;Dark Flareon;Pokémon;136;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1110410.jpg;base4
+18;Water;Common;;Carapuce;Squirtle;Pokémon;7;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169271.jpg;base4
+19;Water;Uncommon;;Carabaffe Obscur;Dark Wartortle;Pokémon;8;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169253.jpg;base4
+20;Water;Rare Holo;;Tortank Obscur;Dark Blastoise;Pokémon;9;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1095420.jpg;base4
+21;Water;Common;;Psykokwak;Psyduck;Pokémon;54;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169268.jpg;base4
+22;Water;Uncommon;;Akwakwak Obscur;Dark Golduck;Pokémon;55;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169246.jpg;base4
+23;Water;Uncommon;;Magicarpe;Magikarp;Pokémon;129;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169262.jpg;base4
+24;Water;Rare Holo;;Léviator Obscur;Dark Gyarados;Pokémon;130;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073842.jpg;base4
+25;Water;Uncommon;;Aquali Obscur;Dark Vaporeon;Pokémon;134;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1110415.jpg;base4
+26;Lightning;Common;;Magneti;Magnemite;Pokémon;81;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149230.jpg;base4
+27;Lightning;Rare Holo;;Magneton Obscur;Dark Magneton;Pokémon;82;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073810.jpg;base4
+28;Lightning;Common;;Voltorbe;Voltorb;Pokémon;100;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169273.jpg;base4
+29;Lightning;Uncommon;;Électrode Obscur;Dark Electrode;Pokémon;101;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169244.jpg;base4
+30;Lightning;Uncommon;;Voltali Obscur;Dark Jolteon;Pokémon;135;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1110411.jpg;base4
+31;Psychic;Common;;Abra;Abra;Pokémon;63;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169241.jpg;base4
+32;Psychic;Uncommon;;Kadabra Obscur;Dark Kadabra;Pokémon;64;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169247.jpg;base4
+33;Psychic;Rare Holo;;Alakazam Obscur;Dark Alakazam;Pokémon;65;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073801.jpg;base4
+34;Psychic;Common;;Ramoloss;Slowpoke;Pokémon;79;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169270.jpg;base4
+35;Psychic;Rare Holo;;Flagadoss Obscur;Dark Slowbro;Pokémon;80;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073830.jpg;base4
+36;Psychic;Common;;Soporifik;Drowzee;Pokémon;96;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1114747.jpg;base4
+37;Psychic;Rare Holo;;Hypnomade Obscur;Dark Hypno;Pokémon;97;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073792.jpg;base4
+38;Fighting;Common;;Taupiqueur;Diglett;Pokémon;50;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169254.jpg;base4
+39;Fighting;Rare Holo;;Triopikeur Obscur;Dark Dugtrio;Pokémon;51;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073800.jpg;base4
+40;Fighting;Common;;Férosinge;Mankey;Pokémon;56;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149233.jpg;base4
+41;Fighting;Uncommon;;Colossinge Obscur;Dark Primeape;Pokémon;57;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169250.jpg;base4
+42;Fighting;Common;;Machoc;Machop;Pokémon;66;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169261.jpg;base4
+43;Fighting;Uncommon;;Machopeur Obscur;Dark Machoke;Pokémon;67;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169248.jpg;base4
+44;Fighting;Rare Holo;;Mackogneur Obscur;Dark Machamp;Pokémon;68;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073841.jpg;base4
+45;Colorless;Common;;Rattata;Rattata;Pokémon;19;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149251.jpg;base4
+46;Colorless;Common;;Rattatac Obscur;Dark Raticate;Pokémon;20;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169252.jpg;base4
+47;Colorless;Common;;Miaouss;Meowth;Pokémon;52;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169263.jpg;base4
+48;Colorless;Uncommon;;Persian Obscur;Dark Persian;Pokémon;53;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169249.jpg;base4
+49;Colorless;Common;;Evoli;Eevee;Pokémon;133;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169256.jpg;base4
+50;Colorless;Uncommon;;Porygon;Porygon;Pokémon;137;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169266.jpg;base4
+51;Colorless;Common;;Minidraco;Dratini;Pokémon;147;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169255.jpg;base4
+52;Colorless;Uncommon;;Draco Obscur;Dark Dragonair;Pokémon;148;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1160881.jpg;base4
+53;Colorless;Rare Holo;;Dracolosse Obscur;Dark Dragonite;Pokémon;149;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073833.jpg;base4
+54;NoColor;Rare Holo;;Et voila les Team Rocket !;Here Comes Team Rocket!;Trainer;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104977.jpg;base4
+55;NoColor;Rare Holo;;Attaque sournoise des Rocket;Rocket's Sneak Attack;Trainer;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073823.jpg;base4
+56;NoColor;Uncommon;;A la façon du Boss;The Boss's Way;Trainer;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169272.jpg;base4
+57;NoColor;Uncommon;;Défi !;Challenge!;Trainer;;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1110409.jpg;base4
+58;NoColor;Uncommon;;Excavatrice;Digger;Trainer;;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1110408.jpg;base4
+59;NoColor;Uncommon;;La revanche de Chen, l'imposteur;Imposter Oak's Revenge;Trainer;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1110413.jpg;base4
+60;NoColor;Uncommon;;Raid nocturne dans les poubelles;Nightly Garbage Run;Trainer;;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1110414.jpg;base4
+61;NoColor;Common;;Attaque au gaz gluant;Goop Gas Attack;Trainer;;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1110412.jpg;base4
+62;NoColor;Common;;Bonne nuit, les petits !;Sleep!;Trainer;;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169269.jpg;base4
+63;NoColor;Rare Holo;;Énergie Multicolore;Rainbow Energy;Energy;;Takumi Akabane;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073818.jpg;base4
+64;NoColor;Uncommon;;Énergie Guérisseuse;Full Heal Energy;Energy;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169258.jpg;base4
+65;NoColor;Uncommon;;Énergie Potion;Potion Energy;Energy;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169267.jpg;base4
