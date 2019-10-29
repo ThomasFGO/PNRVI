@@ -99,7 +99,34 @@ lists = [
 
 =end
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "jbase1.csv"))
+# b = Bloc.new
+# b.en_name = "Gym"
+# b.jap = true
+# b.save
+
+
+# l = List.new
+# l.en_name = "Leaders' Stadium"
+# l.size = 96
+# l.code = "gym1"
+# l.promo = false
+# l.jap_release = "October 24, 1998"
+# l.bloc_id = 53
+# l.save
+
+
+# l = List.new
+# l.en_name = "Challenge from the Darkness"
+# l.size = 98
+# l.code = "gym2"
+# l.promo = false
+# l.jap_release = "June 25, 1999"
+# l.bloc_id = 53
+# l.save
+
+
+
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "jgym1.csv"))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
   rf = RefCard.new
@@ -112,11 +139,11 @@ csv.each do |row|
   rf.energy_type = EnergyType.find_by(us_name: row['energy_type'])
   rf.pokedex_number = row['pokedex_number']
   rf.artist = row['artist']
-  rf.list = List.find(213)
+  rf.list = List.find(217)
   rf.save
 end
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "jbase2.csv"))
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "jgym2.csv"))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
   rf = RefCard.new
@@ -129,41 +156,7 @@ csv.each do |row|
   rf.energy_type = EnergyType.find_by(us_name: row['energy_type'])
   rf.pokedex_number = row['pokedex_number']
   rf.artist = row['artist']
-  rf.list = List.find(214)
-  rf.save
-end
-
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "jbase3.csv"))
-csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-csv.each do |row|
-  rf = RefCard.new
-  rf.rank = row['rank']
-  rf.rarety_type = row['rarety_type']
-  rf.ultra_type = row['ultra_type']
-  rf.fr_name = row['fr_name']
-  rf.en_name = row['en_name']
-  rf.super_type = row['super_type']
-  rf.energy_type = EnergyType.find_by(us_name: row['energy_type'])
-  rf.pokedex_number = row['pokedex_number']
-  rf.artist = row['artist']
-  rf.list = List.find(215)
-  rf.save
-end
-
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "jbase4.csv"))
-csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-csv.each do |row|
-  rf = RefCard.new
-  rf.rank = row['rank']
-  rf.rarety_type = row['rarety_type']
-  rf.ultra_type = row['ultra_type']
-  rf.fr_name = row['fr_name']
-  rf.en_name = row['en_name']
-  rf.super_type = row['super_type']
-  rf.energy_type = EnergyType.find_by(us_name: row['energy_type'])
-  rf.pokedex_number = row['pokedex_number']
-  rf.artist = row['artist']
-  rf.list = List.find(216)
+  rf.list = List.find(218)
   rf.save
 end
 
@@ -173,13 +166,22 @@ end
 
 
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', 'jbase4.csv'))
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', 'jgym1.csv'))
 # csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 # csv.each do |row|
 #   rank = row['rank']
 #   url = row['jap_url']
 #   Cloudinary::Uploader.upload("#{url}",
-#   :public_id => "#{rank}", :folder => "jap_lists/visuals/Base/base4")
+#   :public_id => "#{rank}", :folder => "jap_lists/visuals/Gym/gym1")
+# end
+
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', 'jgym2.csv'))
+# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+# csv.each do |row|
+#   rank = row['rank']
+#   url = row['jap_url']
+#   Cloudinary::Uploader.upload("#{url}",
+#   :public_id => "#{rank}", :folder => "jap_lists/visuals/Gym/gym2")
 # end
 
 
