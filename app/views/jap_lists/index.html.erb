@@ -1,11 +1,11 @@
 <div class="container">
 
   <% unless user_signed_in? %>
-    <%= render partial: "lists/home" %>
+    <%#= render partial: "lists/home" %>
   <% end %>
 
   <div class="lists-container">
-    <div class="title"><h4>Les séries :</h4></div>
+    <!-- <div class="title"><h4>Les séries :</h4></div> -->
     <div class="blocs-container">
       <% @jap_blocs.each do |bloc| %>
         <div class="bloc-container">
