@@ -131,24 +131,6 @@ ActiveRecord::Schema.define(version: 2019_10_16_071852) do
     t.index ["user_id"], name: "index_search_cards_on_user_id"
   end
 
-  create_table "shop_cards", force: :cascade do |t|
-    t.bigint "ref_card_id"
-    t.boolean "reved"
-    t.integer "condition"
-    t.string "language"
-    t.float "price"
-    t.string "ph_one"
-    t.string "ph_two"
-    t.string "ph_three"
-    t.string "ph_four"
-    t.string "ph_five"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.bigint "user_id"
-    t.index ["ref_card_id"], name: "index_shop_cards_on_ref_card_id"
-    t.index ["user_id"], name: "index_shop_cards_on_user_id"
-  end
-
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
@@ -173,6 +155,4 @@ ActiveRecord::Schema.define(version: 2019_10_16_071852) do
   add_foreign_key "ref_cards", "lists"
   add_foreign_key "search_cards", "ref_cards"
   add_foreign_key "search_cards", "users"
-  add_foreign_key "shop_cards", "ref_cards"
-  add_foreign_key "shop_cards", "users"
 end
