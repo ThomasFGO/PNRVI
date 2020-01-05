@@ -23,23 +23,6 @@ ActiveRecord::Schema.define(version: 2019_10_16_071852) do
     t.string "en_name"
   end
 
-  create_table "collection_cards", force: :cascade do |t|
-    t.bigint "ref_card_id"
-    t.boolean "reved"
-    t.integer "condition"
-    t.string "language"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "ph_one"
-    t.string "ph_two"
-    t.string "ph_three"
-    t.string "ph_four"
-    t.string "ph_five"
-    t.bigint "user_id"
-    t.index ["ref_card_id"], name: "index_collection_cards_on_ref_card_id"
-    t.index ["user_id"], name: "index_collection_cards_on_user_id"
-  end
-
   create_table "conversations", force: :cascade do |t|
     t.integer "sender_id"
     t.integer "recipient_id"
@@ -148,8 +131,6 @@ ActiveRecord::Schema.define(version: 2019_10_16_071852) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
-  add_foreign_key "collection_cards", "ref_cards"
-  add_foreign_key "collection_cards", "users"
   add_foreign_key "lists", "blocs"
   add_foreign_key "ref_cards", "energy_types"
   add_foreign_key "ref_cards", "lists"
