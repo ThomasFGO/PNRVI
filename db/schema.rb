@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_16_071852) do
+ActiveRecord::Schema.define(version: 2020_01_05_191040) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,16 @@ ActiveRecord::Schema.define(version: 2019_10_16_071852) do
     t.datetime "updated_at", null: false
     t.boolean "jap"
     t.string "en_name"
+  end
+
+  create_table "cards", force: :cascade do |t|
+    t.string "version"
+    t.boolean "grading"
+    t.float "rating"
+    t.bigint "ref_card_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["ref_card_id"], name: "index_cards_on_ref_card_id"
   end
 
   create_table "conversations", force: :cascade do |t|
@@ -119,6 +129,7 @@ ActiveRecord::Schema.define(version: 2019_10_16_071852) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "cards", "ref_cards"
   add_foreign_key "lists", "blocs"
   add_foreign_key "ref_cards", "energy_types"
   add_foreign_key "ref_cards", "lists"
