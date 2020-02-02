@@ -1,9 +1,7 @@
 class RefCard < ApplicationRecord
   belongs_to :energy_type
   belongs_to :list
-  has_many :collection_cards, dependent: :destroy
-  has_many :search_cards, dependent: :destroy
-  has_many :shop_cards, dependent: :destroy
+  has_many :cards, dependent: :destroy
 
   def good_url
     if fr_url.present?
