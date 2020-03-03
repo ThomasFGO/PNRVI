@@ -1,3 +1,3 @@
 class Shop_item < Item
-  validates :value, presence: true
+  #validates :value, presence: true
 end

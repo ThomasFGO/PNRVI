@@ -8,12 +8,13 @@ Rails.application.routes.draw do
   resources :users, only: [ :show ]
   resources :jap_lists, only: [ :index ]
   resources :lists, only: [ :index, :show ]
-  resources :ref_cards, only: [ :index, :show ]
-  resources :cards do
-    resources :shop_items, controller: :items, type: 'Shop_item'
+  resources :ref_cards, only: [ :index, :show ] do
+    resources :cards, only: [ :new, :create ]
   end
   resources :conversations do
     resources :messages
   end
 
 end
+
+#resources :shop_items, controller: :cards, type: 'Shop_item'

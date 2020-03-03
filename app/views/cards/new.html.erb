@@ -1,0 +1,87 @@
+<div class="container">
+  <div class="col-md-offset-2 col-md-8">
+    <div class="new_shop_card-container">
+      <div class="new_shop_card-body">
+
+        <div class="card-visuals">
+          <div class="title">
+            <h5>Nouvel ajout :</h5>
+            <h5><%= @ref_card.fr_name %></h5>
+          </div>
+          <div class="visual">
+            <% if @ref_card.fr_url.present? %>
+              <%= image_tag(@ref_card.fr_url, class: "standard") %>
+            <% elsif @ref_card.fr_r_url.present? %>
+              <%= image_tag(@ref_card.fr_r_url, class: "standard") %>
+            <% else %>
+              <%= image_tag(@ref_card.us_url, class: "standard") %>
+            <% end %>
+          </div>
+        </div>
+
+        <%= simple_form_for [@ref_card, @card] do |f| %>
+          <div class="shop-form">
+
+            <%= f.simple_fields_for :item, @item do |item| %>
+
+                <%= item.label(:type, "Ajouter à :") %>
+                <%= item.select :type, options_for_select(
+                  [["Mes ventes", "Shop_item"], ["Mes recherches", "Search_item"], ["Ma collection", "Collection_item"]],
+                  ["Mes ventes", "Shop_item"])
+                %>
+
+                <div class="candition_and_language">
+
+                  <div class="language">
+                    <%= item.label(:language, "Langue") %>
+                    <%= item.select :language, options_for_select(
+                      ["français", "anglais", "allemand", "italien", "espagnol"],
+                      ["français"]) %>
+                  </div>
+
+                  <div class="condition">
+                    <%= item.label(:condition, "État") %>
+                    <%= item.select :condition, options_for_select([["Mauvais", 1], ["Moyen", 2], ["Bon", 3], ["Très bon", 4], ["Neuf", 5]],
+                    ["Bon", 3]) %>
+                  </div>
+                </div>
+
+                <%= item.input :value, required: true, label: "Valeur (€)" %>
+
+            <% end %>
+
+            <%= f.label(:version, "Version") %>
+            <%= f.select :version, options_for_select(["Normale", "Holographique", "Édition1/Reverse"],["Normale"]) %>
+
+            <div class="reved">
+              <%= f.label(:grading, "Carte gradée") %>
+              <%= f.input_field :grading,
+                :collection => [
+                  [true, "oui"],
+                  [false, "non"]],
+                :label_method => :last,
+                :value_method => :first,
+                :as => :radio_buttons,
+                :item_wrapper_class => 'inline',
+                :checked => false
+              %>
+            </div>
+
+            <%= f.label(:rating, "Note PCA/PSA") %>
+            <%= f.select :rating, options_for_select([
+              ["aucune", nil], ["10+", 10.5], ["10", 10], ["9.5", 9.5], ["9", 9],  ["8", 8],
+              ["7", 7], ["6", 6], ["5", 5], ["4", 4], ["3", 3], ["2", 2], ["1", 1]
+              ], ["aucune", nil]) %>
+
+            <div class="shop-submit">
+              <%= f.submit "Ajouter", class: "btn btn-primary" %>
+            </div>
+          </div>
+
+        <% end %>
+
+
+      </div>
+    </div>
+  </div>
+</div>

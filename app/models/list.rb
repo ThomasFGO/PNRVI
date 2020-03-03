@@ -21,6 +21,10 @@ class List < ApplicationRecord
     end
   end
 
+  def french?
+    fr_name.present?
+  end
+
   def flag
     if fr_name.present?
       "fr_flag"

@@ -7,7 +7,11 @@
           <% if @list.jap? %>
             <%= cl_image_tag ("jap_lists/visuals/#{@list.bloc.en_name}/#{@list.code}/#{ref_card.rank}.png"), class: "mini" %>
           <% else %>
-            <%= image_tag(ref_card.good_url, class: "mini", card_name:ref_card.fr_name, nb:ref_card.number) %>
+            <%= link_to new_ref_card_card_path(ref_card) do %>
+              <%=
+                image_tag(ref_card.good_url, class: "mini", card_name:ref_card.fr_name, nb:ref_card.number)
+              %>
+            <% end %>
           <% end %>
         </div>
     <% end  %>
