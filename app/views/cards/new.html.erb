@@ -46,7 +46,22 @@
                   </div>
                 </div>
 
-                <%= item.input :value, required: true, label: "Valeur (€)" %>
+                <div>
+                  <%= item.label(:value, "Valeur (€)") %>
+                  <%= item.input_field :value, required: true %>
+                </div>
+
+                <div>
+                  <%= item.label(:value, "Recto") %>
+                  <%= item.input_field :ph_one, required: true %>
+                  <%= item.input :ph_one_cache, as: :hidden %>
+                </div>
+
+                <div>
+                  <%= item.label(:value, "Verso") %>
+                  <%= item.input_field :ph_two %>
+                  <%= item.input :ph_two_cache, as: :hidden %>
+                </div>
 
             <% end %>
 

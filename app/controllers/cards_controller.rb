@@ -13,13 +13,10 @@ class CardsController < ApplicationController
     @card.ref_card = @ref_card
     @card.item.user = current_user
     @card.item.itemable = @card
-    #@card.save
 
 
     if @card.save
       redirect_to root_path
-    else
-      byebug
     end
   end
 
@@ -56,7 +53,7 @@ class CardsController < ApplicationController
   # end
 
   def card_params
-    params.require(:card).permit(:version, :grading, :rating, item_attributes: [:type, :condition, :language, :value])
+    params.require(:card).permit(:version, :grading, :rating, item_attributes: [:type, :condition, :language, :value, :ph_one, :ph_two])
     #item_attributes: [:user_id, :card_id, :type, :condition, :language, :value, :itemable]
   end
 
