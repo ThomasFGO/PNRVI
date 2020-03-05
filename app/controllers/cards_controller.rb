@@ -1,10 +1,24 @@
 class CardsController < ApplicationController
   #before_action :set_item, only: [:show, :edit, :update, :destroy]
 
+  def show
+    @shop_card = ShopCard.find(params[:id])
+  end
+
   def new
     @ref_card = RefCard.find(params[:ref_card_id])
     @card = Card.new
     @item = @card.build_item
+    @type = params[:type]
+
+    @label_value =
+      if @type == "Shop_item"
+        ["Prix", "au magasin"]
+      elsif @type == "Search_item"
+        ["Prix maximum", "aux recherches"]
+      else
+        ["Valeur", "à la collection"]
+      end
   end
 
   def create
@@ -14,9 +28,10 @@ class CardsController < ApplicationController
     @card.item.user = current_user
     @card.item.itemable = @card
 
-
     if @card.save
-      redirect_to root_path
+      redirect_to list_path(@card.ref_card.list, :anchor => "#{@card.ref_card_id}")
+    else
+      redirect_to new_ref_card_card_path(@card.ref_card, type: @type), alert: @card.errors.full_messages
     end
   end
 
@@ -41,23 +56,8 @@ class CardsController < ApplicationController
   #   @item = @user.send(set_type.pluralize).find(params[:id])
   # end
 
-  # def set_type
-  #   case params[:type]
-  #   when 'Collection_item'
-  #     'collection_item'
-  #   when 'Search_item'
-  #     'search_item'
-  #   when 'Shop_item'
-  #     'shop_item'
-  #   end
-  # end
-
   def card_params
     params.require(:card).permit(:version, :grading, :rating, item_attributes: [:type, :condition, :language, :value, :ph_one, :ph_two])
-    #item_attributes: [:user_id, :card_id, :type, :condition, :language, :value, :itemable]
   end
 
-  # def item_params
-  #   params.require(:item).permit(:type, :condition, :language, :value, :card_id, :user_id, :itemable_type, :itemable_id)
-  # end
 end

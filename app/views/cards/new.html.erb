@@ -5,18 +5,14 @@
 
         <div class="card-visuals">
           <div class="title">
-            <h5>Nouvel ajout :</h5>
+            <h5><%= "Nouvel ajout :" %></h5>
             <h5><%= @ref_card.fr_name %></h5>
           </div>
+
           <div class="visual">
-            <% if @ref_card.fr_url.present? %>
-              <%= image_tag(@ref_card.fr_url, class: "standard") %>
-            <% elsif @ref_card.fr_r_url.present? %>
-              <%= image_tag(@ref_card.fr_r_url, class: "standard") %>
-            <% else %>
-              <%= image_tag(@ref_card.us_url, class: "standard") %>
-            <% end %>
+            <%= image_tag(@ref_card.good_url[0], class: "standard") %>
           </div>
+
         </div>
 
         <%= simple_form_for [@ref_card, @card] do |f| %>
@@ -24,11 +20,9 @@
 
             <%= f.simple_fields_for :item, @item do |item| %>
 
-                <%= item.label(:type, "Ajouter à :") %>
-                <%= item.select :type, options_for_select(
-                  [["Mes ventes", "Shop_item"], ["Mes recherches", "Search_item"], ["Ma collection", "Collection_item"]],
-                  ["Mes ventes", "Shop_item"])
-                %>
+
+                <%= item.hidden_field :type, :value => @type %>
+
 
                 <div class="candition_and_language">
 
@@ -47,21 +41,23 @@
                 </div>
 
                 <div>
-                  <%= item.label(:value, "Valeur (€)") %>
+                  <%= item.label(:value, "#{@label_value[0]} (€)") %>
                   <%= item.input_field :value, required: true %>
                 </div>
 
-                <div>
-                  <%= item.label(:value, "Recto") %>
-                  <%= item.input_field :ph_one, required: true %>
-                  <%= item.input :ph_one_cache, as: :hidden %>
-                </div>
+                <% unless @type == "Search_item" %>
+                  <div>
+                    <%= item.label(:value, "Recto") %>
+                    <%= item.input_field :ph_one, required: true %>
+                    <%= item.input :ph_one_cache, as: :hidden %>
+                  </div>
 
-                <div>
-                  <%= item.label(:value, "Verso") %>
-                  <%= item.input_field :ph_two %>
-                  <%= item.input :ph_two_cache, as: :hidden %>
-                </div>
+                  <div>
+                    <%= item.label(:value, "Verso") %>
+                    <%= item.input_field :ph_two %>
+                    <%= item.input :ph_two_cache, as: :hidden %>
+                  </div>
+                <% end %>
 
             <% end %>
 
@@ -89,7 +85,7 @@
               ], ["aucune", nil]) %>
 
             <div class="shop-submit">
-              <%= f.submit "Ajouter", class: "btn btn-primary" %>
+              <%= f.submit "Ajouter #{@label_value[1]}", class: "btn btn-primary" %>
             </div>
           </div>
 
