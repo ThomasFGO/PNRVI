@@ -29,9 +29,10 @@ class CardsController < ApplicationController
     @card.item.user = current_user
     @card.item.itemable = @card
 
-    if @card.save
-      #redirect_to list_path(@card.ref_card.list, :anchor => "#{@card.ref_card_id}")
+    if @card.save && @card.item.type == "Shop_item"
       redirect_to card_path(@card)
+    elsif @card.save
+      redirect_to list_path(@card.ref_card.list, :anchor => "#{@card.ref_card_id}")
     else
       redirect_to new_ref_card_card_path(@card.ref_card, type: @type), alert: @card.errors.full_messages
     end
