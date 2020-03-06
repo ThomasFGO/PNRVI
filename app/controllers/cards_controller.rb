@@ -2,7 +2,8 @@ class CardsController < ApplicationController
   #before_action :set_item, only: [:show, :edit, :update, :destroy]
 
   def show
-    @shop_card = ShopCard.find(params[:id])
+    @card = Card.find(params[:id])
+    @item = @card.item
   end
 
   def new
@@ -29,7 +30,8 @@ class CardsController < ApplicationController
     @card.item.itemable = @card
 
     if @card.save
-      redirect_to list_path(@card.ref_card.list, :anchor => "#{@card.ref_card_id}")
+      #redirect_to list_path(@card.ref_card.list, :anchor => "#{@card.ref_card_id}")
+      redirect_to card_path(@card)
     else
       redirect_to new_ref_card_card_path(@card.ref_card, type: @type), alert: @card.errors.full_messages
     end
