@@ -1,0 +1,40 @@
+<div class="container">
+  <%= render partial: "users/header" %>
+  <% if user_signed_in? %>
+    <!-- Nav tabs -->
+    <div class="nav-box">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link <%= 'active' unless params[:active_tab] == 'match' %>" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">
+            Toutes
+            <%= " ( #{@user.shop_cards.count} )" %>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link <%= 'active' if params[:active_tab] == 'match' %>" id="match-tab" data-toggle="tab" href="#match" role="tab" aria-controls="match" aria-selected="false">
+            <%= image_tag("icone_match.png", class: "icone-match") %>
+            <% if @good_shop_cards_count_by_user[@user.id].present? %>
+            <%= " ( #{@good_shop_cards_count_by_user[@user.id]} )" %>
+            <% else %>
+            <%= "( Aucune )" %>
+            <% end %>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane <%= 'active' unless params[:active_tab] == 'match' %>" id="all" role="tabpanel" aria-labelledby="all-tab">
+        <%= render partial: "users/all" %>
+      </div>
+
+      <div class="tab-pane <%= 'active' if params[:active_tab] == 'match' %>" id="match" role="tabpanel" aria-labelledby="match-tab">
+        <%= render partial: "users/match" %>
+      </div>
+    </div>
+  <% else %>
+    <%= render partial: "users/all" %>
+  <% end %>
+</div>
+

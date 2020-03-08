@@ -1,0 +1,12 @@
+<table>
+  <tr>
+    <th>nom</th>
+    <th>prix</th>
+  </tr>
+  <% @shop_cards.each do |shop_card| %>
+  <tr>
+    <td><%= shop_card.itemable.ref_card.right_name %></td>
+    <td><%= shop_card.value %></td>
+  </tr>
+  <% end %>
+</table>

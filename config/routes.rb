@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
 
-  get 'jap_lists/index'
+  #get 'jap_lists/index'
   devise_for :users
   root to: 'lists#index'
   resources :feeds, only: [ :index ]

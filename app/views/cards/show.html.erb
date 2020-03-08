@@ -4,8 +4,7 @@
 
       <div class="shop_card-header">
         <h4>
-          <%= "Vendeur : #{@item.user.first_name}" %>
-          <%#= link_to "#{@shop_card.user.first_name}", user_path(@shop_card.user), class: "btn btn-classic btn-lg" %>
+          <%= link_to "Vendeur : #{@card.item.user.first_name}", user_path(current_user), class: "btn btn-classic btn-lg" %>
         </h4>
       </div>
       <div class="shop_card-body">
