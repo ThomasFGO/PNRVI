@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_04_091408) do
+ActiveRecord::Schema.define(version: 2020_03_09_152135) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -145,7 +145,6 @@ ActiveRecord::Schema.define(version: 2020_03_04_091408) do
     t.string "fr_name"
     t.string "en_name"
     t.string "super_type"
-    t.bigint "energy_type_id"
     t.integer "pokedex_number"
     t.string "artist"
     t.string "fr_url"
@@ -157,7 +156,7 @@ ActiveRecord::Schema.define(version: 2020_03_04_091408) do
     t.datetime "updated_at", null: false
     t.integer "rank"
     t.string "jap_name"
-    t.index ["energy_type_id"], name: "index_ref_cards_on_energy_type_id"
+    t.string "energy"
     t.index ["list_id"], name: "index_ref_cards_on_list_id"
   end
 
@@ -181,6 +180,6 @@ ActiveRecord::Schema.define(version: 2020_03_04_091408) do
   add_foreign_key "cards", "ref_cards"
   add_foreign_key "items", "users"
   add_foreign_key "lists", "blocs"
-  add_foreign_key "ref_cards", "energy_types"
+  add_foreign_key "photos", "items"
   add_foreign_key "ref_cards", "lists"
 end
