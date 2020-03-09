@@ -61,14 +61,6 @@ ActiveRecord::Schema.define(version: 2020_03_09_152135) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "energy_types", force: :cascade do |t|
-    t.string "fr_name"
-    t.string "us_name"
-    t.string "symbol_url"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "items", force: :cascade do |t|
     t.string "type"
     t.string "condition"
