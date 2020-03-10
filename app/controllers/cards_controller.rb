@@ -1,5 +1,8 @@
 class CardsController < ApplicationController
-  #before_action :set_item, only: [:show, :edit, :update, :destroy]
+  def index
+    @shop_cards = Item.where(itemable_type: 'Card', type: 'Shop_item').where.not(user: current_user)
+    @pagy, @shop_cards = pagy(@shop_cards, size: [1,0,0,1])
+  end
 
   def show
     @card = Card.find(params[:id])
@@ -51,11 +54,6 @@ class CardsController < ApplicationController
 
 
   private
-
-  # def set_item
-  #   @user = User.find(params[:user_id])
-  #   @item = @user.send(set_type.pluralize).find(params[:id])
-  # end
 
   def card_params
     params.require(:card).permit(:version, :grading, :rating, item_attributes: [:type, :condition, :language, :value, :ph_one, :ph_two])
