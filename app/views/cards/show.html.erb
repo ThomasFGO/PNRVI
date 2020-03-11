@@ -30,7 +30,7 @@
                 <div id="verso">
                   <div class="visual">
                     <% if @card.item.ph_two.present? %>
-                      <%= cl_image_tag @shop_card.ph_two, :gravity=>"auto", :crop=>"fill",
+                      <%= cl_image_tag @card.item.ph_two, :gravity=>"auto", :crop=>"fill",
                       :transformation=>[
 
                       {:overlay=>{:font_family=>"Arial", :font_size=>50,
