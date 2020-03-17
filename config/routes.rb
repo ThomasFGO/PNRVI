@@ -17,6 +17,12 @@ Rails.application.routes.draw do
     resources :messages
   end
 
+  namespace :api, defaults: { format: :json } do
+    namespace :v1 do
+      resources :blocs, only: [ :index ]
+    end
+  end
+
 end
 
 #resources :shop_items, controller: :cards, type: 'Shop_item'
