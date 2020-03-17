@@ -7,7 +7,8 @@ Rails.application.routes.draw do
   resources :feeds, only: [ :index ]
   resources :users, only: [ :show ]
   resources :jap_lists, only: [ :index ]
-  resources :lists, only: [ :index, :show ]
+  resources :blocs, only: [ :index ]
+  resources :lists, only: [ :show ]
   resources :ref_cards, only: [ :index, :show ] do
     resources :cards, only: [ :new, :create ]
   end
