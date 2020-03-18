@@ -3,7 +3,7 @@ class RefCard < ApplicationRecord
   belongs_to :list
   has_many :cards, dependent: :destroy
 
-  def good_url
+  def right_url
     if fr_url.present?
       [ fr_url, "Version normale française"]
     elsif fr_r_url.present?
