@@ -5,11 +5,11 @@ class RefCard < ApplicationRecord
 
   def right_url
     if fr_url.present?
-      [ fr_url, "Version normale française"]
+      [ fr_url, "Version normale française", "fr_url"]
     elsif fr_r_url.present?
-      [ fr_r_url, "Version reverse/édition1 française" ]
+      [ fr_r_url, "Version reverse/édition1 française", "fr_r_url" ]
     elsif us_url.present?
-      [ us_url, "Version anglaise" ]
+      [ us_url, "Version anglaise", "us_url" ]
     else
       [ us_r_url, "Version reverse/édition1 anglaise" ]
     end
