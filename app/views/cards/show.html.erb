@@ -75,6 +75,12 @@
               <!-- <div><%#= image_tag("icone_match.png", class: "icone-match") %></div> -->
             <%# end %>
           <%# end %>
+          <%= button_to "Ajouter au panier",
+            {:controller => "selected_items", :action => "create",
+              :item_id => @item.id, :user_id=> current_user.id
+            }, :method=>:post, class: "btn btn-classic btn-sm border-yellow"
+          %>
+
 
 
         </div>

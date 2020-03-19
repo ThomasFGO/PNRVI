@@ -5,7 +5,11 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'cards#index'
   resources :feeds, only: [ :index ]
-  resources :users, only: [ :show ]
+  resources :users, only: [ :show ] do
+    member do
+      resources :selected_items, only: [ :index, :create ]
+    end
+  end
   resources :jap_lists, only: [ :index ]
   resources :blocs, only: [ :index ]
   resources :lists, only: [ :show ]

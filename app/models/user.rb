@@ -7,4 +7,5 @@ class User < ApplicationRecord
   acts_as_reader
   validates :first_name, presence: true
   validates :last_name, presence: true
+  has_many :selected_items
 end
