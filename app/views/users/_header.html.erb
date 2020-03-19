@@ -2,7 +2,7 @@
   <h3>
     <% unless @user == current_user %>
       <%= "#{@user.first_name}" %>
-      <=% "#{@user.last_name}" %>
+      <%= "#{@user.last_name}" %>
     <% else %>
       <%= "Mon magasin" %>
     <% end %>
