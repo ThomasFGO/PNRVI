@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   resources :feeds, only: [ :index ]
   resources :users, only: [ :show ] do
     member do
-      resources :selected_items, only: [ :index, :create ]
+      resources :selected_items, only: [ :create ]
     end
   end
   resources :jap_lists, only: [ :index ]

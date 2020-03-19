@@ -1,46 +1,30 @@
-.ref_card-header {
-  color: $yellow;
-  text-align: center;
-}
-
-.ref_card-body {
+.ref_card-content {
   display: flex;
   justify-content: space-around;
-  align-items: baseline;
-}
-
-.card-visuals {
-  text-align: center;
-  h5 {
-    color: $yellow;
-  }
-}
-
-
-@media all and (max-width: 500px) {
-  .ref_card-body {
-    display: block;
-  }
-  .card-visuals {
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-  }
-
-  #ref_card-visual {
-    display: block;
-  }
-
-}
-
-
-
-
-.card-infos {
-  color: $blue;
-  background-color: $yellow;
+  border: solid 10px $yellow;
+  background-color: #00A6FB;
   border-radius: 10px;
   box-shadow: 1px 1px black;
-  padding: 5px 5px;
-  //margin-left: 10px;
+  margin-top: 20px;
+  padding: 20px 0px;
+}
+
+.ref_card-buttons {
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media all and (max-width: 500px) {
+  .ref_card-content {
+    display: block;
+  }
+  .ref_card-visual {
+    text-align: center;
+  }
+  .ref_card-infos {
+    padding-left: 20px;
+  }
+  .ref_card-buttons {
+    margin-top: 0px;
+  }
 }

@@ -1,17 +1,13 @@
 <div class="container">
   <div class="col-md-offset-2 col-md-8">
-    <div class="ref_card-container">
+    <div class="ref_card-content">
 
-      <div class="ref_card-header"></div>
+      <div class="ref_card-visual">
+        <%= image_tag(@ref_card.right_url[0], class: "standard") %>
+      </div>
 
       <div class="ref_card-body">
-
-        <div class="card-visuals" id="ref_card-visual">
-          <%= image_tag(@ref_card.right_url[0], class: "standard") %>
-          <p><%= @ref_card.right_url[1] %></p>
-        </div>
-
-        <div class="card-infos">
+        <div class="ref_card-infos">
           <h4><%= @ref_card.right_name %></h4>
 
           <% if @ref_card.number.present? %>
@@ -28,12 +24,9 @@
             <p>Illustrée par <%= @ref_card.artist %></p>
           <% end %>
         </div>
-
-      </div>
-      <div class="card-buttons">
-        <%= link_to "Vendre", new_ref_card_card_path(@ref_card, type: "Shop_item"), :class => "btn btn-classic btn-lg border-yellow"%>
-        <%#= link_to "Rechercher", new_ref_card_card_path(@ref_card, type: "Search_item"), :class => "btn btn-classic btn-lg border-yellow"%>
-        <%#= link_to "Collectionner", new_ref_card_card_path(@ref_card, type: "Collection_item"), :class => "btn btn-classic btn-lg border-yellow"%>
+        <div class="ref_card-buttons">
+          <%= link_to "Vendre", new_ref_card_card_path(@ref_card, type: "Shop_item"), :class => "btn btn-classic btn-lg border-yellow"%>
+        </div>
       </div>
     </div>
   </div>

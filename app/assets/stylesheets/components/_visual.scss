@@ -53,7 +53,7 @@
   .standard {
     border-radius: 7px;
     width: 150px;
-    margin-bottom: 10px;
+    //margin-bottom: 10px;
   }
   .standard-photo {
   box-shadow: 2px 2px 5px black;
@@ -66,16 +66,4 @@
       width: 138px;
     }
   }
-}
-
-
-
-.price {
-  color: $blue;
-  background-color: $yellow;
-  border-radius: 5px;
-  text-align: center;
-  width: auto;
-  height: 25px;
-  padding: 0px 3px;
 }

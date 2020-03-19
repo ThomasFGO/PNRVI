@@ -15,41 +15,40 @@
 
         <div class="card-visuals" id="shop_card-recto_verso">
           <div id="gallerywrapper">
-              <div id="gallery">
-                <div id="recto">
-                  <div class="visual">
-                    <%= cl_image_tag @card.item.ph_one, :gravity=>"auto", :crop=>"fill",
-                    :transformation=>[
+            <div id="gallery">
+              <div id="recto">
+                <div class="visual">
+                  <%= cl_image_tag @card.item.ph_one, :gravity=>"auto", :crop=>"fill",
+                  :transformation=>[
 
-                    {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@item.user.first_name} #{@item.user.last_name}"},
-                    :gravity=>"south", :y=>100}
-                    ], class: "standard-photo"%>
-                  </div>
-                  <% if @card.item.ph_two.present? %>
-                    <a class="other" href="#verso">
-                      <%= image_tag("icone_recto_verso.png", class: "icone") %>
-                    </a>
-                  <% end %>
+                  {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@item.user.first_name} #{@item.user.last_name}"},
+                  :gravity=>"south", :y=>100}
+                  ], class: "standard-photo"%>
                 </div>
-                <div id="verso">
-                  <div class="visual">
-                    <% if @card.item.ph_two.present? %>
-                      <%= cl_image_tag @card.item.ph_two, :gravity=>"auto", :crop=>"fill",
-                      :transformation=>[
-
-                      {:overlay=>{:font_family=>"Arial", :font_size=>50,
-                       :text=>"#{@item.user.first_name} #{@item.user.last_name}"},
-                      :gravity=>"south", :y=>100}
-                      ], class: "standard-photo"%>
-                    <% end %>
-                  </div>
-                  <a class="other" href="#recto">
+                <% if @card.item.ph_two.present? %>
+                  <a class="other" href="#verso">
                     <%= image_tag("icone_recto_verso.png", class: "icone") %>
                   </a>
-                </div>
+                <% end %>
               </div>
-          </div>
+              <div id="verso">
+                <div class="visual">
+                  <% if @card.item.ph_two.present? %>
+                    <%= cl_image_tag @card.item.ph_two, :gravity=>"auto", :crop=>"fill",
+                    :transformation=>[
 
+                    {:overlay=>{:font_family=>"Arial", :font_size=>50,
+                     :text=>"#{@item.user.first_name} #{@item.user.last_name}"},
+                    :gravity=>"south", :y=>100}
+                    ], class: "standard-photo"%>
+                  <% end %>
+                </div>
+                <a class="other" href="#recto">
+                  <%= image_tag("icone_recto_verso.png", class: "icone") %>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="card-infos">
@@ -70,12 +69,12 @@
           </p> -->
 
           <p> Prix : <%= "#{@item.value} €" %></p>
-          <%# if user_signed_in? %>
-            <%# if current_user.search_cards.where(ref_card_id: @shop_card.ref_card_id, reved: @shop_card.reved).present? %>
-              <!-- <div><%#= image_tag("icone_match.png", class: "icone-match") %></div> -->
+          <%# if user_signed_in? && @item.user == current_user %>
+            <%# link_to item_path(@item), method: :delete do %>
+              <%#= image_tag("icone_poubelle.png", class: "icone-delete") %>
             <%# end %>
           <%# end %>
-          <%= button_to "Ajouter au panier",
+          <%#= button_to "Ajouter au panier",
             {:controller => "selected_items", :action => "create",
               :item_id => @item.id, :user_id=> current_user.id
             }, :method=>:post, class: "btn btn-classic btn-sm border-yellow"

@@ -15,7 +15,6 @@
   }
 }
 
-
 #shop_card-recto_verso {
   display: flex;
   justify-content: space-around;
@@ -37,4 +36,14 @@
 .card-buttons {
   text-align: center;
   margin-top: 20px;
+}
+
+.price {
+  color: $blue;
+  background-color: $yellow;
+  border-radius: 5px;
+  text-align: center;
+  width: auto;
+  height: 25px;
+  padding: 0px 3px;
 }

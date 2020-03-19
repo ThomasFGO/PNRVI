@@ -15,7 +15,7 @@ class SelectedItemsController < ApplicationController
   def destroy
     @selected_item = SelectedItem.find(params[:id])
     @selected_item.destroy
-    #redirect_to selected_items_path
+    #redirect_to user_path(current_user)
   end
 
   private
