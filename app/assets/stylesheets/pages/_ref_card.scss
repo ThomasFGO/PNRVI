@@ -9,6 +9,10 @@
   padding: 20px 0px;
 }
 
+.ref_card-visual {
+  text-align: center;
+}
+
 .ref_card-buttons {
   text-align: center;
   margin-top: 50px;
@@ -17,9 +21,6 @@
 @media all and (max-width: 500px) {
   .ref_card-content {
     display: block;
-  }
-  .ref_card-visual {
-    text-align: center;
   }
   .ref_card-infos {
     padding-left: 20px;

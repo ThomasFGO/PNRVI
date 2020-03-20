@@ -1,49 +1,31 @@
-.shop_card-header {
-  display: flex;
-  color: $yellow;
-  justify-content: center;
-  align-items: center;
-}
-
-.shop_card-body {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-  .card-infos {
-    width: 300px;
-    height: 415px;
-  }
-}
-
-#shop_card-recto_verso {
+.shop_card-content {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 10px;
+  border: solid 10px $yellow;
+  background-color: #00A6FB;
+  border-radius: 10px;
+  box-shadow: 1px 1px black;
+  margin-top: 20px;
+  padding: 20px 0px;
 }
 
-@media all and (max-width: 500px) {
-  .shop_card-body {
+.shop_card-visual {
+  text-align: center;
+}
+
+.shop_card-buttons {
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media all and (max-width: 600px) {
+  .shop_card-content {
     display: block;
   }
-}
-.card-visuals {
-  text-align: center;
-  h5 {
-    color: $yellow;
+  .shop_card-infos {
+    padding-left: 20px;
   }
-}
-
-.card-buttons {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.price {
-  color: $blue;
-  background-color: $yellow;
-  border-radius: 5px;
-  text-align: center;
-  width: auto;
-  height: 25px;
-  padding: 0px 3px;
+  .shop_card-buttons {
+    margin-top: 0px;
+  }
 }

@@ -45,6 +45,16 @@
     }
 }
 
+.price {
+  color: $blue;
+  background-color: $yellow;
+  border-radius: 5px;
+  text-align: center;
+  width: auto;
+  height: 25px;
+  padding: 0px 3px;
+}
+
 @media all and (max-width: 500px) {
   .card-element {
     height: 200px;
@@ -58,6 +68,8 @@
   .standard-photo {
   box-shadow: 2px 2px 5px black;
   border-radius: 11px;
+  width: 250px;
+  height: 345px;
   }
   .mini {
   width: 130px;
