@@ -14,22 +14,12 @@
         <div class="shop_card-body">
 
           <div class="shop_card-infos">
-              <h4><%= @card.ref_card.right_name %></h4>
+            <h4><%= @card.ref_card.right_name %></h4>
+            <p><%= @card.ref_card.list.fr_name %></p>
 
-            <% if @card.ref_card.fr_name.present? %>
-              <p>de la série <%= @card.ref_card.list.fr_name %></p>
-            <% else %>
-              <p>de la série <%= @card.ref_card.list.us_name %></p>
-            <% end %>
 
             <p><%= "Version : #{@card.version}" %></p>
             <p><%= @item.condition_label[@item.condition] %></p>
-
-
-            <!-- <p> Langue :
-              <%#= cl_image_tag("flags/#{@card.item.language_flag}", :width=>30, :crop=>"scale") %>
-            </p> -->
-
             <p> Prix : <%= "#{@item.value} €" %></p>
             <%# if user_signed_in? && @item.user == current_user %>
               <%# link_to item_path(@item), method: :delete do %>
@@ -43,11 +33,7 @@
             %>
           </div>
           <div class="shop_card-buttons">
-            <% if current_user %>
-              <%= link_to "Vendeur : #{@card.item.user.first_name}", user_path(current_user), class: "btn btn-classic btn-lg border-yellow" %>
-            <% else %>
-              <%= link_to "Vendeur : #{@card.item.user.first_name}", user_path(@card.item.user), class: "btn btn-classic btn-lg border-yellow" %>
-            <% end %>
+            <%= link_to "Vendeur : #{@card.item.user.first_name}", user_path(@card.item.user), class: "btn btn-classic btn-lg border-yellow" %>
           </div>
         </div>
     </div>
