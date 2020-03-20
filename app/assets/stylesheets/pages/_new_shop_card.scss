@@ -1,42 +1,54 @@
-.new_shop_card-container {
-
+.new_shop_card-content {
+  border: solid 10px $yellow;
+  background-color: #00A6FB;
+  border-radius: 10px;
+  box-shadow: 1px 1px black;
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .new_shop_card-header {
   text-align: center;
-  color: $yellow;
 }
-
 
 .new_shop_card-body {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: space-around;
+  align-items: center;
 }
 
-@media all and (max-width: 500px) {
+.new_shop_card-visual {
+  text-align: center;
+}
+
+.new_shop_card-form {
+  .language_and_condition {
+    display: flex;
+    .condition {
+      padding-left: 10px;
+    }
+  }
+  .price-form {
+    padding-top: 2px;
+  }
+  .version {
+    padding-top: 5px;
+  }
+}
+
+.shop-submit {
+  text-align: center;
+  padding-top: 10px;
+}
+
+@media all and (max-width: 650px) {
   .new_shop_card-body {
     display: block;
-  }
-}
-.shop_card-visual {
-
-}
-
-.shop-form {
-  padding: 10px 10px;
-  background-color: $yellow;
-  color: $blue;
-  border-radius: 10px;
-  box-shadow: 1px 1px black;
-  .shop-submit {
-    text-align: center;
-  }
-}
-
-@media all and (min-width: 500px) {
-  .candition_and_language {
-    display: flex;
-    justify-content: space-around;
+    .new_shop_card-visual {
+      padding-bottom: 20px;
+    }
+    .new_shop_card-form {
+      padding-left: 10px;
+    }
   }
 }
