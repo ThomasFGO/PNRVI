@@ -25,7 +25,7 @@ Rails.application.routes.draw do
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
       resources :blocs, only: [ :index ]
-      resources :lists, only: [ :show ]
+      get '/series/:id' => 'lists#show'
       resources :ref_cards, only: [ :show ]
     end
   end
