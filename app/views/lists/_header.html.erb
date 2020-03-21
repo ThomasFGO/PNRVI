@@ -1,7 +1,8 @@
 <div class="list-header">
   <div class="list_header-visuals">
     <div class="logo">
-      <%= cl_image_tag ("lists/fr_logos/poknroll_#{@list.code}_fr_logo.png") %>
+      <%= cl_image_tag ("lists/fr_logos/poknroll_#{@list.code}_fr_logo.png"),
+      class: "logo-list-standard" %>
     </div>
     <div class="symbol">
       <%= cl_image_tag ("lists/symbols/poknroll_#{@list.code}_symbol.png"), class: "symbol-list" %>
