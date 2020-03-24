@@ -19,10 +19,7 @@
           <%= current_user.first_name %>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <%= link_to "Magasin", shop_user_path(current_user) %>
-          <div>
-          <%= link_to "Panier", seller_path(current_user.default_seller) %>
-          </div>
+          <%= link_to "Mon magasin", shop_user_path(current_user) %>
           <%= link_to "Déconnexion", destroy_user_session_path, method: :delete %>
         </div>
       </div>

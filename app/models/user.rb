@@ -8,17 +8,4 @@ class User < ApplicationRecord
   validates :first_name, presence: true
   validates :last_name, presence: true
   has_many :selected_items
-  has_many :items
-
-  def default_seller
-    selected_items.last.item.user
-  end
-
-  def member_since
-    created_at.strftime("%d/%m/%Y")
-  end
-
-  def shop_size
-    items.where(type: 'Shop_item').count
-  end
 end

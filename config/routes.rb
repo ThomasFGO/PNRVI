@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
 
 
-
   #get 'jap_lists/index'
   devise_for :users
   root to: 'cards#index'
@@ -9,7 +8,6 @@ Rails.application.routes.draw do
   resources :users, only: [ :show ] do
     member do
       get 'shop'
-      resources :sellers, only: [ :show ]
       resources :selected_items, only: [ :create ]
     end
   end
