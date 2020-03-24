@@ -1,0 +1,22 @@
+.messages_and_items-content {
+  height: 580px;
+  width: 50%;
+  //border: solid 2px red;
+}
+.messages-content {
+  display: flex;
+  .current_user-message {
+    background-color: $yellow;
+    color: $blue;
+    //text-align: right;
+  }
+  .seller-message {
+    background-color: white;
+    color: $blue;
+    //text-align: left;
+  }
+}
+
+.items-content {
+
+}
