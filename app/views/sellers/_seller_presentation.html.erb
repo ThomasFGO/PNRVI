@@ -1,0 +1,26 @@
+<div class="seller_presentation-content">
+  <div class="items_seller">
+    <div>Mon panier :</div>
+    <div>
+      <%= "#{@selected_items_seller[3]} cartes / #{@selected_items_seller[4]}€"%>
+    </div>
+  </div>
+  <div class="seller-content">
+    <div class="seller-description">
+      <h5>Contact :</h5>
+      <div class="seller_avatar-content">
+        <div class="seller-avatar"></div>
+      </div>
+      <h4>
+        <%= "#{@seller.first_name} #{@seller.last_name}" %>
+      </h4>
+      <h6>
+        <%= "Membre depuis le :" %>
+        <%= "#{@seller.member_since}" %>
+      </h6>
+    </div>
+    <div class="seller-infos">
+      <h6><%= "Magasin : #{@seller.shop_size} cartes" %></h6>
+    </div>
+  </div>
+</div>
