@@ -21,19 +21,25 @@
             <p><%= "Version : #{@card.version}" %></p>
             <p><%= @item.condition_label[@item.condition] %></p>
             <p> Prix : <%= "#{@item.value} €" %></p>
-            <%# if user_signed_in? && @item.user == current_user %>
-              <%# link_to item_path(@item), method: :delete do %>
-                <%#= image_tag("icone_poubelle.png", class: "icone-delete") %>
-              <%# end %>
-            <%# end %>
-            <%#= button_to "Ajouter au panier",
-              {:controller => "selected_items", :action => "create",
-                :item_id => @item.id, :user_id=> current_user.id
-              }, :method=>:post, class: "btn btn-classic btn-sm border-yellow"
-            %>
+            <% unless @item.user == current_user %>
+              <%= "Vendeur : " %>
+              <%= link_to "#{@card.item.user.first_name}", shop_user_path(@card.item.user)
+              %>
+            <% end %>
           </div>
           <div class="shop_card-buttons">
-            <%= link_to "Vendeur : #{@card.item.user.first_name}", shop_user_path(@card.item.user), class: "btn btn-classic btn-sm border-yellow" %>
+            <% if @item.user == current_user %>
+              <%= button_to "Retirer",
+                card_path(@card), method: :delete,
+                class: "btn btn-classic btn-sm border-yellow"
+              %>
+            <% else %>
+              <%= button_to "Ajouter au panier",
+                {:controller => "selected_items", :action => "create",
+                  :item_id => @item.id, :user_id=> current_user.id
+                }, :method=>:post, class: "btn btn-classic btn-sm border-yellow"
+              %>
+            <% end %>
           </div>
         </div>
     </div>

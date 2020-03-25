@@ -47,10 +47,11 @@ class CardsController < ApplicationController
   #   end
   # end
 
-  # def destroy
-  #   @item.destroy
-  #   redirect_to @user, notice: "#{params[:type]} Item was successfully destroyed."
-  # end
+  def destroy
+    @card = Card.find(params[:id])
+    @card.destroy
+    redirect_to shop_user_path(current_user), notice: "Votre carte est bien été retirée du magasin"
+  end
 
 
   private
