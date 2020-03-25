@@ -22,7 +22,9 @@
           <%= link_to "Magasin", shop_user_path(current_user) %>
           <div>
             <% if current_user.has_sellers  %>
-              <%#= link_to "Panier", seller_path(current_user.default_seller) %>
+              <%= link_to "Panier (#{current_user.selected_items.count})",
+                seller_path(current_user.default_seller)
+              %>
             <% end %>
           </div>
 

@@ -1,0 +1,25 @@
+<div class="sellers-content">
+  <div class="sellers-header">
+    <div>Panier total :</div>
+    <div>
+      <%= "#{@selected_items_sum[0][0]} cartes / #{@selected_items_sum[0][1]}€"%>
+    </div>
+    <div>
+      <%= "#{@selected_items_grouped.count} vendeurs différents"%>
+    </div>
+  </div>
+  <div class="sellers-body">
+    <% @selected_items_grouped.each do |seller| %>
+      <div class="seller-card">
+        <div class="seller-name">
+          <%= link_to "#{seller[1]} #{seller[2]}",
+            seller_path(seller[0])
+          %>
+        </div>
+        <div class="seller-selected_items">
+          <%= "#{seller[3]} cartes / #{seller[4]}€"%>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

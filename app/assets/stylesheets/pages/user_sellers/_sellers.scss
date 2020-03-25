@@ -1,0 +1,29 @@
+.sellers-content {
+  height: 580px;
+  width: 25%;
+  //border: solid 2px red;
+}
+.sellers-header {
+  background-color: $blue;
+  color: $yellow;
+  padding: 6px 10px;
+  text-align: center;
+  border: solid 3px $yellow;
+}
+.sellers-body {
+  //border: solid 2px black;
+}
+
+.seller-card {
+  margin-top: 5px;
+  background-color: $yellow;
+  color: $blue;
+  padding: 6px 10px;
+}
+
+@media all and (max-width: 500px) {
+  .sellers-content {
+    display: block;
+    width: 100%;
+  }
+}
