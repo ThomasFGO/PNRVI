@@ -7,8 +7,13 @@ class User < ApplicationRecord
   acts_as_reader
   validates :first_name, presence: true
   validates :last_name, presence: true
+  has_many :items
   has_many :selected_items
   has_many :items
+
+  def has_sellers
+    selected_items.count > 0
+  end
 
   def default_seller
     selected_items.last.item.user

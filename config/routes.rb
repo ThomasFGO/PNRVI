@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   resources :ref_cards, only: [ :index, :show ] do
     resources :cards, only: [ :new, :create ]
   end
-  resources :cards, only: [ :index, :show ]
+  resources :cards, only: [ :index, :show, :destroy ]
   resources :conversations do
     resources :messages
   end
@@ -34,4 +34,3 @@ Rails.application.routes.draw do
 
 end
 
-#resources :shop_items, controller: :cards, type: 'Shop_item'
