@@ -21,6 +21,14 @@
     </div>
     <div class="seller-infos">
       <h6><%= "Magasin : #{@seller.shop_size} cartes" %></h6>
+      <h6>
+        <%= "Envoi :" %>
+        <%= "#{@seller.boolean_response(@seller.shipment)}" %>
+      </h6>
+      <h6>
+        <%= "Remise en mains propres :" %>
+        <%= "#{@seller.boolean_response(@seller.shipment)}" %>
+      </h6>
     </div>
   </div>
 </div>

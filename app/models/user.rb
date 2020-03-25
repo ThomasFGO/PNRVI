@@ -25,4 +25,12 @@ class User < ApplicationRecord
   def shop_size
     items.where(type: 'Shop_item').count
   end
+
+  def boolean_response(attribute)
+    if attribute
+      "oui"
+    else
+      "non"
+    end
+  end
 end
