@@ -39,14 +39,6 @@ class CardsController < ApplicationController
     end
   end
 
-  # def update
-  #   if @item.update(item_params)
-  #     redirect_to @user, notice: "#{params[:type]} Item was successfully updated."
-  #   else
-  #     render :edit
-  #   end
-  # end
-
   def destroy
     @card = Card.find(params[:id])
     @card.destroy

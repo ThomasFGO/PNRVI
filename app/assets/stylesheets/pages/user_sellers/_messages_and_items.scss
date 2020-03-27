@@ -1,22 +1,27 @@
 .messages_and_items-content {
   height: 580px;
   width: 50%;
-  //border: solid 2px red;
+  overflow-y: scroll;
+  border: solid 3px $yellow;
+  margin: 0px 5px;
 }
 .messages-content {
   display: flex;
   .current_user-message {
     background-color: $yellow;
     color: $blue;
-    //text-align: right;
   }
   .seller-message {
     background-color: white;
     color: $blue;
-    //text-align: left;
   }
 }
 
-.items-content {
-
+.items_visuals-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+

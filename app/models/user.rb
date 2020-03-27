@@ -9,6 +9,7 @@ class User < ApplicationRecord
   validates :last_name, presence: true
   has_many :items
   has_many :selected_items
+  has_many :conversations
 
   def has_sellers
     selected_items.count > 0

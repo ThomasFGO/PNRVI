@@ -13,15 +13,13 @@ Rails.application.routes.draw do
     end
   end
   resources :jap_lists, only: [ :index ]
-  resources :blocs, only: [ :index ]
+  get '/series' => 'blocs#index'
   resources :lists, only: [ :show ]
   resources :ref_cards, only: [ :index, :show ] do
     resources :cards, only: [ :new, :create ]
   end
   resources :cards, only: [ :index, :show, :destroy ]
-  resources :conversations do
-    resources :messages
-  end
+  resources :conversations
 
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
