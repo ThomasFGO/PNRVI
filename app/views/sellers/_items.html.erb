@@ -1,23 +1,26 @@
-<div class="items_visuals-container">
-  <% @selected_items_by_seller.order("created_at DESC").each do |selected_item| %>
-    <%= link_to card_path(selected_item.item.itemable) do %>
-      <div class="card-element shop-element">
-          <div class="visual">
-            <%= cl_image_tag selected_item.item.ph_one,
-            :gravity=>"auto", :crop=>"fill",  :transformation=>[
-            {:width=>500, :crop=>"scale"},
-            {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{selected_item.item.user.first_name} #{selected_item.item.user.last_name}"},
-             :gravity=>"south", :y=>100}
-            ], class: "mini" %>
-          </div>
-        <div class="shop-infos">
-          <div class="price">
-            <%= "#{selected_item.item.value} €" %>
+<div class="messages_and_items-content">
+  <%= render partial: "tab" %>
+  <div class="items_visuals-container">
+    <% @selected_items_by_seller.order("created_at DESC").each do |selected_item| %>
+      <%= link_to card_path(selected_item.item.itemable) do %>
+        <div class="card-element shop-element">
+            <div class="visual">
+              <%= cl_image_tag selected_item.item.ph_one,
+              :gravity=>"auto", :crop=>"fill",  :transformation=>[
+              {:width=>500, :crop=>"scale"},
+              {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{selected_item.item.user.first_name} #{selected_item.item.user.last_name}"},
+               :gravity=>"south", :y=>100}
+              ], class: "mini" %>
+            </div>
+          <div class="shop-infos">
+            <div class="price">
+              <%= "#{selected_item.item.value} €" %>
+            </div>
           </div>
         </div>
-      </div>
+      <% end %>
     <% end %>
-  <% end %>
+  </div>
 </div>
 
 

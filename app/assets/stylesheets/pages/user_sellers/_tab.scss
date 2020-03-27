@@ -1,0 +1,9 @@
+.tab {
+  display: flex;
+  .tab-item {
+    background-color: $yellow;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}

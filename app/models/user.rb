@@ -10,6 +10,8 @@ class User < ApplicationRecord
   has_many :items
   has_many :selected_items
   has_many :conversations
+  has_many :messages
+
 
   def has_sellers
     selected_items.count > 0

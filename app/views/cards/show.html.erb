@@ -33,12 +33,17 @@
                 card_path(@card), method: :delete,
                 class: "btn btn-classic btn-sm border-yellow"
               %>
-            <% else %>
+            <% elsif current_user %>
               <%= button_to "Ajouter au panier",
                 {:controller => "selected_items", :action => "create",
                   :item_id => @item.id, :user_id=> current_user.id
                 }, :method=>:post, class: "btn btn-classic btn-sm border-yellow"
               %>
+            <% else  %>
+              <p>Vous devez vous inscrire </br>
+                 pour ajouter cette carte </br>
+                 dans votre panier...
+              </p>
             <% end %>
           </div>
         </div>

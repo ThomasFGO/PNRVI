@@ -1,6 +1,22 @@
 class SellersController < ApplicationController
   before_action :authenticate_user!
-  def show
+  before_action :set_sellers, only: [:panier, :conversation]
+
+  def panier
+    @selected_items_by_seller =
+      @selected_items.where('items.user_id' => @seller.id)
+  end
+
+  def conversation
+    if @conversation
+      @messages = @conversation.messages
+      @message = @conversation.messages.new
+    end
+  end
+
+  private
+
+  def set_sellers
     @selected_items = current_user.selected_items.joins(item: :user)
 
     @selected_items_sum =
@@ -17,7 +33,6 @@ class SellersController < ApplicationController
     @selected_items_sum_seller =
       @selected_items_grouped.find { |s| s[0] == @seller.id }
 
-    @selected_items_by_seller =
-      @selected_items.where('items.user_id' => @seller.id)
+    @conversation = Conversation.where(sender_id: current_user.id, recipient_id: @seller.id).first
   end
 end

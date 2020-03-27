@@ -18,14 +18,17 @@
         <%= "Membre depuis le :" %>
         <%= "#{@seller.member_since}" %>
       </h6>
-      <%#= button_to "Contacter #{@seller.first_name} !",
-        {
-          :controller => "conversations",
-          :action => "create",
-          :sender_id => current_user.id,
-          :recipient_id=> @seller.id
-        }, :method=>:post, class: "btn btn-classic btn-sm border-yellow"
-      %>
+      <%# unless @conversation %>
+        <%#= "#{@conversation}" %>
+        <%#= button_to "Contacter #{@seller.first_name} !",
+          {
+            :controller => "conversations",
+            :action => "create",
+            :sender_id => current_user.id,
+            :recipient_id=> @seller.id
+          }, :method=>:post, class: "btn btn-classic btn-sm border-yellow"
+        %>
+      <%# end %>
     </div>
     <div class="seller-infos">
       <h6><%= "Magasin : #{@seller.shop_size} cartes" %></h6>
