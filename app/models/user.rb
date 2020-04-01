@@ -12,6 +12,17 @@ class User < ApplicationRecord
   has_many :conversations
   has_many :messages
 
+  def default_buyer(current_user)
+    User.find(buyers(current_user).first)
+  end
+
+  def has_buyers(current_user)
+    buyers(current_user).count > 0
+  end
+
+  def buyers(current_user)
+    Conversation.joins(:messages).where(recipient_id: current_user.id).uniq.pluck(:sender_id)
+  end
 
   def has_sellers
     selected_items.count > 0
@@ -36,4 +47,5 @@ class User < ApplicationRecord
       "non"
     end
   end
+
 end

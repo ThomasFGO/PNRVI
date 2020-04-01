@@ -25,7 +25,14 @@
           <% end %>
         </div>
         <div class="ref_card-buttons">
-          <%= link_to "Vendre", new_ref_card_card_path(@ref_card, type: "Shop_item"), :class => "btn btn-classic btn-sm border-yellow"%>
+          <% if current_user %>
+            <%= link_to "Vendre", new_ref_card_card_path(@ref_card, type: "Shop_item"), :class => "btn btn-classic btn-sm border-yellow"%>
+          <% else  %>
+            <p>Vous devez vous inscrire </br>
+               pour ajouter cette carte </br>
+               dans votre panier...
+            </p>
+          <% end %>
         </div>
       </div>
     </div>

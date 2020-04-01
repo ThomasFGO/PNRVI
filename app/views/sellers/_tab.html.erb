@@ -1,10 +1,10 @@
 <div class="tab">
-  <div class="tab-item">
+  <div class="tab-item <%= active_class(conversation_seller_path(@seller)) %>">
     <%= link_to "Conversation",
-      conversation_seller_path(@seller)
+      conversation_seller_path(@seller, anchor: "new_message")
     %>
   </div>
-  <div class="tab-item">
+  <div class="tab-item <%= active_class(panier_seller_path(@seller)) %>">
     <%= link_to "Panier",
       panier_seller_path(@seller)
     %>

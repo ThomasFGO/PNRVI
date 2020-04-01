@@ -1,0 +1,40 @@
+.messages-container {
+  .message-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.message-content {
+  border-radius: 5px;
+  padding: 5px 10px;
+  max-width: 70%;
+  .message-header {
+    font-size: 12px;
+  }
+}
+.current_user {
+  background-color: $yellow;
+  align-self: flex-end;
+}
+.other_user {
+  background-color: $light-gray;
+  align-self: flex-start;
+}
+
+
+.new_message-content {
+  text-align: right;
+}
+.new_message-body textarea {
+  background-color: $yellow;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.new_conversation {
+  text-align: center;
+}

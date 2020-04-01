@@ -12,7 +12,9 @@ class ConversationsController < ApplicationController
       @conversation = Conversation.create!(conversation_params)
     end
 
-    redirect_to root_path
+    if @conversation.save && @conversation.sender == current_user
+      redirect_to conversation_seller_path(@conversation.recipient)
+    end
   end
 
   private

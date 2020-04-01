@@ -27,7 +27,13 @@
               %>
             <% end %>
           </div>
-
+          <div>
+            <% if current_user.has_buyers(current_user)  %>
+            <%= link_to "Demandes (#{current_user.buyers(current_user).count})",
+                demande_buyer_path(current_user.default_buyer(current_user))
+              %>
+            <% end %>
+          </div>
           <%= link_to "Déconnexion", destroy_user_session_path, method: :delete %>
         </div>
       </div>

@@ -1,9 +1,15 @@
 .tab {
+  position: sticky !important; /* !important to override Gmaps inline CSS */
+  top: 0 !important;
+  z-index: 1;
   display: flex;
   .tab-item {
     background-color: $yellow;
     width: 50%;
     text-align: center;
     margin-bottom: 10px;
+  }
+  .active {
+    font-weight: bold;
   }
 }

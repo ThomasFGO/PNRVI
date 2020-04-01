@@ -14,6 +14,12 @@ Rails.application.routes.draw do
           get 'conversation'
         end
       end
+      resources :buyers do
+        member do
+          get 'demande'
+          get 'conversation'
+        end
+      end
       resources :selected_items, only: [ :create ]
     end
   end

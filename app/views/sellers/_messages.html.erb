@@ -1,21 +1,60 @@
-<div class="messages_and_items-content">
-  <%= render partial: "tab" %>
-  <% if @conversation %>
-
+<% if @conversation %>
+  <div class="messages-container">
     <% @messages.each do |message| %>
-      <%=  message.body %>
-      <%=  message.user_id %>
+      <% if message.body %>
+        <% if message.user_id == current_user.id %>
+          <div class="message-box">
+            <div class="message-content current_user">
+              <div class="message-header">
+                <% user = User.find(message.user_id) %>
+                <%= message.message_time %>
+              </div>
+              <div class="message-body">
+                <%= message.body %>
+              </div>
+            </div>
+          </div>
+        <% else %>
+          <div class="message-box">
+            <div class="message-content other_user">
+              <div class="message-header">
+                <% user = User.find(message.user_id) %>
+                <%= user.first_name %>
+                <%= message.message_time %>
+              </div>
+              <div class="message-body">
+                <%= message.body %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
     <% end %>
 
     <%= form_for @message do |f| %>
-      <div class="new_message-body">
-        <%= f.hidden_field :conversation_id, :value => @conversation.id %>
-        <%= f.text_area :body, placeholder: "Votre message ..." %>
-        <%= f.text_field :user_id, value: current_user.id, type: "hidden"  %>
-      </div>
-      <div class="button">
-        <%= f.submit "Envoyer", class:'btn btn-success' %>
+      <div class="message-box">
+        <div class="new_message-content">
+          <div class="new_message-body", id="new_message">
+            <%= f.hidden_field :conversation_id, :value => @conversation.id %>
+            <%= f.text_area :body, placeholder: "Votre message ..." %>
+            <%= f.text_field :user_id, value: current_user.id, type: "hidden"  %>
+          </div>
+          <div class="button">
+            <%= f.submit "Envoyer", class:'btn btn-success' %>
+          </div>
+        </div>
       </div>
     <% end %>
-  <% end %>
-</div>
+  </div>
+<% else %>
+  <div class="new_conversation">
+    <%= button_to "Contacter #{@seller.first_name} !",
+      {
+        :controller => "conversations",
+        :action => "create",
+        :sender_id => current_user.id,
+        :recipient_id=> @seller.id
+      }, :method=>:post, class: "btn btn-classic btn-sm border-yellow"
+    %>
+  </div>
+<% end %>

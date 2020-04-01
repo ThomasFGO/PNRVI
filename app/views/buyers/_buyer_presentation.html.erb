@@ -1,8 +1,8 @@
 <div class="seller_presentation-content">
   <div class="items_seller">
-    <div>Mon panier :</div>
+    <div>Sa commande :</div>
     <div>
-      <%= "#{@selected_items_sum_seller[3]} cartes / #{@selected_items_sum_seller[4]}€"%>
+      <%= "#{@order_items_sum_buyer[3]} cartes / #{@order_items_sum_buyer[4]}€"%>
     </div>
   </div>
   <div class="seller-content">
@@ -12,22 +12,22 @@
         <div class="seller-avatar"></div>
       </div>
       <h4>
-        <%= "#{@seller.first_name} #{@seller.last_name}" %>
+        <%= "#{@buyer.first_name} #{@buyer.last_name}" %>
       </h4>
       <h6>
         <%= "Membre depuis le :" %>
-        <%= "#{@seller.member_since}" %>
+        <%= "#{@buyer.member_since}" %>
       </h6>
     </div>
     <div class="seller-infos">
-      <h6><%= "Magasin : #{@seller.shop_size} cartes" %></h6>
+      <h6><%#= "Magasin : #{@seller.shop_size} cartes" %></h6>
       <h6>
-        <%= "Envoi :" %>
-        <%= "#{@seller.boolean_response(@seller.shipment)}" %>
+        <%#= "Envoi :" %>
+        <%#= "#{@seller.boolean_response(@seller.shipment)}" %>
       </h6>
       <h6>
-        <%= "Remise en mains propres :" %>
-        <%= "#{@seller.boolean_response(@seller.shipment)}" %>
+        <%#= "Remise en mains propres :" %>
+        <%#= "#{@seller.boolean_response(@seller.shipment)}" %>
       </h6>
     </div>
   </div>

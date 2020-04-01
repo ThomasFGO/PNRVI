@@ -1,0 +1,22 @@
+<div class="sellers-content">
+  <div class="sellers-header">
+    <div>Demandes en cours :</div>
+    <div>
+      <%= "#{@order_items_grouped.count}"%>
+    </div>
+  </div>
+  <div class="sellers-body">
+    <% @order_items_grouped.each do |buyer| %>
+      <div class="seller-card">
+        <div class="seller-name">
+          <%= link_to "#{buyer[1]} #{buyer[2]}",
+            demande_buyer_path(buyer[0])
+          %>
+        </div>
+        <div class="seller-selected_items">
+          <%= "#{buyer[3]} cartes / #{buyer[4]}€"%>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="tab">
+  <div class="tab-item <%= active_class(conversation_buyer_path(@buyer)) %>">
+    <%= link_to "Conversation",
+      conversation_buyer_path(@buyer, anchor: "new_message")
+    %>
+  </div>
+  <div class="tab-item <%= active_class(demande_buyer_path(@buyer)) %>">
+    <%= link_to "Demande",
+      demande_buyer_path(@buyer)
+    %>
+  </div>
+</div>
