@@ -33,8 +33,8 @@ en:
   hello: "Hello world"
   activerecord:
     attributes:
-      shop_card:
-        price: Le prix
-        ph_one: Une photo recto
+      item:
+        value: Le prix
+        ph_one: Une photo du recto de
 
 

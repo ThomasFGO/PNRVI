@@ -7,6 +7,7 @@ class Item < ApplicationRecord
   scope :search_items, -> { where(type: 'Search_item') }
   scope :shop_items, -> { where(type: 'Shop_item') }
   has_many :selected_items, dependent: :destroy
+  validates :type, presence: true
 
   def condition_label
     {

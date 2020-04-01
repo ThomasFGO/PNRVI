@@ -34,11 +34,12 @@ class CardsController < ApplicationController
     @card.ref_card = @ref_card
     @card.item.user = current_user
     @card.item.itemable = @card
+    @type = @card.item.type
 
     if @card.save
       redirect_to list_path(@card.ref_card.list, :anchor => "#{@card.ref_card_id}")
     else
-      redirect_to new_ref_card_card_path(@card.ref_card, type: @type), alert: @card.errors.full_messages
+      redirect_to new_ref_card_card_path(@card.ref_card, type: @type),alert: @card.errors.full_messages
     end
   end
 
