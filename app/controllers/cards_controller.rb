@@ -2,8 +2,9 @@ class CardsController < ApplicationController
   #before_action :authenticate_user!, except: :show
 
   def index
-    @shop_cards = Item.where(itemable_type: 'Card', type: 'Shop_item').where.not(user: current_user)
-    @pagy, @shop_cards = pagy(@shop_cards, size: [1,0,0,1])
+    shop_cards = Item.where(itemable_type: 'Card', type: 'Shop_item').where.not(user: current_user)
+    @shop_cards_count = shop_cards.count
+    @pagy, @shop_cards = pagy(shop_cards, size: [1,0,0,1])
   end
 
   def show
