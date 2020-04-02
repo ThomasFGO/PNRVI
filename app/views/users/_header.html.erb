@@ -1,4 +1,21 @@
 <div class="user-header">
+  <%= form_for(shop_user_path, method: :get)  do %>
+      <div class="sort-form">
+        <div class="sort_form-intro">Trier les cartes :</div>
+        <div class="sort_form-body">
+        <%= select_tag :scope,
+        options_for_select([
+          ["les moins chères", "lower_to_higher_price"],
+          ["les plus chères", "higher_to_lower_price"],
+          ["en meilleur état", "best_condition"],
+          ["en moins bon état", "worst_condition"],
+          ["les plus récentes", "recent"]])%>
+        </div>
+        <div class="sort_form-submit">
+          <%= submit_tag 'Valider', class: "btn btn-classic btn-sm border-yellow"%>
+        </div>
+      </div>
+    <% end %>
   <h3>
     <% unless @user == current_user %>
       <%= "#{@user.first_name}" %>

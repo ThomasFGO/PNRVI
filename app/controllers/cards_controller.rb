@@ -1,10 +1,16 @@
 class CardsController < ApplicationController
-  #before_action :authenticate_user!, except: :show
+  before_action :authenticate_user!, except: [:show, :index]
 
   def index
-    shop_cards = Item.where(itemable_type: 'Card', type: 'Shop_item').where.not(user: current_user)
-    @shop_cards_count = shop_cards.count
-    @pagy, @shop_cards = pagy(shop_cards, size: [1,0,0,1])
+    @shop_cards = Item.shop_items.where(itemable_type: 'Card').where.not(user: current_user)
+    @shop_cards_count = @shop_cards.count
+    @scope = params[:scope]
+    if @scope
+      @shop_cards = @shop_cards.public_send(params[:scope])
+    else
+      @shop_cards = @shop_cards.recent
+    end
+    @pagy, @shop_cards = pagy(@shop_cards, size: [1,0,0,1])
   end
 
   def show

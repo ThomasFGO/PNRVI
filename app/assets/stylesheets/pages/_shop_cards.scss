@@ -1,6 +1,24 @@
+.sort-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .first-part {
+    display: flex;
+    justify-content: center;
+  }
+  .sort_form-intro {
+    color: $yellow;
+  }
+  .sort_form-body {
+    margin: 0px 10px;
+  }
+  .sort_form-submit {
+
+  }
+}
+
 .shop_cards-header {
   color: $yellow;
-  //display: flex;
   justify-content: center;
   align-items: baseline;
   margin-bottom: 10px;
@@ -16,6 +34,13 @@
     .more_cards {
       text-align: center;
       margin-left: 0px;
+    }
+  }
+  .sort-form {
+    display: flex;
+    flex-direction: column;
+    .sort_form-body {
+      margin: 0px 0px;
     }
   }
 }
