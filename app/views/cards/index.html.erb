@@ -6,11 +6,12 @@
           <div class="sort_form-body">
           <%= select_tag :scope,
           options_for_select([
+            ["les plus récentes", "recent"],
             ["les moins chères", "lower_to_higher_price"],
             ["les plus chères", "higher_to_lower_price"],
             ["en meilleur état", "best_condition"],
-            ["en moins bon état", "worst_condition"],
-            ["les plus récentes", "recent"]])%>
+            ["en moins bon état", "worst_condition"]
+            ])%>
           </div>
         </div>
         <div class="second-part">
@@ -29,19 +30,19 @@
     <% @shop_cards.each do |shop_card| %>
       <%= link_to card_path(shop_card) do %>
         <div class="card-element shop-element">
-          <%= link_to card_path(shop_card.itemable) do %>
+          <%= link_to card_path(shop_card) do %>
             <div class="visual">
-              <%= cl_image_tag shop_card.ph_one,
+              <%= cl_image_tag shop_card.item.ph_one,
               :gravity=>"auto", :crop=>"fill",  :transformation=>[
               {:width=>500, :crop=>"scale"},
-              {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{shop_card.user.first_name} #{shop_card.user.last_name}"},
+              {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{shop_card.item.user.first_name} #{shop_card.item.user.last_name}"},
                :gravity=>"south", :y=>100}
               ], class: "mini" %>
             </div>
           <% end %>
           <div class="shop-infos">
             <div class="price">
-              <%= "#{shop_card.value} €" %>
+              <%= "#{shop_card.item.value} €" %>
             </div>
           </div>
         </div>

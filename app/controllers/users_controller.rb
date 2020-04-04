@@ -5,7 +5,7 @@ class UsersController < ApplicationController
 
   def shop
     @user = User.find(params[:id])
-    @shop_cards = Item.shop_items.where(itemable_type: 'Card', user: @user)
+    @shop_cards = Card.joins(:item).where(items: {type: 'Shop_item', user: @user}).includes(:item)
     @shop_cards_count = @shop_cards.count
     @shop_cards_value = @shop_cards.sum(:value)
     @scope = params[:scope]
@@ -15,5 +15,7 @@ class UsersController < ApplicationController
       @shop_cards = @shop_cards.recent
     end
     @pagy, @shop_cards = pagy(@shop_cards, size: [1,0,0,1])
+
+    #@shop_cards_infos = @shop_cards.pluck("cards.id, items.ph_one, items.value")
   end
 end

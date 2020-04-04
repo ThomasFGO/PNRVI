@@ -13,7 +13,7 @@
           <div class="bloc-header"><%= bloc.fr_name %></div>
 
           <div class="bloc-lists">
-            <% bloc.lists.order("id ASC").each do |list| %>
+            <% bloc.lists.each do |list| %>
               <div class="list-card">
                 <%= link_to list_path(list) do %>
                   <%= cl_image_tag ("lists/fr_logos/poknroll_#{list.code}_fr_logo.png"), class: "logo-list-mini" %>

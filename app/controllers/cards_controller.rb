@@ -2,11 +2,11 @@ class CardsController < ApplicationController
   before_action :authenticate_user!, except: [:show, :index]
 
   def index
-    @shop_cards = Item.shop_items.where(itemable_type: 'Card').where.not(user: current_user)
+    @shop_cards = Card.joins(:item).where(items: {type: 'Shop_item'}).where.not(items: {user: current_user}).includes(item: :user)
     @shop_cards_count = @shop_cards.count
     @scope = params[:scope]
     if @scope
-      @shop_cards = @shop_cards.public_send(params[:scope])
+      @shop_cards = @shop_cards.joins(:ref_card).public_send(params[:scope])
     else
       @shop_cards = @shop_cards.recent
     end
@@ -24,6 +24,7 @@ class CardsController < ApplicationController
     @item = @card.build_item
     @type = params[:type]
 
+    #TODO replacer dans le model Item
     @label_value =
       if @type == "Shop_item"
         ["Prix", "au magasin"]
