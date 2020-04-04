@@ -1,40 +1,40 @@
-.new_search_card-container {
+// .new_search_card-container {
 
-}
+// }
 
-.new_search_card-header {
-  text-align: center;
-  color: $yellow;
-}
+// .new_search_card-header {
+//   text-align: center;
+//   color: $yellow;
+// }
 
 
-.new_search_card-body {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-}
+// .new_search_card-body {
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: flex-end;
+// }
 
-@media all and (max-width: 500px) {
-  .new_search_card-body {
-    display: block;
-  }
-}
+// @media all and (max-width: 500px) {
+//   .new_search_card-body {
+//     display: block;
+//   }
+// }
 
-.search_card-visual {
+// .search_card-visual {
 
-}
+// }
 
-.search-form {
-  display: flex;
-  //flex-wrap: nowrap;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 10px 10px;
-  background-color: $yellow;
-  color: $blue;
-  border-radius: 10px;
-  box-shadow: 1px 1px black;
-  .search-submit {
-    text-align: center;
-  }
-}
+// .search-form {
+//   display: flex;
+//   //flex-wrap: nowrap;
+//   flex-direction: column;
+//   justify-content: space-around;
+//   padding: 10px 10px;
+//   background-color: $yellow;
+//   color: $blue;
+//   border-radius: 10px;
+//   box-shadow: 1px 1px black;
+//   .search-submit {
+//     text-align: center;
+//   }
+// }

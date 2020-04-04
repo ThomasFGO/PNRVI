@@ -3,13 +3,16 @@ class CardsController < ApplicationController
 
   def index
     @shop_cards = Card.joins(:item).where(items: {type: 'Shop_item'}).where.not(items: {user: current_user}).includes(item: :user)
-    @shop_cards_count = @shop_cards.count
     @scope = params[:scope]
-    if @scope
-      @shop_cards = @shop_cards.joins(:ref_card).public_send(params[:scope])
+    @name = params[:name]
+    if @scope.present? && @name.present?
+      @shop_cards = @shop_cards.joins(:ref_card).public_send(@scope).search_by_name(@name)
+    elsif @scope.present?
+      @shop_cards = @shop_cards.joins(:ref_card).public_send(@scope)
     else
       @shop_cards = @shop_cards.recent
     end
+    @shop_cards_count = @shop_cards.count
     @pagy, @shop_cards = pagy(@shop_cards, size: [1,0,0,1])
   end
 

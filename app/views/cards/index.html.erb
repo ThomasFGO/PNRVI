@@ -2,28 +2,36 @@
     <%= form_for(cards_path, method: :get)  do %>
       <div class="sort-form">
         <div class="first-part">
-          <div class="sort_form-intro">Trier les cartes :</div>
-          <div class="sort_form-body">
-          <%= select_tag :scope,
-          options_for_select([
-            ["les plus récentes", "recent"],
-            ["les moins chères", "lower_to_higher_price"],
-            ["les plus chères", "higher_to_lower_price"],
-            ["en meilleur état", "best_condition"],
-            ["en moins bon état", "worst_condition"]
-            ])%>
+          <div class="input-content">
+            <div class="form-label">Voir les cartes</div>
+            <%= select_tag :scope,
+            options_for_select([
+              ["les plus récentes", "recent"],
+              ["les moins chères", "lower_to_higher_price"],
+              ["les plus chères", "higher_to_lower_price"],
+              ["en meilleur état", "best_condition"],
+              ["en moins bon état", "worst_condition"]
+              ]), class: "form-input form-select"%>
+          </div>
+          <div class="input-content">
+            <div class="form-label">Rechercher</div>
+            <%= text_field_tag :name,
+            params[:name],
+            class: "form-input",
+            placeholder: "Nom de carte..."
+            %>
           </div>
         </div>
         <div class="second-part">
-          <div class="sort_form-submit">
-            <%= submit_tag 'Valider', class: "btn btn-classic btn-sm border-yellow"%>
+          <div class="form-submit">
+            <%= submit_tag 'Trier', class: "btn btn-classic btn-sm border-yellow"%>
           </div>
         </div>
       </div>
     <% end %>
   <% if @shop_cards_count > 0 %>
     <div class="user-header">
-      <h4><%= "#{@shop_cards_count} cartes en vente :" %></h4>
+      <h4><%= "#{@shop_cards_count} cartes disponibles :" %></h4>
     </div>
 
   <div class="visuals-container">
