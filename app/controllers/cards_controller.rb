@@ -2,16 +2,40 @@ class CardsController < ApplicationController
   before_action :authenticate_user!, except: [:show, :index]
 
   def index
-    @shop_cards = Card.joins(:item).where(items: {type: 'Shop_item'}).where.not(items: {user: current_user}).includes(item: :user)
-    @scope = params[:scope]
-    @name = params[:name]
-    if @scope.present? && @name.present?
-      @shop_cards = @shop_cards.joins(:ref_card).public_send(@scope).search_by_name(@name)
-    elsif @scope.present?
-      @shop_cards = @shop_cards.joins(:ref_card).public_send(@scope)
-    else
-      @shop_cards = @shop_cards.recent
-    end
+    search_cards = Card.joins(:item, :ref_card).search.where(items: {user: current_user})
+    @search_cards_infos = search_cards.pluck("ref_cards.id, items.value, version, language, condition")
+    @match_cards =
+      Card.shop
+        .joins(:item)
+        .where.not("items.user": current_user)
+        .joins(:ref_card)
+        .select do |shop_card|
+          @search_cards_infos.find do |infos|
+            infos[0] == shop_card.ref_card_id &&
+            infos[1] >= shop_card.item.value &&
+            infos[2] == shop_card.version &&
+            infos[3] == shop_card.item.language &&
+            infos[4].to_i <= shop_card.item.condition.to_i
+        end
+      end
+    @match_cards_ids = @match_cards.pluck(:id)
+
+    shop_cards =
+      if params[:match].present?
+        Card.where(id: @match_cards_ids)
+      else
+        Card.joins(:item).shop.where.not(items: {user: current_user})
+      end
+
+    @shop_cards =
+      if params[:scope].present? && params[:name].present?
+        shop_cards.joins(:ref_card).public_send(params[:scope]).search_by_name(params[:name])
+      elsif params[:scope].present?
+        shop_cards.joins(:ref_card).public_send(params[:scope])
+      else
+        shop_cards
+      end
+
     @shop_cards_count = @shop_cards.count
     @pagy, @shop_cards = pagy(@shop_cards, size: [1,0,0,1])
   end

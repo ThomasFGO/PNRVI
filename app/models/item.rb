@@ -6,7 +6,7 @@ class Item < ApplicationRecord
   mount_uploader :ph_two, PhotoUploader
   validates :type, presence: true
   #scope :collection_items, -> { where(type: 'Collection_item') }
-  #scope :search_items, -> { where(type: 'Search_item') }
+  scope :search_items, -> { where(type: 'Search_item') }
   scope :shop_items, -> { where(type: 'Shop_item') }
   scope :recent, -> { order(created_at: :desc) }
   scope :lower_to_higher_price, -> { order(value: :asc) }

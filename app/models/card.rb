@@ -7,6 +7,8 @@ class Card < ApplicationRecord
   scope :higher_to_lower_price, ->{ joins(:item).merge(Item.higher_to_lower_price) }
   scope :best_condition, ->{ joins(:item).merge(Item.best_condition) }
   scope :worst_condition, ->{ joins(:item).merge(Item.worst_condition) }
+  scope :shop, ->{ joins(:item).merge(Item.shop_items) }
+  scope :search, ->{ joins(:item).merge(Item.search_items) }
   include PgSearch::Model
   pg_search_scope :search_by_name,
     associated_against: { ref_card: [ :fr_name ]},

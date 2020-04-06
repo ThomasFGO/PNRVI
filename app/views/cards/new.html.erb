@@ -2,7 +2,14 @@
   <div class="col-md-offset-1 col-md-10">
     <div class="new_shop_card-content">
       <div class="new_shop_card-header">
-        <h4>Nouvelle annonce</h4>
+        <h4>
+          Nouvelle
+          <% if @type == "Search_item" %>
+            recherche
+          <% elsif @type == "Shop_item"  %>
+            annonce
+          <% end %>
+        </h4>
       </div>
       <div class="new_shop_card-body">
         <div class="new_shop_card-visual">
