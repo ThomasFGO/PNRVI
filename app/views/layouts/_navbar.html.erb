@@ -34,6 +34,13 @@
               %>
             <% end %>
           </div>
+          <div>
+            <% if current_user.items.search.count > 0 %>
+            <%= link_to "Recherches",
+                search_cards_path(current_user)
+              %>
+            <% end %>
+          </div>
           <%= link_to "Déconnexion", destroy_user_session_path, method: :delete %>
         </div>
       </div>

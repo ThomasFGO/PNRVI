@@ -30,7 +30,7 @@
                   <div class="language">
                     <%= item.label(:language, "Langue") %>
                     <%= item.select :language, options_for_select(
-                      ["français", "anglais", "allemand", "italien", "espagnol"],
+                      ["français", "anglais"],
                       ["français"]) %>
                   </div>
 
@@ -63,7 +63,7 @@
             <% end %>
             <div class="version">
               <%= f.label(:version, "Version") %>
-              <%= f.select :version, options_for_select(["Normale", "Holographique", "Édition1/Reverse"],["Normale"]) %>
+              <%= f.select :version, options_for_select(["Non Holographique", "Holographique", "Édition1/Reverse"],["Non Holographique"]) %>
             </div>
             <div>
               <%= f.label(:grading, "Carte gradée ?") %>

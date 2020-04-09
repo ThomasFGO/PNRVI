@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   resources :users, only: [ :show ] do
     member do
       get 'shop'
+      resources :search_cards, only: [ :index ]
       resources :sellers do
         member do
           get 'panier'

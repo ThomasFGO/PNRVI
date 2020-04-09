@@ -47,68 +47,74 @@
   background-color: $yellow;
 }
 
+th {
+  font-size: 15px;
+}
+td {
+  font-size: 70%;
+}
+
 @media all and (min-width: 500px) {
+  .mobile {
+    display: none;
+  }
   #version {
-    width: 8%;
-    font-size: 70%;
+    width: 18%;
   }
   #number {
     width: 8%;
-    font-size: 70%;
   }
   #type {
     width: 8%;
-    font-size: 70%;
   }
   #rarety {
     width: 8%;
-    font-size: 70%;
   }
   #name {
-    width: 44%;
+    width: 34%;
     font-size: 80%;
     text-align: left;
   }
   #language {
     width: 12%;
-    font-size: 70%;
   }
   #close {
     width: 12%;
-    font-size: 70%;
   }
 }
 
 @media all and (max-width: 500px) {
+  .desktop {
+    display: none;
+  }
+  th {
+  font-size: 10px;
+  }
+  td {
+    font-size: 10px;
+  }
   #version {
-    width: 8%;
-    font-size: 70%;
+    width: 18%;
   }
   #number {
     width: 8%;
-    font-size: 70%;
   }
   #type {
     width: 8%;
-    font-size: 70%;
   }
   #rarety {
     width: 8%;
-    font-size: 70%;
   }
   #name {
-  width: 50%;
-  font-size: 70%;
+  width: 40%;
   text-align: left;
   }
 
   #language {
     width: 10%;
-    font-size: 70%;
   }
   #close {
     width: 8%;
-    font-size: 70%;
   }
   .list-header_mini {
     width: 100%;

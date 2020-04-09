@@ -1,0 +1,73 @@
+<div class="container">
+  <%#= render partial: "search_cards/header" %>
+  <div class="search_cards-container">
+    <div class="dropdown">
+
+        <div class="btn btn-secondary dropdown-toggle list-header_mini" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div id="how_many">
+            <%= "#{@search_cards.count} cartes recherchées" %>
+          </div>
+        </div>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <table>
+
+          <tr class="dropdown-item header-item">
+            <th id="version">version</th>
+            <th id="number">n°</th>
+            <!-- <th id="type">type</th> -->
+            <th id="condition">état minimum</th>
+            <th id="value">budget max</th>
+            <th id="rarety">rareté</th>
+            <th id="name">nom</th>
+            <th id="language">langue</th>
+            <!-- <th id="close">retirer</th> -->
+          </tr>
+
+          <% @search_cards.order("ref_card_id asc").each do |search_card| %>
+            <tr class="dropdown-item">
+              <td class="desktop" id="version">
+                <%= search_card.version_label[0] %>
+              </td>
+              <td class="mobile" id="version">
+                <%= search_card.version_label[1] %>
+              </td>
+              <td id="number">
+                <%= search_card.ref_card.number %>
+              </td>
+              <!-- <td id="type"> -->
+                <%#= search_card.ref_card.energy_icon %>
+                <%#= "wip" %>
+                <%#= image_tag("energy/#{search_card.ref_card.energy_icon}.png", height: "15") %>
+              <!-- </td> -->
+              <td id="condition">
+                <%= search_card.item.condition_name %>
+              </td>
+              <td id="value">
+                <% value = search_card.item.value %>
+                <% if value.nil? %>
+                  <%= "NC" %>
+                <% else %>
+                  <%= value %>
+                <% end %>
+              </td>
+              <td id="rarety">
+                <%= image_tag("rarety_types/#{search_card.ref_card.rarety_icon}.png", height: "10") %>
+              </td>
+              <td id="name">
+                <%= search_card.ref_card.right_name %>
+              </td>
+              <td id="language">
+                <%= image_tag("flag/#{search_card.item.flag}_flag.png", height: "10") %>
+              </td>
+              <!-- <td id="close"> -->
+                <%#= link_to search_card_path(search_card), method: :delete do %>
+                  <%#= image_tag("icone_poubelle.png", class: "icone-delete") %>
+                <%# end %>
+              <!-- </td> -->
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

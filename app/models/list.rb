@@ -4,6 +4,8 @@ class List < ApplicationRecord
   has_many :collection_cards, :through => :ref_cards
   has_many :search_cards, :through => :ref_cards
   has_many :shop_cards, :through => :ref_cards
+  scope :jap, ->{ joins(:bloc).merge(Bloc.jap) }
+  scope :occi, ->{ joins(:bloc).merge(Bloc.occi) }
 
   def secrets_count
     ref_cards.where(rarety_type: "Secret").count

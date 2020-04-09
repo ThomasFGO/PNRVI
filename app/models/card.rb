@@ -8,7 +8,7 @@ class Card < ApplicationRecord
   scope :best_condition, ->{ joins(:item).merge(Item.best_condition) }
   scope :worst_condition, ->{ joins(:item).merge(Item.worst_condition) }
   scope :shop, ->{ joins(:item).merge(Item.shop_items) }
-  scope :search, ->{ joins(:item).merge(Item.search_items) }
+  scope :search, ->{ joins(:item).merge(Item.search) }
   include PgSearch::Model
   pg_search_scope :search_by_name,
     associated_against: { ref_card: [ :fr_name ]},
@@ -16,4 +16,18 @@ class Card < ApplicationRecord
   pg_search_scope :search_by_artist,
     associated_against: { ref_card: [ :artist ]},
     using: { tsearch: { prefix: true }}
+
+  def version_label
+    if version == "Holographique"
+      ["Holographique", "Holo"]
+    elsif version == "Non Holographique"
+      ["Non Holographique", "Non Holo"]
+    elsif version == "Édition1/Reverse"
+      ["Édition1/Reverse", "Éd1/Reverse"]
+    elsif version == "Édition 1"
+      ["Édition1", "Éd1"]
+    elsif version == "Reverse"
+      ["Reverse", "Reverse"]
+    end
+  end
 end
