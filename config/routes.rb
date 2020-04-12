@@ -24,6 +24,7 @@ Rails.application.routes.draw do
       resources :selected_items, only: [ :create ]
     end
   end
+  resources :ref_cards, only: [ :index ]
   resources :jap_lists, only: [ :index ]
   get '/series' => 'blocs#index'
   resources :lists, only: [ :show ]

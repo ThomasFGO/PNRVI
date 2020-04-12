@@ -2,6 +2,27 @@ class RefCard < ApplicationRecord
   belongs_to :energy_type
   belongs_to :list
   has_many :cards, dependent: :destroy
+  scope :jap, ->{ joins(:list).merge(List.jap) }
+  scope :occi, ->{ joins(:list).merge(List.occi) }
+  scope :pokemon, ->{ where(super_type: "Pokémon") }
+  scope :filter_by_bloc, -> (name) { joins(list: :bloc).where("blocs.fr_name ILIKE ?", "#{name}%")}
+  scope :pokedex_order, -> { order(pokedex_number: :asc) }
+  scope :first_generation, -> { pokedex_order.where(pokedex_number: (1..151).to_a) }
+  scope :second_generation, -> { pokedex_order.where(pokedex_number: (152..251).to_a) }
+  scope :third_generation, -> { pokedex_order.where(pokedex_number: (252..386).to_a) }
+  scope :fourth_generation, -> { pokedex_order.where(pokedex_number: (387..493).to_a) }
+  scope :fifth_generation, -> { pokedex_order.where(pokedex_number: (494..649).to_a) }
+  scope :sixth_generation, -> { pokedex_order.where(pokedex_number: (650..721).to_a) }
+  scope :seventh_generation, -> { pokedex_order.where(pokedex_number: (722..809).to_a) }
+  scope :eighth_generation, -> { pokedex_order.where(pokedex_number: (809..890).to_a) }
+  include PgSearch::Model
+  pg_search_scope :search_by_list,
+    associated_against: { list: [ :fr_name ]},
+    using: { tsearch: { prefix: true }}
+  pg_search_scope :filter_by_artist,
+    against: :artist,
+    using: { tsearch: { prefix: true }}
+
 
   def right_url
     if fr_url.present?

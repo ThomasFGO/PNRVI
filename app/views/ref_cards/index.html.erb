@@ -1,0 +1,95 @@
+<div class="container">
+  <%= form_for(search_cards_path(current_user), method: :get)  do %>
+    <div class="sort-form">
+      <div class="first-part">
+        <div class="input-content">
+          <div class="form-label">Sélectionnez une génération de Pokémon</div>
+          <%= select_tag :generation,
+            options_for_select([
+              ["Toutes", nil],
+              ["1ère", "first_generation"],
+              ["2nde", "second_generation"],
+              ["3ème", "third_generation"],
+              ["4ème", "fourth_generation"],
+              ["5ème", "fifth_generation"],
+              ["6ème", "sixth_generation"],
+              ["7ème", "seventh_generation"],
+              ["8ème", "eighth_generation"]],
+              params[:generation] ), class: "form-input form-select"
+          %>
+        </div>
+        <div class="input-content">
+          <div class="form-label">Rechercher par bloc </div>
+          <%= select_tag :bloc,
+            options_for_select([
+              ["Tous", nil],
+              ["Soleil et Lune"],
+              ["XY"],
+              ["Noir et Blanc"],
+              ["HeartGold & SoulSilver"],
+              ["Platine"],
+              ["Diamant et Perle"],
+              ["Ex"],
+              ["E-Card"],
+              ["Neo"],
+              ["Gym"],
+              ["Base"],
+              ["POP"]],
+              params[:bloc] ), class: "form-input form-select"
+          %>
+        </div>
+
+        <div class="input-content">
+          <div class="form-label">Rechercher par illustrateur </div>
+          <%= select_tag :artist,
+            options_for_select([
+              ["Tous", nil],
+              ["Asako Ito"],
+              ["kawayoo"],
+              ["match"],
+              ["Yuka Morii"],
+              ["Toyste Beach"],
+              ["Shin Nagasawa"],
+              ["Naoki Saito"],
+              ["Tomokazu Komiya"],
+              ["Naoyo Kimura"],
+              ["Sumiyoshi Kizuki"],
+              ["Hajime Kusajima"],
+              ["Keiji Kinebuchi"],
+              ["Midori Harada"],
+              ["Masakazu Fukuda"],
+              ["Atsuko Nishida"],
+              ["Ryo Ueda"],
+              ["Kouki Saitou"],
+              ["Kagemaru Himeno"],
+              ["Mitsuhiro Arita"],
+              ["5ban Graphics"],
+              ["Ken Sugimori"]],
+              params[:artist] ), class: "form-input form-select"
+          %>
+        </div>
+      </div>
+      <div class="second-part">
+        <div class="form-submit">
+          <%= submit_tag 'Trier', class: "btn btn-classic btn-sm border-yellow"%>
+        </div>
+      </div>
+    </div>
+  <% end %>
+  <% if @ref_cards.size > 0 %>
+    <div class="visuals-container">
+      <% @ref_cards.each do |ref_card| %>
+        <div class="card-element", id="<%= ref_card.id %>" >
+          <%= link_to ref_card_path(ref_card) do %>
+            <%= image_tag(ref_card.right_url[0], class: "mini") %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+    <div class="text-center"><%== pagy_bootstrap_nav(@pagy) %></div>
+  <% else %>
+    <div class="text-center">
+      <p>Aucune carte ne correspond à votre recherche</p>
+    </div>
+  <% end %>
+</div>
