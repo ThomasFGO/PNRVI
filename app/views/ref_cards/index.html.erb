@@ -72,11 +72,11 @@
           <%= select_tag :rarety_type,
             options_for_select([
               ["Toutes", nil],
-              ["Common"],
-              ["Uncommon"],
+              ["Commune", "Common"],
+              ["Peu Commune", "Uncommon"],
               ["Rare"],
-              ["Rare Holo"],
-              ["Ultra"]],
+              ["Holographique", "Rare Holo"],
+              ["Ultra Rare", "Ultra"]],
               params[:rarety_type] ), class: "form-input form-select"
           %>
         </div>
