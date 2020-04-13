@@ -1,10 +1,5 @@
 class RefCardsController < ApplicationController
   def index
-    if params[:bloc].present?
-      sql_query = " \
-        blocs.fr_name ILIKE :query \
-      "
-    end
     @ref_cards = RefCard.occi.pokemon.pokedex_order
 
     scopes_params(params).each do |key, value|
@@ -26,7 +21,7 @@ class RefCardsController < ApplicationController
   private
 
   def filters_params(params)
-    params.slice(:bloc, :artist)
+    params.slice(:bloc, :artist, :rarety_type)
   end
 
   def scopes_params(params)

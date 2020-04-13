@@ -22,6 +22,8 @@ class RefCard < ApplicationRecord
   pg_search_scope :filter_by_artist,
     against: :artist,
     using: { tsearch: { prefix: true }}
+  pg_search_scope :filter_by_rarety_type,
+    against: :rarety_type
 
 
   def right_url
