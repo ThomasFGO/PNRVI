@@ -25,6 +25,8 @@ gem 'pagy'
 
 gem 'pg_search', '~> 2.3.0'
 
+gem 'rack-cors'
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
