@@ -6,42 +6,38 @@ csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_blocs.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
   b = Bloc.find_by(en_name: row['en_name'], jap: row['jap'] )
-  if b.blank?
-    b = Bloc.new
+  unless b.blank?
+    b.rank = row['rank']
     b.en_name = row['en_name']
     b.jap = row['jap']
     b.save
   end
 end
 
-puts "There are now #{Bloc.jap.count} rows in the transactions table"
+puts "#{Bloc.jap.count} jap_blocs saved"
 
-=begin
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists.csv'))
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'japlists.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
-  if List.find_by(fr_name: row['fr_name']).blank?
+  l = List.find_by(en_name: row['en_name'], bloc: Bloc.find_by(en_name: row['bloc'], jap: true))
+  if l.blank?
     l = List.new
-    l.fr_name = row['fr_name']
-    l.us_name = row['us_name']
-    l.code = row['code']
-    l.reved = row['reved']
-    l.reved_name = row['reved_name']
-    l.french = row['french']
-    l.fr_release_date = row['fr_release_date']
-    l.us_release_date = row['us_release_date']
-    l.size = row['size']
-    l.fr_logo_url = row['fr_logo_url']
-    l.us_logo_url = row['us_logo_url']
-    l.symbol_url = row['symbol_url']
-    l.bloc = Bloc.find_by(fr_name: row['fr_name_bloc'])
-    l.save
   end
-  #puts "#{l.us_name} saved"
+  l.bloc = Bloc.find_by(en_name: row['bloc'], jap: true)
+  l.rank = row['rank']
+  l.en_name = row['en_name']
+  l.code = row['code']
+  l.jap_release = row['jap_release']
+  l.size = row['size']
+  #l.logo_url = row['logo_url']
+  l.symbol_url = row['symbol_url']
+  l.save
+  puts "#{List.jap.count} jap_lists saved"
 end
 
 
+=begin
 
 
 lists = [

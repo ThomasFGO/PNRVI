@@ -1,14 +1,14 @@
-en_name;jap
-Sword & Shield;true
-Sun & Moon;true
-XY;true
-Black & White;true
-Legend;true
-DPt (Platinum);true
-Diamond & Pearl;true
-PCG;true
-ADV;true
-e-Card;true
-Neo;true
-Gym;true
-Base;true
+rank;en_name;jap
+13;Sword & Shield;true
+12;Sun & Moon;true
+11;XY;true
+10;Black & White;true
+9;Legend;true
+8;DPt;true
+7;Diamond & Pearl;true
+6;PCG;true
+5;ADV;true
+4;E-Card;true
+3;Neo;true
+2;Gym;true
+1;Base;true
