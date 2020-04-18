@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
 
-  #get 'jap_lists/index'
+  get 'jap_lists/index'
   devise_for :users
   root to: 'cards#index'
   resources :feeds, only: [ :index ]
@@ -37,9 +37,12 @@ Rails.application.routes.draw do
 
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
-      resources :blocs, only: [ :occi ]
-      get '/series_françaises_et_anglaises' => 'blocs#occi'
-      get '/series_japonaises' => 'blocs#jap'
+      resources :blocs do
+        collection do
+          get 'occi'
+          get 'jap'
+        end
+      end
       get '/series/:id' => 'lists#show'
       resources :ref_cards, only: [ :show ]
     end
