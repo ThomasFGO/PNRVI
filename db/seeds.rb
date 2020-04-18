@@ -1,34 +1,22 @@
 require 'csv'
 
-=begin
-
-Message.destroy_all
-Conversation.destroy_all
-SelectedCard.destroy_all
-ShopCard.destroy_all
-SearchCard.destroy_all
-CollectionCard.destroy_all
-User.destroy_all
-RefCard.destroy_all
-EnergyType.destroy_all
-List.destroy_all
-Bloc.destroy_all
 
 
-
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'blocs.csv'))
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_blocs.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
-  if Bloc.find_by(fr_name: row['fr_name']).blank?
+  b = Bloc.find_by(en_name: row['en_name'], jap: row['jap'] )
+  if b.blank?
     b = Bloc.new
-    b.fr_name = row['fr_name']
+    b.en_name = row['en_name']
+    b.jap = row['jap']
     b.save
   end
 end
 
-#puts "There are now #{Bloc.count} rows in the transactions table"
+puts "There are now #{Bloc.jap.count} rows in the transactions table"
 
-
+=begin
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
@@ -126,39 +114,39 @@ lists = [
 
 
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "jgym1.csv"))
-csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-csv.each do |row|
-  rf = RefCard.new
-  rf.rank = row['rank']
-  rf.rarety_type = row['rarety_type']
-  rf.ultra_type = row['ultra_type']
-  rf.fr_name = row['fr_name']
-  rf.en_name = row['en_name']
-  rf.super_type = row['super_type']
-  rf.energy_type = EnergyType.find_by(us_name: row['energy_type'])
-  rf.pokedex_number = row['pokedex_number']
-  rf.artist = row['artist']
-  rf.list = List.find(217)
-  rf.save
-end
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "jgym1.csv"))
+# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+# csv.each do |row|
+#   rf = RefCard.new
+#   rf.rank = row['rank']
+#   rf.rarety_type = row['rarety_type']
+#   rf.ultra_type = row['ultra_type']
+#   rf.fr_name = row['fr_name']
+#   rf.en_name = row['en_name']
+#   rf.super_type = row['super_type']
+#   rf.energy_type = row['energy_type']
+#   rf.pokedex_number = row['pokedex_number']
+#   rf.artist = row['artist']
+#   rf.list = List.find(217)
+#   rf.save
+# end
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "jgym2.csv"))
-csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-csv.each do |row|
-  rf = RefCard.new
-  rf.rank = row['rank']
-  rf.rarety_type = row['rarety_type']
-  rf.ultra_type = row['ultra_type']
-  rf.fr_name = row['fr_name']
-  rf.en_name = row['en_name']
-  rf.super_type = row['super_type']
-  rf.energy_type = EnergyType.find_by(us_name: row['energy_type'])
-  rf.pokedex_number = row['pokedex_number']
-  rf.artist = row['artist']
-  rf.list = List.find(218)
-  rf.save
-end
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'lists', "jgym2.csv"))
+# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+# csv.each do |row|
+#   rf = RefCard.new
+#   rf.rank = row['rank']
+#   rf.rarety_type = row['rarety_type']
+#   rf.ultra_type = row['ultra_type']
+#   rf.fr_name = row['fr_name']
+#   rf.en_name = row['en_name']
+#   rf.super_type = row['super_type']
+#   rf.energy_type = EnergyType.find_by(us_name: row['energy_type'])
+#   rf.pokedex_number = row['pokedex_number']
+#   rf.artist = row['artist']
+#   rf.list = List.find(218)
+#   rf.save
+# end
 
 
 # puts "There are now #{RefCard.count} rows in the RefCard table"
