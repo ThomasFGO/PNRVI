@@ -15,6 +15,10 @@ class List < ApplicationRecord
     bloc.jap == true
   end
 
+  def occi?
+    bloc.jap == false
+  end
+
   def name
     if fr_name.present?
       fr_name

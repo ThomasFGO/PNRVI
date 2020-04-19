@@ -1,6 +1,6 @@
 <div class="list-header">
   <div class="list_header-visuals">
-    <% unless @list.jap? %>
+    <% if @list.occi? %>
       <div class="logo">
         <%= cl_image_tag ("lists/fr_logos/poknroll_#{@list.code}_fr_logo.png"),
         class: "logo-list-standard" %>
@@ -8,7 +8,7 @@
       <div class="symbol">
         <%= cl_image_tag ("lists/symbols/poknroll_#{@list.code}_symbol.png"), class: "symbol-list" %>
       </div>
-    <% else %>
+    <% elsif @list.symbol_url %>
       <div class="symbol">
         <%= image_tag @list.symbol_url, class: "symbol-list" %>
       </div>
