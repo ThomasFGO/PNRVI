@@ -19,6 +19,6 @@ else
     json.number ref_card.number
     json.name ref_card.right_name
     json.pokedex_number ref_card.pokedex_number
-    json.url "jap_lists/visuals/#{@list.bloc.en_name}/#{@list.code}/#{ref_card.rank}.jpg"
+    json.url cl_image_path ("jap_lists/visuals/#{@list.bloc.en_name}/#{@list.code}/#{ref_card.rank}.jpg")
   end
 end
