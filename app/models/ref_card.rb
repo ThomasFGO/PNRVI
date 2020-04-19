@@ -1,5 +1,4 @@
 class RefCard < ApplicationRecord
-  belongs_to :energy_type
   belongs_to :list
   has_many :cards, dependent: :destroy
   scope :jap, ->{ joins(:list).merge(List.jap) }
