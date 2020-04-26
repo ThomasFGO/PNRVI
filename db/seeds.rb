@@ -83,11 +83,15 @@ lists = [
 
 =end
 
-# japlists = [
-#   "neo1.csv", "neo2.csv", "neo3.csv", "neo4.csv"
-# ]
-#japlists.each do |japlist|
-  csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'ecard', 'ecard1.csv'))
+japlists = [
+  "ecard1.csv",
+  "ecard2.csv", "ecard3.csv",
+  "ecard4.csv", "ecard5.csv",
+  "ecardweb.csv", "ecardvs.csv"
+]
+#ex1.csv
+ japlists.each do |japlist|
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'ecard', japlist))
   csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
   csv.each do |row|
     rf = RefCard.new
@@ -103,21 +107,21 @@ lists = [
     rf.artist = row['artist']
     rf.save
   end
-#end
+ end
 
 # puts "There are now #{RefCard.count} rows in the RefCard table"
 
 
 
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'ecard', 'ecard1.csv'))
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'ecard', 'ecard5.csv'))
 # csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 # csv.each do |row|
 #   rank = row['rank']
 #   url = row['jap_url']
 #   Cloudinary::Uploader.upload("#{url}",
 #   :public_id => "#{rank}",
-#   :folder => "jap_lists/visuals/E-Card/ecard1",
+#   :folder => "jap_lists/visuals/E-Card/ecard5",
 #   :format => "jpg")
 # end
 
