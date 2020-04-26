@@ -83,9 +83,9 @@ lists = [
 
 =end
 
-# japlists = [
-#   ex1.csv, ex2.csv, ex3.csv, ex4.csv, ex5.csv
-# ]
+japlists = [
+  ex1.csv, ex2.csv, ex3.csv, ex4.csv, ex5.csv
+]
 #ex1.csv
  #japlists.each do |japlist|
   csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'ex', japlist))
