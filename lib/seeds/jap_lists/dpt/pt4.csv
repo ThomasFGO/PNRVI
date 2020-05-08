@@ -1,0 +1,91 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;jap_url;list
+1;1;Common;;Dardargnan G;Beedrill G;Pokémon;Grass;15;Wataru Kawahara;https://res.cloudinary.com/dkhwpritu/image/upload/v1588958044/modif_dpt/Capture_d_e%CC%81cran_2020-05-08_a%CC%80_19.12.36.png;pt4
+2;2;Common;;Saquedeneu;Tangela;Pokémon;Grass;114;Mitsuhiro Arita;https://cdn.bulbagarden.net/upload/thumb/f/f5/TangelaArceus76.jpg/360px-TangelaArceus76.jpg;pt4
+3;3;Rare Holo;;Bouldeneu;Tangrowth;Pokémon;Grass;465;Masakazu Fukuda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106444.jpg;pt4
+4;4;Ultra;Niv. X;Bouldeneu;Tangrowth;Pokémon;Grass;465;Ryo Ueda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1148572.jpg;pt4
+5;5;Common;;Arcko;Treecko;Pokémon;Grass;252;TOKIYA;https://cdn.bulbagarden.net/upload/thumb/7/70/TreeckoArceus78.jpg/360px-TreeckoArceus78.jpg;pt4
+6;6;Uncommon;;Massko;Grovyle;Pokémon;Grass;253;Tomoaki Imakuni;https://cdn.bulbagarden.net/upload/thumb/a/ab/GrovyleArceus38.jpg/360px-GrovyleArceus38.jpg;pt4
+7;7;Rare;;Jungko;Sceptile;Pokémon;Grass;254;Reiko Tanoue;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470877.jpg;pt4
+8;8;Common;;Cheniti Cape Plante;Burmy Plant Cloak;Pokémon;Grass;412;Kyoko Umemoto;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1461831.jpg;pt4
+9;9;Common;;Cheniti Cape Sable;Burmy Sandy Cloak;Pokémon;Grass;412;Tomokazu Komiya;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957304/modif_dpt/cheniselle_sable.jpg;pt4
+10;10;Common;;Cheniti Cape Déchet;Burmy Trash Cloak;Pokémon;Grass;412;Yukiko Baba;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957304/modif_dpt/cheniselle.jpg;pt4
+11;11;Uncommon;;Cheniselle Cape Plante;Wormadam Plant Cloak;Pokémon;Grass;413;Kouki Saitou;https://cdn.bulbagarden.net/upload/thumb/c/c3/WormadamArceus49.jpg/360px-WormadamArceus49.jpg;pt4
+12;12;Rare Holo;;Papilord;Mothim;Pokémon;Grass;414;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470878.jpg;pt4
+13;13;Common;;Ceribou;Cherubi;Pokémon;Grass;420;Yuka Morii;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957305/modif_dpt/cherubi.jpg;pt4
+14;14;Rare;;Ceriflor;Cherrim;Pokémon;Grass;421;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470879.jpg;pt4
+15;15;Common;;Salamèche;Charmander;Pokémon;Fire;4;Suwama Chiaki;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957304/modif_dpt/charmander.jpg;pt4
+16;16;Uncommon;;Reptincel;Charmeleon;Pokémon;Fire;5;Sumiyoshi Kizuki;https://res.cloudinary.com/dkhwpritu/image/upload/v1588958824/modif_dpt/reptincel.jpg;pt4
+17;17;Rare Holo;;Dracaufeu;Charizard;Pokémon;Fire;6;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470880.jpg;pt4
+18;18;Common;;Ponyta;Ponyta;Pokémon;Fire;77;Kanako Eo;https://cdn.bulbagarden.net/upload/thumb/0/00/PonytaArceus46.jpg/360px-PonytaArceus46.jpg;pt4
+19;19;Common Holo;;Ponyta;Ponyta;Pokémon;Fire;77;Kanako Eo;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1477290.jpg;pt4
+20;20;Rare;;Galopa;Rapidash;Pokémon;Fire;78;Lee HyunJung;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470881.jpg;pt4
+21;21;Rare Holo;;Heatran;Heatran;Pokémon;Fire;485;Keiko Moritsugu;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470882.jpg;pt4
+22;22;Common;;Amonita;Omanyte;Pokémon;Water;138;Aya Kusube;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957304/modif_dpt/amonita.jpg;pt4
+23;23;Rare;;Amonistar;Omastar;Pokémon;Water;139;Hajime Kusajima;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470883.jpg;pt4
+24;24;Common;;Goelise;Wingull;Pokémon;Water;278;Kyoko Umemoto;https://cdn.bulbagarden.net/upload/thumb/2/22/WingullArceus80.jpg/360px-WingullArceus80.jpg;pt4
+25;25;Rare;;Bekipan;Pelipper;Pokémon;Water;279;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470884.jpg;pt4
+26;26;Common;;Stalgamin;Snorunt;Pokémon;Water;361;Yuka Morii;https://cdn.bulbagarden.net/upload/thumb/f/f1/SnoruntArceus75.jpg/360px-SnoruntArceus75.jpg;pt4
+27;27;Rare;;Oniglali;Glalie;Pokémon;Water;362;Hiroki Fuchino;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470885.jpg;pt4
+28;28;Rare Holo;;Momartik;Froslass;Pokémon;Water;478;TOKIYA;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470886.jpg;pt4
+29;29;Rare Holo;;Arceus;Arceus;Pokémon;Water;493;Kouki Saitou;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470887.jpg;pt4
+30;30;Rare;;Pichu;Pichu;Pokémon;Lightning;172;Kanako Eo;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470888.jpg;pt4
+31;31;Common;;Pikachu;Pikachu;Pokémon;Lightning;25;sui;https://cdn.bulbagarden.net/upload/thumb/4/4d/PikachuArceus71.jpg/360px-PikachuArceus71.jpg;pt4
+32;32;Rare;;Raichu;Raichu;Pokémon;Lightning;26;Suwama Chiaki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470889.jpg;pt4
+33;33;Rare Holo;;Electhor G;Zapdos G;Pokémon;Lightning;145;Ryota Saito;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1182372.jpg;pt4
+34;34;Common;;Dynavolt;Electrike;Pokémon;Lightning;309;Yukiko Baba;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957305/modif_dpt/dynavolt.jpg;pt4
+35;35;Rare;;Elecsprint;Manectric;Pokémon;Lightning;310;Mana Ibe;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470890.jpg;pt4
+36;36;Common;;Lixy;Shinx;Pokémon;Lightning;403;sui;https://cdn.bulbagarden.net/upload/thumb/3/3e/ShinxArceus74.jpg/360px-ShinxArceus74.jpg;pt4
+37;37;Common Holo;;Lixy;Shinx;Pokémon;Lightning;403;sui;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470891.jpg;pt4
+38;38;Uncommon;;Luxio;Luxio;Pokémon;Lightning;404;Suwama Chiaki;https://cdn.bulbagarden.net/upload/thumb/1/1c/LuxioArceus43.jpg/360px-LuxioArceus43.jpg;pt4
+39;39;Rare Holo;;Luxray;Luxray;Pokémon;Lightning;405;kawayoo;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106443.jpg;pt4
+40;40;Common;;Fantominus;Gastly;Pokémon;Psychic;92;kawayoo;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957305/modif_dpt/fantominus.jpg;pt4
+41;41;Uncommon;;Spectrum;Haunter;Pokémon;Psychic;93;Tomokazu Komiya;https://cdn.bulbagarden.net/upload/thumb/3/35/HaunterArceus41.jpg/360px-HaunterArceus41.jpg;pt4
+42;42;Rare;;Ectoplasma;Gengar;Pokémon;Psychic;94;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470892.jpg;pt4
+43;43;Ultra;Niv. X;Ectoplasma;Gengar;Pokémon;Psychic;94;Shizurow;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470893.jpg;pt4
+44;44;Common;;Gloupti;Gulpin;Pokémon;Psychic;316;Sachiko Adachi;https://cdn.bulbagarden.net/upload/thumb/2/25/GulpinArceus40.jpg/360px-GulpinArceus40.jpg;pt4
+45;45;Rare Holo;;Avaltout;Swalot;Pokémon;Psychic;317;Aya Kusube;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470894.jpg;pt4
+46;46;Common;;Racaillou;Geodude;Pokémon;Fighting;74;Motofumi Fujiwara;https://cdn.bulbagarden.net/upload/thumb/e/e8/GeodudeArceus65.jpg/360px-GeodudeArceus65.jpg;pt4
+47;47;Uncommon;;Gravalanch;Graveler;Pokémon;Fighting;75;Sachiko Adachi;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957305/modif_dpt/gravalanch.jpg;pt4
+48;48;Rare;;Grolem;Golem;Pokémon;Fighting;76;Masakazu Fukuda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470895.jpg;pt4
+49;49;Common;;Kabuto;Kabuto;Pokémon;Fighting;140;Hironobu Yoshida;https://cdn.bulbagarden.net/upload/thumb/b/b7/KabutoArceus67.jpg/360px-KabutoArceus67.jpg;pt4
+50;50;Rare Holo;;Kabutops;Kabutops;Pokémon;Fighting;141;Hajime Kusajima;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470896.jpg;pt4
+51;51;Rare;;Ptera;Aerodactyl;Pokémon;Fighting;142;Masakazu Fukuda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470897.jpg;pt4
+52;52;Common;;Makuhita;Makuhita;Pokémon;Fighting;296;sui;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957306/modif_dpt/makuhita.jpg;pt4
+53;53;Rare;;Hariyama;Hariyama;Pokémon;Fighting;297;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470898.jpg;pt4
+54;54;Common;;Tarinor;Nosepass;Pokémon;Fighting;299;Midori Harada;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957313/modif_dpt/tarinor.jpg;pt4
+55;55;Uncommon;;Cheniselle Cape Sable;Wormadam Sandy Cloak;Pokémon;Fighting;413;Atsuko Nishida;https://cdn.bulbagarden.net/upload/thumb/0/0d/WormadamArceus50.jpg/360px-WormadamArceus50.jpg;pt4
+56;56;Common;;Cradopaud;Croagunk;Pokémon;Fighting;453;Tomokazu Komiya;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957305/modif_dpt/cradopaud.jpg;pt4
+57;57;Rare Holo;;Coatox;Toxicroak;Pokémon;Fighting;454;Kouki Saitou;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1148577.jpg;pt4
+58;58;Rare Holo;;Arceus;Arceus;Pokémon;Fighting;493;Hajime Kusajima;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470899.jpg;pt4
+59;59;Rare;;Spiritomb;Spiritomb;Pokémon;Darkness;442;Aya Kusube;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470900.jpg;pt4
+60;60;Rare Holo;;Arceus;Arceus;Pokémon;Darkness;493;kawayoo;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470901.jpg;pt4
+61;61;Uncommon;;Cheniselle Cape Dechet;Wormadam Trash Cloak;Pokémon;Metal;413;Miki Tanaka;https://images-na.ssl-images-amazon.com/images/I/71G5p-wXjxL._SY679_.jpg;pt4
+62;62;Common;;Archeomire;Bronzor;Pokémon;Metal;436;kawayoo;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957304/modif_dpt/archeomire.jpg;pt4
+63;63;Rare;;Archeodong;Bronzong;Pokémon;Metal;437;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470902.jpg;pt4
+64;64;Rare Holo;;Tarinorme;Probopass;Pokémon;Metal;476;Kouki Saitou;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470903.jpg;pt4
+65;65;Rare Holo;;Arceus;Arceus;Pokémon;Metal;493;TOKIYA;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106442.jpg;pt4
+66;66;Common;;Rattata;Rattata;Pokémon;Colorless;19;Miki Tanaka;https://cdn.bulbagarden.net/upload/thumb/3/3a/RattataArceus73.jpg/360px-RattataArceus73.jpg;pt4
+67;67;Rare;;Rattatac;Raticate;Pokémon;Colorless;20;Masakazu Fukuda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470904.jpg;pt4
+68;68;Common;;Draby;Bagon;Pokémon;Colorless;371;Naoyo Kimura;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957304/modif_dpt/bagon.jpg;pt4
+69;69;Common Holo;;Draby;Bagon;Pokémon;Colorless;371;Naoyo Kimura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470905.jpg;pt4
+70;70;Uncommon;;Drackhaus;Shelgon;Pokémon;Colorless;372;Atsuko Nishida;https://cdn.bulbagarden.net/upload/thumb/b/bd/ShelgonArceus48.jpg/360px-ShelgonArceus48.jpg;pt4
+71;71;Rare Holo;;Drattak;Salamence;Pokémon;Colorless;373;Shin Nagasawa;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470906.jpg;pt4
+72;72;Ultra;Niv. X;Drattak;Salamence;Pokémon;Colorless;373;Ryo Ueda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470907.jpg;pt4
+73;73;Common;;Laporeille;Buneary;Pokémon;Colorless;427;sui;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957305/modif_dpt/laporeille.jpg;pt4
+74;74;Rare;;Lockpin;Lopunny;Pokémon;Colorless;428;Kyoko Umemoto;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470908.jpg;pt4
+75;75;Rare;;Porygon-Z G;Porygon-Z G;Pokémon;Colorless;474;Nobuyuki Fujimoto;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470909.jpg;pt4
+76;76;Rare Holo;;Arceus;Arceus;Pokémon;Colorless;493;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1148437.jpg;pt4
+77;77;Ultra;Niv. X;Arceus Niv.X;Arceus;Pokémon;Colorless;493;Shizurow;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470910.jpg;pt4
+78;78;Uncommon;;Recherche d’énergie;Energy Search;Trainer;NoColor;;Kai Ishikawa;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957305/modif_dpt/energy_search.png;pt4
+79;79;Uncommon;;Porte de départ;Beginning Door;Trainer;NoColor;;Ryo Ueda;https://cdn.bulbagarden.net/upload/thumb/5/5d/BeginningDoorArceus82.jpg/360px-BeginningDoorArceus82.jpg;pt4
+80;80;Uncommon;;Rescousse Pokémon;Pokémon Rescue;Trainer;NoColor;;Ryo Ueda;https://cdn.bulbagarden.net/upload/thumb/4/47/Pok%C3%A9monRescuePlatinum115.jpg/360px-Pok%C3%A9monRescuePlatinum115.jpg;pt4
+81;81;Uncommon;;Fossile Nautile;Helix Fossil;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957305/modif_dpt/fossil.jpg;pt4
+82;82;Uncommon;;Fossile Dôme;Dome Fossil;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957305/modif_dpt/dome_fossil.jpg;pt4
+83;83;Uncommon;;Vieil Ambre;Old Amber;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1588957306/modif_dpt/old_amber.jpg;pt4
+84;84;Uncommon;;Lucky Egg;Lucky Egg;Trainer;NoColor;;Nobuyuki Fujimoto;https://cdn.bulbagarden.net/upload/thumb/0/09/LuckyEggArceus88.jpg/360px-LuckyEggArceus88.jpg;pt4
+85;85;Uncommon;;Expert Belt;Expert Belt;Trainer;NoColor;;Wataru Kawahara;https://cdn.bulbagarden.net/upload/thumb/5/54/ExpertBeltArceus87.jpg/360px-ExpertBeltArceus87.jpg;pt4
+86;86;Uncommon;;Bench Shield;Bench Shield;Trainer;NoColor;;Wataru Kawahara;https://cdn.bulbagarden.net/upload/thumb/9/93/BenchShieldArceus83.jpg/360px-BenchShieldArceus83.jpg;pt4
+87;87;Uncommon;;La visite du Prof. Chen;Professor Oak's Visit;Trainer;NoColor;;Ken Sugimori;https://images-na.ssl-images-amazon.com/images/I/61Ni-ygFZzL._AC_SL1030_.jpg;pt4
+88;88;Uncommon;;Department Store;Department Store Girl;Trainer;NoColor;;Kanako Eo;https://cdn.bulbagarden.net/upload/thumb/3/36/DepartmentStoreGirlArceus85.jpg/360px-DepartmentStoreGirlArceus85.jpg;pt4
+89;89;Uncommon;;La recherche d’Amelle;Bebe’s Search;Trainer;NoColor;;Ken Sugimori;https://images-na.ssl-images-amazon.com/images/I/71UwIX2Yl1L._AC_SY679_.jpg;pt4
+90;90;Uncommon;;Zone ultime;Ultimate Zone;Trainer;NoColor;;Yusuke Ishikawa;https://cdn.bulbagarden.net/upload/thumb/1/1b/UltimateZoneArceus91.jpg/360px-UltimateZoneArceus91.jpg;pt4

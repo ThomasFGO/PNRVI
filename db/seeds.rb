@@ -84,12 +84,11 @@ lists = [
 =end
 
 japlists = [
-  "ex6.csv", "ex7.csv", "ex8.csv", "ex9.csv", "ex10.csv", "ex11.csv",
-  "ex12.csv", "ex13.csv", "ex14.csv", "ex15.csv"
+  "pt1.csv", "pt2.csv", "pt3.csv", "pt4.csv"
 ]
 
 japlists.each do |japlist|
-  csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'ex', japlist))
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'dpt', japlist))
   csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
   csv.each do |row|
     rf = RefCard.new
@@ -112,14 +111,14 @@ end
 
 
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'ex', 'ex15.csv'))
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'dpt', 'pt4.csv'))
 # csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 # csv.each do |row|
 #   rank = row['rank']
 #   url = row['jap_url']
 #   Cloudinary::Uploader.upload("#{url}",
 #   :public_id => "#{rank}",
-#   :folder => "jap_lists/visuals/PCG/ex15",
+#   :folder => "jap_lists/visuals/DPt/pt4",
 #   :format => "jpg")
 # end
 
