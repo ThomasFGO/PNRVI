@@ -1,0 +1,82 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;jap_url;list
+1;1;Common;;Mystherbe;Oddish;Pokémon;Grass;43;Mitsuhiro Arita;https://pod.pokellector.com/cards/249/Oddish.L2.1.21879.png;l2
+2;2;Uncommon;;Ortide;Gloom;Pokémon;Grass;44;Mitsuhiro Arita;https://pod.pokellector.com/cards/249/Gloom.L2.2.21880.png;l2
+3;3;Rare;;Rafflésia;Vileplume;Pokémon;Grass;45;Mitsuhiro Arita;https://pod.pokellector.com/cards/249/Vileplume.L2.3.21881.png;l2
+4;4;Rare Holo;;Joliflor;Bellossom;Pokémon;Grass;182;Mitsuhiro Arita;https://pod.pokellector.com/cards/249/Bellossom.L2.4.21882.png;l2
+5;5;Common;;Insécateur;Scyther;Pokémon;Grass;123;Wataru Kawahara/Direc. Shinji Higuchi;https://pod.pokellector.com/cards/249/Scyther.L2.5.21883.png;l2
+6;6;Common;;Pomdepik;Pineco;Pokémon;Grass;204;Kyoko Umemoto;https://pod.pokellector.com/cards/249/Pineco.L2.6.21884.png;l2
+7;7;Common;;Apitrini;Combee;Pokémon;Grass;415;Naoyo Kimura;https://pod.pokellector.com/cards/249/Combee.L2.7.21885.png;l2
+8;8;Rare;;Apireine;Vespiquen;Pokémon;Grass;416;Naoyo Kimura;https://pod.pokellector.com/cards/249/Vespiquen.L2.8.21886.png;l2
+9;9;Uncommon;;Pyroli;Flareon;Pokémon;Fire;136;kawayoo;https://pod.pokellector.com/cards/249/Flareon.L2.9.21887.png;l2
+10;10;Common;;Limagma;Slugma;Pokémon;Fire;218;Yuka Morii;https://pod.pokellector.com/cards/249/Slugma.L2.10.21888.png;l2
+11;11;Rare Holo;;Volcaropod;Magcargo;Pokémon;Fire;219;Yuka Morii;https://pod.pokellector.com/cards/249/Magcargo.L2.11.21889.png;l2
+12;12;Common;;Hypotrempe;Horsea;Pokémon;Water;116;Shin Nagasawa;https://pod.pokellector.com/cards/249/Horsea.L2.12.21890.png;l2
+13;13;Common;;Hypocéan;Seadra;Pokémon;Water;117;Shin Nagasawa;https://pod.pokellector.com/cards/249/Seadra.L2.13.21891.png;l2
+14;14;Uncommon;;Hyporoi;Kingdra;Pokémon;Water;230;Shin Nagasawa;https://pod.pokellector.com/cards/249/Kingdra.L2.14.21892.png;l2
+15;15;Ultra;Prime;Hyporoi;Kingdra;Pokémon;Water;230;Hideaki Hakozaki;https://pod.pokellector.com/cards/249/Kingdra.L2.15.21893.png;l2
+16;16;Uncommon;;Aquali;Vaporeon;Pokémon;Water;134;sui;https://pod.pokellector.com/cards/249/Vaporeon.L2.16.21894.png;l2
+17;17;Uncommon;;Voltali;Jolteon;Pokémon;Lightning;135;Shin Nagasawa;https://pod.pokellector.com/cards/249/Jolteon.L2.17.21895.png;l2
+18;18;Common;;Loupio;Chinchou;Pokémon;Lightning;170;sui;https://pod.pokellector.com/cards/249/Chinchou.L2.18.21896.png;l2
+19;19;Rare;;Lanturn;Lanturn;Pokémon;Lightning;171;sui;https://pod.pokellector.com/cards/249/Lanturn.L2.19.21897.png;l2
+20;20;Ultra;Prime;Lanturn;Lanturn;Pokémon;Lightning;171;Hideaki Hakozaki;https://pod.pokellector.com/cards/249/Lanturn.L2.20.21898.png;l2
+21;21;Rare;;Motisma;Rotom;Pokémon;Lightning;479;MAHOU;https://pod.pokellector.com/cards/249/Rotom.L2.21.21899.png;l2
+22;22;Common;;Tadmorv;Grimer;Pokémon;Psychic;88;Midori Harada;https://pod.pokellector.com/cards/249/Grimer.L2.22.21900.png;l2
+23;23;Uncommon;;Grotadmorv;Muk;Pokémon;Psychic;89;Midori Harada;https://pod.pokellector.com/cards/249/Muk.L2.23.21901.png;l2
+24;24;Rare Holo;;Mentali;Espeon;Pokémon;Psychic;196;match;https://pod.pokellector.com/cards/249/Espeon.L2.24.21902.png;l2
+25;25;Common;;Feuforeve;Misdreavus;Pokémon;Psychic;200;Suwama Chiaki;https://pod.pokellector.com/cards/249/Misdreavus.L2.25.21903.png;l2
+26;26;Rare;;Magirêve;Mismagius;Pokémon;Psychic;429;Suwama Chiaki;https://pod.pokellector.com/cards/249/Mismagius.L2.26.21904.png;l2
+27;27;Uncommon;;Zarbi;Unown;Pokémon;Psychic;201;Hideaki Hakozaki;https://pod.pokellector.com/cards/249/Unown.L2.27.21905.png;l2
+28;28;Common;;Baudrive;Drifloon;Pokémon;Psychic;425;Kagemaru Himeno;https://pod.pokellector.com/cards/249/Drifloon.L2.28.21906.png;l2
+29;29;Rare;;Grodrive;Drifblim;Pokémon;Psychic;426;Kagemaru Himeno;https://pod.pokellector.com/cards/249/Drifblim.L2.29.21907.png;l2
+30;30;Common;;Onix;Onix;Pokémon;Fighting;95;MAHOU;https://pod.pokellector.com/cards/249/Onix.L2.30.21908.png;l2
+31;31;Common;;Scorplane;Gligar;Pokémon;Fighting;207;Naoki Saito;https://pod.pokellector.com/cards/249/Gligar.L2.31.21909.png;l2
+32;32;Rare Holo;;Scorvol;Gliscor;Pokémon;Fighting;472;Naoki Saito;https://pod.pokellector.com/cards/249/Gliscor.L2.32.21910.png;l2
+33;33;Common;;Embrylex;Larvitar;Pokémon;Fighting;246;Sumiyoshi Kizuki;https://pod.pokellector.com/cards/249/Larvitar.L2.33.21911.png;l2
+34;34;Uncommon;;Ymphect;Pupitar;Pokémon;Fighting;247;Sumiyoshi Kizuki;https://pod.pokellector.com/cards/249/Pupitar.L2.34.21912.png;l2
+35;35;Common;;Makuhita;Makuhita;Pokémon;Fighting;296;Tomokazu Komiya;https://pod.pokellector.com/cards/249/Makuhita.L2.35.21913.png;l2
+36;36;Rare;;Hariyama;Hariyama;Pokémon;Fighting;297;Tomokazu Komiya;https://pod.pokellector.com/cards/249/Hariyama.L2.36.21914.png;l2
+37;37;Rare Holo;;Noctali;Umbreon;Pokémon;Darkness;197;Mitsuhiro Arita;https://pod.pokellector.com/cards/249/Umbreon.L2.37.21915.png;l2
+38;38;Common;;Cornèbre;Murkrow;Pokémon;Darkness;198;Masakazu Fukuda;https://pod.pokellector.com/cards/249/Murkrow.L2.38.21916.png;l2
+39;39;Rare;;Corboss;Honchkrow;Pokémon;Darkness;430;Masakazu Fukuda;https://pod.pokellector.com/cards/249/Honchkrow.L2.39.21917.png;l2
+40;40;Common;;Farfuret;Sneasel;Pokémon;Darkness;215;Aya Kusube;https://pod.pokellector.com/cards/249/Sneasel.L2.40.21918.png;l2
+41;41;Rare;;Dimoret;Weavile;Pokémon;Darkness;461;Aya Kusube;https://pod.pokellector.com/cards/249/Weavile.L2.41.21919.png;l2
+42;42;Common;;Malosse;Houndour;Pokémon;Darkness;228;Kagemaru Himeno;https://pod.pokellector.com/cards/249/Houndour.L2.42.21920.png;l2
+43;43;Rare Holo;;Démolosse;Houndoom;Pokémon;Darkness;229;Kagemaru Himeno;https://pod.pokellector.com/cards/249/Houndoom.L2.43.21921.png;l2
+44;44;Ultra;Prime;Tyranocif;Tyranitar;Pokémon;Darkness;248;Wataru Kawahara;https://pod.pokellector.com/cards/249/Tyranitar.L2.44.21922.png;l2
+45;45;Common;;Ténéfix;Sableye;Pokémon;Darkness;302;Midori Harada;https://pod.pokellector.com/cards/249/Sableye.L2.45.21923.png;l2
+46;46;Rare Holo;;Foretress;Forretress;Pokémon;Metal;205;Kyoko Umemoto;https://pod.pokellector.com/cards/249/Forretress.L2.46.21924.png;l2
+47;47;Ultra;Prime;Steelix;Steelix;Pokémon;Metal;208;Wataru Kawahara;https://pod.pokellector.com/cards/249/Steelix.L2.47.21925.png;l2
+48;48;Rare Holo;;Cizayox;Scizor;Pokémon;Metal;212;Kent Kanetsuna/Direc. Shinji Higuchi;https://pod.pokellector.com/cards/249/Scizor.L2.48.21926.png;l2
+49;49;Rare;;Airmure;Skarmory;Pokémon;Metal;227;Midori Harada;https://pod.pokellector.com/cards/249/Skarmory.L2.49.21927.png;l2
+50;50;Common;;Mysdibule;Mawile;Pokémon;Metal;303;TOKIYA;https://pod.pokellector.com/cards/249/Mawile.L2.50.21928.png;l2
+51;51;Common;;Terhal;Beldum;Pokémon;Metal;374;TOKIYA;https://pod.pokellector.com/cards/249/Beldum.L2.51.21929.png;l2
+52;52;Uncommon;;Metang;Metang;Pokémon;Metal;375;TOKIYA;https://pod.pokellector.com/cards/249/Metang.L2.52.21930.png;l2
+53;53;Rare;;Metalosse;Metagross;Pokémon;Metal;376;TOKIYA;https://pod.pokellector.com/cards/249/Metagross.L2.53.21931.png;l2
+54;54;Common;;Rattata;Rattata;Pokémon;Colorless;19;Sachiko Adachi;https://pod.pokellector.com/cards/249/Rattata.L2.54.21932.png;l2
+55;55;Common;;Rattatac;Raticate;Pokémon;Colorless;20;Sachiko Adachi;https://pod.pokellector.com/cards/249/Raticate.L2.55.21933.png;l2
+56;56;Common;;Doduo;Doduo;Pokémon;Colorless;84;Yukiko Baba;https://pod.pokellector.com/cards/249/Doduo.L2.56.21934.png;l2
+57;57;Rare;;Dodrio;Dodrio;Pokémon;Colorless;85;Yukiko Baba;https://pod.pokellector.com/cards/249/Dodrio.L2.57.21935.png;l2
+58;58;Common;;Evoli;Eevee;Pokémon;Colorless;133;Kanako Eo;https://pod.pokellector.com/cards/249/Eevee.L2.58.21936.png;l2
+59;59;Common;;Togepi;Togepi;Pokémon;Colorless;175;Atsuko Nishida;https://pod.pokellector.com/cards/249/Togepi.L2.59.21937.png;l2
+60;60;Uncommon;;Togetic;Togetic;Pokémon;Colorless;176;Atsuko Nishida;https://pod.pokellector.com/cards/249/Togetic.L2.60.21938.png;l2
+61;61;Rare Holo;;Togekiss;Togekiss;Pokémon;Colorless;468;Atsuko Nishida;https://pod.pokellector.com/cards/249/Togekiss.L2.61.21939.png;l2
+62;62;Rare Holo;;Queulorior;Smeargle;Pokémon;Colorless;235;Midori Harada;https://pod.pokellector.com/cards/249/Smeargle.L2.62.21940.png;l2
+63;63;Ultra;Legend;Entei & Raikou Légende;Entei & Raikou LEGEND;Pokémon;Fire;243;Shinji Higuchi + Sachiko Eba;https://pod.pokellector.com/cards/249/Entei-Raikou-LEGEND.L2.63.21941.png;l2
+64;64;Ultra;Legend;Entei & Raikou Légende;Entei & Raikou LEGEND;Pokémon;Fire;243;Shinji Higuchi + Sachiko Eba;https://pod.pokellector.com/cards/249/Entei-Raikou-LEGEND.L2.64.21942.png;l2
+65;65;Ultra;Legend;Suicune & Entei Légende;Suicune & Entei LEGEND;Pokémon;Water;244;Shinji Higuchi + Sachiko Eba;https://pod.pokellector.com/cards/249/Suicune-Entei-LEGEND.L2.65.21943.png;l2
+66;66;Ultra;Legend;Suicune & Entei Légende;Suicune & Entei LEGEND;Pokémon;Water;244;Shinji Higuchi + Sachiko Eba;https://pod.pokellector.com/cards/249/Suicune-Entei-LEGEND.L2.66.21944.png;l2
+67;67;Ultra;Legend;Raikou & Suicune Légende;Raikou & Suicune LEGEND;Pokémon;Lightning;243;Shinji Higuchi + Noriko Takaya;https://pod.pokellector.com/cards/249/Raikou-Suicune-LEGEND.L2.67.21945.png;l2
+68;68;Ultra;Legend;Raikou & Suicune Légende;Raikou & Suicune LEGEND;Pokémon;Lightning;243;Shinji Higuchi + Noriko Takaya;https://pod.pokellector.com/cards/249/Raikou-Suicune-LEGEND.L2.68.21946.png;l2
+69;69;Uncommon;;Chang'Énergie;Energy Exchanger;Trainer;NoColor;;Ryo Ueda;https://pod.pokellector.com/cards/249/Energy-Exchanger.L2.69.21947.png;l2
+70;70;Uncommon;;Défenseur;Defender;Trainer;NoColor;;Ryo Ueda;https://pod.pokellector.com/cards/249/Defender.L2.70.21948.png;l2
+71;71;Uncommon;;Super bonbon;Rare Candy;Trainer;NoColor;;Noriko Hotta;https://pod.pokellector.com/cards/249/Rare-Candy.L2.71.21949.png;l2
+72;72;Uncommon;;PlusPower;PlusPower;Trainer;NoColor;;Takashi Yamaguchi;https://pod.pokellector.com/cards/249/PlusPower.L2.72.21950.png;l2
+73;73;Uncommon;;Boîte Légendaire;Legend Box;Trainer;NoColor;;Shizurow;https://pod.pokellector.com/cards/249/Legend-Box.L2.73.21951.png;l2
+74;74;Uncommon;;Fleuriste;Flower Shop Lady;Trainer;NoColor;;Kanako Eo;https://pod.pokellector.com/cards/249/Flower-Shop-Lady.L2.74.21952.png;l2
+75;75;Uncommon;;Entraînement de Sage;Sage's Training;Trainer;NoColor;;Masakazu Fukuda;https://pod.pokellector.com/cards/249/Sages-Training.L2.75.21953.png;l2
+76;76;Uncommon;;Fourberie de la Team Rocket;Team Rocket's Trickery;Trainer;NoColor;;Takao Unno;https://pod.pokellector.com/cards/249/Team-Rockets-Trickery.L2.76.21954.png;l2
+77;77;Uncommon;;Ruines d'Alpha;Ruins of Alph;Trainer;NoColor;;Ryo Ueda;https://pod.pokellector.com/cards/249/Ruins-of-Alph.L2.77.21955.png;l2
+78;78;Uncommon;;Tour cendrée;Burned Tower;Trainer;NoColor;;Ryo Ueda;https://pod.pokellector.com/cards/249/Burned-Tower.L2.78.21956.png;l2
+79;79;Uncommon;;Énergie Obscurité;Darkness Energy;Energy;NoColor;;Kent Kanetsuna;https://pod.pokellector.com/cards/249/Special-Dark-Energy.L2.79.21957.png;l2
+80;80;Uncommon;;Énergie Métal;Metal Energy;Energy;NoColor;;Kent Kanetsuna;https://pod.pokellector.com/cards/249/Special-Steel-Energy.L2.80.21958.png;l2
+81;81;Secret;;Lithographie d'Alpha;Alph Lithograph;Trainer;NoColor;;Milky Isobe;https://d3rdng4e2gylew.cloudfront.net/pics/_2/253753/253753_1430462737253.jpg;l2

@@ -84,11 +84,11 @@ lists = [
 =end
 
 japlists = [
-  "pt1.csv", "pt2.csv", "pt3.csv", "pt4.csv"
+  "l1a.csv", "l1b.csv", "ll.csv", "l2.csv", "l3.csv"
 ]
 
-japlists.each do |japlist|
-  csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'dpt', japlist))
+#japlists.each do |japlist|
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'legend', japlist))
   csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
   csv.each do |row|
     rf = RefCard.new
@@ -104,21 +104,21 @@ japlists.each do |japlist|
     rf.artist = row['artist']
     rf.save
   end
-end
+#end
 
 # puts "There are now #{RefCard.count} rows in the RefCard table"
 
 
 
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'dpt', 'pt4.csv'))
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'legend', 'l3.csv'))
 # csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 # csv.each do |row|
 #   rank = row['rank']
 #   url = row['jap_url']
 #   Cloudinary::Uploader.upload("#{url}",
 #   :public_id => "#{rank}",
-#   :folder => "jap_lists/visuals/DPt/pt4",
+#   :folder => "jap_lists/visuals/Legend/l3",
 #   :format => "jpg")
 # end
 
