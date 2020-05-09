@@ -87,7 +87,7 @@ japlists = [
   "l1a.csv", "l1b.csv", "ll.csv", "l2.csv", "l3.csv"
 ]
 
-#japlists.each do |japlist|
+japlists.each do |japlist|
   csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'legend', japlist))
   csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
   csv.each do |row|
@@ -104,7 +104,7 @@ japlists = [
     rf.artist = row['artist']
     rf.save
   end
-#end
+end
 
 # puts "There are now #{RefCard.count} rows in the RefCard table"
 
