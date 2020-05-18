@@ -83,42 +83,41 @@ lists = [
 
 =end
 
-japlists = [
-  "l1a.csv", "l1b.csv", "ll.csv", "l2.csv", "l3.csv"
-]
+# japlists = [
+#   "l1a.csv", "l1b.csv", "ll.csv", "l2.csv", "l3.csv"
+# ]
 
-japlists.each do |japlist|
-  csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'legend', japlist))
-  csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-  csv.each do |row|
-    rf = RefCard.new
-    rf.list = List.jap.find_by(code: row['list'])
-    rf.rank = row['rank']
-    rf.rarety_type = row['rarety_type']
-    rf.ultra_type = row['ultra_type']
-    rf.fr_name = row['fr_name']
-    rf.en_name = row['en_name']
-    rf.super_type = row['super_type']
-    rf.energy = row['energy']
-    rf.pokedex_number = row['pokedex_number']
-    rf.artist = row['artist']
-    rf.save
-  end
-end
-
+#japlists.each do |japlist|
+  # csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'dp', 'dp1.csv'))
+  # csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+  # csv.each do |row|
+  #   rf = RefCard.new
+  #   rf.list = List.jap.find_by(code: row['list'])
+  #   rf.rank = row['rank']
+  #   rf.rarety_type = row['rarety_type']
+  #   rf.ultra_type = row['ultra_type']
+  #   rf.fr_name = row['fr_name']
+  #   rf.en_name = row['en_name']
+  #   rf.super_type = row['super_type']
+  #   rf.energy = row['energy']
+  #   rf.pokedex_number = row['pokedex_number']
+  #   rf.artist = row['artist']
+  #   rf.save
+  # end
+# end
 # puts "There are now #{RefCard.count} rows in the RefCard table"
 
 
 
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'legend', 'l3.csv'))
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'dp', 'dp1.csv'))
 # csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 # csv.each do |row|
 #   rank = row['rank']
 #   url = row['jap_url']
 #   Cloudinary::Uploader.upload("#{url}",
 #   :public_id => "#{rank}",
-#   :folder => "jap_lists/visuals/Legend/l3",
+#   :folder => "jap_lists/visuals/DP/dp1",
 #   :format => "jpg")
 # end
 

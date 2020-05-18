@@ -50,7 +50,7 @@ class RefCard < ApplicationRecord
       "common"
     elsif rarety_type == "Uncommon"
       "uncommon"
-    rarety_type == "Rare"
+    elsif rarety_type == "Rare"
       "rare"
     elsif rarety_type == "Rare Holo"
       "holo"
