@@ -33,7 +33,7 @@ class CardsController < ApplicationController
       elsif params[:scope].present?
         shop_cards.joins(:ref_card).public_send(params[:scope])
       else
-        shop_cards
+        shop_cards.recent
       end
 
     @shop_cards_count = @shop_cards.count
