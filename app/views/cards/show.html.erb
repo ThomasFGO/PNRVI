@@ -1,52 +1,64 @@
 <div class="container">
-  <div class="col-md-offset-2 col-md-8">
-    <div class="shop_card-content">
+  <div class="shop_card-content">
+    <div class="shop_card-visual">
+      <%= cl_image_tag @card.item.ph_one, :gravity=>"auto", :crop=>"fill",
+      :transformation=>[
 
-        <div class="shop_card-visual">
-          <%= cl_image_tag @card.item.ph_one, :gravity=>"auto", :crop=>"fill",
-          :transformation=>[
+      {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@item.user.first_name} #{@item.user.last_name}"},
+      :gravity=>"south", :y=>100}
+      ], class: "standard-photo"%>
+    </div>
 
-          {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@item.user.first_name} #{@item.user.last_name}"},
-          :gravity=>"south", :y=>100}
-          ], class: "standard-photo"%>
-        </div>
+    <% if @card.item.ph_two.present? %>
+      <div class="shop_card-visual">
+        <%= cl_image_tag @card.item.ph_two, :gravity=>"auto", :crop=>"fill",
+        :transformation=>[
 
-        <div class="shop_card-body">
+        {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@item.user.first_name} #{@item.user.last_name}"},
+        :gravity=>"south", :y=>100}
+        ], class: "standard-photo"%>
+      </div>
+    <% else %>
+      <div class="shop_card-visual">
+        <p style="text-align: center">Photo recto indisponible</p>
+      </div>
+    <% end %>
 
-          <div class="shop_card-infos">
-            <h4><%= @card.ref_card.right_name %></h4>
-            <p><%= @card.ref_card.list.fr_name %></p>
+    <div class="shop_card-body">
+
+      <div class="shop_card-infos">
+        <h4><%= @card.ref_card.right_name %></h4>
+        <p><%= @card.ref_card.list.fr_name %></p>
 
 
-            <p><%= "Version : #{@card.version}" %></p>
-            <p><%= @item.condition_label[@item.condition] %></p>
-            <p> Prix : <%= "#{@item.value} €" %></p>
-            <% unless @item.user == current_user %>
-              <%= "Vendeur : " %>
-              <%= link_to "#{@card.item.user.first_name}", shop_user_path(@card.item.user)
-              %>
-            <% end %>
-          </div>
-          <div class="shop_card-buttons">
-            <% if @item.user == current_user %>
-              <%= button_to "Retirer",
-                card_path(@card), method: :delete,
-                class: "btn btn-classic btn-sm border-yellow"
-              %>
-            <% elsif current_user %>
-              <%= button_to "Ajouter au panier",
-                {:controller => "selected_items", :action => "create",
-                  :item_id => @item.id, :user_id=> current_user.id
-                }, :method=>:post, class: "btn btn-classic btn-sm border-yellow"
-              %>
-            <% else  %>
-              <p>Vous devez vous inscrire </br>
-                 pour ajouter cette carte </br>
-                 dans votre panier...
-              </p>
-            <% end %>
-          </div>
-        </div>
+        <p><%= "Version : #{@card.version}" %></p>
+        <p><%= @item.condition_label[@item.condition] %></p>
+        <p> Prix : <%= "#{@item.value} €" %></p>
+        <% unless @item.user == current_user %>
+          <%= "Vendeur : " %>
+          <%= link_to "#{@card.item.user.first_name}", shop_user_path(@card.item.user)
+          %>
+        <% end %>
+      </div>
+      <div class="shop_card-buttons">
+        <% if @item.user == current_user %>
+          <%= button_to "Retirer",
+            card_path(@card), method: :delete,
+            class: "btn btn-classic btn-sm border-yellow"
+          %>
+        <% elsif current_user %>
+          <%= button_to "Ajouter au panier",
+            {:controller => "selected_items", :action => "create",
+              :item_id => @item.id, :user_id=> current_user.id
+            }, :method=>:post, class: "btn btn-classic btn-sm border-yellow"
+          %>
+        <% else  %>
+          <p>Vous devez vous inscrire </br>
+             pour ajouter cette carte </br>
+             dans votre panier...
+          </p>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>

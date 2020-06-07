@@ -9,7 +9,9 @@ class UsersController < ApplicationController
     @shop_cards_count = @shop_cards.count
     @shop_cards_value = @shop_cards.sum(:value)
     @scope = params[:scope]
-    if @scope
+    if @scope && params[:name].present?
+      @shop_cards = @shop_cards.public_send(params[:scope]).search_by_name(params[:name])
+    elsif @scope && params[:name]
       @shop_cards = @shop_cards.public_send(params[:scope])
     else
       @shop_cards = @shop_cards.recent
