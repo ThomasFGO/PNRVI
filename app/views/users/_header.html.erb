@@ -34,9 +34,10 @@
     <% unless @user == current_user %>
       <%= "#{@user.first_name}" %>
       <%= "#{@user.last_name}" %>
+      <h5><%= "#{@shop_cards_count} cartes disponibles" %></h5>
     <% else %>
       <%= "Mon magasin" %>
+      <h5><%= "#{@shop_cards_count} cartes : #{@shop_cards_value}€" %></h5>
     <% end %>
   </h3>
-  <h5><%= "#{@shop_cards_count} cartes : #{@shop_cards_value}€" %></h5>
 </div>
