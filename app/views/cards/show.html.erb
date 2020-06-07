@@ -32,8 +32,8 @@
 
 
         <p><%= "Version : #{@card.version}" %></p>
-        <p><%= @item.condition_label[@item.condition] %></p>
-        <p> Prix : <%= "#{@item.value} €" %></p>
+        <p> État : <%= @item.condition_name %></p>
+        <p> Prix : <%= @item.value %>€</p>
         <% unless @item.user == current_user %>
           <%= "Vendeur : " %>
           <%= link_to "#{@card.item.user.first_name}", shop_user_path(@card.item.user)
