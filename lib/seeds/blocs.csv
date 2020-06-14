@@ -1,14 +1,16 @@
-fr_name;en_name
-Épée et Bouclier;Sword & Shield
-Soleil et Lune;Sun & Moon
-XY;XY
-Noir et Blanc;Black & White
-HeartGold & SoulSilver;HeartGold & SoulSilver
-Platine;Platinum
-Diamant et Perle;Diamond & Pearl
-Ex;Ex
-E-Card;E-card
-Neo;Neo
-Gym;Gym
-Base;Base
-POP;POP
+rank;fr_name;en_name;cl_name;jap
+15;Épée et Bouclier;Sword & Shield;SS;false
+14;Soleil et Lune;Sun & Moon;SM;false
+13;XY;XY;XY;false
+12;Noir et Blanc;Black & White;BW;false
+11;HeartGold & SoulSilver;HeartGold & SoulSilver;HGSS;false
+10;Platine;Platinum;Platinum;false
+9;Diamant et Perle;Diamond & Pearl;DP;false
+8;Ex;Ex;Ex;false
+7;E-Card;E-card;E-card;false
+6;Neo;Neo;Neo;false
+5;Gym;Gym;Gym;false
+4;Base;Base;Base;false
+3;MacDonalds;MacDonalds;MacDonalds;false
+2;POP;POP;POP;false
+1;Autres;Others;Others;false

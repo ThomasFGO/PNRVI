@@ -2,11 +2,11 @@
   <div class="list_header-visuals">
     <% if @list.occi? %>
       <div class="logo">
-        <%= cl_image_tag ("lists/fr_logos/poknroll_#{@list.code}_fr_logo.png"),
+        <%= cl_image_tag ("lists/fr_logos/#{@list.code}.png"),
         class: "logo-list-standard" %>
       </div>
       <div class="symbol">
-        <%= cl_image_tag ("lists/symbols/poknroll_#{@list.code}_symbol.png"), class: "symbol-list" %>
+        <%= cl_image_tag ("lists/symbols/#{@list.code}.png"), class: "symbol-list" %>
       </div>
     <% elsif @list.symbol_url %>
       <div class="symbol">

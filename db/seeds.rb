@@ -2,38 +2,46 @@ require 'csv'
 
 
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_blocs.csv'))
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'blocs.csv'))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  b = Bloc.new
+  b.rank = row['rank']
+  b.fr_name = row['fr_name']
+  b.en_name = row['en_name']
+  b.jap = row['jap']
+  b.save
+end
+
+puts "#{Bloc.occi.count} occi blocs saved"
+
+
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'occi_lists.csv'))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  l = List.new
+  l.bloc = Bloc.find_by(fr_name: row['fr_name_bloc'], jap: false)
+  l.fr_name = row['fr_name']
+  l.en_name = row['en_name']
+  l.rank = row['rank']
+  l.code = row['code']
+  l.promo = row['promo']
+  l.fr_release = row['fr_release_date']
+  l.us_release = row['us_release_date']
+  l.size = row['size']
+  l.us_logo_url = row['us_logo_url']
+  l.fr_logo_url = row['fr_logo_url']
+  l.symbol_url = row['symbol_url']
+  l.save
+  puts "#{List.occi.count} occi lists saved"
+end
+
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'occi_lists.csv'))
 # csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 # csv.each do |row|
-#   b = Bloc.find_by(en_name: row['en_name'], jap: row['jap'] )
-#   unless b.blank?
-#     b.rank = row['rank']
-#     b.en_name = row['en_name']
-#     b.jap = row['jap']
-#     b.save
-#   end
-# end
-
-# puts "#{Bloc.jap.count} jap_blocs saved"
-
-
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'japlists.csv'))
-# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-# csv.each do |row|
-#   l = List.find_by(en_name: row['en_name'], bloc: Bloc.find_by(en_name: row['bloc'], jap: true))
-#   if l.blank?
-#     l = List.new
-#   end
-#   l.bloc = Bloc.find_by(en_name: row['bloc'], jap: true)
-#   l.rank = row['rank']
-#   l.en_name = row['en_name']
-#   l.code = row['code']
-#   l.jap_release = row['jap_release']
-#   l.size = row['size']
-#   #l.logo_url = row['logo_url']
-#   l.symbol_url = row['symbol_url']
-#   l.save
-#   puts "#{List.jap.count} jap_lists saved"
+#   code = row['code']
+#   symbol_url = row['symbol_url']
+#   Cloudinary::Uploader.upload("#{symbol_url}",:public_id => "#{code}",:folder => "lists/symbols")
 # end
 
 
@@ -110,16 +118,16 @@ lists = [
 
 
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'dp', 'dp1.csv'))
-# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-# csv.each do |row|
-#   rank = row['rank']
-#   url = row['jap_url']
-#   Cloudinary::Uploader.upload("#{url}",
-#   :public_id => "#{rank}",
-#   :folder => "jap_lists/visuals/DP/dp1",
-#   :format => "jpg")
-# end
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'dp', 'dp1.csv'))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  rank = row['rank']
+  url = row['jap_url']
+  Cloudinary::Uploader.upload("#{url}",
+  :public_id => "#{rank}",
+  :folder => "jap_lists/visuals/DP/dp1",
+  :format => "jpg")
+end
 
 #Cloudinary::Uploader.upload("#{l.us_logo_url}",
 #:width => 320, :height => 100, :crop => :limit,
