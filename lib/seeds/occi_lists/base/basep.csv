@@ -1,0 +1,55 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;fr_url;us_url;list
+1;1;;;Pikachu;Pikachu;Pokémon;Lightning;25;Keiji Kinebuchi;https://www.pokepedia.fr/images/4/4a/Carte_Promo_Wizards_1.png;https://images.pokemontcg.io/basep/1.png;basep
+2;2;;;Elektek;Electabuzz;Pokémon;Lightning;125;Ken Sugimori;https://www.pokepedia.fr/images/0/06/Carte_Promo_Wizards_2.png;https://images.pokemontcg.io/basep/2.png;basep
+3;3;;;Mewtwo;Mewtwo;Pokémon;Psychic;150;Ken Sugimori;https://www.pokepedia.fr/images/9/91/Carte_Promo_Wizards_3.png;https://images.pokemontcg.io/basep/3.png;basep
+4;4;;;Pikachu;Pikachu;Pokémon;Lightning;25;Ken Sugimori;https://www.pokepedia.fr/images/5/5a/Carte_Promo_Wizards_4.png;https://images.pokemontcg.io/basep/4.png;basep
+5;5;;;Dracolosse;Dragonite;Pokémon;Colorless;149;Toshinao Aoki;https://www.pokepedia.fr/images/d/dd/Carte_Promo_Wizards_5.png;https://images.pokemontcg.io/basep/5.png;basep
+6;6;;;Arcanin;Arcanine;Pokémon;Fire;59;Ken Sugimori;https://www.pokepedia.fr/images/b/b4/Carte_Promo_Wizards_6.png;https://images.pokemontcg.io/basep/6.png;basep
+7;7;;;Rondoudou;Jigglypuff;Pokémon;Colorless;39;Keiji Kinebuchi;https://www.pokepedia.fr/images/d/d8/Carte_Promo_Wizards_7.png;https://images.pokemontcg.io/basep/7.png;basep
+8;8;;;Mew;Mew;Pokémon;Psychic;151;Ken Sugimori;https://www.pokepedia.fr/images/a/ab/Carte_Promo_Wizards_8.png;https://images.pokemontcg.io/basep/8.png;basep
+9;9;;;Mew;Mew;Pokémon;Psychic;151;Ken Sugimori;https://www.pokepedia.fr/images/7/7c/Carte_Promo_Wizards_9.png;https://images.pokemontcg.io/basep/9.png;basep
+10;10;;;Miaouss;Meowth;Pokémon;Colorless;52;Kagemaru Himeno;https://www.pokepedia.fr/images/7/70/Carte_Promo_Wizards_10.png;https://images.pokemontcg.io/basep/10.png;basep
+11;11;;;Evoli;Eevee;Pokémon;Colorless;133;Kagemaru Himeno;https://www.pokepedia.fr/images/f/fc/Carte_Promo_Wizards_11.png;https://images.pokemontcg.io/basep/11.png;basep
+12;12;;;Mewtwo;Mewtwo;Pokémon;Psychic;150;Christopher Rush;https://www.pokepedia.fr/images/1/1d/Carte_Promo_Wizards_12.png;https://images.pokemontcg.io/basep/12.png;basep
+13;13;;;Florizarre;Venusaur;Pokémon;Grass;3;Ken Sugimori;https://www.pokepedia.fr/images/a/a6/Carte_Promo_Wizards_13.png;https://images.pokemontcg.io/basep/13.png;basep
+14;14;;;Mewtwo;Mewtwo;Pokémon;Psychic;150;Benimaru Itoh;https://www.pokepedia.fr/images/b/b9/Carte_Promo_Wizards_14.png;https://images.pokemontcg.io/basep/14.png;basep
+15;15;;;Cool Porygon;Cool Porygon;Pokémon;Colorless;137;Hiromichi Sugiyama;https://www.pokepedia.fr/images/f/f9/Carte_Promo_Wizards_15.png;https://images.pokemontcg.io/basep/15.png;basep
+16;16;;;Computer Error (Rocket's Secret Machine);Computer Error;Trainer;NoColor;;Sumiyoshi Kizuki;https://www.pokepedia.fr/images/2/21/Carte_Promo_Wizards_16.png;https://images.pokemontcg.io/basep/16.png;basep
+17;17;;;Persian Obscur;Dark Persian;Pokémon;Colorless;53;Ken Sugimori;https://www.pokepedia.fr/images/b/b2/Carte_Promo_Wizards_17.png;https://images.pokemontcg.io/basep/17.png;basep
+18;18;;;Team Rocket's Meowth;Team Rocket's Meowth;Pokémon;Colorless;52;Kunihiko Yuyama;https://www.pokepedia.fr/images/7/74/Carte_Promo_Wizards_18.png;https://images.pokemontcg.io/basep/18.png;basep
+19;19;;;Sabrina's Abra;Sabrina's Abra;Pokémon;Psychic;63;Atsuko Nishida;https://www.pokepedia.fr/images/a/aa/Carte_Promo_Wizards_19.png;https://images.pokemontcg.io/basep/19.png;basep
+20;20;;;Psykokwak;Psyduck;Pokémon;Water;54;Kagemaru Himeno;https://www.pokepedia.fr/images/5/5c/Carte_Promo_Wizards_20.png;https://images.pokemontcg.io/basep/20.png;basep
+21;21;;;Sulfura;Moltres;Pokémon;Fire;146;Toshinao Aoki;https://www.pokepedia.fr/images/a/a0/Carte_Promo_Wizards_21.png;https://images.pokemontcg.io/basep/21.png;basep
+22;22;;;Artikodin;Articuno;Pokémon;Water;144;Toshinao Aoki;https://www.pokepedia.fr/images/8/86/Carte_Promo_Wizards_22.png;https://images.pokemontcg.io/basep/22.png;basep
+23;23;;;Electhor;Zapdos;Pokémon;Lightning;145;Toshinao Aoki;https://www.pokepedia.fr/images/e/ed/Carte_Promo_Wizards_23.png;https://images.pokemontcg.io/basep/23.png;basep
+24;24;;;Pikachu de _____;___________'s Pikachu;Pokémon;Lightning;25;Kagemaru Himeno;https://www.pokepedia.fr/images/d/de/Carte_Promo_Wizards_24.png;https://images.pokemontcg.io/basep/24.png;basep
+25;25;;;Pikachu volant;Flying Pikachu;Pokémon;Lightning;25;Toshinao Aoki;https://www.pokepedia.fr/images/0/08/Carte_Promo_Wizards_25.png;https://images.pokemontcg.io/basep/25.png;basep
+26;26;;;Pikachu;Pikachu;Pokémon;Lightning;25;Gakuji Nomoto;https://www.pokepedia.fr/images/7/70/Carte_Promo_Wizards_26.png;https://images.pokemontcg.io/basep/26.png;basep
+27;27;;;Pikachu;Pikachu;Pokémon;Lightning;25;Atsuko Nishida;https://www.pokepedia.fr/images/9/99/Carte_Promo_Wizards_27.png;https://images.pokemontcg.io/basep/27.png;basep
+28;28;;;Pikachu Surfeur;Surfing Pikachu;Pokémon;Lightning;25;Toshinao Aoki;https://www.pokepedia.fr/images/3/3b/Carte_Promo_Wizards_28.png;https://images.pokemontcg.io/basep/28.png;basep
+29;29;;;Marill;Marill;Pokémon;Water;183;Ken Sugimori;https://www.pokepedia.fr/images/e/e3/Carte_Promo_Wizards_29.png;https://images.pokemontcg.io/basep/29.png;basep
+30;30;;;Togepi;Togepi;Pokémon;Colorless;175;Ken Sugimori;https://www.pokepedia.fr/images/d/dc/Carte_Promo_Wizards_30.png;https://images.pokemontcg.io/basep/30.png;basep
+31;31;;;Mélo;Cleffa;Pokémon;Colorless;173;Ken Sugimori;https://www.pokepedia.fr/images/b/b1/Carte_Promo_Wizards_31.png;https://images.pokemontcg.io/basep/31.png;basep
+32;32;;;Queulorior;Smeargle;Pokémon;Colorless;235;Tomokazu Komiya;https://www.pokepedia.fr/images/d/d9/Carte_Promo_Wizards_32.png;https://images.pokemontcg.io/basep/32.png;basep
+33;33;;;Cizayox;Scizor;Pokémon;Metal;212;Hironobu Yoshida;https://www.pokepedia.fr/images/b/ba/Carte_Promo_Wizards_33.png;https://images.pokemontcg.io/basep/33.png;basep
+34;34;;;Entei;Entei;Pokémon;Fire;244;Ken Sugimori;https://www.pokepedia.fr/images/2/24/Carte_Promo_Wizards_34.png;https://images.pokemontcg.io/basep/34.png;basep
+35;35;;;Pichu;Pichu;Pokémon;Lightning;172;Ken Sugimori;https://www.pokepedia.fr/images/1/17/Carte_Promo_Wizards_35.png;https://images.pokemontcg.io/basep/35.png;basep
+36;36;;;Toudoudou;Igglybuff;Pokémon;Colorless;174;Kagemaru Himeno;https://www.pokepedia.fr/images/6/63/Carte_Promo_Wizards_36.png;https://images.pokemontcg.io/basep/36.png;basep
+37;37;;;Kapoera;Hitmontop;Pokémon;Fighting;237;Atsuko Nishida;https://www.pokepedia.fr/images/2/20/Carte_Promo_Wizards_37.png;https://images.pokemontcg.io/basep/37.png;basep
+38;38;;;Unown [J];Unown [J];Pokémon;Psychic;201;Hideki Kazama;https://www.pokepedia.fr/images/5/55/Carte_Promo_Wizards_38.png;https://images.pokemontcg.io/basep/38.png;basep
+39;39;;;Feuforeve;Misdreavus;Pokémon;Psychic;200;Shin-ichi Yoshida;https://www.pokepedia.fr/images/8/81/Carte_Promo_Wizards_39.png;https://images.pokemontcg.io/basep/39.png;basep
+40;40;;;Centre Pokémon;Pokémon Center;Trainer;NoColor;;"""Big Mama"" Tagawa";https://www.pokepedia.fr/images/5/5f/Carte_Promo_Wizards_40.png;https://images.pokemontcg.io/basep/40.png;basep
+41;41;;;Stade de la chance;Lucky Stadium;Trainer;NoColor;;"""Big Mama"" Tagawa";https://www.pokepedia.fr/images/b/b6/Carte_Promo_Wizards_41.png;https://images.pokemontcg.io/basep/41.png;basep
+42;42;;;Pokémon Tower;Pokémon Tower;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/9/97/Carte_Promo_Wizards_42.png;https://images.pokemontcg.io/basep/42.png;basep
+43;43;;;Mackogneur;Machamp;Pokémon;Fighting;68;Tomokazu Komiya;https://www.pokepedia.fr/images/8/82/Carte_Promo_Wizards_43.png;https://images.pokemontcg.io/basep/43.png;basep
+44;44;;;Magmar;Magmar;Pokémon;Fire;126;Atsuko Nishida;https://www.pokepedia.fr/images/b/bd/Carte_Promo_Wizards_44.png;https://images.pokemontcg.io/basep/44.png;basep
+45;45;;;Insécateur;Scyther;Pokémon;Grass;123;Hironobu Yoshida;https://www.pokepedia.fr/images/9/92/Carte_Promo_Wizards_45.png;https://images.pokemontcg.io/basep/45.png;basep
+46;46;;;Elektek;Electabuzz;Pokémon;Lightning;125;Miki Tanaka;https://www.pokepedia.fr/images/c/c5/Carte_Promo_Wizards_46.png;https://images.pokemontcg.io/basep/46.png;basep
+47;47;;;Mew;Mew;Pokémon;Psychic;151;Ken Sugimori;https://www.pokepedia.fr/images/a/ab/Carte_Promo_Wizards_47.png;https://images.pokemontcg.io/basep/47.png;basep
+48;48;;;Artikodin;Articuno;Pokémon;Water;144;Atsuko Nishida;https://www.pokepedia.fr/images/1/1b/Carte_Promo_Wizards_48.png;https://images.pokemontcg.io/basep/48.png;basep
+49;49;;;Ronflex;Snorlax;Pokémon;Colorless;143;Craig Turvey;https://www.pokepedia.fr/images/0/0c/Carte_Promo_Wizards_49.png;https://images.pokemontcg.io/basep/49.png;basep
+50;50;;;Celebi;Celebi;Pokémon;Grass;251;Hajime Kusajima;https://www.pokepedia.fr/images/a/af/Carte_Promo_Wizards_50.png;https://images.pokemontcg.io/basep/50.png;basep
+51;51;;;Galopa;Rapidash;Pokémon;Fire;78;Mitsuhiro Arita;https://www.pokepedia.fr/images/e/e1/Carte_Promo_Wizards_51.png;https://images.pokemontcg.io/basep/51.png;basep
+52;52;;;Ho-Oh;Ho-oh;Pokémon;Fire;250;Mitsuhiro Arita;https://www.pokepedia.fr/images/3/38/Carte_Promo_Wizards_52.png;https://images.pokemontcg.io/basep/52.png;basep
+53;53;;;Suicune;Suicune;Pokémon;Water;245;Atsuko Nishida;https://www.pokepedia.fr/images/2/2c/Carte_Promo_Wizards_53.png;https://images.pokemontcg.io/basep/53.png;basep
+54;;;;Mew Antique;Mew Antique;Pokémon;Psychic;151;;https://www.pokepedia.fr/images/0/06/Carte_Promo_Mew_Antique.png;https://www.pokepedia.fr/images/0/06/Carte_Promo_Mew_Antique.png;basep

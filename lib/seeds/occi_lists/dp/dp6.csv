@@ -1,0 +1,147 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;fr_url;us_url;list
+1;1;Rare Holo;;Deoxys Forme Normale;Deoxys Normal Forme;Pokémon;Psychic;386;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_1.png;https://images.pokemontcg.io/dp6/1.png;dp6
+2;2;Rare Holo;;Dracolosse;Dragonite;Pokémon;Colorless;149;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_2.png;https://images.pokemontcg.io/dp6/2.png;dp6
+3;3;Rare Holo;;Momartik;Froslass;Pokémon;Water;478;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_3.png;https://images.pokemontcg.io/dp6/3.png;dp6
+4;4;Rare Holo;;Giratina;Giratina;Pokémon;Psychic;487;Kazuaki Aihara;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_4.png;https://images.pokemontcg.io/dp6/4.png;dp6
+5;5;Rare Holo;;Scorvol;Gliscor;Pokémon;Fighting;472;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_5.png;https://images.pokemontcg.io/dp6/5.png;dp6
+6;6;Rare Holo;;Heatran;Heatran;Pokémon;Fire;485;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_6.png;https://images.pokemontcg.io/dp6/6.png;dp6
+7;7;Rare Holo;;Hyporoi;Kingdra;Pokémon;Water;230;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_7.png;https://images.pokemontcg.io/dp6/7.png;dp6
+8;8;Rare Holo;;Luxray;Luxray;Pokémon;Lightning;405;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_8.png;https://images.pokemontcg.io/dp6/8.png;dp6
+9;9;Rare Holo;;Mammochon;Mamoswine;Pokémon;Water;473;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_9.png;https://images.pokemontcg.io/dp6/9.png;dp6
+10;10;Rare Holo;;Metalosse;Metagross;Pokémon;Metal;376;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_10.png;https://images.pokemontcg.io/dp6/10.png;dp6
+11;11;Rare Holo;;Mewtwo;Mewtwo;Pokémon;Psychic;150;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_11.png;https://images.pokemontcg.io/dp6/11.png;dp6
+12;12;Rare Holo;;Tarpaud;Politoed;Pokémon;Water;186;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_12.png;https://images.pokemontcg.io/dp6/12.png;dp6
+13;13;Rare Holo;;Tarinorme;Probopass;Pokémon;Fighting;476;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_13.png;https://images.pokemontcg.io/dp6/13.png;dp6
+14;14;Rare Holo;;Rayquaza;Rayquaza;Pokémon;Colorless;384;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_14.png;https://images.pokemontcg.io/dp6/14.png;dp6
+15;15;Rare Holo;;Regigigas;Regigigas;Pokémon;Colorless;486;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_15.png;https://images.pokemontcg.io/dp6/15.png;dp6
+16;16;Rare Holo;;Spiritomb;Spiritomb;Pokémon;Psychic;442;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_16.png;https://images.pokemontcg.io/dp6/16.png;dp6
+17;17;Rare Holo;;Yanmega;Yanmega;Pokémon;Grass;469;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_17.png;https://images.pokemontcg.io/dp6/17.png;dp6
+18;18;Rare;;Armaldo;Armaldo;Pokémon;Fighting;348;Kazuaki Aihara;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_18.png;https://images.pokemontcg.io/dp6/18.png;dp6
+19;19;Rare;;Crefadet;Azelf;Pokémon;Psychic;482;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_19.png;https://images.pokemontcg.io/dp6/19.png;dp6
+20;20;Rare;;Joliflor;Bellossom;Pokémon;Grass;182;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_20.png;https://images.pokemontcg.io/dp6/20.png;dp6
+21;21;Rare;;Vacilys;Cradily;Pokémon;Grass;346;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_21.png;https://images.pokemontcg.io/dp6/21.png;dp6
+22;22;Rare;;Colhomard;Crawdaunt;Pokémon;Water;342;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_22.png;https://images.pokemontcg.io/dp6/22.png;dp6
+23;23;Rare;;Delcatty;Delcatty;Pokémon;Colorless;301;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_23.png;https://images.pokemontcg.io/dp6/23.png;dp6
+24;24;Rare;;Deoxys Forme Attaque;Deoxys Attack Forme;Pokémon;Psychic;386;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_24.png;https://images.pokemontcg.io/dp6/24.png;dp6
+25;25;Rare;;Deoxys Forme Défense;Deoxys Defense Forme;Pokémon;Psychic;386;Kazuaki Aihara;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_25.png;https://images.pokemontcg.io/dp6/25.png;dp6
+26;26;Rare;;Deoxys Forme Vitesse;Deoxys Speed Forme;Pokémon;Psychic;386;Kazuaki Aihara;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_26.png;https://images.pokemontcg.io/dp6/26.png;dp6
+27;27;Rare;;Métamorph;Ditto;Pokémon;Colorless;132;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_27.png;https://images.pokemontcg.io/dp6/27.png;dp6
+28;28;Rare;;Foretress;Forretress;Pokémon;Metal;205;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_28.png;https://images.pokemontcg.io/dp6/28.png;dp6
+29;29;Rare;;Groudon;Groudon;Pokémon;Fighting;383;Kazuaki Aihara;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_29.png;https://images.pokemontcg.io/dp6/29.png;dp6
+30;30;Rare;;Heatran;Heatran;Pokémon;Metal;485;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_30.png;https://images.pokemontcg.io/dp6/30.png;dp6
+31;31;Rare;;Jirachi;Jirachi;Pokémon;Metal;385;Satoshi Ohta;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_31.png;https://images.pokemontcg.io/dp6/31.png;dp6
+32;32;Rare;;Kyogre;Kyogre;Pokémon;Water;382;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_32.png;https://images.pokemontcg.io/dp6/32.png;dp6
+33;33;Rare;;Lockpin;Lopunny;Pokémon;Colorless;428;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_33.png;https://images.pokemontcg.io/dp6/33.png;dp6
+34;34;Rare;;Crefollet;Mesprit;Pokémon;Psychic;481;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_34.png;https://images.pokemontcg.io/dp6/34.png;dp6
+35;35;Rare;;Tartard;Poliwrath;Pokémon;Water;62;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_35.png;https://images.pokemontcg.io/dp6/35.png;dp6
+36;36;Rare;;Regice;Regice;Pokémon;Water;378;Kazuaki Aihara;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_36.png;https://images.pokemontcg.io/dp6/36.png;dp6
+37;37;Rare;;Regigigas;Regigigas;Pokémon;Colorless;486;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_37.png;https://images.pokemontcg.io/dp6/37.png;dp6
+38;38;Rare;;Regirock;Regirock;Pokémon;Fighting;377;Kazuaki Aihara;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_38.png;https://images.pokemontcg.io/dp6/38.png;dp6
+39;39;Rare;;Registeel;Registeel;Pokémon;Metal;379;Kazuaki Aihara;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_39.png;https://images.pokemontcg.io/dp6/39.png;dp6
+40;40;Rare;;Munja;Shedinja;Pokémon;Grass;292;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_40.png;https://images.pokemontcg.io/dp6/40.png;dp6
+41;41;Rare;;Chartor;Torkoal;Pokémon;Fire;324;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_41.png;https://images.pokemontcg.io/dp6/41.png;dp6
+42;42;Rare;;Zarbi !;Unown !;Pokémon;Psychic;201;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_42.png;https://images.pokemontcg.io/dp6/42.png;dp6
+43;43;Rare;;Crehelf;Uxie;Pokémon;Psychic;480;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_43.png;https://images.pokemontcg.io/dp6/43.png;dp6
+44;44;Rare;;Empiflor;Victreebel;Pokémon;Grass;71;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_44.png;https://images.pokemontcg.io/dp6/44.png;dp6
+45;45;Rare;;Rafflésia;Vileplume;Pokémon;Grass;45;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_45.png;https://images.pokemontcg.io/dp6/45.png;dp6
+46;46;Uncommon;;Anorith;Anorith;Pokémon;Fighting;347;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_46.png;https://images.pokemontcg.io/dp6/46.png;dp6
+47;47;Uncommon;;Camerupt;Camerupt;Pokémon;Fire;323;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_47.png;https://images.pokemontcg.io/dp6/47.png;dp6
+48;48;Uncommon;;Morpheo;Castform;Pokémon;Colorless;351;Kanako Eo;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_48.png;https://images.pokemontcg.io/dp6/48.png;dp6
+49;49;Uncommon;;Morpheo Pluie;Castform Rain Form;Pokémon;Water;351;Emi Yoshida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_49.png;https://images.pokemontcg.io/dp6/49.png;dp6
+50;50;Uncommon;;Morhpeo Neige;Castform Snow-cloud Form;Pokémon;Water;351;Saya Tsuruta;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_50.png;https://images.pokemontcg.io/dp6/50.png;dp6
+51;51;Uncommon;;Morpheo Soleil;Castform Sunny Form;Pokémon;Fire;351;Lee HyunJung;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_51.png;https://images.pokemontcg.io/dp6/51.png;dp6
+52;52;Uncommon;;Draco;Dragonair;Pokémon;Colorless;148;Suwama Chiaki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_52.png;https://images.pokemontcg.io/dp6/52.png;dp6
+53;53;Uncommon;;Grodrive;Drifblim;Pokémon;Psychic;426;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_53.png;https://images.pokemontcg.io/dp6/53.png;dp6
+54;54;Uncommon;;Noadkoko;Exeggutor;Pokémon;Psychic;103;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_54.png;https://images.pokemontcg.io/dp6/54.png;dp6
+55;55;Uncommon;;Scorvol;Gliscor;Pokémon;Fighting;472;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_55.png;https://images.pokemontcg.io/dp6/55.png;dp6
+56;56;Uncommon;;Groret;Grumpig;Pokémon;Psychic;326;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_56.png;https://images.pokemontcg.io/dp6/56.png;dp6
+57;57;Uncommon;;Démolosse;Houndoom;Pokémon;Fire;229;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_57.png;https://images.pokemontcg.io/dp6/57.png;dp6
+58;58;Uncommon;;Lanturn;Lanturn;Pokémon;Water;171;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_58.png;https://images.pokemontcg.io/dp6/58.png;dp6
+59;59;Uncommon;;Lanturn;Lanturn;Pokémon;Lightning;171;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_59.png;https://images.pokemontcg.io/dp6/59.png;dp6
+60;60;Uncommon;;Coxyclaque;Ledian;Pokémon;Grass;166;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_60.png;https://images.pokemontcg.io/dp6/60.png;dp6
+61;61;Uncommon;;Lucario;Lucario;Pokémon;Fighting;448;Naoyo Kimura;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_61.png;https://images.pokemontcg.io/dp6/61.png;dp6
+62;62;Uncommon;;Luxio;Luxio;Pokémon;Lightning;404;Naoyo Kimura;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_62.png;https://images.pokemontcg.io/dp6/62.png;dp6
+63;63;Uncommon;;Ossatueur;Marowak;Pokémon;Fighting;105;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_63.png;https://images.pokemontcg.io/dp6/63.png;dp6
+64;64;Uncommon;;Metang;Metang;Pokémon;Metal;375;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_64.png;https://images.pokemontcg.io/dp6/64.png;dp6
+65;65;Uncommon;;Metang;Metang;Pokémon;Metal;375;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_65.png;https://images.pokemontcg.io/dp6/65.png;dp6
+66;66;Uncommon;;Grahyena;Mightyena;Pokémon;Darkness;262;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_66.png;https://images.pokemontcg.io/dp6/66.png;dp6
+67;67;Uncommon;;Ninjask;Ninjask;Pokémon;Grass;291;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_67.png;https://images.pokemontcg.io/dp6/67.png;dp6
+68;68;Uncommon;;Persian;Persian;Pokémon;Colorless;53;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_68.png;https://images.pokemontcg.io/dp6/68.png;dp6
+69;69;Uncommon;;Cochignon;Piloswine;Pokémon;Water;221;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_69.png;https://images.pokemontcg.io/dp6/69.png;dp6
+70;70;Uncommon;;Hypocéan;Seadra;Pokémon;Water;117;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_70.png;https://images.pokemontcg.io/dp6/70.png;dp6
+71;71;Uncommon;;Staross;Starmie;Pokémon;Water;121;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_71.png;https://images.pokemontcg.io/dp6/71.png;dp6
+72;72;Uncommon;;Avaltout;Swalot;Pokémon;Psychic;317;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_72.png;https://images.pokemontcg.io/dp6/72.png;dp6
+73;73;Uncommon;;Hélédelle;Swellow;Pokémon;Colorless;277;Suwama Chiaki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_73.png;https://images.pokemontcg.io/dp6/73.png;dp6
+74;74;Uncommon;;Tauros;Tauros;Pokémon;Colorless;128;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_74.png;https://images.pokemontcg.io/dp6/74.png;dp6
+75;75;Uncommon;;Tentacruel;Tentacruel;Pokémon;Water;73;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_75.png;https://images.pokemontcg.io/dp6/75.png;dp6
+76;76;Uncommon;;Zarbi J;Unown J;Pokémon;Psychic;201;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_76.png;https://images.pokemontcg.io/dp6/76.png;dp6
+77;77;Uncommon;;Zarbi R;Unown R;Pokémon;Psychic;201;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_77.png;https://images.pokemontcg.io/dp6/77.png;dp6
+78;78;Uncommon;;Zarbi U;Unown U;Pokémon;Psychic;201;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_78.png;https://images.pokemontcg.io/dp6/78.png;dp6
+79;79;Uncommon;;Zarbi V;Unown V;Pokémon;Psychic;201;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_79.png;https://images.pokemontcg.io/dp6/79.png;dp6
+80;80;Uncommon;;Zarbi W;Unown W;Pokémon;Psychic;201;Kazuaki Aihara;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_80.png;https://images.pokemontcg.io/dp6/80.png;dp6
+81;81;Uncommon;;Zarbi Y;Unown Y;Pokémon;Psychic;201;Kazuaki Aihara;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_81.png;https://images.pokemontcg.io/dp6/81.png;dp6
+82;82;Uncommon;;Zarbi ?;Unown ?;Pokémon;Psychic;201;Kazuaki Aihara;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_82.png;https://images.pokemontcg.io/dp6/82.png;dp6
+83;83;Common;;Terhal;Beldum;Pokémon;Metal;374;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_83.png;https://images.pokemontcg.io/dp6/83.png;dp6
+84;84;Common;;Terhal;Beldum;Pokémon;Metal;374;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_84.png;https://images.pokemontcg.io/dp6/84.png;dp6
+85;85;Common;;Chétiflor;Bellsprout;Pokémon;Grass;69;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_85.png;https://images.pokemontcg.io/dp6/85.png;dp6
+86;86;Common;;Laporeille;Buneary;Pokémon;Colorless;427;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_86.png;https://images.pokemontcg.io/dp6/86.png;dp6
+87;87;Common;;Loupio;Chinchou;Pokémon;Water;170;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_87.png;https://images.pokemontcg.io/dp6/87.png;dp6
+88;88;Common;;Loupio;Chinchou;Pokémon;Lightning;170;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_88.png;https://images.pokemontcg.io/dp6/88.png;dp6
+89;89;Common;;Ecrapince;Corphish;Pokémon;Water;341;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_89.png;https://images.pokemontcg.io/dp6/89.png;dp6
+90;90;Common;;Osselait;Cubone;Pokémon;Fighting;104;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_90.png;https://images.pokemontcg.io/dp6/90.png;dp6
+91;91;Common;;Minidraco;Dratini;Pokémon;Colorless;147;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_91.png;https://images.pokemontcg.io/dp6/91.png;dp6
+92;92;Common;;Baudrive;Drifloon;Pokémon;Psychic;425;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_92.png;https://images.pokemontcg.io/dp6/92.png;dp6
+93;93;Common;;Noeunoeuf;Exeggcute;Pokémon;Psychic;102;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_93.png;https://images.pokemontcg.io/dp6/93.png;dp6
+94;94;Common;;Scorplane;Gligar;Pokémon;Fighting;207;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_94.png;https://images.pokemontcg.io/dp6/94.png;dp6
+95;95;Common;;Scorplane;Gligar;Pokémon;Fighting;207;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_95.png;https://images.pokemontcg.io/dp6/95.png;dp6
+96;96;Common;;Ortide;Gloom;Pokémon;Grass;44;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_96.png;https://images.pokemontcg.io/dp6/96.png;dp6
+97;97;Common;;Ortide;Gloom;Pokémon;Psychic;44;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_97.png;https://images.pokemontcg.io/dp6/97.png;dp6
+98;98;Common;;Gloupti;Gulpin;Pokémon;Psychic;316;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_98.png;https://images.pokemontcg.io/dp6/98.png;dp6
+99;99;Common;;Tygnon;Hitmonchan;Pokémon;Fighting;107;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_99.png;https://images.pokemontcg.io/dp6/99.png;dp6
+100;100;Common;;Kicklee;Hitmonlee;Pokémon;Fighting;106;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_100.png;https://images.pokemontcg.io/dp6/100.png;dp6
+101;101;Common;;Kapoera;Hitmontop;Pokémon;Fighting;237;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_101.png;https://images.pokemontcg.io/dp6/101.png;dp6
+102;102;Common;;Hypotrempe;Horsea;Pokémon;Water;116;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_102.png;https://images.pokemontcg.io/dp6/102.png;dp6
+103;103;Common;;Malosse;Houndour;Pokémon;Darkness;228;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_103.png;https://images.pokemontcg.io/dp6/103.png;dp6
+104;104;Common;;Coxy;Ledyba;Pokémon;Grass;165;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_104.png;https://images.pokemontcg.io/dp6/104.png;dp6
+105;105;Common;;Lilia;Lileep;Pokémon;Grass;345;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_105.png;https://images.pokemontcg.io/dp6/105.png;dp6
+106;106;Common;;Miaouss;Meowth;Pokémon;Colorless;52;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_106.png;https://images.pokemontcg.io/dp6/106.png;dp6
+107;107;Common;;Feuforeve;Misdreavus;Pokémon;Psychic;200;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_107.png;https://images.pokemontcg.io/dp6/107.png;dp6
+108;108;Common;;Ningale;Nincada;Pokémon;Grass;290;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_108.png;https://images.pokemontcg.io/dp6/108.png;dp6
+109;109;Common;;Tarinor;Nosepass;Pokémon;Fighting;299;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_109.png;https://images.pokemontcg.io/dp6/109.png;dp6
+110;110;Common;;Chamallot;Numel;Pokémon;Fire;322;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_110.png;https://images.pokemontcg.io/dp6/110.png;dp6
+111;111;Common;;Mystherbe;Oddish;Pokémon;Grass;43;Hiroki Fuchino;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_111.png;https://images.pokemontcg.io/dp6/111.png;dp6
+112;112;Common;;Mystherbe;Oddish;Pokémon;Psychic;43;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_112.png;https://images.pokemontcg.io/dp6/112.png;dp6
+113;113;Common;;Pomdepik;Pineco;Pokémon;Grass;204;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_113.png;https://images.pokemontcg.io/dp6/113.png;dp6
+114;114;Common;;Ptitard;Poliwag;Pokémon;Water;60;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_114.png;https://images.pokemontcg.io/dp6/114.png;dp6
+115;115;Common;;Têtarte;Poliwhirl;Pokémon;Water;61;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_115.png;https://images.pokemontcg.io/dp6/115.png;dp6
+116;116;Common;;Medhyena;Poochyena;Pokémon;Darkness;261;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_116.png;https://images.pokemontcg.io/dp6/116.png;dp6
+117;117;Common;;Riolu;Riolu;Pokémon;Fighting;447;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_117.png;https://images.pokemontcg.io/dp6/117.png;dp6
+118;118;Common;;Lixy;Shinx;Pokémon;Lightning;403;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_118.png;https://images.pokemontcg.io/dp6/118.png;dp6
+119;119;Common;;Skitty;Skitty;Pokémon;Colorless;300;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_119.png;https://images.pokemontcg.io/dp6/119.png;dp6
+120;120;Common;;Farfuret;Sneasel;Pokémon;Darkness;215;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_120.png;https://images.pokemontcg.io/dp6/120.png;dp6
+121;121;Common;;Spoink;Spoink;Pokémon;Psychic;325;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_121.png;https://images.pokemontcg.io/dp6/121.png;dp6
+122;122;Common;;Stari;Staryu;Pokémon;Water;120;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_122.png;https://images.pokemontcg.io/dp6/122.png;dp6
+123;123;Common;;Marcacrin;Swinub;Pokémon;Water;220;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_123.png;https://images.pokemontcg.io/dp6/123.png;dp6
+124;124;Common;;Nirondelle;Taillow;Pokémon;Colorless;276;Takao Unno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_124.png;https://images.pokemontcg.io/dp6/124.png;dp6
+125;125;Common;;Tentacool;Tentacool;Pokémon;Water;72;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_125.png;https://images.pokemontcg.io/dp6/125.png;dp6
+126;126;Common;;Debugant;Tyrogue;Pokémon;Fighting;236;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_126.png;https://images.pokemontcg.io/dp6/126.png;dp6
+127;127;Common;;Boustiflor;Weepinbell;Pokémon;Grass;70;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_127.png;https://images.pokemontcg.io/dp6/127.png;dp6
+128;128;Common;;Yanma;Yanma;Pokémon;Grass;193;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_128.png;https://images.pokemontcg.io/dp6/128.png;dp6
+129;129;Uncommon;;Manteau bulle;Bubble Coat;Trainer;NoColor;;Daisuke Ito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_129.png;https://images.pokemontcg.io/dp6/129.png;dp6
+130;130;Uncommon;;L'entraînement de Cornil;Buck's Training;Trainer;NoColor;;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_130.png;https://images.pokemontcg.io/dp6/130.png;dp6
+131;131;Uncommon;;Les sentiments de Cynthia;Cynthia's Feelings;Trainer;NoColor;;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_131.png;https://images.pokemontcg.io/dp6/131.png;dp6
+132;132;Uncommon;;Collecte d'Énergie;Energy Pickup;Trainer;NoColor;;Kent Kanetsuna;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_132.png;https://images.pokemontcg.io/dp6/132.png;dp6
+133;133;Uncommon;;Poké radar;Poké Radar;Trainer;NoColor;;Kazuaki Aihara;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_133.png;https://images.pokemontcg.io/dp6/133.png;dp6
+134;134;Uncommon;;Temple Frimapic;Snowpoint Temple;Trainer;NoColor;;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_134.png;https://images.pokemontcg.io/dp6/134.png;dp6
+135;135;Uncommon;;Mont Abrupt;Stark Mountain;Trainer;NoColor;;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_135.png;https://images.pokemontcg.io/dp6/135.png;dp6
+136;136;Uncommon;;Machine Technique TS-1;Technical Machine TS-1;Trainer;NoColor;;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_136.png;https://images.pokemontcg.io/dp6/136.png;dp6
+137;137;Uncommon;;Machine Technique TS-2;Technical Machine TS-2;Trainer;NoColor;;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_137.png;https://images.pokemontcg.io/dp6/137.png;dp6
+138;138;Common;;Fossile griffe;Claw Fossil;Trainer;NoColor;;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_138.png;https://images.pokemontcg.io/dp6/138.png;dp6
+139;139;Common;;Fossile racine;Root Fossil;Trainer;NoColor;;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_139.png;https://images.pokemontcg.io/dp6/139.png;dp6
+140;140;Ultra;Niv.X;Créfadet Niv.X;Azelf;Pokémon;Psychic;482;Shizurow;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_140.png;https://images.pokemontcg.io/dp6/140.png;dp6
+141;141;Ultra;Niv.X;Scorvol Niv.X;Gliscor;Pokémon;Fighting;472;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_141.png;https://images.pokemontcg.io/dp6/141.png;dp6
+142;142;Ultra;Niv.X;Magnézone Niv.X;Magnezone;Pokémon;Metal;462;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_142.png;https://images.pokemontcg.io/dp6/142.png;dp6
+143;143;Ultra;Niv.X;Créfollet Niv.X;Mesprit;Pokémon;Psychic;481;Shizurow;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_143.png;https://images.pokemontcg.io/dp6/143.png;dp6
+144;144;Ultra;Niv.X;Mewtwo Niv.X;Mewtwo;Pokémon;Psychic;150;Shizurow;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_144.png;https://images.pokemontcg.io/dp6/144.png;dp6
+145;145;Ultra;Niv.X;Rhinastoc Niv.X;Rhyperior;Pokémon;Fighting;464;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_145.png;https://images.pokemontcg.io/dp6/145.png;dp6
+146;146;Ultra;Niv.X;Créhelf Niv.X;Uxie;Pokémon;Psychic;480;Shizurow;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP6/DP6_FR_146.png;https://images.pokemontcg.io/dp6/146.png;dp6

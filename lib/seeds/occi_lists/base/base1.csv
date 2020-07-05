@@ -1,0 +1,103 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;fr_url;us_url;list
+1;1;Rare Holo;;Alakazam;Alakazam;Pokémon;Psychic;65;Ken Sugimori;https://www.pokepedia.fr/images/e/ea/Carte_Set_de_Base_1.png;https://images.pokemontcg.io/base1/1.png;base1
+2;2;Rare Holo;;Tortank;Blastoise;Pokémon;Water;9;Ken Sugimori;https://www.pokepedia.fr/images/c/ca/Carte_Set_de_Base_2.png;https://images.pokemontcg.io/base1/2.png;base1
+3;3;Rare Holo;;Leveinard;Chansey;Pokémon;Colorless;113;Ken Sugimori;https://www.pokepedia.fr/images/0/0a/Carte_Set_de_Base_3.png;https://images.pokemontcg.io/base1/3.png;base1
+4;4;Rare Holo;;Dracaufeu;Charizard;Pokémon;Fire;6;Mitsuhiro Arita;https://www.pokepedia.fr/images/e/ee/Carte_Set_de_Base_4.png;https://images.pokemontcg.io/base1/4.png;base1
+5;5;Rare Holo;;Mélofée;Clefairy;Pokémon;Colorless;35;Ken Sugimori;https://www.pokepedia.fr/images/d/d1/Carte_Set_de_Base_5.png;https://images.pokemontcg.io/base1/5.png;base1
+6;6;Rare Holo;;Léviator;Gyarados;Pokémon;Water;130;Mitsuhiro Arita;https://www.pokepedia.fr/images/c/cd/Carte_Set_de_Base_6.png;https://images.pokemontcg.io/base1/6.png;base1
+7;7;Rare Holo;;Tygnon;Hitmonchan;Pokémon;Fighting;107;Ken Sugimori;https://www.pokepedia.fr/images/3/38/Carte_Set_de_Base_7.png;https://images.pokemontcg.io/base1/7.png;base1
+8;8;Rare Holo;;Mackogneur;Machamp;Pokémon;Fighting;68;Ken Sugimori;https://www.pokepedia.fr/images/a/a9/Carte_Set_de_Base_8.png;https://images.pokemontcg.io/base1/8.png;base1
+9;9;Rare Holo;;Magneton;Magneton;Pokémon;Lightning;82;Keiji Kinebuchi;https://www.pokepedia.fr/images/4/46/Carte_Set_de_Base_9.png;https://images.pokemontcg.io/base1/9.png;base1
+10;10;Rare Holo;;Mewtwo;Mewtwo;Pokémon;Psychic;150;Ken Sugimori;https://www.pokepedia.fr/images/8/8d/Carte_Set_de_Base_10.png;https://images.pokemontcg.io/base1/10.png;base1
+11;11;Rare Holo;;Nidoking;Nidoking;Pokémon;Grass;34;Ken Sugimori;https://www.pokepedia.fr/images/a/ab/Carte_Set_de_Base_11.png;https://images.pokemontcg.io/base1/11.png;base1
+12;12;Rare Holo;;Feunard;Ninetales;Pokémon;Fire;38;Ken Sugimori;https://www.pokepedia.fr/images/6/69/Carte_Set_de_Base_12.png;https://images.pokemontcg.io/base1/12.png;base1
+13;13;Rare Holo;;Tartard;Poliwrath;Pokémon;Water;62;Ken Sugimori;https://www.pokepedia.fr/images/8/89/Carte_Set_de_Base_13.png;https://images.pokemontcg.io/base1/13.png;base1
+14;14;Rare Holo;;Raichu;Raichu;Pokémon;Lightning;26;Ken Sugimori;https://www.pokepedia.fr/images/0/02/Carte_Set_de_Base_14.png;https://images.pokemontcg.io/base1/14.png;base1
+15;15;Rare Holo;;Florizarre;Venusaur;Pokémon;Grass;3;Mitsuhiro Arita;https://www.pokepedia.fr/images/4/48/Carte_Set_de_Base_15.png;https://images.pokemontcg.io/base1/15.png;base1
+16;16;Rare Holo;;Electhor;Zapdos;Pokémon;Lightning;145;Ken Sugimori;https://www.pokepedia.fr/images/b/be/Carte_Set_de_Base_16.png;https://images.pokemontcg.io/base1/16.png;base1
+17;17;Rare;;Dardargnan;Beedrill;Pokémon;Grass;15;Ken Sugimori;https://www.pokepedia.fr/images/1/16/Carte_Set_de_Base_17.png;https://images.pokemontcg.io/base1/17.png;base1
+18;18;Rare;;Draco;Dragonair;Pokémon;Colorless;148;Mitsuhiro Arita;https://www.pokepedia.fr/images/6/67/Carte_Set_de_Base_18.png;https://images.pokemontcg.io/base1/18.png;base1
+19;19;Rare;;Triopikeur;Dugtrio;Pokémon;Fighting;51;Keiji Kinebuchi;https://www.pokepedia.fr/images/2/22/Carte_Set_de_Base_19.png;https://images.pokemontcg.io/base1/19.png;base1
+20;20;Rare;;Elektek;Electabuzz;Pokémon;Lightning;125;Ken Sugimori;https://www.pokepedia.fr/images/1/12/Carte_Set_de_Base_20.png;https://images.pokemontcg.io/base1/20.png;base1
+21;21;Rare;;Électrode;Electrode;Pokémon;Lightning;101;Keiji Kinebuchi;https://www.pokepedia.fr/images/d/db/Carte_Set_de_Base_21.png;https://images.pokemontcg.io/base1/21.png;base1
+22;22;Rare;;Roucoups;Pidgeotto;Pokémon;Colorless;17;Ken Sugimori;https://www.pokepedia.fr/images/e/e4/Carte_Set_de_Base_22.png;https://images.pokemontcg.io/base1/22.png;base1
+23;23;Uncommon;;Arcanin;Arcanine;Pokémon;Fire;59;Ken Sugimori;https://www.pokepedia.fr/images/a/a7/Carte_Set_de_Base_23.png;https://images.pokemontcg.io/base1/23.png;base1
+24;24;Uncommon;;Reptincel;Charmeleon;Pokémon;Fire;5;Mitsuhiro Arita;https://www.pokepedia.fr/images/5/5e/Carte_Set_de_Base_24.png;https://images.pokemontcg.io/base1/24.png;base1
+25;25;Uncommon;;Lamantine;Dewgong;Pokémon;Water;87;Mitsuhiro Arita;https://www.pokepedia.fr/images/d/dd/Carte_Set_de_Base_25.png;https://images.pokemontcg.io/base1/25.png;base1
+26;26;Uncommon;;Minidraco;Dratini;Pokémon;Colorless;147;Ken Sugimori;https://www.pokepedia.fr/images/7/71/Carte_Set_de_Base_26.png;https://images.pokemontcg.io/base1/26.png;base1
+27;27;Uncommon;;Canarticho;Farfetch'd;Pokémon;Colorless;83;Ken Sugimori;https://www.pokepedia.fr/images/9/95/Carte_Set_de_Base_27.png;https://images.pokemontcg.io/base1/27.png;base1
+28;28;Uncommon;;Caninos;Growlithe;Pokémon;Fire;58;Ken Sugimori;https://www.pokepedia.fr/images/4/4c/Carte_Set_de_Base_28.png;https://images.pokemontcg.io/base1/28.png;base1
+29;29;Uncommon;;Spectrum;Haunter;Pokémon;Psychic;93;Keiji Kinebuchi;https://www.pokepedia.fr/images/9/9f/Carte_Set_de_Base_29.png;https://images.pokemontcg.io/base1/29.png;base1
+30;30;Uncommon;;Herbizarre;Ivysaur;Pokémon;Grass;2;Ken Sugimori;https://www.pokepedia.fr/images/1/11/Carte_Set_de_Base_30.png;https://images.pokemontcg.io/base1/30.png;base1
+31;31;Uncommon;;Lippoutou;Jynx;Pokémon;Psychic;124;Ken Sugimori;https://www.pokepedia.fr/images/9/93/Carte_Set_de_Base_31.png;https://images.pokemontcg.io/base1/31.png;base1
+32;32;Uncommon;;Kadabra;Kadabra;Pokémon;Psychic;64;Ken Sugimori;https://www.pokepedia.fr/images/1/1c/Carte_Set_de_Base_32.png;https://images.pokemontcg.io/base1/32.png;base1
+33;33;Uncommon;;Coconfort;Kakuna;Pokémon;Grass;14;Keiji Kinebuchi;https://www.pokepedia.fr/images/7/78/Carte_Set_de_Base_33.png;https://images.pokemontcg.io/base1/33.png;base1
+34;34;Uncommon;;Machopeur;Machoke;Pokémon;Fighting;67;Ken Sugimori;https://www.pokepedia.fr/images/e/e9/Carte_Set_de_Base_34.png;https://images.pokemontcg.io/base1/34.png;base1
+35;35;Uncommon;;Magicarpe;Magikarp;Pokémon;Water;129;Mitsuhiro Arita;https://www.pokepedia.fr/images/9/98/Carte_Set_de_Base_35.png;https://images.pokemontcg.io/base1/35.png;base1
+36;36;Uncommon;;Magmar;Magmar;Pokémon;Fire;126;Ken Sugimori;https://www.pokepedia.fr/images/a/a0/Carte_Set_de_Base_36.png;https://images.pokemontcg.io/base1/36.png;base1
+37;37;Uncommon;;Nidorino;Nidorino;Pokémon;Grass;33;Mitsuhiro Arita;https://www.pokepedia.fr/images/b/b8/Carte_Set_de_Base_37.png;https://images.pokemontcg.io/base1/37.png;base1
+38;38;Uncommon;;Têtarte;Poliwhirl;Pokémon;Water;61;Ken Sugimori;https://www.pokepedia.fr/images/6/61/Carte_Set_de_Base_38.png;https://images.pokemontcg.io/base1/38.png;base1
+39;39;Uncommon;;Porygon;Porygon;Pokémon;Colorless;137;Tomoaki Imakuni;https://www.pokepedia.fr/images/5/5f/Carte_Set_de_Base_39.png;https://images.pokemontcg.io/base1/39.png;base1
+40;40;Uncommon;;Rattatac;Raticate;Pokémon;Colorless;20;Ken Sugimori;https://www.pokepedia.fr/images/4/4a/Carte_Set_de_Base_40.png;https://images.pokemontcg.io/base1/40.png;base1
+41;41;Uncommon;;Otaria;Seel;Pokémon;Water;86;Ken Sugimori;https://www.pokepedia.fr/images/2/24/Carte_Set_de_Base_41.png;https://images.pokemontcg.io/base1/41.png;base1
+42;42;Uncommon;;Carabaffe;Wartortle;Pokémon;Water;8;Ken Sugimori;https://www.pokepedia.fr/images/9/95/Carte_Set_de_Base_42.png;https://images.pokemontcg.io/base1/42.png;base1
+43;43;Common;;Abra;Abra;Pokémon;Psychic;63;Mitsuhiro Arita;https://www.pokepedia.fr/images/d/d0/Carte_Set_de_Base_43.png;https://images.pokemontcg.io/base1/43.png;base1
+44;44;Common;;Bulbizarre;Bulbasaur;Pokémon;Grass;1;Mitsuhiro Arita;https://www.pokepedia.fr/images/b/b3/Carte_Set_de_Base_44.png;https://images.pokemontcg.io/base1/44.png;base1
+45;45;Common;;Chenipan;Caterpie;Pokémon;Grass;10;Ken Sugimori;https://www.pokepedia.fr/images/4/40/Carte_Set_de_Base_45.png;https://images.pokemontcg.io/base1/45.png;base1
+46;46;Common;;Salamèche;Charmander;Pokémon;Fire;4;Mitsuhiro Arita;https://www.pokepedia.fr/images/1/12/Carte_Set_de_Base_46.png;https://images.pokemontcg.io/base1/46.png;base1
+47;47;Common;;Taupiqueur;Diglett;Pokémon;Fighting;50;Keiji Kinebuchi;https://www.pokepedia.fr/images/e/ee/Carte_Set_de_Base_47.png;https://images.pokemontcg.io/base1/47.png;base1
+48;48;Common;;Doduo;Doduo;Pokémon;Colorless;84;Mitsuhiro Arita;https://www.pokepedia.fr/images/c/cb/Carte_Set_de_Base_48.png;https://images.pokemontcg.io/base1/48.png;base1
+49;49;Common;;Soporifik;Drowzee;Pokémon;Psychic;96;Ken Sugimori;https://www.pokepedia.fr/images/5/5a/Carte_Set_de_Base_49.png;https://images.pokemontcg.io/base1/49.png;base1
+50;50;Common;;Fantominus;Gastly;Pokémon;Psychic;92;Keiji Kinebuchi;https://www.pokepedia.fr/images/c/c6/Carte_Set_de_Base_50.png;https://images.pokemontcg.io/base1/50.png;base1
+51;51;Common;;Smogo;Koffing;Pokémon;Grass;109;Mitsuhiro Arita;https://www.pokepedia.fr/images/3/3a/Carte_Set_de_Base_51.png;https://images.pokemontcg.io/base1/51.png;base1
+52;52;Common;;Machoc;Machop;Pokémon;Fighting;66;Mitsuhiro Arita;https://www.pokepedia.fr/images/0/00/Carte_Set_de_Base_52.png;https://images.pokemontcg.io/base1/52.png;base1
+53;53;Common;;Magneti;Magnemite;Pokémon;Lightning;81;Keiji Kinebuchi;https://www.pokepedia.fr/images/2/24/Carte_Set_de_Base_53.png;https://images.pokemontcg.io/base1/53.png;base1
+54;54;Common;;Chrysacier;Metapod;Pokémon;Grass;11;Ken Sugimori;https://www.pokepedia.fr/images/b/b6/Carte_Set_de_Base_54.png;https://images.pokemontcg.io/base1/54.png;base1
+55;55;Common;;Nidoran M;Nidoran♂;Pokémon;Grass;32;Ken Sugimori;https://www.pokepedia.fr/images/e/ed/Carte_Set_de_Base_55.png;https://images.pokemontcg.io/base1/55.png;base1
+56;56;Common;;Onix;Onix;Pokémon;Fighting;95;Ken Sugimori;https://www.pokepedia.fr/images/6/68/Carte_Set_de_Base_56.png;https://images.pokemontcg.io/base1/56.png;base1
+57;57;Common;;Roucool;Pidgey;Pokémon;Colorless;16;Ken Sugimori;https://www.pokepedia.fr/images/8/80/Carte_Set_de_Base_57.png;https://images.pokemontcg.io/base1/57.png;base1
+58;58;Common;;Pikachu;Pikachu;Pokémon;Lightning;25;Mitsuhiro Arita;https://www.pokepedia.fr/images/9/9f/Carte_Set_de_Base_58.png;https://images.pokemontcg.io/base1/58.png;base1
+59;59;Common;;Ptitard;Poliwag;Pokémon;Water;60;Ken Sugimori;https://www.pokepedia.fr/images/1/1d/Carte_Set_de_Base_59.png;https://images.pokemontcg.io/base1/59.png;base1
+60;60;Common;;Ponyta;Ponyta;Pokémon;Fire;77;Ken Sugimori;https://www.pokepedia.fr/images/7/7b/Carte_Set_de_Base_60.png;https://images.pokemontcg.io/base1/60.png;base1
+61;61;Common;;Rattata;Rattata;Pokémon;Colorless;19;Mitsuhiro Arita;https://www.pokepedia.fr/images/b/b2/Carte_Set_de_Base_61.png;https://images.pokemontcg.io/base1/61.png;base1
+62;62;Common;;Sabelette;Sandshrew;Pokémon;Fighting;27;Ken Sugimori;https://www.pokepedia.fr/images/2/25/Carte_Set_de_Base_62.png;https://images.pokemontcg.io/base1/62.png;base1
+63;63;Common;;Carapuce;Squirtle;Pokémon;Water;7;Mitsuhiro Arita;https://www.pokepedia.fr/images/9/9f/Carte_Set_de_Base_63.png;https://images.pokemontcg.io/base1/63.png;base1
+64;64;Common;;Staross;Starmie;Pokémon;Water;121;Keiji Kinebuchi;https://www.pokepedia.fr/images/f/fd/Carte_Set_de_Base_64.png;https://images.pokemontcg.io/base1/64.png;base1
+65;65;Common;;Stari;Staryu;Pokémon;Water;120;Keiji Kinebuchi;https://www.pokepedia.fr/images/d/d7/Carte_Set_de_Base_65.png;https://images.pokemontcg.io/base1/65.png;base1
+66;66;Common;;Saquedeneu;Tangela;Pokémon;Grass;114;Mitsuhiro Arita;https://www.pokepedia.fr/images/f/fb/Carte_Set_de_Base_66.png;https://images.pokemontcg.io/base1/66.png;base1
+67;67;Common;;Voltorbe;Voltorb;Pokémon;Lightning;100;Keiji Kinebuchi;https://www.pokepedia.fr/images/4/46/Carte_Set_de_Base_67.png;https://images.pokemontcg.io/base1/67.png;base1
+68;68;Common;;Goupix;Vulpix;Pokémon;Fire;37;Ken Sugimori;https://www.pokepedia.fr/images/9/96/Carte_Set_de_Base_68.png;https://images.pokemontcg.io/base1/68.png;base1
+69;69;Common;;Aspicot;Weedle;Pokémon;Grass;13;Mitsuhiro Arita;https://www.pokepedia.fr/images/d/d7/Carte_Set_de_Base_69.png;https://images.pokemontcg.io/base1/69.png;base1
+70;70;Rare;;Peluche Mélofée;Clefairy Doll;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/a/a6/Carte_Set_de_Base_70.png;https://images.pokemontcg.io/base1/70.png;base1
+71;71;Rare;;Recherche Informatique;Computer Search;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/9/98/Carte_Set_de_Base_71.png;https://images.pokemontcg.io/base1/71.png;base1
+72;72;Rare;;Vaporisateur Rétrograde;Devolution Spray;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/a/a1/Carte_Set_de_Base_72.png;https://images.pokemontcg.io/base1/72.png;base1
+73;73;Rare;;Faux Professeur Chen;Impostor Professor Oak;Trainer;NoColor;;Ken Sugimori;https://www.pokepedia.fr/images/4/45/Carte_Set_de_Base_73.png;https://images.pokemontcg.io/base1/73.png;base1
+74;74;Rare;;Récupérateur;Item Finder;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/9/9d/Carte_Set_de_Base_74.png;https://images.pokemontcg.io/base1/74.png;base1
+75;75;Rare;;Fillette;Lass;Trainer;NoColor;;Ken Sugimori;https://www.pokepedia.fr/images/6/66/Carte_Set_de_Base_75.png;https://images.pokemontcg.io/base1/75.png;base1
+76;76;Rare;;Eleveur de Pokémon;Pokémon Breeder;Trainer;NoColor;;Ken Sugimori;https://www.pokepedia.fr/images/4/4b/Carte_Set_de_Base_76.png;https://images.pokemontcg.io/base1/76.png;base1
+77;77;Rare;;Marchand de Pokémon;Pokémon Trader;Trainer;NoColor;;Ken Sugimori;https://www.pokepedia.fr/images/a/a8/Carte_Set_de_Base_77.png;https://images.pokemontcg.io/base1/77.png;base1
+78;78;Rare;;Rappel;Scoop Up;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/b/bf/Carte_Set_de_Base_78.png;https://images.pokemontcg.io/base1/78.png;base1
+79;79;Rare;;Double Suppression d'Énergie;Super Energy Removal;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/7/7a/Carte_Set_de_Base_79.png;https://images.pokemontcg.io/base1/79.png;base1
+80;80;Uncommon;;Defender;Defender;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/8/8c/Carte_Set_de_Base_80.png;https://images.pokemontcg.io/base1/80.png;base1
+81;81;Uncommon;;Sauvegarde d'Énergie;Energy Retrieval;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/1/11/Carte_Set_de_Base_81.png;https://images.pokemontcg.io/base1/81.png;base1
+82;82;Uncommon;;Guérison Totale;Full Heal;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/3/33/Carte_Set_de_Base_82.png;https://images.pokemontcg.io/base1/82.png;base1
+83;83;Uncommon;;Entretien;Maintenance;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/c/c1/Carte_Set_de_Base_83.png;https://images.pokemontcg.io/base1/83.png;base1
+84;84;Uncommon;;PlusPower;PlusPower;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/c/cf/Carte_Set_de_Base_84.png;https://images.pokemontcg.io/base1/84.png;base1
+85;85;Uncommon;;Centre Pokémon;Pokémon Center;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/e/e2/Carte_Set_de_Base_85.png;https://images.pokemontcg.io/base1/85.png;base1
+86;86;Uncommon;;Flûte Pokémon;Pokémon Flute;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/c/c1/Carte_Set_de_Base_86.png;https://images.pokemontcg.io/base1/86.png;base1
+87;87;Uncommon;;Pokédex;Pokédex;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/2/2e/Carte_Set_de_Base_87.png;https://images.pokemontcg.io/base1/87.png;base1
+88;88;Uncommon;;Professeur Chen;Professor Oak;Trainer;NoColor;;Ken Sugimori;https://www.pokepedia.fr/images/f/f0/Carte_Set_de_Base_88.png;https://images.pokemontcg.io/base1/88.png;base1
+89;89;Uncommon;;Réanimation;Revive;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/6/60/Carte_Set_de_Base_89.png;https://images.pokemontcg.io/base1/89.png;base1
+90;90;Uncommon;;Super Potion;Super Potion;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/f/f5/Carte_Set_de_Base_90.png;https://images.pokemontcg.io/base1/90.png;base1
+91;91;Common;;Léo;Bill;Trainer;NoColor;;Ken Sugimori;https://www.pokepedia.fr/images/7/77/Carte_Set_de_Base_91.png;https://images.pokemontcg.io/base1/91.png;base1
+92;92;Common;;Suppression d'Énergie;Energy Removal;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/7/77/Carte_Set_de_Base_92.png;https://images.pokemontcg.io/base1/92.png;base1
+93;93;Common;;Rafale de vent;Gust of Wind;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/5/59/Carte_Set_de_Base_93.png;https://images.pokemontcg.io/base1/93.png;base1
+94;94;Common;;Potion;Potion;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/f/f0/Carte_Set_de_Base_94.png;https://images.pokemontcg.io/base1/94.png;base1
+95;95;Common;;Transfert;Switch;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/f/ff/Carte_Set_de_Base_95.png;https://images.pokemontcg.io/base1/95.png;base1
+96;96;Uncommon;;Double Énergie Incolore;Double Colorless Energy;Energy;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/0/05/Carte_Set_de_Base_96.png;https://images.pokemontcg.io/base1/96.png;base1
+97;97;Common;;Énergie Combat;Fighting Energy;Energy;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/1/1b/Carte_Set_de_Base_97.png;https://images.pokemontcg.io/base1/97.png;base1
+98;98;Common;;Énergie Feu;Fire Energy;Energy;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/4/4e/Carte_Set_de_Base_98.png;https://images.pokemontcg.io/base1/98.png;base1
+99;99;Common;;Énergie Plante;Grass Energy;Energy;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/5/53/Carte_Set_de_Base_99.png;https://images.pokemontcg.io/base1/99.png;base1
+100;100;Common;;Énergie Electrique;Lightning Energy;Energy;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/7/7e/Carte_Set_de_Base_100.png;https://images.pokemontcg.io/base1/100.png;base1
+101;101;Common;;Énergie Psy;Psychic Energy;Energy;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/9/9d/Carte_Set_de_Base_101.png;https://images.pokemontcg.io/base1/101.png;base1
+102;102;Common;;Energie Eau;Water Energy;Energy;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/1/12/Carte_Set_de_Base_102.png;https://images.pokemontcg.io/base1/102.png;base1

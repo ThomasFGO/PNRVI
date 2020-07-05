@@ -3,7 +3,7 @@
     <div class="ref_card-content">
 
       <div class="ref_card-visual">
-        <%= image_tag(@ref_card.right_url[0], class: "standard") %>
+        <%= cl_image_tag ("lists/visuals/#{@ref_card.list.bloc.cl_name}/#{@ref_card.list.code}/#{@ref_card.rank}.jpg"), class: "standard" %>
       </div>
 
       <div class="ref_card-body">
@@ -11,13 +11,12 @@
           <h4><%= @ref_card.right_name %></h4>
 
           <% if @ref_card.number.present? %>
-            <p>Numéro : <%= @ref_card.number %>/<%= @ref_card.list.size %></p>
-          <% end %>
-
-          <% if @ref_card.rarety_type == "Ultra"  %>
-           <p>Rareté : <%= @ref_card.ultra_type %></p>
+            <p>Numéro : <%= @ref_card.number %></p>
           <% else %>
-            <p>Rareté : <%= @ref_card.rarety_type %></p>
+            <p>Carte non numérotée</p>
+          <% end %>
+          <% if @ref_card.rarety_type.present? %>
+            <p>Rareté : <%= @ref_card.rarety_label %></p>
           <% end %>
 
           <% if @ref_card.artist.present? %>
@@ -31,7 +30,7 @@
           <% else  %>
             <p>Vous devez vous inscrire </br>
                pour ajouter cette carte </br>
-               dans votre panier...
+               dans votre magasin ou vos recherches...
             </p>
           <% end %>
         </div>

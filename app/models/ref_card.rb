@@ -24,19 +24,6 @@ class RefCard < ApplicationRecord
   pg_search_scope :filter_by_rarety_type,
     against: :rarety_type
 
-
-  def right_url
-    if fr_url.present?
-      [ fr_url, "Version normale française", "fr_url"]
-    elsif fr_r_url.present?
-      [ fr_r_url, "Version reverse/édition1 française", "fr_r_url" ]
-    elsif us_url.present?
-      [ us_url, "Version anglaise", "us_url" ]
-    else
-      [ us_r_url, "Version reverse/édition1 anglaise" ]
-    end
-  end
-
   def right_name
     if fr_name.present?
       fr_name
@@ -58,6 +45,22 @@ class RefCard < ApplicationRecord
       "ultra"
     elsif rarety_type == "Secret"
       "secret"
+    end
+  end
+
+  def rarety_label
+    if rarety_type == "Common"
+      "Commune"
+    elsif rarety_type == "Uncommon"
+      "Peu Commune"
+    elsif rarety_type == "Rare"
+      "Rare"
+    elsif rarety_type == "Rare Holo"
+      "Holographique"
+    elsif rarety_type == "Ultra"
+      ultra_type
+    elsif rarety_type == "Secret"
+      "Secrète"
     end
   end
 

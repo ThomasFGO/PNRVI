@@ -1,0 +1,114 @@
+number;rank;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;fr_url;us_url;list
+1;1;Rare Holo;;Pharamp Obscur;Dark Ampharos;Pokémon;Lightning;181;Kagemaru Himeno;https://www.pokepedia.fr/images/b/ba/Carte_Neo_Destiny_1.png;https://images.pokemontcg.io/neo4/1.png;neo4
+2;2;Rare Holo;;Nostenfer Obscur;Dark Crobat;Pokémon;Grass;169;CR CG gangs;https://www.pokepedia.fr/images/3/3e/Carte_Neo_Destiny_2.png;https://images.pokemontcg.io/neo4/2.png;neo4
+3;3;Rare Holo;;Donphan Obscur;Dark Donphan;Pokémon;Fighting;232;Shin-ichi Yoshida;https://www.pokepedia.fr/images/0/07/Carte_Neo_Destiny_3.png;https://images.pokemontcg.io/neo4/3.png;neo4
+4;4;Rare Holo;;Mentali Obscur;Dark Espeon;Pokémon;Psychic;196;Atsuko Nishida;https://www.pokepedia.fr/images/6/6e/Carte_Neo_Destiny_4.png;https://images.pokemontcg.io/neo4/4.png;neo4
+5;5;Rare Holo;;Aligatueur Obscur;Dark Feraligatr;Pokémon;Water;160;Atsuko Nishida;https://www.pokepedia.fr/images/d/da/Carte_Neo_Destiny_5.png;https://images.pokemontcg.io/neo4/5.png;neo4
+6;6;Rare Holo;;Ectoplasma Obscur;Dark Gengar;Pokémon;Psychic;94;Aya Kusube;https://www.pokepedia.fr/images/b/bc/Carte_Neo_Destiny_6.png;https://images.pokemontcg.io/neo4/6.png;neo4
+7;7;Rare Holo;;Demolosse Obscur;Dark Houndoom;Pokémon;Fire;229;Kagemaru Himeno;https://www.pokepedia.fr/images/9/98/Carte_Neo_Destiny_7.png;https://images.pokemontcg.io/neo4/7.png;neo4
+8;8;Rare Holo;;Porygon2 Obscur;Dark Porygon2;Pokémon;Colorless;233;CR CG gangs;https://www.pokepedia.fr/images/7/7d/Carte_Neo_Destiny_8.png;https://images.pokemontcg.io/neo4/8.png;neo4
+9;9;Rare Holo;;Cizayox Obscur;Dark Scizor;Pokémon;Metal;212;Mitsuhiro Arita;https://www.pokepedia.fr/images/0/0d/Carte_Neo_Destiny_9.png;https://images.pokemontcg.io/neo4/9.png;neo4
+10;10;Rare Holo;;Typhlosion Obscur;Dark Typhlosion;Pokémon;Fire;157;Mitsuhiro Arita;https://www.pokepedia.fr/images/0/0e/Carte_Neo_Destiny_10.png;https://images.pokemontcg.io/neo4/10.png;neo4
+11;11;Rare Holo;;Tyranocif Obscur;Dark Tyranitar;Pokémon;Fighting;248;Shin-ichi Yoshida;https://www.pokepedia.fr/images/6/64/Carte_Neo_Destiny_11.png;https://images.pokemontcg.io/neo4/11.png;neo4
+12;12;Rare Holo;;Arcanin Lumineux;Light Arcanine;Pokémon;Fire;59;Atsuko Nishida;https://www.pokepedia.fr/images/8/87/Carte_Neo_Destiny_12.png;https://images.pokemontcg.io/neo4/12.png;neo4
+13;13;Rare Holo;;Azumarill Lumineux;Light Azumarill;Pokémon;Water;184;Yuka Morii;https://www.pokepedia.fr/images/3/35/Carte_Neo_Destiny_13.png;https://images.pokemontcg.io/neo4/13.png;neo4
+14;14;Rare Holo;;Dracolosse Lumineux;Light Dragonite;Pokémon;Colorless;149;Atsuko Nishida;https://www.pokepedia.fr/images/e/ee/Carte_Neo_Destiny_14.png;https://images.pokemontcg.io/neo4/14.png;neo4
+15;15;Rare Holo;;Togetic Lumineux;Light Togetic;Pokémon;Colorless;176;Naoyo Kimura;https://www.pokepedia.fr/images/f/fa/Carte_Neo_Destiny_15.png;https://images.pokemontcg.io/neo4/15.png;neo4
+16;16;Rare Holo;;Énergie Miracle;Miracle Energy;Energy;NoColor;;Milky Isobe;https://www.pokepedia.fr/images/5/57/Carte_Neo_Destiny_16.png;https://images.pokemontcg.io/neo4/16.png;neo4
+17;17;Rare;;Migalos Obscur;Dark Ariados;Pokémon;Grass;168;Toshinao Aoki;https://www.pokepedia.fr/images/8/8d/Carte_Neo_Destiny_17.png;https://images.pokemontcg.io/neo4/17.png;neo4
+18;18;Rare;;Volcaropod Obscur;Dark Magcargo;Pokémon;Fire;219;Toshinao Aoki;https://www.pokepedia.fr/images/2/2f/Carte_Neo_Destiny_18.png;https://images.pokemontcg.io/neo4/18.png;neo4
+19;19;Rare;;Amonistar Obscur;Dark Omastar;Pokémon;Water;139;Tomokazu Komiya;https://www.pokepedia.fr/images/d/df/Carte_Neo_Destiny_19.png;https://images.pokemontcg.io/neo4/19.png;neo4
+20;20;Rare;;Roigada Obscur;Dark Slowking;Pokémon;Psychic;199;Tomokazu Komiya;https://www.pokepedia.fr/images/e/e6/Carte_Neo_Destiny_20.png;https://images.pokemontcg.io/neo4/20.png;neo4
+21;21;Rare;;Ursaring Obscur;Dark Ursaring;Pokémon;Colorless;217;Mitsuhiro Arita;https://www.pokepedia.fr/images/b/b1/Carte_Neo_Destiny_21.png;https://images.pokemontcg.io/neo4/21.png;neo4
+22;22;Rare;;Draco Lumineux;Light Dragonair;Pokémon;Colorless;148;Atsuko Nishida;https://www.pokepedia.fr/images/1/1f/Carte_Neo_Destiny_22.png;https://images.pokemontcg.io/neo4/22.png;neo4
+23;23;Rare;;Lanturn Lumineux;Light Lanturn;Pokémon;Lightning;171;Miki Tanaka;https://www.pokepedia.fr/images/2/2b/Carte_Neo_Destiny_23.png;https://images.pokemontcg.io/neo4/23.png;neo4
+24;24;Rare;;Coxyclaque Lumineux;Light Ledian;Pokémon;Grass;166;Tomokazu Komiya;https://www.pokepedia.fr/images/2/24/Carte_Neo_Destiny_24.png;https://images.pokemontcg.io/neo4/24.png;neo4
+25;25;Rare;;Mackogneur Lumineux;Light Machamp;Pokémon;Fighting;68;Miki Tanaka;https://www.pokepedia.fr/images/6/6d/Carte_Neo_Destiny_25.png;https://images.pokemontcg.io/neo4/25.png;neo4
+26;26;Rare;;Cochignon Lumineux;Light Piloswine;Pokémon;Water;221;Yukiko Baba;https://www.pokepedia.fr/images/1/1f/Carte_Neo_Destiny_26.png;https://images.pokemontcg.io/neo4/26.png;neo4
+27;27;Rare;;Zarbi G;Unown [G];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/6/69/Carte_Neo_Destiny_27.png;https://images.pokemontcg.io/neo4/27.png;neo4
+28;28;Rare;;Zarbi H;Unown [H];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/e/e6/Carte_Neo_Destiny_28.png;https://images.pokemontcg.io/neo4/28.png;neo4
+29;29;Rare;;Zarbi W;Unown [W];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/d/d5/Carte_Neo_Destiny_29.png;https://images.pokemontcg.io/neo4/29.png;neo4
+30;30;Rare;;Zarbi X;Unown [X];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/7/76/Carte_Neo_Destiny_30.png;https://images.pokemontcg.io/neo4/30.png;neo4
+31;31;Uncommon;;Leveinard;Chansey;Pokémon;Colorless;113;Yuka Morii;https://www.pokepedia.fr/images/a/a1/Carte_Neo_Destiny_31.png;https://images.pokemontcg.io/neo4/31.png;neo4
+32;32;Uncommon;;Crocrodil Obscur;Dark Croconaw;Pokémon;Water;159;Shin-ichi Yoshida;https://www.pokepedia.fr/images/e/e1/Carte_Neo_Destiny_32.png;https://images.pokemontcg.io/neo4/32.png;neo4
+33;33;Uncommon;;Noadkoko Obscur;Dark Exeggutor;Pokémon;Psychic;103;Toshinao Aoki;https://www.pokepedia.fr/images/f/f2/Carte_Neo_Destiny_33.png;https://images.pokemontcg.io/neo4/33.png;neo4
+34;34;Uncommon;;Lainergie Obscur;Dark Flaaffy;Pokémon;Lightning;180;Kagemaru Himeno;https://www.pokepedia.fr/images/3/33/Carte_Neo_Destiny_34.png;https://images.pokemontcg.io/neo4/34.png;neo4
+35;35;Uncommon;;Foretress Obscur;Dark Forretress;Pokémon;Grass;205;Mitsuhiro Arita;https://www.pokepedia.fr/images/7/73/Carte_Neo_Destiny_35.png;https://images.pokemontcg.io/neo4/35.png;neo4
+36;36;Uncommon;;Spectrum Obscur;Dark Haunter;Pokémon;Psychic;93;Aya Kusube;https://www.pokepedia.fr/images/b/b2/Carte_Neo_Destiny_36.png;https://images.pokemontcg.io/neo4/36.png;neo4
+37;37;Uncommon;;Amonita Obscur;Dark Omanyte;Pokémon;Water;138;Tomokazu Komiya;https://www.pokepedia.fr/images/b/bb/Carte_Neo_Destiny_37.png;https://images.pokemontcg.io/neo4/37.png;neo4
+38;38;Uncommon;;Ymphect Obscur;Dark Pupitar;Pokémon;Fighting;247;Mitsuhiro Arita;https://www.pokepedia.fr/images/6/6c/Carte_Neo_Destiny_38.png;https://images.pokemontcg.io/neo4/38.png;neo4
+39;39;Uncommon;;Feurisson Obscur;Dark Quilava;Pokémon;Fire;156;Mitsuhiro Arita;https://www.pokepedia.fr/images/d/d6/Carte_Neo_Destiny_39.png;https://images.pokemontcg.io/neo4/39.png;neo4
+40;40;Uncommon;;Grodoudou Obscur;Dark Wigglytuff;Pokémon;Colorless;40;Miki Tanaka;https://www.pokepedia.fr/images/3/33/Carte_Neo_Destiny_40.png;https://images.pokemontcg.io/neo4/40.png;neo4
+41;41;Uncommon;;Scarhino;Heracross;Pokémon;Grass;214;CR CG gangs;https://www.pokepedia.fr/images/c/c9/Carte_Neo_Destiny_41.png;https://images.pokemontcg.io/neo4/41.png;neo4
+42;42;Uncommon;;Kicklee;Hitmonlee;Pokémon;Fighting;106;Yukiko Baba;https://www.pokepedia.fr/images/4/47/Carte_Neo_Destiny_42.png;https://images.pokemontcg.io/neo4/42.png;neo4
+43;43;Uncommon;;Malosse;Houndour;Pokémon;Darkness;228;Yukiko Baba;https://www.pokepedia.fr/images/1/19/Carte_Neo_Destiny_43.png;https://images.pokemontcg.io/neo4/43.png;neo4
+44;44;Uncommon;;Rondoudou;Jigglypuff;Pokémon;Colorless;39;Yuka Morii;https://www.pokepedia.fr/images/e/e3/Carte_Neo_Destiny_44.png;https://images.pokemontcg.io/neo4/44.png;neo4
+45;45;Uncommon;;Lamantine Lumineux;Light Dewgong;Pokémon;Water;87;Masako Yamashita;https://www.pokepedia.fr/images/0/09/Carte_Neo_Destiny_45.png;https://images.pokemontcg.io/neo4/45.png;neo4
+46;46;Uncommon;;Pyroli Lumineux;Light Flareon;Pokémon;Fire;136;Atsuko Nishida;https://www.pokepedia.fr/images/d/d2/Carte_Neo_Destiny_46.png;https://images.pokemontcg.io/neo4/46.png;neo4
+47;47;Uncommon;;Akwakwak Lumineux;Light Golduck;Pokémon;Water;55;Atsuko Nishida;https://www.pokepedia.fr/images/1/10/Carte_Neo_Destiny_47.png;https://images.pokemontcg.io/neo4/47.png;neo4
+48;48;Uncommon;;Voltali Lumineux;Light Jolteon;Pokémon;Lightning;135;Naoyo Kimura;https://www.pokepedia.fr/images/0/0b/Carte_Neo_Destiny_48.png;https://images.pokemontcg.io/neo4/48.png;neo4
+49;49;Uncommon;;Machopeur Lumineux;Light Machoke;Pokémon;Fighting;67;Miki Tanaka;https://www.pokepedia.fr/images/e/e2/Carte_Neo_Destiny_49.png;https://images.pokemontcg.io/neo4/49.png;neo4
+50;50;Uncommon;;Feunard Lumineux;Light Ninetales;Pokémon;Fire;38;Masako Yamashita;https://www.pokepedia.fr/images/b/b0/Carte_Neo_Destiny_50.png;https://images.pokemontcg.io/neo4/50.png;neo4
+51;51;Uncommon;;Flagadoss Lumineux;Light Slowbro;Pokémon;Psychic;80;Tomokazu Komiya;https://www.pokepedia.fr/images/a/a6/Carte_Neo_Destiny_51.png;https://images.pokemontcg.io/neo4/51.png;neo4
+52;52;Uncommon;;Aquali Lumineux;Light Vaporeon;Pokémon;Water;134;Kagemaru Himeno;https://www.pokepedia.fr/images/d/d9/Carte_Neo_Destiny_52.png;https://images.pokemontcg.io/neo4/52.png;neo4
+53;53;Uncommon;;Aeromite Lumineux;Light Venomoth;Pokémon;Grass;49;Masako Yamashita;https://www.pokepedia.fr/images/b/b0/Carte_Neo_Destiny_53.png;https://images.pokemontcg.io/neo4/53.png;neo4
+54;54;Uncommon;;Grodoudou Lumineux;Light Wigglytuff;Pokémon;Colorless;40;Naoyo Kimura;https://www.pokepedia.fr/images/5/5d/Carte_Neo_Destiny_54.png;https://images.pokemontcg.io/neo4/54.png;neo4
+55;55;Uncommon;;Insécateur;Scyther;Pokémon;Grass;123;Shin-ichi Yoshida;https://www.pokepedia.fr/images/6/6d/Carte_Neo_Destiny_55.png;https://images.pokemontcg.io/neo4/55.png;neo4
+56;56;Uncommon;;Togepi;Togepi;Pokémon;Colorless;175;Yuka Morii;https://www.pokepedia.fr/images/b/b1/Carte_Neo_Destiny_56.png;https://images.pokemontcg.io/neo4/56.png;neo4
+57;57;Uncommon;;Zarbi C;Unown [C];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/9/94/Carte_Neo_Destiny_57.png;https://images.pokemontcg.io/neo4/57.png;neo4
+58;58;Uncommon;;Zarbi P;Unown [P];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/7/7e/Carte_Neo_Destiny_58.png;https://images.pokemontcg.io/neo4/58.png;neo4
+59;59;Uncommon;;Zarbi Q;Unown [Q];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/7/72/Carte_Neo_Destiny_59.png;https://images.pokemontcg.io/neo4/59.png;neo4
+60;60;Uncommon;;Zarbi Z;Unown [Z];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/8/8a/Carte_Neo_Destiny_60.png;https://images.pokemontcg.io/neo4/60.png;neo4
+61;61;Common;;Héricendre;Cyndaquil;Pokémon;Fire;155;Yukiko Baba;https://www.pokepedia.fr/images/5/51/Carte_Neo_Destiny_61.png;https://images.pokemontcg.io/neo4/61.png;neo4
+62;62;Common;;Octillery Obscur;Dark Octillery;Pokémon;Water;224;Shin-ichi Yoshida;https://www.pokepedia.fr/images/2/27/Carte_Neo_Destiny_62.png;https://images.pokemontcg.io/neo4/62.png;neo4
+63;63;Common;;Minidraco;Dratini;Pokémon;Colorless;147;Yuka Morii;https://www.pokepedia.fr/images/3/3c/Carte_Neo_Destiny_63.png;https://images.pokemontcg.io/neo4/63.png;neo4
+64;64;Common;;Noeunoeuf;Exeggcute;Pokémon;Psychic;102;Toshinao Aoki;https://www.pokepedia.fr/images/2/21/Carte_Neo_Destiny_64.png;https://images.pokemontcg.io/neo4/64.png;neo4
+65;65;Common;;Fantominus;Gastly;Pokémon;Psychic;92;Aya Kusube;https://www.pokepedia.fr/images/a/a4/Carte_Neo_Destiny_65.png;https://images.pokemontcg.io/neo4/65.png;neo4
+66;66;Common;;Girafarig;Girafarig;Pokémon;Colorless;203;Yuka Morii;https://www.pokepedia.fr/images/a/ab/Carte_Neo_Destiny_66.png;https://images.pokemontcg.io/neo4/66.png;neo4
+67;67;Common;;Scorplane;Gligar;Pokémon;Fighting;207;Ken Sugimori;https://www.pokepedia.fr/images/1/1d/Carte_Neo_Destiny_67.png;https://images.pokemontcg.io/neo4/67.png;neo4
+68;68;Common;;Caninos;Growlithe;Pokémon;Fire;58;Atsuko Nishida;https://www.pokepedia.fr/images/5/5b/Carte_Neo_Destiny_68.png;https://images.pokemontcg.io/neo4/68.png;neo4
+69;69;Common;;Tygnon;Hitmonchan;Pokémon;Fighting;107;Shin-ichi Yoshida;https://www.pokepedia.fr/images/0/0a/Carte_Neo_Destiny_69.png;https://images.pokemontcg.io/neo4/69.png;neo4
+70;70;Common;;Embrylex;Larvitar;Pokémon;Fighting;246;Ken Sugimori;https://www.pokepedia.fr/images/3/3a/Carte_Neo_Destiny_70.png;https://images.pokemontcg.io/neo4/70.png;neo4
+71;71;Common;;Coxy;Ledyba;Pokémon;Grass;165;Tomokazu Komiya;https://www.pokepedia.fr/images/3/35/Carte_Neo_Destiny_71.png;https://images.pokemontcg.io/neo4/71.png;neo4
+72;72;Common;;Heliatronc Lumineux;Light Sunflora;Pokémon;Grass;192;Toshinao Aoki;https://www.pokepedia.fr/images/e/e8/Carte_Neo_Destiny_72.png;https://images.pokemontcg.io/neo4/72.png;neo4
+73;73;Common;;Machoc;Machop;Pokémon;Fighting;66;Toshinao Aoki;https://www.pokepedia.fr/images/6/65/Carte_Neo_Destiny_73.png;https://images.pokemontcg.io/neo4/73.png;neo4
+74;74;Common;;Demanta;Mantine;Pokémon;Water;226;Yukiko Baba;https://www.pokepedia.fr/images/6/6a/Carte_Neo_Destiny_74.png;https://images.pokemontcg.io/neo4/74.png;neo4
+75;75;Common;;Wattouat;Mareep;Pokémon;Lightning;179;Kagemaru Himeno;https://www.pokepedia.fr/images/a/a9/Carte_Neo_Destiny_75.png;https://images.pokemontcg.io/neo4/75.png;neo4
+76;76;Common;;Phanpy;Phanpy;Pokémon;Fighting;231;Miki Tanaka;https://www.pokepedia.fr/images/a/af/Carte_Neo_Destiny_76.png;https://images.pokemontcg.io/neo4/76.png;neo4
+77;77;Common;;Pomdepik;Pineco;Pokémon;Grass;204;Ken Sugimori;https://www.pokepedia.fr/images/0/05/Carte_Neo_Destiny_77.png;https://images.pokemontcg.io/neo4/77.png;neo4
+78;78;Common;;Porygon;Porygon;Pokémon;Colorless;137;CR CG gangs;https://www.pokepedia.fr/images/3/3e/Carte_Neo_Destiny_78.png;https://images.pokemontcg.io/neo4/78.png;neo4
+79;79;Common;;Psykokwak;Psyduck;Pokémon;Water;54;Yuka Morii;https://www.pokepedia.fr/images/d/d6/Carte_Neo_Destiny_79.png;https://images.pokemontcg.io/neo4/79.png;neo4
+80;80;Common;;Remoraid;Remoraid;Pokémon;Water;223;CR CG gangs;https://www.pokepedia.fr/images/7/72/Carte_Neo_Destiny_80.png;https://images.pokemontcg.io/neo4/80.png;neo4
+81;81;Common;;Otaria;Seel;Pokémon;Water;86;Masako Yamashita;https://www.pokepedia.fr/images/4/48/Carte_Neo_Destiny_81.png;https://images.pokemontcg.io/neo4/81.png;neo4
+82;82;Common;;Limagma;Slugma;Pokémon;Fire;218;Ken Sugimori;https://www.pokepedia.fr/images/d/d2/Carte_Neo_Destiny_82.png;https://images.pokemontcg.io/neo4/82.png;neo4
+83;83;Common;;Tournegrin;Sunkern;Pokémon;Grass;191;Etsuya Hattori;https://www.pokepedia.fr/images/8/84/Carte_Neo_Destiny_83.png;https://images.pokemontcg.io/neo4/83.png;neo4
+84;84;Common;;Marcacrin;Swinub;Pokémon;Water;220;Kagemaru Himeno;https://www.pokepedia.fr/images/6/6b/Carte_Neo_Destiny_84.png;https://images.pokemontcg.io/neo4/84.png;neo4
+85;85;Common;;Kaiminus;Totodile;Pokémon;Water;158;Miki Tanaka;https://www.pokepedia.fr/images/f/f3/Carte_Neo_Destiny_85.png;https://images.pokemontcg.io/neo4/85.png;neo4
+86;86;Common;;Zarbi L;Unown [L];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/6/6a/Carte_Neo_Destiny_86.png;https://images.pokemontcg.io/neo4/86.png;neo4
+87;87;Common;;Zarbi S;Unown [S];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/2/2b/Carte_Neo_Destiny_87.png;https://images.pokemontcg.io/neo4/87.png;neo4
+88;88;Common;;Zarbi T;Unown [T];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/4/42/Carte_Neo_Destiny_88.png;https://images.pokemontcg.io/neo4/88.png;neo4
+89;89;Common;;Zarbi V;Unown [V];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/2/22/Carte_Neo_Destiny_89.png;https://images.pokemontcg.io/neo4/89.png;neo4
+90;90;Common;;Mimitoss;Venonat;Pokémon;Grass;48;Masako Yamashita;https://www.pokepedia.fr/images/6/6c/Carte_Neo_Destiny_90.png;https://images.pokemontcg.io/neo4/90.png;neo4
+91;91;Common;;Goupix;Vulpix;Pokémon;Fire;37;Masako Yamashita;https://www.pokepedia.fr/images/4/41/Carte_Neo_Destiny_91.png;https://images.pokemontcg.io/neo4/91.png;neo4
+92;92;Rare;;Stade des terres brisées;Broken Ground Gym;Trainer;NoColor;;Tomokazu Komiya;https://www.pokepedia.fr/images/c/ca/Carte_Neo_Destiny_92.png;https://images.pokemontcg.io/neo4/92.png;neo4
+93;93;Rare;;Multi expéditions;EXP.ALL;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/b/be/Carte_Neo_Destiny_93.png;https://images.pokemontcg.io/neo4/93.png;neo4
+94;94;Rare;;L'invention du faux professeur Chen;Impostor Professor Oak's Invention;Trainer;NoColor;;Ken Sugimori;https://www.pokepedia.fr/images/7/7d/Carte_Neo_Destiny_94.png;https://images.pokemontcg.io/neo4/94.png;neo4
+95;95;Rare;;Tour Radio;Radio Tower;Trainer;NoColor;;CR CG gangs;https://www.pokepedia.fr/images/e/eb/Carte_Neo_Destiny_95.png;https://images.pokemontcg.io/neo4/95.png;neo4
+96;96;Rare;;Machine à ondes cerebrales;Thought Wave Machine (Rocket's Secret Machine);Trainer;NoColor;;Sumiyoshi Kizuki;https://www.pokepedia.fr/images/8/82/Carte_Neo_Destiny_96.png;https://images.pokemontcg.io/neo4/96.png;neo4
+97;97;Uncommon;;Griffes de défense;Counterattack Claws;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/f/f4/Carte_Neo_Destiny_97.png;https://images.pokemontcg.io/neo4/97.png;neo4
+98;98;Uncommon;;Amplificateur d'Énergie;Energy Amplifier;Trainer;NoColor;;CR CG gangs;https://www.pokepedia.fr/images/b/b0/Carte_Neo_Destiny_98.png;https://images.pokemontcg.io/neo4/98.png;neo4
+99;99;Uncommon;;Stade Énergie;Energy Stadium;Trainer;NoColor;;Hideki Kazama;https://www.pokepedia.fr/images/e/e9/Carte_Neo_Destiny_99.png;https://images.pokemontcg.io/neo4/99.png;neo4
+100;100;Uncommon;;Stade de la chance;Lucky Stadium;Trainer;NoColor;;Imakuni?;https://www.pokepedia.fr/images/e/ee/Carte_Neo_Destiny_100.png;https://images.pokemontcg.io/neo4/100.png;neo4
+101;101;Uncommon;;Loupe;Magnifier;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/0/0b/Carte_Neo_Destiny_101.png;https://images.pokemontcg.io/neo4/101.png;neo4
+102;102;Uncommon;;Test de personnalité des Pokémon;Pokémon Personality Test;Trainer;NoColor;;Tomokazu Komiya;https://www.pokepedia.fr/images/4/43/Carte_Neo_Destiny_102.png;https://images.pokemontcg.io/neo4/102.png;neo4
+103;103;Uncommon;;Mauvaises actions des Team Rocket;Team Rocket's Evil Deeds;Trainer;NoColor;;Ken Sugimori;https://www.pokepedia.fr/images/7/78/Carte_Neo_Destiny_103.png;https://images.pokemontcg.io/neo4/103.png;neo4
+104;104;Common;;Poudre soin;Heal Powder;Trainer;NoColor;;CR CG gangs;https://www.pokepedia.fr/images/b/bd/Carte_Neo_Destiny_104.png;https://images.pokemontcg.io/neo4/104.png;neo4
+105;105;Common;;Courrier de Léo;Mail from Bill;Trainer;NoColor;;Ken Sugimori;https://www.pokepedia.fr/images/f/f8/Carte_Neo_Destiny_105.png;https://images.pokemontcg.io/neo4/105.png;neo4
+106;106;Secret;Brillant;Celebi Brillant;Shining Celebi;Pokémon;Grass;251;Hironobu Yoshida;https://www.pokepedia.fr/images/e/e8/Carte_Neo_Destiny_106.png;https://images.pokemontcg.io/neo4/106.png;neo4
+107;107;Secret;Brillant;Dracaufeu Brillant;Shining Charizard;Pokémon;Fire;6;Hironobu Yoshida;https://www.pokepedia.fr/images/8/83/Carte_Neo_Destiny_107.png;https://images.pokemontcg.io/neo4/107.png;neo4
+108;108;Secret;Brillant;Kabutops Brillant;Shining Kabutops;Pokémon;Fighting;141;Hironobu Yoshida;https://www.pokepedia.fr/images/9/92/Carte_Neo_Destiny_108.png;https://images.pokemontcg.io/neo4/108.png;neo4
+109;109;Secret;Brillant;Mewtwo Brillant;Shining Mewtwo;Pokémon;Psychic;150;Hironobu Yoshida;https://www.pokepedia.fr/images/2/25/Carte_Neo_Destiny_109.png;https://images.pokemontcg.io/neo4/109.png;neo4
+110;110;Secret;Brillant;Noarfang Brillant;Shining Noctowl;Pokémon;Colorless;164;Ken Sugimori;https://www.pokepedia.fr/images/3/32/Carte_Neo_Destiny_110.png;https://images.pokemontcg.io/neo4/110.png;neo4
+111;111;Secret;Brillant;Raichu Brillant;Shining Raichu;Pokémon;Lightning;26;Hironobu Yoshida;https://www.pokepedia.fr/images/1/12/Carte_Neo_Destiny_111.png;https://images.pokemontcg.io/neo4/111.png;neo4
+112;112;Secret;Brillant;Steelix Brillant;Shining Steelix;Pokémon;Metal;208;Ken Sugimori;https://www.pokepedia.fr/images/6/69/Carte_Neo_Destiny_112.png;https://images.pokemontcg.io/neo4/112.png;neo4
+113;113;Secret;Brillant;Tyranocif Brillant;Shining Tyranitar;Pokémon;Darkness;248;Ken Sugimori;https://www.pokepedia.fr/images/7/77/Carte_Neo_Destiny_113.png;https://images.pokemontcg.io/neo4/113.png;neo4

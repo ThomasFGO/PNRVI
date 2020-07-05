@@ -1,0 +1,67 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;fr_url;us_url;list
+1;1;Rare Holo;;Pharamp;Ampharos;Pokémon;Lightning;181;Toshinao Aoki;https://www.pokepedia.fr/images/8/89/Carte_Neo_Revelation_1.png;https://images.pokemontcg.io/neo3/1.png;neo3
+2;2;Rare Holo;;Leuphorie;Blissey;Pokémon;Colorless;242;Yuka Morii;https://www.pokepedia.fr/images/5/51/Carte_Neo_Revelation_2.png;https://images.pokemontcg.io/neo3/2.png;neo3
+3;3;Rare Holo;;Celebi;Celebi;Pokémon;Psychic;251;Hironobu Yoshida;https://www.pokepedia.fr/images/8/8a/Carte_Neo_Revelation_3.png;https://images.pokemontcg.io/neo3/3.png;neo3
+4;4;Rare Holo;;Nostenfer;Crobat;Pokémon;Grass;169;Shin-ichi Yoshida;https://www.pokepedia.fr/images/f/f8/Carte_Neo_Revelation_4.png;https://images.pokemontcg.io/neo3/4.png;neo3
+5;5;Rare Holo;;Cadoizo;Delibird;Pokémon;Colorless;225;Tomokazu Komiya;https://www.pokepedia.fr/images/5/59/Carte_Neo_Revelation_5.png;https://images.pokemontcg.io/neo3/5.png;neo3
+6;6;Rare Holo;;Entei;Entei;Pokémon;Fire;244;Ken Sugimori;https://www.pokepedia.fr/images/5/50/Carte_Neo_Revelation_6.png;https://images.pokemontcg.io/neo3/6.png;neo3
+7;7;Rare Holo;;Ho-Oh;Ho-oh;Pokémon;Fire;250;Kimiya Masago;https://www.pokepedia.fr/images/a/a9/Carte_Neo_Revelation_7.png;https://images.pokemontcg.io/neo3/7.png;neo3
+8;8;Rare Holo;;Démolosse;Houndoom;Pokémon;Darkness;229;Mitsuhiro Arita;https://www.pokepedia.fr/images/8/8f/Carte_Neo_Revelation_8.png;https://images.pokemontcg.io/neo3/8.png;neo3
+9;9;Rare Holo;;Cotovol;Jumpluff;Pokémon;Grass;189;Kagemaru Himeno;https://www.pokepedia.fr/images/d/d5/Carte_Neo_Revelation_9.png;https://images.pokemontcg.io/neo3/9.png;neo3
+10;10;Rare Holo;;Magneton;Magneton;Pokémon;Metal;82;CR CG gangs;https://www.pokepedia.fr/images/b/b5/Carte_Neo_Revelation_10.png;https://images.pokemontcg.io/neo3/10.png;neo3
+11;11;Rare Holo;;Feuforeve;Misdreavus;Pokémon;Psychic;200;Ken Sugimori;https://www.pokepedia.fr/images/6/65/Carte_Neo_Revelation_11.png;https://images.pokemontcg.io/neo3/11.png;neo3
+12;12;Rare Holo;;Porygon2;Porygon2;Pokémon;Colorless;233;Keiji Kinebuchi;https://www.pokepedia.fr/images/5/55/Carte_Neo_Revelation_12.png;https://images.pokemontcg.io/neo3/12.png;neo3
+13;13;Rare Holo;;Raikou;Raikou;Pokémon;Lightning;243;Ken Sugimori;https://www.pokepedia.fr/images/4/4b/Carte_Neo_Revelation_13.png;https://images.pokemontcg.io/neo3/13.png;neo3
+14;14;Rare Holo;;Suicune;Suicune;Pokémon;Water;245;Ken Sugimori;https://www.pokepedia.fr/images/b/b2/Carte_Neo_Revelation_14.png;https://images.pokemontcg.io/neo3/14.png;neo3
+15;15;Rare;;Ptera;Aerodactyl;Pokémon;Fighting;142;Shin-ichi Yoshida;https://www.pokepedia.fr/images/5/5a/Carte_Neo_Revelation_15.png;https://images.pokemontcg.io/neo3/15.png;neo3
+16;16;Rare;;Celebi;Celebi;Pokémon;Grass;251;Sumiyoshi Kizuki;https://www.pokepedia.fr/images/3/3f/Carte_Neo_Revelation_16.png;https://images.pokemontcg.io/neo3/16.png;neo3
+17;17;Rare;;Entei;Entei;Pokémon;Fire;244;Naoyo Kimura;https://www.pokepedia.fr/images/9/94/Carte_Neo_Revelation_17.png;https://images.pokemontcg.io/neo3/17.png;neo3
+18;18;Rare;;Ho-Oh;Ho-oh;Pokémon;Colorless;250;Aya Kusube;https://www.pokepedia.fr/images/f/f5/Carte_Neo_Revelation_18.png;https://images.pokemontcg.io/neo3/18.png;neo3
+19;19;Rare;;Hyporoi;Kingdra;Pokémon;Water;230;Mitsuhiro Arita;https://www.pokepedia.fr/images/2/2d/Carte_Neo_Revelation_19.png;https://images.pokemontcg.io/neo3/19.png;neo3
+20;20;Rare;;Lugia;Lugia;Pokémon;Psychic;249;Aya Kusube;https://www.pokepedia.fr/images/3/30/Carte_Neo_Revelation_20.png;https://images.pokemontcg.io/neo3/20.png;neo3
+21;21;Rare;;Raichu;Raichu;Pokémon;Lightning;26;Masako Yamashita;https://www.pokepedia.fr/images/3/3b/Carte_Neo_Revelation_21.png;https://images.pokemontcg.io/neo3/21.png;neo3
+22;22;Rare;;Raikou;Raikou;Pokémon;Lightning;243;Naoyo Kimura;https://www.pokepedia.fr/images/8/87/Carte_Neo_Revelation_22.png;https://images.pokemontcg.io/neo3/22.png;neo3
+23;23;Rare;;Airmure;Skarmory;Pokémon;Metal;227;Aya Kusube;https://www.pokepedia.fr/images/2/2a/Carte_Neo_Revelation_23.png;https://images.pokemontcg.io/neo3/23.png;neo3
+24;24;Rare;;Farfuret;Sneasel;Pokémon;Darkness;215;Sumiyoshi Kizuki;https://www.pokepedia.fr/images/6/63/Carte_Neo_Revelation_24.png;https://images.pokemontcg.io/neo3/24.png;neo3
+25;25;Rare;;Staross;Starmie;Pokémon;Psychic;121;CR CG gangs;https://www.pokepedia.fr/images/6/6a/Carte_Neo_Revelation_25.png;https://images.pokemontcg.io/neo3/25.png;neo3
+26;26;Rare;;Simularbre;Sudowoodo;Pokémon;Fighting;185;Sumiyoshi Kizuki;https://www.pokepedia.fr/images/b/be/Carte_Neo_Revelation_26.png;https://images.pokemontcg.io/neo3/26.png;neo3
+27;27;Rare;;Suicune;Suicune;Pokémon;Water;245;Naoyo Kimura;https://www.pokepedia.fr/images/e/ef/Carte_Neo_Revelation_27.png;https://images.pokemontcg.io/neo3/27.png;neo3
+28;28;Uncommon;;Lainergie;Flaaffy;Pokémon;Lightning;180;Toshinao Aoki;https://www.pokepedia.fr/images/7/76/Carte_Neo_Revelation_28.png;https://images.pokemontcg.io/neo3/28.png;neo3
+29;29;Uncommon;;Nosféralto;Golbat;Pokémon;Grass;42;Masako Yamashita;https://www.pokepedia.fr/images/8/8f/Carte_Neo_Revelation_29.png;https://images.pokemontcg.io/neo3/29.png;neo3
+30;30;Uncommon;;Gravalanch;Graveler;Pokémon;Fighting;75;Yukiko Baba;https://www.pokepedia.fr/images/b/b2/Carte_Neo_Revelation_30.png;https://images.pokemontcg.io/neo3/30.png;neo3
+31;31;Uncommon;;Lippoutou;Jynx;Pokémon;Water;124;Tomokazu Komiya;https://www.pokepedia.fr/images/a/ac/Carte_Neo_Revelation_31.png;https://images.pokemontcg.io/neo3/31.png;neo3
+32;32;Uncommon;;Lanturn;Lanturn;Pokémon;Lightning;171;Kagemaru Himeno;https://www.pokepedia.fr/images/3/3c/Carte_Neo_Revelation_32.png;https://images.pokemontcg.io/neo3/32.png;neo3
+33;33;Uncommon;;Volcaropod;Magcargo;Pokémon;Fire;219;Shin-ichi Yoshida;https://www.pokepedia.fr/images/8/87/Carte_Neo_Revelation_33.png;https://images.pokemontcg.io/neo3/33.png;neo3
+34;34;Uncommon;;Octillery;Octillery;Pokémon;Water;224;Tomokazu Komiya;https://www.pokepedia.fr/images/9/9e/Carte_Neo_Revelation_34.png;https://images.pokemontcg.io/neo3/34.png;neo3
+35;35;Uncommon;;Parasect;Parasect;Pokémon;Grass;47;Atsuko Nishida;https://www.pokepedia.fr/images/9/96/Carte_Neo_Revelation_35.png;https://images.pokemontcg.io/neo3/35.png;neo3
+36;36;Uncommon;;Cochignon;Piloswine;Pokémon;Fighting;221;Atsuko Nishida;https://www.pokepedia.fr/images/9/91/Carte_Neo_Revelation_36.png;https://images.pokemontcg.io/neo3/36.png;neo3
+37;37;Uncommon;;Poissoroy;Seaking;Pokémon;Water;119;Miki Tanaka;https://www.pokepedia.fr/images/1/1d/Carte_Neo_Revelation_37.png;https://images.pokemontcg.io/neo3/37.png;neo3
+38;38;Uncommon;;Cerfrousse;Stantler;Pokémon;Colorless;234;Yukiko Baba;https://www.pokepedia.fr/images/2/22/Carte_Neo_Revelation_38.png;https://images.pokemontcg.io/neo3/38.png;neo3
+39;39;Uncommon;;Zarbi B;Unown [B];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/2/27/Carte_Neo_Revelation_39.png;https://images.pokemontcg.io/neo3/39.png;neo3
+40;40;Uncommon;;Zarbi Y;Unown [Y];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/8/88/Carte_Neo_Revelation_40.png;https://images.pokemontcg.io/neo3/40.png;neo3
+41;41;Common;;Capumain;Aipom;Pokémon;Colorless;190;Sumiyoshi Kizuki;https://www.pokepedia.fr/images/5/53/Carte_Neo_Revelation_41.png;https://images.pokemontcg.io/neo3/41.png;neo3
+42;42;Common;;Loupio;Chinchou;Pokémon;Lightning;170;Atsuko Nishida;https://www.pokepedia.fr/images/8/8a/Carte_Neo_Revelation_42.png;https://images.pokemontcg.io/neo3/42.png;neo3
+43;43;Common;;Canarticho;Farfetch'd;Pokémon;Colorless;83;Miki Tanaka;https://www.pokepedia.fr/images/7/7d/Carte_Neo_Revelation_43.png;https://images.pokemontcg.io/neo3/43.png;neo3
+44;44;Common;;Racaillou;Geodude;Pokémon;Fighting;74;Masako Yamashita;https://www.pokepedia.fr/images/f/f1/Carte_Neo_Revelation_44.png;https://images.pokemontcg.io/neo3/44.png;neo3
+45;45;Common;;Poissirène;Goldeen;Pokémon;Water;118;Yuka Morii;https://www.pokepedia.fr/images/a/a1/Carte_Neo_Revelation_45.png;https://images.pokemontcg.io/neo3/45.png;neo3
+46;46;Common;;Cornèbre;Murkrow;Pokémon;Darkness;198;Hironobu Yoshida;https://www.pokepedia.fr/images/d/da/Carte_Neo_Revelation_46.png;https://images.pokemontcg.io/neo3/46.png;neo3
+47;47;Common;;Paras;Paras;Pokémon;Grass;46;Kagemaru Himeno;https://www.pokepedia.fr/images/3/36/Carte_Neo_Revelation_47.png;https://images.pokemontcg.io/neo3/47.png;neo3
+48;48;Common;;Maraiste;Quagsire;Pokémon;Water;195;Yuka Morii;https://www.pokepedia.fr/images/b/b4/Carte_Neo_Revelation_48.png;https://images.pokemontcg.io/neo3/48.png;neo3
+49;49;Common;;Qwilfish;Qwilfish;Pokémon;Water;211;Sumiyoshi Kizuki;https://www.pokepedia.fr/images/7/73/Carte_Neo_Revelation_49.png;https://images.pokemontcg.io/neo3/49.png;neo3
+50;50;Common;;Remoraid;Remoraid;Pokémon;Water;223;Miki Tanaka;https://www.pokepedia.fr/images/e/ef/Carte_Neo_Revelation_50.png;https://images.pokemontcg.io/neo3/50.png;neo3
+51;51;Common;;Caratroc;Shuckle;Pokémon;Fighting;213;Yuka Morii;https://www.pokepedia.fr/images/e/e0/Carte_Neo_Revelation_51.png;https://images.pokemontcg.io/neo3/51.png;neo3
+52;52;Common;;Floravol;Skiploom;Pokémon;Grass;188;Mitsuhiro Arita;https://www.pokepedia.fr/images/4/4f/Carte_Neo_Revelation_52.png;https://images.pokemontcg.io/neo3/52.png;neo3
+53;53;Common;;Limagma;Slugma;Pokémon;Fire;218;Kagemaru Himeno;https://www.pokepedia.fr/images/3/36/Carte_Neo_Revelation_53.png;https://images.pokemontcg.io/neo3/53.png;neo3
+54;54;Common;;Lippouti;Smoochum;Pokémon;Psychic;238;Atsuko Nishida;https://www.pokepedia.fr/images/d/d1/Carte_Neo_Revelation_54.png;https://images.pokemontcg.io/neo3/54.png;neo3
+55;55;Common;;Snubull;Snubbull;Pokémon;Colorless;209;Tomokazu Komiya;https://www.pokepedia.fr/images/4/41/Carte_Neo_Revelation_55.png;https://images.pokemontcg.io/neo3/55.png;neo3
+56;56;Common;;Stari;Staryu;Pokémon;Water;120;Mitsuhiro Arita;https://www.pokepedia.fr/images/b/b7/Carte_Neo_Revelation_56.png;https://images.pokemontcg.io/neo3/56.png;neo3
+57;57;Common;;Marcacrin;Swinub;Pokémon;Fighting;220;Miki Tanaka;https://www.pokepedia.fr/images/1/19/Carte_Neo_Revelation_57.png;https://images.pokemontcg.io/neo3/57.png;neo3
+58;58;Common;;Zarbi K;Unown [K];Pokémon;Psychic;201;CR CG gangs;https://www.pokepedia.fr/images/5/55/Carte_Neo_Revelation_58.png;https://images.pokemontcg.io/neo3/58.png;neo3
+59;59;Common;;Nosférapti;Zubat;Pokémon;Grass;41;Yukiko Baba;https://www.pokepedia.fr/images/d/d9/Carte_Neo_Revelation_59.png;https://images.pokemontcg.io/neo3/59.png;neo3
+60;60;Uncommon;;Baie Ballon;Balloon Berry;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/f/f8/Carte_Neo_Revelation_60.png;https://images.pokemontcg.io/neo3/60.png;neo3
+61;61;Uncommon;;Champ de Guérison;Healing Field;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/1/16/Carte_Neo_Revelation_61.png;https://images.pokemontcg.io/neo3/61.png;neo3
+62;62;Uncommon;;Champs d'élevage de Pokémon;Pokémon Breeder Fields;Trainer;NoColor;;Ken Sugimori;https://www.pokepedia.fr/images/6/61/Carte_Neo_Revelation_62.png;https://images.pokemontcg.io/neo3/62.png;neo3
+63;63;Uncommon;;Repaire des Rocket !;Rocket's Hideout;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/f/f7/Carte_Neo_Revelation_63.png;https://images.pokemontcg.io/neo3/63.png;neo3
+64;64;Common;;Canne;Old Rod;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/4/4e/Carte_Neo_Revelation_64.png;https://images.pokemontcg.io/neo3/64.png;neo3
+65;65;Secret;;Léviator Brillant;Shining Gyarados;Pokémon;Water;130;Ken Sugimori;https://www.pokepedia.fr/images/9/94/Carte_Neo_Revelation_65.png;https://images.pokemontcg.io/neo3/65.png;neo3
+66;66;Secret;;Magicarpe Brillant;Shining Magikarp;Pokémon;Water;129;Ken Sugimori;https://www.pokepedia.fr/images/8/86/Carte_Neo_Revelation_66.png;https://images.pokemontcg.io/neo3/66.png;neo3

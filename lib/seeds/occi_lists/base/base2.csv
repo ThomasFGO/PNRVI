@@ -1,0 +1,65 @@
+number;rank;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;fr_url;us_url;list
+1;1;Rare Holo;;Mélodelfe;Clefable;Pokémon;Colorless;36;Mitsuhiro Arita;https://www.pokepedia.fr/images/e/e0/Carte_Jungle_1.png;https://images.pokemontcg.io/base2/1.png;base2
+2;2;Rare Holo;;Électrode;Electrode;Pokémon;Lightning;101;Mitsuhiro Arita;https://www.pokepedia.fr/images/1/1a/Carte_Jungle_2.png;https://images.pokemontcg.io/base2/2.png;base2
+3;3;Rare Holo;;Pyroli;Flareon;Pokémon;Fire;136;Kagemaru Himeno;https://www.pokepedia.fr/images/f/fa/Carte_Jungle_3.png;https://images.pokemontcg.io/base2/3.png;base2
+4;4;Rare Holo;;Voltali;Jolteon;Pokémon;Lightning;135;Kagemaru Himeno;https://www.pokepedia.fr/images/1/1f/Carte_Jungle_4.png;https://images.pokemontcg.io/base2/4.png;base2
+5;5;Rare Holo;;Kangourex;Kangaskhan;Pokémon;Colorless;115;Mitsuhiro Arita;https://www.pokepedia.fr/images/4/46/Carte_Jungle_5.png;https://images.pokemontcg.io/base2/5.png;base2
+6;6;Rare Holo;;M. Mime;Mr. Mime;Pokémon;Psychic;122;Ken Sugimori;https://www.pokepedia.fr/images/c/c5/Carte_Jungle_6.png;https://images.pokemontcg.io/base2/6.png;base2
+7;7;Rare Holo;;Nidoqueen;Nidoqueen;Pokémon;Grass;31;Ken Sugimori;https://www.pokepedia.fr/images/f/fd/Carte_Jungle_7.png;https://images.pokemontcg.io/base2/7.png;base2
+8;8;Rare Holo;;Roucarnage;Pidgeot;Pokémon;Colorless;18;Kagemaru Himeno;https://www.pokepedia.fr/images/1/15/Carte_Jungle_8.png;https://images.pokemontcg.io/base2/8.png;base2
+9;9;Rare Holo;;Scarabrute;Pinsir;Pokémon;Grass;127;Kagemaru Himeno;https://www.pokepedia.fr/images/f/ff/Carte_Jungle_9.png;https://images.pokemontcg.io/base2/9.png;base2
+10;10;Rare Holo;;Insécateur;Scyther;Pokémon;Grass;123;Ken Sugimori;https://www.pokepedia.fr/images/3/35/Carte_Jungle_10.png;https://images.pokemontcg.io/base2/10.png;base2
+11;11;Rare Holo;;Ronflex;Snorlax;Pokémon;Colorless;143;Ken Sugimori;https://www.pokepedia.fr/images/3/3c/Carte_Jungle_11.png;https://images.pokemontcg.io/base2/11.png;base2
+12;12;Rare Holo;;Aquali;Vaporeon;Pokémon;Water;134;Kagemaru Himeno;https://www.pokepedia.fr/images/d/d8/Carte_Jungle_12.png;https://images.pokemontcg.io/base2/12.png;base2
+13;13;Rare Holo;;Aéromite;Venomoth;Pokémon;Grass;49;Ken Sugimori;https://www.pokepedia.fr/images/2/2a/Carte_Jungle_13.png;https://images.pokemontcg.io/base2/13.png;base2
+14;14;Rare Holo;;Empiflor;Victreebel;Pokémon;Grass;71;Ken Sugimori;https://www.pokepedia.fr/images/5/5d/Carte_Jungle_14.png;https://images.pokemontcg.io/base2/14.png;base2
+15;15;Rare Holo;;Rafflésia;Vileplume;Pokémon;Grass;45;Keiji Kinebuchi;https://www.pokepedia.fr/images/e/e0/Carte_Jungle_15.png;https://images.pokemontcg.io/base2/15.png;base2
+16;16;Rare Holo;;Grodoudou;Wigglytuff;Pokémon;Colorless;40;Mitsuhiro Arita;https://www.pokepedia.fr/images/7/70/Carte_Jungle_16.png;https://images.pokemontcg.io/base2/16.png;base2
+17;17;Rare;;Mélodelfe;Clefable;Pokémon;Colorless;36;Mitsuhiro Arita;https://www.pokepedia.fr/images/f/f1/Carte_Jungle_17.png;https://images.pokemontcg.io/base2/17.png;base2
+18;18;Rare;;Électrode;Electrode;Pokémon;Lightning;101;Mitsuhiro Arita;https://www.pokepedia.fr/images/3/37/Carte_Jungle_18.png;https://images.pokemontcg.io/base2/18.png;base2
+19;19;Rare;;Pyroli;Flareon;Pokémon;Fire;136;Kagemaru Himeno;https://www.pokepedia.fr/images/0/0a/Carte_Jungle_19.png;https://images.pokemontcg.io/base2/19.png;base2
+20;20;Rare;;Voltali;Jolteon;Pokémon;Lightning;135;Kagemaru Himeno;https://www.pokepedia.fr/images/8/88/Carte_Jungle_20.png;https://images.pokemontcg.io/base2/20.png;base2
+21;21;Rare;;Kangourex;Kangaskhan;Pokémon;Colorless;115;Mitsuhiro Arita;https://www.pokepedia.fr/images/e/ea/Carte_Jungle_21.png;https://images.pokemontcg.io/base2/21.png;base2
+22;22;Rare;;M. Mime;Mr. Mime;Pokémon;Psychic;122;Ken Sugimori;https://www.pokepedia.fr/images/b/b1/Carte_Jungle_22.png;https://images.pokemontcg.io/base2/22.png;base2
+23;23;Rare;;Nidoqueen;Nidoqueen;Pokémon;Grass;31;Ken Sugimori;https://www.pokepedia.fr/images/d/d9/Carte_Jungle_23.png;https://images.pokemontcg.io/base2/23.png;base2
+24;24;Rare;;Roucarnage;Pidgeot;Pokémon;Colorless;18;Kagemaru Himeno;https://www.pokepedia.fr/images/4/4d/Carte_Jungle_24.png;https://images.pokemontcg.io/base2/24.png;base2
+25;25;Rare;;Scarabrute;Pinsir;Pokémon;Grass;127;Kagemaru Himeno;https://www.pokepedia.fr/images/9/9c/Carte_Jungle_25.png;https://images.pokemontcg.io/base2/25.png;base2
+26;26;Rare;;Insécateur;Scyther;Pokémon;Grass;123;Ken Sugimori;https://www.pokepedia.fr/images/c/c9/Carte_Jungle_26.png;https://images.pokemontcg.io/base2/26.png;base2
+27;27;Rare;;Ronflex;Snorlax;Pokémon;Colorless;143;Ken Sugimori;https://www.pokepedia.fr/images/1/1a/Carte_Jungle_27.png;https://images.pokemontcg.io/base2/27.png;base2
+28;28;Rare;;Aquali;Vaporeon;Pokémon;Water;134;Kagemaru Himeno;https://www.pokepedia.fr/images/8/88/Carte_Jungle_28.png;https://images.pokemontcg.io/base2/28.png;base2
+29;29;Rare;;Aéromite;Venomoth;Pokémon;Grass;49;Ken Sugimori;https://www.pokepedia.fr/images/8/83/Carte_Jungle_29.png;https://images.pokemontcg.io/base2/29.png;base2
+30;30;Rare;;Empiflor;Victreebel;Pokémon;Grass;71;Ken Sugimori;https://www.pokepedia.fr/images/b/b4/Carte_Jungle_30.png;https://images.pokemontcg.io/base2/30.png;base2
+31;31;Rare;;Rafflésia;Vileplume;Pokémon;Grass;45;Keiji Kinebuchi;https://www.pokepedia.fr/images/8/89/Carte_Jungle_31.png;https://images.pokemontcg.io/base2/31.png;base2
+32;32;Rare;;Grodoudou;Wigglytuff;Pokémon;Colorless;40;Mitsuhiro Arita;https://www.pokepedia.fr/images/4/4f/Carte_Jungle_32.png;https://images.pokemontcg.io/base2/32.png;base2
+33;33;Uncommon;;Papilusion;Butterfree;Pokémon;Grass;12;Kagemaru Himeno;https://www.pokepedia.fr/images/3/33/Carte_Jungle_33.png;https://images.pokemontcg.io/base2/33.png;base2
+34;34;Uncommon;;Dodrio;Dodrio;Pokémon;Colorless;85;Mitsuhiro Arita;https://www.pokepedia.fr/images/3/3a/Carte_Jungle_34.png;https://images.pokemontcg.io/base2/34.png;base2
+35;35;Uncommon;;Noadkoko;Exeggutor;Pokémon;Grass;103;Kagemaru Himeno;https://www.pokepedia.fr/images/3/33/Carte_Jungle_35.png;https://images.pokemontcg.io/base2/35.png;base2
+36;36;Uncommon;;Rapasdepic;Fearow;Pokémon;Colorless;22;Mitsuhiro Arita;https://www.pokepedia.fr/images/d/de/Carte_Jungle_36.png;https://images.pokemontcg.io/base2/36.png;base2
+37;37;Uncommon;;Ortide;Gloom;Pokémon;Grass;44;Keiji Kinebuchi;https://www.pokepedia.fr/images/e/e6/Carte_Jungle_37.png;https://images.pokemontcg.io/base2/37.png;base2
+38;38;Uncommon;;Excelangue;Lickitung;Pokémon;Colorless;108;Mitsuhiro Arita;https://www.pokepedia.fr/images/0/09/Carte_Jungle_38.png;https://images.pokemontcg.io/base2/38.png;base2
+39;39;Uncommon;;Ossatueur;Marowak;Pokémon;Fighting;105;Mitsuhiro Arita;https://www.pokepedia.fr/images/f/fd/Carte_Jungle_39.png;https://images.pokemontcg.io/base2/39.png;base2
+40;40;Uncommon;;Nidorina;Nidorina;Pokémon;Grass;30;Ken Sugimori;https://www.pokepedia.fr/images/6/62/Carte_Jungle_40.png;https://images.pokemontcg.io/base2/40.png;base2
+41;41;Uncommon;;Parasect;Parasect;Pokémon;Grass;47;Ken Sugimori;https://www.pokepedia.fr/images/7/7e/Carte_Jungle_41.png;https://images.pokemontcg.io/base2/41.png;base2
+42;42;Uncommon;;Persian;Persian;Pokémon;Colorless;53;Kagemaru Himeno;https://www.pokepedia.fr/images/b/bc/Carte_Jungle_42.png;https://images.pokemontcg.io/base2/42.png;base2
+43;43;Uncommon;;Colossinge;Primeape;Pokémon;Fighting;57;Kagemaru Himeno;https://www.pokepedia.fr/images/4/4f/Carte_Jungle_43.png;https://images.pokemontcg.io/base2/43.png;base2
+44;44;Uncommon;;Galopa;Rapidash;Pokémon;Fire;78;Mitsuhiro Arita;https://www.pokepedia.fr/images/1/19/Carte_Jungle_44.png;https://images.pokemontcg.io/base2/44.png;base2
+45;45;Uncommon;;Rhinoféros;Rhydon;Pokémon;Fighting;112;Kagemaru Himeno;https://www.pokepedia.fr/images/e/e4/Carte_Jungle_45.png;https://images.pokemontcg.io/base2/45.png;base2
+46;46;Uncommon;;Poissoroy;Seaking;Pokémon;Water;119;Kagemaru Himeno;https://www.pokepedia.fr/images/9/93/Carte_Jungle_46.png;https://images.pokemontcg.io/base2/46.png;base2
+47;47;Uncommon;;Tauros;Tauros;Pokémon;Colorless;128;Kagemaru Himeno;https://www.pokepedia.fr/images/6/60/Carte_Jungle_47.png;https://images.pokemontcg.io/base2/47.png;base2
+48;48;Uncommon;;Boustiflor;Weepinbell;Pokémon;Grass;70;Kagemaru Himeno;https://www.pokepedia.fr/images/2/21/Carte_Jungle_48.png;https://images.pokemontcg.io/base2/48.png;base2
+49;49;Common;;Chétiflor;Bellsprout;Pokémon;Grass;69;Kagemaru Himeno;https://www.pokepedia.fr/images/b/b7/Carte_Jungle_49.png;https://images.pokemontcg.io/base2/49.png;base2
+50;50;Common;;Osselait;Cubone;Pokémon;Fighting;104;Mitsuhiro Arita;https://www.pokepedia.fr/images/d/de/Carte_Jungle_50.png;https://images.pokemontcg.io/base2/50.png;base2
+51;51;Common;;Evoli;Eevee;Pokémon;Colorless;133;Kagemaru Himeno;https://www.pokepedia.fr/images/5/55/Carte_Jungle_51.png;https://images.pokemontcg.io/base2/51.png;base2
+52;52;Common;;Noeunoeuf;Exeggcute;Pokémon;Grass;102;Mitsuhiro Arita;https://www.pokepedia.fr/images/3/32/Carte_Jungle_52.png;https://images.pokemontcg.io/base2/52.png;base2
+53;53;Common;;Poissirène;Goldeen;Pokémon;Water;118;Kagemaru Himeno;https://www.pokepedia.fr/images/3/38/Carte_Jungle_53.png;https://images.pokemontcg.io/base2/53.png;base2
+54;54;Common;;Rondoudou;Jigglypuff;Pokémon;Colorless;39;Kagemaru Himeno;https://www.pokepedia.fr/images/0/09/Carte_Jungle_54.png;https://images.pokemontcg.io/base2/54.png;base2
+55;55;Common;;Férosinge;Mankey;Pokémon;Fighting;56;Kagemaru Himeno;https://www.pokepedia.fr/images/e/ee/Carte_Jungle_55.png;https://images.pokemontcg.io/base2/55.png;base2
+56;56;Common;;Miaouss;Meowth;Pokémon;Colorless;52;Mitsuhiro Arita;https://www.pokepedia.fr/images/1/12/Carte_Jungle_56.png;https://images.pokemontcg.io/base2/56.png;base2
+57;57;Common;;Nidoran F;Nidoran♀;Pokémon;Grass;29;Ken Sugimori;https://www.pokepedia.fr/images/8/8b/Carte_Jungle_57.png;https://images.pokemontcg.io/base2/57.png;base2
+58;58;Common;;Mystherbe;Oddish;Pokémon;Grass;43;Keiji Kinebuchi;https://www.pokepedia.fr/images/c/cf/Carte_Jungle_58.png;https://images.pokemontcg.io/base2/58.png;base2
+59;59;Common;;Paras;Paras;Pokémon;Grass;46;Ken Sugimori;https://www.pokepedia.fr/images/0/0c/Carte_Jungle_59.png;https://images.pokemontcg.io/base2/59.png;base2
+60;60;Common;;Pikachu;Pikachu;Pokémon;Lightning;25;Ken Sugimori;https://www.pokepedia.fr/images/5/56/Carte_Jungle_60.png;https://images.pokemontcg.io/base2/60.png;base2
+61;61;Common;;Rhinocorne;Rhyhorn;Pokémon;Fighting;111;Mitsuhiro Arita;https://www.pokepedia.fr/images/b/b3/Carte_Jungle_61.png;https://images.pokemontcg.io/base2/61.png;base2
+62;62;Common;;Piafabec;Spearow;Pokémon;Colorless;21;Mitsuhiro Arita;https://www.pokepedia.fr/images/9/93/Carte_Jungle_62.png;https://images.pokemontcg.io/base2/62.png;base2
+63;63;Common;;Mimitoss;Venonat;Pokémon;Grass;48;Mitsuhiro Arita;https://www.pokepedia.fr/images/0/0f/Carte_Jungle_63.png;https://images.pokemontcg.io/base2/63.png;base2
+64;64;Common;;Poké Balle;Poké Ball;Trainer;NoColor;;Keiji Kinebuchi;https://www.pokepedia.fr/images/a/a5/Carte_Jungle_64.png;https://images.pokemontcg.io/base2/64.png;base2

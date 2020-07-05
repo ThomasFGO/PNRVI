@@ -1,0 +1,133 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;fr_url;us_url;list
+1;1;Rare Holo;;;Blaine's Arcanine;Pokémon;Fire;59;Ken Sugimori;;https://images.pokemontcg.io/gym2/1.png;gym2
+2;2;Rare Holo;;;Blaine's Charizard;Pokémon;Fire;6;Ken Sugimori;;https://images.pokemontcg.io/gym2/2.png;gym2
+3;3;Rare Holo;;;Brock's Ninetales;Pokémon;Fire;38;Ken Sugimori;;https://images.pokemontcg.io/gym2/3.png;gym2
+4;4;Rare Holo;;;Erika's Venusaur;Pokémon;Grass;3;Ken Sugimori;;https://images.pokemontcg.io/gym2/4.png;gym2
+5;5;Rare Holo;;;Giovanni's Gyarados;Pokémon;Water;130;Ken Sugimori;;https://images.pokemontcg.io/gym2/5.png;gym2
+6;6;Rare Holo;;;Giovanni's Machamp;Pokémon;Fighting;68;Ken Sugimori;;https://images.pokemontcg.io/gym2/6.png;gym2
+7;7;Rare Holo;;;Giovanni's Nidoking;Pokémon;Grass;34;Ken Sugimori;;https://images.pokemontcg.io/gym2/7.png;gym2
+8;8;Rare Holo;;;Giovanni's Persian;Pokémon;Colorless;53;Ken Sugimori;;https://images.pokemontcg.io/gym2/8.png;gym2
+9;9;Rare Holo;;;Koga's Beedrill;Pokémon;Grass;15;Ken Sugimori;;https://images.pokemontcg.io/gym2/9.png;gym2
+10;10;Rare Holo;;;Koga's Ditto;Pokémon;Colorless;132;Ken Sugimori;;https://images.pokemontcg.io/gym2/10.png;gym2
+11;11;Rare Holo;;;Lt. Surge's Raichu;Pokémon;Lightning;26;Ken Sugimori;;https://images.pokemontcg.io/gym2/11.png;gym2
+12;12;Rare Holo;;;Misty's Golduck;Pokémon;Water;55;Ken Sugimori;;https://images.pokemontcg.io/gym2/12.png;gym2
+13;13;Rare Holo;;;Misty's Gyarados;Pokémon;Water;130;Ken Sugimori;;https://images.pokemontcg.io/gym2/13.png;gym2
+14;14;Rare Holo;;;Rocket's Mewtwo;Pokémon;Psychic;150;Shin-ichi Yoshida;;https://images.pokemontcg.io/gym2/14.png;gym2
+15;15;Rare Holo;;;Rocket's Zapdos;Pokémon;Lightning;145;Shin-ichi Yoshida;;https://images.pokemontcg.io/gym2/15.png;gym2
+16;16;Rare Holo;;;Sabrina's Alakazam;Pokémon;Psychic;65;Ken Sugimori;;https://images.pokemontcg.io/gym2/16.png;gym2
+17;17;Rare Holo;;;Blaine;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/17.png;gym2
+18;18;Rare Holo;;;Giovanni;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/18.png;gym2
+19;19;Rare Holo;;;Koga;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/19.png;gym2
+20;20;Rare Holo;;;Sabrina;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/20.png;gym2
+21;21;Rare;;;Blaine's Ninetales;Pokémon;Fire;38;Ken Sugimori;;https://images.pokemontcg.io/gym2/21.png;gym2
+22;22;Rare;;;Brock's Dugtrio;Pokémon;Fighting;51;Ken Sugimori;;https://images.pokemontcg.io/gym2/22.png;gym2
+23;23;Rare;;;Giovanni's Nidoqueen;Pokémon;Grass;31;Ken Sugimori;;https://images.pokemontcg.io/gym2/23.png;gym2
+24;24;Rare;;;Giovanni's Pinsir;Pokémon;Grass;127;Ken Sugimori;;https://images.pokemontcg.io/gym2/24.png;gym2
+25;25;Rare;;;Koga's Arbok;Pokémon;Grass;24;Ken Sugimori;;https://images.pokemontcg.io/gym2/25.png;gym2
+26;26;Rare;;;Koga's Muk;Pokémon;Grass;89;Ken Sugimori;;https://images.pokemontcg.io/gym2/26.png;gym2
+27;27;Rare;;;Koga's Pidgeotto;Pokémon;Colorless;17;Ken Sugimori;;https://images.pokemontcg.io/gym2/27.png;gym2
+28;28;Rare;;;Lt. Surge's Jolteon;Pokémon;Lightning;135;Ken Sugimori;;https://images.pokemontcg.io/gym2/28.png;gym2
+29;29;Rare;;;Sabrina's Gengar;Pokémon;Psychic;94;Ken Sugimori;;https://images.pokemontcg.io/gym2/29.png;gym2
+30;30;Rare;;;Sabrina's Golduck;Pokémon;Water;55;Ken Sugimori;;https://images.pokemontcg.io/gym2/30.png;gym2
+31;31;Uncommon;;;Blaine's Charmeleon;Pokémon;Fire;5;Ken Sugimori;;https://images.pokemontcg.io/gym2/31.png;gym2
+32;32;Uncommon;;;Blaine's Dodrio;Pokémon;Colorless;85;Ken Sugimori;;https://images.pokemontcg.io/gym2/32.png;gym2
+33;33;Uncommon;;;Blaine's Rapidash;Pokémon;Fire;78;Ken Sugimori;;https://images.pokemontcg.io/gym2/33.png;gym2
+34;34;Uncommon;;;Brock's Graveler;Pokémon;Fighting;75;Atsuko Nishida;;https://images.pokemontcg.io/gym2/34.png;gym2
+35;35;Uncommon;;;Brock's Primeape;Pokémon;Fighting;57;Ken Sugimori;;https://images.pokemontcg.io/gym2/35.png;gym2
+36;36;Uncommon;;;Brock's Sandslash;Pokémon;Fighting;28;Atsuko Nishida;;https://images.pokemontcg.io/gym2/36.png;gym2
+37;37;Uncommon;;;Brock's Vulpix;Pokémon;Fire;37;Ken Sugimori;;https://images.pokemontcg.io/gym2/37.png;gym2
+38;38;Uncommon;;;Erika's Bellsprout;Pokémon;Grass;69;Ken Sugimori;;https://images.pokemontcg.io/gym2/38.png;gym2
+39;39;Uncommon;;;Erika's Bulbasaur;Pokémon;Grass;1;Ken Sugimori;;https://images.pokemontcg.io/gym2/39.png;gym2
+40;40;Uncommon;;;Erika's Clefairy;Pokémon;Colorless;35;Atsuko Nishida;;https://images.pokemontcg.io/gym2/40.png;gym2
+41;41;Uncommon;;;Erika's Ivysaur;Pokémon;Grass;2;Ken Sugimori;;https://images.pokemontcg.io/gym2/41.png;gym2
+42;42;Uncommon;;;Giovanni's Machoke;Pokémon;Fighting;67;Ken Sugimori;;https://images.pokemontcg.io/gym2/42.png;gym2
+43;43;Uncommon;;;Giovanni's Meowth;Pokémon;Colorless;52;Atsuko Nishida;;https://images.pokemontcg.io/gym2/43.png;gym2
+44;44;Uncommon;;;Giovanni's Nidorina;Pokémon;Grass;30;Ken Sugimori;;https://images.pokemontcg.io/gym2/44.png;gym2
+45;45;Uncommon;;;Giovanni's Nidorino;Pokémon;Grass;33;Ken Sugimori;;https://images.pokemontcg.io/gym2/45.png;gym2
+46;46;Uncommon;;;Koga's Golbat;Pokémon;Grass;42;Ken Sugimori;;https://images.pokemontcg.io/gym2/46.png;gym2
+47;47;Uncommon;;;Koga's Kakuna;Pokémon;Grass;14;Ken Sugimori;;https://images.pokemontcg.io/gym2/47.png;gym2
+48;48;Uncommon;;;Koga's Koffing;Pokémon;Grass;109;Ken Sugimori;;https://images.pokemontcg.io/gym2/48.png;gym2
+49;49;Uncommon;;;Koga's Pidgey;Pokémon;Colorless;16;Atsuko Nishida;;https://images.pokemontcg.io/gym2/49.png;gym2
+50;50;Uncommon;;;Koga's Weezing;Pokémon;Grass;110;Ken Sugimori;;https://images.pokemontcg.io/gym2/50.png;gym2
+51;51;Uncommon;;;Lt. Surge's Eevee;Pokémon;Colorless;133;Ken Sugimori;;https://images.pokemontcg.io/gym2/51.png;gym2
+52;52;Uncommon;;;Lt. Surge's Electrode;Pokémon;Lightning;101;Ken Sugimori;;https://images.pokemontcg.io/gym2/52.png;gym2
+53;53;Uncommon;;;Lt. Surge's Raticate;Pokémon;Colorless;20;Ken Sugimori;;https://images.pokemontcg.io/gym2/53.png;gym2
+54;54;Uncommon;;;Misty's Dewgong;Pokémon;Water;87;Ken Sugimori;;https://images.pokemontcg.io/gym2/54.png;gym2
+55;55;Uncommon;;;Sabrina's Haunter;Pokémon;Psychic;93;Ken Sugimori;;https://images.pokemontcg.io/gym2/55.png;gym2
+56;56;Uncommon;;;Sabrina's Hypno;Pokémon;Psychic;97;Ken Sugimori;;https://images.pokemontcg.io/gym2/56.png;gym2
+57;57;Uncommon;;;Sabrina's Jynx;Pokémon;Psychic;124;Atsuko Nishida;;https://images.pokemontcg.io/gym2/57.png;gym2
+58;58;Uncommon;;;Sabrina's Kadabra;Pokémon;Psychic;64;Ken Sugimori;;https://images.pokemontcg.io/gym2/58.png;gym2
+59;59;Uncommon;;;Sabrina's Mr. Mime;Pokémon;Psychic;122;Ken Sugimori;;https://images.pokemontcg.io/gym2/59.png;gym2
+60;60;Common;;;Blaine's Charmander;Pokémon;Fire;4;Ken Sugimori;;https://images.pokemontcg.io/gym2/60.png;gym2
+61;61;Common;;;Blaine's Doduo;Pokémon;Colorless;84;Ken Sugimori;;https://images.pokemontcg.io/gym2/61.png;gym2
+62;62;Common;;;Blaine's Growlithe;Pokémon;Fire;58;Ken Sugimori;;https://images.pokemontcg.io/gym2/62.png;gym2
+63;63;Common;;;Blaine's Mankey;Pokémon;Fighting;56;Atsuko Nishida;;https://images.pokemontcg.io/gym2/63.png;gym2
+64;64;Common;;;Blaine's Ponyta;Pokémon;Fire;77;Ken Sugimori;;https://images.pokemontcg.io/gym2/64.png;gym2
+65;65;Common;;;Blaine's Rhyhorn;Pokémon;Fighting;111;Ken Sugimori;;https://images.pokemontcg.io/gym2/65.png;gym2
+66;66;Common;;;Blaine's Vulpix;Pokémon;Fire;37;Ken Sugimori;;https://images.pokemontcg.io/gym2/66.png;gym2
+67;67;Common;;;Brock's Diglett;Pokémon;Fighting;50;Ken Sugimori;;https://images.pokemontcg.io/gym2/67.png;gym2
+68;68;Common;;;Brock's Geodude;Pokémon;Fighting;74;Ken Sugimori;;https://images.pokemontcg.io/gym2/68.png;gym2
+69;69;Common;;;Erika's Jigglypuff;Pokémon;Colorless;39;Ken Sugimori;;https://images.pokemontcg.io/gym2/69.png;gym2
+70;70;Common;;;Erika's Oddish;Pokémon;Grass;43;Ken Sugimori;;https://images.pokemontcg.io/gym2/70.png;gym2
+71;71;Common;;;Erika's Paras;Pokémon;Grass;46;Ken Sugimori;;https://images.pokemontcg.io/gym2/71.png;gym2
+72;72;Common;;;Giovanni's Machop;Pokémon;Fighting;66;Ken Sugimori;;https://images.pokemontcg.io/gym2/72.png;gym2
+73;73;Common;;;Giovanni's Magikarp;Pokémon;Water;129;Ken Sugimori;;https://images.pokemontcg.io/gym2/73.png;gym2
+74;74;Common;;;Giovanni's Meowth;Pokémon;Colorless;52;Ken Sugimori;;https://images.pokemontcg.io/gym2/74.png;gym2
+75;75;Common;;;Giovanni's Nidoran♀;Pokémon;Grass;29;Ken Sugimori;;https://images.pokemontcg.io/gym2/75.png;gym2
+76;76;Common;;;Giovanni's Nidoran♂;Pokémon;Grass;32;Ken Sugimori;;https://images.pokemontcg.io/gym2/76.png;gym2
+77;77;Common;;;Koga's Ekans;Pokémon;Grass;23;Ken Sugimori;;https://images.pokemontcg.io/gym2/77.png;gym2
+78;78;Common;;;Koga's Grimer;Pokémon;Grass;88;Ken Sugimori;;https://images.pokemontcg.io/gym2/78.png;gym2
+79;79;Common;;;Koga's Koffing;Pokémon;Grass;109;Ken Sugimori;;https://images.pokemontcg.io/gym2/79.png;gym2
+80;80;Common;;;Koga's Pidgey;Pokémon;Colorless;16;Ken Sugimori;;https://images.pokemontcg.io/gym2/80.png;gym2
+81;81;Common;;;Koga's Tangela;Pokémon;Grass;114;Atsuko Nishida;;https://images.pokemontcg.io/gym2/81.png;gym2
+82;82;Common;;;Koga's Weedle;Pokémon;Grass;13;Ken Sugimori;;https://images.pokemontcg.io/gym2/82.png;gym2
+83;83;Common;;;Koga's Zubat;Pokémon;Grass;41;Ken Sugimori;;https://images.pokemontcg.io/gym2/83.png;gym2
+84;84;Common;;;Lt. Surge's Pikachu;Pokémon;Lightning;25;Atsuko Nishida;;https://images.pokemontcg.io/gym2/84.png;gym2
+85;85;Common;;;Lt. Surge's Rattata;Pokémon;Colorless;19;Atsuko Nishida;;https://images.pokemontcg.io/gym2/85.png;gym2
+86;86;Common;;;Lt. Surge's Voltorb;Pokémon;Lightning;100;Atsuko Nishida;;https://images.pokemontcg.io/gym2/86.png;gym2
+87;87;Common;;;Misty's Horsea;Pokémon;Water;116;Ken Sugimori;;https://images.pokemontcg.io/gym2/87.png;gym2
+88;88;Common;;;Misty's Magikarp;Pokémon;Water;129;Ken Sugimori;;https://images.pokemontcg.io/gym2/88.png;gym2
+89;89;Common;;;Misty's Poliwag;Pokémon;Water;60;Ken Sugimori;;https://images.pokemontcg.io/gym2/89.png;gym2
+90;90;Common;;;Misty's Psyduck;Pokémon;Water;54;Ken Sugimori;;https://images.pokemontcg.io/gym2/90.png;gym2
+91;91;Common;;;Misty's Seel;Pokémon;Water;86;Ken Sugimori;;https://images.pokemontcg.io/gym2/91.png;gym2
+92;92;Common;;;Misty's Staryu;Pokémon;Water;120;Ken Sugimori;;https://images.pokemontcg.io/gym2/92.png;gym2
+93;93;Common;;;Sabrina's Abra;Pokémon;Psychic;63;Ken Sugimori;;https://images.pokemontcg.io/gym2/93.png;gym2
+94;94;Common;;;Sabrina's Abra;Pokémon;Psychic;63;Ken Sugimori;;https://images.pokemontcg.io/gym2/94.png;gym2
+95;95;Common;;;Sabrina's Drowzee;Pokémon;Psychic;96;Ken Sugimori;;https://images.pokemontcg.io/gym2/95.png;gym2
+96;96;Common;;;Sabrina's Gastly;Pokémon;Psychic;92;Ken Sugimori;;https://images.pokemontcg.io/gym2/96.png;gym2
+97;97;Common;;;Sabrina's Gastly;Pokémon;Psychic;92;Atsuko Nishida;;https://images.pokemontcg.io/gym2/97.png;gym2
+98;98;Common;;;Sabrina's Porygon;Pokémon;Colorless;137;Ken Sugimori;;https://images.pokemontcg.io/gym2/98.png;gym2
+99;99;Common;;;Sabrina's Psyduck;Pokémon;Water;54;Ken Sugimori;;https://images.pokemontcg.io/gym2/99.png;gym2
+100;100;Rare;;;Blaine;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/100.png;gym2
+101;101;Rare;;;Brock's Protection;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/101.png;gym2
+102;102;Rare;;;Chaos Gym;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/102.png;gym2
+103;103;Rare;;;Erika's Kindness;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/103.png;gym2
+104;104;Rare;;;Giovanni;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/104.png;gym2
+105;105;Rare;;;Giovanni's Last Resort;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/105.png;gym2
+106;106;Rare;;;Koga;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/106.png;gym2
+107;107;Rare;;;Lt. Surge's Secret Plan;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/107.png;gym2
+108;108;Rare;;;Misty's Wish;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/108.png;gym2
+109;109;Rare;;;Resistance Gym;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/109.png;gym2
+110;110;Rare;;;Sabrina;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/110.png;gym2
+111;111;Uncommon;;;Blaine's Quiz #2;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/111.png;gym2
+112;112;Uncommon;;;Blaine's Quiz #3;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/112.png;gym2
+113;113;Uncommon;;;Cinnabar City Gym;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/113.png;gym2
+114;114;Uncommon;;;Fuchsia City Gym;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/114.png;gym2
+115;115;Uncommon;;;Koga's Ninja Trick;Trainer;NoColor;;Sumiyoshi Kizuki;;https://images.pokemontcg.io/gym2/115.png;gym2
+116;116;Uncommon;;;Master Ball;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/116.png;gym2
+117;117;Uncommon;;;Max Revive;Trainer;NoColor;;Hikaru Koike;;https://images.pokemontcg.io/gym2/117.png;gym2
+118;118;Uncommon;;;Misty's Tears;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/118.png;gym2
+119;119;Uncommon;;;Rocket's Minefield Gym;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/119.png;gym2
+120;120;Uncommon;;;Rocket's Secret Experiment;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/120.png;gym2
+121;121;Uncommon;;;Sabrina's Psychic Control;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/121.png;gym2
+122;122;Uncommon;;;Saffron City Gym;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/122.png;gym2
+123;123;Uncommon;;;Viridian City Gym;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/123.png;gym2
+124;124;Common;;;Fervor;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/gym2/124.png;gym2
+125;125;Common;;;Transparent Walls;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/125.png;gym2
+126;126;Common;;;Warp Point;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/126.png;gym2
+127;127;Common;;;Fighting Energy;Energy;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/127.png;gym2
+128;128;Common;;;Fire Energy;Energy;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/128.png;gym2
+129;129;Common;;;Grass Energy;Energy;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/129.png;gym2
+130;130;Common;;;Lightning Energy;Energy;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/130.png;gym2
+131;131;Common;;;Psychic Energy;Energy;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/131.png;gym2
+132;132;Common;;;Water Energy;Energy;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/gym2/132.png;gym2

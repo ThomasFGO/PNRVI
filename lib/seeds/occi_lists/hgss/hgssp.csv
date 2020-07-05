@@ -1,0 +1,26 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;fr_url;us_url;list
+1;HGSS01;;;Ho-Oh;Ho-Oh;Pokémon;Fire;250;Takashi Yamaguchi;;https://images.pokemontcg.io/hsp/HGSS01.png;hgssp
+2;HGSS02;;;Lugia;Lugia;Pokémon;Water;249;Takashi Yamaguchi;;https://images.pokemontcg.io/hsp/HGSS02.png;hgssp
+3;HGSS03;;;Pikachu;Pikachu;Pokémon;Lightning;25;Kanako Eo;;https://images.pokemontcg.io/hsp/HGSS03.png;hgssp
+4;HGSS04;;;Qulbutoke;Wobbuffet;Pokémon;Psychic;202;match;;https://images.pokemontcg.io/hsp/HGSS04.png;hgssp
+5;HGSS05;;;Hoothoot;Hoothoot;Pokémon;Colorless;163;Masakazu Fukuda;;https://images.pokemontcg.io/hsp/HGSS05.png;hgssp
+6;HGSS06;;;Noarfang;Noctowl;Pokémon;Colorless;164;Masakazu Fukuda;;https://images.pokemontcg.io/hsp/HGSS06.png;hgssp
+7;HGSS07;Ultra;Prime;Aligatueur;Feraligatr;Pokémon;Water;160;Kent Kanetsuna;;https://images.pokemontcg.io/hsp/HGSS07.png;hgssp
+8;HGSS08;Ultra;Prime;Méganium;Meganium;Pokémon;Grass;154;Noriko Hotta;;https://images.pokemontcg.io/hsp/HGSS08.png;hgssp
+9;HGSS09;Ultra;Prime;Typhlosion;Typhlosion;Pokémon;Fire;157;Wataru Kawahara;;https://images.pokemontcg.io/hsp/HGSS09.png;hgssp
+10;HGSS10;;;Latias;Latias;Pokémon;Colorless;380;Wataru Kawahara;;https://images.pokemontcg.io/hsp/HGSS10.png;hgssp
+11;HGSS11;;;Latios;Latios;Pokémon;Colorless;381;Wataru Kawahara;;https://images.pokemontcg.io/hsp/HGSS11.png;hgssp
+12;HGSS12;;;Mélo;Cleffa;Pokémon;Colorless;173;Masakazu Fukuda;;https://images.pokemontcg.io/hsp/HGSS12.png;hgssp
+13;HGSS13;;;Lippouti;Smoochum;Pokémon;Psychic;238;Midori Harada;;https://images.pokemontcg.io/hsp/HGSS13.png;hgssp
+14;HGSS14;;;Lokhlass;Lapras;Pokémon;Water;131;Masakazu Fukuda;;https://images.pokemontcg.io/hsp/HGSS14.png;hgssp
+15;HGSS15;;;Caratroc;Shuckle;Pokémon;Fighting;213;match;;https://images.pokemontcg.io/hsp/HGSS15.png;hgssp
+16;HGSS16;;;Posipi;Plusle;Pokémon;Lightning;311;Kouki Saitou;;https://images.pokemontcg.io/hsp/HGSS16.png;hgssp
+17;HGSS17;;;Negapi;Minun;Pokémon;Lightning;312;Kouki Saitou;;https://www.picclickimg.com/d/l400/pict/143460918626_/Minun-HGSS17-Shattered-Holo-Promo-Pokemon-Card.jpg;hgssp
+18;HGSS18;;;Raz-de-marée tropical;Tropical Tidal Wave;Trainer;NoColor;;Sumiyoshi Kizuki;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1028930.jpg;hgssp
+19;HGSS19;Ultra;SL;Raikou;Raikou;Pokémon;Lightning;243;Noriko Hotta;;https://images-na.ssl-images-amazon.com/images/I/51KUHE0NRuL.jpg;hgssp
+20;HGSS20;Ultra;SL;Entei;Entei;Pokémon;Fire;244;Yuri Umemura;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/300534.jpg;hgssp
+21;HGSS21;Ultra;SL;Suicune;Suicune;Pokémon;Water;245;Hideaki Hakozaki;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/300536.jpg;hgssp
+22;HGSS22;;;Porygon;Porygon;Pokémon;Colorless;137;TOKIYA;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/303614.jpg;hgssp
+23;HGSS23;;;Porygon2;Porygon2;Pokémon;Colorless;138;TOKIYA;;https://images-na.ssl-images-amazon.com/images/I/41HopClWjdL._AC_.jpg;hgssp
+24;HGSS24;;;Tygnon;Hitmonchan;Pokémon;Fighting;107;Kouki Saitou;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/314340.jpg;hgssp
+25;HGSS25;;;Kicklee;Hitmonlee;Pokémon;Fighting;106;Kouki Saitou;;https://images-na.ssl-images-amazon.com/images/I/51uZHbvhltL.jpg;hgssp

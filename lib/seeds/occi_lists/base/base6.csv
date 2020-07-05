@@ -1,0 +1,111 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;fr_url;us_url;list
+1;1;Rare Holo;;Alakazam;Alakazam;Pokémon;Psychic;65;Ken Sugimori;;https://images.pokemontcg.io/base6/1.png;base6
+2;2;Rare Holo;;Artikodin;Articuno;Pokémon;Water;144;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/2.png;base6
+3;3;Rare Holo;;Dracaufeu;Charizard;Pokémon;Fire;6;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/3.png;base6
+4;4;Rare Holo;;Tortank Obscur;Dark Blastoise;Pokémon;Water;9;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/4.png;base6
+5;5;Rare Holo;;Dracolosse Obscur;Dark Dragonite;Pokémon;Colorless;149;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/5.png;base6
+6;6;Rare Holo;;Persian Obscur;Dark Persian;Pokémon;Colorless;53;Shin-ichi Yoshida;;https://images.pokemontcg.io/base6/6.png;base6
+7;7;Rare Holo;;Raichu Obscur;Dark Raichu;Pokémon;Lightning;26;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/7.png;base6
+8;8;Rare Holo;;Flagadoss Obscur;Dark Slowbro;Pokémon;Psychic;80;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/8.png;base6
+9;9;Rare Holo;;Aquali Obscur;Dark Vaporeon;Pokémon;Water;134;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/9.png;base6
+10;10;Rare Holo;;Pyroli;Flareon;Pokémon;Fire;136;Kagemaru Himeno;;https://images.pokemontcg.io/base6/10.png;base6
+11;11;Rare Holo;;Ectoplasma;Gengar;Pokémon;Psychic;94;Keiji Kinebuchi;;https://images.pokemontcg.io/base6/11.png;base6
+12;12;Rare Holo;;Léviator;Gyarados;Pokémon;Water;130;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/12.png;base6
+13;13;Rare Holo;;Kicklee;Hitmonlee;Pokémon;Fighting;106;Ken Sugimori;;https://images.pokemontcg.io/base6/13.png;base6
+14;14;Rare Holo;;Voltali;Jolteon;Pokémon;Lightning;135;Kagemaru Himeno;;https://images.pokemontcg.io/base6/14.png;base6
+15;15;Rare Holo;;Mackogneur;Machamp;Pokémon;Fighting;68;Ken Sugimori;;https://images.pokemontcg.io/base6/15.png;base6
+16;16;Rare Holo;;Grotadmorv;Muk;Pokémon;Grass;89;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/16.png;base6
+17;17;Rare Holo;;Feunard;Ninetales;Pokémon;Fire;38;Ken Sugimori;;https://images.pokemontcg.io/base6/17.png;base6
+18;18;Rare Holo;;Florizarre;Venusaur;Pokémon;Grass;3;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/18.png;base6
+19;19;Rare Holo;;Electhor;Zapdos;Pokémon;Lightning;145;Ken Sugimori;;https://images.pokemontcg.io/base6/19.png;base6
+20;20;Rare;;Dardargnan;Beedrill;Pokémon;Grass;15;Ken Sugimori;;https://images.pokemontcg.io/base6/20.png;base6
+21;21;Rare;;Papilusion;Butterfree;Pokémon;Grass;12;Kagemaru Himeno;;https://images.pokemontcg.io/base6/21.png;base6
+22;22;Rare;;Électrode;Electrode;Pokémon;Lightning;101;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/22.png;base6
+23;23;Rare;;Noadkoko;Exeggutor;Pokémon;Grass;103;Kagemaru Himeno;;https://images.pokemontcg.io/base6/23.png;base6
+24;24;Rare;;Grolem;Golem;Pokémon;Fighting;76;Kagemaru Himeno;;https://images.pokemontcg.io/base6/24.png;base6
+25;25;Rare;;Hypnomade;Hypno;Pokémon;Psychic;97;Ken Sugimori;;https://images.pokemontcg.io/base6/25.png;base6
+26;26;Rare;;Lippoutou;Jynx;Pokémon;Psychic;124;Ken Sugimori;;https://images.pokemontcg.io/base6/26.png;base6
+27;27;Rare;;Kabutops;Kabutops;Pokémon;Fighting;141;Ken Sugimori;;https://images.pokemontcg.io/base6/27.png;base6
+28;28;Rare;;Magneton;Magneton;Pokémon;Lightning;82;Ken Sugimori;;https://images.pokemontcg.io/base6/28.png;base6
+29;29;Rare;;Mewtwo;Mewtwo;Pokémon;Psychic;150;Christopher Rush;;https://images.pokemontcg.io/base6/29.png;base6
+30;30;Rare;;Sulfura;Moltres;Pokémon;Fire;146;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/30.png;base6
+31;31;Rare;;Nidoking;Nidoking;Pokémon;Grass;34;Ken Sugimori;;https://images.pokemontcg.io/base6/31.png;base6
+32;32;Rare;;Nidoqueen;Nidoqueen;Pokémon;Grass;31;Ken Sugimori;;https://images.pokemontcg.io/base6/32.png;base6
+33;33;Rare;;Roucarnage;Pidgeot;Pokémon;Colorless;18;Kagemaru Himeno;;https://images.pokemontcg.io/base6/33.png;base6
+34;34;Rare;;Roucoups;Pidgeotto;Pokémon;Colorless;17;Ken Sugimori;;https://images.pokemontcg.io/base6/34.png;base6
+35;35;Rare;;Rhinoféros;Rhydon;Pokémon;Fighting;112;Kagemaru Himeno;;https://images.pokemontcg.io/base6/35.png;base6
+36;36;Uncommon;;Arcanin;Arcanine;Pokémon;Fire;59;Ken Sugimori;;https://images.pokemontcg.io/base6/36.png;base6
+37;37;Uncommon;;Reptincel;Charmeleon;Pokémon;Fire;5;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/37.png;base6
+38;38;Uncommon;;Draco Obscur;Dark Dragonair;Pokémon;Colorless;148;Kagemaru Himeno;;https://images.pokemontcg.io/base6/38.png;base6
+39;39;Uncommon;;Carabaffe Obscur;Dark Wartortle;Pokémon;Water;8;Kagemaru Himeno;;https://images.pokemontcg.io/base6/39.png;base6
+40;40;Uncommon;;Lamantine;Dewgong;Pokémon;Water;87;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/40.png;base6
+41;41;Uncommon;;Dodrio;Dodrio;Pokémon;Colorless;85;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/41.png;base6
+42;42;Uncommon;;Rapasdepic;Fearow;Pokémon;Colorless;22;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/42.png;base6
+43;43;Uncommon;;Akwakwak;Golduck;Pokémon;Water;55;Kagemaru Himeno;;https://images.pokemontcg.io/base6/43.png;base6
+44;44;Uncommon;;Gravalanch;Graveler;Pokémon;Fighting;75;Kagemaru Himeno;;https://images.pokemontcg.io/base6/44.png;base6
+45;45;Uncommon;;Caninos;Growlithe;Pokémon;Fire;58;Ken Sugimori;;https://images.pokemontcg.io/base6/45.png;base6
+46;46;Uncommon;;Spectrum;Haunter;Pokémon;Psychic;93;Ken Sugimori;;https://images.pokemontcg.io/base6/46.png;base6
+47;47;Uncommon;;Herbizarre;Ivysaur;Pokémon;Grass;2;Ken Sugimori;;https://images.pokemontcg.io/base6/47.png;base6
+48;48;Uncommon;;Kabuto;Kabuto;Pokémon;Fighting;140;Ken Sugimori;;https://images.pokemontcg.io/base6/48.png;base6
+49;49;Uncommon;;Kadabra;Kadabra;Pokémon;Psychic;64;Ken Sugimori;;https://images.pokemontcg.io/base6/49.png;base6
+50;50;Uncommon;;Coconfort;Kakuna;Pokémon;Grass;14;Keiji Kinebuchi;;https://images.pokemontcg.io/base6/50.png;base6
+51;51;Uncommon;;Machopeur;Machoke;Pokémon;Fighting;67;Ken Sugimori;;https://images.pokemontcg.io/base6/51.png;base6
+52;52;Uncommon;;Magicarpe;Magikarp;Pokémon;Water;129;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/52.png;base6
+53;53;Uncommon;;Miaouss;Meowth;Pokémon;Colorless;52;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/53.png;base6
+54;54;Uncommon;;Chrysacier;Metapod;Pokémon;Grass;11;Ken Sugimori;;https://images.pokemontcg.io/base6/54.png;base6
+55;55;Uncommon;;Nidorina;Nidorina;Pokémon;Grass;30;Ken Sugimori;;https://images.pokemontcg.io/base6/55.png;base6
+56;56;Uncommon;;Nidorino;Nidorino;Pokémon;Grass;33;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/56.png;base6
+57;57;Uncommon;;Amonita;Omanyte;Pokémon;Water;138;Kagemaru Himeno;;https://images.pokemontcg.io/base6/57.png;base6
+58;58;Uncommon;;Amonistar;Omastar;Pokémon;Water;139;Ken Sugimori;;https://images.pokemontcg.io/base6/58.png;base6
+59;59;Uncommon;;Colossinge;Primeape;Pokémon;Fighting;57;Kagemaru Himeno;;https://images.pokemontcg.io/base6/59.png;base6
+60;60;Uncommon;;Galopa;Rapidash;Pokémon;Fire;78;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/60.png;base6
+61;61;Uncommon;;Rattatac;Raticate;Pokémon;Colorless;20;Ken Sugimori;;https://images.pokemontcg.io/base6/61.png;base6
+62;62;Uncommon;;Sablaireau;Sandslash;Pokémon;Fighting;28;Ken Sugimori;;https://images.pokemontcg.io/base6/62.png;base6
+63;63;Uncommon;;Hypocéan;Seadra;Pokémon;Water;117;Ken Sugimori;;https://images.pokemontcg.io/base6/63.png;base6
+64;64;Uncommon;;Ronflex;Snorlax;Pokémon;Colorless;143;Ken Sugimori;;https://images.pokemontcg.io/base6/64.png;base6
+65;65;Uncommon;;Tauros;Tauros;Pokémon;Colorless;128;Kagemaru Himeno;;https://images.pokemontcg.io/base6/65.png;base6
+66;66;Uncommon;;Tentacruel;Tentacruel;Pokémon;Water;73;Kagemaru Himeno;;https://images.pokemontcg.io/base6/66.png;base6
+67;67;Common;;Abra;Abra;Pokémon;Psychic;63;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/67.png;base6
+68;68;Common;;Bulbizarre;Bulbasaur;Pokémon;Grass;1;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/68.png;base6
+69;69;Common;;Chenipan;Caterpie;Pokémon;Grass;10;Ken Sugimori;;https://images.pokemontcg.io/base6/69.png;base6
+70;70;Common;;Salamèche;Charmander;Pokémon;Fire;4;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/70.png;base6
+71;71;Common;;Doduo;Doduo;Pokémon;Colorless;84;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/71.png;base6
+72;72;Common;;Minidraco;Dratini;Pokémon;Colorless;147;Ken Sugimori;;https://images.pokemontcg.io/base6/72.png;base6
+73;73;Common;;Soporifik;Drowzee;Pokémon;Psychic;96;Ken Sugimori;;https://images.pokemontcg.io/base6/73.png;base6
+74;74;Common;;Evoli;Eevee;Pokémon;Colorless;133;Kagemaru Himeno;;https://images.pokemontcg.io/base6/74.png;base6
+75;75;Common;;Noeunoeuf;Exeggcute;Pokémon;Grass;102;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/75.png;base6
+76;76;Common;;Fantominus;Gastly;Pokémon;Psychic;92;Keiji Kinebuchi;;https://images.pokemontcg.io/base6/76.png;base6
+77;77;Common;;Racaillou;Geodude;Pokémon;Fighting;74;Kagemaru Himeno;;https://images.pokemontcg.io/base6/77.png;base6
+78;78;Common;;Tadmorv;Grimer;Pokémon;Grass;88;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/78.png;base6
+79;79;Common;;Machoc;Machop;Pokémon;Fighting;66;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/79.png;base6
+80;80;Common;;Magneti;Magnemite;Pokémon;Lightning;81;Keiji Kinebuchi;;https://images.pokemontcg.io/base6/80.png;base6
+81;81;Common;;Férosinge;Mankey;Pokémon;Fighting;56;Kagemaru Himeno;;https://images.pokemontcg.io/base6/81.png;base6
+82;82;Common;;Nidoran F;Nidoran♀;Pokémon;Grass;29;Ken Sugimori;;https://images.pokemontcg.io/base6/82.png;base6
+83;83;Common;;Nidoran M;Nidoran♂;Pokémon;Grass;32;Ken Sugimori;;https://images.pokemontcg.io/base6/83.png;base6
+84;84;Common;;Onix;Onix;Pokémon;Fighting;95;Ken Sugimori;;https://images.pokemontcg.io/base6/84.png;base6
+85;85;Common;;Roucool;Pidgey;Pokémon;Colorless;16;Ken Sugimori;;https://images.pokemontcg.io/base6/85.png;base6
+86;86;Common;;Pikachu;Pikachu;Pokémon;Lightning;25;Ken Sugimori;;https://images.pokemontcg.io/base6/86.png;base6
+87;87;Common;;Ponyta;Ponyta;Pokémon;Fire;77;Ken Sugimori;;https://images.pokemontcg.io/base6/87.png;base6
+88;88;Common;;Psykokwak;Psyduck;Pokémon;Water;54;Kagemaru Himeno;;https://images.pokemontcg.io/base6/88.png;base6
+89;89;Common;;Rattata;Rattata;Pokémon;Colorless;19;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/89.png;base6
+90;90;Common;;Rhinocorne;Rhyhorn;Pokémon;Fighting;111;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/90.png;base6
+91;91;Common;;Sabelette;Sandshrew;Pokémon;Fighting;27;Ken Sugimori;;https://images.pokemontcg.io/base6/91.png;base6
+92;92;Common;;Otaria;Seel;Pokémon;Water;86;Ken Sugimori;;https://images.pokemontcg.io/base6/92.png;base6
+93;93;Common;;Ramoloss;Slowpoke;Pokémon;Psychic;79;Miki Tanaka;;https://images.pokemontcg.io/base6/93.png;base6
+94;94;Common;;Piafabec;Spearow;Pokémon;Colorless;21;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/94.png;base6
+95;95;Common;;Carapuce;Squirtle;Pokémon;Water;7;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/95.png;base6
+96;96;Common;;Tentacool;Tentacool;Pokémon;Water;72;Kagemaru Himeno;;https://images.pokemontcg.io/base6/96.png;base6
+97;97;Common;;Voltorbe;Voltorb;Pokémon;Lightning;100;Keiji Kinebuchi;;https://images.pokemontcg.io/base6/97.png;base6
+98;98;Common;;Goupix;Vulpix;Pokémon;Fire;37;Ken Sugimori;;https://images.pokemontcg.io/base6/98.png;base6
+99;99;Common;;Aspicot;Weedle;Pokémon;Grass;13;Mitsuhiro Arita;;https://images.pokemontcg.io/base6/99.png;base6
+100;100;Uncommon;;Énergie Guérisseuse;Full Heal Energy;Energy;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/base6/100.png;base6
+101;101;Uncommon;;Énergie Potion;Potion Energy;Energy;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/base6/101.png;base6
+102;102;Rare;;Eleveur de Pokémon;Pokémon Breeder;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/base6/102.png;base6
+103;103;Rare;;Marchand de Pokémon;Pokémon Trader;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/base6/103.png;base6
+104;104;Rare;;Rappel;Scoop Up;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/base6/104.png;base6
+105;105;Uncommon;;A la façon du Boss;The Boss's Way;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/base6/105.png;base6
+106;106;Uncommon;;Défi!;Challenge!;Trainer;NoColor;;Kagemaru Himeno;;https://images.pokemontcg.io/base6/106.png;base6
+107;107;Uncommon;;Récupération d'Énergie;Energy Retrieval;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/base6/107.png;base6
+108;108;Common;;Léo;Bill;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/base6/108.png;base6
+109;109;Common;;Mystérieux Fossile;Mysterious Fossil;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/base6/109.png;base6
+110;110;Common;;Potion;Potion;Trainer;NoColor;;Keiji Kinebuchi;;https://images.pokemontcg.io/base6/110.png;base6

@@ -1,0 +1,125 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;fr_url;us_url;list
+1;1;Rare Holo;;Galeking;Aggron;Pokémon;Metal;306;Kouki Saitou;;https://images.pokemontcg.io/dp2/1.png;dp2
+2;2;Rare Holo;;Alakazam;Alakazam;Pokémon;Psychic;65;Kouki Saitou;;https://images.pokemontcg.io/dp2/2.png;dp2
+3;3;Rare Holo;;Capidextre;Ambipom;Pokémon;Colorless;424;Kouki Saitou;;https://images.pokemontcg.io/dp2/3.png;dp2
+4;4;Rare Holo;;Crefadet;Azelf;Pokémon;Psychic;482;Ryo Ueda;;https://images.pokemontcg.io/dp2/4.png;dp2
+5;5;Rare Holo;;Leuphorie;Blissey;Pokémon;Colorless;242;Kagemaru Himeno;;https://images.pokemontcg.io/dp2/5.png;dp2
+6;6;Rare Holo;;Archeodong;Bronzong;Pokémon;Metal;437;Daisuke Ito;;https://images.pokemontcg.io/dp2/6.png;dp2
+7;7;Rare Holo;;Celebi;Celebi;Pokémon;Grass;251;Kagemaru Himeno;;https://images.pokemontcg.io/dp2/7.png;dp2
+8;8;Rare Holo;;Aligatueur;Feraligatr;Pokémon;Water;160;Kazuyuki Kano;;https://images.pokemontcg.io/dp2/8.png;dp2
+9;9;Rare Holo;;Carchacrok;Garchomp;Pokémon;Colorless;445;Kazuyuki Kano;;https://images.pokemontcg.io/dp2/9.png;dp2
+10;10;Rare Holo;;Corboss;Honchkrow;Pokémon;Darkness;430;Kazuyuki Kano;;https://images.pokemontcg.io/dp2/10.png;dp2
+11;11;Rare Holo;;Lumineon;Lumineon;Pokémon;Water;457;Mitsuhiro Arita;;https://images.pokemontcg.io/dp2/11.png;dp2
+12;12;Rare Holo;;Maganon;Magmortar;Pokémon;Fire;467;Hiroaki Ito;;https://images.pokemontcg.io/dp2/12.png;dp2
+13;13;Rare Holo;;Méganium;Meganium;Pokémon;Grass;154;Daisuke Ito;;https://images.pokemontcg.io/dp2/13.png;dp2
+14;14;Rare Holo;;Crefollet;Mesprit;Pokémon;Psychic;481;Ryo Ueda;;https://images.pokemontcg.io/dp2/14.png;dp2
+15;15;Rare Holo;;Raichu;Raichu;Pokémon;Lightning;26;Daisuke Ito;;https://images.pokemontcg.io/dp2/15.png;dp2
+16;16;Rare Holo;;Typhlosion;Typhlosion;Pokémon;Fire;157;Kazuyuki Kano;;https://images.pokemontcg.io/dp2/16.png;dp2
+17;17;Rare Holo;;Tyranocif;Tyranitar;Pokémon;Darkness;248;Masakazu Fukuda;;https://images.pokemontcg.io/dp2/17.png;dp2
+18;18;Rare Holo;;Crehelf;Uxie;Pokémon;Psychic;480;Ryo Ueda;;https://images.pokemontcg.io/dp2/18.png;dp2
+19;19;Rare;;Blizzaroi;Abomasnow;Pokémon;Grass;460;Kazuyuki Kano;;https://images.pokemontcg.io/dp2/19.png;dp2
+20;20;Rare;;Migalos;Ariados;Pokémon;Grass;168;Midori Harada;;https://images.pokemontcg.io/dp2/20.png;dp2
+21;21;Rare;;Bastiodon;Bastiodon;Pokémon;Metal;411;Kazuyuki Kano;;https://images.pokemontcg.io/dp2/21.png;dp2
+22;22;Rare;;Eoko;Chimecho;Pokémon;Psychic;358;Daisuke Ito;;https://images.pokemontcg.io/dp2/22.png;dp2
+23;23;Rare;;Nostenfer;Crobat;Pokémon;Psychic;169;Masakazu Fukuda;;https://images.pokemontcg.io/dp2/23.png;dp2
+24;24;Rare;;Noadkoko;Exeggutor;Pokémon;Grass;103;Masakazu Fukuda;;https://images.pokemontcg.io/dp2/24.png;dp2
+25;25;Rare;;Oniglali;Glalie;Pokémon;Water;362;Mitsuhiro Arita;;https://images.pokemontcg.io/dp2/25.png;dp2
+26;26;Rare;;Léviator;Gyarados;Pokémon;Water;130;Mitsuhiro Arita;;https://images.pokemontcg.io/dp2/26.png;dp2
+27;27;Rare;;Melokrik;Kricketune;Pokémon;Grass;402;Mitsuhiro Arita;;https://images.pokemontcg.io/dp2/27.png;dp2
+28;28;Rare;;Elecsprint;Manectric;Pokémon;Lightning;310;Atsuko Nishida;;https://images.pokemontcg.io/dp2/28.png;dp2
+29;29;Rare;;Demanta;Mantine;Pokémon;Water;226;Masakazu Fukuda;;https://images.pokemontcg.io/dp2/29.png;dp2
+30;30;Rare;;M. Mime;Mr. Mime;Pokémon;Psychic;122;Kagemaru Himeno;;https://images.pokemontcg.io/dp2/30.png;dp2
+31;31;Rare;;Nidoqueen;Nidoqueen;Pokémon;Psychic;31;Kagemaru Himeno;;https://images.pokemontcg.io/dp2/31.png;dp2
+32;32;Rare;;Feunard;Ninetales;Pokémon;Fire;38;Kouki Saitou;;https://images.pokemontcg.io/dp2/32.png;dp2
+33;33;Rare;;Charkos;Rampardos;Pokémon;Fighting;409;Kazuyuki Kano;;https://images.pokemontcg.io/dp2/33.png;dp2
+34;34;Rare;;Monaflemit;Slaking;Pokémon;Colorless;289;Kouki Saitou;;https://images.pokemontcg.io/dp2/34.png;dp2
+35;35;Rare;;Simularbre;Sudowoodo;Pokémon;Fighting;185;Atsuko Nishida;;https://images.pokemontcg.io/dp2/35.png;dp2
+36;36;Rare;;Coatox;Toxicroak;Pokémon;Psychic;454;Daisuke Ito;;https://images.pokemontcg.io/dp2/36.png;dp2
+37;37;Rare;;Zarbi I;Unown I;Pokémon;Psychic;201;Daisuke Ito;;https://images.pokemontcg.io/dp2/37.png;dp2
+38;38;Rare;;Ursaring;Ursaring;Pokémon;Colorless;217;Mitsuhiro Arita;;https://images.pokemontcg.io/dp2/38.png;dp2
+39;39;Rare;;Kaimorse;Walrein;Pokémon;Water;365;Midori Harada;;https://images.pokemontcg.io/dp2/39.png;dp2
+40;40;Rare;;Barbicha;Whiscash;Pokémon;Water;340;Daisuke Ito;;https://images.pokemontcg.io/dp2/40.png;dp2
+41;41;Uncommon;;Macronium;Bayleef;Pokémon;Grass;153;Midori Harada;;https://images.pokemontcg.io/dp2/41.png;dp2
+42;42;Uncommon;;Korillon;Chingling;Pokémon;Psychic;433;Emi Yoshida;;https://images.pokemontcg.io/dp2/42.png;dp2
+43;43;Uncommon;;Kranidos;Cranidos;Pokémon;Fighting;408;Mitsuhiro Arita;;https://images.pokemontcg.io/dp2/43.png;dp2
+44;44;Uncommon;;Crocrodil;Croconaw;Pokémon;Water;159;Mitsuhiro Arita;;https://images.pokemontcg.io/dp2/44.png;dp2
+45;45;Uncommon;;Lamantine;Dewgong;Pokémon;Water;87;Masakazu Fukuda;;https://images.pokemontcg.io/dp2/45.png;dp2
+46;46;Uncommon;;Dodrio;Dodrio;Pokémon;Colorless;85;Masakazu Fukuda;;https://images.pokemontcg.io/dp2/46.png;dp2
+47;47;Uncommon;;Insolourdo;Dunsparce;Pokémon;Colorless;206;Midori Harada;;https://images.pokemontcg.io/dp2/47.png;dp2
+48;48;Uncommon;;Carmache;Gabite;Pokémon;Colorless;444;Ken Sugimori;;https://images.pokemontcg.io/dp2/48.png;dp2
+49;49;Uncommon;;Girafarig;Girafarig;Pokémon;Colorless;203;Midori Harada;;https://images.pokemontcg.io/dp2/49.png;dp2
+50;50;Uncommon;;Nosféralto;Golbat;Pokémon;Psychic;42;Kazuyuki Kano;;https://images.pokemontcg.io/dp2/50.png;dp2
+51;51;Uncommon;;Gravalanch;Graveler;Pokémon;Fighting;75;Mitsuhiro Arita;;https://images.pokemontcg.io/dp2/51.png;dp2
+52;52;Uncommon;;Ptiravi;Happiny;Pokémon;Colorless;440;Yuka Morii;;https://images.pokemontcg.io/dp2/52.png;dp2
+53;53;Uncommon;;Galegon;Lairon;Pokémon;Metal;305;Midori Harada;;https://images.pokemontcg.io/dp2/53.png;dp2
+54;54;Uncommon;;Magmar;Magmar;Pokémon;Fire;126;Mitsuhiro Arita;;https://images.pokemontcg.io/dp2/54.png;dp2
+55;55;Uncommon;;Maskadra;Masquerain;Pokémon;Grass;284;Midori Harada;;https://images.pokemontcg.io/dp2/55.png;dp2
+56;56;Uncommon;;Nidorina;Nidorina;Pokémon;Psychic;30;Atsuko Nishida;;https://images.pokemontcg.io/dp2/56.png;dp2
+57;57;Uncommon;;Octillery;Octillery;Pokémon;Water;224;Kagemaru Himeno;;https://images.pokemontcg.io/dp2/57.png;dp2
+58;58;Uncommon;;Parasect;Parasect;Pokémon;Grass;47;Masakazu Fukuda;;https://images.pokemontcg.io/dp2/58.png;dp2
+59;59;Uncommon;;Ymphect;Pupitar;Pokémon;Fighting;247;Midori Harada;;https://images.pokemontcg.io/dp2/59.png;dp2
+60;60;Uncommon;;Feurisson;Quilava;Pokémon;Fire;156;Atsuko Nishida;;https://images.pokemontcg.io/dp2/60.png;dp2
+61;61;Uncommon;;Sablaireau;Sandslash;Pokémon;Fighting;28;Atsuko Nishida;;https://images.pokemontcg.io/dp2/61.png;dp2
+62;62;Uncommon;;Phogleur;Sealeo;Pokémon;Water;364;Kouki Saitou;;https://images.pokemontcg.io/dp2/62.png;dp2
+63;63;Uncommon;;Dinoclier;Shieldon;Pokémon;Metal;410;Kouki Saitou;;https://images.pokemontcg.io/dp2/63.png;dp2
+64;64;Uncommon;;Tropius;Tropius;Pokémon;Grass;357;Kazuyuki Kano;;https://images.pokemontcg.io/dp2/64.png;dp2
+65;65;Uncommon;;Zarbi E;Unown E;Pokémon;Psychic;201;Daisuke Ito;;https://images.pokemontcg.io/dp2/65.png;dp2
+66;66;Uncommon;;Zarbi M;Unown M;Pokémon;Psychic;201;Kazuyuki Kano;;https://images.pokemontcg.io/dp2/66.png;dp2
+67;67;Uncommon;;Zarbi T;Unown T;Pokémon;Psychic;201;Kazuyuki Kano;;https://images.pokemontcg.io/dp2/67.png;dp2
+68;68;Uncommon;;Vigoroth;Vigoroth;Pokémon;Colorless;288;Masakazu Fukuda;;https://images.pokemontcg.io/dp2/68.png;dp2
+69;69;Common;;Abra;Abra;Pokémon;Psychic;63;Ken Sugimori;;https://images.pokemontcg.io/dp2/69.png;dp2
+70;70;Common;;Capumain;Aipom;Pokémon;Colorless;190;Kagemaru Himeno;;https://images.pokemontcg.io/dp2/70.png;dp2
+71;71;Common;;Galekid;Aron;Pokémon;Metal;304;Yuka Morii;;https://images.pokemontcg.io/dp2/71.png;dp2
+72;72;Common;;Barloche;Barboach;Pokémon;Water;339;Ken Sugimori;;https://images.pokemontcg.io/dp2/72.png;dp2
+73;73;Common;;Keunotor;Bidoof;Pokémon;Colorless;399;Yusuke Ohmura;;https://images.pokemontcg.io/dp2/73.png;dp2
+74;74;Common;;Archeomire;Bronzor;Pokémon;Metal;436;Ken Sugimori;;https://images.pokemontcg.io/dp2/74.png;dp2
+75;75;Common;;Mustébouée;Buizel;Pokémon;Water;418;Kenkichi Toyama;;https://images.pokemontcg.io/dp2/75.png;dp2
+76;76;Common;;Leveinard;Chansey;Pokémon;Colorless;113;Atsuko Nishida;;https://images.pokemontcg.io/dp2/76.png;dp2
+77;77;Common;;Germignon;Chikorita;Pokémon;Grass;152;Kagemaru Himeno;;https://images.pokemontcg.io/dp2/77.png;dp2
+78;78;Common;;Cradopaud;Croagunk;Pokémon;Psychic;453;Ken Sugimori;;https://images.pokemontcg.io/dp2/78.png;dp2
+79;79;Common;;Héricendre;Cyndaquil;Pokémon;Fire;155;Masakazu Fukuda;;https://images.pokemontcg.io/dp2/79.png;dp2
+80;80;Common;;Doduo;Doduo;Pokémon;Colorless;84;Ken Sugimori;;https://images.pokemontcg.io/dp2/80.png;dp2
+81;81;Common;;Dynavolt;Electrike;Pokémon;Lightning;309;Kouki Saitou;;https://images.pokemontcg.io/dp2/81.png;dp2
+82;82;Common;;Noeunoeuf;Exeggcute;Pokémon;Grass;102;Ken Sugimori;;https://images.pokemontcg.io/dp2/82.png;dp2
+83;83;Common;;Ecayon;Finneon;Pokémon;Water;456;Ken Sugimori;;https://images.pokemontcg.io/dp2/83.png;dp2
+84;84;Common;;Racaillou;Geodude;Pokémon;Fighting;74;Ken Sugimori;;https://images.pokemontcg.io/dp2/84.png;dp2
+85;85;Common;;Griknot;Gible;Pokémon;Colorless;443;Hiroki Fuchino;;https://images.pokemontcg.io/dp2/85.png;dp2
+86;86;Common;;Crikzik;Kricketot;Pokémon;Grass;401;Atsuko Nishida;;https://images.pokemontcg.io/dp2/86.png;dp2
+87;87;Common;;Embrylex;Larvitar;Pokémon;Fighting;246;Masakazu Fukuda;;https://images.pokemontcg.io/dp2/87.png;dp2
+88;88;Common;;Magby;Magby;Pokémon;Fire;240;Midori Harada;;https://images.pokemontcg.io/dp2/88.png;dp2
+89;89;Common;;Magicarpe;Magikarp;Pokémon;Water;129;Yusuke Ohmura;;https://images.pokemontcg.io/dp2/89.png;dp2
+90;90;Common;;Cornèbre;Murkrow;Pokémon;Darkness;198;Atsuko Nishida;;https://images.pokemontcg.io/dp2/90.png;dp2
+91;91;Common;;Nidoran F;Nidoran♀;Pokémon;Psychic;29;Ken Sugimori;;https://images.pokemontcg.io/dp2/91.png;dp2
+92;92;Common;;Paras;Paras;Pokémon;Grass;46;Ken Sugimori;;https://images.pokemontcg.io/dp2/92.png;dp2
+93;93;Common;;Pichu;Pichu;Pokémon;Lightning;172;Yuka Morii;;https://images.pokemontcg.io/dp2/93.png;dp2
+94;94;Common;;Pikachu;Pikachu;Pokémon;Lightning;25;Sumiyoshi Kizuki;;https://images.pokemontcg.io/dp2/94.png;dp2
+95;95;Common;;Remoraid;Remoraid;Pokémon;Water;223;Sumiyoshi Kizuki;;https://images.pokemontcg.io/dp2/95.png;dp2
+96;96;Common;;Sabelette;Sandshrew;Pokémon;Fighting;27;Ken Sugimori;;https://images.pokemontcg.io/dp2/96.png;dp2
+97;97;Common;;Otaria;Seel;Pokémon;Water;86;Ken Sugimori;;https://images.pokemontcg.io/dp2/97.png;dp2
+98;98;Common;;Lixy;Shinx;Pokémon;Lightning;403;Lee HyunJung;;https://images.pokemontcg.io/dp2/98.png;dp2
+99;99;Common;;Parecool;Slakoth;Pokémon;Colorless;287;Yuka Morii;;https://images.pokemontcg.io/dp2/99.png;dp2
+100;100;Common;;Stalgamin;Snorunt;Pokémon;Water;361;Kagemaru Himeno;;https://images.pokemontcg.io/dp2/100.png;dp2
+101;101;Common;;Blizzi;Snover;Pokémon;Grass;459;Ken Sugimori;;https://images.pokemontcg.io/dp2/101.png;dp2
+102;102;Common;;Obalie;Spheal;Pokémon;Water;363;Sumiyoshi Kizuki;;https://images.pokemontcg.io/dp2/102.png;dp2
+103;103;Common;;Mimigal;Spinarak;Pokémon;Grass;167;Kagemaru Himeno;;https://images.pokemontcg.io/dp2/103.png;dp2
+104;104;Common;;Arakdo;Surskit;Pokémon;Grass;283;Ken Sugimori;;https://images.pokemontcg.io/dp2/104.png;dp2
+105;105;Common;;Teddiursa;Teddiursa;Pokémon;Colorless;216;Yuka Morii;;https://images.pokemontcg.io/dp2/105.png;dp2
+106;106;Common;;Kaiminus;Totodile;Pokémon;Water;158;Kouki Saitou;;https://images.pokemontcg.io/dp2/106.png;dp2
+107;107;Common;;Goupix;Vulpix;Pokémon;Fire;37;Kagemaru Himeno;;https://images.pokemontcg.io/dp2/107.png;dp2
+108;108;Common;;Nosférapti;Zubat;Pokémon;Psychic;41;Ken Sugimori;;https://images.pokemontcg.io/dp2/108.png;dp2
+109;109;Uncommon;;La recherche d'Amelle;Bebe's Search;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/dp2/109.png;dp2
+110;110;Uncommon;;Sombre Ball;Dusk Ball;Trainer;NoColor;;Ryo Ueda;;https://images.pokemontcg.io/dp2/110.png;dp2
+111;111;Uncommon;;Excavateur de fossiles;Fossil Excavator;Trainer;NoColor;;Kanako Eo;;https://images.pokemontcg.io/dp2/111.png;dp2
+112;112;Uncommon;;Berge du lac;Lake Boundary;Trainer;NoColor;;Ryo Ueda;;https://images.pokemontcg.io/dp2/112.png;dp2
+113;113;Uncommon;;Maintenance nocturne;Night Maintenance;Trainer;NoColor;;Ryo Ueda;;https://images.pokemontcg.io/dp2/113.png;dp2
+114;114;Uncommon;;Rapide Ball;Quick Ball;Trainer;NoColor;;Ryo Ueda;;https://images.pokemontcg.io/dp2/114.png;dp2
+115;115;Uncommon;;La pari de l'équipe Galaxie;Team Galactic's Wager;Trainer;NoColor;;Ken Sugimori;;https://images.pokemontcg.io/dp2/115.png;dp2
+116;116;Common;;Fossile Armure;Armor Fossil;Trainer;NoColor;;Ryo Ueda;;https://images.pokemontcg.io/dp2/116.png;dp2
+117;117;Common;;Fossile Crâne;Skull Fossil;Trainer;NoColor;;Ryo Ueda;;https://images.pokemontcg.io/dp2/117.png;dp2
+118;118;Rare;;Énergies multiples;Multi Energy;Energy;NoColor;;Takumi Akabane;;https://images.pokemontcg.io/dp2/118.png;dp2
+119;119;Uncommon;;Énergie Obscurité;Darkness Energy;Energy;NoColor;;Takumi Akabane;;https://images.pokemontcg.io/dp2/119.png;dp2
+120;120;Uncommon;;Énergie Métal;Metal Energy;Energy;NoColor;;Takumi Akabane;;https://images.pokemontcg.io/dp2/120.png;dp2
+121;121;Ultra;Niv.X;Elekable Niv.X;Electivire;Pokémon;Lightning;466;Shizurow;;https://images.pokemontcg.io/dp2/121.png;dp2
+122;122;Ultra;Niv.X;Lucario Niv.X;Lucario;Pokémon;Fighting;448;Ryo Ueda;;https://images.pokemontcg.io/dp2/122.png;dp2
+123;123;Ultra;Niv.X;Maganon Niv.X;Magmortar;Pokémon;Fire;467;Shizurow;;https://images.pokemontcg.io/dp2/123.png;dp2
+124;124;Secret;;Altération espace-temps;Time-Space Distortion;Trainer;NoColor;;Shizurow;;https://images.pokemontcg.io/dp2/124.png;dp2

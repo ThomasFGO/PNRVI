@@ -1,0 +1,133 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;fr_url;us_url;list
+1;1;Rare Holo;;Pharamp;Ampharos;Pokémon;Lightning;181;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_1.png;https://images.pokemontcg.io/dp3/1.png;dp3
+2;2;Rare Holo;;Tortank;Blastoise;Pokémon;Water;9;Daisuke Ito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_2.png;https://images.pokemontcg.io/dp3/2.png;dp3
+3;3;Rare Holo;;Dracaufeu;Charizard;Pokémon;Fire;6;Daisuke Ito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_3.png;https://images.pokemontcg.io/dp3/3.png;dp3
+4;4;Rare Holo;;Entei;Entei;Pokémon;Fire;244;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_4.png;https://images.pokemontcg.io/dp3/4.png;dp3
+5;5;Rare Holo;;Libégon;Flygon;Pokémon;Fighting;330;Daisuke Ito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_5.png;https://images.pokemontcg.io/dp3/5.png;dp3
+6;6;Rare Holo;;Gallame;Gallade;Pokémon;Fighting;475;Daisuke Ito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_6.png;https://images.pokemontcg.io/dp3/6.png;dp3
+7;7;Rare Holo;;Gardevoir;Gardevoir;Pokémon;Psychic;282;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_7.png;https://images.pokemontcg.io/dp3/7.png;dp3
+8;8;Rare Holo;;Tritosor Mer Orient;Gastrodon East Sea;Pokémon;Water;423;Kazuyuki Kano;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_8.png;https://images.pokemontcg.io/dp3/8.png;dp3
+9;9;Rare Holo;;Tritosor Mer Occident;Gastrodon West Sea;Pokémon;Fighting;423;Kazuyuki Kano;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_9.png;https://images.pokemontcg.io/dp3/9.png;dp3
+10;10;Rare Holo;;Ho-Oh;Ho-Oh;Pokémon;Fire;250;Kazuyuki Kano;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_10.png;https://images.pokemontcg.io/dp3/10.png;dp3
+11;11;Rare Holo;;Cotovol;Jumpluff;Pokémon;Grass;189;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_11.png;https://images.pokemontcg.io/dp3/11.png;dp3
+12;12;Rare Holo;;Coudlangue;Lickilicky;Pokémon;Colorless;463;Kazuyuki Kano;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_12.png;https://images.pokemontcg.io/dp3/12.png;dp3
+13;13;Rare Holo;;Ludicolo;Ludicolo;Pokémon;Water;272;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_13.png;https://images.pokemontcg.io/dp3/13.png;dp3
+14;14;Rare Holo;;Lugia;Lugia;Pokémon;Colorless;249;Kazuyuki Kano;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_14.png;https://images.pokemontcg.io/dp3/14.png;dp3
+15;15;Rare Holo;;Mew;Mew;Pokémon;Psychic;151;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_15.png;https://images.pokemontcg.io/dp3/15.png;dp3
+16;16;Rare Holo;;Raikou;Raikou;Pokémon;Lightning;243;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_16.png;https://images.pokemontcg.io/dp3/16.png;dp3
+17;17;Rare Holo;;Roserade;Roserade;Pokémon;Grass;407;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_17.png;https://images.pokemontcg.io/dp3/17.png;dp3
+18;18;Rare Holo;;Drattak;Salamence;Pokémon;Colorless;373;Kazuyuki Kano;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_18.png;https://images.pokemontcg.io/dp3/18.png;dp3
+19;19;Rare Holo;;Suicune;Suicune;Pokémon;Water;245;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_19.png;https://images.pokemontcg.io/dp3/19.png;dp3
+20;20;Rare Holo;;Florizarre;Venusaur;Pokémon;Grass;3;Kazuyuki Kano;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_20.png;https://images.pokemontcg.io/dp3/20.png;dp3
+21;21;Rare;;Absol;Absol;Pokémon;Darkness;359;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_21.png;https://images.pokemontcg.io/dp3/21.png;dp3
+22;22;Rare;;Arcanin;Arcanine;Pokémon;Fire;59;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_22.png;https://images.pokemontcg.io/dp3/22.png;dp3
+23;23;Rare;;Branette;Banette;Pokémon;Psychic;354;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_23.png;https://images.pokemontcg.io/dp3/23.png;dp3
+24;24;Rare;;Triopikeur;Dugtrio;Pokémon;Fighting;51;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_24.png;https://images.pokemontcg.io/dp3/24.png;dp3
+25;25;Rare;;Elekable;Electivire;Pokémon;Lightning;466;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_25.png;https://images.pokemontcg.io/dp3/25.png;dp3
+26;26;Rare;;Électrode;Electrode;Pokémon;Lightning;101;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_26.png;https://images.pokemontcg.io/dp3/26.png;dp3
+27;27;Rare;;Fouinar;Furret;Pokémon;Colorless;162;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_27.png;https://images.pokemontcg.io/dp3/27.png;dp3
+28;28;Rare;;Akwakwak;Golduck;Pokémon;Water;55;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_28.png;https://images.pokemontcg.io/dp3/28.png;dp3
+29;29;Rare;;Grolem;Golem;Pokémon;Fighting;76;Naoyo Kimura;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_29.png;https://images.pokemontcg.io/dp3/29.png;dp3
+30;30;Rare;;Lippoutou;Jynx;Pokémon;Psychic;124;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_30.png;https://images.pokemontcg.io/dp3/30.png;dp3
+31;31;Rare;;Maganon;Magmortar;Pokémon;Fire;467;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_31.png;https://images.pokemontcg.io/dp3/31.png;dp3
+32;32;Rare;;Negapi;Minun;Pokémon;Lightning;312;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_32.png;https://images.pokemontcg.io/dp3/32.png;dp3
+33;33;Rare;;Papilord;Mothim;Pokémon;Grass;414;Kazuyuki Kano;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_33.png;https://images.pokemontcg.io/dp3/33.png;dp3
+34;34;Rare;;Nidoking;Nidoking;Pokémon;Psychic;34;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_34.png;https://images.pokemontcg.io/dp3/34.png;dp3
+35;35;Rare;;Roucarnage;Pidgeot;Pokémon;Colorless;18;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_35.png;https://images.pokemontcg.io/dp3/35.png;dp3
+36;36;Rare;;Posipi;Plusle;Pokémon;Lightning;311;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_36.png;https://images.pokemontcg.io/dp3/36.png;dp3
+37;37;Rare;;Sharpedo;Sharpedo;Pokémon;Darkness;319;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_37.png;https://images.pokemontcg.io/dp3/37.png;dp3
+38;38;Rare;;Heliatronc;Sunflora;Pokémon;Grass;192;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_38.png;https://images.pokemontcg.io/dp3/38.png;dp3
+39;39;Rare;;Zarbi S;Unown S;Pokémon;Psychic;201;Kazuyuki Kano;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_39.png;https://images.pokemontcg.io/dp3/39.png;dp3
+40;40;Rare;;Dimoret;Weavile;Pokémon;Water;461;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_40.png;https://images.pokemontcg.io/dp3/40.png;dp3
+41;41;Rare;;Cheniselle Cape Plante;Wormadam Plant Cloak;Pokémon;Grass;413;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_41.png;https://images.pokemontcg.io/dp3/41.png;dp3
+42;42;Rare;;Cheniselle Cape Sable;Wormadam Sandy Cloak;Pokémon;Fighting;413;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_42.png;https://images.pokemontcg.io/dp3/42.png;dp3
+43;43;Rare;;Cheniselle Cape Dechet;Wormadam Trash Cloak;Pokémon;Metal;413;Kazuyuki Kano;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_43.png;https://images.pokemontcg.io/dp3/43.png;dp3
+44;44;Rare;;Xatu;Xatu;Pokémon;Psychic;178;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_44.png;https://images.pokemontcg.io/dp3/44.png;dp3
+45;45;Uncommon;;Chapignon;Breloom;Pokémon;Grass;286;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_45.png;https://images.pokemontcg.io/dp3/45.png;dp3
+46;46;Uncommon;;Reptincel;Charmeleon;Pokémon;Fire;5;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_46.png;https://images.pokemontcg.io/dp3/46.png;dp3
+47;47;Uncommon;;Crustabri;Cloyster;Pokémon;Water;91;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_47.png;https://images.pokemontcg.io/dp3/47.png;dp3
+48;48;Uncommon;;Donphan;Donphan;Pokémon;Fighting;232;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_48.png;https://images.pokemontcg.io/dp3/48.png;dp3
+49;49;Uncommon;;Canarticho;Farfetch'd;Pokémon;Colorless;83;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_49.png;https://images.pokemontcg.io/dp3/49.png;dp3
+50;50;Uncommon;;Lainergie;Flaaffy;Pokémon;Lightning;180;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_50.png;https://images.pokemontcg.io/dp3/50.png;dp3
+51;51;Uncommon;;Herbizarre;Ivysaur;Pokémon;Grass;2;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_51.png;https://images.pokemontcg.io/dp3/51.png;dp3
+52;52;Uncommon;;Kecleon;Kecleon;Pokémon;Colorless;352;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_52.png;https://images.pokemontcg.io/dp3/52.png;dp3
+53;53;Uncommon;;Kirlia;Kirlia;Pokémon;Psychic;281;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_53.png;https://images.pokemontcg.io/dp3/53.png;dp3
+54;54;Uncommon;;Lombre;Lombre;Pokémon;Water;271;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_54.png;https://images.pokemontcg.io/dp3/54.png;dp3
+55;55;Uncommon;;Ecrémeuh;Miltank;Pokémon;Colorless;241;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_55.png;https://images.pokemontcg.io/dp3/55.png;dp3
+56;56;Uncommon;;Grotadmorv;Muk;Pokémon;Psychic;89;Daisuke Ito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_56.png;https://images.pokemontcg.io/dp3/56.png;dp3
+57;57;Uncommon;;Nidorino;Nidorino;Pokémon;Psychic;33;Naoyo Kimura;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_57.png;https://images.pokemontcg.io/dp3/57.png;dp3
+58;58;Uncommon;;Roucoups;Pidgeotto;Pokémon;Colorless;17;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_58.png;https://images.pokemontcg.io/dp3/58.png;dp3
+59;59;Uncommon;;Scarabrute;Pinsir;Pokémon;Grass;127;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_59.png;https://images.pokemontcg.io/dp3/59.png;dp3
+60;60;Uncommon;;Maraiste;Quagsire;Pokémon;Water;195;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_60.png;https://images.pokemontcg.io/dp3/60.png;dp3
+61;61;Uncommon;;Rattatac;Raticate;Pokémon;Colorless;20;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_61.png;https://images.pokemontcg.io/dp3/61.png;dp3
+62;62;Uncommon;;Roselia;Roselia;Pokémon;Grass;315;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_62.png;https://images.pokemontcg.io/dp3/62.png;dp3
+63;63;Uncommon;;Ténéfix;Sableye;Pokémon;Darkness;302;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_63.png;https://images.pokemontcg.io/dp3/63.png;dp3
+64;64;Uncommon;;Drackhaus;Shelgon;Pokémon;Colorless;372;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_64.png;https://images.pokemontcg.io/dp3/64.png;dp3
+65;65;Uncommon;;Floravol;Skiploom;Pokémon;Grass;188;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_65.png;https://images.pokemontcg.io/dp3/65.png;dp3
+66;66;Uncommon;;Queulorior;Smeargle;Pokémon;Colorless;235;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_66.png;https://images.pokemontcg.io/dp3/66.png;dp3
+67;67;Uncommon;;Lippouti;Smoochum;Pokémon;Psychic;238;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_67.png;https://images.pokemontcg.io/dp3/67.png;dp3
+68;68;Uncommon;;Zarbi K;Unown K;Pokémon;Psychic;201;Daisuke Ito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_68.png;https://images.pokemontcg.io/dp3/68.png;dp3
+69;69;Uncommon;;Zarbi N;Unown N;Pokémon;Psychic;201;Daisuke Ito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_69.png;https://images.pokemontcg.io/dp3/69.png;dp3
+70;70;Uncommon;;Zarbi O;Unown O;Pokémon;Psychic;201;Daisuke Ito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_70.png;https://images.pokemontcg.io/dp3/70.png;dp3
+71;71;Uncommon;;Zarbi X;Unown X;Pokémon;Psychic;201;Kazuyuki Kano;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_71.png;https://images.pokemontcg.io/dp3/71.png;dp3
+72;72;Uncommon;;Zarbi Z;Unown Z;Pokémon;Psychic;201;Kazuyuki Kano;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_72.png;https://images.pokemontcg.io/dp3/72.png;dp3
+73;73;Uncommon;;Aéromite;Venomoth;Pokémon;Grass;49;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_73.png;https://images.pokemontcg.io/dp3/73.png;dp3
+74;74;Uncommon;;Vibraninf;Vibrava;Pokémon;Fighting;329;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_74.png;https://images.pokemontcg.io/dp3/74.png;dp3
+75;75;Uncommon;;Carabaffe;Wartortle;Pokémon;Water;8;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_75.png;https://images.pokemontcg.io/dp3/75.png;dp3
+76;76;Common;;Draby;Bagon;Pokémon;Colorless;371;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_76.png;https://images.pokemontcg.io/dp3/76.png;dp3
+77;77;Common;;Bulbizarre;Bulbasaur;Pokémon;Grass;1;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_77.png;https://images.pokemontcg.io/dp3/77.png;dp3
+78;78;Common;;Cheniti Cape Plante;Burmy Plant Cloak;Pokémon;Grass;412;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_78.png;https://images.pokemontcg.io/dp3/78.png;dp3
+79;79;Common;;Cheniti Cape Sable;Burmy Sandy Cloak;Pokémon;Grass;412;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_79.png;https://images.pokemontcg.io/dp3/79.png;dp3
+80;80;Common;;Cheniti Cape Déchet;Burmy Trash Cloak;Pokémon;Grass;412;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_80.png;https://images.pokemontcg.io/dp3/80.png;dp3
+81;81;Common;;Carvanha;Carvanha;Pokémon;Darkness;318;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_81.png;https://images.pokemontcg.io/dp3/81.png;dp3
+82;82;Common;;Salamèche;Charmander;Pokémon;Fire;4;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_82.png;https://images.pokemontcg.io/dp3/82.png;dp3
+83;83;Common;;Mélofée;Clefairy;Pokémon;Colorless;35;Lee HyunJung;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_83.png;https://images.pokemontcg.io/dp3/83.png;dp3
+84;84;Common;;Corayon;Corsola;Pokémon;Water;222;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_84.png;https://images.pokemontcg.io/dp3/84.png;dp3
+85;85;Common;;Taupiqueur;Diglett;Pokémon;Fighting;50;Takao Unno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_85.png;https://images.pokemontcg.io/dp3/85.png;dp3
+86;86;Common;;Skelenox;Duskull;Pokémon;Psychic;355;Hiroki Fuchino;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_86.png;https://images.pokemontcg.io/dp3/86.png;dp3
+87;87;Common;;Elektek;Electabuzz;Pokémon;Lightning;125;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_87.png;https://images.pokemontcg.io/dp3/87.png;dp3
+88;88;Common;;Tadmorv;Grimer;Pokémon;Psychic;88;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_88.png;https://images.pokemontcg.io/dp3/88.png;dp3
+89;89;Common;;Caninos;Growlithe;Pokémon;Fire;58;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_89.png;https://images.pokemontcg.io/dp3/89.png;dp3
+90;90;Common;;Granivol;Hoppip;Pokémon;Grass;187;Motofumi Fujiwara;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_90.png;https://images.pokemontcg.io/dp3/90.png;dp3
+91;91;Common;;Excelangue;Lickitung;Pokémon;Colorless;108;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_91.png;https://images.pokemontcg.io/dp3/91.png;dp3
+92;92;Common;;Nenupiot;Lotad;Pokémon;Water;270;Saya Tsuruta;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_92.png;https://images.pokemontcg.io/dp3/92.png;dp3
+93;93;Common;;Magmar;Magmar;Pokémon;Fire;126;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_93.png;https://images.pokemontcg.io/dp3/93.png;dp3
+94;94;Common;;Wattouat;Mareep;Pokémon;Lightning;179;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_94.png;https://images.pokemontcg.io/dp3/94.png;dp3
+95;95;Common;;Cornèbre;Murkrow;Pokémon;Darkness;198;Yusuke Ohmura;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_95.png;https://images.pokemontcg.io/dp3/95.png;dp3
+96;96;Common;;Natu;Natu;Pokémon;Psychic;177;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_96.png;https://images.pokemontcg.io/dp3/96.png;dp3
+97;97;Common;;Nidoran M;Nidoran♂;Pokémon;Psychic;32;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_97.png;https://images.pokemontcg.io/dp3/97.png;dp3
+98;98;Common;;Phanpy;Phanpy;Pokémon;Fighting;231;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_98.png;https://images.pokemontcg.io/dp3/98.png;dp3
+99;99;Common;;Roucool;Pidgey;Pokémon;Colorless;16;Hironobu Yoshida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_99.png;https://images.pokemontcg.io/dp3/99.png;dp3
+100;100;Common;;Psykokwak;Psyduck;Pokémon;Water;54;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_100.png;https://images.pokemontcg.io/dp3/100.png;dp3
+101;101;Common;;Qwilfish;Qwilfish;Pokémon;Water;211;Kenkichi Toyama;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_101.png;https://images.pokemontcg.io/dp3/101.png;dp3
+102;102;Common;;Tarsal;Ralts;Pokémon;Psychic;280;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_102.png;https://images.pokemontcg.io/dp3/102.png;dp3
+103;103;Common;;Rattata;Rattata;Pokémon;Colorless;19;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_103.png;https://images.pokemontcg.io/dp3/103.png;dp3
+104;104;Common;;Fouinette;Sentret;Pokémon;Colorless;161;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_104.png;https://images.pokemontcg.io/dp3/104.png;dp3
+105;105;Common;;Kokiyas;Shellder;Pokémon;Water;90;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_105.png;https://images.pokemontcg.io/dp3/105.png;dp3
+106;106;Common;;Sancoki Mer Orient;Shellos East Sea;Pokémon;Water;422;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_106.png;https://images.pokemontcg.io/dp3/106.png;dp3
+107;107;Common;;Sancoki Mer Occident;Shellos West Sea;Pokémon;Water;422;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_107.png;https://images.pokemontcg.io/dp3/107.png;dp3
+108;108;Common;;Balignon;Shroomish;Pokémon;Grass;285;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_108.png;https://images.pokemontcg.io/dp3/108.png;dp3
+109;109;Common;;Caratroc;Shuckle;Pokémon;Grass;213;Emi Yoshida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_109.png;https://images.pokemontcg.io/dp3/109.png;dp3
+110;110;Common;;Polichombr;Shuppet;Pokémon;Psychic;353;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_110.png;https://images.pokemontcg.io/dp3/110.png;dp3
+111;111;Common;;Spinda;Spinda;Pokémon;Colorless;327;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_111.png;https://images.pokemontcg.io/dp3/111.png;dp3
+112;112;Common;;Carapuce;Squirtle;Pokémon;Water;7;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_112.png;https://images.pokemontcg.io/dp3/112.png;dp3
+113;113;Common;;Cerfrousse;Stantler;Pokémon;Colorless;234;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_113.png;https://images.pokemontcg.io/dp3/113.png;dp3
+114;114;Common;;Tournegrin;Sunkern;Pokémon;Grass;191;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_114.png;https://images.pokemontcg.io/dp3/114.png;dp3
+115;115;Common;;Kraknoix;Trapinch;Pokémon;Fighting;328;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_115.png;https://images.pokemontcg.io/dp3/115.png;dp3
+116;116;Common;;Mimitoss;Venonat;Pokémon;Grass;48;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_116.png;https://images.pokemontcg.io/dp3/116.png;dp3
+117;117;Common;;Voltorbe;Voltorb;Pokémon;Lightning;100;Satoshi Ohta;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_117.png;https://images.pokemontcg.io/dp3/117.png;dp3
+118;118;Common;;Axoloto;Wooper;Pokémon;Water;194;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_118.png;https://images.pokemontcg.io/dp3/118.png;dp3
+119;119;Uncommon;;La recherche d'Amelle;Bebe's Search;Trainer;NoColor;;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_119.png;https://images.pokemontcg.io/dp3/119.png;dp3
+120;120;Uncommon;;Maintenance nocturne;Night Maintenance;Trainer;NoColor;;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_120.png;https://images.pokemontcg.io/dp3/120.png;dp3
+121;121;Uncommon;;PlusPower;PlusPower;Trainer;NoColor;;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_121.png;https://images.pokemontcg.io/dp3/121.png;dp3
+122;122;Uncommon;;La visite du Prof. Chen;Professor Oak's Visit;Trainer;NoColor;;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_122.png;https://images.pokemontcg.io/dp3/122.png;dp3
+123;123;Uncommon;;Prof. Sorbier;Professor Rowan;Trainer;NoColor;;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_123.png;https://images.pokemontcg.io/dp3/123.png;dp3
+124;124;Uncommon;;Rival;Rival;Trainer;NoColor;;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_124.png;https://images.pokemontcg.io/dp3/124.png;dp3
+125;125;Uncommon;;La recherche de Rose;Roseanne's Research;Trainer;NoColor;;Kanako Eo;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_125.png;https://images.pokemontcg.io/dp3/125.png;dp3
+126;126;Uncommon;;Mars de la Team Galaxie;Team Galactic's Mars;Trainer;NoColor;;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_126.png;https://images.pokemontcg.io/dp3/126.png;dp3
+127;127;Common;;Potion;Potion;Trainer;NoColor;;Shin-ichi Yoshikawa;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_127.png;https://images.pokemontcg.io/dp3/127.png;dp3
+128;128;Common;;Echange;Switch;Trainer;NoColor;;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_128.png;https://images.pokemontcg.io/dp3/128.png;dp3
+129;129;Uncommon;;Énergie Obscurité;Darkness Energy;Energy;NoColor;;Takumi Akabane;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_129.png;https://images.pokemontcg.io/dp3/129.png;dp3
+130;130;Uncommon;;Énergie Métal;Metal Energy;Energy;NoColor;;Takumi Akabane;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_130.png;https://images.pokemontcg.io/dp3/130.png;dp3
+131;131;Ultra;Niv.X;Gardevoir Niv.X;Gardevoir;Pokémon;Psychic;282;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_131.png;https://images.pokemontcg.io/dp3/131.png;dp3
+132;132;Ultra;Niv.X;Corboss Niv.X;Honchkrow;Pokémon;Darkness;430;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP3/DP3_FR_132.png;https://images.pokemontcg.io/dp3/132.png;dp3
