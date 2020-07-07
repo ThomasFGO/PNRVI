@@ -62,11 +62,11 @@ require 'csv'
 # end
 # puts "There are now #{RefCard.count} rows in the RefCard table"
 
-lists = [ "neo1.csv", "neo2.csv", "neo3.csv", "neo4.csv"]
+lists = [ "pl1.csv", "pl2.csv", "pl3.csv", "pl4.csv"]
 
 #Création des cartes des séries occidentales
 lists.each do |list|
-  csv_text = File.read(Rails.root.join('lib', 'seeds', 'occi_lists', 'neo', list))
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'occi_lists', 'pl', list))
   csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
   csv.each do |row|
     rf = RefCard.new
@@ -89,7 +89,7 @@ end
 
 #Upload des séries occidentales sur Cloudinary
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'occi_lists', 'e-card', 'ecard3.csv'))
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'occi_lists', 'nb', 'bw11.csv'))
 # csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 # csv.each do |row|
 #   rank = row['rank']
@@ -97,7 +97,7 @@ end
 #   unless url.nil?
 #     Cloudinary::Uploader.upload("#{url}",
 #     :public_id => "#{rank}",
-#     :folder => "lists/visuals/E-Card/ecard3",
+#     :folder => "lists/visuals/BW/bw11",
 #     :format => "jpg")
 #   end
 # end
