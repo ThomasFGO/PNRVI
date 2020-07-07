@@ -62,11 +62,11 @@ require 'csv'
 # end
 # puts "There are now #{RefCard.count} rows in the RefCard table"
 
-lists = [ "gym1.csv", "gym2.csv" ]
+lists = [ "col1.csv", "hgss1.csv", "hgss2.csv", "hgss3.csv", "hgss4.csv", "hgssp.csv" ]
 
 #Création des cartes des séries occidentales
 lists.each do |list|
-  csv_text = File.read(Rails.root.join('lib', 'seeds', 'occi_lists', 'gym', list))
+  csv_text = File.read(Rails.root.join('lib', 'seeds', 'occi_lists', 'hgss', list))
   csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
   csv.each do |row|
     rf = RefCard.new
