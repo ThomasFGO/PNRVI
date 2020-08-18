@@ -6,6 +6,7 @@ class RefCard < ApplicationRecord
   scope :pokemon, ->{ where(super_type: "Pokémon") }
   scope :filter_by_bloc, -> (name) { joins(list: :bloc).where("blocs.fr_name ILIKE ?", "#{name}%")}
   scope :pokedex_order, -> { order(pokedex_number: :asc) }
+  scope :ranked_desc, -> { order(rank: :desc) }
   scope :first_generation, -> { pokedex_order.where(pokedex_number: (1..151).to_a) }
   scope :second_generation, -> { pokedex_order.where(pokedex_number: (152..251).to_a) }
   scope :third_generation, -> { pokedex_order.where(pokedex_number: (252..386).to_a) }
@@ -64,6 +65,17 @@ class RefCard < ApplicationRecord
     end
   end
 
+  def rarety_labels
+    {
+      "Common" => ["Commune", "common"],
+      "Uncmmon" => ["Peu Commune", "uncommon"],
+      "Rare" => ["Rare", "rare"],
+      "Rare Holo" => ["Holographique", "holo"],
+      "Ultra" => [ultra_type, "ultra"],
+      "Secret" => ["Secrète", "secret"]
+    }
+  end
+
   def energy_icon
     if super_type == "Pokémon"
       if energy == "Grass"
@@ -93,6 +105,31 @@ class RefCard < ApplicationRecord
       "trainer"
     elsif super_type == "Energy"
       "energy"
+    end
+  end
+
+  EDITION_1_BLOCS = ["Base", "Gym", "Neo"]
+
+  def version_available_label
+    ref_card_bloc = list.bloc.en_name
+    if EDITION_1_BLOCS.include? ref_card_bloc
+      if rarety_type == "Rare Holo" || rarety_type == "Secret"
+        ["Holographique", "Édition 1"]
+      else
+        ["Non Holographique", "Édition 1"]
+      end
+    elsif rarety_type == "Ultra" || rarety_type == "Secret"
+      ["Normale"]
+    elsif ref_card_bloc == "E-Card"
+      if rarety_type == "Rare Holo"
+        ["Holographique", "Reverse"]
+      else
+        ["Non Holographique", "Reverse"]
+      end
+    elsif rarety_type == "Rare Holo"
+      ["Holographique", "Non Holographique", "Reverse"]
+    else
+      ["Non Holographique", "Holographique", "Reverse"]
     end
   end
 end

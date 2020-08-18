@@ -22,12 +22,12 @@ class Card < ApplicationRecord
       ["Holographique", "Holo"]
     elsif version == "Non Holographique"
       ["Non Holographique", "Non Holo"]
-    elsif version == "Édition1/Reverse"
-      ["Édition1/Reverse", "Éd1/Reverse"]
-    elsif version == "Édition 1"
+    elsif version == "Édition1"
       ["Édition1", "Éd1"]
     elsif version == "Reverse"
       ["Reverse", "Reverse"]
+    else
+      ["Normale", "Normale"]
     end
   end
 end

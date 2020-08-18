@@ -63,7 +63,7 @@
             <% end %>
             <div class="version">
               <%= f.label(:version, "Version") %>
-              <%= f.select :version, options_for_select(["Non Holographique", "Holographique", "Édition1/Reverse"],["Non Holographique"]) %>
+              <%= f.select :version, options_for_select(@ref_card.version_available_label,@ref_card.version_available_label[0]) %>
             </div>
             <div>
               <%= f.label(:grading, "Carte gradée ?") %>
@@ -71,7 +71,7 @@
             <%= f.label(:rating, "Note PCA/PSA") %>
             <%= f.select :rating, options_for_select([
               ["aucune", nil], ["10+", 10.5], ["10", 10], ["9.5", 9.5], ["9", 9],  ["8", 8],
-              ["7", 7], ["6", 6], ["5", 5], ["4", 4], ["3", 3], ["2", 2], ["1", 1]
+              ["7", 7], ["6", 6], ["5", 5], ["4", 4], ["3", 3], ["2", 2], ["1", 1], ["A", 0]
               ], ["aucune", nil]) %>
 
             <div class="shop-submit">

@@ -79,8 +79,14 @@ class CardsController < ApplicationController
 
   def destroy
     @card = Card.find(params[:id])
-    @card.destroy
-    redirect_to shop_user_path(current_user), notice: "Votre carte est bien été retirée du magasin"
+    card_name = @card.ref_card.right_name
+    if @card.item.type == "Shop_item"
+      @card.destroy
+      redirect_to shop_user_path(current_user), notice: "Votre carte #{card_name} a bien été retirée du magasin"
+    elsif @card.item.type == "Search_item"
+      @card.destroy
+      redirect_to search_cards_path(current_user), notice: "Votre carte #{card_name} a bien été retirée de vos recherches"
+    end
   end
 
 

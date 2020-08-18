@@ -6,6 +6,7 @@ class Item < ApplicationRecord
   mount_uploader :ph_two, PhotoUploader
   validates :type, presence: true
   #scope :collection_items, -> { where(type: 'Collection_item') }
+  scope :cards, -> { where(itemable_type: 'Card') }
   scope :search, -> { where(type: 'Search_item') }
   scope :shop_items, -> { where(type: 'Shop_item') }
   scope :recent, -> { order(created_at: :desc) }
@@ -13,16 +14,6 @@ class Item < ApplicationRecord
   scope :higher_to_lower_price, -> { order(value: :desc) }
   scope :best_condition, -> { order(condition: :desc) }
   scope :worst_condition, -> { order(condition: :asc) }
-
-  def condition_label
-    {
-      1 => "Mauvais",
-      2 => "Moyen",
-      3 => "Bon",
-      4 => "Très Bon",
-      5 => "Neuf"
-    }
-  end
 
   def condition_name
     if condition == "1"
