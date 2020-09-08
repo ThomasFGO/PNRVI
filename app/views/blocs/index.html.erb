@@ -5,7 +5,7 @@
         <div class="bloc-container">
           <div class="bloc-header"><%= bloc.fr_name %></div>
           <div class="bloc-lists">
-            <% bloc.lists.order('id ASC').each do |list| %>
+            <% bloc.lists.where(promo: false).order('rank DESC').each do |list| %>
               <div class="list-card">
                 <%= link_to list_path(list) do %>
                   <%= cl_image_tag ("lists/fr_logos/#{list.code}"), class: "logo-list-mini" %>

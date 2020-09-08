@@ -14,7 +14,7 @@ class RefCard < ApplicationRecord
   scope :fifth_generation, -> { pokedex_order.where(pokedex_number: (494..649).to_a) }
   scope :sixth_generation, -> { pokedex_order.where(pokedex_number: (650..721).to_a) }
   scope :seventh_generation, -> { pokedex_order.where(pokedex_number: (722..809).to_a) }
-  scope :eighth_generation, -> { pokedex_order.where(pokedex_number: (809..890).to_a) }
+  scope :eighth_generation, -> { pokedex_order.where(pokedex_number: (810..890).to_a) }
   include PgSearch::Model
   pg_search_scope :search_by_list,
     associated_against: { list: [ :fr_name ]},

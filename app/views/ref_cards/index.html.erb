@@ -23,18 +23,17 @@
           <%= select_tag :bloc,
             options_for_select([
               ["Tous", nil],
+              ["Épée et Bouclier"],
               ["Soleil et Lune"],
               ["XY"],
               ["Noir et Blanc"],
               ["HeartGold & SoulSilver"],
               ["Platine"],
               ["Diamant et Perle"],
-              ["Ex"],
               ["E-Card"],
               ["Neo"],
               ["Gym"],
-              ["Base"],
-              ["POP"]],
+              ["Base"]],
               params[:bloc] ), class: "form-input form-select"
           %>
         </div>

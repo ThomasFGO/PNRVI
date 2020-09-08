@@ -1,0 +1,165 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;fr_url;us_url;list
+1;1;Common;;Paras;Paras;Pokémon;Grass;46;Hajime Kusajima;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_1.png;https://images.pokemontcg.io/xy8/1.png;xy8
+2;2;Rare;;Parasect;Parasect;Pokémon;Grass;47;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_2.png;https://images.pokemontcg.io/xy8/2.png;xy8
+3;3;Uncommon;;Scarabrute;Pinsir;Pokémon;Grass;127;Satoshi Shirai;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_3.png;https://images.pokemontcg.io/xy8/3.png;xy8
+4;4;Common;;Cacnéa;Cacnea;Pokémon;Grass;331;Yuka Morii;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_4.png;https://images.pokemontcg.io/xy8/4.png;xy8
+5;5;Common;;Feuillajou;Pansage;Pokémon;Grass;511;Hajime Kusajima;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_5.png;https://images.pokemontcg.io/xy8/5.png;xy8
+6;6;Rare;;Feuiloutan;Simisage;Pokémon;Grass;512;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_6.png;https://images.pokemontcg.io/xy8/6.png;xy8
+7;7;Common;;Marisson;Chespin;Pokémon;Grass;650;Megumi Mizutani;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_7.png;https://images.pokemontcg.io/xy8/7.png;xy8
+8;8;Common;;Marisson;Chespin;Pokémon;Grass;650;Megumi Mizutani;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_8.png;https://images.pokemontcg.io/xy8/8.png;xy8
+9;9;Common;;Marisson;Chespin;Pokémon;Grass;650;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_9.png;https://images.pokemontcg.io/xy8/9.png;xy8
+10;10;Uncommon;;Boguérisse;Quilladin;Pokémon;Grass;651;Miki Tanaka;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_10.png;https://images.pokemontcg.io/xy8/10.png;xy8
+11;11;Rare Holo;;Blindépique;Chesnaught;Pokémon;Grass;652;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_11.png;https://images.pokemontcg.io/xy8/11.png;xy8
+12;12;Ultra;TURBO;Blindépique TURBO;Chesnaught BREAK;Pokémon;Grass;652;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_12.png;https://images.pokemontcg.io/xy8/12.png;xy8
+13;13;Common;;Lépidonille;Scatterbug;Pokémon;Grass;664;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_13.png;https://images.pokemontcg.io/xy8/13.png;xy8
+14;14;Uncommon;;Pérégrain;Spewpa;Pokémon;Grass;665;Saya Tsuruta;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_14.png;https://images.pokemontcg.io/xy8/14.png;xy8
+15;15;Rare Holo;;Prismillon;Vivillon;Pokémon;Grass;666;Mizue;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_15.png;https://images.pokemontcg.io/xy8/15.png;xy8
+16;16;Common;;Cabriolaine;Skiddo;Pokémon;Grass;672;Kanako Eo;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_16.png;https://images.pokemontcg.io/xy8/16.png;xy8
+17;17;Uncommon;;Chevroum;Gogoat;Pokémon;Grass;673;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_17.png;https://images.pokemontcg.io/xy8/17.png;xy8
+18;18;Common;;Héricendre;Cyndaquil;Pokémon;Fire;155;Tomokazu Komiya;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_18.png;https://images.pokemontcg.io/xy8/18.png;xy8
+19;19;Uncommon;;Feurisson;Quilava;Pokémon;Fire;156;Shin Nagasawa;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_19.png;https://images.pokemontcg.io/xy8/19.png;xy8
+20;20;Rare Holo;;Typhlosion;Typhlosion;Pokémon;Fire;157;Megumi Mizutani;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_20.png;https://images.pokemontcg.io/xy8/20.png;xy8
+21;21;Ultra;EX;Démolosse-EX;Houndoom-EX;Pokémon;Fire;229;Eske Yoshinob;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_21.png;https://images.pokemontcg.io/xy8/21.png;xy8
+22;22;Ultra;M EX;Méga Démolosse-EX;M Houndoom-EX;Pokémon;Fire;229;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_22.png;https://images.pokemontcg.io/xy8/22.png;xy8
+23;23;Common;;Flamajou;Pansear;Pokémon;Fire;513;sui;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_23.png;https://images.pokemontcg.io/xy8/23.png;xy8
+24;24;Rare;;Flamoutan;Simisear;Pokémon;Fire;514;Ayaka Yoshida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_24.png;https://images.pokemontcg.io/xy8/24.png;xy8
+25;25;Common;;Feunnec;Fennekin;Pokémon;Fire;653;Kanako Eo;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_25.png;https://images.pokemontcg.io/xy8/25.png;xy8
+26;26;Uncommon;;Roussil;Braixen;Pokémon;Fire;654;kawayoo;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_26.png;https://images.pokemontcg.io/xy8/26.png;xy8
+27;27;Common;;Poissirène;Goldeen;Pokémon;Water;118;MAHOU;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_27.png;https://images.pokemontcg.io/xy8/27.png;xy8
+28;28;Uncommon;;Poissoroy;Seaking;Pokémon;Water;119;Kyoko Umemoto;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_28.png;https://images.pokemontcg.io/xy8/28.png;xy8
+29;29;Common;;Stari;Staryu;Pokémon;Water;120;Shigenori Negishi;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_29.png;https://images.pokemontcg.io/xy8/29.png;xy8
+30;30;Uncommon;;Staross;Starmie;Pokémon;Water;121;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_30.png;https://images.pokemontcg.io/xy8/30.png;xy8
+31;31;Common;;Remoraid;Remoraid;Pokémon;Water;223;Suwama Chiaki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_31.png;https://images.pokemontcg.io/xy8/31.png;xy8
+32;32;Common;;Remoraid;Remoraid;Pokémon;Water;223;Suwama Chiaki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_32.png;https://images.pokemontcg.io/xy8/32.png;xy8
+33;33;Rare Holo;;Octillery;Octillery;Pokémon;Water;224;Kyoko Umemoto;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_33.png;https://images.pokemontcg.io/xy8/33.png;xy8
+34;34;Ultra;EX;Oniglali-EX;Glalie-EX;Pokémon;Water;362;Eske Yoshinob;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_34.png;https://images.pokemontcg.io/xy8/34.png;xy8
+35;35;Ultra;M EX;Méga Oniglali-EX;M Glalie-EX;Pokémon;Water;362;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_35.png;https://images.pokemontcg.io/xy8/35.png;xy8
+36;36;Common;;Tiplouf;Piplup;Pokémon;Water;393;Kanako Eo;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_36.png;https://images.pokemontcg.io/xy8/36.png;xy8
+37;37;Uncommon;;Prinplouf;Prinplup;Pokémon;Water;394;kirisAki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_37.png;https://images.pokemontcg.io/xy8/37.png;xy8
+38;38;Rare Holo;;Pingoléon;Empoleon;Pokémon;Water;395;Satoshi Shirai;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_38.png;https://images.pokemontcg.io/xy8/38.png;xy8
+39;39;Common;;Blizzi;Snover;Pokémon;Water;459;Yukiko Baba;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_39.png;https://images.pokemontcg.io/xy8/39.png;xy8
+40;40;Rare;;Blizzaroi;Abomasnow;Pokémon;Water;460;Naoyo Kimura;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_40.png;https://images.pokemontcg.io/xy8/40.png;xy8
+41;41;Common;;Flotajou;Panpour;Pokémon;Water;515;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_41.png;https://images.pokemontcg.io/xy8/41.png;xy8
+42;42;Rare;;Flotoutan;Simipour;Pokémon;Water;516;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_42.png;https://images.pokemontcg.io/xy8/42.png;xy8
+43;43;Common;;Sorbébé;Vanillite;Pokémon;Water;582;MAHOU;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_43.png;https://images.pokemontcg.io/xy8/43.png;xy8
+44;44;Uncommon;;Sorboul;Vanillish;Pokémon;Water;583;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_44.png;https://images.pokemontcg.io/xy8/44.png;xy8
+45;45;Rare;;Sorbouboul;Vanilluxe;Pokémon;Water;584;Ayaka Yoshida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_45.png;https://images.pokemontcg.io/xy8/45.png;xy8
+46;46;Common;;Grenousse;Froakie;Pokémon;Water;656;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_46.png;https://images.pokemontcg.io/xy8/46.png;xy8
+47;47;Uncommon;;Croâporal;Frogadier;Pokémon;Water;657;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_47.png;https://images.pokemontcg.io/xy8/47.png;xy8
+48;48;Common;;Pikachu;Pikachu;Pokémon;Lightning;25;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_48.png;https://images.pokemontcg.io/xy8/48.png;xy8
+49;49;Rare;;Raichu;Raichu;Pokémon;Lightning;26;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_49.png;https://images.pokemontcg.io/xy8/49.png;xy8
+50;50;Ultra;TURBO;Raichu TURBO;Raichu BREAK;Pokémon;Lightning;26;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_50.png;https://images.pokemontcg.io/xy8/50.png;xy8
+51;51;Common;;Magneti;Magnemite;Pokémon;Lightning;81;Akira Komayama;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_51.png;https://images.pokemontcg.io/xy8/51.png;xy8
+52;52;Common;;Magneti;Magnemite;Pokémon;Lightning;81;Akira Komayama;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_52.png;https://images.pokemontcg.io/xy8/52.png;xy8
+53;53;Uncommon;;Magneton;Magneton;Pokémon;Lightning;82;Tomokazu Komiya;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_53.png;https://images.pokemontcg.io/xy8/53.png;xy8
+54;54;Rare Holo;;Magnézone;Magnezone;Pokémon;Lightning;462;Hajime Kusajima;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_54.png;https://images.pokemontcg.io/xy8/54.png;xy8
+55;55;Rare Holo;;Raikou;Raikou;Pokémon;Lightning;243;Shin Nagasawa;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_55.png;https://images.pokemontcg.io/xy8/55.png;xy8
+56;56;Uncommon;;Limonde;Stunfisk;Pokémon;Lightning;618;Naoki Saito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_56.png;https://images.pokemontcg.io/xy8/56.png;xy8
+57;57;Uncommon;;Dedenne;Dedenne;Pokémon;Lightning;702;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_57.png;https://images.pokemontcg.io/xy8/57.png;xy8
+58;58;Common;;Fantominus;Gastly;Pokémon;Psychic;92;Shigenori Negishi;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_58.png;https://images.pokemontcg.io/xy8/58.png;xy8
+59;59;Uncommon;;Spectrum;Haunter;Pokémon;Psychic;93;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_59.png;https://images.pokemontcg.io/xy8/59.png;xy8
+60;60;Rare Holo;;Ectoplasma;Gengar;Pokémon;Psychic;94;Saya Tsuruta;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_60.png;https://images.pokemontcg.io/xy8/60.png;xy8
+61;61;Ultra;EX;Mewtwo-EX;Mewtwo-EX;Pokémon;Psychic;150;PLANETA;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_61.png;https://images.pokemontcg.io/xy8/61.png;xy8
+62;62;Ultra;EX;Mewtwo-EX;Mewtwo-EX;Pokémon;Psychic;150;PLANETA;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_62.png;https://images.pokemontcg.io/xy8/62.png;xy8
+63;63;Ultra;M EX;Méga Mewtwo-EX;M Mewtwo-EX;Pokémon;Psychic;150;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_63.png;https://images.pokemontcg.io/xy8/63.png;xy8
+64;64;Ultra;M EX;Méga Mewtwo-EX;M Mewtwo-EX;Pokémon;Psychic;150;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_64.png;https://images.pokemontcg.io/xy8/64.png;xy8
+65;65;Common;;Feuforeve;Misdreavus;Pokémon;Psychic;200;sui;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_65.png;https://images.pokemontcg.io/xy8/65.png;xy8
+66;66;Rare Holo;;Magirêve;Mismagius;Pokémon;Psychic;429;Ayaka Yoshida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_66.png;https://images.pokemontcg.io/xy8/66.png;xy8
+67;67;Uncommon;;Qulbutoke;Wobbuffet;Pokémon;Psychic;202;Akira Komayama;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_67.png;https://images.pokemontcg.io/xy8/67.png;xy8
+68;68;Common;;Tarsal;Ralts;Pokémon;Psychic;280;MAHOU;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_68.png;https://images.pokemontcg.io/xy8/68.png;xy8
+69;69;Uncommon;;Kirlia;Kirlia;Pokémon;Psychic;281;Sanosuke Sakuma;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_69.png;https://images.pokemontcg.io/xy8/69.png;xy8
+70;70;Rare;;Cresselia;Cresselia;Pokémon;Psychic;488;kawayoo;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_70.png;https://images.pokemontcg.io/xy8/70.png;xy8
+71;71;Common;;Chovsourir;Woobat;Pokémon;Psychic;527;match;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_71.png;https://images.pokemontcg.io/xy8/71.png;xy8
+72;72;Uncommon;;Rhinolove;Swoobat;Pokémon;Psychic;528;sui;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_72.png;https://images.pokemontcg.io/xy8/72.png;xy8
+73;73;Common;;Lewsor;Elgyem;Pokémon;Psychic;605;Aya Kusube;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_73.png;https://images.pokemontcg.io/xy8/73.png;xy8
+74;74;Uncommon;;Neitram;Beheeyem;Pokémon;Psychic;606;Tomokazu Komiya;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_74.png;https://images.pokemontcg.io/xy8/74.png;xy8
+75;75;Common;;Sabelette;Sandshrew;Pokémon;Fighting;27;Shigenori Negishi;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_75.png;https://images.pokemontcg.io/xy8/75.png;xy8
+76;76;Uncommon;;Sablaireau;Sandslash;Pokémon;Fighting;28;Naoki Saito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_76.png;https://images.pokemontcg.io/xy8/76.png;xy8
+77;77;Common;;Osselait;Cubone;Pokémon;Fighting;104;Sumiyoshi Kizuki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_77.png;https://images.pokemontcg.io/xy8/77.png;xy8
+78;78;Rare;;Ossatueur;Marowak;Pokémon;Fighting;105;match;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_78.png;https://images.pokemontcg.io/xy8/78.png;xy8
+79;79;Ultra;TURBO;Ossatueur TURBO;Marowak BREAK;Pokémon;Fighting;105;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_79.png;https://images.pokemontcg.io/xy8/79.png;xy8
+80;80;Common;;Marcacrin;Swinub;Pokémon;Fighting;220;Atsuko Nishida;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_80.png;https://images.pokemontcg.io/xy8/80.png;xy8
+81;81;Uncommon;;Cochignon;Piloswine;Pokémon;Fighting;221;MAHOU;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_81.png;https://images.pokemontcg.io/xy8/81.png;xy8
+82;82;Rare Holo;;Mammochon;Mamoswine;Pokémon;Fighting;473;Masakazu Fukuda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_82.png;https://images.pokemontcg.io/xy8/82.png;xy8
+83;83;Common;;Hippopotas;Hippopotas;Pokémon;Fighting;449;Akira Komayama;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_83.png;https://images.pokemontcg.io/xy8/83.png;xy8
+84;84;Rare Holo;;Gallame;Gallade;Pokémon;Fighting;475;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_84.png;https://images.pokemontcg.io/xy8/84.png;xy8
+85;85;Rare Holo;;Meloetta;Meloetta;Pokémon;Fighting;648;kirisAki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_85.png;https://images.pokemontcg.io/xy8/85.png;xy8
+86;86;Common;;Pandespiègle;Pancham;Pokémon;Fighting;674;Mizue;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_86.png;https://images.pokemontcg.io/xy8/86.png;xy8
+87;87;Rare;;Brutalibré;Hawlucha;Pokémon;Fighting;701;match;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_87.png;https://images.pokemontcg.io/xy8/87.png;xy8
+88;88;Uncommon;;Cacturne;Cacturne;Pokémon;Darkness;332;match;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_88.png;https://images.pokemontcg.io/xy8/88.png;xy8
+89;89;Common;;Zorua;Zorua;Pokémon;Darkness;570;Hitoshi Ariga;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_89.png;https://images.pokemontcg.io/xy8/89.png;xy8
+90;90;Common;;Zorua;Zorua;Pokémon;Darkness;570;Hitoshi Ariga;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_90.png;https://images.pokemontcg.io/xy8/90.png;xy8
+91;91;Rare Holo;;Zoroark;Zoroark;Pokémon;Darkness;571;kawayoo;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_91.png;https://images.pokemontcg.io/xy8/91.png;xy8
+92;92;Ultra;TURBO;Zoroark TURBO;Zoroark BREAK;Pokémon;Darkness;571;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_92.png;https://images.pokemontcg.io/xy8/92.png;xy8
+93;93;Common;;Sepiatop;Inkay;Pokémon;Darkness;686;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_93.png;https://images.pokemontcg.io/xy8/93.png;xy8
+94;94;Rare Holo;;Yveltal;Yveltal;Pokémon;Darkness;717;TOKIYA;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_94.png;https://images.pokemontcg.io/xy8/94.png;xy8
+95;95;Common;;Archeomire;Bronzor;Pokémon;Metal;436;Shigenori Negishi;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_95.png;https://images.pokemontcg.io/xy8/95.png;xy8
+96;96;Rare;;Archeodong;Bronzong;Pokémon;Metal;437;Tomokazu Komiya;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_96.png;https://images.pokemontcg.io/xy8/96.png;xy8
+97;97;Rare;;M. Mime;Mr. Mime;Pokémon;Fairy;122;kirisAki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_97.png;https://images.pokemontcg.io/xy8/97.png;xy8
+98;98;Common;;Snubull;Snubbull;Pokémon;Fairy;209;Yuka Morii;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_98.png;https://images.pokemontcg.io/xy8/98.png;xy8
+99;99;Uncommon;;Granbull;Granbull;Pokémon;Fairy;210;Naoki Saito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_99.png;https://images.pokemontcg.io/xy8/99.png;xy8
+100;100;Common;;Tarsal;Ralts;Pokémon;Fairy;280;Aya Kusube;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_100.png;https://images.pokemontcg.io/xy8/100.png;xy8
+101;101;Common;;Flabébé;Flabébé;Pokémon;Fairy;669;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_101.png;https://images.pokemontcg.io/xy8/101.png;xy8
+102;102;Uncommon;;Floette;Floette;Pokémon;Fairy;670;Midori Harada;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_102.png;https://images.pokemontcg.io/xy8/102.png;xy8
+103;103;Rare;;Florges;Florges;Pokémon;Fairy;671;Hajime Kusajima;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_103.png;https://images.pokemontcg.io/xy8/103.png;xy8
+104;104;Ultra;TURBO;Florges TURBO;Florges BREAK;Pokémon;Fairy;671;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_104.png;https://images.pokemontcg.io/xy8/104.png;xy8
+105;105;Common;;Fluvetin;Spritzee;Pokémon;Fairy;682;Naoyo Kimura;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_105.png;https://images.pokemontcg.io/xy8/105.png;xy8
+106;106;Rare;;Cocotine;Aromatisse;Pokémon;Fairy;683;Mizue;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_106.png;https://images.pokemontcg.io/xy8/106.png;xy8
+107;107;Rare Holo;;Xerneas;Xerneas;Pokémon;Fairy;716;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_107.png;https://images.pokemontcg.io/xy8/107.png;xy8
+108;108;Common;;Coupenotte;Axew;Pokémon;Dragon;610;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_108.png;https://images.pokemontcg.io/xy8/108.png;xy8
+109;109;Common;;Coupenotte;Axew;Pokémon;Dragon;610;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_109.png;https://images.pokemontcg.io/xy8/109.png;xy8
+110;110;Uncommon;;Incisache;Fraxure;Pokémon;Dragon;611;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_110.png;https://images.pokemontcg.io/xy8/110.png;xy8
+111;111;Rare Holo;;Tranchodon;Haxorus;Pokémon;Dragon;612;hatachu;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_111.png;https://images.pokemontcg.io/xy8/111.png;xy8
+112;112;Rare;;Bruyverne;Noivern;Pokémon;Dragon;715;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_112.png;https://images.pokemontcg.io/xy8/112.png;xy8
+113;113;Ultra;TURBO;Bruyverne TURBO;Noivern BREAK;Pokémon;Dragon;715;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_113.png;https://images.pokemontcg.io/xy8/113.png;xy8
+114;114;Common;;Miaouss;Meowth;Pokémon;Colorless;52;kirisAki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_114.png;https://images.pokemontcg.io/xy8/114.png;xy8
+115;115;Common;;Doduo;Doduo;Pokémon;Colorless;84;Naoki Saito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_115.png;https://images.pokemontcg.io/xy8/115.png;xy8
+116;116;Common;;Doduo;Doduo;Pokémon;Colorless;84;Naoki Saito;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_116.png;https://images.pokemontcg.io/xy8/116.png;xy8
+117;117;Rare;;Dodrio;Dodrio;Pokémon;Colorless;85;TOKIYA;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_117.png;https://images.pokemontcg.io/xy8/117.png;xy8
+118;118;Uncommon;;Ronflex;Snorlax;Pokémon;Colorless;143;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_118.png;https://images.pokemontcg.io/xy8/118.png;xy8
+119;119;Common;;Hoothoot;Hoothoot;Pokémon;Colorless;163;Miki Tanaka;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_119.png;https://images.pokemontcg.io/xy8/119.png;xy8
+120;120;Rare;;Noarfang;Noctowl;Pokémon;Colorless;164;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_120.png;https://images.pokemontcg.io/xy8/120.png;xy8
+121;121;Common;;Teddiursa;Teddiursa;Pokémon;Colorless;216;sui;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_121.png;https://images.pokemontcg.io/xy8/121.png;xy8
+122;122;Uncommon;;Ursaring;Ursaring;Pokémon;Colorless;217;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_122.png;https://images.pokemontcg.io/xy8/122.png;xy8
+123;123;Rare;;Queulorior;Smeargle;Pokémon;Colorless;235;Yukiko Baba;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_123.png;https://images.pokemontcg.io/xy8/123.png;xy8
+124;124;Common;;Tylton;Swablu;Pokémon;Colorless;333;Mizue;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_124.png;https://images.pokemontcg.io/xy8/124.png;xy8
+125;125;Common;;Etourmi;Starly;Pokémon;Colorless;396;Kyoko Umemoto;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_125.png;https://images.pokemontcg.io/xy8/125.png;xy8
+126;126;Uncommon;;Etourvol;Staravia;Pokémon;Colorless;397;Suwama Chiaki;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_126.png;https://images.pokemontcg.io/xy8/126.png;xy8
+127;127;Rare;;Etouraptor;Staraptor;Pokémon;Colorless;398;Kouki Saitou;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_127.png;https://images.pokemontcg.io/xy8/127.png;xy8
+128;128;Rare;;Pijako;Chatot;Pokémon;Colorless;441;Akira Komayama;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_128.png;https://images.pokemontcg.io/xy8/128.png;xy8
+129;129;Common;;Furaiglon;Rufflet;Pokémon;Colorless;627;Tomokazu Komiya;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_129.png;https://images.pokemontcg.io/xy8/129.png;xy8
+130;130;Rare;;Gueriaigle;Braviary;Pokémon;Colorless;628;match;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_130.png;https://images.pokemontcg.io/xy8/130.png;xy8
+131;131;Common;;Sonistrelle;Noibat;Pokémon;Colorless;714;sui;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_131.png;https://images.pokemontcg.io/xy8/131.png;xy8
+132;132;Common;;Sonistrelle;Noibat;Pokémon;Colorless;714;Kagemaru Himeno;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_132.png;https://images.pokemontcg.io/xy8/132.png;xy8
+133;133;Uncommon;;Veste de Combat;Assault Vest;Trainer;NoColor;;Toyste Beach;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_133.png;https://images.pokemontcg.io/xy8/133.png;xy8
+134;134;Uncommon;;Juliette;Brigette;Trainer;NoColor;;Megumi Mizutani;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_134.png;https://images.pokemontcg.io/xy8/134.png;xy8
+135;135;Uncommon;;Rescousse Copain-Copain;Buddy-Buddy Rescue;Trainer;NoColor;;Toyste Beach;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_135.png;https://images.pokemontcg.io/xy8/135.png;xy8
+136;136;Uncommon;;Pêcheur;Fisherman;Trainer;NoColor;;Hitoshi Ariga;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_136.png;https://images.pokemontcg.io/xy8/136.png;xy8
+137;137;Uncommon;;Pierrallégée;Float Stone;Trainer;NoColor;;Toyste Beach;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_137.png;https://images.pokemontcg.io/xy8/137.png;xy8
+138;138;Uncommon;;Combine de Giovanni;Giovanni's Scheme;Trainer;NoColor;;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_138.png;https://images.pokemontcg.io/xy8/138.png;xy8
+139;139;Uncommon;;Lien Spirituel Oniglali;Glalie Spirit Link;Trainer;NoColor;;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_139.png;https://images.pokemontcg.io/xy8/139.png;xy8
+140;140;Uncommon;;Masse Ball;Heavy Ball;Trainer;NoColor;;Toyste Beach;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_140.png;https://images.pokemontcg.io/xy8/140.png;xy8
+141;141;Uncommon;;Bottes Lourdes;Heavy Boots;Trainer;NoColor;;Toyste Beach;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_141.png;https://images.pokemontcg.io/xy8/141.png;xy8
+142;142;Uncommon;;Lien Spirituel Démolosse;Houndoom Spirit Link;Trainer;NoColor;;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_142.png;https://images.pokemontcg.io/xy8/142.png;xy8
+143;143;Uncommon;;Juge;Judge;Trainer;NoColor;;Megumi Mizutani;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_143.png;https://images.pokemontcg.io/xy8/143.png;xy8
+144;144;Uncommon;;Lien Spirituel Mewtwo;Mewtwo Spirit Link;Trainer;NoColor;;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_144.png;https://images.pokemontcg.io/xy8/144.png;xy8
+145;145;Uncommon;;Cité Parallèle;Parallel City;Trainer;NoColor;;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_145.png;https://images.pokemontcg.io/xy8/145.png;xy8
+146;146;Uncommon;;Lettre du Professeur;Professor's Letter;Trainer;NoColor;;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_146.png;https://images.pokemontcg.io/xy8/146.png;xy8
+147;147;Uncommon;;Billet Réservé;Reserved Ticket;Trainer;NoColor;;Toyste Beach;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_147.png;https://images.pokemontcg.io/xy8/147.png;xy8
+148;148;Uncommon;;Carolina;Skyla;Trainer;NoColor;;Yusuke Ohmura;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_148.png;https://images.pokemontcg.io/xy8/148.png;xy8
+149;149;Uncommon;;Méga Canne;Super Rod;Trainer;NoColor;;Toyste Beach;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_149.png;https://images.pokemontcg.io/xy8/149.png;xy8
+150;150;Uncommon;;Carte;Town Map;Trainer;NoColor;;Toyste Beach;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_150.png;https://images.pokemontcg.io/xy8/150.png;xy8
+151;151;Uncommon;;Énergie Combustion;Burning Energy;Energy;NoColor;;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_151.png;https://images.pokemontcg.io/xy8/151.png;xy8
+152;152;Uncommon;;Énergie Multicolore;Rainbow Energy;Energy;NoColor;;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_152.png;https://images.pokemontcg.io/xy8/152.png;xy8
+153;153;Ultra;EX FA;Démolosse-EX;Houndoom-EX;Pokémon;Fire;229;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_153.png;https://images.pokemontcg.io/xy8/153.png;xy8
+154;154;Ultra;M EX FA;Méga Démolosse-EX;M Houndoom-EX;Pokémon;Fire;229;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_154.png;https://images.pokemontcg.io/xy8/154.png;xy8
+155;155;Ultra;EX FA;Oniglali-EX;Glalie-EX;Pokémon;Water;362;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_155.png;https://images.pokemontcg.io/xy8/155.png;xy8
+156;156;Ultra;M EX FA;Méga Oniglali-EX;M Glalie-EX;Pokémon;Water;362;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_156.png;https://images.pokemontcg.io/xy8/156.png;xy8
+157;157;Ultra;EX FA;Mewtwo-EX;Mewtwo-EX;Pokémon;Psychic;150;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_157.png;https://images.pokemontcg.io/xy8/157.png;xy8
+158;158;Ultra;EX FA;Mewtwo-EX;Mewtwo-EX;Pokémon;Psychic;150;Ryo Ueda;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_158.png;https://images.pokemontcg.io/xy8/158.png;xy8
+159;159;Ultra;M EX FA;Méga Mewtwo-EX;M Mewtwo-EX;Pokémon;Psychic;150;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_159.png;https://images.pokemontcg.io/xy8/159.png;xy8
+160;160;Ultra;M EX FA;Méga Mewtwo-EX;M Mewtwo-EX;Pokémon;Psychic;150;5ban Graphics;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_160.png;https://images.pokemontcg.io/xy8/160.png;xy8
+161;161;Ultra;FA;Juliette;Brigette;Trainer;NoColor;;Megumi Mizutani;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_161.png;https://images.pokemontcg.io/xy8/161.png;xy8
+162;162;Ultra;FA;Combine de Giovanni;Giovanni's Scheme;Trainer;NoColor;;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_162.png;https://images.pokemontcg.io/xy8/162.png;xy8
+163;163;Secret;EX FA;Mewtwo-EX;Mewtwo-EX;Pokémon;Psychic;150;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_163.png;https://images.pokemontcg.io/xy8/163.png;xy8
+164;164;Secret;EX FA;Mewtwo-EX;Mewtwo-EX;Pokémon;Psychic;150;Mitsuhiro Arita;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/XY8/XY8_FR_164.png;https://images.pokemontcg.io/xy8/164.png;xy8
