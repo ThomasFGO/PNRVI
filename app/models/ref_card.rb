@@ -4,7 +4,7 @@ class RefCard < ApplicationRecord
   scope :jap, ->{ joins(:list).merge(List.jap) }
   scope :occi, ->{ joins(:list).merge(List.occi) }
   scope :pokemon, ->{ where(super_type: "Pokémon") }
-  scope :filter_by_bloc, -> (name) { joins(list: :bloc).where("blocs.fr_name ILIKE ?", "#{name}%")}
+  scope :filter_by_bloc, -> (fr_name) { joins(list: :bloc).where("blocs.fr_name ILIKE ?", "#{fr_name}%")}
   scope :pokedex_order, -> { order(pokedex_number: :asc) }
   scope :ranked_desc, -> { order(rank: :desc) }
   scope :first_generation, -> { pokedex_order.where(pokedex_number: (1..151).to_a) }
