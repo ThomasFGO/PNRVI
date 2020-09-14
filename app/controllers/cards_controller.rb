@@ -3,14 +3,14 @@ class CardsController < ApplicationController
 
   def index
     search_cards = Card.joins(:item, :ref_card).search.where(items: {user: current_user})
-    @search_cards_infos = search_cards.pluck("ref_cards.id, items.value, version, language, condition")
+    search_cards_infos = search_cards.pluck("ref_cards.id, items.value, version, language, condition")
     @match_cards =
       Card.shop
         .joins(:item)
         .where.not("items.user": current_user)
         .joins(:ref_card)
         .select do |shop_card|
-          @search_cards_infos.find do |infos|
+          search_cards_infos.find do |infos|
             infos[0] == shop_card.ref_card_id &&
             infos[1] >= shop_card.item.value &&
             infos[2] == shop_card.version &&
@@ -27,14 +27,15 @@ class CardsController < ApplicationController
         Card.joins(:item).shop.where.not(items: {user: current_user})
       end
 
-    @shop_cards =
-      if params[:scope].present? && params[:name].present?
-        shop_cards.joins(:ref_card).public_send(params[:scope]).search_by_name(params[:name])
-      elsif params[:scope].present?
-        shop_cards.joins(:ref_card).public_send(params[:scope])
-      else
-        shop_cards.recent
-      end
+    @shop_cards = shop_cards.recent
+
+    scopes_params(params).each do |key, value|
+      @shop_cards = shop_cards.public_send(value) if value.present?
+    end
+
+    filters_params(params).each do |key, value|
+      @shop_cards = @shop_cards.public_send("filter_by_#{key}", value) if value.present?
+    end
 
     @shop_cards_count = @shop_cards.count
     @pagy, @shop_cards = pagy(@shop_cards, size: [1,0,0,1])
@@ -91,6 +92,14 @@ class CardsController < ApplicationController
 
 
   private
+
+  def filters_params(params)
+    params.slice(:name)
+  end
+
+  def scopes_params(params)
+    params.slice(:sort)
+  end
 
   def card_params
     params.require(:card).permit(:version, :grading, :rating, item_attributes: [:type, :condition, :language, :value, :ph_one, :ph_two])

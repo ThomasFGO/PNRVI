@@ -4,14 +4,14 @@
       <div class="first-part">
         <div class="input-content">
           <div class="form-label">Voir les cartes</div>
-          <%= select_tag :scope,
+          <%= select_tag :sort,
             options_for_select([
               ["les plus récentes", "recent"],
               ["les moins chères", "lower_to_higher_price"],
               ["les plus chères", "higher_to_lower_price"],
               ["en meilleur état", "best_condition"],
               ["en moins bon état", "worst_condition"]],
-              params[:scope] ), class: "form-input form-select"
+              params[:sort] ), class: "form-input form-select"
           %>
         </div>
         <div class="input-content">

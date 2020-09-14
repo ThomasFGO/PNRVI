@@ -6,6 +6,7 @@ class RefCard < ApplicationRecord
   scope :pokemon, ->{ where(super_type: "Pokémon") }
   scope :filter_by_bloc, -> (fr_name) { joins(list: :bloc).where("blocs.fr_name ILIKE ?", "#{fr_name}%")}
   scope :pokedex_order, -> { order(pokedex_number: :asc) }
+  scope :ranked, -> { order(rank: :asc) }
   scope :ranked_desc, -> { order(rank: :desc) }
   scope :first_generation, -> { pokedex_order.where(pokedex_number: (1..151).to_a) }
   scope :second_generation, -> { pokedex_order.where(pokedex_number: (152..251).to_a) }
@@ -16,7 +17,7 @@ class RefCard < ApplicationRecord
   scope :seventh_generation, -> { pokedex_order.where(pokedex_number: (722..809).to_a) }
   scope :eighth_generation, -> { pokedex_order.where(pokedex_number: (810..890).to_a) }
   include PgSearch::Model
-  pg_search_scope :search_by_list,
+  pg_search_scope :filter_by_list,
     associated_against: { list: [ :fr_name ]},
     using: { tsearch: { prefix: true }}
   pg_search_scope :filter_by_artist,
