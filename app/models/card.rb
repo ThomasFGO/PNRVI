@@ -10,7 +10,7 @@ class Card < ApplicationRecord
   scope :best_condition, ->{ joins(:item).merge(Item.best_condition) }
   scope :worst_condition, ->{ joins(:item).merge(Item.worst_condition) }
   scope :ranked, ->{ joins(:ref_card).merge(RefCard.ranked) }
-  scope :filter_by_list, -> (fr_name) { joins(ref_card: :list).where("lists.fr_name ILIKE ?", "#{fr_name}%").ranked}
+  scope :filter_by_list, -> (fr_name) { joins(ref_card: :list).where("lists.fr_name ILIKE ?", "#{fr_name}%")}
   include PgSearch::Model
   pg_search_scope :filter_by_name,
     associated_against: { ref_card: [ :fr_name ]},

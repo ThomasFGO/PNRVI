@@ -13,30 +13,30 @@
               params[:list] ), class: "form-input form-select"
           %>
         </div>
-        <div class="input-content">
+        <!-- <div class="input-content">
           <div class="form-label">Version</div>
-          <%= select_tag :version,
+          <%#= select_tag :version,
             options_for_select(
               @versions_available,
               params[:version] ), class: "form-input form-select"
           %>
-        </div>
-        <div class="input-content">
+        </div> -->
+        <!-- <div class="input-content">
           <div class="form-label">Rareté</div>
-          <%= select_tag :rarety_type,
+          <%#= select_tag :rarety_type,
             options_for_select(
               @rarety_types_available,
               params[:rarety_type] ), class: "form-input form-select"
           %>
-        </div>
-        <div class="input-content">
+        </div> -->
+        <!-- <div class="input-content">
           <div class="form-label">Rechercher un nom</div>
-          <%= text_field_tag :name,
+          <%#= text_field_tag :name,
           params[:name],
           class: "form-input",
           placeholder: "Nom de carte..."
           %>
-        </div>
+        </div> -->
         <div class="input-content">
           <div class="form-label">Classer les cartes</div>
           <%= select_tag :sort,
@@ -46,7 +46,7 @@
               ["les plus chères", "higher_to_lower_price"],
               ["en meilleur état", "best_condition"],
               ["en moins bon état", "worst_condition"],
-              ["par numéro (série)", "ranked"]
+              ["par numéro", "ranked"]
               ],
               params[:sort] ), class: "form-input form-select"
           %>

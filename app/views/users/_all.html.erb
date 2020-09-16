@@ -1,24 +1,22 @@
 <div class="visuals-container">
   <% @shop_cards.each do |shop_card| %>
-    <%= link_to card_path(shop_card) do %>
-      <div class="card-element shop-element">
-        <%= link_to card_path(shop_card) do %>
-          <div class="visual">
-            <%= cl_image_tag shop_card.item.ph_one,
-            :gravity=>"auto", :crop=>"fill",  :transformation=>[
-            {:width=>500, :crop=>"scale"},
-            {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@user.first_name} #{@user.last_name}"},
-             :gravity=>"south", :y=>100}
-            ], class: "mini" %>
-          </div>
-        <% end %>
-        <div class="shop-infos">
-          <div class="price">
-            <%= "#{shop_card.item.value} €" %>
-          </div>
+    <div class="card-element shop-element">
+      <%= link_to card_path(shop_card) do %>
+        <div class="visual">
+          <%= cl_image_tag shop_card.item.ph_one,
+          :gravity=>"auto", :crop=>"fill",  :transformation=>[
+          {:width=>500, :crop=>"scale"},
+          {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@user.first_name} #{@user.last_name}"},
+           :gravity=>"south", :y=>100}
+          ], class: "mini" %>
+        </div>
+      <% end %>
+      <div class="shop-infos">
+        <div class="price">
+          <%= "#{shop_card.item.value} €" %>
         </div>
       </div>
-    <% end %>
+    </div>
   <% end %>
 </div>
 <div class="text-center"><%== pagy_bootstrap_nav(@pagy) %></div>
