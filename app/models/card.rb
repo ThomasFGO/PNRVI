@@ -9,20 +9,17 @@ class Card < ApplicationRecord
   scope :higher_to_lower_price, ->{ joins(:item).merge(Item.higher_to_lower_price) }
   scope :best_condition, ->{ joins(:item).merge(Item.best_condition) }
   scope :worst_condition, ->{ joins(:item).merge(Item.worst_condition) }
-  scope :ranked, ->{ joins(:ref_card).merge(RefCard.ranked) }
-  scope :filter_by_list, -> (fr_name) { joins(ref_card: :list).where("lists.fr_name ILIKE ?", "#{fr_name}%")}
+  #scope :ranked, ->{ joins(:ref_card).order(rank: :asc) }
+  scope :filter_by_list, -> (fr_name) { joins(ref_card: :list).where("lists.fr_name ILIKE ?", fr_name)}
+  scope :filter_by_rarety_type, -> (rarety_type) { joins(:ref_card).where("ref_cards.rarety_type = ?", rarety_type)}
+  scope :filter_by_version, -> (version) { where("version = ?", version)}
   include PgSearch::Model
   pg_search_scope :filter_by_name,
-    associated_against: { ref_card: [ :fr_name ]},
+    associated_against: { ref_card: [ :fr_name, :number ]},
     using: { tsearch: { prefix: true }}
   pg_search_scope :search_by_artist,
     associated_against: { ref_card: [ :artist ]},
     using: { tsearch: { prefix: true }}
-  pg_search_scope :filter_by_rarety_type,
-    associated_against: { ref_card: [ :rarety_type ]},
-    using: { tsearch: { prefix: true }}
-  pg_search_scope :filter_by_version,
-    against: :version
 
   def version_label
     if version == "Holographique"

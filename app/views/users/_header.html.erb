@@ -1,7 +1,4 @@
 <div class="user-header">
-  <%= @var %>
-  <%= @hash %>
-  <%= @test %>
   <%= form_for(cards_path, method: :get)  do %>
     <div class="sort-form">
       <div class="first-part">
@@ -13,30 +10,29 @@
               params[:list] ), class: "form-input form-select"
           %>
         </div>
-        <!-- <div class="input-content">
+        <div class="input-content">
           <div class="form-label">Version</div>
-          <%#= select_tag :version,
+          <%= select_tag :version,
             options_for_select(
-              @versions_available,
-              params[:version] ), class: "form-input form-select"
+              @versions,
+              params[:version] ),
+              :style => "width:165px", class: "form-input form-select"
           %>
-        </div> -->
-        <!-- <div class="input-content">
           <div class="form-label">Rareté</div>
-          <%#= select_tag :rarety_type,
+          <%= select_tag :rarety_type,
             options_for_select(
-              @rarety_types_available,
+              @rarety_types,
               params[:rarety_type] ), class: "form-input form-select"
           %>
-        </div> -->
+        </div>
         <!-- <div class="input-content">
-          <div class="form-label">Rechercher un nom</div>
+          <div class="form-label">Nom ou N° de carte</div> -->
           <%#= text_field_tag :name,
           params[:name],
           class: "form-input",
           placeholder: "Nom de carte..."
           %>
-        </div> -->
+        <!-- </div> -->
         <div class="input-content">
           <div class="form-label">Classer les cartes</div>
           <%= select_tag :sort,
@@ -45,8 +41,7 @@
               ["les moins chères", "lower_to_higher_price"],
               ["les plus chères", "higher_to_lower_price"],
               ["en meilleur état", "best_condition"],
-              ["en moins bon état", "worst_condition"],
-              ["par numéro", "ranked"]
+              ["en moins bon état", "worst_condition"]
               ],
               params[:sort] ), class: "form-input form-select"
           %>
@@ -60,13 +55,17 @@
     </div>
   <% end %>
   <h3>
-    <% unless @user == current_user %>
-      <%= "#{@user.first_name}" %>
-      <%= "#{@user.last_name}" %>
-      <h5><%= "#{@shop_cards_count} cartes disponibles" %></h5>
+    <% unless @shop_cards_count == 0 %>
+      <% unless @user == current_user %>
+        <%= "#{@user.first_name}" %>
+        <%= "#{@user.last_name}" %>
+        <h5><%= "#{@shop_cards_count} cartes disponibles" %></h5>
+      <% else %>
+        <%= "Mon magasin" %>
+        <h5><%= "#{@shop_cards_count} cartes : #{@shop_cards_value}€" %></h5>
+      <% end %>
     <% else %>
-      <%= "Mon magasin" %>
-      <h5><%= "#{@shop_cards_count} cartes : #{@shop_cards_value}€" %></h5>
+      <%= "Aucun carte en vente ne correspond à tes critères de recherche" %>
     <% end %>
   </h3>
 </div>
