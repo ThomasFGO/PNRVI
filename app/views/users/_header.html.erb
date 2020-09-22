@@ -25,14 +25,14 @@
               params[:rarety_type] ), class: "form-input form-select"
           %>
         </div>
-        <!-- <div class="input-content">
-          <div class="form-label">Nom ou N° de carte</div> -->
-          <%#= text_field_tag :name,
+        <div class="input-content">
+          <div class="form-label">Nom ou N° de carte</div>
+          <%= text_field_tag :name,
           params[:name],
           class: "form-input",
-          placeholder: "Nom de carte..."
+          placeholder: "ex : Dracaufeu ou 4 ..."
           %>
-        <!-- </div> -->
+        </div>
         <div class="input-content">
           <div class="form-label">Classer les cartes</div>
           <%= select_tag :sort,
@@ -41,7 +41,8 @@
               ["les moins chères", "lower_to_higher_price"],
               ["les plus chères", "higher_to_lower_price"],
               ["en meilleur état", "best_condition"],
-              ["en moins bon état", "worst_condition"]
+              ["en moins bon état", "worst_condition"],
+              ["par numéro", "ranked"]
               ],
               params[:sort] ), class: "form-input form-select"
           %>

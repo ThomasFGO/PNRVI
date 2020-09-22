@@ -45,14 +45,14 @@ class UsersController < ApplicationController
     #   ["#{rarety_type[1]} (#{var[rarety_type[0]]})", "#{rarety_type[0]}"]
     # end
     # @rarety_types_available.unshift(["Toutes", nil])
-
     filters_params(params).each do |key, value|
       @shop_cards = @shop_cards.public_send("filter_by_#{key}", value) if value.present?
     end
-
     scopes_params(params).each do |key, value|
       @shop_cards = @shop_cards.public_send(value) if value.present?
     end
+
+
 
     @shop_cards_count = @shop_cards.count
 
