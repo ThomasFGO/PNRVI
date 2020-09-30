@@ -11,10 +11,11 @@ class UsersController < ApplicationController
 
     @lists_available =
       shop_cards.group_by { |shop_card| shop_card.ref_card.list }.to_a.map do |list, shop_cards|
-        ["#{list.fr_name} (#{shop_cards.count})", list.fr_name]
+        ["#{list.fr_name} (#{shop_cards.count})", list.fr_name, list.rank]
       end
-      .reverse
+      .sort! {|x,y| y[2] <=> x[2]}
       .unshift(["Toutes", nil])
+      #.reverse
 
     # @versions_available = shop_cards.group(:version).count.to_a.collect do |version|
     #   ["#{version[0]} (#{version[1]})", version[0]]
