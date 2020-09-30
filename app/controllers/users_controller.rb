@@ -14,6 +14,7 @@ class UsersController < ApplicationController
         ["#{list.fr_name} (#{shop_cards.count})", list.fr_name, list.rank]
       end
       .sort! {|x,y| y[2] <=> x[2]}
+      .map {|list| [list[0], list[1]] }
       .unshift(["Toutes", nil])
       #.reverse
 
