@@ -1,0 +1,81 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;fr_url;us_url;list
+1;1;Ultra;V;Florizarre-V;Venusaur V;Pokémon;Grass;3;PLANETA Mochizuki;https://www.pokepedia.fr/images/f/f1/Carte_La_Voie_du_Maître_001.png;https://images.pokemontcg.io/swsh35/1_hires.png;swsh35
+2;2;Common;;Aspicot;Weedle;Pokémon;Grass;13;Yuka Morii;https://www.pokepedia.fr/images/1/1a/Carte_La_Voie_du_Maître_002.png;https://images.pokemontcg.io/swsh35/2_hires.png;swsh35
+3;3;Common;;Coconfort;Kakuna;Pokémon;Grass;14;Miki Tanaka;https://www.pokepedia.fr/images/0/0e/Carte_La_Voie_du_Maître_003.png;https://images.pokemontcg.io/swsh35/3_hires.png;swsh35
+4;4;Uncommon;;Dardargnan;Beedrill;Pokémon;Grass;15;Hideki Ishikawa;https://www.pokepedia.fr/images/0/0c/Carte_La_Voie_du_Maître_004.png;https://images.pokemontcg.io/swsh35/4_hires.png;swsh35
+5;5;Ultra;V;Blancoton-V;Eldegoss V;Pokémon;Grass;830;5ban Graphics;https://www.pokepedia.fr/images/0/00/Carte_La_Voie_du_Maître_005.png;https://images.pokemontcg.io/swsh35/5_hires.png;swsh35
+6;6;Common;;Goupix;Vulpix;Pokémon;Fire;37;Shibuzoh.;https://www.pokepedia.fr/images/7/7f/Carte_La_Voie_du_Maître_006.png;https://images.pokemontcg.io/swsh35/6_hires.png;swsh35
+7;7;Uncommon;;Victini;Victini;Pokémon;Fire;494;Taira Akitsu;https://www.pokepedia.fr/images/4/4f/Carte_La_Voie_du_Maître_007.png;https://images.pokemontcg.io/swsh35/7_hires.png;swsh35
+8;8;Ultra;V;Félinferno-V;Incineroar V;Pokémon;Fire;727;Kouki Saitou;https://www.pokepedia.fr/images/7/75/Carte_La_Voie_du_Maître_008.png;https://images.pokemontcg.io/swsh35/8_hires.png;swsh35
+9;9;Common;;Grillepattes;Sizzlipede;Pokémon;Fire;850;Akira Komayama;https://www.pokepedia.fr/images/6/64/Carte_La_Voie_du_Maître_009.png;https://images.pokemontcg.io/swsh35/9_hires.png;swsh35
+10;10;Rare Holo;;Scolocendre;Centiskorch;Pokémon;Fire;851;Shin Nagasawa;https://www.pokepedia.fr/images/f/f3/Carte_La_Voie_du_Maître_010.png;https://images.pokemontcg.io/swsh35/10_hires.png;swsh35
+11;11;Common;;Carvanha;Carvanha;Pokémon;Water;318;Shigenori Negishi;https://www.pokepedia.fr/images/c/cc/Carte_La_Voie_du_Maître_011.png;https://images.pokemontcg.io/swsh35/11_hires.png;swsh35
+12;12;Uncommon;;Sharpedo;Sharpedo;Pokémon;Water;319;Ryuta Fuse;https://www.pokepedia.fr/images/b/b2/Carte_La_Voie_du_Maître_012.png;https://images.pokemontcg.io/swsh35/12_hires.png;swsh35
+13;13;Ultra;V;Wailord-V;Wailord V;Pokémon;Water;321;PLANETA Mochizuki;https://www.pokepedia.fr/images/5/50/Carte_La_Voie_du_Maître_013.png;https://images.pokemontcg.io/swsh35/13_hires.png;swsh35
+14;14;Ultra;V;Torgamord-V;Drednaw V;Pokémon;Water;834;aky CG Works;https://www.pokepedia.fr/images/d/dd/Carte_La_Voie_du_Maître_014.png;https://images.pokemontcg.io/swsh35/14_hires.png;swsh35
+15;15;Ultra;VMAX;Torgamord-VMAX;Drednaw VMAX;Pokémon;Water;834;aky CG Works;https://www.pokepedia.fr/images/5/58/Carte_La_Voie_du_Maître_015.png;https://images.pokemontcg.io/swsh35/15_hires.png;swsh35
+16;16;Ultra;V;Gardevoir-V;Gardevoir V;Pokémon;Psychic;282;Kagemaru Himeno;https://www.pokepedia.fr/images/2/2f/Carte_La_Voie_du_Maître_016.png;https://images.pokemontcg.io/swsh35/16_hires.png;swsh35
+17;17;Ultra;VMAX;Gardevoir-VMAX;Gardevoir VMAX;Pokémon;Psychic;282;5ban Graphics;https://www.pokepedia.fr/images/8/86/Carte_La_Voie_du_Maître_017.png;https://images.pokemontcg.io/swsh35/17_hires.png;swsh35
+18;18;Common;;Bibichut;Hatenna;Pokémon;Psychic;856;Akira Komayama;https://www.pokepedia.fr/images/9/90/Carte_La_Voie_du_Maître_018.png;https://images.pokemontcg.io/swsh35/18_hires.png;swsh35
+19;19;Uncommon;;Chapotus;Hattrem;Pokémon;Psychic;857;Hitoshi Ariga;https://www.pokepedia.fr/images/6/64/Carte_La_Voie_du_Maître_019.png;https://images.pokemontcg.io/swsh35/19_hires.png;swsh35
+20;20;Rare Holo;;Sorcilence;Hatterene;Pokémon;Psychic;858;Naoki Saito;https://www.pokepedia.fr/images/6/60/Carte_La_Voie_du_Maître_020.png;https://images.pokemontcg.io/swsh35/20_hires.png;swsh35
+21;21;Ultra;V;Corayôme de Galar-V;Galarian Cursola V;Pokémon;Psychic;864;5ban Graphics;https://www.pokepedia.fr/images/4/40/Carte_La_Voie_du_Maître_021.png;https://images.pokemontcg.io/swsh35/21_hires.png;swsh35
+22;22;Ultra;V;Charmilly-V;Alcremie V;Pokémon;Psychic;869;Ayaka Yoshida;https://www.pokepedia.fr/images/9/9f/Carte_La_Voie_du_Maître_022.png;https://images.pokemontcg.io/swsh35/22_hires.png;swsh35
+23;23;Ultra;VMAX;Charmilly-VMAX;Alcremie VMAX;Pokémon;Psychic;869;5ban Graphics;https://www.pokepedia.fr/images/3/30/Carte_La_Voie_du_Maître_023.png;https://images.pokemontcg.io/swsh35/23_hires.png;swsh35
+24;24;Common;;Machoc;Machop;Pokémon;Fighting;66;Shibuzoh.;https://www.pokepedia.fr/images/2/20/Carte_La_Voie_du_Maître_024.png;https://images.pokemontcg.io/swsh35/24_hires.png;swsh35
+25;25;Uncommon;;Machopeur;Machoke;Pokémon;Fighting;67;AKIRA EGAWA;https://www.pokepedia.fr/images/7/7a/Carte_La_Voie_du_Maître_025.png;https://images.pokemontcg.io/swsh35/25_hires.png;swsh35
+26;26;Rare Holo;;Mackogneur;Machamp;Pokémon;Fighting;68;Anesaki Dynamic;https://www.pokepedia.fr/images/e/eb/Carte_La_Voie_du_Maître_026.png;https://images.pokemontcg.io/swsh35/26_hires.png;swsh35
+27;27;Ultra;V;Lucario-V;Lucario V;Pokémon;Fighting;448;AKIRA EGAWA;https://www.pokepedia.fr/images/d/d8/Carte_La_Voie_du_Maître_027.png;https://images.pokemontcg.io/swsh35/27_hires.png;swsh35
+28;28;Rare Holo;;Zygarde;Zygarde;Pokémon;Fighting;718;Shin Nagasawa;https://www.pokepedia.fr/images/f/f0/Carte_La_Voie_du_Maître_028.png;https://images.pokemontcg.io/swsh35/28_hires.png;swsh35
+29;29;Common;;Rocabot;Rockruff;Pokémon;Fighting;744;Naoyo Kimura;https://www.pokepedia.fr/images/e/ec/Carte_La_Voie_du_Maître_029.png;https://images.pokemontcg.io/swsh35/29_hires.png;swsh35
+30;30;Rare Holo;;Lougaroc;Lycanroc;Pokémon;Fighting;745;Ryuta Fuse;https://www.pokepedia.fr/images/c/cc/Carte_La_Voie_du_Maître_030.png;https://images.pokemontcg.io/swsh35/30_hires.png;swsh35
+31;31;Common;;Charbi;Rolycoly;Pokémon;Fighting;837;Masakazu Fukuda;https://www.pokepedia.fr/images/3/3e/Carte_La_Voie_du_Maître_031.png;https://images.pokemontcg.io/swsh35/31_hires.png;swsh35
+32;32;Ultra;V;Krakos-V;Grapploct V;Pokémon;Fighting;853;PLANETA Igarashi;https://www.pokepedia.fr/images/c/cb/Carte_La_Voie_du_Maître_032.png;https://images.pokemontcg.io/swsh35/32_hires.png;swsh35
+33;33;Common;;Abo;Ekans;Pokémon;Darkness;23;Uta;https://www.pokepedia.fr/images/1/1b/Carte_La_Voie_du_Maître_033.png;https://images.pokemontcg.io/swsh35/33_hires.png;swsh35
+34;34;Uncommon;;Arbok;Arbok;Pokémon;Darkness;24;nagimiso;https://www.pokepedia.fr/images/7/79/Carte_La_Voie_du_Maître_034.png;https://images.pokemontcg.io/swsh35/34_hires.png;swsh35
+35;35;Common;;Zigzaton de Galar;Galarian Zigzagoon;Pokémon;Darkness;263;Kouki Saitou;https://www.pokepedia.fr/images/e/ec/Carte_La_Voie_du_Maître_035.png;https://images.pokemontcg.io/swsh35/35_hires.png;swsh35
+36;36;Common;;Linéon de Galar;Galarian Linoone;Pokémon;Darkness;264;Akira Komayama;https://www.pokepedia.fr/images/9/94/Carte_La_Voie_du_Maître_036.png;https://images.pokemontcg.io/swsh35/36_hires.png;swsh35
+37;37;Rare Holo;;Ixon de Galar;Galarian Obstagoon;Pokémon;Darkness;862;Shin Nagasawa;https://www.pokepedia.fr/images/9/97/Carte_La_Voie_du_Maître_037.png;https://images.pokemontcg.io/swsh35/37_hires.png;swsh35
+38;38;Uncommon;;Absol;Absol;Pokémon;Darkness;359;kodama;https://www.pokepedia.fr/images/8/88/Carte_La_Voie_du_Maître_038.png;https://images.pokemontcg.io/swsh35/38_hires.png;swsh35
+39;39;Common;;Chacripan;Purrloin;Pokémon;Darkness;509;sowsow;https://www.pokepedia.fr/images/5/51/Carte_La_Voie_du_Maître_039.png;https://images.pokemontcg.io/swsh35/39_hires.png;swsh35
+40;40;Uncommon;;Léopardus;Liepard;Pokémon;Darkness;510;Hasuno;https://www.pokepedia.fr/images/d/de/Carte_La_Voie_du_Maître_040.png;https://images.pokemontcg.io/swsh35/40_hires.png;swsh35
+41;41;Common;;Baggiguane;Scraggy;Pokémon;Darkness;559;miki kudo;https://www.pokepedia.fr/images/a/a1/Carte_La_Voie_du_Maître_041.png;https://images.pokemontcg.io/swsh35/41_hires.png;swsh35
+42;42;Rare Holo;;Baggaïd;Scrafty;Pokémon;Darkness;560;tetsuya koizumi;https://www.pokepedia.fr/images/7/74/Carte_La_Voie_du_Maître_042.png;https://images.pokemontcg.io/swsh35/42_hires.png;swsh35
+43;43;Common;;Miamiasme;Trubbish;Pokémon;Darkness;568;nagimiso;https://www.pokepedia.fr/images/3/3d/Carte_La_Voie_du_Maître_043.png;https://images.pokemontcg.io/swsh35/43_hires.png;swsh35
+44;44;Common;;Sepiatop;Inkay;Pokémon;Darkness;686;sui;https://www.pokepedia.fr/images/2/21/Carte_La_Voie_du_Maître_044.png;https://images.pokemontcg.io/swsh35/44_hires.png;swsh35
+45;45;Uncommon;;Sepiatroce;Malamar;Pokémon;Darkness;687;kawayoo;https://www.pokepedia.fr/images/1/18/Carte_La_Voie_du_Maître_045.png;https://images.pokemontcg.io/swsh35/45_hires.png;swsh35
+46;46;Common;;Goupilou;Nickit;Pokémon;Darkness;827;Naoki Saito;https://www.pokepedia.fr/images/c/c4/Carte_La_Voie_du_Maître_046.png;https://images.pokemontcg.io/swsh35/46_hires.png;swsh35
+47;47;Ultra;V;Duralugon-V;Duraludon V;Pokémon;Metal;884;aky CG Works;https://www.pokepedia.fr/images/f/fa/Carte_La_Voie_du_Maître_047.png;https://images.pokemontcg.io/swsh35/47_hires.png;swsh35
+48;48;Common;;Tylton;Swablu;Pokémon;Colorless;333;313;https://www.pokepedia.fr/images/9/97/Carte_La_Voie_du_Maître_048.png;https://images.pokemontcg.io/swsh35/48_hires.png;swsh35
+49;49;Rare Holo;;Altaria;Altaria;Pokémon;Colorless;334;Taira Akitsu;https://www.pokepedia.fr/images/1/10/Carte_La_Voie_du_Maître_049.png;https://images.pokemontcg.io/swsh35/49_hires.png;swsh35
+50;50;Uncommon;;Travis;Bede;Trainer;NoColor;;Naoki Saito;https://www.pokepedia.fr/images/f/f3/Carte_La_Voie_du_Maître_050.png;https://images.pokemontcg.io/swsh35/50_hires.png;swsh35
+51;51;Common;;Énergie Guérisseuse;Full Heal;Trainer;NoColor;;Yoshinobu Saito;https://www.pokepedia.fr/images/e/ef/Carte_La_Voie_du_Maître_051.png;https://images.pokemontcg.io/swsh35/51_hires.png;swsh35
+52;52;Uncommon;;Super Ball;Great Ball;Trainer;NoColor;;Toyste Beach;https://www.pokepedia.fr/images/6/6a/Carte_La_Voie_du_Maître_052.png;https://images.pokemontcg.io/swsh35/52_hires.png;swsh35
+53;53;Uncommon;;Nabil;Hop;Trainer;NoColor;;Sanosuke Sakuma;https://www.pokepedia.fr/images/5/51/Carte_La_Voie_du_Maître_053.png;https://images.pokemontcg.io/swsh35/53_hires.png;swsh35
+54;54;Uncommon;;Hyper Potion;Hyper Potion;Trainer;NoColor;;Ryo Ueda;https://www.pokepedia.fr/images/d/da/Carte_La_Voie_du_Maître_054.png;https://images.pokemontcg.io/swsh35/54_hires.png;swsh35
+55;55;Uncommon;;Kabu;Kabu;Trainer;NoColor;;take;https://www.pokepedia.fr/images/b/bc/Carte_La_Voie_du_Maître_055.png;https://images.pokemontcg.io/swsh35/55_hires.png;swsh35
+56;56;Rare Holo;;Rosemary;Marnie;Trainer;NoColor;;kirisAki;https://www.pokepedia.fr/images/9/9d/Carte_La_Voie_du_Maître_056.png;https://images.pokemontcg.io/swsh35/56_hires.png;swsh35
+57;57;Uncommon;;Percy;Milo;Trainer;NoColor;;take;https://www.pokepedia.fr/images/7/7b/Carte_La_Voie_du_Maître_057.png;https://images.pokemontcg.io/swsh35/57_hires.png;swsh35
+58;58;Uncommon;;Peterson;Piers;Trainer;NoColor;;take;https://www.pokepedia.fr/images/5/56/Carte_La_Voie_du_Maître_058.png;https://images.pokemontcg.io/swsh35/58_hires.png;swsh35
+59;59;Common;;Poké Ball;Poké Ball;Trainer;NoColor;;Studio Bora Inc.;https://www.pokepedia.fr/images/8/80/Carte_La_Voie_du_Maître_059.png;https://images.pokemontcg.io/swsh35/59_hires.png;swsh35
+60;60;Uncommon;;Dame du Centre Pokémon;Pokémon Center Lady;Trainer;NoColor;;kirisAki;https://www.pokepedia.fr/images/7/76/Carte_La_Voie_du_Maître_060.png;https://images.pokemontcg.io/swsh35/60_hires.png;swsh35
+61;61;Common;;Potion;Potion;Trainer;NoColor;;Ryo Ueda;https://www.pokepedia.fr/images/2/26/Carte_La_Voie_du_Maître_061.png;https://images.pokemontcg.io/swsh35/61_hires.png;swsh35
+62;62;Rare Holo;;Recherches Professorales;Professor's Research (Professor Magnolia);Trainer;NoColor;;Yusuke Ohmura;https://www.pokepedia.fr/images/f/f6/Carte_La_Voie_du_Maître_062.png;https://images.pokemontcg.io/swsh35/62_hires.png;swsh35
+63;63;Uncommon;;Moticyclette;Rotom Bike;Trainer;NoColor;;5ban Graphics;https://www.pokepedia.fr/images/9/90/Carte_La_Voie_du_Maître_063.png;https://images.pokemontcg.io/swsh35/63_hires.png;swsh35
+64;64;Uncommon;;Motismart;Rotom Phone;Trainer;NoColor;;Ryo Ueda;https://www.pokepedia.fr/images/7/78/Carte_La_Voie_du_Maître_064.png;https://images.pokemontcg.io/swsh35/64_hires.png;swsh35
+65;65;Uncommon;;Sonya;Sonia;Trainer;NoColor;;Yusuke Ohmura;https://www.pokepedia.fr/images/7/7d/Carte_La_Voie_du_Maître_065.png;https://images.pokemontcg.io/swsh35/65_hires.png;swsh35
+66;66;Uncommon;;Conserve Douteuse;Suspicious Food Tin;Trainer;NoColor;;Ryo Ueda;https://www.pokepedia.fr/images/b/bb/Carte_La_Voie_du_Maître_066.png;https://images.pokemontcg.io/swsh35/66_hires.png;swsh35
+67;67;Uncommon;;Sbire de la Team Yell;Team Yell Grunt;Trainer;NoColor;;nagimiso;https://www.pokepedia.fr/images/a/a4/Carte_La_Voie_du_Maître_067.png;https://images.pokemontcg.io/swsh35/67_hires.png;swsh35
+68;68;Uncommon;;Stade de Greenbury;Turffield Stadium;Trainer;NoColor;;aky CG Works;https://www.pokepedia.fr/images/6/6f/Carte_La_Voie_du_Maître_068.png;https://images.pokemontcg.io/swsh35/68_hires.png;swsh35
+69;69;Ultra;V FA;Torgamord-V;Drednaw V;Pokémon;Water;834;aky CG Works;https://www.pokepedia.fr/images/a/a4/Carte_La_Voie_du_Maître_069.png;https://images.pokemontcg.io/swsh35/69_hires.png;swsh35
+70;70;Ultra;V FA;Gardevoir-V;Gardevoir V;Pokémon;Psychic;282;PLANETA Mochizuki;https://www.pokepedia.fr/images/4/49/Carte_La_Voie_du_Maître_070.png;https://images.pokemontcg.io/swsh35/70_hires.png;swsh35
+71;71;Ultra;V FA;Corayôme de Galar-V;Galarian Cursola V;Pokémon;Psychic;864;5ban Graphics;https://www.pokepedia.fr/images/5/55/Carte_La_Voie_du_Maître_071.png;https://images.pokemontcg.io/swsh35/71_hires.png;swsh35
+72;72;Ultra;V FA;Krakos-V;Grapploct V;Pokémon;Fighting;853;PLANETA Igarashi;https://www.pokepedia.fr/images/a/a9/Carte_La_Voie_du_Maître_072.png;https://images.pokemontcg.io/swsh35/72_hires.png;swsh35
+73;73;Ultra;FA;Nabil;Hop;Trainer;NoColor;;Naoki Saito;https://www.pokepedia.fr/images/3/3d/Carte_La_Voie_du_Maître_073.png;https://images.pokemontcg.io/swsh35/73_hires.png;swsh35
+74;74;Secret;Rainbow;Dracaufeu-VMAX;Charizard VMAX;Pokémon;Fire;6;aky CG Works;https://www.pokepedia.fr/images/b/ba/Carte_La_Voie_du_Maître_074.png;https://pod.pokellector.com/cards/298/Charizard-VMAX.SWSH3.74.35773.png;swsh35
+75;75;Secret;Rainbow;Torgamord-VMAX;Drednaw VMAX;Pokémon;Water;834;aky CG Works;https://www.pokepedia.fr/images/1/1c/Carte_La_Voie_du_Maître_075.png;https://pod.pokellector.com/cards/298/Drednaw-VMAX.SWSH3.75.35774.png;swsh35
+76;76;Secret;Rainbow;Gardevoir-VMAX;Gardevoir VMAX;Pokémon;Psychic;282;5ban Graphics;https://www.pokepedia.fr/images/1/11/Carte_La_Voie_du_Maître_076.png;https://pod.pokellector.com/cards/298/Gardevoir-VMAX.SWSH3.76.35775.png;swsh35
+77;77;Secret;Rainbow;Kabu;Kabu;Trainer;NoColor;;Hitoshi Ariga;https://www.pokepedia.fr/images/2/23/Carte_La_Voie_du_Maître_077.png;https://pod.pokellector.com/cards/298/Kabu.SWSH3.77.35776.png;swsh35
+78;78;Secret;Rainbow;Peterson;Piers;Trainer;NoColor;;kirisAki;https://www.pokepedia.fr/images/7/7d/Carte_La_Voie_du_Maître_078.png;https://pod.pokellector.com/cards/298/Piers.SWSH3.78.35777.png;swsh35
+79;79;Secret;V Shiny;Dracaufeu-V;Charizard V;Pokémon;Fire;6;5ban Graphics;https://www.pokepedia.fr/images/5/5d/Carte_La_Voie_du_Maître_079.png;https://pod.pokellector.com/cards/298/Charizard-V.SWSH3.79.35778.png;swsh35
+80;80;Secret;Gold;Conserve Douteuse;Suspicious Food Tin;Trainer;NoColor;;Ryo Ueda;https://www.pokepedia.fr/images/2/2d/Carte_La_Voie_du_Maître_080.png;https://pod.pokellector.com/cards/298/Suspicious-Food-Tin.SWSH3.80.35779.png;swsh35

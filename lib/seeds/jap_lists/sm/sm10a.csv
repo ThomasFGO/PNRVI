@@ -1,0 +1,70 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;jap_url;list
+1;1;C;;;Karrablast;;Grass;;;https://pod.pokellector.com/cards/267/Karrablast.SM10A.1.27498.png;sm10a
+2;2;C;;;Magmar;;Fire;;;https://pod.pokellector.com/cards/267/Magmar.SM10A.2.27499.png;sm10a
+3;3;U;;;Magmortar;;Fire;;;https://pod.pokellector.com/cards/267/Magmortar.SM10A.3.27500.png;sm10a
+4;4;RR;;;HeatranGX;;Fire;;;https://pod.pokellector.com/cards/267/Heatran-GX.SM10A.4.27211.png;sm10a
+5;5;C;;;Litwick;;Fire;;;https://pod.pokellector.com/cards/267/Litwick.SM10A.5.27501.png;sm10a
+6;6;C;;;Lampent;;Fire;;;https://pod.pokellector.com/cards/267/Lampent.SM10A.6.27502.png;sm10a
+7;7;R;;;Chandelure;;Fire;;;https://pod.pokellector.com/cards/267/Chandelure.SM10A.7.27361.png;sm10a
+8;8;RR;;;Raichu & Alolan RaichuTag Team GX;;Lightning;;;https://pod.pokellector.com/cards/267/Raichu-Alolan-Raichu-GX.SM10A.8.27344.png;sm10a
+9;9;C;;;Pikachu;;Lightning;;;https://pod.pokellector.com/cards/267/Pikachu.SM10A.9.27503.png;sm10a
+10;10;R;;;Alolan Raichu;;Lightning;;;https://pod.pokellector.com/cards/267/Alolan-Raichu.SM10A.10.27346.png;sm10a
+11;11;C;;;Stunfisk;;Lightning;;;https://pod.pokellector.com/cards/267/Stunfisk.SM10A.11.27504.png;sm10a
+12;12;C;;;Thundurus;;Lightning;;;https://pod.pokellector.com/cards/267/Thundurus.SM10A.12.27505.png;sm10a
+13;13;U;;;Alolan Marowak;;Psychic;;;https://pod.pokellector.com/cards/267/Alolan-Marowak.SM10A.13.27347.png;sm10a
+14;14;C;;;Drifloon;;Psychic;;;https://pod.pokellector.com/cards/267/Drifloon.SM10A.14.27506.png;sm10a
+15;15;U;;;Drifblim;;Psychic;;;https://pod.pokellector.com/cards/267/Drifblim.SM10A.15.27345.png;sm10a
+16;16;R;;;Giratina;;Psychic;;;https://pod.pokellector.com/cards/267/Giratina.SM10A.16.27357.png;sm10a
+17;17;C;;;Munna;;Psychic;;;https://pod.pokellector.com/cards/267/Munna.SM10A.17.27507.png;sm10a
+18;18;C;;;Musharna;;Psychic;;;https://pod.pokellector.com/cards/267/Musharna.SM10A.18.27508.png;sm10a
+19;19;C;;;Cubone;;Fighting;;;https://pod.pokellector.com/cards/267/Cubone.SM10A.19.27509.png;sm10a
+20;20;C;;;Meditite;;Fighting;;;https://pod.pokellector.com/cards/267/Meditite.SM10A.20.27510.png;sm10a
+21;21;U;;;Medicham;;Fighting;;;https://pod.pokellector.com/cards/267/Medicham.SM10A.21.27511.png;sm10a
+22;22;C;;;Gible;;Fighting;;;https://pod.pokellector.com/cards/267/Gible.SM10A.22.27512.png;sm10a
+23;23;C;;;Gabite;;Fighting;;;https://pod.pokellector.com/cards/267/Gabite.SM10A.23.27513.png;sm10a
+24;24;R;;;Garchomp;;Fighting;;;https://pod.pokellector.com/cards/267/Garchomp.SM10A.24.27360.png;sm10a
+25;25;C;;;Riolu;;Fighting;;;https://pod.pokellector.com/cards/267/Riolu.SM10A.25.27514.png;sm10a
+26;26;U;;;Lucario;;Fighting;;;https://pod.pokellector.com/cards/267/Lucario.SM10A.26.27350.png;sm10a
+27;27;U;;;Meloetta;;Fighting;;;https://pod.pokellector.com/cards/267/Meloetta.SM10A.27.27351.png;sm10a
+28;28;U;;;Zygarde;;Fighting;;;https://pod.pokellector.com/cards/267/Zygarde.SM10A.28.27353.png;sm10a
+29;29;R;;;Hoopa;;Darkness;;;https://pod.pokellector.com/cards/267/Hoopa.SM10A.29.27358.png;sm10a
+30;30;RR;;;MawileGX;;Metal;;;https://pod.pokellector.com/cards/267/Mawile-GX.SM10A.30.27355.png;sm10a
+31;31;U;;;Escavalier;;Metal;;;https://pod.pokellector.com/cards/267/Escavalier.SM10A.31.27359.png;sm10a
+32;32;RR;;;Garchomp & GiratinaTag Team GX;;Dragon;;;https://pod.pokellector.com/cards/267/Garchomp-Giratina-GX.SM10A.32.27210.png;sm10a
+33;33;U;;;Latias;;Dragon;;;https://pod.pokellector.com/cards/267/Latias.SM10A.33.27515.png;sm10a
+34;34;C;;;Axew;;Dragon;;;https://pod.pokellector.com/cards/267/Axew.SM10A.34.27516.png;sm10a
+35;35;C;;;Fraxure;;Dragon;;;https://pod.pokellector.com/cards/267/Fraxure.SM10A.35.27517.png;sm10a
+36;36;R;;;Haxorus;;Dragon;;;https://pod.pokellector.com/cards/267/Haxorus.SM10A.36.27518.png;sm10a
+37;37;R;;;Kangaskhan;;Colorless;;;https://pod.pokellector.com/cards/267/Kangaskhan.SM10A.37.27349.png;sm10a
+38;38;C;;;Bidoof;;Colorless;;;https://pod.pokellector.com/cards/267/Bidoof.SM10A.38.27519.png;sm10a
+39;39;C;;;Bibarel;;Colorless;;;https://pod.pokellector.com/cards/267/Bibarel.SM10A.39.27520.png;sm10a
+40;40;C;;;Munchlax;;Colorless;;;https://pod.pokellector.com/cards/267/Munchlax.SM10A.40.27356.png;sm10a
+41;41;C;;;Pidove;;Colorless;;;https://pod.pokellector.com/cards/267/Pidove.SM10A.41.27521.png;sm10a
+42;42;C;;;Tranquill;;Colorless;;;https://pod.pokellector.com/cards/267/Tranquill.SM10A.42.27522.png;sm10a
+43;43;U;;;Unfezant;;Colorless;;;https://pod.pokellector.com/cards/267/Unfezant.SM10A.43.27523.png;sm10a
+44;44;C;;;Tornadus;;Colorless;;;https://pod.pokellector.com/cards/267/Tornadus.SM10A.44.27524.png;sm10a
+45;45;U;;;Tag Switch;;NoColor;;;https://pod.pokellector.com/cards/267/Tag-Switch.SM10A.45.27352.png;sm10a
+46;46;U;;;Reset Stamp;;NoColor;;;https://pod.pokellector.com/cards/267/Reset-Stamp.SM10A.46.27370.png;sm10a
+47;47;U;;;Karate Belt;;NoColor;;;https://pod.pokellector.com/cards/267/Black-Belt.SM10A.47.27348.png;sm10a
+48;48;U;;;Grimsley;;NoColor;;;https://pod.pokellector.com/cards/267/Grimsley.SM10A.48.27213.png;sm10a
+49;49;U;;;Coach Trainer;;NoColor;;;https://pod.pokellector.com/cards/267/Coach-Trainer.SM10A.49.27369.png;sm10a
+50;50;U;;;Giant Hearth;;NoColor;;;https://pod.pokellector.com/cards/267/Huge-Oven.SM10A.50.27212.png;sm10a
+51;51;TR;;;Escape Rope;;NoColor;;;https://pod.pokellector.com/cards/267/Escape-Rope.SM10A.51.27525.png;sm10a
+52;52;TR;;;Nest Ball;;NoColor;;;https://pod.pokellector.com/cards/267/Nest-Ball.SM10A.52.27526.png;sm10a
+53;53;TR;;;Rotom Dex;;NoColor;;;https://pod.pokellector.com/cards/267/Rotom-Dex.SM10A.53.27527.png;sm10a
+54;54;TR;;;Tate & Liza;;NoColor;;;https://pod.pokellector.com/cards/267/Tate-ampamp-Liza.SM10A.54.27528.png;sm10a
+55;55;SR;;;HeatranGX;;Fire;;;https://pod.pokellector.com/cards/267/Heatran-GX.SM10A.55.27544.png;sm10a
+56;56;SR;;;Raichu & Alolan RaichuTag Team GX;;Lightning;;;https://pod.pokellector.com/cards/267/Raichu-Alolan-Raichu-GX.SM10A.56.27539.png;sm10a
+57;57;SR;;;Raichu & Alolan RaichuTag Team GX;;Lightning;;;https://pod.pokellector.com/cards/267/Raichu-Alolan-Raichu-GX.SM10A.57.27529.png;sm10a
+58;58;SR;;;MawileGX;;Metal;;;https://pod.pokellector.com/cards/267/Mawile-GX.SM10A.58.27541.png;sm10a
+59;59;SR;;;Garchomp & GiratinaTag Team GX;;Dragon;;;https://pod.pokellector.com/cards/267/Garchomp-Giratina-GX.SM10A.59.27535.png;sm10a
+60;60;SR;;;Garchomp & GiratinaTag Team GX;;Dragon;;;https://pod.pokellector.com/cards/267/Gabite-Giratina-GX.SM10A.60.27533.png;sm10a
+61;61;SR;;;Grimsley;;NoColor;;;https://pod.pokellector.com/cards/267/Grimsley.SM10A.61.27540.png;sm10a
+62;62;SR;;;Coach Trainer;;NoColor;;;https://pod.pokellector.com/cards/267/Coach-Trainer.SM10A.62.27542.png;sm10a
+63;63;HR;;;HeatranGX;;Fire;;;https://pod.pokellector.com/cards/267/Heatran-GX.SM10A.63.27543.png;sm10a
+64;64;HR;;;Raichu & Alolan RaichuTag Team GX;;Lightning;;;https://pod.pokellector.com/cards/267/Raichu-Alolan-Raichu-GX.SM10A.64.27538.png;sm10a
+65;65;HR;;;MawileGX;;Metal;;;https://pod.pokellector.com/cards/267/Mawile-GX.SM10A.65.27545.png;sm10a
+66;66;HR;;;Garchomp & GiratinaTag Team GX;;Dragon;;;https://pod.pokellector.com/cards/267/Gabite-Giratina-GX.SM10A.66.27534.png;sm10a
+67;67;UR;;;Tag Switch;;NoColor;;;https://pod.pokellector.com/cards/267/Tag-Switch.SM10A.67.27537.png;sm10a
+68;68;UR;;;Reset Stamp;;NoColor;;;https://pod.pokellector.com/cards/267/Reset-Stamp.SM10A.68.27532.png;sm10a
+69;69;UR;;;Karate Belt;;NoColor;;;https://pod.pokellector.com/cards/267/Black-Belt.SM10A.69.27536.png;sm10a

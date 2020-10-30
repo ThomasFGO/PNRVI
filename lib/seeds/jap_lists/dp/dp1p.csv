@@ -81,43 +81,40 @@ rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_num
 80;;Rare;;Dimoret;Weavile;Pokémon;Darkness;461;Naoyo Kimura;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112379/modif_dp/dimoret.jpg;dp1
 81;;Uncommon;;Pifeuil;Nuzleaf;Pokémon;Darkness;274;Kagemaru Himeno;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112381/modif_dp/pifeuil.jpg;dp1
 82;;Rare Holo;;Tengalice;Shiftry;Pokémon;Darkness;275;Masakazu Fukuda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472752.jpg;dp1
-83;;Common;;Moufouette;Stunky;Pokémon;Darkness;434;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112379/modif_dp/Capture_d_e%CC%81cran_2020-05-10_a%CC%80_13.59.33.png;dp1
-84;;Rare Holo;;Moufflair;Skuntank;Pokémon;Darkness;435;Hiroaki Ito;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472753.jpg;dp1
-85;;Common;;Magneti;Magnemite;Pokémon;Metal;81;Kouki Saitou;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112380/modif_dp/magneti.jpg;dp1
-86;;Uncommon;;Magneton;Magneton;Pokémon;Metal;82;Kouki Saitou;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112381/modif_dp/magneton.jpg;dp1
-87;;Rare Holo;;Magnézone;Magnezone;Pokémon;Metal;462;Nakaoka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472725.jpg;dp1
-88;;Rare;;Steelix;Steelix;Pokémon;Metal;208;Kouki Saitou;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472726.jpg;dp1
-89;;Rare Holo;;Dialga;Dialga;Pokémon;Metal;483;Nakaoka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472727.jpg;dp1
-90;;Common;;Mélo;Cleffa;Pokémon;Colorless;173;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112379/modif_dp/Capture_d_e%CC%81cran_2020-05-10_a%CC%80_14.00.25.png;dp1
-91;;Common;;Mélofée;Clefairy;Pokémon;Colorless;35;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112381/modif_dp/me%CC%81lofe%CC%81e.jpg;dp1
-92;;Rare;;Mélodelfe;Clefable;Pokémon;Colorless;36;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472728.jpg;dp1
-93;;Rare;;Goinfrex;Munchlax;Pokémon;Colorless;446;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472756.jpg;dp1
-94;;Rare;;Ronflex;Snorlax;Pokémon;Colorless;143;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112379/modif_dp/Capture_d_e%CC%81cran_2020-05-10_a%CC%80_14.01.35.png;dp1
-95;;Common;;Hoothoot;Hoothoot;Pokémon;Colorless;163;Midori Harada;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112380/modif_dp/hoothoot.jpg;dp1
-96;;Rare;;Noarfang;Noctowl;Pokémon;Colorless;164;Atsuko Nishida;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112381/modif_dp/noarfang.jpg;dp1
-97;;Common;;Azurill;Azurill;Pokémon;Colorless;298;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112378/modif_dp/azurill.jpg;dp1
-98;;Common;;Etourmi;Starly;Pokémon;Colorless;396;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112380/modif_dp/etourmi.jpg;dp1
-99;;Uncommon;;Etourvol;Staravia;Pokémon;Colorless;397;Masakazu Fukuda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112379/modif_dp/Capture_d_e%CC%81cran_2020-05-10_a%CC%80_14.03.09.png;dp1
-100;;Rare Holo;;Etouraptor;Staraptor;Pokémon;Colorless;398;Masahiko Ishii;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472729.jpg;dp1
-101;;Common;;Keunotor;Bidoof;Pokémon;Colorless;399;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112380/modif_dp/keunotor.jpg;dp1
-102;;Rare;;Castorno;Bibarel;Pokémon;Colorless;400;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112379/modif_dp/castorno.jpg;dp1
-103;;Common;;Laporeille;Buneary;Pokémon;Colorless;427;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112380/modif_dp/laporeille.jpg;dp1
-104;;Rare;;Lockpin;Lopunny;Pokémon;Colorless;428;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472730.jpg;dp1
-105;;Common;;Chaglam;Glameow;Pokémon;Colorless;431;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112379/modif_dp/chaglam.jpg;dp1
-106;;Rare;;Chaffreux;Purugly;Pokémon;Colorless;432;Masakazu Fukuda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472731.jpg;dp1
-107;;Common;;Pijako;Chatot;Pokémon;Colorless;441;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112381/modif_dp/pijako.jpg;dp1
-108;;Uncommon;;Restauration d'Énergie;Energy Restore;Trainer;NoColor;;Hideyuki Nakajima;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114713/modif_dp/energy_restore.jpg;dp1
-109;;Uncommon;;Échange d'énergie;Energy Switch;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114713/modif_dp/energy_switch.jpg;dp1
-110;;Common;;Recherche d'Énergie;Energy Search;Trainer;NoColor;;Kai Ishikawa;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114713/modif_dp/energy_search.jpg;dp1
-111;;Common;;Potion;Potion;Trainer;NoColor;;Shin-ichi Yoshikawa;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/potion.jpg;dp1
-112;;Uncommon;;Super Rappel;Super Scoop Up;Trainer;NoColor;;Shizurow;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/super_scoop.jpg;dp1
-113;;Uncommon;;Double guérison totale;Double Full Heal;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114713/modif_dp/double_full_heal.jpg;dp1
-114;;Uncommon;;PlusPower;PlusPower;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/pluspower.jpg;dp1
-115;;Common;;Echange;Switch;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114715/modif_dp/switch.jpg;dp1
-116;;Uncommon;;Pokédex [HANDY910is];Pokédex HANDY910is;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/pokedex.jpg;dp1
-117;;Uncommon;;Poké Ball;Poké Ball;Trainer;NoColor;;Shin-ichi Yoshikawa;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/poke_ball.jpg;dp1
-118;;Uncommon;;Centre Pokémon de Nuit;Night Pokémon Center;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114713/modif_dp/night_center.jpg;dp1
-119;;Uncommon;;Point d'échange;Warp Point;Trainer;NoColor;;Keiji Kinebuchi;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114715/modif_dp/warp_point.jpg;dp1
-120;;Uncommon;;Prof. Sorbier;Professor Rowan;Trainer;NoColor;;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/professor.jpg;dp1
-121;;Uncommon;;Rival;Rival;Trainer;NoColor;;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/rival.jpg;dp1
-122;;Uncommon;;Stade Rapide;Speed Stadium;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/speed_stadium.jpg;dp1
+83;;Common;;Magneti;Magnemite;Pokémon;Metal;81;Kouki Saitou;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112380/modif_dp/magneti.jpg;dp1
+84;;Uncommon;;Magneton;Magneton;Pokémon;Metal;82;Kouki Saitou;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112381/modif_dp/magneton.jpg;dp1
+85;;Rare Holo;;Magnézone;Magnezone;Pokémon;Metal;462;Nakaoka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472725.jpg;dp1
+86;;Rare;;Steelix;Steelix;Pokémon;Metal;208;Kouki Saitou;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472726.jpg;dp1
+87;;Common;;Mélo;Cleffa;Pokémon;Colorless;173;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112379/modif_dp/Capture_d_e%CC%81cran_2020-05-10_a%CC%80_14.00.25.png;dp1
+88;;Common;;Mélofée;Clefairy;Pokémon;Colorless;35;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112381/modif_dp/me%CC%81lofe%CC%81e.jpg;dp1
+89;;Rare;;Mélodelfe;Clefable;Pokémon;Colorless;36;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472728.jpg;dp1
+90;;Rare;;Goinfrex;Munchlax;Pokémon;Colorless;446;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472756.jpg;dp1
+91;;Rare;;Ronflex;Snorlax;Pokémon;Colorless;143;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112379/modif_dp/Capture_d_e%CC%81cran_2020-05-10_a%CC%80_14.01.35.png;dp1
+92;;Common;;Hoothoot;Hoothoot;Pokémon;Colorless;163;Midori Harada;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112380/modif_dp/hoothoot.jpg;dp1
+93;;Rare;;Noarfang;Noctowl;Pokémon;Colorless;164;Atsuko Nishida;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112381/modif_dp/noarfang.jpg;dp1
+94;;Common;;Azurill;Azurill;Pokémon;Colorless;298;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112378/modif_dp/azurill.jpg;dp1
+95;;Common;;Etourmi;Starly;Pokémon;Colorless;396;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112380/modif_dp/etourmi.jpg;dp1
+96;;Uncommon;;Etourvol;Staravia;Pokémon;Colorless;397;Masakazu Fukuda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112379/modif_dp/Capture_d_e%CC%81cran_2020-05-10_a%CC%80_14.03.09.png;dp1
+97;;Rare Holo;;Etouraptor;Staraptor;Pokémon;Colorless;398;Masahiko Ishii;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472729.jpg;dp1
+98;;Common;;Keunotor;Bidoof;Pokémon;Colorless;399;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112380/modif_dp/keunotor.jpg;dp1
+99;;Rare;;Castorno;Bibarel;Pokémon;Colorless;400;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112379/modif_dp/castorno.jpg;dp1
+100;;Common;;Laporeille;Buneary;Pokémon;Colorless;427;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112380/modif_dp/laporeille.jpg;dp1
+101;;Rare;;Lockpin;Lopunny;Pokémon;Colorless;428;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472730.jpg;dp1
+102;;Common;;Chaglam;Glameow;Pokémon;Colorless;431;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112379/modif_dp/chaglam.jpg;dp1
+103;;Rare;;Chaffreux;Purugly;Pokémon;Colorless;432;Masakazu Fukuda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1472731.jpg;dp1
+104;;Common;;Pijako;Chatot;Pokémon;Colorless;441;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589112381/modif_dp/pijako.jpg;dp1
+105;;Uncommon;;Restauration d'Énergie;Energy Restore;Trainer;NoColor;;Hideyuki Nakajima;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114713/modif_dp/energy_restore.jpg;dp1
+106;;Uncommon;;Échange d'énergie;Energy Switch;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114713/modif_dp/energy_switch.jpg;dp1
+107;;Common;;Recherche d'Énergie;Energy Search;Trainer;NoColor;;Kai Ishikawa;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114713/modif_dp/energy_search.jpg;dp1
+108;;Common;;Potion;Potion;Trainer;NoColor;;Shin-ichi Yoshikawa;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/potion.jpg;dp1
+109;;Uncommon;;Super Rappel;Super Scoop Up;Trainer;NoColor;;Shizurow;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/super_scoop.jpg;dp1
+110;;Uncommon;;Double guérison totale;Double Full Heal;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114713/modif_dp/double_full_heal.jpg;dp1
+111;;Uncommon;;PlusPower;PlusPower;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/pluspower.jpg;dp1
+112;;Common;;Echange;Switch;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114715/modif_dp/switch.jpg;dp1
+113;;Uncommon;;Pokédex [HANDY910is];Pokédex HANDY910is;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/pokedex.jpg;dp1
+114;;Uncommon;;Poké Ball;Poké Ball;Trainer;NoColor;;Shin-ichi Yoshikawa;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/poke_ball.jpg;dp1
+115;;Uncommon;;Centre Pokémon de Nuit;Night Pokémon Center;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114713/modif_dp/night_center.jpg;dp1
+116;;Uncommon;;Point d'échange;Warp Point;Trainer;NoColor;;Keiji Kinebuchi;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114715/modif_dp/warp_point.jpg;dp1
+117;;Uncommon;;Prof. Sorbier;Professor Rowan;Trainer;NoColor;;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/professor.jpg;dp1
+118;;Uncommon;;Rival;Rival;Trainer;NoColor;;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/rival.jpg;dp1
+119;;Uncommon;;Stade Rapide;Speed Stadium;Trainer;NoColor;;Ryo Ueda;https://res.cloudinary.com/dkhwpritu/image/upload/v1589114714/modif_dp/speed_stadium.jpg;dp1

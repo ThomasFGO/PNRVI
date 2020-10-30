@@ -10,7 +10,7 @@ if @list.occi?
     json.number ref_card.number
     json.name ref_card.right_name
     json.pokedex_number ref_card.pokedex_number
-    json.url ref_card.right_url[0]
+    json.url cl_image_path ("lists/visuals/#{@list.bloc.en_name}/#{@list.code}/#{ref_card.rank}")
   end
 else
   json.symbol_url @list.symbol_url
@@ -19,6 +19,6 @@ else
     json.number ref_card.number
     json.name ref_card.right_name
     json.pokedex_number ref_card.pokedex_number
-    json.url cl_image_path ("jap_lists/visuals/#{@list.bloc.en_name}/#{@list.code}/#{ref_card.rank}.jpg")
+    json.url cl_image_path ("jap_lists/visuals/#{@list.bloc.en_name}/#{@list.code}/#{ref_card.rank}")
   end
 end

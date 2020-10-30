@@ -12,9 +12,15 @@
           <div class="bloc-header"><%= bloc.en_name %></div>
           <div class="bloc-lists">
             <% bloc.lists.order(:rank).each do |list| %>
-              <div class="list-card">
-                <%= link_to "#{list.name}",list_path(list) %>
-              </div>
+              <%= link_to list_path(list), :method => :get do %>
+                <div class="list-card">
+                  <% code_list = list.code %>
+                  <%= cl_image_tag(("jap_lists/logos/#{code_list}"), class: "logo-list-mini") %>
+                  <% unless @no_symbol_jap_lists.include?(code_list) %>
+                    <%= cl_image_tag(("jap_lists/symbols/#{code_list}"), class: "symbol-list-mini") %>
+                  <% end  %>
+                </div>
+              <% end %>
             <% end %>
           </div>
         </div>
