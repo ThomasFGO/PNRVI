@@ -36,95 +36,75 @@ require 'csv'
 # end
 # puts "#{List.occi.count} séries occidentales mises à jour"
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'japlists.csv'))
-# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-# csv.each do |row|
-#   l = List.jap.find_by(code: row['code'])
-#   if l.nil?
-#     l = List.new
-#   end
-#   l.bloc = Bloc.find_by(en_name: row['bloc'], jap: true)
-#   l.en_name = row['en_name']
-#   l.rank = row['rank']
-#   l.size = row['size']
-#   l.jap_release = row['jap_release']
-#   l.code = row['code']
-#   l.promo = row['promo']
-#   l.symbol_url = row['symbol_url']
-#   l.save
-# end
-# puts "#{List.jap.count} séries japonaises mises à jour"
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists.csv'))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  l = List.jap.find_by(code: row['code'])
+  if l.nil?
+    l = List.new
+  end
+  l.bloc = Bloc.find_by(en_name: row['bloc'], jap: true)
+  l.en_name = row['en_name']
+  l.rank = row['rank']
+  l.size = row['size']
+  l.jap_release = row['jap_release']
+  l.code = row['code']
+  l.promo = row['promo']
+  l.symbol_url = row['symbol_url']
+  l.save
+end
+puts "#{List.jap.count} séries japonaises mises à jour"
 
-
-#japlists.each do |japlist|
-  # csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'dp', 'dp1.csv'))
-  # csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-  # csv.each do |row|
-  #   rf = RefCard.new
-  #   rf.list = List.jap.find_by(code: row['list'])
-  #   rf.rank = row['rank']
-  #   rf.rarety_type = row['rarety_type']
-  #   rf.ultra_type = row['ultra_type']
-  #   rf.fr_name = row['fr_name']
-  #   rf.en_name = row['en_name']
-  #   rf.super_type = row['super_type']
-  #   rf.energy = row['energy']
-  #   rf.pokedex_number = row['pokedex_number']
-  #   rf.artist = row['artist']
-  #   rf.save
-  # end
-# end
-# puts "There are now #{RefCard.count} rows in the RefCard table"
 #Création/Mise à jour des cartes des séries japonaises
 
-jap_blocs = {
-  base:["base1", "base2", "base3", "base4"],
-  gym:["gym1", "gym2"],
-  neo:["neo1", "neo2", "neo3", "neo4"],
-  ecard:["ecard1", "ecard2", "ecard3", "ecard4", "ecard5", "ecardvs", "ecardweb"],
-  adv:["ex1", "ex2", "ex3", "ex4", "ex5"],
-  pcg:["ex6", "ex7", "ex8", "ex9", "ex10", "ex11", "ex12", "ex13", "ex14", "ex15"],
-  dp:["dp1d", "dp1p", "dp2", "dp3", "dp4a", "dp4b", "dp5a", "dp5b", "dp6"],
-  dpt:["pt1", "pt2", "pt3", "pt4"],
-  legend:["l1a", "l1b", "l2", "l3", "ll"],
-  bw:["bw1a", "bw1b", "bw2", "bw3a", "bw3b", "bw4", "bw5a", "bw5b",
-    "bw6a", "bw6b", "bw7", "bw8a", "bw8b", "bw9", "ebb"],
-  xy:[ "20th", "cp1", "cp2", "cp3", "cp4", "cp5", "cp6", "hxy", "xy",
-    "xy1a", "xy1b", "xy2", "xy3", "xy4", "xy5a", "xy5b", "xy6", "xy7",
-    "xy8a", "xy8b", "xy9","xy10", "xy11a", "xy11b"],
-  sm:[ "sm1m", "sm1s", "sm2k", "sm2l", "sm3+", "sm3h", "sm3n", "sm4+",
-    "sm4a", "sm4s", "sm5+", "sm5m", "sm5s", "sm6", "sm6a", "sm6b", "sm7",
-    "sm7a", "sm7b", "sm8", "sm8a","sm8b", "sm9", "sm9a", "sm9b", "sm10",
-    "sm10a", "sm10b", "sm11", "sm11a", "sm11b", "sm12", "sm12a", "smp2"],
-  ss:[ "s1a", "s1h", "s1w", "s2", "s2a", "s3", "s3a", "s4"]
-}
+# jap_blocs = {
+#   base:["base1", "base2", "base3", "base4"],
+#   gym:["gym1", "gym2"],
+#   neo:["neo1", "neo2", "neo3", "neo4"],
+#   ecard:["ecard1", "ecard2", "ecard3", "ecard4", "ecard5", "ecardvs", "ecardweb"],
+#   adv:["ex1", "ex2", "ex3", "ex4", "ex5"],
+#   pcg:["ex6", "ex7", "ex8", "ex9", "ex10", "ex11", "ex12", "ex13", "ex14", "ex15"],
+#   dp:["dp1d", "dp1p", "dp2", "dp3", "dp4a", "dp4b", "dp5a", "dp5b", "dp6"],
+#   dpt:["pt1", "pt2", "pt3", "pt4"],
+#   legend:["l1a", "l1b", "l2", "l3", "ll"],
+#   bw:["bw1a", "bw1b", "bw2", "bw3a", "bw3b", "bw4", "bw5a", "bw5b",
+#     "bw6a", "bw6b", "bw7", "bw8a", "bw8b", "bw9", "ebb"],
+#   xy:[ "20th", "cp1", "cp2", "cp3", "cp4", "cp5", "cp6", "hxy", "xy",
+#     "xy1a", "xy1b", "xy2", "xy3", "xy4", "xy5a", "xy5b", "xy6", "xy7",
+#     "xy8a", "xy8b", "xy9","xy10", "xy11a", "xy11b"],
+#   sm:[ "sm1m", "sm1s", "sm2k", "sm2l", "sm3+", "sm3h", "sm3n", "sm4+",
+#     "sm4a", "sm4s", "sm5+", "sm5m", "sm5s", "sm6", "sm6a", "sm6b", "sm7",
+#     "sm7a", "sm7b", "sm8", "sm8a","sm8b", "sm9", "sm9a", "sm9b", "sm10",
+#     "sm10a", "sm10b", "sm11", "sm11a", "sm11b", "sm12", "sm12a", "smp2"],
+#   ss:[ "s1a", "s1h", "s1w", "s2", "s2a", "s3", "s3a", "s4"]
+# }
 
-jap_blocs.each do |bloc, lists|
-  lists.each do |list|
-    csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', "#{bloc}", list + '.csv'))
-    csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-    list_id = List.jap.find_by(code: list)
-    csv.each do |row|
-      rf = RefCard.find_by(list_id: list_id, rank: row['rank'])
-      if rf.nil?
-        rf = RefCard.new
-      end
-      rf.list = List.jap.find_by(code: list)
-      rf.rank = row['rank']
-      rf.rarety_type = row['rarety_type']
-      rf.ultra_type = row['ultra_type']
-      rf.fr_name = row['fr_name']
-      rf.en_name = row['en_name']
-      rf.super_type = row['super_type']
-      rf.energy = row['energy']
-      rf.pokedex_number = row['pokedex_number']
-      rf.artist = row['artist']
-      rf.save
-    end
-    puts "japlist #{list} ok"
-  end
-  puts "#{bloc} ok"
-end
+# jap_blocs.each do |bloc, lists|
+#   lists.each do |list|
+#     csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', "#{bloc}", list + '.csv'))
+#     csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+#     list_id = List.jap.find_by(code: list)
+#     csv.each do |row|
+#       rf = RefCard.find_by(list_id: list_id, rank: row['rank'])
+#       if rf.nil?
+#         rf = RefCard.new
+#       end
+#       rf.list = List.jap.find_by(code: list)
+#       rf.rank = row['rank']
+#       rf.rarety_type = row['rarety_type']
+#       rf.ultra_type = row['ultra_type']
+#       rf.fr_name = row['fr_name']
+#       rf.en_name = row['en_name']
+#       rf.super_type = row['super_type']
+#       rf.energy = row['energy']
+#       rf.pokedex_number = row['pokedex_number']
+#       rf.artist = row['artist']
+#       rf.save
+#     end
+#     puts "japlist #{list} ok"
+#   end
+#   puts "#{bloc} ok"
+# end
 
 # occi_blocs = {
 #   ex:[ "ex1", "ex2", "ex3", "ex4", "ex5", "ex6", "ex7", "ex8",
