@@ -2,15 +2,25 @@ require 'csv'
 
 
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_blocs.csv'))
-# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-# csv.each do |row|
-#   b = Bloc.find_by(jap: true, rank: row['rank'])
-#   b.cl_name = row['cl_name']
-#   b.save
-# end
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_blocs.csv'))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  b = Bloc.find_by(jap: true, rank: row['rank'])
+  b.cl_name = row['cl_name']
+  b.save
+end
 
-#puts "#{Bloc.occi.count} occi blocs saved"
+puts "#{Bloc.jap.count} jap blocs saved"
+
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'blocs.csv'))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  b = Bloc.find_by(jap: false, rank: row['rank'])
+  b.cl_name = row['cl_name']
+  b.save
+end
+
+puts "#{Bloc.occi.count} occi blocs saved"
 
 
 # csv_text = File.read(Rails.root.join('lib', 'seeds', 'occi_lists.csv'))
@@ -36,24 +46,24 @@ require 'csv'
 # end
 # puts "#{List.occi.count} séries occidentales mises à jour"
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists.csv'))
-csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-csv.each do |row|
-  l = List.jap.find_by(code: row['code'])
-  if l.nil?
-    l = List.new
-  end
-  l.bloc = Bloc.find_by(en_name: row['bloc'], jap: true)
-  l.en_name = row['en_name']
-  l.rank = row['rank']
-  l.size = row['size']
-  l.jap_release = row['jap_release']
-  l.code = row['code']
-  l.promo = row['promo']
-  l.symbol_url = row['symbol_url']
-  l.save
-end
-puts "#{List.jap.count} séries japonaises mises à jour"
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists.csv'))
+# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+# csv.each do |row|
+#   l = List.jap.find_by(code: row['code'])
+#   if l.nil?
+#     l = List.new
+#   end
+#   l.bloc = Bloc.find_by(en_name: row['bloc'], jap: true)
+#   l.en_name = row['en_name']
+#   l.rank = row['rank']
+#   l.size = row['size']
+#   l.jap_release = row['jap_release']
+#   l.code = row['code']
+#   l.promo = row['promo']
+#   l.symbol_url = row['symbol_url']
+#   l.save
+# end
+# puts "#{List.jap.count} séries japonaises mises à jour"
 
 #Création/Mise à jour des cartes des séries japonaises
 
