@@ -23,28 +23,28 @@ require 'csv'
 # puts "#{Bloc.occi.count} occi blocs saved"
 
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'occi_lists.csv'))
-# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-# csv.each do |row|
-#   l = List.occi.find_by(code: row['code'])
-#   if l.nil?
-#     l = List.new
-#   end
-#   l.bloc = Bloc.find_by(fr_name: row['fr_name_bloc'], jap: false)
-#   l.fr_name = row['fr_name']
-#   l.en_name = row['en_name']
-#   l.rank = row['rank']
-#   l.code = row['code']
-#   l.promo = row['promo']
-#   l.fr_release = row['fr_release_date']
-#   l.us_release = row['us_release_date']
-#   l.size = row['size']
-#   l.us_logo_url = row['us_logo_url']
-#   l.fr_logo_url = row['fr_logo_url']
-#   l.symbol_url = row['symbol_url']
-#   l.save
-# end
-# puts "#{List.occi.count} séries occidentales mises à jour"
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'occi_lists.csv'))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  l = List.occi.find_by(code: row['code'])
+  if l.nil?
+    l = List.new
+  end
+  l.bloc = Bloc.find_by(fr_name: row['fr_name_bloc'], jap: false)
+  l.fr_name = row['fr_name']
+  l.en_name = row['en_name']
+  l.rank = row['rank']
+  l.code = row['code']
+  l.promo = row['promo']
+  l.fr_release = row['fr_release_date']
+  l.us_release = row['us_release_date']
+  l.size = row['size']
+  l.us_logo_url = row['us_logo_url']
+  l.fr_logo_url = row['fr_logo_url']
+  l.symbol_url = row['symbol_url']
+  l.save
+end
+puts "#{List.occi.count} séries occidentales mises à jour"
 
 # csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists.csv'))
 # csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
