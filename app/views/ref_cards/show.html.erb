@@ -3,7 +3,11 @@
     <div class="ref_card-content">
 
       <div class="ref_card-visual">
-        <%= cl_image_tag ("lists/visuals/#{@ref_card.list.bloc.cl_name}/#{@ref_card.list.code}/#{@ref_card.rank}.jpg"), class: "standard" %>
+        <% if @ref_card.jap? %>
+          <%= cl_image_tag ("jap_lists/visuals/#{@ref_card.list.bloc.cl_name}/#{@ref_card.list.code}/#{@ref_card.rank}"), class: "standard" %>
+        <% else %>
+          <%= cl_image_tag ("lists/visuals/#{@ref_card.list.bloc.cl_name}/#{@ref_card.list.code}/#{@ref_card.rank}"), class: "standard" %>
+        <% end %>
       </div>
 
       <div class="ref_card-body">

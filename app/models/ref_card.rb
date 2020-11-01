@@ -25,6 +25,10 @@ class RefCard < ApplicationRecord
   pg_search_scope :filter_by_rarety_type,
     against: :rarety_type
 
+  def jap?
+    list.jap?
+  end
+
   def right_name
     if fr_name.present?
       fr_name

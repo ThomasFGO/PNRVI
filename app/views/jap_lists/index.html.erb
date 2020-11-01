@@ -11,7 +11,7 @@
         <div class="bloc-container">
           <div class="bloc-header"><%= bloc.en_name %></div>
           <div class="bloc-lists">
-            <% bloc.lists.order(:rank).each do |list| %>
+            <% bloc.lists.order(rank: :desc).each do |list| %>
               <%= link_to list_path(list), :method => :get do %>
                 <div class="list-card">
                   <% code_list = list.code %>

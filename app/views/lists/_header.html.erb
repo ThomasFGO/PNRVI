@@ -2,16 +2,22 @@
   <div class="list_header-visuals">
     <% if @list.occi? %>
       <div class="logo">
-        <%= cl_image_tag ("lists/fr_logos/#{@list.code}"),
+        <%= cl_image_tag ("lists/fr_logos/#{@code_list}"),
         class: "logo-list-standard" %>
       </div>
       <div class="symbol">
-        <%= cl_image_tag ("lists/symbols/#{@list.code}"), class: "symbol-list" %>
+        <%= cl_image_tag ("lists/symbols/#{@code_list}"), class: "symbol-list-mini" %>
       </div>
-    <% elsif @list.symbol_url %>
-      <div class="symbol">
-        <%= image_tag @list.symbol_url, class: "symbol-list" %>
+    <% else %>
+      <div class="logo">
+        <%= cl_image_tag ("jap_lists/logos/#{@code_list}"),
+        class: "logo-list-standard" %>
       </div>
+      <% unless @no_symbol_jap_lists.include?(@code_list) %>
+        <div class="symbol">
+          <%= cl_image_tag ("jap_lists/symbols/#{@code_list}"), class: "symbol-list-mini" %>
+        </div>
+      <% end %>
     <% end %>
   </div>
   <div class="list_header-infos">
