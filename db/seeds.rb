@@ -174,14 +174,14 @@ require 'csv'
 
         #Upload des séries japonaises sur Cloudinary
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'ecard', 'ecardppc.csv'))
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', 'adv', 'advmcpack.csv'))
 # csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 # csv.each do |row|
 #   rank = row['rank']
 #   url = row['jap_url']
 #   Cloudinary::Uploader.upload("#{url}",
 #   :public_id => "#{rank}",
-#   :folder => "jap_lists/visuals/E-Card/ecardppc",
+#   :folder => "jap_lists/visuals/ADV/advmcpack",
 #   :format => "jpg")
 # end
 
