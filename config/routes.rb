@@ -26,7 +26,7 @@ Rails.application.routes.draw do
   end
   resources :ref_cards, only: [ :index ]
   resources :jap_lists, only: [ :index ]
-  get '/series' => 'blocs#index'
+  get '/series' => 'lists#index'
   resources :lists, only: [ :show ]
   resources :ref_cards, only: [ :index, :show ] do
     resources :cards, only: [ :new, :create, :delete ]

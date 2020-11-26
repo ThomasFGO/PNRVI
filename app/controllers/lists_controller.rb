@@ -1,4 +1,12 @@
 class ListsController < ApplicationController
+
+  AVAILABLE_BLOCS =
+    ["Base", "Gym", "Neo", "E-Card", "Ex", "DP", "Platinum", "HGSS", "BW", "XY", "SM", "SS"]
+
+  def index
+    @occi_blocs = Bloc.occi.where(cl_name: AVAILABLE_BLOCS).includes(:lists).order(rank: :desc)
+  end
+
   def show
     @no_symbol_jap_lists = ["base1", "ecardweb", "ecardvs"]
     @list = List.find(params[:id])

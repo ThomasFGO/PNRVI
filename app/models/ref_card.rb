@@ -29,7 +29,7 @@ class RefCard < ApplicationRecord
     list.jap?
   end
 
-  def right_name
+  def name
     if fr_name.present?
       fr_name
     else

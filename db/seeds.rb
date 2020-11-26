@@ -46,24 +46,24 @@ require 'csv'
 # end
 # puts "#{List.occi.count} séries occidentales mises à jour"
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists.csv'))
-csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-csv.each do |row|
-  l = List.jap.find_by(rank: row['rank'])
-  if l.nil?
-    l = List.new
-  end
-  l.bloc = Bloc.find_by(en_name: row['bloc'], jap: true)
-  l.en_name = row['en_name']
-  l.code = row['code']
-  l.size = row['size']
-  l.jap_release = row['jap_release']
-  l.code = row['code']
-  l.promo = row['promo']
-  l.symbol_url = row['symbol_url']
-  l.save
-end
-puts "#{List.jap.count} séries japonaises mises à jour"
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists.csv'))
+# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+# csv.each do |row|
+#   l = List.jap.find_by(rank: row['rank'])
+#   if l.nil?
+#     l = List.new
+#   end
+#   l.bloc = Bloc.find_by(en_name: row['bloc'], jap: true)
+#   l.en_name = row['en_name']
+#   l.code = row['code']
+#   l.size = row['size']
+#   l.jap_release = row['jap_release']
+#   l.code = row['code']
+#   l.promo = row['promo']
+#   l.symbol_url = row['symbol_url']
+#   l.save
+# end
+# puts "#{List.jap.count} séries japonaises mises à jour"
 
 #Création/Mise à jour des cartes des séries japonaises
 

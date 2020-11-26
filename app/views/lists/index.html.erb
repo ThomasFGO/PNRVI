@@ -7,10 +7,11 @@
           <div class="bloc-lists">
             <% bloc.lists.where(promo: false).order('rank DESC').each do |list| %>
               <div class="list-card">
-                <%= link_to list_path(list) do %>
-                  <%= cl_image_tag ("lists/fr_logos/#{list.code}"), class: "logo-list-mini" %>
-                  <%= cl_image_tag ("lists/symbols/#{list.code}"),class: "symbol-list-mini" %>
-                <% end  %>
+                <%#= link_to list_path(list) do %>
+                <%= list.name %>
+                  <%#= cl_image_tag ("lists/fr_logos/#{list.code}"), class: "logo-list-mini" %>
+                  <%#= cl_image_tag ("lists/symbols/#{list.code}"),class: "symbol-list-mini" %>
+                <%# end  %>
               </div>
             <% end %>
           </div>
