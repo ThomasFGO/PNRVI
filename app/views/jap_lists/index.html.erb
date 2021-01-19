@@ -1,34 +1,5 @@
 <div class="container">
-
-  <% unless user_signed_in? %>
-    <%#= render partial: "lists/home" %>
-  <% end %>
-
-  <div class="lists-container">
-    <!-- <div class="title"><h4>Les séries :</h4></div> -->
-    <div class="blocs-container">
-      <% @jap_blocs.each do |bloc| %>
-        <div class="bloc-container">
-          <div class="bloc-header"><%= bloc.en_name %></div>
-          <div class="bloc-lists">
-            <% bloc.lists.order(rank: :desc).each do |list| %>
-              <%#= link_to list_path(list), :method => :get do %>
-                <div class="list-card">
-                  <%#= list.name %>
-                  <% code_list = list.code %>
-                  <%#= image_tag("energy/#{search_card.ref_card.energy_icon}.png", height: "15") %>
-                  <%= image_tag(("ref_cards/jap_lists/logos/#{code_list}.png"), class: "logo-list-mini") %>
-                  <% unless @no_symbol_jap_lists.include?(code_list) %>
-                    <%= image_tag(("ref_cards/jap_lists/symbols/#{code_list}.png"), class: "symbol-list-mini") %>
-                  <% end  %>
-                </div>
-              <%# end %>
-            <% end %>
-          </div>
-        </div>
-      <% end %>
-    </div>
-  </div>
-
+  <%= render partial: "icones" %>
+  <%#= render partial: "table" %>
 </div>
 

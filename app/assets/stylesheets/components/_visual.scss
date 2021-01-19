@@ -1,22 +1,23 @@
-.card-element {
+.visual-box {
   height: 250px;
   width: 200px;
+  //border: 2px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   position: relative;
-  &:hover .buttons {
-    position: absolute;
-    bottom: 3px;
-    display: block;
-  }
-  &:hover .destroy_button {
-    position: absolute;
-    top: 3px;
-    right: 3px;
-    display: block;
-  }
+  // &:hover .buttons {
+  //   position: absolute;
+  //   bottom: 3px;
+  //   display: block;
+  // }
+  // &:hover .destroy_button {
+  //   position: absolute;
+  //   top: 3px;
+  //   right: 3px;
+  //   display: block;
+  // }
 }
 
 .shop-element {
@@ -58,7 +59,7 @@
 }
 
 @media all and (max-width: 500px) {
-  .card-element {
+  .visual-box {
     height: 200px;
     width: 160px;
   }
@@ -75,9 +76,11 @@
   }
   .mini {
   width: 130px;
+  height: 179px;
   &:hover {
       border-radius: 7px;
       width: 138px;
+      height: 190px;
     }
   }
 }

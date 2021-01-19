@@ -1,7 +1,9 @@
 // Import page-specific CSS files here.
 @import "home";
 @import "list";
-@import "lists";
+@import "lists/_lists";
+@import "lists/_table";
+@import "lists/_icones";
 @import "search_cards";
 @import "new_search_card";
 @import "new_shop_card";

@@ -1,49 +1,49 @@
-rank;number;rarety_type;fr_name;en_name;super_type;energy;pokedex_number;artist;jap_url;list
-1;1;Common;Herbizarre;Ivysaur;Pokémon;Grass;2;Mitsuhiro Arita;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364028/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.42.48.png;ecardweb
-2;2;Common;Nidoran M;Nidoran♂;Pokémon;Grass;32;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175112.jpg;ecardweb
-3;3;Common;Mimitoss;Venonat;Pokémon;Grass;48;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175123.jpg;ecardweb
-4;4;Common;Noeunoeuf;Exeggcute;Pokémon;Grass;102;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175098.jpg;ecardweb
-5;5;Common;Saquedeneu;Tangela;Pokémon;Grass;114;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175120.jpg;ecardweb
-6;6;Common;Caninos;Growlithe;Pokémon;Fire;58;Kagemaru Himeno;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364027/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.43.28.png;ecardweb
-7;7;Common;Reptincel;Charmeleon;Pokémon;Fire;5;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175083.jpg;ecardweb
-8;8;Common;Goupix;Vulpix;Pokémon;Fire;37;Atsuko Nishida;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364624/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_08.35.22.png;ecardweb
-9;9;Common;Carabaffe;Wartortle;Pokémon;Water;8;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175126.jpg;ecardweb
-10;10;Common;Marill;Marill;Pokémon;Water;183;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175107.jpg;ecardweb
-11;11;Common;Voltorbe;Voltorb;Pokémon;Lightning;100;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175124.jpg;ecardweb
-12;12;Common;Ramoloss;Slowpoke;Pokémon;Psychic;79;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175118.jpg;ecardweb
-13;13;Common;Taupiqueur;Diglett;Pokémon;Fighting;50;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175094.jpg;ecardweb
-14;14;Common;Kicklee;Hitmonlee;Pokémon;Fighting;106;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175102.jpg;ecardweb
-15;15;Common;Téléporteur de Léo;Bill's Teleporter;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175082.jpg;ecardweb
-16;16;Common;Nouveau Pokédex;New Pokédex;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175110.jpg;ecardweb
-17;17;Uncommon;Herbizarre;Dark Ivysaur;Pokémon;Grass;2;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175088.jpg;ecardweb
-18;18;Uncommon;Nidorino;Nidorino;Pokémon;Grass;33;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175113.jpg;ecardweb
-19;19;Uncommon;Aéromite;Venomoth;Pokémon;Grass;49;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175122.jpg;ecardweb
-20;20;Uncommon;Noadkoko;Exeggutor;Pokémon;Grass;103;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175099.jpg;ecardweb
-21;21;Uncommon;Smogogo Obscur;Dark Weezing;Pokémon;Grass;110;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175093.jpg;ecardweb
-22;22;Uncommon;Reptincel Obscur;Dark Charmeleon;Pokémon;Fire;5;Kagemaru Himeno;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364028/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.49.13.png;ecardweb
-23;23;Uncommon;Arcanin;Arcanine;Pokémon;Fire;59;Kagemaru Himeno;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364029/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.49.51.png;ecardweb
-24;24;Uncommon;Carabaffe Obscur;Dark Wartortle;Pokémon;Water;8;Kagemaru Himeno;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364028/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.50.32.png;ecardweb
-25;25;Uncommon;Pikachu Surfeur;Surfing Pikachu;Pokémon;Lightning;25;Toshinao Aoki;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364030/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.51.04.png;ecardweb
-26;26;Uncommon;Électrode Obscur;Dark Electrode;Pokémon;Lightning;101;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364029/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.52.13.png;ecardweb
-27;27;Uncommon;Kadabra Obscur;Dark Kadabra;Pokémon;Psychic;64;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175089.jpg;ecardweb
-28;28;Uncommon;Flagadoss Obscur;Dark Slowbro;Pokémon;Psychic;80;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175090.jpg;ecardweb
-29;29;Uncommon;Triopikeur;Dugtrio;Pokémon;Fighting;51;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175096.jpg;ecardweb
-30;30;Uncommon;Rappel Max;Max Revive;Trainer;NoColor;;Hikaru Koike;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175108.jpg;ecardweb
-31;31;Uncommon;Vaporisateur hyper retrograde;Hyper Devolution Spray;Trainer;NoColor;;K. Hoshiba;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175103.jpg;ecardweb
-32;32;Uncommon;Pokémon Retransfert;Pokémon Retransfer;Trainer;NoColor;;Hikaru Koike;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175115.jpg;ecardweb
-33;33;Rare;Nidoking;Nidoking;Pokémon;Grass;34;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364029/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.53.39.png;ecardweb
-34;34;Rare;Feunard;Ninetales;Pokémon;Fire;38;Ken Sugimori;https://66.media.tumblr.com/tumblr_mdq7xgkdIS1ribhioo2_250.jpg;ecardweb
-35;35;Rare;Magicarpe;Magikarp;Pokémon;Water;129;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364030/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.54.27.png;ecardweb
-36;36;Rare;Raichu;Raichu;Pokémon;Lightning;26;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175116.jpg;ecardweb
-37;37;Rare;Alakazam Obscur;Dark Alakazam;Pokémon;Psychic;65;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175084.jpg;ecardweb
-38;38;Rare;Dracolosse;Dragonite;Pokémon;Colorless;149;Toshinao Aoki;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364032/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.55.03.png;ecardweb
-39;39;Rare;Miaouss de la Team Rocket;Team Rocket's Meowth;Pokémon;Colorless;52;Kunihiko Yayama;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364030/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.57.47.png;ecardweb
-40;40;Rare;Attaque sournoise des Rocket;Rocket's Sneak Attack;Trainer;NoColor;;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364053/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.00.06.png;ecardweb
-41;41;Rare Holo;Florizarre Obscur;Dark Venusaur;Pokémon;Grass;3;Shin-ichi Yoshida;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364054/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.01.03.png;ecardweb
-42;42;Rare Holo;Dracaufeu Obscur;Dark Charizard;Pokémon;Fire;6;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364050/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.01.55.png;ecardweb
-43;43;Rare Holo;Sulfura;Moltres;Pokémon;Fire;146;Naoyo Kimura;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364053/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.03.01.png;ecardweb
-44;44;Rare Holo;Tortank Obscur;Dark Blastoise;Pokémon;Water;9;Mitsuhiro Arita;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364057/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.04.11.png;ecardweb
-45;45;Rare Holo;Artikodin;Articuno;Pokémon;Water;144;Naoyo Kimura;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364051/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.04.45.png;ecardweb
-46;46;Rare Holo;Électhor;Zapdos;Pokémon;Lightning;145;Naoyo Kimura;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364053/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.05.37.png;ecardweb
-47;47;Rare Holo;Ectoplasma;Gengar;Pokémon;Psychic;94;Hironobu Yoshida;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364052/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.06.47.png;ecardweb
-48;48;Rare Holo;Mackogneur;Machamp;Pokémon;Fighting;68;Tomokazu Komiya;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175105.jpg;ecardweb
+rank;number;rarety_type;fr_name;en_name;jap_name;super_type;energy;pokedex_number;artist;jap_url;list
+1;1;Common;Herbizarre;Ivysaur;フシギソウ;Pokémon;Grass;2;Mitsuhiro Arita;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364028/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.42.48.png;ecardweb
+2;2;Common;Nidoran M;Nidoran♂;ニドラン♂;Pokémon;Grass;32;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175112.jpg;ecardweb
+3;3;Common;Mimitoss;Venonat;コンパン;Pokémon;Grass;48;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175123.jpg;ecardweb
+4;4;Common;Noeunoeuf;Exeggcute;タマタマ;Pokémon;Grass;102;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175098.jpg;ecardweb
+5;5;Common;Saquedeneu;Tangela;モンジャラ;Pokémon;Grass;114;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175120.jpg;ecardweb
+6;6;Common;Caninos;Growlithe;ガーディ;Pokémon;Fire;58;Kagemaru Himeno;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364027/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.43.28.png;ecardweb
+7;7;Common;Reptincel;Charmeleon;リザード;Pokémon;Fire;5;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175083.jpg;ecardweb
+8;8;Common;Goupix;Vulpix;ロコン;Pokémon;Fire;37;Atsuko Nishida;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364624/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_08.35.22.png;ecardweb
+9;9;Common;Carabaffe;Wartortle;カメール;Pokémon;Water;8;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175126.jpg;ecardweb
+10;10;Common;Marill;Marill;マリル;Pokémon;Water;183;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175107.jpg;ecardweb
+11;11;Common;Voltorbe;Voltorb;ビリリダマ;Pokémon;Lightning;100;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175124.jpg;ecardweb
+12;12;Common;Ramoloss;Slowpoke;ヤドン;Pokémon;Psychic;79;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175118.jpg;ecardweb
+13;13;Common;Taupiqueur;Diglett;ディグダ;Pokémon;Fighting;50;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175094.jpg;ecardweb
+14;14;Common;Kicklee;Hitmonlee;サワムラー;Pokémon;Fighting;106;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175102.jpg;ecardweb
+15;15;Common;Téléporteur de Léo;Bill's Teleporter;マサキの転送装置;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175082.jpg;ecardweb
+16;16;Common;Nouveau Pokédex;New Pokédex;新ポケモン図鑑HANDY808;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175110.jpg;ecardweb
+17;17;Uncommon;Herbizarre;Dark Ivysaur;わるいフシギソウ;Pokémon;Grass;2;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175088.jpg;ecardweb
+18;18;Uncommon;Nidorino;Nidorino;ニドリーノ;Pokémon;Grass;33;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175113.jpg;ecardweb
+19;19;Uncommon;Aéromite;Venomoth;モルフォン;Pokémon;Grass;49;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175122.jpg;ecardweb
+20;20;Uncommon;Noadkoko;Exeggutor;ナッシー;Pokémon;Grass;103;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175099.jpg;ecardweb
+21;21;Uncommon;Smogogo Obscur;Dark Weezing;わるいマタドガス;Pokémon;Grass;110;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175093.jpg;ecardweb
+22;22;Uncommon;Reptincel Obscur;Dark Charmeleon;わるいリザード;Pokémon;Fire;5;Kagemaru Himeno;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364028/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.49.13.png;ecardweb
+23;23;Uncommon;Arcanin;Arcanine;ウインディ;Pokémon;Fire;59;Kagemaru Himeno;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364029/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.49.51.png;ecardweb
+24;24;Uncommon;Carabaffe Obscur;Dark Wartortle;わるいカメール;Pokémon;Water;8;Kagemaru Himeno;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364028/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.50.32.png;ecardweb
+25;25;Uncommon;Pikachu Surfeur;Surfing Pikachu;なみのりピカチュウ;Pokémon;Lightning;25;Toshinao Aoki;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364030/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.51.04.png;ecardweb
+26;26;Uncommon;Électrode Obscur;Dark Electrode;マルマイン;Pokémon;Lightning;101;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364029/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.52.13.png;ecardweb
+27;27;Uncommon;Kadabra Obscur;Dark Kadabra;わるいユンゲラー;Pokémon;Psychic;64;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175089.jpg;ecardweb
+28;28;Uncommon;Flagadoss Obscur;Dark Slowbro;わるいヤドラン;Pokémon;Psychic;80;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175090.jpg;ecardweb
+29;29;Uncommon;Triopikeur;Dugtrio;ダグトリオ;Pokémon;Fighting;51;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175096.jpg;ecardweb
+30;30;Uncommon;Rappel Max;Max Revive;げんきのかたまり;Trainer;NoColor;;Hikaru Koike;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175108.jpg;ecardweb
+31;31;Uncommon;Vaporisateur hyper retrograde;Hyper Devolution Spray;退化スプレーHYPER;Trainer;NoColor;;K. Hoshiba;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175103.jpg;ecardweb
+32;32;Uncommon;Pokémon Retransfert;Pokémon Retransfer;ポケモン再転送;Trainer;NoColor;;Hikaru Koike;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175115.jpg;ecardweb
+33;33;Rare;Nidoking;Nidoking;ニドキング;Pokémon;Grass;34;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364029/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.53.39.png;ecardweb
+34;34;Rare;Feunard;Ninetales;キュウコン;Pokémon;Fire;38;Ken Sugimori;https://66.media.tumblr.com/tumblr_mdq7xgkdIS1ribhioo2_250.jpg;ecardweb
+35;35;Rare;Magicarpe;Magikarp;コイキング;Pokémon;Water;129;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364030/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.54.27.png;ecardweb
+36;36;Rare;Raichu;Raichu;ライチュウ;Pokémon;Lightning;26;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175116.jpg;ecardweb
+37;37;Rare;Alakazam Obscur;Dark Alakazam;わるいフーディン;Pokémon;Psychic;65;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175084.jpg;ecardweb
+38;38;Rare;Dracolosse;Dragonite;カイリュー;Pokémon;Colorless;149;Toshinao Aoki;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364032/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.55.03.png;ecardweb
+39;39;Rare;Miaouss de la Team Rocket;Team Rocket's Meowth;ロケット団のニャース;Pokémon;Colorless;52;Kunihiko Yayama;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364030/modifs/Capture_d_e%CC%81cran_2020-04-19_a%CC%80_23.57.47.png;ecardweb
+40;40;Rare;Attaque sournoise des Rocket;Rocket's Sneak Attack;ロケット団のおねーさん;Trainer;NoColor;;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364053/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.00.06.png;ecardweb
+41;41;Rare Holo;Florizarre Obscur;Dark Venusaur;わるいフシギバナ;Pokémon;Grass;3;Shin-ichi Yoshida;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364054/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.01.03.png;ecardweb
+42;42;Rare Holo;Dracaufeu Obscur;Dark Charizard;わるいリザードン;Pokémon;Fire;6;Ken Sugimori;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364050/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.01.55.png;ecardweb
+43;43;Rare Holo;Sulfura;Moltres;ファイヤー;Pokémon;Fire;146;Naoyo Kimura;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364053/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.03.01.png;ecardweb
+44;44;Rare Holo;Tortank Obscur;Dark Blastoise;わるいカメックス;Pokémon;Water;9;Mitsuhiro Arita;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364057/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.04.11.png;ecardweb
+45;45;Rare Holo;Artikodin;Articuno;フリーザー;Pokémon;Water;144;Naoyo Kimura;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364051/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.04.45.png;ecardweb
+46;46;Rare Holo;Électhor;Zapdos;サンダー;Pokémon;Lightning;145;Naoyo Kimura;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364053/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.05.37.png;ecardweb
+47;47;Rare Holo;Ectoplasma;Gengar;ゲンガー;Pokémon;Psychic;94;Hironobu Yoshida;https://res.cloudinary.com/dkhwpritu/image/upload/v1587364052/modifs/Capture_d_e%CC%81cran_2020-04-20_a%CC%80_00.06.47.png;ecardweb
+48;48;Rare Holo;Mackogneur;Machamp;カイリキー;Pokémon;Fighting;68;Tomokazu Komiya;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175105.jpg;ecardweb

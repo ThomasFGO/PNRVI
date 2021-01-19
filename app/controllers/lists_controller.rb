@@ -14,9 +14,9 @@ class ListsController < ApplicationController
     @code_list = @list.code
     @ref_card_url =
       if @list.jap?
-        "jap_lists/visuals/#{@list.bloc.cl_name}/#{@code_list}"
+        "ref_cards/jap_lists/visuals/#{@list.bloc.cl_name}/#{@code_list}"
       else
-        "lists/visuals/#{@list.bloc.cl_name}/#{@code_list}"
+        "ref_cards/lists/visuals/#{@list.bloc.cl_name}/#{@code_list}"
       end
   end
 end

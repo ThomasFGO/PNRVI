@@ -1,97 +1,97 @@
-rank;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;jap_url;list
-1;Common;;Mystherbe;Oddish;Pokémon;Grass;43;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169078.jpg;neo1
-2;Uncommon;;Ortide;Gloom;Pokémon;Grass;44;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169059.jpg;neo1
-3;Common;;Germignon;Chikorita;Pokémon;Grass;152;Naoyo Kimura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1167888.jpg;neo1
-4;Uncommon;;Macronium;Bayleef;Pokémon;Grass;153;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1167286.jpg;neo1
-5;Rare Holo;;Méganium;Meganium;Pokémon;Grass;154;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1095436.jpg;neo1
-6;Common;;Coxy;Ledyba;Pokémon;Grass;165;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169067.jpg;neo1
-7;Uncommon;;Coxyclaque;Ledian;Pokémon;Grass;166;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169066.jpg;neo1
-8;Common;;Mimigal;Spinarak;Pokémon;Grass;167;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169091.jpg;neo1
-9;Uncommon;;Migalos;Ariados;Pokémon;Grass;168;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1173830.jpg;neo1
-10;Rare Holo;;Joliflor;Bellossom;Pokémon;Grass;182;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073883.jpg;neo1
-11;Common;;Granivol;Hoppip;Pokémon;Grass;187;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169063.jpg;neo1
-12;Uncommon;;Floravol;Skiploom;Pokémon;Grass;188;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106438.jpg;neo1
-13;Rare Holo;;Cotovol;Jumpluff;Pokémon;Grass;189;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073887.jpg;neo1
-14;Common;;Tournegrin;Sunkern;Pokémon;Grass;191;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169096.jpg;neo1
-15;Uncommon;;Heliatronc;Sunflora;Pokémon;Grass;192;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169095.jpg;neo1
-16;Common;;Caratroc;Shuckle;Pokémon;Grass;213;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106437.jpg;neo1
-17;Rare Holo;;Scarhino;Heracross;Pokémon;Grass;214;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104960.jpg;neo1
-18;Uncommon;;Magmar;Magmar;Pokémon;Fire;126;Naoyo Kimura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106436.jpg;neo1
-19;Common;;Héricendre;Cyndaquil;Pokémon;Fire;155;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169049.jpg;neo1
-20;Uncommon;;Feurisson;Quilava;Pokémon;Fire;156;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169086.jpg;neo1
-21;Rare Holo;;Typhlosion;Typhlosion;Pokémon;Fire;157;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1095419.jpg;neo1
-22;Rare;;Magby;Magby;Pokémon;Fire;240;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169068.jpg;neo1
-23;Common;;Hypotrempe;Horsea;Pokémon;Water;116;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169064.jpg;neo1
-24;Uncommon;;Hypocéan;Seadra;Pokémon;Water;117;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169087.jpg;neo1
-25;Common;;Kaiminus;Totodile;Pokémon;Water;158;Hironobu Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169101.jpg;neo1
-26;Uncommon;;Crocrodil;Croconaw;Pokémon;Water;159;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169048.jpg;neo1
-27;Rare Holo;;Aligatueur;Feraligatr;Pokémon;Water;160;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1095425.jpg;neo1
-28;Common;;Marill;Marill;Pokémon;Water;183;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149234.jpg;neo1
-29;Rare Holo;;Azumarill;Azumarill;Pokémon;Water;184;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073870.jpg;neo1
-30;Common;;Axoloto;Wooper;Pokémon;Water;194;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169102.jpg;neo1
-31;Uncommon;;Maraiste;Quagsire;Pokémon;Water;195;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169085.jpg;neo1
-32;Common;;Marcacrin;Swinub;Pokémon;Water;220;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106439.jpg;neo1
-33;Uncommon;;Cochignon;Piloswine;Pokémon;Water;221;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169081.jpg;neo1
-34;Common;;Demanta;Mantine;Pokémon;Water;226;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169069.jpg;neo1
-35;Rare Holo;;Hyporoi;Kingdra;Pokémon;Water;230;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073859.jpg;neo1
-36;Common;;Pikachu;Pikachu;Pokémon;Lightning;25;Naoyo Kimura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169080.jpg;neo1
-37;Uncommon;;Elektek;Electabuzz;Pokémon;Lightning;125;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1146426.jpg;neo1
-38;Common;;Loupio;Chinchou;Pokémon;Lightning;170;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169046.jpg;neo1
-39;Uncommon;;Lanturn;Lanturn;Pokémon;Lightning;171;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169065.jpg;neo1
-40;Rare Holo;;Pichu;Pichu;Pokémon;Lightning;172;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1095438.jpg;neo1
-41;Common;;Wattouat;Mareep;Pokémon;Lightning;179;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169070.jpg;neo1
-42;Uncommon;;Lainergie;Flaaffy;Pokémon;Lightning;180;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169055.jpg;neo1
-43;Rare Holo;;Pharamp;Ampharos;Pokémon;Lightning;181;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073886.jpg;neo1
-44;Rare;;Elekid;Elekid;Pokémon;Lightning;239;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169053.jpg;neo1
-45;Common;;Ramoloss;Slowpoke;Pokémon;Psychic;79;Tomokazu Komiya;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169089.jpg;neo1
-46;Common;;Natu;Natu;Pokémon;Psychic;177;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169075.jpg;neo1
-47;Uncommon;;Xatu;Xatu;Pokémon;Psychic;178;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169103.jpg;neo1
-48;Rare Holo;;Roigada;Slowking;Pokémon;Psychic;199;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073882.jpg;neo1
-49;Common;;Girafarig;Girafarig;Pokémon;Psychic;203;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106435.jpg;neo1
-50;Common;;Onix;Onix;Pokémon;Fighting;95;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149240.jpg;neo1
-51;Common;;Simularbre;Sudowoodo;Pokémon;Fighting;185;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169094.jpg;neo1
-52;Common;;Scorplane;Gligar;Pokémon;Fighting;207;Hironobu Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169058.jpg;neo1
-53;Uncommon;;Phanpy;Phanpy;Pokémon;Fighting;231;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169079.jpg;neo1
-54;Rare;;Donphan;Donphan;Pokémon;Fighting;232;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169050.jpg;neo1
-55;Rare;;Cornèbre;Murkrow;Pokémon;Darkness;198;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149236.jpg;neo1
-56;Rare;;Farfuret;Sneasel;Pokémon;Darkness;215;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149263.jpg;neo1
-57;Rare Holo;;Steelix;Steelix;Pokémon;Metal;208;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104981.jpg;neo1
-58;Rare Holo;;Airmure;Skarmory;Pokémon;Metal;227;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104979.jpg;neo1
-59;Uncommon;;Mélofée;Clefairy;Pokémon;Colorless;35;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169047.jpg;neo1
-60;Common;;Fouinette;Sentret;Pokémon;Colorless;161;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169088.jpg;neo1
-61;Uncommon;;Fouinar;Furret;Pokémon;Colorless;162;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169057.jpg;neo1
-62;Common;;Hoothoot;Hoothoot;Pokémon;Colorless;163;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169062.jpg;neo1
-63;Uncommon;;Noarfang;Noctowl;Pokémon;Colorless;164;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169077.jpg;neo1
-64;Rare;;Mélo;Cleffa;Pokémon;Colorless;173;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106434.jpg;neo1
-65;Uncommon;;Togepi;Togepi;Pokémon;Colorless;175;Naoyo Kimura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149265.jpg;neo1
-66;Rare Holo;;Togetic;Togetic;Pokémon;Colorless;176;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104982.jpg;neo1
-67;Uncommon;;Capumain;Aipom;Pokémon;Colorless;190;Hironobu Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169041.jpg;neo1
-68;Common;;Snubull;Snubbull;Pokémon;Colorless;209;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169090.jpg;neo1
-69;Uncommon;;Granbull;Granbull;Pokémon;Colorless;210;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169061.jpg;neo1
-70;Common;;Cerfrousse;Stantler;Pokémon;Colorless;234;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169093.jpg;neo1
-71;Uncommon;;Ecrémeuh;Miltank;Pokémon;Colorless;241;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169072.jpg;neo1
-72;Rare Holo;;Lugia;Lugia;Pokémon;Colorless;249;Hironobu Yoshida;https://res.cloudinary.com/dkhwpritu/image/upload/v1556964052/jap_lists/visuals/Neo/neo1/poknroll_number_72.jpg;neo1
-73;Rare;;Jeu d'Arcade;Arcade Game;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1173829.jpg;neo1
-74;Rare;;Ecostade;Ecogym;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169052.jpg;neo1
-75;Rare;;Charge d'Énergie;Energy Charge;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169054.jpg;neo1
-76;Rare;;Bandeau;Focus Band;Trainer;NoColor;;Tomokazu Komiya;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169056.jpg;neo1
-77;Rare;;Lula;Mary;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169071.jpg;neo1
-78;Rare;;Pokéquipement;PokéGear;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169082.jpg;neo1
-79;Rare;;Super sauvegarde d'Énergie;Super Energy Retrieval;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169097.jpg;neo1
-80;Rare;;Capsule temporelle;Time Capsule;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169100.jpg;neo1
-81;Uncommon;;Téléporteur de Léo;Bill's Teleporter;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169044.jpg;neo1
-82;Uncommon;;Jeu de chance;Card-Flip Game;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106432.jpg;neo1
-83;Uncommon;;Baie Dorée;Gold Berry;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169060.jpg;neo1
-84;Uncommon;;Baie Miracle;Miracle Berry;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169073.jpg;neo1
-85;Uncommon;;Nouveau Pokédex;New Pokédex;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169076.jpg;neo1
-86;Uncommon;;Professeur Orme;Professor Elm;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169084.jpg;neo1
-87;Uncommon;;Tour Chétiflor;Sprout Tower;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169092.jpg;neo1
-88;Uncommon;;Super Rappel;Super Scoop Up;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169099.jpg;neo1
-89;Common;;Baie;Berry;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106433.jpg;neo1
-90;Common;;Double Rafale;Double Gust;Trainer;NoColor;;Tomokazu Komiya;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169051.jpg;neo1
-91;Common;;Lait Meumeu;Moo-Moo Milk;Trainer;NoColor;;Tomokazu Komiya;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169074.jpg;neo1
-92;Common;;La marche des Pokémon;Pokémon March;Trainer;NoColor;;Tomokazu Komiya;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169083.jpg;neo1
-93;Common;;Méga Canne;Super Rod;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169098.jpg;neo1
-94;Rare Holo;;Énergie Métal;Metal Energy;Energy;NoColor;;Milky Isobe;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073875.jpg;neo1
-95;Rare;;Énergie Obscurité;Darkness Energy;Energy;NoColor;;Milky Isobe;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149196.jpg;neo1
-96;Rare;;Énergie Recyclage;Recycle Energy;Energy;NoColor;;Hideki Kazama;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149252.jpg;neo1
+rank;rarety_type;ultra_type;fr_name;en_name;jap_name;super_type;energy;pokedex_number;artist;jap_url;list
+1;Common;;Mystherbe;Oddish;ナゾノクサ;Pokémon;Grass;43;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169078.jpg;neo1
+2;Uncommon;;Ortide;Gloom;クサイハナ;Pokémon;Grass;44;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169059.jpg;neo1
+3;Common;;Germignon;Chikorita;チコリータ;Pokémon;Grass;152;Naoyo Kimura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1167888.jpg;neo1
+4;Uncommon;;Macronium;Bayleef;ベイリーフ;Pokémon;Grass;153;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1167286.jpg;neo1
+5;Rare Holo;;Méganium;Meganium;メガニウム;Pokémon;Grass;154;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1095436.jpg;neo1
+6;Common;;Coxy;Ledyba;レディバ;Pokémon;Grass;165;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169067.jpg;neo1
+7;Uncommon;;Coxyclaque;Ledian;レディアン;Pokémon;Grass;166;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169066.jpg;neo1
+8;Common;;Mimigal;Spinarak;イトマル;Pokémon;Grass;167;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169091.jpg;neo1
+9;Uncommon;;Migalos;Ariados;アリアドス;Pokémon;Grass;168;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1173830.jpg;neo1
+10;Rare Holo;;Joliflor;Bellossom;キレイハナ;Pokémon;Grass;182;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073883.jpg;neo1
+11;Common;;Granivol;Hoppip;ハネッコ;Pokémon;Grass;187;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169063.jpg;neo1
+12;Uncommon;;Floravol;Skiploom;ポポッコ;Pokémon;Grass;188;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106438.jpg;neo1
+13;Rare Holo;;Cotovol;Jumpluff;ワタッコ;Pokémon;Grass;189;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073887.jpg;neo1
+14;Common;;Tournegrin;Sunkern;ヒマナッツ;Pokémon;Grass;191;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169096.jpg;neo1
+15;Uncommon;;Heliatronc;Sunflora;キマワリ;Pokémon;Grass;192;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169095.jpg;neo1
+16;Common;;Caratroc;Shuckle;ツボツボ;Pokémon;Grass;213;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106437.jpg;neo1
+17;Rare Holo;;Scarhino;Heracross;ヘラクロス;Pokémon;Grass;214;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104960.jpg;neo1
+18;Uncommon;;Magmar;Magmar;ブーバー;Pokémon;Fire;126;Naoyo Kimura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106436.jpg;neo1
+19;Common;;Héricendre;Cyndaquil;ヒノアラシ;Pokémon;Fire;155;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169049.jpg;neo1
+20;Uncommon;;Feurisson;Quilava;マグマラシ;Pokémon;Fire;156;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169086.jpg;neo1
+21;Rare Holo;;Typhlosion;Typhlosion;バクフーン;Pokémon;Fire;157;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1095419.jpg;neo1
+22;Rare;;Magby;Magby;ブビィ;Pokémon;Fire;240;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169068.jpg;neo1
+23;Common;;Hypotrempe;Horsea;タッツー;Pokémon;Water;116;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169064.jpg;neo1
+24;Uncommon;;Hypocéan;Seadra;シードラ;Pokémon;Water;117;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169087.jpg;neo1
+25;Common;;Kaiminus;Totodile;ワニノコ;Pokémon;Water;158;Hironobu Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169101.jpg;neo1
+26;Uncommon;;Crocrodil;Croconaw;アリゲイツ;Pokémon;Water;159;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169048.jpg;neo1
+27;Rare Holo;;Aligatueur;Feraligatr;オーダイル;Pokémon;Water;160;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1095425.jpg;neo1
+28;Common;;Marill;Marill;マリル;Pokémon;Water;183;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149234.jpg;neo1
+29;Rare Holo;;Azumarill;Azumarill;マリルリ;Pokémon;Water;184;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073870.jpg;neo1
+30;Common;;Axoloto;Wooper;ウパー;Pokémon;Water;194;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169102.jpg;neo1
+31;Uncommon;;Maraiste;Quagsire;ヌオー;Pokémon;Water;195;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169085.jpg;neo1
+32;Common;;Marcacrin;Swinub;ウリムー;Pokémon;Water;220;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106439.jpg;neo1
+33;Uncommon;;Cochignon;Piloswine;イノムー;Pokémon;Water;221;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169081.jpg;neo1
+34;Common;;Demanta;Mantine;マンタイン;Pokémon;Water;226;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169069.jpg;neo1
+35;Rare Holo;;Hyporoi;Kingdra;キングドラ;Pokémon;Water;230;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073859.jpg;neo1
+36;Common;;Pikachu;Pikachu;ピカチュウ;Pokémon;Lightning;25;Naoyo Kimura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169080.jpg;neo1
+37;Uncommon;;Elektek;Electabuzz;エレブー;Pokémon;Lightning;125;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1146426.jpg;neo1
+38;Common;;Loupio;Chinchou;チョンチー;Pokémon;Lightning;170;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169046.jpg;neo1
+39;Uncommon;;Lanturn;Lanturn;ランターン;Pokémon;Lightning;171;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169065.jpg;neo1
+40;Rare Holo;;Pichu;Pichu;ピチュー;Pokémon;Lightning;172;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1095438.jpg;neo1
+41;Common;;Wattouat;Mareep;メリープ;Pokémon;Lightning;179;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169070.jpg;neo1
+42;Uncommon;;Lainergie;Flaaffy;モココ;Pokémon;Lightning;180;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169055.jpg;neo1
+43;Rare Holo;;Pharamp;Ampharos;デンリュウ;Pokémon;Lightning;181;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073886.jpg;neo1
+44;Rare;;Elekid;Elekid;エレキッド;Pokémon;Lightning;239;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169053.jpg;neo1
+45;Common;;Ramoloss;Slowpoke;ヤドン;Pokémon;Psychic;79;Tomokazu Komiya;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169089.jpg;neo1
+46;Common;;Natu;Natu;ネイティ;Pokémon;Psychic;177;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169075.jpg;neo1
+47;Uncommon;;Xatu;Xatu;ネイティオ;Pokémon;Psychic;178;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169103.jpg;neo1
+48;Rare Holo;;Roigada;Slowking;ヤドキング;Pokémon;Psychic;199;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073882.jpg;neo1
+49;Common;;Girafarig;Girafarig;キリンリキ;Pokémon;Psychic;203;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106435.jpg;neo1
+50;Common;;Onix;Onix;イワーク;Pokémon;Fighting;95;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149240.jpg;neo1
+51;Common;;Simularbre;Sudowoodo;ウソッキー;Pokémon;Fighting;185;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169094.jpg;neo1
+52;Common;;Scorplane;Gligar;グライガー;Pokémon;Fighting;207;Hironobu Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169058.jpg;neo1
+53;Uncommon;;Phanpy;Phanpy;ゴマゾウ;Pokémon;Fighting;231;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169079.jpg;neo1
+54;Rare;;Donphan;Donphan;ドンファン;Pokémon;Fighting;232;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169050.jpg;neo1
+55;Rare;;Cornèbre;Murkrow;ヤミカラス;Pokémon;Darkness;198;Shin-ichi Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149236.jpg;neo1
+56;Rare;;Farfuret;Sneasel;ニューラ;Pokémon;Darkness;215;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149263.jpg;neo1
+57;Rare Holo;;Steelix;Steelix;ハガネール;Pokémon;Metal;208;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104981.jpg;neo1
+58;Rare Holo;;Airmure;Skarmory;エアームド;Pokémon;Metal;227;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104979.jpg;neo1
+59;Uncommon;;Mélofée;Clefairy;ピッピ;Pokémon;Colorless;35;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169047.jpg;neo1
+60;Common;;Fouinette;Sentret;オタチ;Pokémon;Colorless;161;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169088.jpg;neo1
+61;Uncommon;;Fouinar;Furret;オオタチ;Pokémon;Colorless;162;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169057.jpg;neo1
+62;Common;;Hoothoot;Hoothoot;ホーホー;Pokémon;Colorless;163;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169062.jpg;neo1
+63;Uncommon;;Noarfang;Noctowl;ヨルノズク;Pokémon;Colorless;164;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169077.jpg;neo1
+64;Rare;;Mélo;Cleffa;ピィ;Pokémon;Colorless;173;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106434.jpg;neo1
+65;Uncommon;;Togepi;Togepi;トゲピー;Pokémon;Colorless;175;Naoyo Kimura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149265.jpg;neo1
+66;Rare Holo;;Togetic;Togetic;トゲチック;Pokémon;Colorless;176;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104982.jpg;neo1
+67;Uncommon;;Capumain;Aipom;エイパム;Pokémon;Colorless;190;Hironobu Yoshida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169041.jpg;neo1
+68;Common;;Snubull;Snubbull;ブルー;Pokémon;Colorless;209;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169090.jpg;neo1
+69;Uncommon;;Granbull;Granbull;グランブル;Pokémon;Colorless;210;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169061.jpg;neo1
+70;Common;;Cerfrousse;Stantler;オドシシ;Pokémon;Colorless;234;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169093.jpg;neo1
+71;Uncommon;;Ecrémeuh;Miltank;ミルタンク;Pokémon;Colorless;241;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169072.jpg;neo1
+72;Rare Holo;;Lugia;Lugia;ルギア;Pokémon;Colorless;249;Hironobu Yoshida;https://res.cloudinary.com/dkhwpritu/image/upload/v1556964052/jap_lists/visuals/Neo/neo1/poknroll_number_72.jpg;neo1
+73;Rare;;Jeu d'Arcade;Arcade Game;カードめくりゲーム;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1173829.jpg;neo1
+74;Rare;;Ecostade;Ecogym;エコロジム;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169052.jpg;neo1
+75;Rare;;Charge d'Énergie;Energy Charge;エネルギーチャージ;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169054.jpg;neo1
+76;Rare;;Bandeau;Focus Band;きあいのハチマキ;Trainer;NoColor;;Tomokazu Komiya;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169056.jpg;neo1
+77;Rare;;Lula;Mary;クルミ;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169071.jpg;neo1
+78;Rare;;Pokéquipement;PokéGear;ポケモンギア;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169082.jpg;neo1
+79;Rare;;Super sauvegarde d'Énergie;Super Energy Retrieval;超エネルギー回収;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169097.jpg;neo1
+80;Rare;;Capsule temporelle;Time Capsule;タイムカプセル;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169100.jpg;neo1
+81;Uncommon;;Téléporteur de Léo;Bill's Teleporter;マサキの転送装置;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169044.jpg;neo1
+82;Uncommon;;Jeu de chance;Card-Flip Game;スロットゲーム;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106432.jpg;neo1
+83;Uncommon;;Baie Dorée;Gold Berry;おうごんのみ;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169060.jpg;neo1
+84;Uncommon;;Baie Miracle;Miracle Berry;きせきのみ;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169073.jpg;neo1
+85;Uncommon;;Nouveau Pokédex;New Pokédex;新ポケモン図鑑HANDY808;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169076.jpg;neo1
+86;Uncommon;;Professeur Orme;Professor Elm;ウツギはかせ;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169084.jpg;neo1
+87;Uncommon;;Tour Chétiflor;Sprout Tower;マダツボミのとう;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169092.jpg;neo1
+88;Uncommon;;Super Rappel;Super Scoop Up;スーパーポケモン回収;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169099.jpg;neo1
+89;Common;;Baie;Berry;きのみ;Trainer;NoColor;;CR CG gangs;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1106433.jpg;neo1
+90;Common;;Double Rafale;Double Gust;ポケモンぎゃくしめい;Trainer;NoColor;;Tomokazu Komiya;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169051.jpg;neo1
+91;Common;;Lait Meumeu;Moo-Moo Milk;モーモーミルク;Trainer;NoColor;;Tomokazu Komiya;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169074.jpg;neo1
+92;Common;;La marche des Pokémon;Pokémon March;ポケモンマーチ;Trainer;NoColor;;Tomokazu Komiya;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169083.jpg;neo1
+93;Common;;Méga Canne;Super Rod;すごいつりざお;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1169098.jpg;neo1
+94;Rare Holo;;Énergie Métal;Metal Energy;鋼エネルギー;Energy;NoColor;;Milky Isobe;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073875.jpg;neo1
+95;Rare;;Énergie Obscurité;Darkness Energy;悪エネルギー;Energy;NoColor;;Milky Isobe;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149196.jpg;neo1
+96;Rare;;Énergie Recyclage;Recycle Energy;リサイクルエネルギー;Energy;NoColor;;Hideki Kazama;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149252.jpg;neo1

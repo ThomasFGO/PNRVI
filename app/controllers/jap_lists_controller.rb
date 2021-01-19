@@ -1,7 +1,7 @@
 class JapListsController < ApplicationController
 
   AVAILABLE_BLOCS =
-    ["Base", "Gym", "Neo", "E-Card", "ADV", "PCG"]
+    ["Base", "Gym", "Neo", "E-Card", "ADV", "PCG", "DP", "Platinum", "HGSS", "BW", "XY", "SM", "SS"]
 
   def index
     @no_symbol_jap_lists = ["base1", "ecardweb", "ecardvs"]

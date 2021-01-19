@@ -1,71 +1,71 @@
-rank;number;rarety_type;ultra_type;fr_name;en_name;super_type;energy;pokedex_number;artist;jap_url;list
-1;;;;;Caterpie;;Grass;;;https://images-na.ssl-images-amazon.com/images/I/51QoFVQTGZL._AC_SY400_.jpg;dp4b
-2;;;;;Metapod;;Grass;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10250.JPG;dp4b
-3;;;;;Butterfree;;Grass;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10249.JPG;dp4b
-4;;;;;Leafeon;;Grass;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463324.jpg;dp4b
-5;;;;;Treecko;;Grass;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10212.JPG;dp4b
-6;;;;;Grovyle;;Grass;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10211.JPG;dp4b
-7;;;;;Sceptile;;Grass;;;https://www.papermoonjapan-annex.com/data/papermoon/product/116436b252.jpg;dp4b
-8;;;;;Illumise;;Grass;;;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010016_P_IRUMIZE.jpg;dp4b
-9;;;;;Cacnea;;Grass;;;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010017_P_SABONEA.jpg;dp4b
-10;;;;;Leafeon LV.X;;Grass;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1467777.jpg;dp4b
-11;;;;;Flareon;;Fire;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463339.jpg;dp4b
-12;;;;;Moltres;;Fire;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1467790.jpg;dp4b
-13;;;;;Slugma;;Fire;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10218.JPG;dp4b
-14;;;;;Magcargo;;Fire;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10217.JPG;dp4b
-15;;;;;Krabby;;Water;;;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010028_P_KURABU.jpg;dp4b
-16;;;;;Kingler;;Water;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463337.jpg;dp4b
-17;;;;;Lapras;;Water;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10232.JPG;dp4b
-18;;;;;Glaceon;;Water;;;https://www.papermoonjapan-annex.com/data/papermoon/product/ba12253d80.jpg;dp4b
-19;;;;;Articuno;;Water;;;https://www.papermoonjapan-annex.com/data/papermoon/product/4ba2bd80ee.jpg;dp4b
-20;;;;;Delibird;;Water;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10216.JPG;dp4b
-21;;;;;Wingull;;Water;;;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010041_P_KYAMOME.jpg;dp4b
-22;;;;;Pelipper;;Water;;;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010042_P_PERIPPA.jpg;dp4b
-23;;;;;Clamperl;;Water;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10193.JPG;dp4b
-24;;;;;Huntail;;Water;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10191.JPG;dp4b
-25;;;;;Gorebyss;;Water;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10192.JPG;dp4b
-26;;;;;Luvdisc;;Water;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10190.JPG;dp4b
-27;;;;;Phione;;Water;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463330.jpg;dp4b
-28;;;;;Glaceon LV.X;;Water;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10254.JPG;dp4b
-29;;;;;Jolteon;;Lightning;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463340.jpg;dp4b
-30;;;;;Pachirisu;;Lightning;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10252.JPG;dp4b
-31;;;;;Ekans;;Psychic;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10246.JPG;dp4b
-32;;;;;Arbok;;Psychic;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10245.JPG;dp4b
-33;;;;;Espeon;;Psychic;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463341.jpg;dp4b
-34;;;;;Unown L;;Psychic;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10222.JPG;dp4b
-35;;;;;Unown P;;Psychic;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10221.JPG;dp4b
-36;;;;;Unown Q;;Psychic;;;https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0103/users/5e9c46e8d13b6194976e195472c36b9c92601a30/i-img720x1016-1584630202cocjcf310.jpg;dp4b
-37;;;;;Gardevoir;;Psychic;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10205.JPG;dp4b
-38;;;;;Gardevoir LV.X;;Psychic;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10251.JPG;dp4b
-39;;;;;Mankey;;Fighting;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10241.JPG;dp4b
-40;;;;;Primeape;;Fighting;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10240.JPG;dp4b
-41;;;;;Kabuto;;Fighting;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10227.JPG;dp4b
-42;;;;;Kabutops;;Fighting;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10226.JPG;dp4b
-43;;;;;Solrock;;Fighting;;;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP4/DP4_FR_85.png;dp4b
-44;;;;;Baltoy;;Fighting;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10195.JPG;dp4b
-45;;;;;Claydol;;Fighting;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10194.JPG;dp4b
-46;;;;;Igglybuff;;Colorless;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10244.JPG;dp4b
-47;;;;;Jigglypuff;;Colorless;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10243.JPG;dp4b
-48;;;;;Wigglytuff;;Colorless;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10242.JPG;dp4b
-49;;;;;Eevee;;Colorless;;;https://images-na.ssl-images-amazon.com/images/I/51XC0z9A4KL._AC_.jpg;dp4b
-50;;;;;Aerodactyl;;Colorless;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463342.jpg;dp4b
-51;;;;;Togepi;;Colorless;;;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010107_P_TOGEPI.jpg;dp4b
-52;;;;;Togetic;;Colorless;;;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010108_P_TOGECHIKKU.jpg;dp4b
-53;;;;;Togekiss;;Colorless;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10224.JPG;dp4b
-54;;;;;Zigzagoon;;Colorless;;;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010112_P_JIGUZAGUMA.jpg;dp4b
-55;;;;;Linoone;;Colorless;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10206.JPG;dp4b
-56;;;;;Swablu;;Colorless;;;https://cdn.bulbagarden.net/upload/6/65/010117_P_CHIRUTTO.jpg;dp4b
-57;;;;;Altaria;;Colorless;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10198.JPG;dp4b
-58;;;;;Zangoose;;Colorless;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10197.JPG;dp4b
-59;;;;;Latias;;Colorless;;;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463349.jpg;dp4b
-60;;;;;Cacturne;;Darkness;;;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010090_P_NOKUTASU.jpg;dp4b
-61;;;;;Mawile;;Metal;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10201.JPG;dp4b
-62;;;;;Rare Candy;;NoColor;;;https://images-na.ssl-images-amazon.com/images/I/51KYQoYIVCL._AC_SY445_.jpg;dp4b
-63;;;;;Premier Ball;;NoColor;;;https://images-na.ssl-images-amazon.com/images/I/51KHP%2Bcdb8L._AC_SY445_.jpg;dp4b
-64;;;;;Leftovers;;NoColor;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10189.JPG;dp4b
-65;;;;;Felicity's Drawing;;NoColor;;;https://images-na.ssl-images-amazon.com/images/I/51XVTt8NuFL._AC_SY445_.jpg;dp4b
-66;;;;;Dawn Stadium;;NoColor;;;https://images-na.ssl-images-amazon.com/images/I/51csbmz821L._AC_SY445_.jpg;dp4b
-67;;;;;Dome Fossil;;NoColor;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10179.JPG;dp4b
-68;;;;;Old Amber;;NoColor;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10188.JPG;dp4b
-69;;;;;Call Energy;;NoColor;;;https://d3rdng4e2gylew.cloudfront.net/pics/_2/273804/273804_1431080306418.jpg;dp4b
-70;;;;;Health Energy;;NoColor;;;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10182.JPG;dp4b
+rank;number;rarety_type;ultra_type;fr_name;en_name;jap_name;super_type;energy;pokedex_number;artist;jap_url;list
+1;;Common;;Chenipan;Caterpie;キャタピー;Pokémon;Grass;10;Midori Harada;https://images-na.ssl-images-amazon.com/images/I/51QoFVQTGZL._AC_SY400_.jpg;dp4b
+2;;Uncommon;;Chrysacier;Metapod;トランセル;Pokémon;Grass;11;Ken Sugimori;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10250.JPG;dp4b
+3;;Rare;;Papilusion;Butterfree;バタフリー;Pokémon;Grass;12;Sumiyoshi Kizuki;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10249.JPG;dp4b
+4;;Common;;Arcko;Treecko;キモリ;Pokémon;Grass;252;Kouki Saitou;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10212.JPG;dp4b
+5;;Uncommon;;Massko;Grovyle;ジュプトル;Pokémon;Grass;253;Kagemaru Himeno;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10211.JPG;dp4b
+6;;Rare Holo;;Jungko;Sceptile;ジュカイン;Pokémon;Grass;254;Masakazu Fukuda;https://www.papermoonjapan-annex.com/data/papermoon/product/116436b252.jpg;dp4b
+7;;Common;;Lumivole;Illumise;イルミーゼ;Pokémon;Grass;314;Ken Sugimori;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010016_P_IRUMIZE.jpg;dp4b
+8;;Common;;Cacnéa;Cacnea;サボネア;Pokémon;Grass;331;Saya　Tsuruta;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010017_P_SABONEA.jpg;dp4b
+9;;Rare Holo;;Phyllali;Leafeon;リーフィア;Pokémon;Grass;470;Masakazu Fukuda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463324.jpg;dp4b
+10;;Ultra;Niv.X;Phyllali Niv.X;Leafeon LV.X;リーフィア;Pokémon;Grass;470;Ryo Ueda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1467777.jpg;dp4b
+11;;Rare;;Pyroli;Flareon;ブースター;Pokémon;Fire;136;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463339.jpg;dp4b
+12;;Rare;;Sulfura;Moltres;ファイヤー;Pokémon;Fire;146;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1467790.jpg;dp4b
+13;;Common;;Limagma;Slugma;マグマッグ;Pokémon;Fire;218;Masakazu Fukuda;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10218.JPG;dp4b
+14;;Uncommon;;Volcaropod;Magcargo;マグカルゴ;Pokémon;Fire;219;Mitsuhiro Arita;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10217.JPG;dp4b
+15;;Common;;Krabby;Krabby;クラブ;Pokémon;Water;98;Ken Sugimori;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010028_P_KURABU.jpg;dp4b
+16;;Rare;;Krabboss;Kingler;キングラー;Pokémon;Water;99;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463337.jpg;dp4b
+17;;Rare;;Lokhlass;Lapras;ラプラス;Pokémon;Water;131;Atsuko Nishida;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10232.JPG;dp4b
+18;;Rare;;Artikodin;Articuno;フリーザー;Pokémon;Water;144;Masakazu Fukuda;https://www.papermoonjapan-annex.com/data/papermoon/product/4ba2bd80ee.jpg;dp4b
+19;;Uncommon;;Cadoizo;Delibird;デリバード;Pokémon;Water;225;Masakazu Fukuda;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10216.JPG;dp4b
+20;;Common;;Goelise;Wingull;キャモメ;Pokémon;Water;278;Ken Sugimori;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010041_P_KYAMOME.jpg;dp4b
+21;;Uncommon;;Bekipan;Pelipper;ペリッパー;Pokémon;Water;279;Ken Sugimori;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010042_P_PERIPPA.jpg;dp4b
+22;;Common;;Coquiperl;Clamperl;パールル;Pokémon;Water;366;Ken Sugimori;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10193.JPG;dp4b
+23;;Uncommon;;Serpang;Huntail;ハンテール;Pokémon;Water;367;Ken Sugimori;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10191.JPG;dp4b
+24;;Uncommon;;Rosabyss;Gorebyss;サクラビス;Pokémon;Water;368;Ken Sugimori;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10192.JPG;dp4b
+25;;Common;;Lovdisc;Luvdisc;ラブカス;Pokémon;Water;370;Motofumi Fujiwara;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10190.JPG;dp4b
+26;;Rare Holo;;Givrali;Glaceon;グレイシア;Pokémon;Water;471;Atsuko Nishida;https://www.papermoonjapan-annex.com/data/papermoon/product/ba12253d80.jpg;dp4b
+27;;Ultra;Niv.X;Givrali Niv.X;Glaceon LV.X;グレイシア;Pokémon;Water;471;Ryo Ueda;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10254.JPG;dp4b
+28;;Rare Holo;;Phione;Phione;フィオネ;Pokémon;Water;489;Daisuke Ito;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463330.jpg;dp4b
+29;;Rare;;Voltali;Jolteon;サンダース;Pokémon;Lightning;135;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463340.jpg;dp4b
+30;;Rare Holo;;Pachirisu;Pachirisu;パチリス;Pokémon;Lightning;417;Hironobu Yoshida;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10252.JPG;dp4b
+31;;Common;;Abo;Ekans;アーボ;Pokémon;Psychic;23;Ken Sugimori;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10246.JPG;dp4b
+32;;Uncommon;;Arbok;Arbok;アーボック;Pokémon;Psychic;24;Ken Sugimori;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10245.JPG;dp4b
+33;;Rare;;Mentali;Espeon;エーフィ;Pokémon;Psychic;196;Naoyo Kimura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463341.jpg;dp4b
+34;;Common;;Zarbi L;Unown L;アンノーン L;Pokémon;Psychic;201;Daisuke Ito;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10222.JPG;dp4b
+35;;Rare;;Zarbi P;Unown P;アンノーン P;Pokémon;Psychic;201;Daisuke Ito;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10221.JPG;dp4b
+36;;Uncommon;;Zarbi Q;Unown Q;アンノーン Q;Pokémon;Psychic;201;Kent Kanetsuna;https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0103/users/5e9c46e8d13b6194976e195472c36b9c92601a30/i-img720x1016-1584630202cocjcf310.jpg;dp4b
+37;;Rare Holo;;Gardevoir;Gardevoir;サーナイト;Pokémon;Psychic;282;Atsuko Nishida;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10205.JPG;dp4b
+38;;Ultra;Niv.X;Gardevoir Niv.X;Gardevoir LV.X;サーナイト;Pokémon;Psychic;282;Ryo Ueda;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10251.JPG;dp4b
+39;;Common;;Férosinge;Mankey;マンキー;Pokémon;Fighting;56;Ken Sugimori;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10241.JPG;dp4b
+40;;Rare;;Colossinge;Primeape;オコリザル;Pokémon;Fighting;57;Kagemaru Himeno;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10240.JPG;dp4b
+41;;Common;;Kabuto;Kabuto;カブト;Pokémon;Fighting;140;Midori Harada;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10227.JPG;dp4b
+42;;Rare Holo;;Kabutops;Kabutops;カブトプス;Pokémon;Fighting;141;Kouki Saitou;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10226.JPG;dp4b
+43;;Common;;Solaroc;Solrock;ソルロック;Pokémon;Fighting;338;Ken Sugimori;https://assets.pokemon.com/assets/cms2-fr-fr/img/cards/web/DP4/DP4_FR_85.png;dp4b
+44;;Common;;Balbuto;Baltoy;ヤジロン;Pokémon;Fighting;343;Sumiyoshi Kizuki;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10195.JPG;dp4b
+45;;Rare;;Kaorine;Claydol;ネンドール;Pokémon;Fighting;344;Midori Harada;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10194.JPG;dp4b
+46;;Common;;Rondoudou;Jigglypuff;プリン;Pokémon;Colorless;39;Kenkichi Toyama;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10243.JPG;dp4b
+47;;Rare;;Grodoudou;Wigglytuff;プクリン;Pokémon;Colorless;40;Kagemaru Himeno;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10242.JPG;dp4b
+48;;Common;;Évoli;Eevee;イーブイ;Pokémon;Colorless;133;Ken Sugimori;https://images-na.ssl-images-amazon.com/images/I/51XC0z9A4KL._AC_.jpg;dp4b
+49;;Rare;;Ptera;Aerodactyl;プテラ;Pokémon;Colorless;142;Kouki Saitou;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463342.jpg;dp4b
+50;;Common;;Toudoudou;Igglybuff;ププリン;Pokémon;Colorless;174;Ken Sugimori;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10244.JPG;dp4b
+51;;Common;;Togepi;Togepi;トゲピー;Pokémon;Colorless;175;Ken Sugimori;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010107_P_TOGEPI.jpg;dp4b
+52;;Uncommon;;Togetic;Togetic;トゲチック;Pokémon;Colorless;176;Kagemaru Himeno;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010108_P_TOGECHIKKU.jpg;dp4b
+53;;Common;;Zigzaton;Zigzagoon;ジグザグマ;Pokémon;Colorless;263;Ken Sugimori;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010112_P_JIGUZAGUMA.jpg;dp4b
+54;;Uncommon;;Lineon;Linoone;マッスグマ;Pokémon;Colorless;264;Kouki Saitou;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10206.JPG;dp4b
+55;;Common;;Tylton;Swablu;チルット;Pokémon;Colorless;333;Kanako Eo;https://cdn.bulbagarden.net/upload/6/65/010117_P_CHIRUTTO.jpg;dp4b
+56;;Rare;;Altaria;Altaria;チルタリス;Pokémon;Colorless;334;Kagemaru Himeno;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10198.JPG;dp4b
+57;;Common;;Mangriff;Zangoose;ザングース;Pokémon;Colorless;335;Masakazu Fukuda;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10197.JPG;dp4b
+58;;Rare;;Latias;Latias;ラティアス;Pokémon;Colorless;380;Daisuke Ito;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1463349.jpg;dp4b
+59;;Rare Holo;;Togekiss;Togekiss;トゲキッス;Pokémon;Colorless;468;Kent Kanetsuna;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10224.JPG;dp4b
+60;;Uncommon;;Cacturne;Cacturne;ノクタス;Pokémon;Darkness;332;Midori Harada;https://www.pokemon-card.com/assets/images/card_images/large/DP4/010090_P_NOKUTASU.jpg;dp4b
+61;;Rare;;Mysdibule;Mawile;クチート;Pokémon;Metal;303;Midori Harada;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10201.JPG;dp4b
+62;;Uncommon;;Super bonbon;Rare Candy;ふしぎなアメ;Trainer;NoColor;;Ryo Ueda;https://images-na.ssl-images-amazon.com/images/I/51KYQoYIVCL._AC_SY445_.jpg;dp4b
+63;;Uncommon;;Honor Ball;Premier Ball;プレミアボール;Trainer;NoColor;;Ryo Ueda;https://images-na.ssl-images-amazon.com/images/I/51KHP%2Bcdb8L._AC_SY445_.jpg;dp4b
+64;;Uncommon;;Restes;Leftovers;たべのこし;Trainer;NoColor;;Daisuke Ito;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10189.JPG;dp4b
+65;;Uncommon;;Le dessin de Felicity;Felicity's Drawing;スージーの抽選;Trainer;NoColor;;Ken Sugimori;https://images-na.ssl-images-amazon.com/images/I/51XVTt8NuFL._AC_SY445_.jpg;dp4b
+66;;Uncommon;;Stade crépuscule;Dawn Stadium;夜明けのスタジアム;Trainer;NoColor;;Ryo Ueda;https://images-na.ssl-images-amazon.com/images/I/51csbmz821L._AC_SY445_.jpg;dp4b
+67;;Uncommon;;Fossile Dôme;Dome Fossil;こうらの化石;Trainer;NoColor;;Ryo Ueda;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10179.JPG;dp4b
+68;;Uncommon;;Vieil Ambre;Old Amber;ひみつのコハク;Trainer;NoColor;;Ryo Ueda;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10188.JPG;dp4b
+69;;Uncommon;;Appel à l’énergie;Call Energy;コール・エネルギー;Energy;NoColor;;Takumi Akabane;https://d3rdng4e2gylew.cloudfront.net/pics/_2/273804/273804_1431080306418.jpg;dp4b
+70;;Uncommon;;Énergie santé;Health Energy;ヒーラー・エネルギー;Energy;NoColor;;Takumi Akabane;https://www.papermoonjapan-annex.com/data/papermoon/product/Scan10182.JPG;dp4b

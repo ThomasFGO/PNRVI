@@ -1,0 +1,53 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;jap_name;super_type;energy;pokedex_number;artist;jap_url;list
+1;1;Common;;Kraknoix;Trapinch δ;ナックラー δ;Pokémon;Grass;328;Hajime Kusajima;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470680.jpg;ex12
+2;2;Uncommon;;Vibraninf;Vibrava δ;ビブラーバ δ;Pokémon;Grass;329;Masakazu Fukuda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470681.jpg;ex12
+3;3;Rare Holo;;Libégon;Flygon δ;フライゴン δ;Pokémon;Grass;330;Kagemaru Himeno;https://res.cloudinary.com/dkhwpritu/image/upload/v1557078336/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_18.44.57.png;ex12
+4;4;Common;;Férosinge;Mankey δ;マンキー δ;Pokémon;Fire;56;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470682.jpg;ex12
+5;5;Uncommon;;Colossinge;Primeape δ;オコリザル δ;Pokémon;Fire;57;Hajime Kusajima;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470683.jpg;ex12
+6;6;Common;;Hypotrempe;Horsea δ;タッツー δ;Pokémon;Fire;116;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470684.jpg;ex12
+7;7;Uncommon;;Hypocéan;Seadra δ;シードラ δ;Pokémon;Fire;117;Kouki Saitou;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470685.jpg;ex12
+8;8;Ultra;Star;Léviator;Gyarados δ;ギャラドス☆ δ;Pokémon;Fire;130;Masakazu Fukuda;https://res.cloudinary.com/dkhwpritu/image/upload/v1557078072/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_18.55.07.png;ex12
+9;9;Uncommon;;Ptera;Aerodactyl δ;プテラ δ;Pokémon;Fire;142;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470686.jpg;ex12
+10;10;Rare Holo;;Latias;Latias δ;ラティアス δ;Pokémon;Fire;380;Masakazu Fukuda;https://res.cloudinary.com/dkhwpritu/image/upload/v1557078275/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_18.47.21.png;ex12
+11;11;Rare Holo;;Hyporoi;Kingdra δ;キングドラ δ;Pokémon;Fire;230;Masakazu Fukuda;https://res.cloudinary.com/dkhwpritu/image/upload/v1557078250/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_18.48.23.png;ex12
+12;12;Common;;Mystherbe;Oddish δ;ナゾノクサ δ;Pokémon;Water;43;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470687.jpg;ex12
+13;13;Uncommon;;Joliflor;Bellossom δ;キレイハナ δ;Pokémon;Water;182;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470688.jpg;ex12
+14;14;Rare Holo;;Latios;Latios δ;ラティオス δ;Pokémon;Water;381;Mitsuhiro Arita;https://res.cloudinary.com/dkhwpritu/image/upload/v1557079146/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_19.56.52.png;ex12
+15;15;Rare Holo;;Rayquaza;Rayquaza δ;レックウザ δ;Pokémon;Water;384;Mitsuhiro Arita;https://res.cloudinary.com/dkhwpritu/image/upload/v1557078186/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_18.50.46.png;ex12
+16;16;Common;;Roucool;Pidgey δ;ポッポ δ;Pokémon;Lightning;16;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470689.jpg;ex12
+17;17;Uncommon;;Roucoups;Pidgeotto δ;ピジョン δ;Pokémon;Lightning;17;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470690.jpg;ex12
+18;18;Common;;Psykokwak;Psyduck δ;コダック δ;Pokémon;Lightning;54;Hajime Kusajima;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470691.jpg;ex12
+19;19;Uncommon;;Akwakwak;Golduck δ;ゴルダック δ;Pokémon;Lightning;55;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470692.jpg;ex12
+20;20;Common;;Kabuto;Kabuto δ;カブト δ;Pokémon;Lightning;140;Hajime Kusajima;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470693.jpg;ex12
+21;21;Rare Holo;;Kabutops;Kabutops δ;カブトプス δ;Pokémon;Lightning;141;Masakazu Fukuda;https://res.cloudinary.com/dkhwpritu/image/upload/v1557078155/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_18.51.27.png;ex12
+22;22;Rare Holo;;Deoxys;Deoxys δ;デオキシス δ;Pokémon;Lightning;386;Masakazu Fukuda;https://res.cloudinary.com/dkhwpritu/image/upload/v1557078114/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_18.52.19.png;ex12
+23;23;Rare Holo;;Roucarnage;Pidgeot δ;ピジョット δ;Pokémon;Lightning;18;Kouki Saitou;https://res.cloudinary.com/dkhwpritu/image/upload/v1557078094/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_18.53.31.png;ex12
+24;24;Rare Holo;;Léviator;Gyarados δ;ギャラドス δ;Pokémon;Lightning;130;Hajime Kusajima;https://res.cloudinary.com/dkhwpritu/image/upload/v1557078304/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_18.45.29.png;ex12
+25;25;Uncommon;;Ortide;Gloom δ;クサイハナ δ;Pokémon;Psychic;44;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470694.jpg;ex12
+26;26;Common;;Amonita;Omanyte δ;オムナイト δ;Pokémon;Psychic;138;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470695.jpg;ex12
+27;27;Rare Holo;;Amonistar;Omastar δ;オムスター δ;Pokémon;Psychic;139;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1478503.jpg;ex12
+28;28;Rare Holo;;Rafflésia;Vileplume δ;ラフレシア δ;Pokémon;Psychic;45;Mitsuhiro Arita;https://res.cloudinary.com/dkhwpritu/image/upload/v1557078043/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_19.02.20.png;ex12
+29;29;Common;;Noeunoeuf;Exeggcute δ;タマタマ δ;Pokémon;Fighting;102;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470696.jpg;ex12
+30;30;Uncommon;;Noadkoko;Exeggutor δ;ナッシー δ;Pokémon;Fighting;103;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470697.jpg;ex12
+31;31;Common;;Carvanha;Carvanha δ;キバニア δ;Pokémon;Fighting;318;Kouki Saitou;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470698.jpg;ex12
+32;32;Uncommon;;Sharpedo;Sharpedo δ;サメハダー δ;Pokémon;Fighting;319;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470699.jpg;ex12
+33;33;Rare Holo;;Armaldo;Armaldo δ;アーマルド δ;Pokémon;Fighting;348;Masakazu Fukuda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1478505.jpg;ex12
+34;34;Uncommon;;Morpheo de Holon;Holon's Castform;ホロンのポワルン;Pokémon;Colorless;351;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470733.jpg;ex12
+35;35;Rare Holo;;Deoxys;Deoxys δ;デオキシス δ;Pokémon;Colorless;386;Kouki Saitou;https://res.cloudinary.com/dkhwpritu/image/upload/v1557078019/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_19.06.57.png;ex12
+36;36;Common;;Lilia;Lileep δ;リリーラ δ;Pokémon;Darkness;345;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470700.jpg;ex12
+37;37;Rare Holo;;Deoxys;Deoxys δ;デオキシス δ;Pokémon;Darkness;386;Mitsuhiro Arita;https://res.cloudinary.com/dkhwpritu/image/upload/v1557077996/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_19.09.37.png;ex12
+38;38;Common;;Miaouss;Meowth δ;ニャース δ;Pokémon;Darkness;52;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470701.jpg;ex12
+39;39;Uncommon;;Persian;Persian δ;ペルシアン δ;Pokémon;Darkness;53;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470702.jpg;ex12
+40;40;Rare Holo;;Vacilys;Cradily δ;ユレイドル δ;Pokémon;Darkness;346;Kouki Saitou;https://res.cloudinary.com/dkhwpritu/image/upload/v1557077977/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_19.10.12.png;ex12
+41;41;Common;;Pikachu;Pikachu δ;ピカチュウ δ;Pokémon;Metal;25;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470703.jpg;ex12
+42;42;Rare Holo;;Raichu;Raichu δ;ライチュウ δ;Pokémon;Metal;26;Masakazu Fukuda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1455850.jpg;ex12
+43;43;Common;;Magicarpe;Magikarp δ;コイキング δ;Pokémon;Metal;129;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470704.jpg;ex12
+44;44;Common;;Pichu;Pichu δ;ピチュー δ;Pokémon;Metal;172;Kouki Saitou;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470705.jpg;ex12
+45;45;Common;;Anorith;Anorith δ;アノプス δ;Pokémon;Metal;347;Hajime Kusajima;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470706.jpg;ex12
+46;46;Uncommon;;Eoko;Chimecho δ;チリーン δ;Pokémon;Metal;358;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470707.jpg;ex12
+47;47;Rare Holo;;Deoxys;Deoxys δ;デオキシス δ;Pokémon;Metal;386;Kagemaru Himeno;https://res.cloudinary.com/dkhwpritu/image/upload/v1557077961/modifs/Capture_d_e%CC%81cran_2019-05-05_a%CC%80_19.13.30.png;ex12
+48;48;Uncommon;;Super bonbon;Rare Candy;ふしぎなアメ;Trainer;NoColor;;Ryo Ueda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470708.jpg;ex12
+49;49;Uncommon;;Fossile Holon;Holon Fossil;ホロンの化石;Trainer;NoColor;;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470709.jpg;ex12
+50;50;Uncommon;;Aventurier Holon;Holon Adventurer;ホロンの冒険家;Trainer;NoColor;;Kouki Saitou;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470710.jpg;ex12
+51;51;Uncommon;;Lac Holon;Holon Lake;ホロンの湖;Trainer;NoColor;;Ryo Ueda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470711.jpg;ex12
+52;52;Uncommon;;Énergie Multicolore Delta;δ Rainbow Energy;δ レインボーエネルギー;Energy;NoColor;;Takumi Akabane;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1470712.jpg;ex12

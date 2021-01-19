@@ -1,97 +1,97 @@
-rank;rarety_type;ultra_type;fr_name;en_name;super_type;energy_type;pokedex_number;artist;jap_url
-1;Uncommon;;;Erika's Bulbasaur;Pokémon;Grass;1;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168314.jpg
-2;Common;;;Brock's Zubat;Pokémon;Grass;41;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168294.jpg
-3;Uncommon;;;Brock's Golbat;Pokémon;Grass;42;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168271.jpg
-4;Common;;;Erika's Oddish;Pokémon;Grass;43;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168330.jpg
-5;Common;;;Erika's Oddish;Pokémon;Grass;43;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168331.jpg
-6;Uncommon;;;Erika's Gloom;Pokémon;Grass;44;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168324.jpg
-7;Rare Holo;;;Erika's Vileplume;Pokémon;Grass;45;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168341.jpg
-8;Common;;;Erika's Paras;Pokémon;Grass;46;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168334.jpg
-9;Common;;;Erika's Bellsprout;Pokémon;Grass;69;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168313.jpg
-10;Uncommon;;;Erika's Bellsprout;Pokémon;Grass;69;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168311.jpg
-11;Uncommon;;;Erika's Weepinbell;Pokémon;Grass;70;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168342.jpg
-12;Rare;;;Erika's Victreebel;Pokémon;Grass;71;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168340.jpg
-13;Uncommon;;;Erika's Exeggcute;Pokémon;Grass;102;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168319.jpg
-14;Uncommon;;;Erika's Exeggutor;Pokémon;Grass;103;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168321.jpg
-15;Common;;;Erika's Tangela;Pokémon;Grass;114;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168337.jpg
-16;Rare Holo;;;Rocket's Scyther;Pokémon;Grass;123;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1093931.jpg
-17;Common;;;Brock's Vulpix;Pokémon;Fire;37;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168290.jpg
-18;Uncommon;;;Brock's Vulpix;Pokémon;Fire;37;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168291.jpg
-19;Rare Holo;;;Brock's Ninetales;Pokémon;Fire;38;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073803.jpg
-20;Rare Holo;;;Rocket's Moltres;Pokémon;Fire;146;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073791.jpg
-21;Common;;;Lt. Surge's Pikachu;Pokémon;Lightning;25;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168422.jpg
-22;Uncommon;;;Lt. Surge's Magnemite;Pokémon;Lightning;81;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168416.jpg
-23;Common;;;Lt. Surge's Magnemite;Pokémon;Lightning;81;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168419.jpg
-24;Rare Holo;;;Lt. Surge's Magneton;Pokémon;Lightning;82;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104965.jpg
-25;Common;;;Lt. Surge's Voltorb;Pokémon;Lightning;100;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168435.jpg
-26;Rare Holo;;;Lt. Surge's Electabuzz;Pokémon;Lightning;125;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073793.jpg
-27;Rare;;;Lt. Surge's Jolteon;Pokémon;Lightning;135;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073867.jpg
-28;Common;;;Misty's Psyduck;Pokémon;Water;54;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168459.jpg
-29;Rare Holo;;;Misty's Golduck;Pokémon;Water;55;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073813.jpg
-30;Common;;;Misty's Poliwag;Pokémon;Water;60;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168454.jpg
-31;Uncommon;;;Misty's Poliwhirl;Pokémon;Water;61;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168456.jpg
-32;Uncommon;;;Misty's Tentacool;Pokémon;Water;72;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168471.jpg
-33;Rare Holo;;;Misty's Tentacruel;Pokémon;Water;73;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1093940.jpg
-34;Common;;;Misty's Seel;Pokémon;Water;86;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168462.jpg
-35;Uncommon;;;Misty's Dewgong;Pokémon;Water;87;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168444.jpg
-36;Common;;;Misty's Horsea;Pokémon;Water;116;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168450.jpg
-37;Common;;;Misty's Horsea;Pokémon;Water;116;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168451.jpg
-38;Rare Holo;;;Misty's Seadra;Pokémon;Water;117;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1091158.jpg
-39;Rare;;;Misty's Goldeen;Pokémon;Water;118;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168448.jpg
-40;Common;;;Misty's Staryu;Pokémon;Water;120;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168466.jpg
-41;Common;;;Misty's Magikarp;Pokémon;Water;129;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168453.jpg
-42;Rare Holo;;;Misty's Gyarados;Pokémon;Water;130;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073828.jpg
-43;Common;;;Brock's Sandshrew;Pokémon;Fighting;27;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168285.jpg
-44;Rare;;;Brock's Sandslash;Pokémon;Fighting;28;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168287.jpg
-45;Common;;;Brock's Diglett;Pokémon;Fighting;50;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168264.jpg
-46;Common;;;Brock's Mankey;Pokémon;Fighting;56;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168277.jpg
-47;Uncommon;;;Brock's Primeape;Pokémon;Fighting;57;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168280.jpg
-48;Common;;;Brock's Geodude;Pokémon;Fighting;74;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168269.jpg
-49;Common;;;Brock's Geodude;Pokémon;Fighting;74;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168268.jpg
-50;Uncommon;;;Brock's Graveler;Pokémon;Fighting;75;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168275.jpg
-51;Rare;;;Brock's Golem;Pokémon;Fighting;76;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168272.jpg
-52;Common;;;Brock's Onix;Pokémon;Fighting;95;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175678.jpg
-53;Rare Holo;;;Rocket's Hitmonchan;Pokémon;Fighting;107;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073837.jpg
-54;Common;;;Brock's Rhyhorn;Pokémon;Fighting;111;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168283.jpg
-55;Rare Holo;;;Brock's Rhydon;Pokémon;Fighting;112;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073845.jpg
-56;Common;;;Lt. Surge's Rattata;Pokémon;Colorless;19;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168429.jpg
-57;Uncommon;;;Lt. Surge's Raticate;Pokémon;Colorless;20;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168426.jpg
-58;Common;;;Lt. Surge's Spearow;Pokémon;Colorless;21;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168431.jpg
-59;Rare Holo;;;Lt. Surge's Fearow;Pokémon;Colorless;22;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1093937.jpg
-60;Rare;;;Erika's Clefairy;Pokémon;Colorless;35;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168316.jpg
-61;Rare Holo;;;Erika's Clefable;Pokémon;Colorless;36;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073795.jpg
-62;Common;;;Erika's Jigglypuff;Pokémon;Colorless;39;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168327.jpg
-63;Uncommon;;;Brock's Lickitung;Pokémon;Colorless;108;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168276.jpg
-64;Uncommon;;;Lt. Surge's Eevee;Pokémon;Colorless;133;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168414.jpg
-65;Uncommon;;;Erika's Dratini;Pokémon;Colorless;147;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168317.jpg
-66;Rare Holo;;;Erika's Dragonair;Pokémon;Colorless;148;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1095423.jpg
-67;Rare Holo;;;Brock;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1110818.jpg
-68;Rare Holo;;;Erika;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073876.jpg
-69;Rare Holo;;;Lt. Surge;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1095434.jpg
-70;Rare Holo;;;Misty;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104968.jpg
-71;Rare Holo;;;The Rocket's Trap;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073824.jpg
-72;Rare;;;Charity;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168300.jpg
-73;Rare;;;The Rocket's Training Gym;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168552.jpg
-74;Uncommon;;;Brock's Training Method;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168289.jpg
-75;Uncommon;;;Celadon City Gym;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168295.jpg
-76;Uncommon;;;Cerulean City Gym;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168298.jpg
-77;Uncommon;;;Erika's Maids;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168328.jpg
-78;Uncommon;;;Erika's Perfume;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168335.jpg
-79;Uncommon;;;Lt. Surge's Treaty;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168433.jpg
-80;Uncommon;;;Misty's Wrath;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168475.jpg
-81;Uncommon;;;Pewter City Gym;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168479.jpg
-82;Uncommon;;;Recall;Trainer;NoColor;;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168485.jpg
-83;Uncommon;;;Vermilion City Gym;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168559.jpg
-84;Common;;;Energy Flow;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168306.jpg
-85;Common;;;Misty's Duel;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168446.jpg
-86;Rare;;;Brock's Protection;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168281.jpg
-87;Rare;;;Chaos Gym;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168299.jpg
-88;Rare;;;Erika's Kindness;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149201.jpg
-89;Rare;;;Lt. Surge's Secret Plan;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168430.jpg
-90;Rare;;;Misty's Wish;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1115049.jpg
-91;Rare;;;Resistance Gym;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168488.jpg
-92;Common;;;Misty's Tears;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168469.jpg
-93;Common;;;Narrow Gym;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168476.jpg
-94;Uncommon;;;Good Manners;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168376.jpg
-95;Rare;;;Secret Mission;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168549.jpg
-96;Rare;;;No Removal Gym;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168477.jpg
+rank;rarety_type;ultra_type;fr_name;en_name;jap_name;super_type;energy_type;pokedex_number;artist;jap_url
+1;Uncommon;;Bulbizarre d'Erika;Erika's Bulbasaur;エリカのフシギダネ;Pokémon;Grass;1;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168314.jpg
+2;Common;;Nosferapti de Pierre;Brock's Zubat;タケシのズバット;Pokémon;Grass;41;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168294.jpg
+3;Uncommon;;Nosferalto de Pierre;Brock's Golbat;タケシのゴルバット;Pokémon;Grass;42;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168271.jpg
+4;Common;;Mystherbe d'Erika;Erika's Oddish;エリカのナゾノクサ;Pokémon;Grass;43;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168330.jpg
+5;Common;;Mystherbe d'Erika;Erika's Oddish;エリカのナゾノクサ;Pokémon;Grass;43;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168331.jpg
+6;Uncommon;;Ortide d'Erika;Erika's Gloom;エリカのクサイハナ;Pokémon;Grass;44;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168324.jpg
+7;Rare Holo;;Rafflesia d'Erika;Erika's Vileplume;エリカのラフレシア;Pokémon;Grass;45;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168341.jpg
+8;Common;;Paras d'Erika;Erika's Paras;エリカのパラス;Pokémon;Grass;46;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168334.jpg
+9;Common;;Chétiflor d'Erika;Erika's Bellsprout;エリカのマダツボミ;Pokémon;Grass;69;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168313.jpg
+10;Uncommon;;Chétiflor d'Erika;Erika's Bellsprout;エリカのマダツボミ;Pokémon;Grass;69;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168311.jpg
+11;Uncommon;;Boustiflor d'Erika;Erika's Weepinbell;エリカのウツドン;Pokémon;Grass;70;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168342.jpg
+12;Rare;;Empiflor d'Erika;Erika's Victreebel;エリカのウツボット;Pokémon;Grass;71;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168340.jpg
+13;Uncommon;;Noeunoeuf d'Erika;Erika's Exeggcute;エリカのタマタマ;Pokémon;Grass;102;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168319.jpg
+14;Uncommon;;Noadkoko d'Erika;Erika's Exeggutor;エリカのナッシー;Pokémon;Grass;103;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168321.jpg
+15;Common;;Saquedeneu d'Erika;Erika's Tangela;エリカのモンジャラ;Pokémon;Grass;114;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168337.jpg
+16;Rare Holo;;Insécateur de Rocket;Rocket's Scyther;R団のストライク;Pokémon;Grass;123;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1093931.jpg
+17;Common;;Goupix d'Auguste;Brock's Vulpix;タケシのロコン;Pokémon;Fire;37;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168290.jpg
+18;Uncommon;;Goupix d'Auguste;Brock's Vulpix;タケシのロコン;Pokémon;Fire;37;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168291.jpg
+19;Rare Holo;;Feunard de Pierre;Brock's Ninetales;タケシのキュウコン;Pokémon;Fire;38;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073803.jpg
+20;Rare Holo;;Sulfura de Rocket;Rocket's Moltres;R団のファイヤー;Pokémon;Fire;146;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073791.jpg
+28;Common;;Psykokwak d'Ondine;Misty's Psyduck;カスミのコダック;Pokémon;Water;54;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168459.jpg
+29;Rare Holo;;Akwakwak d'Ondine;Misty's Golduck;カスミのゴルダック;Pokémon;Water;55;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073813.jpg
+30;Common;;Ptitard d'Ondine;Misty's Poliwag;カスミのニョロモ;Pokémon;Water;60;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168454.jpg
+31;Uncommon;;Têtarte d'Ondine;Misty's Poliwhirl;カスミのニョロゾ;Pokémon;Water;61;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168456.jpg
+32;Uncommon;;Tentacool d'Ondine;Misty's Tentacool;カスミのメノクラゲ;Pokémon;Water;72;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168471.jpg
+33;Rare Holo;;Tentacruel d'Ondine;Misty's Tentacruel;カスミのドククラゲ;Pokémon;Water;73;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1093940.jpg
+34;Common;;Otaria d'Ondine;Misty's Seel;カスミのパウワウ;Pokémon;Water;86;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168462.jpg
+35;Uncommon;;Lamantine d'Ondine;Misty's Dewgong;カスミのジュゴン;Pokémon;Water;87;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168444.jpg
+36;Common;;Hypotrempe d'Ondine;Misty's Horsea;カスミのタッツー;Pokémon;Water;116;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168450.jpg
+37;Common;;Hypotrempe d'Ondine;Misty's Horsea;カスミのタッツー;Pokémon;Water;116;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168451.jpg
+38;Rare Holo;;Hypocéan d'Ondine;Misty's Seadra;カスミのシードラ;Pokémon;Water;117;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1091158.jpg
+39;Rare;;Poissirène d'Ondine;Misty's Goldeen;カスミのトサキント;Pokémon;Water;118;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168448.jpg
+40;Common;;Stari d'Ondine;Misty's Staryu;カスミのヒトデマン;Pokémon;Water;120;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168466.jpg
+41;Common;;Magicarpe d'Ondine;Misty's Magikarp;カスミのコイキング;Pokémon;Water;129;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168453.jpg
+42;Rare Holo;;Léviator d'Ondine;Misty's Gyarados;カスミのギャラドス;Pokémon;Water;130;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073828.jpg
+21;Common;;Pikachu de Major Bob;Lt. Surge's Pikachu;マチスのピカチュウ;Pokémon;Lightning;25;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168422.jpg
+22;Uncommon;;Magnéti de Major Bob;Lt. Surge's Magnemite;マチスのコイル;Pokémon;Lightning;81;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168416.jpg
+23;Common;;Magnéti de Major Bob;Lt. Surge's Magnemite;マチスのコイル;Pokémon;Lightning;81;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168419.jpg
+24;Rare Holo;;Magnéton de Major Bob;Lt. Surge's Magneton;マチスのレアコイル;Pokémon;Lightning;82;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104965.jpg
+25;Common;;Voltorbe de Major Bob;Lt. Surge's Voltorb;マチスのビリリダマ;Pokémon;Lightning;100;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168435.jpg
+26;Rare Holo;;Élektek de Major Bob;Lt. Surge's Electabuzz;マチスのエレブー;Pokémon;Lightning;125;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073793.jpg
+27;Rare;;Voltali de Major Bob;Lt. Surge's Jolteon;マチスのサンダース;Pokémon;Lightning;135;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073867.jpg
+43;Common;;Sabelette de Pierre;Brock's Sandshrew;タケシサンド;Pokémon;Fighting;27;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168285.jpg
+44;Rare;;Sablaireau de Pierre;Brock's Sandslash;タケシのサンドパン;Pokémon;Fighting;28;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168287.jpg
+45;Common;;Taupiqueur de Pierre;Brock's Diglett;タケシのディグダ;Pokémon;Fighting;50;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168264.jpg
+46;Common;;Férosinge de Pierre;Brock's Mankey;タケシのマンキー;Pokémon;Fighting;56;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168277.jpg
+47;Uncommon;;Colossinge de Pierre;Brock's Primeape;タケシのオコリザル;Pokémon;Fighting;57;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168280.jpg
+48;Common;;Racaillou de Pierre;Brock's Geodude;タケシのイシツブテ;Pokémon;Fighting;74;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168269.jpg
+49;Common;;Racaillou de Pierre;Brock's Geodude;タケシのイシツブテ;Pokémon;Fighting;74;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168268.jpg
+50;Uncommon;;Gravalanch de Pierre;Brock's Graveler;タケシのゴローン;Pokémon;Fighting;75;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168275.jpg
+51;Rare;;Grolem de Pierre;Brock's Golem;タケシのゴローニャ;Pokémon;Fighting;76;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168272.jpg
+52;Common;;Onix de Pierre;Brock's Onix;タケシのイワーク;Pokémon;Fighting;95;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1175678.jpg
+53;Rare Holo;;Tygnon de Rocket;Rocket's Hitmonchan;R団のエビワラー;Pokémon;Fighting;107;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073837.jpg
+54;Common;;Rhinocorne de Pierre;Brock's Rhyhorn;タケシのサイホーン;Pokémon;Fighting;111;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168283.jpg
+55;Rare Holo;;Rhinoféros de Pierre;Brock's Rhydon;タケシのサイドン;Pokémon;Fighting;112;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073845.jpg
+56;Common;;Rattata de Major Bob;Lt. Surge's Rattata;マチスのコラッタ;Pokémon;Colorless;19;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168429.jpg
+57;Uncommon;;Rattatac de Major Bob;Lt. Surge's Raticate;マチスのラッタ;Pokémon;Colorless;20;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168426.jpg
+58;Common;;Piafabec de Major Bob;Lt. Surge's Spearow;マチスのオニスズメ;Pokémon;Colorless;21;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168431.jpg
+59;Rare Holo;;Rapasdepic de Major Bob;Lt. Surge's Fearow;マチスのオニドリル;Pokémon;Colorless;22;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1093937.jpg
+60;Rare;;Mélofée d'Erika;Erika's Clefairy;エリカのピッピ;Pokémon;Colorless;35;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168316.jpg
+61;Rare Holo;;Mélodelfe d'Erika;Erika's Clefable;エリカのピクシー;Pokémon;Colorless;36;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073795.jpg
+62;Common;;Rondoudou d'Erika;Erika's Jigglypuff;エリカのプリン;Pokémon;Colorless;39;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168327.jpg
+63;Uncommon;;Excelangue de Pierre;Brock's Lickitung;タケシのベロリンガ;Pokémon;Colorless;108;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168276.jpg
+64;Uncommon;;Évoli de Major Bob;Lt. Surge's Eevee;マチスのイーブイ;Pokémon;Colorless;133;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168414.jpg
+65;Uncommon;;Minidraco d'Erika;Erika's Dratini;エリカのミニリュウ;Pokémon;Colorless;147;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168317.jpg
+66;Rare Holo;;Draco d'Erika;Erika's Dragonair;エリカのハクリュー;Pokémon;Colorless;148;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1095423.jpg
+67;Rare Holo;;Pierre;Brock;タケシ;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1110818.jpg
+68;Rare Holo;;Erika;Erika;エリカ;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073876.jpg
+69;Rare Holo;;Major Bob;Lt. Surge;マチス;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1095434.jpg
+70;Rare Holo;;Ondine;Misty;カスミ;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1104968.jpg
+71;Rare Holo;;Le piège des Rocket;The Rocket's Trap;ロケット団のワナ;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1073824.jpg
+72;Rare;;Charité;Charity;お上品攻撃;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168300.jpg
+73;Rare;;Arène d'entraînement des Rocket;The Rocket's Training Gym;ロケット団の特訓ジム;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168552.jpg
+74;Uncommon;;Méthode d'Entraînement de Pierre;Brock's Training Method;タケシの育て方;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168289.jpg
+75;Uncommon;;Arène de Céladopole;Celadon City Gym;タマムシシティジム;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168295.jpg
+76;Uncommon;;Arène d'Azuria;Cerulean City Gym;ハナダシティジム;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168298.jpg
+77;Uncommon;;Servantes d'Erika;Erika's Maids;エリカのお付き;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168328.jpg
+78;Uncommon;;Parfum d'Erika;Erika's Perfume;エリカの香水;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168335.jpg
+79;Uncommon;;Traité de Major Bob;Lt. Surge's Treaty;マチスの交渉;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168433.jpg
+80;Uncommon;;La Colère d'Ondine;Misty's Wrath;カスミのいかり;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168475.jpg
+81;Uncommon;;Arène d'Argenta;Pewter City Gym;ニビシティジム;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168479.jpg
+82;Uncommon;;Rappel;Recall;思い出させる;Trainer;NoColor;;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168485.jpg
+83;Uncommon;;Arène de Carmin sur Mer;Vermilion City Gym;クチバシティジム;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168559.jpg
+84;Common;;Flux d'Énergie;Energy Flow;エネルギーサーキュレート;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168306.jpg
+85;Common;;Duel d'Ondine;Misty's Duel;カスミの勝負;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168446.jpg
+86;Rare;;Protection de Pierre;Brock's Protection;タケシの保護;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168281.jpg
+87;Rare;;Échange de déchets;Chaos Gym;錯乱ジム;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168299.jpg
+88;Rare;;Machine à Chatouilles;Erika's Kindness;エリカの親切;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1149201.jpg
+89;Rare;;Plan Secret de Major Bob;Lt. Surge's Secret Plan;マチスの秘策;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168430.jpg
+90;Rare;;Pari d'Auguste;Misty's Wish;カスミのわがまま;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1115049.jpg
+91;Rare;;Arène Résistance;Resistance Gym;抵抗力低下ジム;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168488.jpg
+92;Common;;Les larmes d'Ondine;Misty's Tears;カスミのなみだ;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168469.jpg
+93;Common;;Arène étroite;Narrow Gym;せまいジム;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168476.jpg
+94;Uncommon;;Bonnes Manières;Good Manners;礼儀作法;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168376.jpg
+95;Rare;;Mission Secrète;Secret Mission;スパイ作戦;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168549.jpg
+96;Rare;;Arène de Non Suppression;No Removal Gym;リムーブ禁止ジム;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1168477.jpg

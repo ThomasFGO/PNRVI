@@ -1,0 +1,331 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;jap_name;super_type;energy;pokedex_number;artist;jap_url;list
+1;1;;;;Rowlet ;モクロー;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Rowlet.S4A.1.36317.png;s4
+2;2;;;;Dartrix ;フクスロー;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Dartrix.S4A.2.36318.png;s4
+3;3;;;;Decidueye ;ジュナイパー;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Decidueye.S4A.3.35862.png;s4
+4;4;;;;Wimpod ;コソクムシ;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Wimpod.S4A.4.36319.png;s4
+5;5;;;;Golisopod ;グソクムシャ;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Golisopod.S4A.5.36320.png;s4
+6;6;;;;Grookey ;サルノリ;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Grookey.S4A.6.36321.png;s4
+7;7;;;;Thwackey ;バチンキー;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Thwackey.S4A.7.36322.png;s4
+8;8;;;;Rillaboom ;ゴリランダー;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Rillaboom.S4A.8.36323.png;s4
+9;9;;;;Rillaboom V ;ゴリランダーV;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Rillaboom-V.S4A.9.35869.png;s4
+10;10;;;;Rillaboom VMAX ;ゴリランダーVMAX;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Rillaboom-VMAX.S4A.10.36324.png;s4
+11;11;;;;Blipbug ;サッチムシ;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Blipbug.S4A.11.36325.png;s4
+12;12;;;;Dottler ;レドームシ;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Dottler.S4A.12.36326.png;s4
+13;13;;;;Orbeetle ;イオルブ;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Orbeetle.S4A.13.36327.png;s4
+14;14;;;;Gossifleur ;ヒメンカ;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Gossifleur.S4A.14.36328.png;s4
+15;15;;;;Eldegoss ;ワタシラガ;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Eldegoss.S4A.15.36329.png;s4
+16;16;;;;Eldegoss V ;ワタシラガV;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Eldegoss-V.S4A.16.35881.png;s4
+17;17;;;;Applin ;カジッチュ;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Applin.S4A.17.36330.png;s4
+18;18;;;;Flapple ;アップリュー;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Flapple.S4A.18.36331.png;s4
+19;19;;;;Appletun ;タルップル;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Appletun.S4A.19.36332.png;s4
+20;20;;;;Heatran ;ヒードラン;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Heatran.S4A.20.36333.png;s4
+21;21;;Amazing;;Reshiram ;レシラム;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Reshiram.S4A.21.36163.png;s4
+22;22;;;;Scorbunny ;ヒバニー;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Scorbunny.S4A.22.36334.png;s4
+23;23;;;;Raboot ;ラビフット;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Raboot.S4A.23.36335.png;s4
+24;24;;;;Cinderace ;エースバーン;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Cinderace.S4A.24.36336.png;s4
+25;25;;;;Sizzlipede ;ヤクデ;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Sizzlipede.S4A.25.36337.png;s4
+26;26;;;;Centiskorch ;マルヤクデ;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Centiskorch.S4A.26.36338.png;s4
+27;27;;;;Centiskorch V ;マルヤクデV;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Centiskorch-V.S4A.27.36339.png;s4
+28;28;;;;Centiskorch VMAX ;マルヤクデVMAX;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Centiskorch-VMAX.S4A.28.36340.png;s4
+29;29;;;;Galarian Mr. Mime ;ガラルバリヤード;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Galarian-Mr-Mime.S4A.29.36341.png;s4
+30;30;;;;Galarian Mr. Rime ;ガラルバリコオル;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Galarian-Mr-Rime.S4A.30.36342.png;s4
+31;31;;;;Lapras V ;ラプラスV;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Lapras-V.S4A.31.36343.png;s4
+32;32;;;;Lapras VMAX ;ラプラスVMAX;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Lapras-VMAX.S4A.32.36344.png;s4
+33;33;;;;Suicune ;スイクン;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Suicune.S4A.33.36345.png;s4
+34;34;;;;Feebas ;ヒンバス;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Feebas.S4A.34.36346.png;s4
+35;35;;;;Milotic ;ミロカロス;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Milotic.S4A.35.36347.png;s4
+36;36;;;;Kyogre ;カイオーガ;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Kyogre.S4A.36.36164.png;s4
+37;37;;;;Galarian Darumaka ;ガラルダルマッカ;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Galarian-Darumaka.S4A.37.36348.png;s4
+38;38;;;;Galarian Darmanitan ;ガラルヒヒダルマ;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Galarian-Darmanitan.S4A.38.36349.png;s4
+39;39;;;;Sobble ;メッソン;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Sobble.S4A.39.36350.png;s4
+40;40;;;;Drizzile ;ジメレオン;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Drizzile.S4A.40.36351.png;s4
+41;41;;;;Inteleon ;インテレオン;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Inteleon.S4A.41.36352.png;s4
+42;42;;;;Chewtle ;カムカメ;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Chewtle.S4A.42.36353.png;s4
+43;43;;;;Drednaw ;カジリガメ;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Drednaw.S4A.43.36354.png;s4
+44;44;;;;Cramorant ;ウッウ;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Cramorant.S4A.44.36355.png;s4
+45;45;;;;Arrokuda ;サシカマス;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Arrokuda.S4A.45.36356.png;s4
+46;46;;;;Barraskewda ;カマスジョー;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Barraskewda.S4A.46.36357.png;s4
+47;47;;;;Snom ;ユキハミ;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Snom.S4A.47.36358.png;s4
+48;48;;;;Frosmoth ;モスノウ;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Frosmoth.S4A.48.36359.png;s4
+49;49;;;;Eiscue ;コオリッポ;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Eiscue.S4A.49.36360.png;s4
+50;50;;;;Dracovish ;ウオノラゴン;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Dracovish.S4A.50.36361.png;s4
+51;51;;;;Arctovish ;ウオチルドン;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Arctovish.S4A.51.36362.png;s4
+52;52;;;;Rotom ;ロトム;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Rotom.S4A.52.36363.png;s4
+53;53;;;;Tapu Koko ;カプ・コケコ;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Tapu-Koko.S4A.53.36364.png;s4
+54;54;;;;Yamper ;ワンパチ;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Yamper.S4A.54.36365.png;s4
+55;55;;;;Boltund ;パルスワン;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Boltund.S4A.55.36366.png;s4
+56;56;;;;Boltund V ;パルスワンV;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Boltund-V.S4A.56.35868.png;s4
+57;57;;;;Toxel ;エレズン;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Toxel.S4A.57.36367.png;s4
+58;58;;;;Toxtricity ;ストリンダー;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Toxtricity.S4A.58.36368.png;s4
+59;59;;;;Toxtricity V ;ストリンダーV;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Toxtricity-V.S4A.59.35872.png;s4
+60;60;;;;Toxtricity VMAX ;ストリンダーVMAX;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Toxtricity-VMAX.S4A.60.35871.png;s4
+61;61;;;;Pincurchin ;バチンウニ;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Pincurchin.S4A.61.36369.png;s4
+62;62;;;;Morpeko ;モルペコ;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Morpeko.S4A.62.36370.png;s4
+63;63;;;;Dracozolt ;パッチラゴン;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Dracozolt.S4A.63.36371.png;s4
+64;64;;;;Arctozolt ;パッチルドン;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Arctozolt.S4A.64.36372.png;s4
+65;65;;;;Clefairy ;ピッピ;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Clefairy.S4A.65.36373.png;s4
+66;66;;;;Clefable ;ピクシー;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Clefable.S4A.66.36374.png;s4
+67;67;;;;Galarian Ponyta ;ガラルポニータ;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Galarian-Ponyta.S4A.67.36375.png;s4
+68;68;;;;Galarian Rapidash ;ガラルギャロップ;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Galarian-Rapidash.S4A.68.36376.png;s4
+69;69;;;;Gastly ;ゴース;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Gastly.S4A.69.36377.png;s4
+70;70;;;;Haunter ;ゴースト;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Haunter.S4A.70.36378.png;s4
+71;71;;;;Gengar ;ゲンガー;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Gengar.S4A.71.36379.png;s4
+72;72;;;;Galarian Corsola ;ガラルサニーゴ;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Galarian-Corsola.S4A.72.36380.png;s4
+73;73;;;;Galarian Cursola ;ガラルサニゴーン;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Galarian-Cursola.S4A.73.36381.png;s4
+74;74;;;;Sigilyph ;シンボラー;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Sigilyph.S4A.74.36382.png;s4
+75;75;;;;Dedenne ;デデンネ;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Dedenne.S4A.75.36383.png;s4
+76;76;;;;Sinistea ;ヤバチャ;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Sinistea.S4A.76.36384.png;s4
+77;77;;;;Polteageist ;ポットデス;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Polteageist.S4A.77.36385.png;s4
+78;78;;;;Hatenna ;ミブリム;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Hatenna.S4A.78.36386.png;s4
+79;79;;;;Hattrem ;テブリム;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Hattrem.S4A.79.36387.png;s4
+80;80;;;;Hatterene ;ブリムオン;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Hatterene.S4A.80.36388.png;s4
+81;81;;;;Milcery ;マホミル;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Milcery.S4A.81.36389.png;s4
+82;82;;;;Alcremie ;マホイップ;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Alcremie.S4A.82.36390.png;s4
+83;83;;;;Indeedee ;イエッサン;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Indeedee.S4A.83.36391.png;s4
+84;84;;;;Indeedee V ;イエッサンV;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Indeedee-V.S4A.84.36392.png;s4
+85;85;;;;Dreepy ;ドラメシヤ;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Dreepy.S4A.85.36393.png;s4
+86;86;;;;Drakloak ;ドロンチ;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Drakloak.S4A.86.36394.png;s4
+87;87;;;;Dragapult ;ドラパルト;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Dragapult.S4A.87.36395.png;s4
+88;88;;;;Dragapult V ;ドラパルトV;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Dragapult-V.S4A.88.35879.png;s4
+89;89;;;;Dragapult VMAX ;ドラパルトVMAX;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Dragapult-VMAX.S4A.89.35880.png;s4
+90;90;;;;Galarian Farfetch'd ;ガラルカモネギ;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Galarian-Farfetchd.S4A.90.36396.png;s4
+91;91;;;;Galarian Sirfetch'd ;ガラルネギガナイト;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Galarian-Sirfetchd.S4A.91.36397.png;s4
+92;92;;;;Galarian Yamask ;ガラルデスマス;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Galarian-Yamask.S4A.92.36398.png;s4
+93;93;;;;Galarian Runerigus ;ガラルデスバーン;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Galarian-Runerigus.S4A.93.36399.png;s4
+94;94;;;;Rolycoly ;タンドン;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Rolycoly.S4A.94.36400.png;s4
+95;95;;;;Carkol ;トロッゴン;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Carkol.S4A.95.36401.png;s4
+96;96;;;;Coalossal ;セキタンザン;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Coalossal.S4A.96.36402.png;s4
+97;97;;;;Silicobra ;スナヘビ;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Silicobra.S4A.97.36403.png;s4
+98;98;;;;Sandaconda ;サダイジャ;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Sandaconda.S4A.98.36404.png;s4
+99;99;;;;Clobbopus ;タタッコ;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Clobbopus.S4A.99.36405.png;s4
+100;100;;;;Grapploct ;オトスパス;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Grapploct.S4A.100.36406.png;s4
+101;101;;;;Falinks ;タイレーツ;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Falinks.S4A.101.36407.png;s4
+102;102;;;;Falinks V ;タイレーツV;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Falinks-V.S4A.102.36408.png;s4
+103;103;;;;Stonjourner ;イシヘンジン;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Stonjourner.S4A.103.36409.png;s4
+104;104;;;;Koffing ;ドガース;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Koffing.S4A.104.36410.png;s4
+105;105;;;;Galarian Weezing ;ガラルマタドガス;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Galarian-Weezing.S4A.105.36411.png;s4
+106;106;;;;Spinarak ;イトマル;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Spinarak.S4A.106.36412.png;s4
+107;107;;;;Ariados ;アリアドス;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Ariados.S4A.107.36413.png;s4
+108;108;;;;Crobat V ;クロバットV;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Crobat-V.S4A.108.35882.png;s4
+109;109;;;;Crobat VMAX ;クロバットVMAX;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Crobat-VMAX.S4A.109.36162.png;s4
+110;110;;;;Galarian Zigzagoon ;ガラルジグザグマ;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Galarian-Zigzagoon.S4A.110.35860.png;s4
+111;111;;;;Galarian Linoone ;ガラルマッスグマ;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Galarian-Linoone.S4A.111.36414.png;s4
+112;112;;;;Galarian Obstagoon ;ガラルタチフサグマ;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Galarian-Obstagoon.S4A.112.36415.png;s4
+113;113;;;;Croagunk ;グレッグル;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Croagunk.S4A.113.36416.png;s4
+114;114;;;;Toxicroak ;ドクロッグ;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Toxicroak.S4A.114.36417.png;s4
+115;115;;;;Trubbish ;ヤブクロン;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Trubbish.S4A.115.36418.png;s4
+116;116;;;;Garbodor ;ダストダス;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Garbodor.S4A.116.36419.png;s4
+117;117;;;;Yveltal ;イベルタル;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Yveltal.S4A.117.36165.png;s4
+118;118;;;;Hoopa ;フーパ;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Hoopa.S4A.118.36420.png;s4
+119;119;;;;Nickit ;クスネ;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Nickit.S4A.119.36421.png;s4
+120;120;;;;Thievul ;フォクスライ;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Thievul.S4A.120.36422.png;s4
+121;121;;;;Impidimp ;ベロバー;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Impidimp.S4A.121.36423.png;s4
+122;122;;;;Morgrem ;ギモー;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Morgrem.S4A.122.36424.png;
+123;123;;;;Grimmsnarl ;オーロンゲ;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Grimmsnarl.S4A.123.36425.png;
+124;124;;;;Eternatus V ;ムゲンダイナV;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Eternatus-V.S4A.124.35878.png;
+125;125;;;;Eternatus VMAX ;ムゲンダイナVMAX;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Eternatus-VMAX.S4A.125.35877.png;
+126;126;;;;Galarian Meowth ;ガラルニャース;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Galarian-Meowth.S4A.126.36426.png;
+127;127;;;;Galarian Perrserker ;ガラルニャイキング;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Galarian-Perrserker.S4A.127.35867.png;
+128;128;;;;Galarian Stunfisk ;ガラルマッギョ;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Galarian-Stunfisk.S4A.128.36427.png;
+129;129;;;;Honedge ;ヒトツキ;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Honedge.S4A.129.36428.png;
+130;130;;;;Doublade ;ニダンギル;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Doublade.S4A.130.36429.png;
+131;131;;;;Aegislash ;ギルガルド;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Aegislash.S4A.131.36430.png;
+132;132;;;;Corviknight ;アーマーガア;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Corviknight.S4A.132.36431.png;
+133;133;;;;Cufant ;ゾウドウ;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Cufant.S4A.133.36432.png;
+134;134;;;;Copperajah ;ダイオウドウ;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Copperajah.S4A.134.36433.png;
+135;135;;;;Duraludon ;ジュラルドン;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Duraludon.S4A.135.36434.png;
+136;136;;;;Zacian ;ザシアン;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Zacian.S4A.136.36435.png;
+137;137;;;;Zacian V ;ザシアンV;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Zacian-V.S4A.137.35874.png;
+138;138;;;;Zamazenta ;ザマゼンタ;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Zamazenta.S4A.138.35875.png;
+139;139;;;;Zamazenta V ;ザマゼンタV;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Zamazenta-V.S4A.139.35873.png;
+140;140;;;;Ditto V ;メタモンV;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Ditto-V.S4A.140.35876.png;
+141;141;;;;Ditto VMAX ;メタモンVMAX;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Ditto-VMAX.S4A.141.36161.png;
+142;142;;;;Minccino ;チラーミィ;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Minccino.S4A.142.36436.png;
+143;143;;;;Cinccino ;チラチーノ;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Cinccino.S4A.143.35866.png;
+144;144;;;;Ducklett ;コアルヒー;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Ducklett.S4A.144.36437.png;
+145;145;;;;Swanna ;スワンナ;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Swanna.S4A.145.36438.png;
+146;146;;;;Bunnelby ;ホルビー;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Bunnelby.S4A.146.36439.png;
+147;147;;;;Oranguru ;ヤレユータン;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Oranguru.S4A.147.35864.png;
+148;148;;;;Skwovet ;ホシガリス;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Skwovet.S4A.148.36440.png;
+149;149;;;;Greedent ;ヨクバリス;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Greedent.S4A.149.36441.png;
+150;150;;;;Rookidee ;ココガラ;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Rookidee.S4A.150.36442.png;
+151;151;;;;Corvisquire ;アオガラス;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Corvisquire.S4A.151.36443.png;
+152;152;;;;Wooloo ;ウールー;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Wooloo.S4A.152.36444.png;
+153;153;;;;Dubwool ;バイウールー;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Dubwool.S4A.153.36445.png;
+154;154;;;;Dubwool V ;バイウールーV;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Dubwool-V.S4A.154.35870.png;
+155;155;;;;Cramorant V ;ウッウV;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Cramorant-V.S4A.155.36446.png;
+156;156;;;;Team Yell's Cheering Towel ;エール団のおうえんタオル;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Team-Yells-Cheering-Towel.S4A.156.36447.png;
+157;157;;;;Scoop Up Net ;回収ネット;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Scoop-Up-Net.S4A.157.35887.png;
+158;158;;;;Quick Ball ;クイックボール;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Quick-Ball.S4A.158.35888.png;
+159;159;;;;Evolution Incense ;しんかのおこう;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Evolution-Incense.S4A.159.35889.png;
+160;160;;;;Hyper Potion ;すごいきずぐすり;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Hyper-Potion.S4A.160.36448.png;
+161;161;;;;Turbo Patch ;ターボパッチ;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Turbo-Patch.S4A.161.36147.png;
+162;162;;;;Capacious Bucket ;たっぷりバケツ;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Capacious-Bucket.S4A.162.36449.png;
+163;163;;;;Tool Scrapper ;ツールスクラッパー;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Tool-Scrapper.S4A.163.36148.png;
+164;164;;;;Ordinary Rod ;ふつうのつりざお;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Ordinary-Rod.S4A.164.36450.png;
+165;165;;;;Rare Fossil ;めずらしい化石;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Rare-Fossil.S4A.165.36451.png;
+166;166;;;;Metal Saucer ;メタルソーサー;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Metal-Saucer.S4A.166.36452.png;
+167;167;;;;Rotom Bike ;ロトムじてんしゃ;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Rotom-Bike.S4A.167.36453.png;
+168;168;;;;Rusted Sword ;くちたけん;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Rusted-Sword.S4A.168.36454.png;
+169;169;;;;Rusted Shield ;くちたたて;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Rusted-Shield.S4A.169.36455.png;
+170;170;;;;Cape of Toughness ;タフネスマント;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Cape-of-Toughness.S4A.170.36456.png;
+171;171;;;;Air Balloon ;ふうせん;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Air-Balloon.S4A.171.36457.png;
+172;172;;;;Bird Keeper ;とりつかい;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Bird-Keeper.S4A.172.36458.png;
+173;173;;;;Piers ;ネズ;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Piers.S4A.173.36459.png;
+174;174;;;;Professor's Research ;博士の研究（マグノリア博士）;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Professors-Research.S4A.174.35884.png;
+175;175;;;;Ball Guy ;ボールガイ;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Ball-Guy.S4A.175.36460.png;
+176;176;;;;Boss's Orders ;ボスの指令（サカキ）;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Bosss-Orders.S4A.176.35885.png;
+177;177;;;;Marnie ;マリィ;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Marnie.S4A.177.35883.png;
+178;178;;;;Rose ;ローズ;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Rose.S4A.178.36461.png;
+179;179;;;;Turffield Stadium ;ターフスタジアム;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Turffield-Stadium.S4A.179.36462.png;
+180;180;;;;Training Court ;トレーニングコート;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Training-Court.S4A.180.36463.png;
+181;181;;;;Glimwood Tangle ;ルミナスメイズの森;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Glimwood-Tangle.S4A.181.36464.png;
+182;182;;;;Rose Tower ;ローズタワー;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Rose-Tower.S4A.182.36465.png;
+183;183;;;;Heat Energy ;ヒート炎エネルギー;Energy;NoColor;;;https://pod.pokellector.com/cards/301/Heat-Energy.S4A.183.36466.png;
+184;184;;;;Speed Lightning Energy ;スピード雷エネルギー;Energy;NoColor;;;https://pod.pokellector.com/cards/301/Speed-Lightning-Energy.S4A.184.35886.png;
+185;185;;;;Horror Energy ;ホラー超エネルギー;Energy;NoColor;;;https://pod.pokellector.com/cards/301/Horror-Energy.S4A.185.36467.png;
+186;186;;;;Hiding Energy ;ハイド悪エネルギー;Energy;NoColor;;;https://pod.pokellector.com/cards/301/Hiding-Energy.S4A.186.36468.png;
+187;187;;;;Aurora Energy ;オーロラエネルギー;Energy;NoColor;;;https://pod.pokellector.com/cards/301/Aurora-Energy.S4A.187.36469.png;
+188;188;;;;Capture Energy ;キャプチャーエネルギー;Energy;NoColor;;;https://pod.pokellector.com/cards/301/Capture-Energy.S4A.188.36470.png;
+189;189;;;;Twin Energy ;ツインエネルギー;Energy;NoColor;;;https://pod.pokellector.com/cards/301/Twin-Energy.S4A.189.36471.png;
+190;190;;;;Powerful Energy ;パワフル無色エネルギー;Energy;NoColor;;;https://pod.pokellector.com/cards/301/Powerful-Energy.S4A.190.36472.png;
+191;191;;;;Cara Liss ;;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Cara-Liss.S4A.191.36502.png;
+192;192;;;;Gym Trainer ;;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Gym-Trainer.S4A.192.36503.png;
+193;193;;;;Bird Keeper ;;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Bird-Keeper.S4A.193.36504.png;
+194;194;;;;Piers ;;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Piers.S4A.194.36505.png;
+195;195;;;;Skyla ;;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Skyla.S4A.195.36506.png;
+196;196;;;;Ball Guy ;;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Ball-Guy.S4A.196.36507.png;
+197;197;;;;Poké Kid ;;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Pokeacute-Kid.S4A.197.36508.png;
+198;198;;;;Marnie ;;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Marnie.S4A.198.36509.png;
+199;199;;;;Rose ;;Trainer;NoColor;;;https://pod.pokellector.com/cards/301/Rose.S4A.199.36510.png;
+200;200;;;;Rowlet ;モクロー;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Rowlet.S4A.200.36511.png;
+201;201;;;;Dartrix ;フクスロー;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Dartrix.S4A.201.36512.png;
+202;202;;;;Decidueye ;ジュナイパー;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Decidueye.S4A.202.35863.png;
+203;203;;;;Grookey ;サルノリ;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Grookey.S4A.203.36513.png;
+204;204;;;;Thwackey ;バチンキー;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Thwackey.S4A.204.36145.png;
+205;205;;;;Rillaboom ;ゴリランダー;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Rillaboom.S4A.205.36483.png;
+206;206;;;;Blipbug ;;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Blipbug.S4A.206.36514.png;
+207;207;;;;Dottler ;;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Dottler.S4A.207.36515.png;
+208;208;;;;Orbeetle ;;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Orbeetle.S4A.208.36516.png;
+209;209;;;;Gossifleur ;;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Gossifleur.S4A.209.36517.png;
+210;210;;;;Eldegoss ;;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Eldegoss.S4A.210.36481.png;
+211;211;;;;Applin ;;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Applin.S4A.211.36518.png;
+212;212;;;;Flapple ;;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Flapple.S4A.212.36519.png;
+213;213;;;;Appletun ;;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Appletun.S4A.213.36520.png;
+214;214;;;;Scorbunny ;;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Scorbunny.S4A.214.36521.png;
+215;215;;;;Raboot ;;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Raboot.S4A.215.36522.png;
+216;216;;;;Cinderace ;;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Cinderace.S4A.216.36484.png;
+217;217;;;;Sizzlipede ;;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Sizzlipede.S4A.217.36523.png;
+218;218;;;;Centiskorch ;;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Centiskorch.S4A.218.36524.png;
+219;219;;;;Galarian Mr. Mime ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Galarian-Mr-Mime.S4A.219.36525.png;
+220;220;;;;Galarian Mr Rime ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Galarian-Mr-Rime.S4A.220.36485.png;
+221;221;;;;Suicune ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Suicune.S4A.221.36526.png;
+222;222;;;;Galarian Darumaka ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Galarian-Darumaka.S4A.222.36527.png;
+223;223;;;;Galarian Darmanitan ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Galarian-Darmanitan.S4A.223.36528.png;
+224;224;;;;Sobble ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Sobble.S4A.224.36529.png;
+225;225;;;;Drizzile ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Drizzile.S4A.225.36530.png;
+226;226;;;;Inteleon ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Inteleon.S4A.226.36486.png;
+227;227;;;;Chewtle ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Chewtle.S4A.227.36531.png;
+228;228;;;;Drednaw ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Drednaw.S4A.228.36532.png;
+229;229;;;;Cramorant ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Cramorant.S4A.229.36533.png;
+230;230;;;;Arrokuda ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Arrokuda.S4A.230.36534.png;
+231;231;;;;Barraskewda ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Barraskewda.S4A.231.36487.png;
+232;232;;;;Snom ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Snom.S4A.232.36146.png;
+233;233;;;;Frosmoth ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Frosmoth.S4A.233.36535.png;
+234;234;;;;Eiscue ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Eiscue.S4A.234.36536.png;
+235;235;;;;Dracovish ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Dracovish.S4A.235.36537.png;
+236;236;;;;Arctovish ;;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Arctovish.S4A.236.36538.png;
+237;237;;;;Rotom ;;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Rotom.S4A.237.36144.png;
+238;238;;;;Yamper ;;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Yamper.S4A.238.36539.png;
+239;239;;;;Boltund ;;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Boltund.S4A.239.36540.png;
+240;240;;;;Toxel ;;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Toxel.S4A.240.36541.png;
+241;241;;;;Toxtricity ;;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Toxtricity.S4A.241.36542.png;
+242;242;;;;Pincurchin ;;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Pincurchin.S4A.242.36543.png;
+243;243;;;;Morpeko ;;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Morpeko.S4A.243.36544.png;
+244;244;;;;Dracozolt ;;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Dracozolt.S4A.244.36545.png;
+245;245;;;;Arctozolt ;;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Arctozolt.S4A.245.36546.png;
+246;246;;;;Galarian Ponyta ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Galarian-Ponyta.S4A.246.36547.png;
+247;247;;;;Galarian Rapidash ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Galarian-Rapidash.S4A.247.36548.png;
+248;248;;;;Galarian Corsola ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Galarian-Corsola.S4A.248.36549.png;
+249;249;;;;Galarian Cursola ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Galarian-Cursola.S4A.249.36550.png;
+250;250;;;;Dedenne ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Dedenne.S4A.250.36479.png;
+251;251;;;;Sinistea ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Sinistea.S4A.251.36492.png;
+252;252;;;;Polteageist ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Polteageist.S4A.252.36493.png;
+253;253;;;;Hatenna ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Hatenna.S4A.253.36551.png;
+254;254;;;;Hattrem ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Hattrem.S4A.254.36552.png;
+255;255;;;;Hatterene ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Hatterene.S4A.255.36553.png;
+256;256;;;;Milcery ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Milcery.S4A.256.36554.png;
+257;257;;;;Alcremie ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Alcremie.S4A.257.36555.png;
+258;258;;;;Indeedee ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Indeedee.S4A.258.36556.png;
+259;259;;;;Dreepy ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Dreepy.S4A.259.36557.png;
+260;260;;;;Drakloak ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Drakloak.S4A.260.36558.png;
+261;261;;;;Dragapult ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Dragapult.S4A.261.36559.png;
+262;262;;;;Galarian Farfetch'd ;;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Galarian-Farfetchd.S4A.262.36560.png;
+263;263;;;;Galarian Sirfetch'd ;;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Galarian-Sirfetchd.S4A.263.36561.png;
+264;264;;;;Galarian Yamask ;;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Galarian-Yamask.S4A.264.36562.png;
+265;265;;;;Galarian Runerigus ;;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Galarian-Runerigus.S4A.265.36563.png;
+266;266;;;;Rolycoly ;;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Rolycoly.S4A.266.36564.png;
+267;267;;;;Carkol ;;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Carkol.S4A.267.36565.png;
+268;268;;;;Coalossal ;;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Coalossal.S4A.268.36566.png;
+269;269;;;;Silicobra ;;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Silicobra.S4A.269.36567.png;
+270;270;;;;Sandaconda ;;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Sandaconda.S4A.270.36568.png;
+271;271;;;;Clobbopus ;;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Clobbopus.S4A.271.36569.png;
+272;272;;;;Grapploct ;;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Grapploct.S4A.272.36570.png;
+273;273;;;;Falinks ;;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Falinks.S4A.273.36571.png;
+274;274;;;;Stonjourner ;;Pokemon;Fighting;;;https://pod.pokellector.com/cards/301/Stonjourner.S4A.274.36572.png;
+275;275;;;;Koffing ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Koffing.S4A.275.36143.png;
+276;276;;;;Galarian Weezing ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Galarian-Weezing.S4A.276.36573.png;
+277;277;;;;Galarian Zigzagoon ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Galarian-Zigzagoon.S4A.277.36574.png;
+278;278;;;;Galarian Linoone ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Galarian-Linoone.S4A.278.36575.png;
+279;279;;;;Galarian Obstagoon ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Galarian-Obstagoon.S4A.279.36576.png;
+280;280;;;;Nickit ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Nickit.S4A.280.36577.png;
+281;281;;;;Thievul ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Thievul.S4A.281.36578.png;
+282;282;;;;Impidimp ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Impidimp.S4A.282.36579.png;
+283;283;;;;Morgrem ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Morgrem.S4A.283.36580.png;
+284;284;;;;Grimmsnarl ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Grimmsnarl.S4A.284.36581.png;
+285;285;;;;Galarian Meowth ;;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Galarian-Meowth.S4A.285.36582.png;
+286;286;;;;Galarian Perrserker ;;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Galarian-Perrserker.S4A.286.36489.png;
+287;287;;;;Galarian Stunfisk ;;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Galarian-Stunfisk.S4A.287.36583.png;
+288;288;;;;Corviknight ;;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Corviknight.S4A.288.36584.png;
+289;289;;;;Cufant ;;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Cufant.S4A.289.36585.png;
+290;290;;;;Copperajah ;;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Copperajah.S4A.290.36586.png;
+291;291;;;;Duraludon ;;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Duraludon.S4A.291.36587.png;
+292;292;;;;Minccino ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Minccino.S4A.292.36588.png;
+293;293;;;;Cinccino ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Cinccino.S4A.293.36589.png;
+294;294;;;;Ducklett ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Ducklett.S4A.294.36590.png;
+295;295;;;;Swanna ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Swanna.S4A.295.36490.png;
+296;296;;;;Bunnelby ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Bunnelby.S4A.296.36591.png;
+297;297;;;;Oranguru ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Oranguru.S4A.297.35865.png;
+298;298;;;;Skwovet ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Skwovet.S4A.298.36592.png;
+299;299;;;;Greedent ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Greedent.S4A.299.36593.png;
+300;300;;;;Rookidee ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Rookidee.S4A.300.36594.png;
+301;301;;;;Corvisquire ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Corvisquire.S4A.301.36595.png;
+302;302;;;;Wooloo ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Wooloo.S4A.302.36596.png;
+303;303;;;;Dubwool ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Dubwool.S4A.303.36597.png;
+304;304;;;;Rillaboom V ;;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Rillaboom-V.S4A.304.36598.png;
+305;305;;;;Rillaboom VMAX ;;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Rillaboom-VMAX.S4A.305.36482.png;
+306;306;;;;Eldegoss V ;;Pokemon;Grass;;;https://pod.pokellector.com/cards/301/Eldegoss-V.S4A.306.36599.png;
+307;307;;;;Charizard V ;;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Charizard-V.S4A.307.36600.png;
+308;308;;;;Charizard VMAX ;;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Charizard-VMAX.S4A.308.35859.png;
+309;309;;;;Centiskorch V ;;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Centiskorch-V.S4A.309.36601.png;
+310;310;;;;Centiskorch VMAX ;;Pokemon;Fire;;;https://pod.pokellector.com/cards/301/Centiskorch-VMAX.S4A.310.36602.png;
+311;311;;;;Lapras V ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Lapras-V.S4A.311.36603.png;
+312;312;;;;Lapras VMAX ;;Pokemon;Water;;;https://pod.pokellector.com/cards/301/Lapras-VMAX.S4A.312.36604.png;
+313;313;;;;Boltund V ;;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Boltund-V.S4A.313.36478.png;
+314;314;;;;Toxtricity V ;;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Toxtricity-V.S4A.314.36605.png;
+315;315;;;;Toxtricity VMAX ;;Pokemon;Lightning;;;https://pod.pokellector.com/cards/301/Toxtricity-VMAX.S4A.315.36606.png;
+316;316;;;;Indeedee V ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Indeedee-V.S4A.316.36491.png;
+317;317;;;;Dragapult V ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Dragapult-V.S4A.317.36607.png;
+318;318;;;;Dragapult VMAX ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Dragapult-VMAX.S4A.318.36608.png;
+319;319;;;;Falinks V ;;Pokemon;Psychic;;;https://pod.pokellector.com/cards/301/Falinks-V.S4A.319.36609.png;
+320;320;;;;Crobat VMAX ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Crobat-VMAX.S4A.320.36610.png;
+321;321;;;;Grimmsnarl V ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Grimmsnarl-V.S4A.321.36611.png;
+322;322;;;;Grimmsnarl VMAX ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Grimmsnarl-VMAX.S4A.322.36612.png;
+323;323;;;;Ditto V ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Ditto-V.S4A.323.36613.png;
+324;324;;;;Ditto VMAX ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Ditto-VMAX.S4A.324.36614.png;
+325;325;;;;Dubwool V ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Dubwool-V.S4A.325.36615.png;
+326;326;;;;Cramorant V ;;Pokemon;Colorless;;;https://pod.pokellector.com/cards/301/Cramorant-V.S4A.326.36616.png;
+327;327;;Gold;;Eternatus V ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Eternatus-V.S4A.327.36617.png;
+328;328;;Gold;;Eternatus VMAX ;;Pokemon;Darkness;;;https://pod.pokellector.com/cards/301/Eternatus-VMAX.S4A.328.36618.png;
+329;329;;Gold;;Zacian V ;;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Zacian-V.S4A.329.36619.png;
+330;330;;Gold;;Zamazenta V ;;Pokemon;Metal;;;https://pod.pokellector.com/cards/301/Zamazenta-V.S4A.330.36620.png;

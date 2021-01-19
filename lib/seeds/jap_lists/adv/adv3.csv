@@ -1,0 +1,55 @@
+rank;number;rarety_type;ultra_type;fr_name;en_name;jap_name;super_type;energy;pokedex_number;artist;jap_url;list
+1;1;Common;;Tadmorv;Grimer;ベトベター;Pokémon;Grass;88;Yuka Morii;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471610.jpg;ex3
+2;2;Ultra;ex;Grotadmorv ex;Muk ex;ベトベトンex;Pokémon;Grass;89;Hikaru Koike;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471658.jpg;ex3
+3;3;Common;;Chenipotte;Wurmple;ケムッソ;Pokémon;Grass;265;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471611.jpg;ex3
+4;4;Common;;Ningale;Nincada;ツチニン;Pokémon;Grass;290;Hajime Kusajima;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471612.jpg;ex3
+5;5;Rare;;Ninjask;Ninjask;テッカニン;Pokémon;Grass;291;Hajime Kusajima;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471613.jpg;ex3
+6;6;Rare Holo;;Munja;Shedinja;ヌケニン;Pokémon;Grass;292;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471614.jpg;ex3
+7;7;Rare Holo;;Roselia;Roselia;ロゼリア;Pokémon;Grass;315;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471615.jpg;ex3
+8;8;Common;;Limagma;Slugma;マグマッグ;Pokémon;Fire;218;Kyoko Umemoto;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471616.jpg;ex3
+9;9;Ultra;ex;Volcaropod ex;Magcargo ex;マグカルゴex;Pokémon;Fire;219;Hikaru Koike;https://d1rw89lz12ur5s.cloudfront.net/photo/collectorscache/file/cd5ae6b0d74511e5b7d7936e35b61882/9.jpg;ex3
+10;10;Rare Holo;;Chartor;Torkoal;コータス;Pokémon;Fire;324;Kagemaru Himeno;https://d1rw89lz12ur5s.cloudfront.net/photo/collectorscache/file/07ced200d74811e5b7d7936e35b61882/10.jpg;ex3
+11;11;Uncommon;;Hypotrempe;Horsea;タッツー;Pokémon;Water;116;Hajime Kusajima;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471617.jpg;ex3
+12;12;Rare;;Hypocéan;Seadra;シードラ;Pokémon;Water;117;Hajime Kusajima;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471618.jpg;ex3
+13;13;Common;;Magicarpe;Magikarp;コイキング;Pokémon;Water;129;Kouki Saitou;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471619.jpg;ex3
+14;14;Rare;;Léviator;Gyarados;ギャラドス;Pokémon;Water;130;Kouki Saitou;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471620.jpg;ex3
+15;15;Ultra;ex;Hyporoi ex;Kingdra ex;キングドラex;Pokémon;Water;230;Hikaru Koike;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1171062.jpg;ex3
+16;16;Common;;Barloche;Barboach;ドジョッチ;Pokémon;Water;339;Tomokazu Komiya;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471621.jpg;ex3
+17;17;Rare;;Barbicha;Whiscash;ナマズン;Pokémon;Water;340;Tomokazu;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471622.jpg;ex3
+18;18;Common;;Ecrapince;Corphish;ヘイガニ;Pokémon;Water;341;Hisao Nakamura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471623.jpg;ex3
+19;19;Rare Holo;;Colhomard;Crawdaunt;シザリガー;Pokémon;Water;342;Hisao Nakamura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471624.jpg;ex3
+20;20;Uncommon;;Stalgamin;Snorunt;ユキワラシ;Pokémon;Water;361;Sumiyoshi Kizuki;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471625.jpg;ex3
+21;21;Common;;Magneti;Magnemite;コイル;Pokémon;Lightning;81;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471626.jpg;ex3
+22;22;Rare;;Magneton;Magneton;レアコイル;Pokémon;Lightning;82;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471627.jpg;ex3
+23;23;Common;;Wattouat;Mareep;メリープ;Pokémon;Lightning;179;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471628.jpg;ex3
+24;24;Rare;;Lainergie;Flaaffy;モココ;Pokémon;Lightning;180;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471629.jpg;ex3
+25;25;Ultra;ex;Pharamp ex;Ampharos ex;デンリュウex;Pokémon;Lightning;181;Ryo Ueda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471630.jpg;ex3
+26;26;Rare Holo;;Posipi;Plusle;プラスル;Pokémon;Lightning;311;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471631.jpg;ex3
+27;27;Rare Holo;;Negapi;Minun;マイナン;Pokémon;Lightning;312;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471632.jpg;ex3
+28;28;Rare;;Girafarig;Girafarig;キリンリキ;Pokémon;Psychic;203;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471678.jpg;ex3
+29;29;Common;;Spoink;Spoink;バネブー;Pokémon;Psychic;325;Miki Tanaka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471633.jpg;ex3
+30;30;Rare Holo;;Groret;Grumpig;ブーピッグ;Pokémon;Psychic;326;Midori Harada;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471634.jpg;ex3
+31;31;Uncommon;;Polichombr;Shuppet;カゲボウズ;Pokémon;Psychic;353;Aya Kusube;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471635.jpg;ex3
+32;32;Common;;Racaillou;Geodude;イシツブテ;Pokémon;Fighting;74;Hisao Nakamura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471636.jpg;ex3
+33;33;Rare;;Gravalanch;Graveler;ゴローン;Pokémon;Fighting;75;Hisao Nakamura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471637.jpg;ex3
+34;34;Rare Holo;;Grolem;Golem;ゴローニャ;Pokémon;Fighting;76;Hisao Nakamura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471638.jpg;ex3
+35;35;Uncommon;;Meditikka;Meditite;アサナン;Pokémon;Fighting;307;Kouki Saitou;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471639.jpg;ex3
+36;36;Uncommon;;Minidraco;Dratini;ミニリュウ;Pokémon;Colorless;147;Aya Kusube;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471640.jpg;ex3
+37;37;Rare;;Draco;Dragonair;ハクリュー;Pokémon;Colorless;148;Aya Kusube;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471641.jpg;ex3
+38;38;Ultra;ex;Dracolosse ex;Dragonite ex;カイリューex;Pokémon;Colorless;149;Ryo Ueda;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471642.jpg;ex3
+39;39;Common;;Nirondelle;Taillow;スバメ;Pokémon;Colorless;276;Kyoko Umemoto;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471643.jpg;ex3
+40;40;Rare;;Vibraninf;Vibrava;ビブラーバ;Pokémon;Colorless;329;Kagemaru Himeno;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471644.jpg;ex3
+41;41;Rare Holo;;Libégon;Flygon;フライゴン;Pokémon;Colorless;330;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471645.jpg;ex3
+42;42;Common;;Tylton;Swablu;チルット;Pokémon;Colorless;333;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471646.jpg;ex3
+43;43;Rare Holo;;Altaria;Altaria;チルタリス;Pokémon;Colorless;334;Atsuko Nishida;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471647.jpg;ex3
+44;44;Uncommon;;Draby;Bagon;タツベイ;Pokémon;Colorless;371;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471648.jpg;ex3
+45;45;Rare;;Drakhaus;Shelgon;コモルー;Pokémon;Colorless;372;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471649.jpg;ex3
+46;46;Rare Holo;;Drattak;Salamence;ボーマンダ;Pokémon;Colorless;373;Mitsuhiro Arita;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471650.jpg;ex3
+47;47;Ultra;ex;Rayquaza ex;Rayquaza ex;レックウザex;Pokémon;Colorless;384;Hikaru Koike;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471696.jpg;ex3
+48;48;Rare Holo;;Absol;Absol;アブソル;Pokémon;Darkness;359;Naoyo Kimura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471651.jpg;ex3
+49;49;Rare;;Airmure;Skarmory;エアームド;Pokémon;Metal;227;Hisao Nakamura;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471652.jpg;ex3
+50;50;Uncommon;;Recyclage d'énergie;Energy Recycle System;エネルギー循環装置;Trainer;NoColor;;Zu-Ka;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471698.jpg;ex3
+51;51;Uncommon;;Journaliste télé;TV Reporter;TVレポーター;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471653.jpg;ex3
+52;52;Uncommon;;La Compassion de M.Briney;Mr. Briney's Compassion;ハギ老人の思いやり;Trainer;NoColor;;Ken Sugimori;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471654.jpg;ex3
+53;53;Uncommon;;Baie Ballon;Balloon Berry;ふうせんのみ;Trainer;NoColor;;Keiji Kinebuchi;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471655.jpg;ex3
+54;54;Uncommon;;Pare-chocs;Buffer Piece;まもりのかけら;Trainer;NoColor;;Katsura Tabata;https://52f4e29a8321344e30ae-0f55c9129972ac85d6b1f4e703468e6b.ssl.cf2.rackcdn.com/products/pictures/1471656.jpg;ex3

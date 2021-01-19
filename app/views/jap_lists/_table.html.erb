@@ -1,0 +1,40 @@
+<% @jap_blocs.each do |bloc| %>
+  <div class="bloc-header"><%= bloc.en_name %></div>
+  <div class="lists_table-box">
+    <table class="lists_table">
+      <!-- <thead>
+          <tr>
+            <th>Nom anglais</th>
+            <th>Nom japonais</th>
+            <th>Logo</th>
+            <th>Size</th>
+            <th>Symbol</th>
+            <th>Date de sortie</th>
+          </tr>
+      </thead> -->
+      <tbody>
+        <% bloc.lists.where(promo: false).order(rank: :desc).each do |list| %>
+          <%#= link_to list_path(list), :method => :get do %>
+            <tr>
+              <% code_list = list.code %>
+              <td><%= image_tag(("ref_cards/jap_lists/logos/#{code_list}.png"), class: "logo-list-mini") %></td>
+              <% unless @no_symbol_jap_lists.include?(code_list) %>
+                <td><%= image_tag(("ref_cards/jap_lists/symbols/#{code_list}.png"), class: "symbol-list-mini") %></td>
+              <% else %>
+                <td> </td>
+              <% end  %>
+              <td>
+              <%= link_to list_path(list), :method => :get do %>
+                <%= list.en_name %>
+              <% end %>
+              </td>
+              <td><%= list.jap_name %></td>
+              <td><%= "/#{list.size}" %></td>
+              <td><%= list.jap_release %></td>
+            </tr>
+          <%# end %>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+<% end %>
