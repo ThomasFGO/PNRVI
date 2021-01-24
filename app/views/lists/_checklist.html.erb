@@ -1,12 +1,9 @@
-<div class="visuals-container">
+<div class="checklist-container">
   <% @ref_cards.order("id asc").each do |ref_card| %>
-    <div class="card-element", id="<%= ref_card.id %>" >
-      <%#= link_to ref_card_path(ref_card) do %>
-        <%#= ref_card.name %>
-        <div>
-          <%= image_tag((@ref_card_url+"/#{ref_card.rank}.jpg"), class: "mini") %>
-        </div>
-      <%# end %>
+    <div id="<%= ref_card.id %>" >
+      <%= link_to ref_card_path(ref_card) do %>
+        <%= ref_card.en_name %>
+      <% end %>
     </div>
   <% end  %>
 </div>

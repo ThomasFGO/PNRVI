@@ -15,8 +15,45 @@ table {
 thead {
   border-bottom: 4px solid $yellow;
 }
-td {
+tr {
   height: 70px;
-  text-align: left;
+  //text-align: left;
   border-bottom: 2px solid $yellow;
+}
+tr:last-child {
+  border-bottom: none
+}
+
+// td {
+//   text-align: right;
+//   border-right: 2px solid black;
+//   border-left: 2px solid black;
+// }
+@media all and (min-width: 500px) {
+  #logo {
+    width: 20%;
+    text-align: center;
+  }
+  #symbol {
+    width: 8%;
+    text-align: center;
+  }
+  #en_name {
+    width: 20%;
+    font-size: 80%;
+    text-align: left;
+  }
+  #jap_name {
+    width: 30%;
+    font-size: 80%;
+    text-align: left;
+  }
+  #size {
+    width: 7%;
+    text-align: center;
+  }
+  #release_date {
+    width: 15%;
+    text-align: right;
+  }
 }
