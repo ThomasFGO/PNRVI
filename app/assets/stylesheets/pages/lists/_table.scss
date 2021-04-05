@@ -7,20 +7,17 @@
   padding-left: 10px;
   box-shadow: 2px 2px 5px black;
 }
-table {
+//table {
   //border: 2px solid red;
   //margin-left : 30px;
-}
+//}
 
-thead {
-  border-bottom: 4px solid $yellow;
-}
-tr {
+tr.lists_table {
   height: 70px;
   //text-align: left;
   border-bottom: 2px solid $yellow;
 }
-tr:last-child {
+tr.lists_table:last-child {
   border-bottom: none
 }
 
