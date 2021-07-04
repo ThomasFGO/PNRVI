@@ -49,6 +49,8 @@ require 'csv'
 RefCard.jap.destroy_all
 List.jap.destroy_all
 
+#Création des séries japonaises
+
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
@@ -70,7 +72,7 @@ csv.each do |row|
 end
 puts "#{List.jap.count} séries japonaises mises à jour"
 
-#Création/Mise à jour des cartes des séries japonaises
+#Création des cartes japonaises
 
 jap_blocs = {
   base:["base1", "base2", "base3", "base4"],
