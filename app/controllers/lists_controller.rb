@@ -1,14 +1,23 @@
 class ListsController < ApplicationController
 
-  AVAILABLE_BLOCS =
+  AVAILABLE_OCCI_BLOCS =
     ["Base", "Gym", "Neo", "E-Card", "Ex", "DP", "Platinum", "HGSS", "BW", "XY", "SM", "SS"]
 
-  def index
-    @occi_blocs = Bloc.occi.where(cl_name: AVAILABLE_BLOCS).includes(:lists).order(rank: :desc)
+  AVAILABLE_JAP_BLOCS =
+    ["Base", "Gym", "Neo", "E-Card"]
+    #{}"ADV", "PCG", "DP", "Platinum", "HGSS", "BW", "XY", "SM", "SS"
+
+  def occi_index
+    @occi_blocs = Bloc.occi.where(cl_name: AVAILABLE_OCCI_BLOCS).includes(:lists).order(rank: :desc)
+  end
+
+  def jap_index
+    @no_symbol_jap_lists = ["base1"]
+    @jap_blocs = Bloc.jap.where(cl_name: AVAILABLE_JAP_BLOCS).order(rank: :desc).includes(:lists)
   end
 
   def show
-    @no_symbol_jap_lists = ["base1", "ecardweb", "ecardvs"]
+    @no_symbol_jap_lists = ["base1"]
     @list = List.find(params[:id])
     @ref_cards = @list.ref_cards
     @code_list = @list.code

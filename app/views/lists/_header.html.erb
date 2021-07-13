@@ -10,12 +10,12 @@
       </div>
     <% else %>
       <div class="logo">
-        <%= image_tag ("ref_cards/jap_lists/logos/#{@code_list}"),
+        <%= image_tag ("ref_cards/jap_lists/logos/#{@code_list}.png"),
         class: "logo-list-standard" %>
       </div>
       <% unless @no_symbol_jap_lists.include?(@code_list) %>
         <div class="symbol">
-          <%= image_tag ("ref_cards/jap_lists/symbols/#{@code_list}"), class: "symbol-list-mini" %>
+          <%= image_tag ("ref_cards/jap_lists/symbols/#{@code_list}.png"), class: "symbol-list-mini" %>
         </div>
       <% end %>
     <% end %>
