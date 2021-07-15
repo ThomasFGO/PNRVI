@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_15_164146) do
+ActiveRecord::Schema.define(version: 2021_07_15_140017) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -86,8 +86,6 @@ ActiveRecord::Schema.define(version: 2020_06_15_164146) do
   create_table "lists", force: :cascade do |t|
     t.string "fr_name"
     t.string "en_name"
-    t.string "fr_release"
-    t.string "us_release"
     t.string "size"
     t.string "fr_logo_url"
     t.string "us_logo_url"
@@ -98,8 +96,10 @@ ActiveRecord::Schema.define(version: 2020_06_15_164146) do
     t.string "code"
     t.boolean "promo"
     t.string "jap_name"
-    t.string "jap_release"
     t.integer "rank"
+    t.datetime "fr_release"
+    t.datetime "us_release"
+    t.datetime "jap_release"
     t.index ["bloc_id"], name: "index_lists_on_bloc_id"
   end
 
