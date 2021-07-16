@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_15_140017) do
+ActiveRecord::Schema.define(version: 2021_07_15_162115) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -87,9 +87,6 @@ ActiveRecord::Schema.define(version: 2021_07_15_140017) do
     t.string "fr_name"
     t.string "en_name"
     t.string "size"
-    t.string "fr_logo_url"
-    t.string "us_logo_url"
-    t.string "symbol_url"
     t.bigint "bloc_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
