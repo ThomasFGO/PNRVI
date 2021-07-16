@@ -62,7 +62,7 @@ csv.each do |row|
     l.bloc = Bloc.find_by(en_name: row['bloc'], jap: true)
     l.rank = row['rank']
     l.size = row['size']
-    l.jap_release = Dateime.new(row['year'],row['month'],row['day'])
+    l.jap_release = Datetime.new(row['year'],row['month'],row['day'])
     l.code = row['code']
     l.en_name = row['en_name']
     l.jap_name = row['jap_name']
