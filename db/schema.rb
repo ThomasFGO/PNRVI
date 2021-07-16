@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_15_162115) do
+ActiveRecord::Schema.define(version: 2021_07_16_084138) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -91,12 +91,12 @@ ActiveRecord::Schema.define(version: 2021_07_15_162115) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "code"
-    t.boolean "promo"
     t.string "jap_name"
     t.integer "rank"
     t.datetime "fr_release"
     t.datetime "us_release"
     t.datetime "jap_release"
+    t.string "kind"
     t.index ["bloc_id"], name: "index_lists_on_bloc_id"
   end
 
