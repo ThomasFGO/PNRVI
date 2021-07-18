@@ -3,7 +3,7 @@
   <div class="lists_table-box">
     <table>
       <!-- <tbody> -->
-        <% bloc.lists.where(promo: false).order(rank: :desc).each do |list| %>
+        <% bloc.lists.where(kind: "classic").order(rank: :desc).each do |list| %>
           <tr class="lists_table">
             <% code_list = list.code %>
             <td id="logo"><%= image_tag(("ref_cards/jap_lists/logos/#{code_list}.png"), class: "logo-list-mini") %></td>
