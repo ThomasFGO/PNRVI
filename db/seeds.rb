@@ -46,7 +46,13 @@ csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_blocs.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
   b = Bloc.find_by(jap: true, rank: row['rank'])
+  if b.nil?
+    b = Bloc.new
+  end
+  b.rank = row['rank']
+  b.en_name = row['en_name']
   b.cl_name = row['cl_name']
+  b.jap = row['jap']
   b.save
 end
 
