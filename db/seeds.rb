@@ -2,15 +2,7 @@ require 'csv'
 
 
 
-# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_blocs.csv'))
-# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-# csv.each do |row|
-#   b = Bloc.find_by(jap: true, rank: row['rank'])
-#   b.cl_name = row['cl_name']
-#   b.save
-# end
 
-# puts "#{Bloc.jap.count} jap blocs saved"
 
 # csv_text = File.read(Rails.root.join('lib', 'seeds', 'blocs.csv'))
 # csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
@@ -48,13 +40,24 @@ require 'csv'
 
 RefCard.jap.destroy_all
 List.jap.destroy_all
+Bloc.jap.destroy_all
+
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_blocs.csv'))
+csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+csv.each do |row|
+  b = Bloc.find_by(jap: true, rank: row['rank'])
+  b.cl_name = row['cl_name']
+  b.save
+end
+
+# puts "#{Bloc.jap.count} jap blocs saved"
 
 #Création des séries japonaises
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
 csv.each do |row|
-  if row['kind'] == "classic"
+  #if row['kind'] == "classic"
     l = List.jap.find_by(code: row['code'])
     if l.nil?
       l = List.new
@@ -68,7 +71,7 @@ csv.each do |row|
     l.jap_name = row['jap_name']
     l.kind = row['kind']
     l.save
-  end
+  #end
 end
 puts "#{List.jap.count} séries japonaises mises à jour"
 
