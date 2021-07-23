@@ -83,11 +83,11 @@ puts "#{List.jap.count} séries japonaises mises à jour"
 
 #Création des cartes japonaises
 
-# jap_blocs = {
-#   base:["base1", "base2", "base3", "base4"],
-#   gym:["gym1", "gym2"],
-#   neo:["neo1", "neo2", "neo3", "neo4"],
-#   ecard:["ecard1", "ecard2", "ecard3", "ecard4", "ecard5", "ecardvs", "ecardweb"],
+jap_blocs = {
+  origin:["base1", "base2", "base3", "base4", "gym1", "gym2"],
+  neo:["neo1", "neo2", "neo3", "neo4"],
+  ecard:["ecard1", "ecard2", "ecard3", "ecard4", "ecard5", "ecardvs", "ecardweb"]
+  }
 #   adv:["adv1", "adv2", "adv3", "adv4", "adv5"],
 #   pcg:["pcg1", "pcg2", "pcg3", "pcg4", "pcg5", "pcg6", "pcg7", "pcg8", "pcg9", "pcg10"],
 #   dp:["dp1d", "dp1p", "dp2", "dp3", "dp4a", "dp4b", "dp5a", "dp5b", "dp6"],
@@ -105,34 +105,34 @@ puts "#{List.jap.count} séries japonaises mises à jour"
 #   ss:[ "s1a", "s1h", "s1w", "s2", "s2a", "s3", "s3a", "s4", "s4a"]
 # }
 
-# jap_blocs.each do |bloc, lists|
-#   lists.each do |list|
-#     csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', "#{bloc}", list + '.csv'))
-#     csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-#     list_id = List.jap.find_by(code: list)
-#     csv.each do |row|
-#       rf = RefCard.find_by(list_id: list_id, rank: row['rank'])
-#       if rf.nil?
-#         rf = RefCard.new
-#       end
-#       rf.list = List.jap.find_by(code: list)
-#       rf.rank = row['rank']
-#       rf.number = row['number']
-#       rf.rarety_type = row['rarety_type']
-#       rf.ultra_type = row['ultra_type']
-#       rf.fr_name = row['fr_name']
-#       rf.en_name = row['en_name']
-#       rf.jap_name = row['jap_name']
-#       rf.super_type = row['super_type']
-#       rf.energy = row['energy']
-#       rf.pokedex_number = row['pokedex_number']
-#       rf.artist = row['artist']
-#       rf.save
-#     end
-#     puts "japlist #{list} ok"
-#   end
-#   puts "#{bloc} ok"
-# end
+jap_blocs.each do |bloc, lists|
+  lists.each do |list|
+    csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists', "#{bloc}", list + '.csv'))
+    csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+    list_id = List.jap.find_by(code: list)
+    csv.each do |row|
+      rf = RefCard.find_by(list_id: list_id, rank: row['rank'])
+      if rf.nil?
+        rf = RefCard.new
+      end
+      rf.list = List.jap.find_by(code: list)
+      rf.rank = row['rank']
+      rf.number = row['number']
+      rf.rarety_type = row['rarety_type']
+      rf.ultra_type = row['ultra_type']
+      rf.fr_name = row['fr_name']
+      rf.en_name = row['en_name']
+      rf.jap_name = row['jap_name']
+      rf.super_type = row['super_type']
+      rf.energy = row['energy']
+      rf.pokedex_number = row['pokedex_number']
+      rf.artist = row['artist']
+      rf.save
+    end
+    puts "japlist #{list} ok"
+  end
+  puts "#{bloc} ok"
+end
 
 # occi_blocs = {
 #   ex:[ "ex1", "ex2", "ex3", "ex4", "ex5", "ex6", "ex7", "ex8",
