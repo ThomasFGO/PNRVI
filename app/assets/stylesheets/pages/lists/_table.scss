@@ -32,7 +32,11 @@ tr.lists_table:last-child {
     text-align: center;
   }
   #symbol {
-    width: 8%;
+    width: 5%;
+    text-align: center;
+  }
+  #size {
+    width: 10%;
     text-align: center;
   }
   #en_name {
@@ -45,12 +49,9 @@ tr.lists_table:last-child {
     font-size: 80%;
     text-align: left;
   }
-  #size {
-    width: 7%;
-    text-align: center;
-  }
   #release_date {
     width: 15%;
+    padding-right: 20px;
     text-align: right;
   }
 }

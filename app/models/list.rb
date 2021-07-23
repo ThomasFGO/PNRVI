@@ -8,6 +8,16 @@ class List < ApplicationRecord
   scope :occi, ->{ joins(:bloc).merge(Bloc.occi) }
   scope :ranked_desc, -> { order(rank: :desc) }
 
+  def french_date_format(release_date)
+    months =
+      {"avril"=>"04", "septembre"=>"09", "juin"=>"06",
+       "mars"=>"03", "février"=>"02", "janvier"=>"01",
+       "novembre"=>"11", "août"=>"08", "octobre"=>"10",
+       "juillet"=>"07", "décembre"=>"12", "mai"=>"05"}
+    month = months.key(release_date.strftime("%m").to_s)
+    release_date.strftime("Sortie le %d #{month} %Y")
+  end
+
   def secrets_count
     ref_cards.where(rarety_type: "Secret").count
   end
