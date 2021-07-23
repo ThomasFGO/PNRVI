@@ -38,9 +38,9 @@ require 'csv'
 # end
 # puts "#{List.occi.count} séries occidentales mises à jour"
 
-RefCard.jap.destroy_all
-List.jap.destroy_all
-Bloc.jap.destroy_all
+RefCard.destroy_all
+List.destroy_all
+Bloc.destroy_all
 
 csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_blocs.csv'))
 csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
