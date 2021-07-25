@@ -6,22 +6,22 @@
         <% bloc.lists.order(rank: :desc).each do |list| %>
           <tr class="lists_table">
             <% code_list = list.code %>
-            <td id="logo"><%= image_tag(("ref_cards/jap_lists/logos/#{code_list}.png"), class: "logo-list-mini") %></td>
+            <td id="lists-logo"><%= image_tag(("ref_cards/jap_lists/logos/#{code_list}.png"), class: "logo-list-mini") %></td>
             <% unless @no_symbol_jap_lists.include?(code_list) %>
-              <td id="symbol">
+              <td id="lists-symbol">
                 <%= image_tag(("ref_cards/jap_lists/symbols/#{code_list}.png"), class: "symbol-list-mini") %>
                 </td>
             <% else %>
-              <td id="symbol"> </td>
+              <td id="lists-symbol"> </td>
             <% end  %>
-            <td id="size"><%= "/#{list.size}" %></td>
-            <td id="en_name">
+            <td id="lists-size"><%= "/#{list.size}" %></td>
+            <td id="lists-en_name">
               <%= link_to list_path(list), :method => :get do %>
                 <%= list.en_name %>
               <% end %>
             </td>
             <!-- <td id="jap_name"><%= list.jap_name %></td> -->
-            <td id="release_date">
+            <td id="lists-release_date">
               <%= list.french_date_format(list.jap_release)%>
             </td>
           </tr>

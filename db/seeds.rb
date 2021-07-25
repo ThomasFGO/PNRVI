@@ -39,47 +39,47 @@ require 'csv'
 # puts "#{List.occi.count} séries occidentales mises à jour"
 
 RefCard.destroy_all
-List.destroy_all
-Bloc.destroy_all
+# List.destroy_all
+# Bloc.destroy_all
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_blocs.csv'))
-csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-csv.each do |row|
-  b = Bloc.find_by(jap: true, rank: row['rank'])
-  if b.nil?
-    b = Bloc.new
-  end
-  b.rank = row['rank']
-  b.en_name = row['en_name']
-  b.cl_name = row['cl_name']
-  b.jap = row['jap']
-  b.save
-end
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_blocs.csv'))
+# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+# csv.each do |row|
+#   b = Bloc.find_by(jap: true, rank: row['rank'])
+#   if b.nil?
+#     b = Bloc.new
+#   end
+#   b.rank = row['rank']
+#   b.en_name = row['en_name']
+#   b.cl_name = row['cl_name']
+#   b.jap = row['jap']
+#   b.save
+# end
 
 # puts "#{Bloc.jap.count} jap blocs saved"
 
 #Création des séries japonaises
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists.csv'))
-csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
-csv.each do |row|
-  #if row['kind'] == "classic"
-    l = List.jap.find_by(code: row['code'])
-    if l.nil?
-      l = List.new
-    end
-    l.bloc = Bloc.find_by(en_name: row['bloc'], jap: true)
-    l.rank = row['rank']
-    l.size = row['size']
-    l.jap_release = DateTime.new(row['year'].to_i,row['month'].to_i,row['day'].to_i)
-    l.code = row['code']
-    l.en_name = row['en_name']
-    l.jap_name = row['jap_name']
-    l.kind = row['kind']
-    l.save
-  #end
-end
-puts "#{List.jap.count} séries japonaises mises à jour"
+# csv_text = File.read(Rails.root.join('lib', 'seeds', 'jap_lists.csv'))
+# csv = CSV.parse(csv_text, col_sep: ';', headers: :first_row, :encoding => 'ISO-8859-1')
+# csv.each do |row|
+#   #if row['kind'] == "classic"
+#     l = List.jap.find_by(code: row['code'])
+#     if l.nil?
+#       l = List.new
+#     end
+#     l.bloc = Bloc.find_by(en_name: row['bloc'], jap: true)
+#     l.rank = row['rank']
+#     l.size = row['size']
+#     l.jap_release = DateTime.new(row['year'].to_i,row['month'].to_i,row['day'].to_i)
+#     l.code = row['code']
+#     l.en_name = row['en_name']
+#     l.jap_name = row['jap_name']
+#     l.kind = row['kind']
+#     l.save
+#   #end
+# end
+# puts "#{List.jap.count} séries japonaises mises à jour"
 
 #Création des cartes japonaises
 
@@ -117,7 +117,9 @@ jap_blocs.each do |bloc, lists|
       end
       rf.list = List.jap.find_by(code: list)
       rf.rank = row['rank']
-      rf.number = row['number']
+      unless row['number'].nil?
+        rf.number = row['number'][1..-1]+row['size']
+      end
       rf.rarety_type = row['rarety_type']
       rf.ultra_type = row['ultra_type']
       rf.fr_name = row['fr_name']
@@ -128,6 +130,9 @@ jap_blocs.each do |bloc, lists|
       rf.pokedex_number = row['pokedex_number']
       rf.artist = row['artist']
       rf.save
+      unless rf.save
+        puts "#{rf.rank} is not saved"
+      end
     end
     puts "japlist #{list} ok"
   end

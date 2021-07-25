@@ -1,9 +1,42 @@
-<div class="checklist-container">
-  <% @ref_cards.order("id asc").each do |ref_card| %>
-    <div id="<%= ref_card.id %>" >
-      <%#= link_to ref_card_path(ref_card) do %>
-        <%= ref_card.en_name %>
-      <%# end %>
-    </div>
-  <% end  %>
+<div class="list_table-box">
+  <table>
+    <% @ref_cards.order("id asc").each do |ref_card| %>
+      <tr class="list_table">
+        <td id="list-number">
+          <%= ref_card.number %>
+        </td>
+        <td id="list-visual">
+          <%= image_tag((@ref_card_url+"/#{ref_card.rank}.jpg"), class: "micro") %>
+        </td>
+        <td id="list-rarety" >
+          <% if ref_card.rarety_type %>
+          <%= image_tag("rarety_types/#{ref_card.rarety_icon}.png", height: "15") %>
+          <% else %>
+            <%= "-" %>
+          <% end %>
+        </td>
+        <td id="list-type">
+          <%= image_tag("energy/#{ref_card.energy_icon}.png", height: "20") %>
+        </td>
+        <td id="list-names">
+          <div id="list-fr_name" >
+            <%#= link_to ref_card_path(ref_card) do %>
+              <%= ref_card.fr_name %>
+            <%# end %>
+          </div>
+          <div id="list-en_name" >
+            <%= ref_card.en_name %>
+          </div>
+          <div id="list-jap_name" >
+            <%= ref_card.jap_name %>
+          </div>
+          <div id="list-artist">
+            <%= "Illustrée par #{ref_card.artist}" %>
+          </div>
+        </td>
+      </tr>
+    <% end  %>
+  <table>
 </div>
+
+

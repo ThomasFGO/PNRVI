@@ -1,6 +1,9 @@
 class RefCard < ApplicationRecord
   belongs_to :list
   has_many :cards, dependent: :destroy
+  validates :super_type, inclusion: { in: %w(Pokémon Trainer Energy)}
+  validates :energy, inclusion: { in: %w(Grass Fire Lightning Fighting
+    Metal Darkness Water Fairy Psychic Colorless Dragon NoColor)}
   scope :jap, ->{ joins(:list).merge(List.jap) }
   scope :occi, ->{ joins(:list).merge(List.occi) }
   scope :pokemon, ->{ where(super_type: "Pokémon") }

@@ -7,3 +7,57 @@
   padding-left: 10px;
   box-shadow: 2px 2px 5px black;
 }
+
+tr.list_table {
+  height: 150px;
+  //text-align: left;
+  border-bottom: 2px solid $yellow;
+}
+tr.list_table:last-child {
+  border-bottom: none
+}
+
+@media all and (min-width: 500px) {
+  #list-number {
+    //border: 5px solid black;
+    width: 5%;
+  }
+  #list-visual {
+    //border: 5px solid black;
+    width: 10%;
+  }
+  #list-rarety {
+    //border: 5px solid black;
+    width: 5%;
+  }
+  #list-type {
+    //border: 5px solid black;
+    width: 5%;
+  }
+  #list-names {
+    //border: 5px solid black;
+    text-align: left;
+    width: 75%;
+    padding-left: 15px;
+  }
+  #list-fr_name {
+    font-size: 25px;
+    color: $yellow;
+    font-weight: bold;
+  }
+  #list-en_name {
+    //width: 15%;
+    //height: 50px;
+    font-size: 15px;
+    text-align: left;
+  }
+  #list-jap_name {
+    //width: 15%;
+    //height: 50px;
+    font-size: 15px;
+    //text-align: left;
+  }
+  #list-artist {
+    padding-top: 25px;
+  }
+}
