@@ -13,7 +13,7 @@ class ListsController < ApplicationController
 
   def jap_index
     @no_symbol_jap_lists = ["base1"]
-    @jap_blocs = Bloc.jap.where(cl_name: AVAILABLE_JAP_BLOCS).order(rank: :desc).includes(:lists)
+    @jap_blocs = Bloc.jap.where(cl_name: AVAILABLE_JAP_BLOCS).includes(:lists).order(rank: :desc)
   end
 
   def show
