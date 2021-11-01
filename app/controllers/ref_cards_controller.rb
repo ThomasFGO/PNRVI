@@ -16,6 +16,13 @@ class RefCardsController < ApplicationController
   end
   def show
     @ref_card = RefCard.find(params[:id])
+    @code_list = @ref_card.list.code
+    @ref_card_url =
+      if @ref_card.jap?
+        "ref_cards/jap_lists/visuals/#{@ref_card.list.bloc.cl_name}/#{@code_list}"
+      else
+        "ref_cards/lists/visuals/#{@ref_card.list.bloc.cl_name}/#{@code_list}"
+      end
   end
 
   private

@@ -24,7 +24,7 @@ Rails.application.routes.draw do
       #resources :selected_items, only: [ :create ]
     #end
   #end
-  #resources :ref_cards, only: [ :index ]
+  resources :ref_cards, only: [ :show ]
   #resources :lists, only: [ :jap_index ]
   #get '/series_occidentales' => 'lists#occi_index'
   get '/series_japonaises' => 'lists#jap_index'

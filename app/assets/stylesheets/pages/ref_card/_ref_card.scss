@@ -1,0 +1,28 @@
+.ref_card-box {
+  margin-top: 10px;
+  border: 6px solid $yellow;
+  background-color: #00A6FB;
+  border-radius: 6px;
+  padding: 10px;
+  //padding-right: 10px;
+  //padding-left: 10px;
+  box-shadow: 2px 2px 5px black;
+  display: flex;
+  //justify-content: center;
+}
+
+.ref_card-visual {
+  width: 20%;
+  //border: 2px solid black;
+}
+
+.ref_card-infos {
+  width: 50%;
+  //border: 2px solid black;
+  padding-left: 10px;
+}
+
+.ref_card-sellers {
+  width: 30%;
+  //border: 2px solid black;
+}

@@ -1,44 +1,30 @@
 <div class="container">
-  <div class="col-md-offset-2 col-md-8">
-    <div class="ref_card-content">
-
-      <div class="ref_card-visual">
-        <% if @ref_card.jap? %>
-          <%= cl_image_tag ("jap_lists/visuals/#{@ref_card.list.bloc.cl_name}/#{@ref_card.list.code}/#{@ref_card.rank}"), class: "standard" %>
-        <% else %>
-          <%= cl_image_tag ("lists/visuals/#{@ref_card.list.bloc.cl_name}/#{@ref_card.list.code}/#{@ref_card.rank}"), class: "standard" %>
-        <% end %>
+  <div class="ref_card-box">
+    <div class="ref_card-visual">
+      <%= image_tag((@ref_card_url+"/#{@ref_card.rank}.jpg"), class: "standard") %>
+    </div>
+    <div class="ref_card-infos">
+      <div class="ref_card-fr_name">
+        <%= @ref_card.fr_name %>
       </div>
-
-      <div class="ref_card-body">
-        <div class="ref_card-infos">
-          <h4><%= @ref_card.right_name %></h4>
-
-          <% if @ref_card.number.present? %>
-            <p>Numéro : <%= @ref_card.number %></p>
-          <% else %>
-            <p>Carte non numérotée</p>
-          <% end %>
-          <% if @ref_card.rarety_type.present? %>
-            <p>Rareté : <%= @ref_card.rarety_label %></p>
-          <% end %>
-
-          <% if @ref_card.artist.present? %>
-            <p>Illustrée par <%= @ref_card.artist %></p>
-          <% end %>
-        </div>
-        <div class="ref_card-buttons">
-          <% if current_user %>
-            <%= link_to "Vendre", new_ref_card_card_path(@ref_card, type: "Shop_item"), :class => "btn btn-classic btn-sm border-yellow"%>
-            <%= link_to "Rechercher", new_ref_card_card_path(@ref_card, type: "Search_item"), :class => "btn btn-classic btn-sm border-yellow"%>
-          <% else  %>
-            <p>Vous devez vous inscrire </br>
-               pour ajouter cette carte </br>
-               dans votre magasin ou vos recherches...
-            </p>
-          <% end %>
-        </div>
+      <div id="ref_card-en_name" >
+        <%= @ref_card.en_name %>
       </div>
+      <div id="ref_card-jap_name" >
+        <%= @ref_card.jap_name %>
+      </div>
+      <div id="ref_card-number">
+        <%= @ref_card.number %>
+      </div>
+      <div id="ref_card-list_en_name">
+        <%= @ref_card.list.en_name %>
+      </div>
+      <div id="ref_card-artist">
+        <%= "Illustrée par #{@ref_card.artist}" %>
+      </div>
+    </div>
+    <div class="ref_card-sellers">
+      <%= "Vendue par :" %>
     </div>
   </div>
 </div>

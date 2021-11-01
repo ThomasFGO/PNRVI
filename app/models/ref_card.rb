@@ -115,6 +115,24 @@ class RefCard < ApplicationRecord
     end
   end
 
+  def energyy_labels
+    if super_type == "Pokémon"
+      {
+        "Grass" => ["Plante", "grass"],
+        "Fire" => ["Feu", "fire"],
+        "Water" => ["Eau", "water"],
+        "Lightning" => ["Électrique", "lightning"],
+        "Psychic" => ["Psy", "psychic"],
+        "Fighting" => ["Combat", "fighting"],
+        "Darkness" => ["Psy", "psychic"],
+        "Dragon" => ["Combat", "fighting"],
+        "Metal" => ["Métal", "metal"],
+        "Fairy" => ["Fée", "fairy"],
+        "Colorless" => ["Normal", "colorless"]
+      }
+    end
+  end
+
   EDITION_1_BLOCS = ["Base", "Gym", "Neo"]
 
   def version_available_label
