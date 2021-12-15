@@ -38,7 +38,7 @@ require 'csv'
 # end
 # puts "#{List.occi.count} séries occidentales mises à jour"
 
-RefCard.destroy_all
+# RefCard.destroy_all
 # List.destroy_all
 # Bloc.destroy_all
 
@@ -86,9 +86,8 @@ RefCard.destroy_all
 jap_blocs = {
   origin:["base1", "base2", "base3", "base4", "gym1", "gym2"],
   neo:["neo1", "neo2", "neo3", "neo4"],
-  ecard:["ecard1", "ecard2", "ecard3", "ecard4", "ecard5", "ecardvs", "ecardweb"]
-  }
-#   adv:["adv1", "adv2", "adv3", "adv4", "adv5"],
+  ecard:["ecard1", "ecard2", "ecard3", "ecard4", "ecard5", "ecardvs", "ecardweb"],
+  adv:["adv1", "adv2", "adv3", "adv4", "adv5"] }
 #   pcg:["pcg1", "pcg2", "pcg3", "pcg4", "pcg5", "pcg6", "pcg7", "pcg8", "pcg9", "pcg10"],
 #   dp:["dp1d", "dp1p", "dp2", "dp3", "dp4a", "dp4b", "dp5a", "dp5b", "dp6"],
 #   dpt:["pt1", "pt2", "pt3", "pt4"],

@@ -4,8 +4,8 @@ class ListsController < ApplicationController
     ["Base", "Gym", "Neo", "E-Card", "Ex", "DP", "Platinum", "HGSS", "BW", "XY", "SM", "SS"]
 
   AVAILABLE_JAP_BLOCS =
-    ["Original", "Neo", "E-Card"]
-    #["Base", , "Neo", "E-Card", "ADV", "PCG", "DP", "Platinum", "HGSS", "BW", "XY", "SM", "SS"]
+    ["Original", "Neo", "E-Card", "ADV"]
+    #["Original", "Neo", "E-Card", "ADV", "PCG", "DP", "Platinum", "HGSS", "BW", "XY", "SM", "SS"]
 
   def occi_index
     @occi_blocs = Bloc.occi.where(cl_name: AVAILABLE_OCCI_BLOCS).includes(:lists).order(rank: :desc)
