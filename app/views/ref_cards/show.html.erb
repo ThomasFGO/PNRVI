@@ -1,7 +1,7 @@
 <div class="container">
   <div class="ref_card-box">
     <div class="ref_card-visual">
-      <%= image_tag((@ref_card_url+"/#{@ref_card.rank}.jpg"), class: "standard") %>
+      <%= image_tag(@ref_card.best_url, class: "standard") %>
     </div>
     <div class="ref_card-infos">
       <div class="ref_card-fr_name">
@@ -10,14 +10,11 @@
       <div id="ref_card-en_name" >
         <%= @ref_card.en_name %>
       </div>
-      <div id="ref_card-jap_name" >
-        <%= @ref_card.jap_name %>
-      </div>
       <div id="ref_card-number">
         <%= @ref_card.number %>
       </div>
       <div id="ref_card-list_en_name">
-        <%= @ref_card.list.en_name %>
+        <%= @ref_card.list.fr_name %>
       </div>
       <div id="ref_card-artist">
         <%= "Illustrée par #{@ref_card.artist}" %>

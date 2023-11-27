@@ -94,7 +94,7 @@
       <% @ref_cards.each do |ref_card| %>
         <div class="card-element", id="<%= ref_card.id %>" >
           <%= link_to ref_card_path(ref_card) do %>
-            <%= cl_image_tag ("lists/visuals/#{ref_card.list.bloc.cl_name}/#{ref_card.list.code}/#{ref_card.rank}.jpg"), class: "mini" %>
+            <%= image_tag (ref_card.best_url), class: "mini" %>
           <% end %>
         </div>
       <% end %>

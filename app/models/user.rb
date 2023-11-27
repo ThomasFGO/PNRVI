@@ -11,6 +11,7 @@ class User < ApplicationRecord
   has_many :selected_items
   has_many :conversations
   has_many :messages
+  scope :all_except, ->(user) { where.not(id: user) }
 
   def default_buyer(current_user)
     User.find(buyers(current_user).first)

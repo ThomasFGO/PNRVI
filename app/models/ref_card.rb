@@ -133,6 +133,14 @@ class RefCard < ApplicationRecord
     end
   end
 
+  def best_url
+    if list.rank > 59
+      fr_url
+    else
+      "ref_cards/lists/visuals/#{@list.bloc.cl_name}/#{@code_list}"
+    end
+  end
+
   EDITION_1_BLOCS = ["Base", "Gym", "Neo"]
 
   def version_available_label

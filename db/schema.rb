@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_07_16_084138) do
+ActiveRecord::Schema.define(version: 2023_09_27_095020) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -97,6 +97,9 @@ ActiveRecord::Schema.define(version: 2021_07_16_084138) do
     t.datetime "us_release"
     t.datetime "jap_release"
     t.string "kind"
+    t.string "fr_url"
+    t.string "en_url"
+    t.string "symbol_url"
     t.index ["bloc_id"], name: "index_lists_on_bloc_id"
   end
 

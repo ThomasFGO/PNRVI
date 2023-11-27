@@ -6,7 +6,7 @@
           <%= ref_card.number %>
         </td>
         <td id="list-visual">
-          <%= image_tag((@ref_card_url+"/#{ref_card.rank}.jpg"), class: "micro") %>
+          <%= image_tag(ref_card.best_url, loading: "lazy",class: "micro") %>
         </td>
         <td id="list-rarety" >
           <% if ref_card.rarety_type %>
@@ -31,7 +31,7 @@
             <%= ref_card.jap_name %>
           </div>
           <div id="list-artist">
-            <%= "Illustrée par #{ref_card.artist}" %>
+            <%= ref_card.artist %>
           </div>
         </td>
       </tr>
