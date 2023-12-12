@@ -13,7 +13,7 @@
       </div>
       <div class="new_shop_card-body">
         <div class="new_shop_card-visual">
-          <%= cl_image_tag ("lists/visuals/#{@ref_card.list.bloc.cl_name}/#{@ref_card.list.code}/#{@ref_card.rank}.jpg"), class: "standard" %>
+          <%= image_tag(@ref_card.best_url, loading: "lazy",class: "standard") %>
         </div>
 
         <div class="new_shop_card-form">

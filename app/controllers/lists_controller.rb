@@ -1,6 +1,6 @@
 class ListsController < ApplicationController
 
-  AVAILABLE_BLOCS = [14]
+  AVAILABLE_BLOCS = [4..15]
   def index
     @blocs = Bloc.occi.where(rank: AVAILABLE_BLOCS).includes(:lists).order(rank: :desc)
   end

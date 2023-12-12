@@ -33,6 +33,11 @@
           <div id="list-artist">
             <%= ref_card.artist %>
           </div>
+          <div>
+            <%= link_to new_ref_card_card_path(ref_card, :type => "Shop_item") do %>
+              <div>Vendre cette carte</div>
+            <% end %>
+          </div>
         </td>
       </tr>
     <% end  %>

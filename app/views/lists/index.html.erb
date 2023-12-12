@@ -1,22 +1,17 @@
-<div class="container">
-  <div class="lists-container">
-    <div class="blocs-container">
-      <% @blocs.each do |bloc| %>
-        <div class="bloc-container">
-          <div class="bloc-header"><%= bloc.fr_name %></div>
-          <div class="bloc-lists">
-            <% bloc.lists.order('rank DESC').each do |list| %>
-              <div class="list-card">
-                <%= link_to list_path(list) do %>
-                  <%= list.name %>
-                  <%= image_tag list.fr_url, class: "logo-list-mini" %>
-                  <%= image_tag list.symbol_url,class: "symbol-list-mini" %>
-                <% end  %>
-              </div>
-            <% end %>
+<div class="container blocs">
+  <% @blocs.each do |bloc| %>
+    <div class="bloc">
+      <div class="bloc_header"><%= bloc.fr_name %></div>
+      <div class="bloc_lists">
+        <% bloc.lists.order('rank DESC').each do |list| %>
+          <div class="bloc_list">
+            <%= link_to list_path(list) do %>
+              <%= image_tag list.fr_url, class: "logo-list-mini" %>
+              <%= image_tag list.symbol_url,class: "symbol-list-mini" %>
+            <% end  %>
           </div>
-        </div>
-      <% end %>
+        <% end %>
+      </div>
     </div>
-  </div>
+  <% end %>
 </div>

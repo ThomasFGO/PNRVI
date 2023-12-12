@@ -1,22 +1,12 @@
 <div class="container">
   <div class="shop_card-content">
     <div class="shop_card-visual">
-      <%= cl_image_tag @card.item.ph_one, :gravity=>"auto", :crop=>"fill",
-      :transformation=>[
-
-      {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@item.user.first_name} #{@item.user.last_name}"},
-      :gravity=>"south", :y=>100}
-      ], class: "standard-photo"%>
+      <%= cl_image_tag @card.item.ph_one, class: "standard-photo"%>
     </div>
 
     <% if @card.item.ph_two.present? %>
       <div class="shop_card-visual">
-        <%= cl_image_tag @card.item.ph_two, :gravity=>"auto", :crop=>"fill",
-        :transformation=>[
-
-        {:overlay=>{:font_family=>"Arial", :font_size=>50, :text=>"#{@item.user.first_name} #{@item.user.last_name}"},
-        :gravity=>"south", :y=>100}
-        ], class: "standard-photo"%>
+        <%= cl_image_tag @card.item.ph_two, class: "standard-photo"%>
       </div>
     <% else %>
       <div class="shop_card-visual">
@@ -27,7 +17,7 @@
     <div class="shop_card-body">
 
       <div class="shop_card-infos">
-        <h4><%= @card.ref_card.right_name %></h4>
+        <h4><%= @card.ref_card.fr_name %></h4>
         <p><%= @card.ref_card.list.fr_name %></p>
 
 

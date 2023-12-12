@@ -1,35 +1,118 @@
-.sort-form {
+// .sort-form {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   .first-part {
+//   }
+//   .input-content {
+//     display: flex;
+//     align-items: center;
+//     justify-content: flex-end;
+//     margin-bottom: 5px;
+//     .form-label {
+//       color: $yellow;
+//     }
+//     .form-input {
+//       margin: 0px 10px;
+//     }
+//     .form-select {
+//       font-size: 15px;
+//     }
+//   }
+// }
+
+// .shop_cards-header {
+//   color: $yellow;
+//   justify-content: center;
+//   align-items: baseline;
+//   margin-bottom: 10px;
+//   .more_cards {
+//     margin-left: 10px;
+//   }
+// }
+
+.shop-container {
+  //border: 2px solid white;
   display: flex;
   justify-content: center;
-  align-items: center;
-  .first-part {
-  }
-  .input-content {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-bottom: 5px;
-    .form-label {
-      color: $yellow;
-    }
-    .form-input {
-      margin: 0px 10px;
-    }
-    .form-select {
-      font-size: 15px;
-    }
-  }
+}
+
+.shop_cards {
+  width: 70%;
+  //border: 2px solid red;
 }
 
 .shop_cards-header {
+  font-size: 20px;
+  font-weight: bold;
   color: $yellow;
-  justify-content: center;
-  align-items: baseline;
-  margin-bottom: 10px;
-  .more_cards {
-    margin-left: 10px;
+  text-align: center;
+  //border: 3px solid green;
+}
+
+.shop_cards-body {
+
+}
+
+.shop_cards-card {
+  //width: 80%;
+  display: flex;
+  border: 6px solid $yellow;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px 5px;
+  //background-color: #00A6FB;
+  background-color: white;
+  &:hover {
+    border: 6px solid white;
   }
 }
+
+.shop_cards-photo {
+  //border: 3px solid $yellow;
+  width: 160px;
+  height: 221px;
+
+}
+
+.shop_cards-infos {
+ margin-left: 20px;
+ //border: 1px solid black;
+}
+
+.shop_cards-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: $blue;
+  //border: 1px solid black;
+}
+
+.shop_cards-list {
+  font-size: 15px;
+  font-style: italic;
+  color: $blue;
+  //border: 1px solid black;
+}
+
+.shop_cards-price {
+  width: fit-content;
+  padding-right: 2px;
+  padding-left: 2px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  color: $yellow;
+  background-color: $blue;
+  //border: 1px solid black;
+}
+
+.shop_cards-created_at {
+  font-size: 10px;
+  margin-top: 70px;
+  font-weight: bold;
+  //border: 1px solid black;
+}
+
 
 @media all and (max-width: 500px) {
   .shop_cards-header {
@@ -68,10 +151,12 @@
     font-size: 80%;
     text-align: left;
   }
-  #price-sh {
-    width: 12%;
-    font-size: 70%;
-  }
+  // .shop_cards-price {
+  //   //width: 12%;
+  //   font-size: 70%;
+  //   color: $yellow;
+  //   border: 1px solid black;
+  //}
   #language-sh {
     width: 8%;
     font-size: 70%;

@@ -37,4 +37,21 @@ class Item < ApplicationRecord
     end
   end
 
+  def online_date
+    fr_days = ["Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi"]
+    year = created_at.strftime("%Y").to_i
+    month = created_at.strftime("%m").to_i
+    day = created_at.strftime("%d").to_i
+    age_in_days = (Date.today - Date.new(year, month, day)).to_i
+    if age_in_days > 7
+      "Il y a #{age_in_days} jours (#{created_at.strftime("%d/%m/%Y")})"
+    elsif age_in_days > 1
+      "#{fr_days[created_at.strftime("%w").to_i]} dernier à #{created_at.strftime("%k:%M")}"
+    elsif age_in_days == 1
+      "Hier à #{created_at.strftime("%k:%M")}"
+    else
+      "Mise en ligne aujourd'hui à #{created_at.strftime("%k:%M")}"
+    end
+  end
+
 end
