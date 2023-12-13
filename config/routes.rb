@@ -3,19 +3,19 @@ Rails.application.routes.draw do
 
   #get 'jap_lists/index'
   devise_for :users
-  #root to: 'users/1/shop'
-  root to: "lists#index"
+  root to: "cards#index"
+  #root to: "lists#index"
   resources :feeds, only: [ :index ]
   resources :users, only: [ :index, :show ] do
     member do
       get 'shop'
       #resources :search_cards, only: [ :index ]
-        resources :sellers do
-          member do
-            get 'panier'
-            get 'conversation'
-          end
-        end
+        #resources :sellers do
+          #member do
+            #get 'panier'
+            #get 'conversation'
+          #end
+        #end
       #resources :buyers do
         #member do
           #get 'demande'
@@ -27,8 +27,8 @@ Rails.application.routes.draw do
   end
   resources :ref_cards, only: [ :show ]
   #resources :lists, only: [ :jap_index ]
-  #get '/series_occidentales' => 'lists#occi_index'
-  get '/series_japonaises' => 'lists#jap_index'
+  get '/series' => 'lists#index'
+  #get '/series_japonaises' => 'lists#jap_index'
   resources :lists, only: [ :show ]
   resources :ref_cards, only: [ :index, :show ] do
     resources :cards, only: [ :new, :create, :delete ]

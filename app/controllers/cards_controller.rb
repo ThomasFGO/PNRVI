@@ -2,41 +2,41 @@ class CardsController < ApplicationController
   before_action :authenticate_user!, except: [:show, :index]
 
   def index
-    search_cards = Card.joins(:item, :ref_card).search.where(items: {user: current_user})
-    search_cards_infos = search_cards.pluck("ref_cards.id, items.value, version, language, condition")
-    @match_cards =
-      Card.shop
-        .joins(:item)
-        .where.not("items.user": current_user)
-        .joins(:ref_card)
-        .select do |shop_card|
-          search_cards_infos.find do |infos|
-            infos[0] == shop_card.ref_card_id &&
-            infos[1] >= shop_card.item.value &&
-            infos[2] == shop_card.version &&
-            infos[3] == shop_card.item.language &&
-            infos[4].to_i <= shop_card.item.condition.to_i
-        end
-      end
-    @match_cards_ids = @match_cards.pluck(:id)
+    # search_cards = Card.joins(:item, :ref_card).search.where(items: {user: current_user})
+    # search_cards_infos = search_cards.pluck("ref_cards.id, items.value, version, language, condition")
+    # @match_cards =
+    #   Card.shop
+    #     .joins(:item)
+    #     .where.not("items.user": current_user)
+    #     .joins(:ref_card)
+    #     .select do |shop_card|
+    #       search_cards_infos.find do |infos|
+    #         infos[0] == shop_card.ref_card_id &&
+    #         infos[1] >= shop_card.item.value &&
+    #         infos[2] == shop_card.version &&
+    #         infos[3] == shop_card.item.language &&
+    #         infos[4].to_i <= shop_card.item.condition.to_i
+    #     end
+    #   end
+    # @match_cards_ids = @match_cards.pluck(:id)
 
-    shop_cards =
-      if params[:match].present?
-        Card.where(id: @match_cards_ids)
-      else
-        Card.joins(:item).shop.where.not(items: {user: current_user})
-      end
+    # shop_cards =
+    #   if params[:match].present?
+    #     Card.where(id: @match_cards_ids)
+    #   else
+    #     Card.joins(:item).shop.where.not(items: {user: current_user})
+    #   end
 
-    @shop_cards = shop_cards.recent
+    # @shop_cards = shop_cards.recent
 
-    scopes_params(params).each do |key, value|
-      @shop_cards = shop_cards.public_send(value) if value.present?
-    end
+    # scopes_params(params).each do |key, value|
+    #   @shop_cards = shop_cards.public_send(value) if value.present?
+    # end
 
-    filters_params(params).each do |key, value|
-      @shop_cards = @shop_cards.public_send("filter_by_#{key}", value) if value.present?
-    end
-
+    # filters_params(params).each do |key, value|
+    #   @shop_cards = @shop_cards.public_send("filter_by_#{key}", value) if value.present?
+    # end
+    @shop_cards = Card.joins(:item).where(items: {type: 'Shop_item'}).includes(:item)
     @shop_cards_count = @shop_cards.count
     @pagy, @shop_cards = pagy(@shop_cards, size: [1,0,0,1])
   end

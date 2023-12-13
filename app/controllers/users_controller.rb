@@ -10,12 +10,10 @@ class UsersController < ApplicationController
 
   def shop
     @user = User.find(params[:id])
-    shop_cards = Card.joins(:item).where(items: {type: 'Shop_item', user: @user}).includes(:item)
-
-    @shop_cards = shop_cards
+    @shop_cards = Card.joins(:item).where(items: {type: 'Shop_item', user: @user}).includes(:item)
 
     @lists_available =
-      shop_cards.group_by { |shop_card| shop_card.ref_card.list }.to_a.map do |list, shop_cards|
+      @shop_cards.group_by { |shop_card| shop_card.ref_card.list }.to_a.map do |list, shop_cards|
         ["#{list.fr_name} (#{shop_cards.count})", list.fr_name, list.rank]
       end
       .sort! {|x,y| y[2] <=> x[2]}

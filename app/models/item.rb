@@ -17,15 +17,15 @@ class Item < ApplicationRecord
 
   def condition_name
     if condition == "1"
-      "Mauvais"
+      "Mauvais état"
     elsif condition == "2"
-      "Moyen"
+      "État moyen"
     elsif condition == "3"
-      "Bon"
+      "Bon état"
     elsif condition == "4"
-      "Très Bon"
+      "Très bon état"
     elsif condition == "5"
-      "Neuf"
+      "État neuf"
     end
   end
 

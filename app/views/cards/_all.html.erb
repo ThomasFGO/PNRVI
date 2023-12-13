@@ -24,6 +24,9 @@
             <div class="shop_cards-condition">
               <%= "#{shop_card.item.condition_name}" %>
             </div>
+            <div class="shop_cards-seller">
+              <%= "#{shop_card.item.user.first_name}" %>
+            </div>
             <div class="shop_cards-created_at">
               <%= shop_card.item.online_date %>
             </div>

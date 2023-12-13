@@ -31,15 +31,10 @@
 //   }
 // }
 
-.shop-container {
+.shop_cards-container {
   //border: 2px solid white;
   display: flex;
   justify-content: center;
-}
-
-.shop_cards {
-  width: 70%;
-  //border: 2px solid red;
 }
 
 .shop_cards-header {
@@ -51,16 +46,21 @@
 }
 
 .shop_cards-body {
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  //border: solid 2px red;
 }
 
 .shop_cards-card {
-  //width: 80%;
+  width: 450px;
+  height: 233px;
   display: flex;
   border: 6px solid $yellow;
   border-radius: 6px;
   box-shadow: 2px 2px 5px black;
-  margin: 10px 5px;
+  margin: 10px 10px;
   //background-color: #00A6FB;
   background-color: white;
   &:hover {
@@ -69,15 +69,16 @@
 }
 
 .shop_cards-photo {
-  //border: 3px solid $yellow;
   width: 160px;
   height: 221px;
-
 }
 
 .shop_cards-infos {
- margin-left: 20px;
- //border: 1px solid black;
+  width: 290px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+  //border: 2px solid red;
+  position: relative;
 }
 
 .shop_cards-name {
@@ -106,10 +107,29 @@
   //border: 1px solid black;
 }
 
+.shop_cards-condition {
+  width: fit-content;
+  padding-right: 2px;
+  padding-left: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  color: $blue;
+  //border: 1px solid black;
+}
+
+.shop_cards-seller {
+  height: 20px;
+  width: 40px;
+  margin-top: 30px;
+  //border: 2px solid green;
+}
+
 .shop_cards-created_at {
   font-size: 10px;
-  margin-top: 70px;
+  position: absolute;
+  bottom: 0;
   font-weight: bold;
+  font-style: italic;
   //border: 1px solid black;
 }
 
